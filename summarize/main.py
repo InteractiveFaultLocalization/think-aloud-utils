@@ -5,8 +5,8 @@ import seaborn as sns
 
 import pandas
 from matplotlib.figure import Figure
-from mpl_toolkits.axisartist import HostAxes
-from mpl_toolkits.axisartist.parasite_axes import ParasiteAxes
+
+import networkx as nx
 
 MACRO_TEX_PATH = r'C:\data\interactive-fl\emse\thinkmacros.tex'
 NOTE_PATH = r'C:\data\think-aloud-toolkit\summarize\think-aloud videók kategórizálás és szempontok.txt'
@@ -104,6 +104,41 @@ def generate_category_by_rareness_figure():
     fig.savefig('category_by_rareness.pdf', bbox_inches='tight')
 
 
+def node_id(category_record, section):
+    return f'{category_record["short category name"]} ({section})'
+    # return f'{category_record["short category name"]}'
+
+
+def _connect_to_from(from_categorization, to_categorization, from_section, to_section):
+    for from_index, from_category in from_categorization.iterrows():
+        for to_index, to_category in to_categorization.iterrows():
+            if from_category['vsz id'] == to_category['vsz id']:
+                from_node = node_id(from_category, from_section)
+                to_node = node_id(to_category, to_section)
+                from_rank = from_category['category rank']
+                to_rank = to_category['category rank']
+                if from_rank < to_rank:
+                    change = 'greater'
+                elif to_rank < from_rank:
+                    change = 'less'
+                else:
+                    change = 'equal'
+                graph.add_edge(
+                    from_node, to_node,
+                    developer=from_category['vsz id'], cause=to_section,
+                    from_rank=from_rank, to_rank=to_rank, change=change,
+                    const='const'
+                )
+
+
+def _create_nodes(section, _macros):
+    for index, category in _macros.iterrows():
+        graph.add_node(
+            node_id(category, section),
+            label=f'{category["aspect name"]} / {category["short category name"]}\n({section})',
+            category=category['short category name'], aspect=category['aspect name'], const='const')
+
+
 if __name__ == '__main__':
     print("loading categories...", end='')
     macros = load_category_macros()
@@ -120,6 +155,56 @@ if __name__ == '__main__':
                 raise ValueError("missing or corrupted data")
     print("done")
 
+    print("generating category by rareness...", end='')
     generate_category_by_rareness_figure()
+    print("done")
+
+    for aspect in macros['aspect name'].unique():
+        print(f"generating category arches for {aspect}...", end='')
+        category_is_aspect = categorization['aspect name'] == aspect
+        macros_is_aspect = macros['aspect name'] == aspect
+        aspect_macros = macros[macros_is_aspect]
+
+        graph = nx.DiGraph()
+
+        graph.add_node(
+            'from_legend',
+            label=f'Aspect / Category\n(Section)'
+        )
+        graph.add_node(
+            'less_legend',
+            label=f'Aspect / Category\n(Section)'
+        )
+        graph.add_node(
+            'equal_legend',
+            label=f'Aspect / Category\n(Section)'
+        )
+        graph.add_node(
+            'greater_legend',
+            label=f'Aspect / Category\n(Section)'
+        )
+        graph.add_edge(
+            'from_legend', 'less_node',
+            legend=f'color = subject'
+        )
+
+        _create_nodes('routine', aspect_macros)
+        _create_nodes('feature', aspect_macros)
+        _create_nodes('use-case', aspect_macros)
+
+        is_routine_and_aspect = (categorization['section name'] == 'routine') & category_is_aspect
+        is_feature_and_aspect = (categorization['section name'] == 'feature') & category_is_aspect
+        is_use_case_and_aspect = (categorization['section name'] == 'use-case') & category_is_aspect
+        _connect_to_from(
+            categorization[is_routine_and_aspect], categorization[is_feature_and_aspect],
+            'routine', 'feature')
+        _connect_to_from(
+            categorization[is_feature_and_aspect], categorization[is_use_case_and_aspect],
+            'feature', 'use-case')
+
+        graph.remove_nodes_from(list(nx.isolates(graph)))
+
+        nx.write_graphml(graph, f'arcs_in_{aspect}.graphml')
+        print("done")
 
     print()
