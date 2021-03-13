@@ -1,0 +1,32 @@
+,aspect name,aspect command,short category name,short category command,long category name,long category command,legacy category name
+0,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Drill Up from the Problem to the Bug
+1,Debugging strategies,\dbgstrat,DiffGood,\dbgstratDiffGood,Find the Difference between a Known Good System and a Failing One,\dbgstratDiffGoodL,Find the Difference between a Known Good System and a Failing One
+2,Debugging strategies,\dbgstrat,AddDbg,\dbgstratAddDbg,Add Debugging Functionality,\dbgstratAddDbgL,Add Debugging Functionality
+3,Debugging strategies,\dbgstrat,AddLog,\dbgstratAddLog,Add Logging Statements,\dbgstratAddLogL,Add Logging Statements
+4,Debugging strategies,\dbgstrat,MinDiff,\dbgstratMinDiff,Minimize the Differences between a Working Example and the Failing Code,\dbgstratMinDiffL,Minimize the Differences between a Working Example and the Failing Code
+5,Debugging strategies,\dbgstrat,Refact,\dbgstratRefact,Refactoring during debugging,\dbgstratRefactL,Refactoring during debugging
+6,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,manual debugging
+7,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,interactive debugging
+8,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,inaccessible processes
+9,Diverging from routine debugging workflow,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,ready to assimilate new tools and informations
+10,Diverging from routine debugging workflow,\diverg,Cons,\divergCons,Conservative,\divergConsL,conservative
+11,Diverging from routine debugging workflow,\diverg,Conf,\divergConf,Conformist,\divergConfL,conformist
+12,Sources provided by the development environment,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,static source code
+13,Sources provided by the development environment,\srcide,Struc,\srcideStruc,Static Structure,\srcideStrucL,static structure
+14,Sources provided by the development environment,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,traces
+15,Sources provided by the development environment,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,test coverage
+16,Sources provided by the development environment,\srcide,Test,\srcideTest,Rest Results,\srcideTestL,test results
+17,Sources provided by the development environment,\srcide,Order,\srcideOrder,Ordered Lists,\srcideOrderL,ranks
+18,Sources provided by the development environment,\srcide,Conf,\srcideSets,Settings and Configuration of the IDE or Tools,\srcideSetsL,settings and configuration of the IDE or tools
+19,External sources,\srcext,Pers,\srcextPers,Personal Connection,\srcextPersL,personal connection
+20,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,community
+21,External sources,\srcext,Offic,\srcextOff,Official Sources,\srcextOffL,official
+22,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,experiment
+23,Information topic,\inftop,CommKnow,\inftopComm,Common Knowledge about Software Engineering,\inftopCommL,common knowledge about software engineering
+24,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,special knowledge required for the task
+25,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,information about the related source code
+26,Usage of new information,\infuse,Ign,\infuseIgn,Ignoring,\infuseIgnL,ignored
+27,Usage of new information,\infuse,Usels,\infuseUsels,Consider Useless,\infuseUselsL,consider useless
+28,Usage of new information,\infuse,Furth,\infuseFurth,Need Further Information or Feature,\infuseFurthL,need further information or feature
+29,Usage of new information,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,integrated usage
+30,Usage of new information,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,a priori usage
