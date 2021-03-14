@@ -112,17 +112,22 @@ def node_id(category_record, section):
 edge_id = 0
 
 
-def _connect_to_from(from_categorization, to_categorization, from_section, to_section, graph, display_ranks=True):
+def _connect_to_from(from_categorization, to_categorization,
+                     from_section, to_section,
+                     graph, display_ranks=True, aspect_flow=True):
     global edge_id
     for from_index, from_category in from_categorization.iterrows():
         for to_index, to_category in to_categorization.iterrows():
             from_vsz_id = from_category['vsz id']
             to_vsz_id = to_category['vsz id']
-            if from_vsz_id == to_vsz_id:
+            is_vsz_id_same = from_vsz_id == to_vsz_id
+            from_rank = from_category['category rank']
+            to_rank = to_category['category rank']
+            is_category_rank_same = from_rank == to_rank
+            same_rank = to_rank if is_category_rank_same else 'no'
+            if is_vsz_id_same if aspect_flow else (is_vsz_id_same and is_category_rank_same):
                 from_node = node_id(from_category, from_section)
                 to_node = node_id(to_category, to_section)
-                from_rank = from_category['category rank']
-                to_rank = to_category['category rank']
                 if display_ranks:
                     graph.add_node(
                         from_node + to_node, key=edge_id,
@@ -135,14 +140,14 @@ def _connect_to_from(from_categorization, to_categorization, from_section, to_se
                     graph.add_edge(
                         from_node, from_node + to_node, key=edge_id,
                         developer=from_vsz_id, cause=to_section,
-                        from_rank=from_rank, to_rank=to_rank,
+                        from_rank=from_rank, to_rank=to_rank, same_rank=same_rank,
                         style='before'
                     )
                     edge_id += 1
                 graph.add_edge(
                     (from_node + to_node) if display_ranks else from_node, to_node, key=edge_id,
                     developer=from_vsz_id, cause=to_section,
-                    from_rank=from_rank, to_rank=to_rank,
+                    from_rank=from_rank, to_rank=to_rank, same_rank=same_rank,
                     style='after'
                 )
                 edge_id += 1
@@ -156,7 +161,7 @@ def _create_nodes(section, _macros, graph):
             category=category['short category name'], aspect=category['aspect name'], style='category')
 
 
-def _generate_arch_graph(display_ranks):
+def _generate_arch_graph(display_ranks, aspect_flow):
     category_is_aspect = categorization['aspect name'] == aspect
     macros_is_aspect = macros['aspect name'] == aspect
     aspect_macros = macros[macros_is_aspect]
@@ -169,12 +174,16 @@ def _generate_arch_graph(display_ranks):
     is_use_case_and_aspect = (categorization['section name'] == 'use-case') & category_is_aspect
     _connect_to_from(
         categorization[is_routine_and_aspect], categorization[is_feature_and_aspect],
-        'routine', 'feature', graph, display_ranks=display_ranks)
+        'routine', 'feature', graph, display_ranks=display_ranks, aspect_flow=aspect_flow)
     _connect_to_from(
         categorization[is_feature_and_aspect], categorization[is_use_case_and_aspect],
-        'feature', 'use-case', graph, display_ranks=display_ranks)
+        'feature', 'use-case', graph, display_ranks=display_ranks, aspect_flow=aspect_flow)
     graph.remove_nodes_from(list(nx.isolates(graph)))
-    nx.write_graphml(graph, f'arcs_in_{aspect}_{"withranks" if display_ranks else "noranks"}.graphml')
+    nx.write_graphml(
+        graph,
+        f'arcs_in_{aspect}'
+        f'_{"with-ranks" if display_ranks else "no-ranks"}'
+        f'_{"aspect-flow" if aspect_flow else "category-flow"}.graphml')
 
 
 if __name__ == '__main__':
@@ -199,8 +208,9 @@ if __name__ == '__main__':
 
     for aspect in macros['aspect name'].unique():
         print(f"generating category arches for {aspect}...", end='')
-        _generate_arch_graph(True)
-        _generate_arch_graph(False)
+        for display_ranks in (True, False):
+            for aspect_flow in (True, False):
+                _generate_arch_graph(display_ranks=display_ranks, aspect_flow=aspect_flow)
         print("done")
 
     print()
