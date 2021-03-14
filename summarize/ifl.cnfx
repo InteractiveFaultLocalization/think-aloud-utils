@@ -75,6 +75,20 @@
       </conversion>
     </mapping>
     <mapping>
+      <source name="description" origin="dataProperty" type="string"/>
+      <target name="labelBackgroundColor" type="color">
+        <hints>
+          <hint type="int">0</hint>
+        </hints>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value/>
+          <result>#ffffff</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
       <source name="label" origin="customProperty" type="string"/>
       <target name="labelText" type="string">
         <hints>
@@ -92,10 +106,6 @@
       <conversion type="discrete">
         <discrete>
           <value>category</value>
-          <result>#ffffff</result>
-        </discrete>
-        <discrete>
-          <value>rank</value>
           <result>#ffffff</result>
         </discrete>
       </conversion>
@@ -154,24 +164,6 @@
           <value>category</value>
           <result>60.0</result>
         </discrete>
-        <discrete>
-          <value>rank</value>
-          <result>8.0</result>
-        </discrete>
-      </conversion>
-    </mapping>
-    <mapping>
-      <source name="style" origin="customProperty" type="string"/>
-      <target name="labelFontSize" type="int">
-        <hints>
-          <hint type="int">0</hint>
-        </hints>
-      </target>
-      <conversion type="discrete">
-        <discrete>
-          <value>rank</value>
-          <result>8</result>
-        </discrete>
       </conversion>
     </mapping>
     <mapping>
@@ -219,69 +211,7 @@
       </conversion>
     </mapping>
     <mapping>
-      <source name="change" origin="customProperty" type="string"/>
-      <target name="lineLineType" type="lineType">
-        <hints/>
-      </target>
-      <conversion type="discrete">
-        <discrete>
-          <value>greater</value>
-          <result>
-            <lineType type="line" width="1.0"/>
-          </result>
-        </discrete>
-        <discrete>
-          <value>equal</value>
-          <result>
-            <lineType type="dashed" width="1.0"/>
-          </result>
-        </discrete>
-        <discrete>
-          <value>less</value>
-          <result>
-            <lineType type="dotted" width="2.0"/>
-          </result>
-        </discrete>
-      </conversion>
-    </mapping>
-    <mapping>
-      <source name="style" origin="customProperty" type="string"/>
-      <target name="lineWidth" type="double">
-        <hints/>
-      </target>
-      <conversion type="discrete">
-        <discrete>
-          <value>before</value>
-          <result>3.0</result>
-        </discrete>
-        <discrete>
-          <value>after</value>
-          <result>3.0</result>
-        </discrete>
-      </conversion>
-    </mapping>
-    <mapping>
-      <source name="style" origin="customProperty" type="string"/>
-      <target name="arrowTarget" type="arrow">
-        <hints/>
-      </target>
-      <conversion type="discrete">
-        <discrete>
-          <value>before</value>
-          <result>
-            <arrow type="none"/>
-          </result>
-        </discrete>
-        <discrete>
-          <value>after</value>
-          <result>
-            <arrow type="standard"/>
-          </result>
-        </discrete>
-      </conversion>
-    </mapping>
-    <mapping>
-      <source name="same_rank" origin="customProperty" type="int"/>
+      <source name="rank" origin="customProperty" type="int"/>
       <target name="lineWidth" type="double">
         <hints/>
       </target>

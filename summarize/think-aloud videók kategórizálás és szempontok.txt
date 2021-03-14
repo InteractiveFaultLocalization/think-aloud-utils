@@ -193,37 +193,72 @@ az iFL-t (interakció nélkül) és az atlas-t (call graph), JUnit kimenetet is 
 ________________
 vsz. 2 (Béla) (A, B, D, F)
 !debugging strategies
-(routine) 
-(feature) 
-(use-case) 
+(routine) Drill Up from the Problem to the Bug
+a bemelegítő feladatnál végignézte a bukó teszt elejét is, a második feladatnál az assert-ből indul ki
+(feature) Drill Up from the Problem to the Bug
+(use-case) Drill Up from the Problem to the Bug
 !debugging styles
-(routine) 
-(feature)
-(use-case) 
+(routine) manual debugging; interactive debugging; socially-aided debugging
+hibásnak vélt kódrészletet beteszi kommentbe
+println használata
+a második feladatnál használja a debug módot és a breakpoint-ot
+google:  “java double”-re és a “java float”-ra  (olvassa a docs.oracle.com-t), “assertError null”-ra, a “assertError null instanceOf”-ra és a “java lang assertError null instanceOf”-ra
+(feature) interactive debugging; manual debugging; tool-aided debugging
+debug + breakpoint használata (erőteljesebben és “szakszerűbben, mint a (routine) során)
+az iFL-t ki akarta próbálni de nem tudta elindítani (nem értelmezte a kapott hibaüzenetet - a Non-resources selected-et) ezért inkább hagyta az egészet - de alapvetően bizalmatlan a score-ral szemben, mivel nem tudja hogy ezek az értékek hogyan számolódnak ki
+Atlas nem túl intenzív használata (Call view) - a hipotetikus eseteknél pozitívan áll a call gráfhoz
+Coverage-t nem használ, holott a hipotetikus eseteknél “dicsérte”
+(use-case) interactive debugging; tool-aided debugging
+debug + breakpoint használata (erőteljesebben és “szakszerűbben, mint a (routine) során)
+rögtön az elején elindítja az iFL-t (még mielőtt megnézné a teszteket vagy a kódot) de nem használja sokat
+nem használja az interaktivitást
+hamar megnézi a coverage-t 
+hamar megnézi az Atlas-t (Data flow) -  de nem használja túl sokat
+
 !ease of verbalization
-(routine) 
-(feature) 
-(use-case) 
+(routine) inaccessible processes
+az első, bemelegítő feladatnál elég szűkszavú, nem igazán részletezi, hogy mit és miért csinál (mondjuk nem is volt nehéz a feladat) aminek az oka a hiba gyors megtalálása
+a második feladatnál “elmagyarázza” a kódot és a tesztben lévő példán végrehajtja az utasításokat/műveleteket
+(feature) inaccessible processes
+hasonló viselkedés, mint a (routine) során
+(use-case) inaccessible processes
+hasonló viselkedés, mint a (routine) során
 !diverging from routine debugging workflow
 (routine) none
-(feature)
-(use-case) 
+(feature) conservative; ready to assimilate new tools and informations
+elhagyta a println használatát, helyette a debug mód Variables view-ját nézte
+viszonylag hamar ki akarta próbálni az iFL-eszközt, de rosszul indította el és nem értelmezte a hibaüzenetet, ezért hamar felhagyott vele
+az idő kb. felénél elkezdte használni az Atlas-t (Call view-t) de nem használta túl sokat. noha a hipo-ban hasznosnak ítélte a call graph használatát
+(use-case) conservative; ready to assimilate new tools and informations
+iFL: használta a score-t de az interaktivitást nem
+coverage-használata
+Atlas-használat (Data flow)
 !sources provided by the development environment
-(routine) 
-(feature) 
-(use-case)
+(routine) static source code; test results; traces; stdout, stderr and log-files
+programkód és javadoc olvasás
+println
+(feature) static source code; test results; traces
+println helyett debug módra vált
+(use-case) static source code; test results; traces; test coverage; ranks
+megnézi h mely elem van a gyanússági sorrend elején, de a többit nem igazán tanulmányozza
 !sources provided by people
-(routine) 
-(feature) 
-(use-case)
-!topic of information
-(routine) 
-(feature) 
-(use-case)
-!new information processing
-(routine) 
+(routine) community
+google használata
 (feature) 
 (use-case) 
+!topic of information
+(routine) information about the related source code
+a kódban megnézi, hogy a hibásnak vélt metódus milyen egyéb metódusokat hív
+(feature) information about the related source code
+(use-case) information about the related source code; common knowledge about software engineering
+coverage használata
+!new information processing
+(routine) a priori usage
+(feature) a priori usage; integrated usage
+minimálisan használta az Atlas-ból kinyert információkat (megnézte, hogy az egyik metódust melyik tesztek hívták/használták)
+az iFL-lel szemben van egy kis bizalmatlanság mivel nem tudja, hogy hogyan számolódik a score
+(use-case) a priori usage; integrated usage
+valamivel bátrabban használja az eszközöket, de nem minden esetben használja ki azok lehetőségeit (pl: iFL interaktivitása)
 ________________
 vsz. 3 (Gergő) (A, B, C, F)
 !debugging strategies

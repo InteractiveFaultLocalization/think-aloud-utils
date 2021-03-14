@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="style" attr.type="string" />
+  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
+  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
+  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
+  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="By IDE/Src (routine)">
+      <data key="d0">By IDE / Src
+(routine)</data>
+      <data key="d1">Src</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Struc (routine)">
+      <data key="d0">By IDE / Struc
+(routine)</data>
+      <data key="d1">Struc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Std (routine)">
+      <data key="d0">By IDE / Std
+(routine)</data>
+      <data key="d1">Std</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Trc (routine)">
+      <data key="d0">By IDE / Trc
+(routine)</data>
+      <data key="d1">Trc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Cover (routine)">
+      <data key="d0">By IDE / Cover
+(routine)</data>
+      <data key="d1">Cover</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Test (routine)">
+      <data key="d0">By IDE / Test
+(routine)</data>
+      <data key="d1">Test</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Conf (routine)">
+      <data key="d0">By IDE / Conf
+(routine)</data>
+      <data key="d1">Conf</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Src (feature)">
+      <data key="d0">By IDE / Src
+(feature)</data>
+      <data key="d1">Src</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Struc (feature)">
+      <data key="d0">By IDE / Struc
+(feature)</data>
+      <data key="d1">Struc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Std (feature)">
+      <data key="d0">By IDE / Std
+(feature)</data>
+      <data key="d1">Std</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Trc (feature)">
+      <data key="d0">By IDE / Trc
+(feature)</data>
+      <data key="d1">Trc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Cover (feature)">
+      <data key="d0">By IDE / Cover
+(feature)</data>
+      <data key="d1">Cover</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Test (feature)">
+      <data key="d0">By IDE / Test
+(feature)</data>
+      <data key="d1">Test</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/iFL (feature)">
+      <data key="d0">By IDE / iFL
+(feature)</data>
+      <data key="d1">iFL</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Src (use-case)">
+      <data key="d0">By IDE / Src
+(use-case)</data>
+      <data key="d1">Src</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Struc (use-case)">
+      <data key="d0">By IDE / Struc
+(use-case)</data>
+      <data key="d1">Struc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Std (use-case)">
+      <data key="d0">By IDE / Std
+(use-case)</data>
+      <data key="d1">Std</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Trc (use-case)">
+      <data key="d0">By IDE / Trc
+(use-case)</data>
+      <data key="d1">Trc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Cover (use-case)">
+      <data key="d0">By IDE / Cover
+(use-case)</data>
+      <data key="d1">Cover</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Test (use-case)">
+      <data key="d0">By IDE / Test
+(use-case)</data>
+      <data key="d1">Test</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/iFL (use-case)">
+      <data key="d0">By IDE / iFL
+(use-case)</data>
+      <data key="d1">iFL</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="54">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="57">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="60">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="63">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="68">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Struc (routine)" target="By IDE/Struc (feature)" id="67">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Std (routine)" target="By IDE/Std (feature)" id="55">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (routine)" target="By IDE/Trc (feature)" id="59">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (routine)" target="By IDE/Trc (feature)" id="65">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (routine)" target="By IDE/Test (feature)" id="62">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Cover (routine)" target="By IDE/Cover (feature)" id="66">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/Test (feature)" id="58">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/Test (feature)" id="64">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/Test (feature)" id="69">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/iFL (feature)" id="61">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Conf (routine)" target="By IDE/Struc (feature)" id="56">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="70">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="76">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="79">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="83">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="88">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Struc (feature)" target="By IDE/Std (use-case)" id="72">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Struc (feature)" target="By IDE/Struc (use-case)" id="87">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Std (feature)" target="By IDE/Struc (use-case)" id="71">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Test (use-case)" id="73">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Trc (use-case)" id="78">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Trc (use-case)" id="82">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Trc (use-case)" id="85">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Cover (feature)" target="By IDE/Cover (use-case)" id="74">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">4</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Cover (feature)" target="By IDE/Cover (use-case)" id="86">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Test (use-case)" id="77">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Test (use-case)" id="81">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Test (use-case)" id="84">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Cover (use-case)" id="89">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/iFL (feature)" target="By IDE/iFL (use-case)" id="75">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">5</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/iFL (feature)" target="By IDE/iFL (use-case)" id="80">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+  </graph>
+</graphml>

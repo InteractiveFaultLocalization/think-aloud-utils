@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="style" attr.type="string" />
+  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
+  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
+  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
+  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Debugging strategies/DrillUp (routine)">
+      <data key="d0">Debugging strategies / DrillUp
+(routine)</data>
+      <data key="d1">DrillUp</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillDn (routine)">
+      <data key="d0">Debugging strategies / DrillDn
+(routine)</data>
+      <data key="d1">DrillDn</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/Refact (routine)">
+      <data key="d0">Debugging strategies / Refact
+(routine)</data>
+      <data key="d1">Refact</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillUp (feature)">
+      <data key="d0">Debugging strategies / DrillUp
+(feature)</data>
+      <data key="d1">DrillUp</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillDn (feature)">
+      <data key="d0">Debugging strategies / DrillDn
+(feature)</data>
+      <data key="d1">DrillDn</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/AddDbg (feature)">
+      <data key="d0">Debugging strategies / AddDbg
+(feature)</data>
+      <data key="d1">AddDbg</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillUp (use-case)">
+      <data key="d0">Debugging strategies / DrillUp
+(use-case)</data>
+      <data key="d1">DrillUp</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillDn (use-case)">
+      <data key="d0">Debugging strategies / DrillDn
+(use-case)</data>
+      <data key="d1">DrillDn</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/AddDbg (use-case)">
+      <data key="d0">Debugging strategies / AddDbg
+(use-case)</data>
+      <data key="d1">AddDbg</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="1">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="2">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="3">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillDn (routine)" target="Debugging strategies/DrillDn (feature)" id="0">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/Refact (routine)" target="Debugging strategies/DrillDn (feature)" id="4">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="7">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="8">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="9">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillDn (use-case)" id="5">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillUp (use-case)" id="10">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/AddDbg (feature)" target="Debugging strategies/AddDbg (use-case)" id="6">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+  </graph>
+</graphml>

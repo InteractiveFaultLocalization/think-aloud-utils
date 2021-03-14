@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="style" attr.type="string" />
+  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
+  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
+  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
+  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Information topic/RelCode (routine)">
+      <data key="d0">Information topic / RelCode
+(routine)</data>
+      <data key="d1">RelCode</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/RelCode (feature)">
+      <data key="d0">Information topic / RelCode
+(feature)</data>
+      <data key="d1">RelCode</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/SpecKnow (use-case)">
+      <data key="d0">Information topic / SpecKnow
+(use-case)</data>
+      <data key="d1">SpecKnow</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/RelCode (use-case)">
+      <data key="d0">Information topic / RelCode
+(use-case)</data>
+      <data key="d1">RelCode</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="94">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="95">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="96">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="97">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="98">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/SpecKnow (use-case)" id="99">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="100">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="101">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="102">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="103">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+  </graph>
+</graphml>

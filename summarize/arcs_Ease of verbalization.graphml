@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="style" attr.type="string" />
+  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
+  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
+  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
+  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Ease of verbalization/Braindump (routine)">
+      <data key="d0">Ease of verbalization / Braindump
+(routine)</data>
+      <data key="d1">Braindump</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/InacProc (routine)">
+      <data key="d0">Ease of verbalization / InacProc
+(routine)</data>
+      <data key="d1">InacProc</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/Braindump (feature)">
+      <data key="d0">Ease of verbalization / Braindump
+(feature)</data>
+      <data key="d1">Braindump</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/InacProc (feature)">
+      <data key="d0">Ease of verbalization / InacProc
+(feature)</data>
+      <data key="d1">InacProc</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/General (feature)">
+      <data key="d0">Ease of verbalization / General
+(feature)</data>
+      <data key="d1">General</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/Braindump (use-case)">
+      <data key="d0">Ease of verbalization / Braindump
+(use-case)</data>
+      <data key="d1">Braindump</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/InacProc (use-case)">
+      <data key="d0">Ease of verbalization / InacProc
+(use-case)</data>
+      <data key="d1">InacProc</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <edge source="Ease of verbalization/Braindump (routine)" target="Ease of verbalization/Braindump (feature)" id="30">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (routine)" target="Ease of verbalization/General (feature)" id="35">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/InacProc (feature)" id="31">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/InacProc (feature)" id="32">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/InacProc (feature)" id="33">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/Braindump (feature)" id="34">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (feature)" target="Ease of verbalization/Braindump (use-case)" id="36">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (feature)" target="Ease of verbalization/Braindump (use-case)" id="39">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (feature)" target="Ease of verbalization/Braindump (use-case)" id="41">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (feature)" target="Ease of verbalization/InacProc (use-case)" id="37">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (feature)" target="Ease of verbalization/InacProc (use-case)" id="38">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (feature)" target="Ease of verbalization/InacProc (use-case)" id="40">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+  </graph>
+</graphml>

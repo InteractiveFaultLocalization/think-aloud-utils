@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="style" attr.type="string" />
+  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
+  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
+  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
+  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Utilization/APrio (routine)">
+      <data key="d0">Utilization / APrio
+(routine)</data>
+      <data key="d1">APrio</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/Integ (feature)">
+      <data key="d0">Utilization / Integ
+(feature)</data>
+      <data key="d1">Integ</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/APrio (feature)">
+      <data key="d0">Utilization / APrio
+(feature)</data>
+      <data key="d1">APrio</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/Furth (use-case)">
+      <data key="d0">Utilization / Furth
+(use-case)</data>
+      <data key="d1">Furth</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/Integ (use-case)">
+      <data key="d0">Utilization / Integ
+(use-case)</data>
+      <data key="d1">Integ</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/APrio (use-case)">
+      <data key="d0">Utilization / APrio
+(use-case)</data>
+      <data key="d1">APrio</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="104">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="105">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="108">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/Integ (feature)" id="106">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/Integ (feature)" id="107">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (use-case)" id="111">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (use-case)" id="112">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)" target="Utilization/APrio (use-case)" id="113">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (use-case)" id="109">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (use-case)" id="110">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/Furth (use-case)" id="114">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+  </graph>
+</graphml>

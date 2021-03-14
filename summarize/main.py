@@ -105,8 +105,7 @@ def generate_category_by_rareness_figure():
 
 
 def node_id(category_record, section):
-    return f'{category_record["short category name"]} ({section})'
-    # return f'{category_record["short category name"]}'
+    return f'{category_record["aspect name"]}/{category_record["short category name"]} ({section})'
 
 
 edge_id = 0
@@ -114,7 +113,7 @@ edge_id = 0
 
 def _connect_to_from(from_categorization, to_categorization,
                      from_section, to_section,
-                     graph, display_ranks=True, aspect_flow=True):
+                     graph):
     global edge_id
     for from_index, from_category in from_categorization.iterrows():
         for to_index, to_category in to_categorization.iterrows():
@@ -124,31 +123,15 @@ def _connect_to_from(from_categorization, to_categorization,
             from_rank = from_category['category rank']
             to_rank = to_category['category rank']
             is_category_rank_same = from_rank == to_rank
-            same_rank = to_rank if is_category_rank_same else 'no'
-            if is_vsz_id_same if aspect_flow else (is_vsz_id_same and is_category_rank_same):
+            is_aspect_same = from_category['aspect name'] == to_category['aspect name']
+            if is_vsz_id_same and is_category_rank_same and is_aspect_same:
                 from_node = node_id(from_category, from_section)
                 to_node = node_id(to_category, to_section)
-                if display_ranks:
-                    graph.add_node(
-                        from_node + to_node, key=edge_id,
-                        developer=from_vsz_id,
-                        ranks=f'Rareness during {from_section.capitalize()}={from_rank+1},'
-                              f' {to_section.capitalize()}={to_rank+1} sections',
-                        style='rank'
-                    )
-                    edge_id += 1
-                    graph.add_edge(
-                        from_node, from_node + to_node, key=edge_id,
-                        developer=from_vsz_id, cause=to_section,
-                        from_rank=from_rank, to_rank=to_rank, same_rank=same_rank,
-                        style='before'
-                    )
-                    edge_id += 1
                 graph.add_edge(
-                    (from_node + to_node) if display_ranks else from_node, to_node, key=edge_id,
+                    from_node, to_node, key=edge_id,
                     developer=from_vsz_id, cause=to_section,
-                    from_rank=from_rank, to_rank=to_rank, same_rank=same_rank,
-                    style='after'
+                    rank=from_rank,
+                    style='transition'
                 )
                 edge_id += 1
 
@@ -161,29 +144,25 @@ def _create_nodes(section, _macros, graph):
             category=category['short category name'], aspect=category['aspect name'], style='category')
 
 
-def _generate_arch_graph(display_ranks, aspect_flow):
-    category_is_aspect = categorization['aspect name'] == aspect
-    macros_is_aspect = macros['aspect name'] == aspect
-    aspect_macros = macros[macros_is_aspect]
+def generate_arch_graph(filter_name, category_filter, macros_filter):
+    filtered_macros = macros[macros_filter]
     graph = nx.MultiDiGraph()
-    _create_nodes('routine', aspect_macros, graph)
-    _create_nodes('feature', aspect_macros, graph)
-    _create_nodes('use-case', aspect_macros, graph)
-    is_routine_and_aspect = (categorization['section name'] == 'routine') & category_is_aspect
-    is_feature_and_aspect = (categorization['section name'] == 'feature') & category_is_aspect
-    is_use_case_and_aspect = (categorization['section name'] == 'use-case') & category_is_aspect
+    _create_nodes('routine', filtered_macros, graph)
+    _create_nodes('feature', filtered_macros, graph)
+    _create_nodes('use-case', filtered_macros, graph)
+    is_routine = (categorization['section name'] == 'routine') & category_filter
+    is_feature = (categorization['section name'] == 'feature') & category_filter
+    is_use_case = (categorization['section name'] == 'use-case') & category_filter
     _connect_to_from(
-        categorization[is_routine_and_aspect], categorization[is_feature_and_aspect],
-        'routine', 'feature', graph, display_ranks=display_ranks, aspect_flow=aspect_flow)
+        categorization[is_routine], categorization[is_feature],
+        'routine', 'feature', graph)
     _connect_to_from(
-        categorization[is_feature_and_aspect], categorization[is_use_case_and_aspect],
-        'feature', 'use-case', graph, display_ranks=display_ranks, aspect_flow=aspect_flow)
+        categorization[is_feature], categorization[is_use_case],
+        'feature', 'use-case', graph)
     graph.remove_nodes_from(list(nx.isolates(graph)))
     nx.write_graphml(
         graph,
-        f'arcs_in_{aspect}'
-        f'_{"with-ranks" if display_ranks else "no-ranks"}'
-        f'_{"aspect-flow" if aspect_flow else "category-flow"}.graphml')
+        f'arcs_{filter_name}.graphml')
 
 
 if __name__ == '__main__':
@@ -208,9 +187,12 @@ if __name__ == '__main__':
 
     for aspect in macros['aspect name'].unique():
         print(f"generating category arches for {aspect}...", end='')
-        for display_ranks in (True, False):
-            for aspect_flow in (True, False):
-                _generate_arch_graph(display_ranks=display_ranks, aspect_flow=aspect_flow)
+        generate_arch_graph(aspect, category_filter=categorization['aspect name'] == aspect,
+                            macros_filter=macros['aspect name'] == aspect)
         print("done")
+    print(f"generating category arches for full...", end='')
+    generate_arch_graph('full', category_filter=[True] * len(categorization.index),
+                        macros_filter=[True] * len(macros.index))
+    print("done")
 
     print()

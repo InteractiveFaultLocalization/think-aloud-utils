@@ -1,0 +1,1179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="style" attr.type="string" />
+  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
+  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
+  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
+  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Debugging strategies/DrillUp (routine)">
+      <data key="d0">Debugging strategies / DrillUp
+(routine)</data>
+      <data key="d1">DrillUp</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillDn (routine)">
+      <data key="d0">Debugging strategies / DrillDn
+(routine)</data>
+      <data key="d1">DrillDn</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/Refact (routine)">
+      <data key="d0">Debugging strategies / Refact
+(routine)</data>
+      <data key="d1">Refact</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/ManDeb (routine)">
+      <data key="d0">Debugging styles / ManDeb
+(routine)</data>
+      <data key="d1">ManDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/IntDeb (routine)">
+      <data key="d0">Debugging styles / IntDeb
+(routine)</data>
+      <data key="d1">IntDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/SocDeb (routine)">
+      <data key="d0">Debugging styles / SocDeb
+(routine)</data>
+      <data key="d1">SocDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/Braindump (routine)">
+      <data key="d0">Ease of verbalization / Braindump
+(routine)</data>
+      <data key="d1">Braindump</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/InacProc (routine)">
+      <data key="d0">Ease of verbalization / InacProc
+(routine)</data>
+      <data key="d1">InacProc</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Cons (routine)">
+      <data key="d0">Diverging from routine / Cons
+(routine)</data>
+      <data key="d1">Cons</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Conf (routine)">
+      <data key="d0">Diverging from routine / Conf
+(routine)</data>
+      <data key="d1">Conf</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Src (routine)">
+      <data key="d0">By IDE / Src
+(routine)</data>
+      <data key="d1">Src</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Struc (routine)">
+      <data key="d0">By IDE / Struc
+(routine)</data>
+      <data key="d1">Struc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Std (routine)">
+      <data key="d0">By IDE / Std
+(routine)</data>
+      <data key="d1">Std</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Trc (routine)">
+      <data key="d0">By IDE / Trc
+(routine)</data>
+      <data key="d1">Trc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Cover (routine)">
+      <data key="d0">By IDE / Cover
+(routine)</data>
+      <data key="d1">Cover</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Test (routine)">
+      <data key="d0">By IDE / Test
+(routine)</data>
+      <data key="d1">Test</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Conf (routine)">
+      <data key="d0">By IDE / Conf
+(routine)</data>
+      <data key="d1">Conf</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="External sources/Exp (routine)">
+      <data key="d0">External sources / Exp
+(routine)</data>
+      <data key="d1">Exp</data>
+      <data key="d2">External sources</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/RelCode (routine)">
+      <data key="d0">Information topic / RelCode
+(routine)</data>
+      <data key="d1">RelCode</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/APrio (routine)">
+      <data key="d0">Utilization / APrio
+(routine)</data>
+      <data key="d1">APrio</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillUp (feature)">
+      <data key="d0">Debugging strategies / DrillUp
+(feature)</data>
+      <data key="d1">DrillUp</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillDn (feature)">
+      <data key="d0">Debugging strategies / DrillDn
+(feature)</data>
+      <data key="d1">DrillDn</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/AddDbg (feature)">
+      <data key="d0">Debugging strategies / AddDbg
+(feature)</data>
+      <data key="d1">AddDbg</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/ManDeb (feature)">
+      <data key="d0">Debugging styles / ManDeb
+(feature)</data>
+      <data key="d1">ManDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/IntDeb (feature)">
+      <data key="d0">Debugging styles / IntDeb
+(feature)</data>
+      <data key="d1">IntDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (feature)">
+      <data key="d0">Debugging styles / ToolDeb
+(feature)</data>
+      <data key="d1">ToolDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/Braindump (feature)">
+      <data key="d0">Ease of verbalization / Braindump
+(feature)</data>
+      <data key="d1">Braindump</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/InacProc (feature)">
+      <data key="d0">Ease of verbalization / InacProc
+(feature)</data>
+      <data key="d1">InacProc</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/General (feature)">
+      <data key="d0">Ease of verbalization / General
+(feature)</data>
+      <data key="d1">General</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Ready (feature)">
+      <data key="d0">Diverging from routine / Ready
+(feature)</data>
+      <data key="d1">Ready</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Cons (feature)">
+      <data key="d0">Diverging from routine / Cons
+(feature)</data>
+      <data key="d1">Cons</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Conf (feature)">
+      <data key="d0">Diverging from routine / Conf
+(feature)</data>
+      <data key="d1">Conf</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Src (feature)">
+      <data key="d0">By IDE / Src
+(feature)</data>
+      <data key="d1">Src</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Struc (feature)">
+      <data key="d0">By IDE / Struc
+(feature)</data>
+      <data key="d1">Struc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Std (feature)">
+      <data key="d0">By IDE / Std
+(feature)</data>
+      <data key="d1">Std</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Trc (feature)">
+      <data key="d0">By IDE / Trc
+(feature)</data>
+      <data key="d1">Trc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Cover (feature)">
+      <data key="d0">By IDE / Cover
+(feature)</data>
+      <data key="d1">Cover</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Test (feature)">
+      <data key="d0">By IDE / Test
+(feature)</data>
+      <data key="d1">Test</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/iFL (feature)">
+      <data key="d0">By IDE / iFL
+(feature)</data>
+      <data key="d1">iFL</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="External sources/Exp (feature)">
+      <data key="d0">External sources / Exp
+(feature)</data>
+      <data key="d1">Exp</data>
+      <data key="d2">External sources</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/RelCode (feature)">
+      <data key="d0">Information topic / RelCode
+(feature)</data>
+      <data key="d1">RelCode</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/Integ (feature)">
+      <data key="d0">Utilization / Integ
+(feature)</data>
+      <data key="d1">Integ</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/APrio (feature)">
+      <data key="d0">Utilization / APrio
+(feature)</data>
+      <data key="d1">APrio</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillUp (use-case)">
+      <data key="d0">Debugging strategies / DrillUp
+(use-case)</data>
+      <data key="d1">DrillUp</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/DrillDn (use-case)">
+      <data key="d0">Debugging strategies / DrillDn
+(use-case)</data>
+      <data key="d1">DrillDn</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging strategies/AddDbg (use-case)">
+      <data key="d0">Debugging strategies / AddDbg
+(use-case)</data>
+      <data key="d1">AddDbg</data>
+      <data key="d2">Debugging strategies</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/ManDeb (use-case)">
+      <data key="d0">Debugging styles / ManDeb
+(use-case)</data>
+      <data key="d1">ManDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/IntDeb (use-case)">
+      <data key="d0">Debugging styles / IntDeb
+(use-case)</data>
+      <data key="d1">IntDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (use-case)">
+      <data key="d0">Debugging styles / ToolDeb
+(use-case)</data>
+      <data key="d1">ToolDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Debugging styles/SocDeb (use-case)">
+      <data key="d0">Debugging styles / SocDeb
+(use-case)</data>
+      <data key="d1">SocDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/Braindump (use-case)">
+      <data key="d0">Ease of verbalization / Braindump
+(use-case)</data>
+      <data key="d1">Braindump</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Ease of verbalization/InacProc (use-case)">
+      <data key="d0">Ease of verbalization / InacProc
+(use-case)</data>
+      <data key="d1">InacProc</data>
+      <data key="d2">Ease of verbalization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Ready (use-case)">
+      <data key="d0">Diverging from routine / Ready
+(use-case)</data>
+      <data key="d1">Ready</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Cons (use-case)">
+      <data key="d0">Diverging from routine / Cons
+(use-case)</data>
+      <data key="d1">Cons</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Diverging from routine/Conf (use-case)">
+      <data key="d0">Diverging from routine / Conf
+(use-case)</data>
+      <data key="d1">Conf</data>
+      <data key="d2">Diverging from routine</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Src (use-case)">
+      <data key="d0">By IDE / Src
+(use-case)</data>
+      <data key="d1">Src</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Struc (use-case)">
+      <data key="d0">By IDE / Struc
+(use-case)</data>
+      <data key="d1">Struc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Std (use-case)">
+      <data key="d0">By IDE / Std
+(use-case)</data>
+      <data key="d1">Std</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Trc (use-case)">
+      <data key="d0">By IDE / Trc
+(use-case)</data>
+      <data key="d1">Trc</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Cover (use-case)">
+      <data key="d0">By IDE / Cover
+(use-case)</data>
+      <data key="d1">Cover</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/Test (use-case)">
+      <data key="d0">By IDE / Test
+(use-case)</data>
+      <data key="d1">Test</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="By IDE/iFL (use-case)">
+      <data key="d0">By IDE / iFL
+(use-case)</data>
+      <data key="d1">iFL</data>
+      <data key="d2">By IDE</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="External sources/Exp (use-case)">
+      <data key="d0">External sources / Exp
+(use-case)</data>
+      <data key="d1">Exp</data>
+      <data key="d2">External sources</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/SpecKnow (use-case)">
+      <data key="d0">Information topic / SpecKnow
+(use-case)</data>
+      <data key="d1">SpecKnow</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Information topic/RelCode (use-case)">
+      <data key="d0">Information topic / RelCode
+(use-case)</data>
+      <data key="d1">RelCode</data>
+      <data key="d2">Information topic</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/Furth (use-case)">
+      <data key="d0">Utilization / Furth
+(use-case)</data>
+      <data key="d1">Furth</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/Integ (use-case)">
+      <data key="d0">Utilization / Integ
+(use-case)</data>
+      <data key="d1">Integ</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <node id="Utilization/APrio (use-case)">
+      <data key="d0">Utilization / APrio
+(use-case)</data>
+      <data key="d1">APrio</data>
+      <data key="d2">Utilization</data>
+      <data key="d3">category</data>
+    </node>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="124">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="134">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="146">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillDn (routine)" target="Debugging strategies/DrillDn (feature)" id="115">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/Refact (routine)" target="Debugging strategies/DrillDn (feature)" id="156">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="116">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="147">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="157">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="125">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="136">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ManDeb (feature)" id="126">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="135">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="117">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="127">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="148">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (routine)" target="Ease of verbalization/Braindump (feature)" id="118">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (routine)" target="Ease of verbalization/General (feature)" id="159">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/InacProc (feature)" id="128">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/InacProc (feature)" id="137">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/InacProc (feature)" id="149">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (routine)" target="Ease of verbalization/Braindump (feature)" id="158">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (routine)" target="Diverging from routine/Conf (feature)" id="138">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Conf (routine)" target="Diverging from routine/Ready (feature)" id="139">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Conf (routine)" target="Diverging from routine/Conf (feature)" id="160">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="119">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="129">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="140">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="150">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (routine)" target="By IDE/Src (feature)" id="162">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Struc (routine)" target="By IDE/Struc (feature)" id="161">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Std (routine)" target="By IDE/Std (feature)" id="120">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (routine)" target="By IDE/Trc (feature)" id="131">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (routine)" target="By IDE/Trc (feature)" id="152">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (routine)" target="By IDE/Test (feature)" id="142">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Cover (routine)" target="By IDE/Cover (feature)" id="153">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/Test (feature)" id="130">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/Test (feature)" id="151">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/Test (feature)" id="163">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (routine)" target="By IDE/iFL (feature)" id="141">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Conf (routine)" target="By IDE/Struc (feature)" id="121">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="143">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="164">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="122">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="132">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="144">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="154">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="165">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="123">
+      <data key="d4">1</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="133">
+      <data key="d4">2</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="166">
+      <data key="d4">6</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/Integ (feature)" id="145">
+      <data key="d4">3</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)" target="Utilization/Integ (feature)" id="155">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="181">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="193">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="208">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillDn (use-case)" id="167">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillUp (use-case)" id="219">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/AddDbg (feature)" target="Debugging strategies/AddDbg (use-case)" id="168">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="169">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="209">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="183">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="220">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="182">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="195">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="170">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="194">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/SocDeb (use-case)" id="210">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (feature)" target="Ease of verbalization/Braindump (use-case)" id="171">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (feature)" target="Ease of verbalization/Braindump (use-case)" id="197">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/Braindump (feature)" target="Ease of verbalization/Braindump (use-case)" id="221">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (feature)" target="Ease of verbalization/InacProc (use-case)" id="184">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (feature)" target="Ease of verbalization/InacProc (use-case)" id="196">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Ease of verbalization/InacProc (feature)" target="Ease of verbalization/InacProc (use-case)" id="211">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Ready (feature)" target="Diverging from routine/Ready (use-case)" id="186">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Ready (feature)" target="Diverging from routine/Cons (use-case)" id="199">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="172">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="185">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="212">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Ready (use-case)" id="200">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Ready (use-case)" id="223">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="198">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="222">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="173">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="187">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="201">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="213">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Src (feature)" target="By IDE/Src (use-case)" id="225">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Struc (feature)" target="By IDE/Std (use-case)" id="175">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Struc (feature)" target="By IDE/Struc (use-case)" id="224">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Std (feature)" target="By IDE/Struc (use-case)" id="174">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Test (use-case)" id="176">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Trc (use-case)" id="189">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Trc (use-case)" id="204">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Trc (feature)" target="By IDE/Trc (use-case)" id="215">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Cover (feature)" target="By IDE/Cover (use-case)" id="177">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">4</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Cover (feature)" target="By IDE/Cover (use-case)" id="216">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Test (use-case)" id="188">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Test (use-case)" id="203">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Test (use-case)" id="214">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/Test (feature)" target="By IDE/Cover (use-case)" id="226">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/iFL (feature)" target="By IDE/iFL (use-case)" id="178">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">5</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="By IDE/iFL (feature)" target="By IDE/iFL (use-case)" id="202">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="205">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="227">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/SpecKnow (use-case)" id="179">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="190">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="206">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="217">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="228">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (use-case)" id="192">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (use-case)" id="207">
+      <data key="d4">3</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)" target="Utilization/APrio (use-case)" id="218">
+      <data key="d4">5</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (use-case)" id="180">
+      <data key="d4">1</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (use-case)" id="191">
+      <data key="d4">2</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/Furth (use-case)" id="229">
+      <data key="d4">6</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+  </graph>
+</graphml>
