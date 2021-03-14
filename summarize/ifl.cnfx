@@ -85,40 +85,96 @@
       <conversion type="asIs"/>
     </mapping>
     <mapping>
-      <source name="const" origin="customProperty" type="string"/>
+      <source name="style" origin="customProperty" type="string"/>
       <target name="fillColor" type="color">
         <hints/>
       </target>
       <conversion type="discrete">
         <discrete>
-          <value>const</value>
+          <value>category</value>
+          <result>#ffffff</result>
+        </discrete>
+        <discrete>
+          <value>rank</value>
           <result>#ffffff</result>
         </discrete>
       </conversion>
     </mapping>
     <mapping>
-      <source name="const" origin="customProperty" type="string"/>
+      <source name="style" origin="customProperty" type="string"/>
       <target name="borderStyleColor" type="color">
         <hints/>
       </target>
       <conversion type="discrete">
         <discrete>
-          <value>const</value>
+          <value>category</value>
           <result>#000000</result>
         </discrete>
       </conversion>
     </mapping>
     <mapping>
-      <source name="const" origin="customProperty" type="string"/>
+      <source name="developer" origin="customProperty" type="string"/>
+      <target name="borderStyleColor" type="color">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>1</value>
+          <result>#ff9900</result>
+        </discrete>
+        <discrete>
+          <value>3</value>
+          <result>#99cc00</result>
+        </discrete>
+        <discrete>
+          <value>5</value>
+          <result>#339966</result>
+        </discrete>
+        <discrete>
+          <value>6</value>
+          <result>#33cccc</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="style" origin="customProperty" type="string"/>
       <target name="geometryHeight" type="double">
         <hints/>
       </target>
       <conversion type="discrete">
         <discrete>
-          <value>const</value>
+          <value>category</value>
           <result>60.0</result>
         </discrete>
+        <discrete>
+          <value>rank</value>
+          <result>8.0</result>
+        </discrete>
       </conversion>
+    </mapping>
+    <mapping>
+      <source name="style" origin="customProperty" type="string"/>
+      <target name="labelFontSize" type="int">
+        <hints>
+          <hint type="int">0</hint>
+        </hints>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>rank</value>
+          <result>8</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="ranks" origin="customProperty" type="string"/>
+      <target name="labelText" type="string">
+        <hints>
+          <hint type="int">0</hint>
+          <hint type="boolean">true</hint>
+        </hints>
+      </target>
+      <conversion type="asIs"/>
     </mapping>
   </style>
   <style name="ifl think aloud" scope="edge" selectionOnly="false">
@@ -173,14 +229,38 @@
       </conversion>
     </mapping>
     <mapping>
-      <source name="const" origin="customProperty" type="string"/>
+      <source name="style" origin="customProperty" type="string"/>
       <target name="lineWidth" type="double">
         <hints/>
       </target>
       <conversion type="discrete">
         <discrete>
-          <value>const</value>
+          <value>before</value>
           <result>3.0</result>
+        </discrete>
+        <discrete>
+          <value>after</value>
+          <result>3.0</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="style" origin="customProperty" type="string"/>
+      <target name="arrowTarget" type="arrow">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>before</value>
+          <result>
+            <arrow type="none"/>
+          </result>
+        </discrete>
+        <discrete>
+          <value>after</value>
+          <result>
+            <arrow type="standard"/>
+          </result>
         </discrete>
       </conversion>
     </mapping>
