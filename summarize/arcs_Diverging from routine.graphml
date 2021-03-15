@@ -10,128 +10,140 @@
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="Diverging from routine/Cons (routine)">
-      <data key="d0">Diverging from routine / Cons
+      <data key="d0">Cons
 (routine)</data>
       <data key="d1">Cons</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Conf (routine)">
-      <data key="d0">Diverging from routine / Conf
+      <data key="d0">Conf
 (routine)</data>
       <data key="d1">Conf</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Ready (feature)">
-      <data key="d0">Diverging from routine / Ready
+      <data key="d0">Ready
 (feature)</data>
       <data key="d1">Ready</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Cons (feature)">
-      <data key="d0">Diverging from routine / Cons
+      <data key="d0">Cons
 (feature)</data>
       <data key="d1">Cons</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Conf (feature)">
-      <data key="d0">Diverging from routine / Conf
+      <data key="d0">Conf
 (feature)</data>
       <data key="d1">Conf</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Ready (use-case)">
-      <data key="d0">Diverging from routine / Ready
+      <data key="d0">Ready
 (use-case)</data>
       <data key="d1">Ready</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Cons (use-case)">
-      <data key="d0">Diverging from routine / Cons
+      <data key="d0">Cons
 (use-case)</data>
       <data key="d1">Cons</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
     <node id="Diverging from routine/Conf (use-case)">
-      <data key="d0">Diverging from routine / Conf
+      <data key="d0">Conf
 (use-case)</data>
       <data key="d1">Conf</data>
       <data key="d2">Diverging from routine</data>
       <data key="d3">category</data>
     </node>
-    <edge source="Diverging from routine/Cons (routine)" target="Diverging from routine/Conf (feature)" id="42">
+    <edge source="Diverging from routine/Cons (routine)" target="Diverging from routine/Conf (feature)" id="53">
       <data key="d4">3</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Conf (routine)" target="Diverging from routine/Ready (feature)" id="43">
+    <edge source="Diverging from routine/Conf (routine)" target="Diverging from routine/Ready (feature)" id="54">
       <data key="d4">3</data>
       <data key="d5">feature</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Conf (routine)" target="Diverging from routine/Conf (feature)" id="44">
+    <edge source="Diverging from routine/Conf (routine)" target="Diverging from routine/Conf (feature)" id="55">
       <data key="d4">6</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Ready (feature)" target="Diverging from routine/Ready (use-case)" id="47">
+    <edge source="Diverging from routine/Ready (feature)" target="Diverging from routine/Ready (use-case)" id="58">
       <data key="d4">2</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Ready (feature)" target="Diverging from routine/Cons (use-case)" id="49">
+    <edge source="Diverging from routine/Ready (feature)" target="Diverging from routine/Cons (use-case)" id="60">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="45">
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="56">
       <data key="d4">1</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="46">
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="57">
       <data key="d4">2</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="51">
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="62">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Cons (use-case)" id="64">
       <data key="d4">5</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Ready (use-case)" id="50">
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Ready (use-case)" id="61">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">2</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Ready (use-case)" id="53">
+    <edge source="Diverging from routine/Cons (feature)" target="Diverging from routine/Ready (use-case)" id="66">
       <data key="d4">6</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="48">
+    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="59">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="52">
+    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="63">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Diverging from routine/Conf (feature)" target="Diverging from routine/Conf (use-case)" id="65">
       <data key="d4">6</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>

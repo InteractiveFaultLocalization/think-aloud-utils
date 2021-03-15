@@ -140,7 +140,8 @@ def _create_nodes(section, _macros, graph):
     for index, category in _macros.iterrows():
         graph.add_node(
             node_id(category, section),
-            label=f'{category["aspect name"]} / {category["short category name"]}\n({section})',
+            label=f'{category["short category name"]}\n({section})',
+            # label=f'{category["aspect name"]} / {category["short category name"]}\n({section})',
             category=category['short category name'], aspect=category['aspect name'], style='category')
 
 
@@ -195,4 +196,33 @@ if __name__ == '__main__':
                         macros_filter=[True] * len(macros.index))
     print("done")
 
-    print()
+    raw_counts = categorization.groupby(by=['aspect name', 'short category name', 'section name']).count()
+    counts = {}
+    for by, entry in raw_counts.iterrows():
+        aspect, category, section = by
+        count = entry['vsz id']
+        if aspect not in counts:
+            counts[aspect] = {}
+        if category not in counts[aspect]:
+            counts[aspect][category] = {'routine': '', 'feature': '', 'use-case': ''}
+        counts[aspect][category][section] = count if count > 0 else ''
+        assert 0 <= count <= 6
+
+    with open('table.tex', 'w', encoding='utf-8') as table_file:
+        for aspect, categories_count in counts.items():
+            table_file.write(r'\begin{table}\centering' + '\n')
+            table_file.write(r'\begin{tabular}{@{}lccc@{}}' + '\n')
+            table_file.write(r'\toprule' + '\n')
+            table_file.write(r'&\header{routine}&\header{feature}&\header{use-case}\\')
+            table_file.write(r'\midrule' + '\n')
+            for category, sections_count in categories_count.items():
+                table_file.write(
+                    f'\\header{{{category}}}&'
+                    f'{sections_count["routine"]}&{sections_count["feature"]}&{sections_count["use-case"]}\\\\\n')
+            table_file.write(r'\bottomrule' + '\n')
+            table_file.write(r'\end{tabular}' + '\n')
+            table_file.write(
+                f'\\caption{{Count of categories'
+                f' during various sections'
+                f' regarding \\enquote{{{aspect}}} aspect}}' + '\n')
+            table_file.write(r'\end{table}' + '\n')

@@ -9,46 +9,79 @@
   <key id="d1" for="node" attr.name="category" attr.type="string" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
+    <node id="External sources/Comm (routine)">
+      <data key="d0">Comm
+(routine)</data>
+      <data key="d1">Comm</data>
+      <data key="d2">External sources</data>
+      <data key="d3">category</data>
+    </node>
     <node id="External sources/Exp (routine)">
-      <data key="d0">External sources / Exp
+      <data key="d0">Exp
 (routine)</data>
       <data key="d1">Exp</data>
       <data key="d2">External sources</data>
       <data key="d3">category</data>
     </node>
+    <node id="External sources/Comm (feature)">
+      <data key="d0">Comm
+(feature)</data>
+      <data key="d1">Comm</data>
+      <data key="d2">External sources</data>
+      <data key="d3">category</data>
+    </node>
     <node id="External sources/Exp (feature)">
-      <data key="d0">External sources / Exp
+      <data key="d0">Exp
 (feature)</data>
       <data key="d1">Exp</data>
       <data key="d2">External sources</data>
       <data key="d3">category</data>
     </node>
+    <node id="External sources/Comm (use-case)">
+      <data key="d0">Comm
+(use-case)</data>
+      <data key="d1">Comm</data>
+      <data key="d2">External sources</data>
+      <data key="d3">category</data>
+    </node>
     <node id="External sources/Exp (use-case)">
-      <data key="d0">External sources / Exp
+      <data key="d0">Exp
 (use-case)</data>
       <data key="d1">Exp</data>
       <data key="d2">External sources</data>
       <data key="d3">category</data>
     </node>
-    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="90">
+    <edge source="External sources/Comm (routine)" target="External sources/Comm (feature)" id="112">
+      <data key="d4">4</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="111">
       <data key="d4">3</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="91">
+    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="113">
       <data key="d4">6</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="92">
+    <edge source="External sources/Comm (feature)" target="External sources/Comm (use-case)" id="115">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="114">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="93">
+    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="116">
       <data key="d4">6</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>

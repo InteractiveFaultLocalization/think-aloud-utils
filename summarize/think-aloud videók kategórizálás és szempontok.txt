@@ -319,36 +319,66 @@ szinte pontosan ugyanazt a munkamenetet követi a második példán is mint az e
 ________________
 vsz. 4 (Béla) (A, B, D, F)
 !debugging strategies
-(routine) 
-(feature) 
-(use-case) 
+(routine) Drill Up from the Problem to the Bug
+(feature) Drill Up from the Problem to the Bug
+(use-case) Drill Up from the Problem to the Bug
 !debugging styles
-(routine)
-(feature)
-(use-case) 
+(routine) manual debugging; interactive debugging; socially-aided debugging
+a hibásnak fél kódrészletet kommentbe teszi
+az első feladatnál hamar megtalálta a hiba helyét, a másodiknál már használ debug módot (és breakpoint-okat)
+google: java bigdecimal javadoc és java number value types (docs.oracle.com)
+a docs.oracle.com oldalt sokat olvasta
+(feature) manual debugging; interactive debugging; tool-aided debugging; socially-aided debugging
+kód és doc olvasása
+debug + breakpoint használat
+kíváncsiságból megnézi a coverage-t, de alapvetően szkeptikus vele kapcsolatban
+kíváncsiságból megnézi az iFL-t, tanulmányozza a rangsort de nem használja az interaktivitást de “sokkal nem lettem előrébb” by vsz.
+megnézi az Atlas gráfjait, de nem használja fel a belőle nyerhető információkat
+google: java system arraycopy example (tutorialspoint)
+(use-case) manual debugging; interactive debugging; tool-aided debugging; socially-aided debugging
+debug mód és breakpoint használata
+coveragehasználata: nem támaszkodott rá és hamar zavarta a kód színezése ezért kikapcsolta
+iFL használata - az interaktivitás továbbra sincs használva valamint hamar mellőzte a rangsort
+Atlas: kipróbálta, de csak azután h kijavította a hibát
+azt mondja, hogy nem rég óta használja a coverage-t (kb. fél éve a SonarQube-t) és akkor sem hibalokalizálásra (hanem csak lefedettségvizsgálatra)
+google: hogyan lehet eltüntetni a coverage színezését
 !ease of verbalization
-(routine) 
-(feature) 
-(use-case) 
+(routine) inaccessible processes
+(feature) inaccessible processes
+(use-case) inaccessible processes
 !diverging from routine debugging workflow
-(feature)
-(use-case) 
+(feature) conservative; conformist
+megnézi a különböző eszközöket (mindhármat) de nem igazán támaszkodik azok funkcióira és eredményeire sem
+(use-case) conservative; conformist
+megnézi a rangsort de nem igazán használja (az interaktivitást egyáltalán nem)
+a coverage-t hamar elveti
+Atlas használata csak a fix után
 !sources provided by the development environment
-(routine) 
-(feature) 
-(use-case)
+(routine) static source code; test results; traces; settings and configuration of the IDE or tools
+hamar megtalálta és kijavította a hibát, azonban egy “random teszt” (FastDateFormatTest) bukása kicsit félre vitte
+néhány “technikai beállítás” elvégzése az Eclipse IDE-ben (elsősorban kényelmi szempontok és nem közvetlenül a bugfix miatt)
+(feature) static source code; test results; traces; test coverage; ranks
+kipróbálja az eszközöket, de nem használja azoknak az információit
+(use-case) static source code; test results; test coverage; ranks
+kipróbálja a coverage-t és az iFL-t, de nem használja azoknak az információit
+Atlas csak a fix után van kipróbálva - mintha csak kíváncsiságból megnézné, hogy mit tud
 !sources provided by people
-(routine) 
-(feature) 
-(use-case)
+(routine) community
+google és stackoverflow
+(feature) community
+google + tutorialspoint ill. stackoverflow
+(use-case) community
+a tesztfuttatásra keresett rá noha a hibát már kijavította (google: eclipse run junit test suite - stackoverflow)
 !topic of information
-(routine) 
-(feature) 
-(use-case)
+(routine) information about the related source code; special knowledge required for the task
+(feature) information about the related source code; special knowledge required for the task
+(use-case) information about the related source code
 !new information processing
-(routine) 
-(feature) 
-(use-case) 
+(routine) a priori usage
+(feature) consider useless
+megnézi az eszközöket, de nem igazán használja azok funkcióit és az azokból nyerhető információkat
+(use-case)  consider useless
+megnézi az eszközöket, de nem igazán használja azok funkcióit és az azokból nyerhető információkat
 ________________
 vsz. 5 (Béla) (A, B, C, E)
 !debugging strategies

@@ -10,187 +10,236 @@
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="Debugging styles/ManDeb (routine)">
-      <data key="d0">Debugging styles / ManDeb
+      <data key="d0">ManDeb
 (routine)</data>
       <data key="d1">ManDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/IntDeb (routine)">
-      <data key="d0">Debugging styles / IntDeb
+      <data key="d0">IntDeb
 (routine)</data>
       <data key="d1">IntDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/SocDeb (routine)">
-      <data key="d0">Debugging styles / SocDeb
+      <data key="d0">SocDeb
 (routine)</data>
       <data key="d1">SocDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/ManDeb (feature)">
-      <data key="d0">Debugging styles / ManDeb
+      <data key="d0">ManDeb
 (feature)</data>
       <data key="d1">ManDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/IntDeb (feature)">
-      <data key="d0">Debugging styles / IntDeb
+      <data key="d0">IntDeb
 (feature)</data>
       <data key="d1">IntDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/ToolDeb (feature)">
-      <data key="d0">Debugging styles / ToolDeb
+      <data key="d0">ToolDeb
 (feature)</data>
       <data key="d1">ToolDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
+    <node id="Debugging styles/SocDeb (feature)">
+      <data key="d0">SocDeb
+(feature)</data>
+      <data key="d1">SocDeb</data>
+      <data key="d2">Debugging styles</data>
+      <data key="d3">category</data>
+    </node>
     <node id="Debugging styles/ManDeb (use-case)">
-      <data key="d0">Debugging styles / ManDeb
+      <data key="d0">ManDeb
 (use-case)</data>
       <data key="d1">ManDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/IntDeb (use-case)">
-      <data key="d0">Debugging styles / IntDeb
+      <data key="d0">IntDeb
 (use-case)</data>
       <data key="d1">IntDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/ToolDeb (use-case)">
-      <data key="d0">Debugging styles / ToolDeb
+      <data key="d0">ToolDeb
 (use-case)</data>
       <data key="d1">ToolDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging styles/SocDeb (use-case)">
-      <data key="d0">Debugging styles / SocDeb
+      <data key="d0">SocDeb
 (use-case)</data>
       <data key="d1">SocDeb</data>
       <data key="d2">Debugging styles</data>
       <data key="d3">category</data>
     </node>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="11">
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="13">
       <data key="d4">1</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
-    </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="18">
-      <data key="d4">5</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
     <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="20">
+      <data key="d4">4</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="23">
+      <data key="d4">5</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="25">
       <data key="d4">6</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="13">
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="15">
       <data key="d4">2</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="17">
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="19">
       <data key="d4">3</data>
       <data key="d5">feature</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ManDeb (feature)" id="14">
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ManDeb (feature)" id="16">
       <data key="d4">2</data>
       <data key="d5">feature</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="16">
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="18">
       <data key="d4">3</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="12">
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (feature)" id="21">
+      <data key="d4">4</data>
+      <data key="d5">feature</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="14">
       <data key="d4">1</data>
       <data key="d5">feature</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="15">
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="17">
       <data key="d4">2</data>
       <data key="d5">feature</data>
       <data key="d6">2</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="19">
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="22">
+      <data key="d4">4</data>
+      <data key="d5">feature</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="24">
       <data key="d4">5</data>
       <data key="d5">feature</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="21">
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="26">
       <data key="d4">1</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="27">
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="32">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="36">
       <data key="d4">5</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="24">
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="29">
       <data key="d4">2</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="29">
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="38">
       <data key="d4">6</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="23">
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="28">
       <data key="d4">2</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="26">
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="33">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="31">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="22">
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="27">
       <data key="d4">1</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="25">
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="34">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">2</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="30">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/SocDeb (use-case)" id="28">
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/SocDeb (use-case)" id="37">
       <data key="d4">5</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (use-case)" id="35">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">3</data>
       <data key="d7">transition</data>
     </edge>
   </graph>

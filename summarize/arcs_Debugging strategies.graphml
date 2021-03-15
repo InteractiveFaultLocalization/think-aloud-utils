@@ -10,63 +10,63 @@
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="Debugging strategies/DrillUp (routine)">
-      <data key="d0">Debugging strategies / DrillUp
+      <data key="d0">DrillUp
 (routine)</data>
       <data key="d1">DrillUp</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/DrillDn (routine)">
-      <data key="d0">Debugging strategies / DrillDn
+      <data key="d0">DrillDn
 (routine)</data>
       <data key="d1">DrillDn</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/Refact (routine)">
-      <data key="d0">Debugging strategies / Refact
+      <data key="d0">Refact
 (routine)</data>
       <data key="d1">Refact</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/DrillUp (feature)">
-      <data key="d0">Debugging strategies / DrillUp
+      <data key="d0">DrillUp
 (feature)</data>
       <data key="d1">DrillUp</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/DrillDn (feature)">
-      <data key="d0">Debugging strategies / DrillDn
+      <data key="d0">DrillDn
 (feature)</data>
       <data key="d1">DrillDn</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/AddDbg (feature)">
-      <data key="d0">Debugging strategies / AddDbg
+      <data key="d0">AddDbg
 (feature)</data>
       <data key="d1">AddDbg</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/DrillUp (use-case)">
-      <data key="d0">Debugging strategies / DrillUp
+      <data key="d0">DrillUp
 (use-case)</data>
       <data key="d1">DrillUp</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/DrillDn (use-case)">
-      <data key="d0">Debugging strategies / DrillDn
+      <data key="d0">DrillDn
 (use-case)</data>
       <data key="d1">DrillDn</data>
       <data key="d2">Debugging strategies</data>
       <data key="d3">category</data>
     </node>
     <node id="Debugging strategies/AddDbg (use-case)">
-      <data key="d0">Debugging strategies / AddDbg
+      <data key="d0">AddDbg
 (use-case)</data>
       <data key="d1">AddDbg</data>
       <data key="d2">Debugging strategies</data>
@@ -85,6 +85,12 @@
       <data key="d7">transition</data>
     </edge>
     <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="3">
+      <data key="d4">4</data>
+      <data key="d5">feature</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (routine)" target="Debugging strategies/DrillUp (feature)" id="4">
       <data key="d4">5</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
@@ -96,43 +102,49 @@
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/Refact (routine)" target="Debugging strategies/DrillDn (feature)" id="4">
+    <edge source="Debugging strategies/Refact (routine)" target="Debugging strategies/DrillDn (feature)" id="5">
       <data key="d4">6</data>
       <data key="d5">feature</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="7">
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="8">
       <data key="d4">2</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="8">
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="9">
       <data key="d4">3</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="9">
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="10">
+      <data key="d4">4</data>
+      <data key="d5">use-case</data>
+      <data key="d6">0</data>
+      <data key="d7">transition</data>
+    </edge>
+    <edge source="Debugging strategies/DrillUp (feature)" target="Debugging strategies/DrillUp (use-case)" id="11">
       <data key="d4">5</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillDn (use-case)" id="5">
+    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillDn (use-case)" id="6">
       <data key="d4">1</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillUp (use-case)" id="10">
+    <edge source="Debugging strategies/DrillDn (feature)" target="Debugging strategies/DrillUp (use-case)" id="12">
       <data key="d4">6</data>
       <data key="d5">use-case</data>
       <data key="d6">0</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="Debugging strategies/AddDbg (feature)" target="Debugging strategies/AddDbg (use-case)" id="6">
+    <edge source="Debugging strategies/AddDbg (feature)" target="Debugging strategies/AddDbg (use-case)" id="7">
       <data key="d4">1</data>
       <data key="d5">use-case</data>
       <data key="d6">1</data>
