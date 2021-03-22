@@ -81,7 +81,8 @@ def load_categorization() -> pandas.DataFrame:
 def generate_category_by_rareness_figure():
     y = categorization['aspect name'] + ' / ' + categorization['short category name']
     x = categorization['section name']
-    z = categorization['category rank'] + 1
+    z = categorization['category rank'].map(
+        {0: 'mostly observed', 1: 'very common', 2: 'common', 3: 'rare', 4: 'very rare', 5: 'almost absent'})
     fig: Figure
     ax: plt.Axes
     fig, ax = plt.subplots()
@@ -89,11 +90,11 @@ def generate_category_by_rareness_figure():
     fig.set_figwidth(15)
     sns.swarmplot(
         x=x, y=y, hue=z,
-        dodge=True,
+        # dodge=True,
         palette=sns.dark_palette('white'),
         edgecolor='black',
         linewidth=1,
-        size=5,
+        size=10,
         ax=ax)
     ax.get_legend().set_title('Rareness of manifestation')
     ax.set_ylabel('Categories')
@@ -196,7 +197,7 @@ if __name__ == '__main__':
                         macros_filter=[True] * len(macros.index))
     print("done")
 
-    raw_counts = categorization.groupby(by=['aspect name', 'short category name', 'section name']).count()
+    raw_counts = categorization.groupby(by=['aspect command', 'short category command', 'section name']).count()
     counts = {}
     for by, entry in raw_counts.iterrows():
         aspect, category, section = by
