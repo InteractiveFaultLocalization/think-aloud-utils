@@ -1,9 +1,11 @@
 import re
 from math import isnan
 import matplotlib.pyplot as plt
+import numpy
 import seaborn as sns
 
 import pandas
+from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.figure import Figure
 
 import networkx as nx
@@ -78,18 +80,38 @@ def load_categorization() -> pandas.DataFrame:
     return categorization
 
 
+def generate_category_by_rareness_heatmap(_categorization, section):
+    _categorization['unique name'] = _categorization['aspect name'] + ' / ' + _categorization['short category name']
+
+    interesting_columns = ['unique name', 'vsz id', 'category rank']
+    heat_mapped = _categorization[interesting_columns].groupby(by=['unique name', 'vsz id']).sum().unstack('vsz id')
+
+    fig: Figure
+    ax: plt.Axes
+    fig, ax = plt.subplots()
+    fig.set_figheight(10)
+    fig.set_figwidth(10)
+    heatmap = ax.imshow(heat_mapped, cmap=LinearSegmentedColormap.from_list('gery', ['black', 'gainsboro']))
+    for x, column in enumerate(heat_mapped.columns):
+        for y, index in enumerate(heat_mapped.index):
+            entry = heat_mapped[column][index]
+            if not isnan(entry):
+                text = ax.text(x, y, str(6 - int(entry)), ha="center", va="center", color="w")
+
+    ax.set_ylabel('Categories')
+    ax.set_xlabel('Participants')
+    indexes = heat_mapped.index
+    ax.set_yticks(numpy.arange(len(indexes)))
+    ax.set_yticklabels(indexes)
+    ax.set_xticks(numpy.arange(6))
+    ax.set_xticklabels(range(1, 7))
+    fig.tight_layout()
+    # fig.show()
+    fig.savefig(f'category_by_rareness_{section}_heatmap.pdf', bbox_inches='tight')
+
+
 def generate_category_by_rareness_figure(_categorization):
     _categorization['unique name'] = _categorization['aspect name'] + ' / ' + _categorization['short category name']
-    count_of_missing = _categorization.groupby(by=['unique name', 'section name']).count()
-    for by, row in count_of_missing.iterrows():
-        count = row['aspect name']
-        missing_count = 6 - count
-        for i in range(missing_count):
-            _categorization = _categorization.append({
-                'unique name': by[0],
-                'section name': by[1],
-                'category rank': 6
-            }, ignore_index=True)
 
     y = _categorization['unique name']
     x = _categorization['section name']
@@ -100,8 +122,8 @@ def generate_category_by_rareness_figure(_categorization):
             2: 'common',
             3: 'rare',
             4: 'very rare',
-            5: 'almost absent',
-            6: 'missing'})
+            5: 'almost absent'
+        })
     fig: Figure
     ax: plt.Axes
     fig, ax = plt.subplots()
@@ -109,10 +131,10 @@ def generate_category_by_rareness_figure(_categorization):
     fig.set_figwidth(15)
     sns.swarmplot(
         x=x, y=y, hue=z,
-        palette=sns.dark_palette('white') + ['red'],
+        palette=sns.dark_palette('white'),
         edgecolor='black',
         linewidth=1,
-        size=9,
+        size=10,
         marker='s',
         ax=ax)
     ax.get_legend().set_title('Rareness of manifestation')
@@ -204,6 +226,12 @@ if __name__ == '__main__':
 
     print("generating category by rareness...", end='')
     generate_category_by_rareness_figure(categorization.copy())
+    print("done")
+
+    print("generating category by rareness heatmap...", end='')
+    for section in categorization['section name'].unique():
+        is_section = categorization['section name'] == section
+        generate_category_by_rareness_heatmap(categorization[is_section].copy(), section)
     print("done")
 
     for aspect in macros['aspect name'].unique():
