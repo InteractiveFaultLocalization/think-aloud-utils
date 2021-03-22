@@ -137,7 +137,6 @@ def generate_category_by_rareness_figure(_categorization):
         size=10,
         marker='s',
         ax=ax)
-    ax.get_legend().set_title('Rareness of manifestation')
     ax.set_ylabel('Categories')
     ax.set_xlabel('Sections')
     ax.set_xticklabels(['Routine workflow', 'After feature demonstration', 'After use-case discussion'])
