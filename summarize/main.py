@@ -78,11 +78,30 @@ def load_categorization() -> pandas.DataFrame:
     return categorization
 
 
-def generate_category_by_rareness_figure():
-    y = categorization['aspect name'] + ' / ' + categorization['short category name']
-    x = categorization['section name']
-    z = categorization['category rank'].map(
-        {0: 'mostly observed', 1: 'very common', 2: 'common', 3: 'rare', 4: 'very rare', 5: 'almost absent'})
+def generate_category_by_rareness_figure(_categorization):
+    _categorization['unique name'] = _categorization['aspect name'] + ' / ' + _categorization['short category name']
+    count_of_missing = _categorization.groupby(by=['unique name', 'section name']).count()
+    for by, row in count_of_missing.iterrows():
+        count = row['aspect name']
+        missing_count = 6 - count
+        for i in range(missing_count):
+            _categorization = _categorization.append({
+                'unique name': by[0],
+                'section name': by[1],
+                'category rank': 6
+            }, ignore_index=True)
+
+    y = _categorization['unique name']
+    x = _categorization['section name']
+    z = _categorization['category rank'].map(
+        {
+            0: 'mostly observed',
+            1: 'very common',
+            2: 'common',
+            3: 'rare',
+            4: 'very rare',
+            5: 'almost absent',
+            6: 'missing'})
     fig: Figure
     ax: plt.Axes
     fig, ax = plt.subplots()
@@ -90,11 +109,11 @@ def generate_category_by_rareness_figure():
     fig.set_figwidth(15)
     sns.swarmplot(
         x=x, y=y, hue=z,
-        # dodge=True,
-        palette=sns.dark_palette('white'),
+        palette=sns.dark_palette('white') + ['red'],
         edgecolor='black',
         linewidth=1,
-        size=10,
+        size=9,
+        marker='s',
         ax=ax)
     ax.get_legend().set_title('Rareness of manifestation')
     ax.set_ylabel('Categories')
@@ -184,7 +203,7 @@ if __name__ == '__main__':
     print("done")
 
     print("generating category by rareness...", end='')
-    generate_category_by_rareness_figure()
+    generate_category_by_rareness_figure(categorization.copy())
     print("done")
 
     for aspect in macros['aspect name'].unique():
