@@ -80,7 +80,7 @@ def load_categorization() -> pandas.DataFrame:
     return categorization
 
 
-def generate_category_by_rareness_heatmap(_categorization, section):
+def generate_category_by_rareness_heatmap(_categorization, section, y_label=True):
     interesting_columns = ['unique name', 'vsz id', 'category rank']
     heat_mapped = _categorization[interesting_columns].groupby(by=['unique name', 'vsz id']).sum().unstack('vsz id')
     present = set(heat_mapped.index)
@@ -102,16 +102,20 @@ def generate_category_by_rareness_heatmap(_categorization, section):
             if not isnan(entry):
                 text = ax.text(x, y, str(6 - int(entry)), ha="center", va="center", color="w")
 
-    ax.set_ylabel('Categories')
     ax.set_xlabel('Participants')
     indexes = heat_mapped.index
     ax.set_yticks(numpy.arange(len(indexes)))
-    ax.set_yticklabels(indexes)
+    if y_label:
+        ax.set_ylabel('Categories')
+        ax.set_yticklabels(indexes)
+    else:
+        ax.set_ylabel('')
+        ax.set_yticklabels([''] * len(indexes))
     ax.set_xticks(numpy.arange(6))
     ax.set_xticklabels(range(1, 7))
     fig.tight_layout()
     # fig.show()
-    fig.savefig(f'category_by_rareness_{section}_heatmap.pdf', bbox_inches='tight')
+    fig.savefig(f'category_by_rareness_{section}_{"label" if y_label else "no-label"}_heatmap.pdf', bbox_inches='tight')
 
 
 def generate_category_by_rareness_figure(_categorization):
@@ -237,6 +241,7 @@ if __name__ == '__main__':
     for section in categorization['section name'].unique():
         is_section = categorization['section name'] == section
         generate_category_by_rareness_heatmap(categorization[is_section].copy(), section)
+        generate_category_by_rareness_heatmap(categorization[is_section].copy(), section, y_label=False)
     print("done")
 
     for aspect in macros['aspect name'].unique():
