@@ -131,6 +131,37 @@ FastDateFormat.FastDateFormat (0,31)
 ________________
 
 
+Meglátások és összegzések
+Debugging workflow
+az iFL elméleti hátterével kapcsolatos felfedezések, ez egy bevezető jelleggel lenne, hogyan viszonyulnak magához a módszerhez és alapvetően milyen folyamatokkal kapcsolatos érdekes jelenségeket láttunk.
+részben azért használhatják a tool-okat, mert lehet, hogy sejtették, hogy a kísérlet erre megy ki
+ezt szerintem az elején el kell mondani, aztán nem foglalkozunk vele, nyilván nem tudjuk mérni a valódi motivációt, szóval erre kell egy-két mondat és a threats-ben majd lehet róla részletesen elmélkedni
+a diagramról szépen látszik egy trend ami részben eltolja a fejlesztők munkamenetét az általuk megszokottól a kísérlet szekciói során.
+az iFL sorrendnek nem sok jelentősége van, legalábbis az első 5-8 metódus között nem nagyon tesznek különbséget
+ez egy kritika a módszer felé. lehet hogy a sorrend nem is jó megközelítés? lehet hogy elég lenne csak az éppen vizsgált elemnél jelezni/kérdezni valamit?
+sokszor előfordul, hogy racionalizálnak, tehát elméletben (hipo) értik és elfogadják a módszert, de a gyakorlatban nem használják
+Ez egy egész jó átvezetés lehet a usage felé, hogy ennek biztosan oka van, amit nem mértünk, de esetleg tudunk azonosítani olyan pontokat, amelyek segíthetik hogy ilyen ne történjen
+Usage and utilization
+nem okozott gondot az (i)FL módszertan lényegének megértése (az elsajátítás az már más kérdés)
+vagyis a módszer érthető a fejlesztők számára, tehát illeszkedhet a gondolkodás módjukba, azonban...
+FL nem terjedt el az iparban
+egyik lehetséges ok (vagy okok) meríthetőek a következő cikkből
+page 60:17 issue-5 “Moreover, they are often offered as a separate tool, and the user must switch from their traditional debugger to start algo- rithmic debuggers. We think that, on the contrary, algorithmic debuggers should aim to integrate with existing debuggers, for instance, allowing the user to switch from a trace debugger to the algorithmic debugger easily, while maintaining the same environment and appearance.” (Caballero, R., Riesco, A., & Silva, J. (2017). A Survey of Algorithmic Debugging. ACM Computing Surveys, 50(4), 1–35. https://doi.org/10.1145/3106740)
+az iFL-hez hasonló tool-okhoz már kevés csak a feature-ök felsorolása, emelett szinte kötelező használati eseteket is adni/elmagyarázni
+mivel nem ismert eszközökről és módszerről van szó (FL) ezért nincs meg a programozói köztudatban hogy miért lenne ez hasznos, még akkor sem ha magát a módszert és folyamatot értik. hiányoznak a konkrét use-case-ek példákkal illusztrálva amik a nem ismert tool/módszer tapasztalatinak hiányát pótolják
+az interaktivitás nem használatának fő oka az információhiány (nem érti mit jelent a score/FL, miért van értelme változtatni a sorrendet [use-case hiánya], ...)
+kód az elsődleges info forrás, tehát a kódhoz közel kell tenni az extra információt (pl. mint a coverage színezése)
+az is probléma ha nem érik el / nem jut el hozzájuk az információ, látunk olyat hogy pl a teszt eredményeket csak véletlenül találta meg a fejlesztő, ill. ha az iFL ablak a háttérbe kerül akkor ritkán térnek hozzá vissza, amíg pl a lefedettség folyton ott van a kódban, vagyis szem előtt van
+ezzel ki lehet küszöbölni azt hogy a módszert elhagyják, vagyis hogy csak az elején nézzék meg és utána nem törődnek vele (finom kaja drága kaja egy polcon)
+alapvetően bizalmatlanok a tool-lal, amikor kapnak infót vele kapcsolatban, akkor nő a bizalom, de még mindig óvatosan használják pl. nem igazán zárnak ki metódusokat, context-et meg végképp nem mernek kizárni
+ennek egyik oka az információ hiánya ami a korábbi pontokból fakadhat
+innen át lehet vezetni a dolgot a kontext felé
+Contextual information
+szinte mindenkiről elmondható hogy követi a megszokott munkamenetét és ettől nem szívesen tér el. bizonyos esetben ez gátolja az iFL és általában az új tool ok bevezetését, de néha segíti.
+        gátol: pl. nagyon manuális munkamenethez szokott, esetleg a szakmabeli fogalmak hiánya miatt sem mer/hajlandó új módszert kipróbálni, alapvetően nem érzi hasznosnak egy új eszköz megtanulását, mivel jól elboldogul a low-tech megoldásokkal is amiket ismer.
+rendszeresen nagy volumenű contextusokkal dolgozik (architect) ezért lehet, hogy tudna context-ekre mondani véleményt, viszont a bug javítás finomabb felbontású --> az iFL segíthetne áthidalni/összekötni a két információ szintet (vsz. 6)
+hipotézis, hogy context-re tud mondani valamit a user: a tool mentes folyamatban is csinálnak olyat, hogy ránéznek egy metódusra és kizárják akár rögtön (viszont ezek inkább rövidebb/egyszerűbb metódusok), de nyilván előfordul olyan is, hogy egy metódust hosszabb ideig elemeznek vagy esetleg később visszatérnek rá többször is - óriási kérdés, hogy tudjuk-e ezt számszerűsíteni valahogy: pl. hány/mekkora metódust zárt ki rögtön, stb.
+________________
 
 
 vsz. 1 (Gergő) (A, B, D, E)
@@ -146,7 +177,7 @@ saját elmondása szerint nem napi rutin hogy lefedettséget használ és ez lá
 mindhárom tool-t használja, ebből az atlas és a emma amit többet, de ezeket is csak mellékesen, amikor már nem jut eszébe más.
 (use-case) manual debugging; tool-aided debugging
 azért nem használja az interaktív debuggolást mert nem érti hogy hogyan működik és mire jó ezért azt hiszi, hogy nem ad több infot mint a manuális debug
-a (feature) alkalommal sikerült használnia az iFL-t és a hipotetikus esetnél önnálóan megfogalmazta az egyik alap use-case-t hozzá. nem okozott problémát a z inicializálás a (use-case) részben
+a (feature) alkalommal sikerült használnia az iFL-t és a hipotetikus esetnél önállóan megfogalmazta az egyik alap use-case-t hozzá. nem okozott problémát az inicializálás a (use-case) részben
 !ease of verbalization
 (routine) unprompted "braindump"
 (feature) unprompted "braindump"
@@ -239,8 +270,8 @@ programkód és javadoc olvasás
 println
 (feature) static source code; test results; traces
 println helyett debug módra vált
-(use-case) static source code; test results; traces; test coverage; ranks
-megnézi h mely elem van a gyanússági sorrend elején, de a többit nem igazán tanulmányozza
+(use-case) static source code; test results; traces; test coverage; iFL
+megnézi h mely elem van a iFL gyanússági sorrend elején, de a többit nem igazán tanulmányozza
 !sources provided by people
 (routine) community
 google használata
@@ -340,7 +371,7 @@ debug mód és breakpoint használata
 coveragehasználata: nem támaszkodott rá és hamar zavarta a kód színezése ezért kikapcsolta
 iFL használata - az interaktivitás továbbra sincs használva valamint hamar mellőzte a rangsort
 Atlas: kipróbálta, de csak azután h kijavította a hibát
-azt mondja, hogy nem rég óta használja a coverage-t (kb. fél éve a SonarQube-t) és akkor sem hibalokalizálásra (hanem csak lefedettségvizsgálatra)
+azt mondja, hogy nem rég óta használja a coverage-t (kb. fél éve a SonarQube-t) és akkor sem hibalokalizálásra (hanem csak lefedettség vizsgálatra)
 google: hogyan lehet eltüntetni a coverage színezését
 !ease of verbalization
 (routine) inaccessible processes
@@ -357,9 +388,9 @@ Atlas használata csak a fix után
 (routine) static source code; test results; traces; settings and configuration of the IDE or tools
 hamar megtalálta és kijavította a hibát, azonban egy “random teszt” (FastDateFormatTest) bukása kicsit félre vitte
 néhány “technikai beállítás” elvégzése az Eclipse IDE-ben (elsősorban kényelmi szempontok és nem közvetlenül a bugfix miatt)
-(feature) static source code; test results; traces; test coverage; ranks
-kipróbálja az eszközöket, de nem használja azoknak az információit
-(use-case) static source code; test results; test coverage; ranks
+(feature) static source code; test results; traces; test coverage; iFL
+kipróbálja az eszközöket (iFL is), de nem használja azoknak az információit
+(use-case) static source code; test results; test coverage; iFL
 kipróbálja a coverage-t és az iFL-t, de nem használja azoknak az információit
 Atlas csak a fix után van kipróbálva - mintha csak kíváncsiságból megnézné, hogy mit tud
 !sources provided by people

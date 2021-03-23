@@ -81,10 +81,14 @@ def load_categorization() -> pandas.DataFrame:
 
 
 def generate_category_by_rareness_heatmap(_categorization, section):
-    _categorization['unique name'] = _categorization['aspect name'] + ' / ' + _categorization['short category name']
-
     interesting_columns = ['unique name', 'vsz id', 'category rank']
     heat_mapped = _categorization[interesting_columns].groupby(by=['unique name', 'vsz id']).sum().unstack('vsz id')
+    present = set(heat_mapped.index)
+    all_category = set(categorization['unique name'].unique())
+    missings = all_category - present
+    for missing in missings:
+        heat_mapped.loc[missing] = numpy.nan
+    heat_mapped.sort_index(inplace=True)
 
     fig: Figure
     ax: plt.Axes
@@ -217,6 +221,8 @@ if __name__ == '__main__':
     print("loading categorization...", end='')
     categorization = load_categorization()
     categorization = categorization.join(macros.set_index('legacy category name'), on='legacy category name')
+    categorization['unique name'] = categorization['aspect name'] + ' / ' + categorization['short category name']
+
     for record in categorization.values:
         for value in record:
             if isinstance(value, float) and isnan(value):

@@ -149,13 +149,6 @@
       <data key="d2">By IDE</data>
       <data key="d3">category</data>
     </node>
-    <node id="By IDE/Order (use-case)">
-      <data key="d0">Order
-(use-case)</data>
-      <data key="d1">Order</data>
-      <data key="d2">By IDE</data>
-      <data key="d3">category</data>
-    </node>
     <node id="By IDE/iFL (use-case)">
       <data key="d0">iFL
 (use-case)</data>
@@ -379,7 +372,7 @@
       <data key="d6">3</data>
       <data key="d7">transition</data>
     </edge>
-    <edge source="By IDE/Cover (feature)" target="By IDE/Order (use-case)" id="103">
+    <edge source="By IDE/Cover (feature)" target="By IDE/iFL (use-case)" id="103">
       <data key="d4">4</data>
       <data key="d5">use-case</data>
       <data key="d6">3</data>
