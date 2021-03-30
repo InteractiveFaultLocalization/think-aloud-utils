@@ -1,2 +1,0 @@
-# think-aloud toolkit
-
