@@ -1,4 +1,4 @@
-,legacy category name,vsz id,category rank,phase name,aspect name,aspect command,short category name,short category command,long category name,long category command,unique name
+,legacy category name,participant,category rank,phase name,aspect name,aspect command,short category name,short category command,long category name,long category command,unique name
 0,Down from the Program's Start to the Bug,1,0,routine,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
 1,Down from the Program's Start to the Bug,1,0,feature,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
 2,Add Debugging Functionality,1,1,feature,Debugging strategies,\dbgstrat,AddDbg,\dbgstratAddDbg,Add Debugging Functionality,\dbgstratAddDbgL,Debugging strategies / AddDbg

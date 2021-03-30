@@ -6,7 +6,7 @@
   <key id="d35" for="edge" attr.name="to_aspect name" attr.type="string" />
   <key id="d34" for="edge" attr.name="to_phase name" attr.type="string" />
   <key id="d33" for="edge" attr.name="to_category rank" attr.type="int" />
-  <key id="d32" for="edge" attr.name="to_vsz id" attr.type="string" />
+  <key id="d32" for="edge" attr.name="to_participant" attr.type="string" />
   <key id="d31" for="edge" attr.name="to_legacy category name" attr.type="string" />
   <key id="d30" for="edge" attr.name="style" attr.type="string" />
   <key id="d29" for="edge" attr.name="from_unique name" attr.type="string" />
@@ -15,7 +15,7 @@
   <key id="d26" for="edge" attr.name="from_aspect name" attr.type="string" />
   <key id="d25" for="edge" attr.name="from_phase name" attr.type="string" />
   <key id="d24" for="edge" attr.name="from_category rank" attr.type="int" />
-  <key id="d23" for="edge" attr.name="from_vsz id" attr.type="string" />
+  <key id="d23" for="edge" attr.name="from_participant" attr.type="string" />
   <key id="d22" for="edge" attr.name="from_legacy category name" attr.type="string" />
   <key id="d21" for="node" attr.name="to_unique name" attr.type="string" />
   <key id="d20" for="node" attr.name="to_long category name" attr.type="string" />
@@ -23,7 +23,7 @@
   <key id="d18" for="node" attr.name="to_aspect name" attr.type="string" />
   <key id="d17" for="node" attr.name="to_phase name" attr.type="string" />
   <key id="d16" for="node" attr.name="to_category rank" attr.type="int" />
-  <key id="d15" for="node" attr.name="to_vsz id" attr.type="string" />
+  <key id="d15" for="node" attr.name="to_participant" attr.type="string" />
   <key id="d14" for="node" attr.name="to_legacy category name" attr.type="string" />
   <key id="d13" for="node" attr.name="from_unique name" attr.type="string" />
   <key id="d12" for="node" attr.name="from_long category name" attr.type="string" />
@@ -31,7 +31,7 @@
   <key id="d10" for="node" attr.name="from_aspect name" attr.type="string" />
   <key id="d9" for="node" attr.name="from_phase name" attr.type="string" />
   <key id="d8" for="node" attr.name="from_category rank" attr.type="int" />
-  <key id="d7" for="node" attr.name="from_vsz id" attr.type="string" />
+  <key id="d7" for="node" attr.name="from_participant" attr.type="string" />
   <key id="d6" for="node" attr.name="from_legacy category name" attr.type="string" />
   <key id="d5" for="node" attr.name="style" attr.type="string" />
   <key id="d4" for="node" attr.name="legacy category name" attr.type="string" />

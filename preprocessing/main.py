@@ -58,7 +58,7 @@ def load_category_macros_from_tex() -> pandas.DataFrame:
 
 
 def load_categorization_from_raw_notes() -> pandas.DataFrame:
-    categorization = pandas.DataFrame(columns=['legacy category name', 'vsz id', 'category rank', 'phase name'])
+    categorization = pandas.DataFrame(columns=['legacy category name', 'participant', 'category rank', 'phase name'])
     with open(NOTE_PATH, 'r', encoding='utf-8') as note_file:
         current_vsz = None
         for line in note_file:
@@ -75,7 +75,7 @@ def load_categorization_from_raw_notes() -> pandas.DataFrame:
                     if legacy_name not in ['none']:
                         categorization = categorization.append({
                             'legacy category name': legacy_name,
-                            'vsz id': current_vsz,
+                            'participant': current_vsz,
                             'category rank': index,
                             'phase name': phase_name
                         }, ignore_index=True)
@@ -83,8 +83,8 @@ def load_categorization_from_raw_notes() -> pandas.DataFrame:
 
 
 def generate_category_by_rareness_heatmap(_categorization, phase, y_label=True):
-    interesting_columns = ['unique name', 'vsz id', 'category rank']
-    heat_mapped = _categorization[interesting_columns].groupby(by=['unique name', 'vsz id']).sum().unstack('vsz id')
+    interesting_columns = ['unique name', 'participant', 'category rank']
+    heat_mapped = _categorization[interesting_columns].groupby(by=['unique name', 'participant']).sum().unstack('participant')
     present = set(heat_mapped.index)
     all_category = set(categorization['unique name'].unique())
     missings = all_category - present
@@ -168,8 +168,8 @@ def _connect_to_from(from_categorization, to_categorization,
     global edge_id
     for from_index, from_category in from_categorization.iterrows():
         for to_index, to_category in to_categorization.iterrows():
-            from_vsz_id = from_category['vsz id']
-            to_vsz_id = to_category['vsz id']
+            from_vsz_id = from_category['participant']
+            to_vsz_id = to_category['participant']
             is_vsz_id_same = from_vsz_id == to_vsz_id
             is_aspect_same = from_category['aspect name'] == to_category['aspect name']
             if is_vsz_id_same and is_aspect_same:
@@ -289,7 +289,7 @@ if __name__ == '__main__':
     counts = {}
     for by, entry in raw_counts.iterrows():
         aspect, category, phase = by
-        count = entry['vsz id']
+        count = entry['participant']
         if aspect not in counts:
             counts[aspect] = {}
         if category not in counts[aspect]:
