@@ -75,7 +75,7 @@
       </conversion>
     </mapping>
     <mapping>
-      <source name="description" origin="dataProperty" type="string"/>
+      <source name="style" origin="customProperty" type="string"/>
       <target name="labelBackgroundColor" type="color">
         <hints>
           <hint type="int">0</hint>
@@ -83,10 +83,19 @@
       </target>
       <conversion type="discrete">
         <discrete>
-          <value/>
+          <value>category</value>
           <result>#ffffff</result>
         </discrete>
       </conversion>
+    </mapping>
+    <mapping>
+      <source name="description" origin="dataProperty" type="string"/>
+      <target name="labelText" type="string">
+        <hints>
+          <hint type="int">0</hint>
+        </hints>
+      </target>
+      <conversion type="asIs"/>
     </mapping>
     <mapping>
       <source name="label" origin="customProperty" type="string"/>
@@ -106,6 +115,10 @@
       <conversion type="discrete">
         <discrete>
           <value>category</value>
+          <result>#ffffff</result>
+        </discrete>
+        <discrete>
+          <value>join</value>
           <result>#ffffff</result>
         </discrete>
       </conversion>
@@ -154,32 +167,10 @@
         </discrete>
       </conversion>
     </mapping>
-    <mapping>
-      <source name="style" origin="customProperty" type="string"/>
-      <target name="geometryHeight" type="double">
-        <hints/>
-      </target>
-      <conversion type="discrete">
-        <discrete>
-          <value>category</value>
-          <result>60.0</result>
-        </discrete>
-      </conversion>
-    </mapping>
-    <mapping>
-      <source name="ranks" origin="customProperty" type="string"/>
-      <target name="labelText" type="string">
-        <hints>
-          <hint type="int">0</hint>
-          <hint type="boolean">true</hint>
-        </hints>
-      </target>
-      <conversion type="asIs"/>
-    </mapping>
   </style>
   <style name="ifl think aloud" scope="edge" selectionOnly="false">
     <mapping>
-      <source name="developer" origin="customProperty" type="string"/>
+      <source name="from_vsz id" origin="customProperty" type="string"/>
       <target name="lineColor" type="color">
         <hints/>
       </target>
@@ -211,17 +202,83 @@
       </conversion>
     </mapping>
     <mapping>
-      <source name="rank" origin="customProperty" type="int"/>
+      <source name="to_vsz id" origin="customProperty" type="string"/>
+      <target name="lineColor" type="color">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>1</value>
+          <result>#ff9900</result>
+        </discrete>
+        <discrete>
+          <value>2</value>
+          <result>#99cc00</result>
+        </discrete>
+        <discrete>
+          <value>3</value>
+          <result>#339966</result>
+        </discrete>
+        <discrete>
+          <value>4</value>
+          <result>#33cccc</result>
+        </discrete>
+        <discrete>
+          <value>5</value>
+          <result>#3366ff</result>
+        </discrete>
+        <discrete>
+          <value>6</value>
+          <result>#800080</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="from_category rank" origin="customProperty" type="int"/>
       <target name="lineWidth" type="double">
         <hints/>
       </target>
       <conversion type="linear">
         <linear>
           <min>0</min>
-          <minResult>10.0</minResult>
+          <minResult>15.0</minResult>
           <max>5</max>
-          <maxResult>1.0</maxResult>
+          <maxResult>0.1</maxResult>
         </linear>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="to_category rank" origin="customProperty" type="int"/>
+      <target name="lineWidth" type="double">
+        <hints/>
+      </target>
+      <conversion type="linear">
+        <linear>
+          <min>0</min>
+          <minResult>15.0</minResult>
+          <max>5</max>
+          <maxResult>0.1</maxResult>
+        </linear>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="style" origin="customProperty" type="string"/>
+      <target name="arrowTarget" type="arrow">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>from</value>
+          <result>
+            <arrow type="none"/>
+          </result>
+        </discrete>
+        <discrete>
+          <value>to</value>
+          <result>
+            <arrow type="standard"/>
+          </result>
+        </discrete>
       </conversion>
     </mapping>
   </style>

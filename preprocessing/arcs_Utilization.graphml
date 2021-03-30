@@ -1,147 +1,723 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d7" for="edge" attr.name="style" attr.type="string" />
-  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
-  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
-  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
-  <key id="d3" for="node" attr.name="style" attr.type="string" />
-  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
-  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d38" for="edge" attr.name="to_unique name" attr.type="string" />
+  <key id="d37" for="edge" attr.name="to_long category name" attr.type="string" />
+  <key id="d36" for="edge" attr.name="to_short category name" attr.type="string" />
+  <key id="d35" for="edge" attr.name="to_aspect name" attr.type="string" />
+  <key id="d34" for="edge" attr.name="to_phase name" attr.type="string" />
+  <key id="d33" for="edge" attr.name="to_category rank" attr.type="int" />
+  <key id="d32" for="edge" attr.name="to_vsz id" attr.type="string" />
+  <key id="d31" for="edge" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d30" for="edge" attr.name="style" attr.type="string" />
+  <key id="d29" for="edge" attr.name="from_unique name" attr.type="string" />
+  <key id="d28" for="edge" attr.name="from_long category name" attr.type="string" />
+  <key id="d27" for="edge" attr.name="from_short category name" attr.type="string" />
+  <key id="d26" for="edge" attr.name="from_aspect name" attr.type="string" />
+  <key id="d25" for="edge" attr.name="from_phase name" attr.type="string" />
+  <key id="d24" for="edge" attr.name="from_category rank" attr.type="int" />
+  <key id="d23" for="edge" attr.name="from_vsz id" attr.type="string" />
+  <key id="d22" for="edge" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d21" for="node" attr.name="to_unique name" attr.type="string" />
+  <key id="d20" for="node" attr.name="to_long category name" attr.type="string" />
+  <key id="d19" for="node" attr.name="to_short category name" attr.type="string" />
+  <key id="d18" for="node" attr.name="to_aspect name" attr.type="string" />
+  <key id="d17" for="node" attr.name="to_phase name" attr.type="string" />
+  <key id="d16" for="node" attr.name="to_category rank" attr.type="int" />
+  <key id="d15" for="node" attr.name="to_vsz id" attr.type="string" />
+  <key id="d14" for="node" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d13" for="node" attr.name="from_unique name" attr.type="string" />
+  <key id="d12" for="node" attr.name="from_long category name" attr.type="string" />
+  <key id="d11" for="node" attr.name="from_short category name" attr.type="string" />
+  <key id="d10" for="node" attr.name="from_aspect name" attr.type="string" />
+  <key id="d9" for="node" attr.name="from_phase name" attr.type="string" />
+  <key id="d8" for="node" attr.name="from_category rank" attr.type="int" />
+  <key id="d7" for="node" attr.name="from_vsz id" attr.type="string" />
+  <key id="d6" for="node" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d5" for="node" attr.name="style" attr.type="string" />
+  <key id="d4" for="node" attr.name="legacy category name" attr.type="string" />
+  <key id="d3" for="node" attr.name="long category name" attr.type="string" />
+  <key id="d2" for="node" attr.name="short category name" attr.type="string" />
+  <key id="d1" for="node" attr.name="aspect name" attr.type="string" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="Utilization/APrio (routine)">
       <data key="d0">APrio
 (routine)</data>
-      <data key="d1">APrio</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">APrio</data>
+      <data key="d3">A Priori Usage</data>
+      <data key="d4">a priori usage</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/Usels (feature)">
       <data key="d0">Usels
 (feature)</data>
-      <data key="d1">Usels</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">Usels</data>
+      <data key="d3">Consider Useless</data>
+      <data key="d4">consider useless</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/Integ (feature)">
       <data key="d0">Integ
 (feature)</data>
-      <data key="d1">Integ</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">Integ</data>
+      <data key="d3">Integrated Usage</data>
+      <data key="d4">integrated usage</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/APrio (feature)">
       <data key="d0">APrio
 (feature)</data>
-      <data key="d1">APrio</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">APrio</data>
+      <data key="d3">A Priori Usage</data>
+      <data key="d4">a priori usage</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/Usels (use-case)">
       <data key="d0">Usels
 (use-case)</data>
-      <data key="d1">Usels</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">Usels</data>
+      <data key="d3">Consider Useless</data>
+      <data key="d4">consider useless</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/Furth (use-case)">
       <data key="d0">Furth
 (use-case)</data>
-      <data key="d1">Furth</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">Furth</data>
+      <data key="d3">Need Further Information or Feature</data>
+      <data key="d4">need further information or feature</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/Integ (use-case)">
       <data key="d0">Integ
 (use-case)</data>
-      <data key="d1">Integ</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">Integ</data>
+      <data key="d3">Integrated Usage</data>
+      <data key="d4">integrated usage</data>
+      <data key="d5">category</data>
     </node>
     <node id="Utilization/APrio (use-case)">
       <data key="d0">APrio
 (use-case)</data>
-      <data key="d1">APrio</data>
-      <data key="d2">Utilization</data>
-      <data key="d3">category</data>
+      <data key="d1">Utilization</data>
+      <data key="d2">APrio</data>
+      <data key="d3">A Priori Usage</data>
+      <data key="d4">a priori usage</data>
+      <data key="d5">category</data>
     </node>
-    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="130">
-      <data key="d4">1</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <node id="Utilization/APrio (routine)Utilization/APrio (feature)">
+      <data key="d0">from: APrio
+to: APrio</data>
+      <data key="d6">a priori usage</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">APrio</data>
+      <data key="d12">A Priori Usage</data>
+      <data key="d13">Utilization / APrio</data>
+      <data key="d14">a priori usage</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">APrio</data>
+      <data key="d20">A Priori Usage</data>
+      <data key="d21">Utilization / APrio</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/APrio (routine)Utilization/Integ (feature)">
+      <data key="d0">from: APrio
+to: Integ</data>
+      <data key="d6">a priori usage</data>
+      <data key="d7">5</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">APrio</data>
+      <data key="d12">A Priori Usage</data>
+      <data key="d13">Utilization / APrio</data>
+      <data key="d14">a priori usage</data>
+      <data key="d15">5</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">APrio</data>
+      <data key="d20">A Priori Usage</data>
+      <data key="d21">Utilization / APrio</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/APrio (routine)Utilization/Usels (feature)">
+      <data key="d0">from: APrio
+to: Usels</data>
+      <data key="d6">a priori usage</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">APrio</data>
+      <data key="d12">A Priori Usage</data>
+      <data key="d13">Utilization / APrio</data>
+      <data key="d14">a priori usage</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">APrio</data>
+      <data key="d20">A Priori Usage</data>
+      <data key="d21">Utilization / APrio</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/APrio (feature)Utilization/APrio (use-case)">
+      <data key="d0">from: APrio
+to: APrio</data>
+      <data key="d6">a priori usage</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">APrio</data>
+      <data key="d12">A Priori Usage</data>
+      <data key="d13">Utilization / APrio</data>
+      <data key="d14">a priori usage</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">APrio</data>
+      <data key="d20">A Priori Usage</data>
+      <data key="d21">Utilization / APrio</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/APrio (feature)Utilization/Integ (use-case)">
+      <data key="d0">from: APrio
+to: Integ</data>
+      <data key="d6">a priori usage</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">APrio</data>
+      <data key="d12">A Priori Usage</data>
+      <data key="d13">Utilization / APrio</data>
+      <data key="d14">a priori usage</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">APrio</data>
+      <data key="d20">A Priori Usage</data>
+      <data key="d21">Utilization / APrio</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/Integ (feature)Utilization/APrio (use-case)">
+      <data key="d0">from: Integ
+to: APrio</data>
+      <data key="d6">integrated usage</data>
+      <data key="d7">5</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">Integ</data>
+      <data key="d12">Integrated Usage</data>
+      <data key="d13">Utilization / Integ</data>
+      <data key="d14">integrated usage</data>
+      <data key="d15">5</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">Integ</data>
+      <data key="d20">Integrated Usage</data>
+      <data key="d21">Utilization / Integ</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/Integ (feature)Utilization/Integ (use-case)">
+      <data key="d0">from: Integ
+to: Integ</data>
+      <data key="d6">integrated usage</data>
+      <data key="d7">3</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">Integ</data>
+      <data key="d12">Integrated Usage</data>
+      <data key="d13">Utilization / Integ</data>
+      <data key="d14">integrated usage</data>
+      <data key="d15">3</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">Integ</data>
+      <data key="d20">Integrated Usage</data>
+      <data key="d21">Utilization / Integ</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/Usels (feature)Utilization/Usels (use-case)">
+      <data key="d0">from: Usels
+to: Usels</data>
+      <data key="d6">consider useless</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">Usels</data>
+      <data key="d12">Consider Useless</data>
+      <data key="d13">Utilization / Usels</data>
+      <data key="d14">consider useless</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">Usels</data>
+      <data key="d20">Consider Useless</data>
+      <data key="d21">Utilization / Usels</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Utilization/APrio (feature)Utilization/Furth (use-case)">
+      <data key="d0">from: APrio
+to: Furth</data>
+      <data key="d6">a priori usage</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Utilization</data>
+      <data key="d11">APrio</data>
+      <data key="d12">A Priori Usage</data>
+      <data key="d13">Utilization / APrio</data>
+      <data key="d14">a priori usage</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Utilization</data>
+      <data key="d19">APrio</data>
+      <data key="d20">A Priori Usage</data>
+      <data key="d21">Utilization / APrio</data>
+      <data key="d5">join</data>
+    </node>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/APrio (feature)" id="810">
+      <data key="d22">a priori usage</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="131">
-      <data key="d4">2</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/APrio (feature)" id="812">
+      <data key="d22">a priori usage</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (feature)" id="135">
-      <data key="d4">6</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/APrio (feature)" id="822">
+      <data key="d22">a priori usage</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (routine)" target="Utilization/Integ (feature)" id="132">
-      <data key="d4">3</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/Integ (feature)" id="814">
+      <data key="d22">a priori usage</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (routine)" target="Utilization/Integ (feature)" id="134">
-      <data key="d4">5</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/Integ (feature)" id="816">
+      <data key="d22">a priori usage</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (routine)" target="Utilization/Usels (feature)" id="133">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/Integ (feature)" id="820">
+      <data key="d22">a priori usage</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/Usels (feature)" target="Utilization/Usels (use-case)" id="140">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (routine)" target="Utilization/APrio (routine)Utilization/Usels (feature)" id="818">
+      <data key="d22">a priori usage</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (use-case)" id="138">
-      <data key="d4">2</data>
-      <data key="d5">use-case</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/Usels (feature)" target="Utilization/Usels (feature)Utilization/Usels (use-case)" id="838">
+      <data key="d22">consider useless</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">Usels</data>
+      <data key="d28">Consider Useless</data>
+      <data key="d29">Utilization / Usels</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (use-case)" id="139">
-      <data key="d4">3</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (feature)Utilization/APrio (use-case)" id="832">
+      <data key="d22">integrated usage</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">Integ</data>
+      <data key="d28">Integrated Usage</data>
+      <data key="d29">Utilization / Integ</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/Integ (feature)" target="Utilization/APrio (use-case)" id="141">
-      <data key="d4">5</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (feature)Utilization/APrio (use-case)" id="840">
+      <data key="d22">integrated usage</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">Integ</data>
+      <data key="d28">Integrated Usage</data>
+      <data key="d29">Utilization / Integ</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (use-case)" id="136">
-      <data key="d4">1</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (feature)Utilization/Integ (use-case)" id="834">
+      <data key="d22">integrated usage</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">Integ</data>
+      <data key="d28">Integrated Usage</data>
+      <data key="d29">Utilization / Integ</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (use-case)" id="137">
-      <data key="d4">2</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/Integ (feature)" target="Utilization/Integ (feature)Utilization/Integ (use-case)" id="836">
+      <data key="d22">integrated usage</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">Integ</data>
+      <data key="d28">Integrated Usage</data>
+      <data key="d29">Utilization / Integ</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Utilization/APrio (feature)" target="Utilization/Furth (use-case)" id="142">
-      <data key="d4">6</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/APrio (use-case)" id="824">
+      <data key="d22">a priori usage</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/APrio (use-case)" id="828">
+      <data key="d22">a priori usage</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/APrio (use-case)" id="846">
+      <data key="d22">a priori usage</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/Integ (use-case)" id="826">
+      <data key="d22">a priori usage</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/Integ (use-case)" id="830">
+      <data key="d22">a priori usage</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/Integ (use-case)" id="844">
+      <data key="d22">a priori usage</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)" target="Utilization/APrio (feature)Utilization/Furth (use-case)" id="842">
+      <data key="d22">a priori usage</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Utilization</data>
+      <data key="d27">APrio</data>
+      <data key="d28">A Priori Usage</data>
+      <data key="d29">Utilization / APrio</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/APrio (feature)" target="Utilization/APrio (feature)" id="811">
+      <data key="d31">a priori usage</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/APrio (feature)" target="Utilization/APrio (feature)" id="813">
+      <data key="d31">a priori usage</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/APrio (feature)" target="Utilization/APrio (feature)" id="823">
+      <data key="d31">a priori usage</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/Integ (feature)" target="Utilization/Integ (feature)" id="815">
+      <data key="d31">a priori usage</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/Integ (feature)" target="Utilization/Integ (feature)" id="817">
+      <data key="d31">a priori usage</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/Integ (feature)" target="Utilization/Integ (feature)" id="821">
+      <data key="d31">a priori usage</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (routine)Utilization/Usels (feature)" target="Utilization/Usels (feature)" id="819">
+      <data key="d31">a priori usage</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/APrio (use-case)" target="Utilization/APrio (use-case)" id="825">
+      <data key="d31">a priori usage</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/APrio (use-case)" target="Utilization/APrio (use-case)" id="829">
+      <data key="d31">a priori usage</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/APrio (use-case)" target="Utilization/APrio (use-case)" id="847">
+      <data key="d31">a priori usage</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/Integ (use-case)" target="Utilization/Integ (use-case)" id="827">
+      <data key="d31">a priori usage</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/Integ (use-case)" target="Utilization/Integ (use-case)" id="831">
+      <data key="d31">a priori usage</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/Integ (use-case)" target="Utilization/Integ (use-case)" id="845">
+      <data key="d31">a priori usage</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)Utilization/APrio (use-case)" target="Utilization/APrio (use-case)" id="833">
+      <data key="d31">integrated usage</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">Integ</data>
+      <data key="d37">Integrated Usage</data>
+      <data key="d38">Utilization / Integ</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)Utilization/APrio (use-case)" target="Utilization/APrio (use-case)" id="841">
+      <data key="d31">integrated usage</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">Integ</data>
+      <data key="d37">Integrated Usage</data>
+      <data key="d38">Utilization / Integ</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)Utilization/Integ (use-case)" target="Utilization/Integ (use-case)" id="835">
+      <data key="d31">integrated usage</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">Integ</data>
+      <data key="d37">Integrated Usage</data>
+      <data key="d38">Utilization / Integ</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/Integ (feature)Utilization/Integ (use-case)" target="Utilization/Integ (use-case)" id="837">
+      <data key="d31">integrated usage</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">Integ</data>
+      <data key="d37">Integrated Usage</data>
+      <data key="d38">Utilization / Integ</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/Usels (feature)Utilization/Usels (use-case)" target="Utilization/Usels (use-case)" id="839">
+      <data key="d31">consider useless</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">Usels</data>
+      <data key="d37">Consider Useless</data>
+      <data key="d38">Utilization / Usels</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Utilization/APrio (feature)Utilization/Furth (use-case)" target="Utilization/Furth (use-case)" id="843">
+      <data key="d31">a priori usage</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Utilization</data>
+      <data key="d36">APrio</data>
+      <data key="d37">A Priori Usage</data>
+      <data key="d38">Utilization / APrio</data>
+      <data key="d30">to</data>
     </edge>
   </graph>
 </graphml>

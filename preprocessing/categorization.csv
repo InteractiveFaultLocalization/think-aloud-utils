@@ -1,0 +1,264 @@
+,legacy category name,vsz id,category rank,phase name,aspect name,aspect command,short category name,short category command,long category name,long category command,unique name
+0,Down from the Program's Start to the Bug,1,0,routine,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
+1,Down from the Program's Start to the Bug,1,0,feature,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
+2,Add Debugging Functionality,1,1,feature,Debugging strategies,\dbgstrat,AddDbg,\dbgstratAddDbg,Add Debugging Functionality,\dbgstratAddDbgL,Debugging strategies / AddDbg
+3,Down from the Program's Start to the Bug,1,0,use-case,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
+4,Add Debugging Functionality,1,1,use-case,Debugging strategies,\dbgstrat,AddDbg,\dbgstratAddDbg,Add Debugging Functionality,\dbgstratAddDbgL,Debugging strategies / AddDbg
+5,manual debugging,1,0,routine,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+6,socially-aided debugging,1,1,routine,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+7,manual debugging,1,0,feature,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+8,tool-aided debugging,1,1,feature,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+9,manual debugging,1,0,use-case,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+10,tool-aided debugging,1,1,use-case,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+11,"unprompted ""braindump""",1,0,routine,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+12,"unprompted ""braindump""",1,0,feature,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+13,"unprompted ""braindump""",1,0,use-case,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+14,conservative,1,0,feature,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+15,conservative,1,0,use-case,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+16,ready to assimilate new tools and informations,1,1,use-case,Diverging from routine,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,Diverging from routine / Ready
+17,static source code,1,0,routine,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+18,"stdout, stderr and log-files",1,1,routine,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,By IDE / Std
+19,settings and configuration of the IDE or tools,1,2,routine,By IDE,\srcide,Conf,\srcideSets,Settings and Configuration of the IDE or Tools,\srcideSetsL,By IDE / Conf
+20,static source code,1,0,feature,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+21,"stdout, stderr and log-files",1,1,feature,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,By IDE / Std
+22,static structure,1,2,feature,By IDE,\srcide,Struc,\srcideStruc,Static Structure,\srcideStrucL,By IDE / Struc
+23,traces,1,3,feature,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+24,test coverage,1,4,feature,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+25,iFL,1,5,feature,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+26,static source code,1,0,use-case,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+27,static structure,1,1,use-case,By IDE,\srcide,Struc,\srcideStruc,Static Structure,\srcideStrucL,By IDE / Struc
+28,"stdout, stderr and log-files",1,2,use-case,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,By IDE / Std
+29,test results,1,3,use-case,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+30,test coverage,1,4,use-case,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+31,iFL,1,5,use-case,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+32,community,1,0,routine,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+33,community,1,0,use-case,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+34,information about the related source code,1,0,routine,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+35,special knowledge required for the task,1,1,routine,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+36,information about the related source code,1,0,feature,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+37,special knowledge required for the task,1,0,use-case,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+38,a priori usage,1,0,routine,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+39,a priori usage,1,0,feature,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+40,a priori usage,1,0,use-case,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+41,integrated usage,1,1,use-case,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+42,Drill Up from the Problem to the Bug,2,0,routine,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+43,Drill Up from the Problem to the Bug,2,0,feature,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+44,Drill Up from the Problem to the Bug,2,0,use-case,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+45,manual debugging,2,0,routine,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+46,interactive debugging,2,1,routine,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+47,socially-aided debugging,2,2,routine,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+48,interactive debugging,2,0,feature,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+49,manual debugging,2,1,feature,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+50,tool-aided debugging,2,2,feature,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+51,interactive debugging,2,0,use-case,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+52,tool-aided debugging,2,1,use-case,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+53,inaccessible processes,2,0,routine,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+54,inaccessible processes,2,0,feature,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+55,inaccessible processes,2,0,use-case,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+56,conservative,2,0,feature,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+57,ready to assimilate new tools and informations,2,1,feature,Diverging from routine,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,Diverging from routine / Ready
+58,conservative,2,0,use-case,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+59,ready to assimilate new tools and informations,2,1,use-case,Diverging from routine,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,Diverging from routine / Ready
+60,static source code,2,0,routine,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+61,test results,2,1,routine,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+62,traces,2,2,routine,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+63,"stdout, stderr and log-files",2,3,routine,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,By IDE / Std
+64,static source code,2,0,feature,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+65,test results,2,1,feature,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+66,traces,2,2,feature,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+67,static source code,2,0,use-case,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+68,test results,2,1,use-case,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+69,traces,2,2,use-case,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+70,test coverage,2,3,use-case,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+71,iFL,2,4,use-case,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+72,community,2,0,routine,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+73,information about the related source code,2,0,routine,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+74,information about the related source code,2,0,feature,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+75,information about the related source code,2,0,use-case,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+76,common knowledge about software engineering,2,1,use-case,Information topic,\inftop,CommKnow,\inftopComm,Common Knowledge about Software Engineering,\inftopCommL,Information topic / CommKnow
+77,a priori usage,2,0,routine,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+78,a priori usage,2,0,feature,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+79,integrated usage,2,1,feature,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+80,a priori usage,2,0,use-case,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+81,integrated usage,2,1,use-case,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+82,Drill Up from the Problem to the Bug,3,0,routine,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+83,Drill Up from the Problem to the Bug,3,0,feature,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+84,Drill Up from the Problem to the Bug,3,0,use-case,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+85,interactive debugging,3,0,routine,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+86,manual debugging,3,1,routine,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+87,socially-aided debugging,3,2,routine,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+88,tool-aided debugging,3,0,feature,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+89,interactive debugging,3,1,feature,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+90,interactive debugging,3,0,use-case,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+91,tool-aided debugging,3,1,use-case,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+92,manual debugging,3,2,use-case,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+93,inaccessible processes,3,0,routine,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+94,inaccessible processes,3,0,feature,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+95,"unprompted ""braindump""",3,1,feature,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+96,inaccessible processes,3,0,use-case,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+97,"unprompted ""braindump""",3,1,use-case,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+98,conservative,3,0,routine,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+99,conformist,3,1,routine,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+100,conformist,3,0,feature,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+101,ready to assimilate new tools and informations,3,1,feature,Diverging from routine,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,Diverging from routine / Ready
+102,conservative,3,2,feature,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+103,conformist,3,0,use-case,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+104,conservative,3,1,use-case,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+105,ready to assimilate new tools and informations,3,2,use-case,Diverging from routine,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,Diverging from routine / Ready
+106,static source code,3,0,routine,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+107,test results,3,1,routine,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+108,traces,3,2,routine,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+109,static source code,3,0,feature,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+110,iFL,3,1,feature,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+111,test results,3,2,feature,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+112,traces,3,3,feature,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+113,static source code,3,0,use-case,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+114,iFL,3,1,use-case,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+115,test results,3,2,use-case,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+116,traces,3,3,use-case,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+117,experiment,3,0,routine,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,External sources / Exp
+118,community,3,1,routine,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+119,experiment,3,0,feature,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,External sources / Exp
+120,experiment,3,0,use-case,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,External sources / Exp
+121,information about the related source code,3,0,routine,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+122,special knowledge required for the task,3,1,routine,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+123,information about the related source code,3,0,feature,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+124,information about the related source code,3,0,use-case,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+125,a priori usage,3,0,routine,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+126,integrated usage,3,0,feature,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+127,integrated usage,3,0,use-case,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+128,Drill Up from the Problem to the Bug,4,0,routine,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+129,Drill Up from the Problem to the Bug,4,0,feature,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+130,Drill Up from the Problem to the Bug,4,0,use-case,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+131,manual debugging,4,0,routine,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+132,interactive debugging,4,1,routine,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+133,socially-aided debugging,4,2,routine,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+134,manual debugging,4,0,feature,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+135,interactive debugging,4,1,feature,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+136,tool-aided debugging,4,2,feature,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+137,socially-aided debugging,4,3,feature,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+138,manual debugging,4,0,use-case,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+139,interactive debugging,4,1,use-case,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+140,tool-aided debugging,4,2,use-case,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+141,socially-aided debugging,4,3,use-case,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+142,inaccessible processes,4,0,routine,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+143,inaccessible processes,4,0,feature,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+144,inaccessible processes,4,0,use-case,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+145,conservative,4,0,feature,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+146,conformist,4,1,feature,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+147,conservative,4,0,use-case,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+148,conformist,4,1,use-case,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+149,static source code,4,0,routine,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+150,test results,4,1,routine,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+151,traces,4,2,routine,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+152,settings and configuration of the IDE or tools,4,3,routine,By IDE,\srcide,Conf,\srcideSets,Settings and Configuration of the IDE or Tools,\srcideSetsL,By IDE / Conf
+153,static source code,4,0,feature,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+154,test results,4,1,feature,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+155,traces,4,2,feature,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+156,test coverage,4,3,feature,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+157,iFL,4,4,feature,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+158,static source code,4,0,use-case,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+159,test results,4,1,use-case,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+160,test coverage,4,2,use-case,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+161,iFL,4,3,use-case,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+162,community,4,0,routine,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+163,community,4,0,feature,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+164,community,4,0,use-case,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+165,information about the related source code,4,0,routine,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+166,special knowledge required for the task,4,1,routine,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+167,information about the related source code,4,0,feature,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+168,special knowledge required for the task,4,1,feature,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+169,information about the related source code,4,0,use-case,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+170,a priori usage,4,0,routine,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+171,consider useless,4,0,feature,Utilization,\infuse,Usels,\infuseUsels,Consider Useless,\infuseUselsL,Utilization / Usels
+172,consider useless,4,0,use-case,Utilization,\infuse,Usels,\infuseUsels,Consider Useless,\infuseUselsL,Utilization / Usels
+173,Drill Up from the Problem to the Bug,5,0,routine,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+174,Drill Up from the Problem to the Bug,5,0,feature,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+175,Drill Up from the Problem to the Bug,5,0,use-case,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+176,manual debugging,5,0,routine,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+177,socially-aided debugging,5,1,routine,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+178,tool-aided debugging,5,2,routine,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+179,manual debugging,5,0,feature,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+180,tool-aided debugging,5,1,feature,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+181,manual debugging,5,0,use-case,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+182,socially-aided debugging,5,1,use-case,Debugging styles,\dbgstyle,SocDeb,\dbgstyleSoc,Socially-Aided Debugging,\dbgstyleSocL,Debugging styles / SocDeb
+183,tool-aided debugging,5,2,use-case,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+184,inaccessible processes,5,0,routine,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+185,inaccessible processes,5,0,feature,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+186,inaccessible processes,5,0,use-case,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+187,conservative,5,0,feature,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+188,conformist,5,1,feature,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+189,conservative,5,0,use-case,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+190,static source code,5,0,routine,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+191,test results,5,1,routine,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+192,traces,5,2,routine,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+193,test coverage,5,3,routine,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+194,"stdout, stderr and log-files",5,4,routine,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,By IDE / Std
+195,static source code,5,0,feature,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+196,test results,5,1,feature,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+197,traces,5,2,feature,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+198,test coverage,5,3,feature,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+199,static source code,5,0,use-case,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+200,test results,5,1,use-case,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+201,traces,5,2,use-case,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+202,test coverage,5,3,use-case,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+203,"stdout, stderr and log-files",5,4,use-case,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,By IDE / Std
+204,community,5,0,routine,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+205,community,5,0,use-case,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+206,information about the related source code,5,0,routine,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+207,special knowledge required for the task,5,1,routine,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+208,information about the related source code,5,0,feature,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+209,information about the related source code,5,0,use-case,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+210,special knowledge required for the task,5,1,use-case,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+211,a priori usage,5,0,routine,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+212,integrated usage,5,0,feature,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+213,a priori usage,5,0,use-case,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+214,Refactoring during debugging,6,0,routine,Debugging strategies,\dbgstrat,Refact,\dbgstratRefact,Refactoring during debugging,\dbgstratRefactL,Debugging strategies / Refact
+215,Down from the Program's Start to the Bug,6,1,routine,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
+216,Down from the Program's Start to the Bug,6,0,feature,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
+217,Drill Up from the Problem to the Bug,6,0,use-case,Debugging strategies,\dbgstrat,DrillUp,\dbgstratDrillup,Drill Up from the Problem to the Bug,\dbgstratDrillupL,Debugging strategies / DrillUp
+218,Down from the Program's Start to the Bug,6,1,use-case,Debugging strategies,\dbgstrat,DrillDn,\dbgstratDrilldn,Down from the Program's Start to the Bug,\dbgstratDrilldnL,Debugging strategies / DrillDn
+219,manual debugging,6,0,routine,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+220,interactive debugging,6,1,routine,Debugging styles,\dbgstyle,IntDeb,\dbgstyleInt,Interactive Debugging,\dbgstyleIntL,Debugging styles / IntDeb
+221,manual debugging,6,0,feature,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+222,tool-aided debugging,6,0,use-case,Debugging styles,\dbgstyle,ToolDeb,\dbgstyleTool,Tool-Aided Debugging,\dbgstyleToolL,Debugging styles / ToolDeb
+223,manual debugging,6,1,use-case,Debugging styles,\dbgstyle,ManDeb,\dbgstyleMan,Manual Debugging,\dbgstyleManL,Debugging styles / ManDeb
+224,inaccessible processes,6,0,routine,Ease of verbalization,\easeverb,InacProc,\easeverbInacc,Inaccessible Processes,\easeverbInaccL,Ease of verbalization / InacProc
+225,"unprompted ""braindump""",6,1,routine,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+226,generalization and second-hand information,6,2,routine,Ease of verbalization,\easeverb,General,\easeverbGener,Generalization and Second-Hand Information,\easeverbGenerL,Ease of verbalization / General
+227,"unprompted ""braindump""",6,0,feature,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+228,generalization and second-hand information,6,1,feature,Ease of verbalization,\easeverb,General,\easeverbGener,Generalization and Second-Hand Information,\easeverbGenerL,Ease of verbalization / General
+229,"unprompted ""braindump""",6,0,use-case,Ease of verbalization,\easeverb,Braindump,\easeverbBrainDmp,Unprompted ``Braindump'',\easeverbBrainDmpL,Ease of verbalization / Braindump
+230,conformist,6,0,routine,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+231,conformist,6,0,feature,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+232,conservative,6,1,feature,Diverging from routine,\diverg,Cons,\divergCons,Conservative,\divergConsL,Diverging from routine / Cons
+233,conformist,6,0,use-case,Diverging from routine,\diverg,Conf,\divergConf,Conformist,\divergConfL,Diverging from routine / Conf
+234,ready to assimilate new tools and informations,6,1,use-case,Diverging from routine,\diverg,Ready,\divergReady,Ready to Assimilate New Tools and Information,\divergReadyL,Diverging from routine / Ready
+235,static structure,6,0,routine,By IDE,\srcide,Struc,\srcideStruc,Static Structure,\srcideStrucL,By IDE / Struc
+236,static source code,6,1,routine,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+237,test results,6,2,routine,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+238,traces,6,3,routine,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+239,settings and configuration of the IDE or tools,6,4,routine,By IDE,\srcide,Conf,\srcideSets,Settings and Configuration of the IDE or Tools,\srcideSetsL,By IDE / Conf
+240,static structure,6,0,feature,By IDE,\srcide,Struc,\srcideStruc,Static Structure,\srcideStrucL,By IDE / Struc
+241,static source code,6,1,feature,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+242,test results,6,2,feature,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+243,static structure,6,0,use-case,By IDE,\srcide,Struc,\srcideStruc,Static Structure,\srcideStrucL,By IDE / Struc
+244,static source code,6,1,use-case,By IDE,\srcide,Src,\srcideSrc,Static Source Code,\srcideSrcL,By IDE / Src
+245,test coverage,6,2,use-case,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,By IDE / Cover
+246,iFL,6,3,use-case,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,By IDE / iFL
+247,traces,6,4,use-case,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,By IDE / Trc
+248,test results,6,5,use-case,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,By IDE / Test
+249,experiment,6,0,routine,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,External sources / Exp
+250,community,6,1,routine,External sources,\srcext,Comm,\srcextComm,Community,\srcextCommL,External sources / Comm
+251,official,6,2,routine,External sources,\srcext,Offic,\srcextOff,Official Sources,\srcextOffL,External sources / Offic
+252,experiment,6,0,feature,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,External sources / Exp
+253,experiment,6,0,use-case,External sources,\srcext,Exp,\srcextExp,This Experiment,\srcextExpL,External sources / Exp
+254,information about the related source code,6,0,routine,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+255,special knowledge required for the task,6,1,routine,Information topic,\inftop,SpecKnow,\inftopSpec,Special Knowledge Required for the Task,\inftopSpecL,Information topic / SpecKnow
+256,information about the related source code,6,0,feature,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+257,information about the related source code,6,0,use-case,Information topic,\inftop,RelCode,\inftopRel,Information about Related Source Code,\inftopRelL,Information topic / RelCode
+258,a priori usage,6,0,routine,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+259,a priori usage,6,0,feature,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio
+260,need further information or feature,6,0,use-case,Utilization,\infuse,Furth,\infuseFurth,Need Further Information or Feature,\infuseFurthL,Utilization / Furth
+261,integrated usage,6,1,use-case,Utilization,\infuse,Integ,\infuseInt,Integrated Usage,\infuseIntL,Utilization / Integ
+262,a priori usage,6,2,use-case,Utilization,\infuse,APrio,\infuseAPrio,A Priori Usage,\infuseAPrioL,Utilization / APrio

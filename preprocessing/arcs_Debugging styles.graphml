@@ -1,246 +1,2520 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d7" for="edge" attr.name="style" attr.type="string" />
-  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
-  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
-  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
-  <key id="d3" for="node" attr.name="style" attr.type="string" />
-  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
-  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d38" for="edge" attr.name="to_unique name" attr.type="string" />
+  <key id="d37" for="edge" attr.name="to_long category name" attr.type="string" />
+  <key id="d36" for="edge" attr.name="to_short category name" attr.type="string" />
+  <key id="d35" for="edge" attr.name="to_aspect name" attr.type="string" />
+  <key id="d34" for="edge" attr.name="to_phase name" attr.type="string" />
+  <key id="d33" for="edge" attr.name="to_category rank" attr.type="int" />
+  <key id="d32" for="edge" attr.name="to_vsz id" attr.type="string" />
+  <key id="d31" for="edge" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d30" for="edge" attr.name="style" attr.type="string" />
+  <key id="d29" for="edge" attr.name="from_unique name" attr.type="string" />
+  <key id="d28" for="edge" attr.name="from_long category name" attr.type="string" />
+  <key id="d27" for="edge" attr.name="from_short category name" attr.type="string" />
+  <key id="d26" for="edge" attr.name="from_aspect name" attr.type="string" />
+  <key id="d25" for="edge" attr.name="from_phase name" attr.type="string" />
+  <key id="d24" for="edge" attr.name="from_category rank" attr.type="int" />
+  <key id="d23" for="edge" attr.name="from_vsz id" attr.type="string" />
+  <key id="d22" for="edge" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d21" for="node" attr.name="to_unique name" attr.type="string" />
+  <key id="d20" for="node" attr.name="to_long category name" attr.type="string" />
+  <key id="d19" for="node" attr.name="to_short category name" attr.type="string" />
+  <key id="d18" for="node" attr.name="to_aspect name" attr.type="string" />
+  <key id="d17" for="node" attr.name="to_phase name" attr.type="string" />
+  <key id="d16" for="node" attr.name="to_category rank" attr.type="int" />
+  <key id="d15" for="node" attr.name="to_vsz id" attr.type="string" />
+  <key id="d14" for="node" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d13" for="node" attr.name="from_unique name" attr.type="string" />
+  <key id="d12" for="node" attr.name="from_long category name" attr.type="string" />
+  <key id="d11" for="node" attr.name="from_short category name" attr.type="string" />
+  <key id="d10" for="node" attr.name="from_aspect name" attr.type="string" />
+  <key id="d9" for="node" attr.name="from_phase name" attr.type="string" />
+  <key id="d8" for="node" attr.name="from_category rank" attr.type="int" />
+  <key id="d7" for="node" attr.name="from_vsz id" attr.type="string" />
+  <key id="d6" for="node" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d5" for="node" attr.name="style" attr.type="string" />
+  <key id="d4" for="node" attr.name="legacy category name" attr.type="string" />
+  <key id="d3" for="node" attr.name="long category name" attr.type="string" />
+  <key id="d2" for="node" attr.name="short category name" attr.type="string" />
+  <key id="d1" for="node" attr.name="aspect name" attr.type="string" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="Debugging styles/ManDeb (routine)">
       <data key="d0">ManDeb
 (routine)</data>
-      <data key="d1">ManDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">ManDeb</data>
+      <data key="d3">Manual Debugging</data>
+      <data key="d4">manual debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/IntDeb (routine)">
       <data key="d0">IntDeb
 (routine)</data>
-      <data key="d1">IntDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">IntDeb</data>
+      <data key="d3">Interactive Debugging</data>
+      <data key="d4">interactive debugging</data>
+      <data key="d5">category</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (routine)">
+      <data key="d0">ToolDeb
+(routine)</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">ToolDeb</data>
+      <data key="d3">Tool-Aided Debugging</data>
+      <data key="d4">tool-aided debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/SocDeb (routine)">
       <data key="d0">SocDeb
 (routine)</data>
-      <data key="d1">SocDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">SocDeb</data>
+      <data key="d3">Socially-Aided Debugging</data>
+      <data key="d4">socially-aided debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/ManDeb (feature)">
       <data key="d0">ManDeb
 (feature)</data>
-      <data key="d1">ManDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">ManDeb</data>
+      <data key="d3">Manual Debugging</data>
+      <data key="d4">manual debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/IntDeb (feature)">
       <data key="d0">IntDeb
 (feature)</data>
-      <data key="d1">IntDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">IntDeb</data>
+      <data key="d3">Interactive Debugging</data>
+      <data key="d4">interactive debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/ToolDeb (feature)">
       <data key="d0">ToolDeb
 (feature)</data>
-      <data key="d1">ToolDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">ToolDeb</data>
+      <data key="d3">Tool-Aided Debugging</data>
+      <data key="d4">tool-aided debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/SocDeb (feature)">
       <data key="d0">SocDeb
 (feature)</data>
-      <data key="d1">SocDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">SocDeb</data>
+      <data key="d3">Socially-Aided Debugging</data>
+      <data key="d4">socially-aided debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/ManDeb (use-case)">
       <data key="d0">ManDeb
 (use-case)</data>
-      <data key="d1">ManDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">ManDeb</data>
+      <data key="d3">Manual Debugging</data>
+      <data key="d4">manual debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/IntDeb (use-case)">
       <data key="d0">IntDeb
 (use-case)</data>
-      <data key="d1">IntDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">IntDeb</data>
+      <data key="d3">Interactive Debugging</data>
+      <data key="d4">interactive debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/ToolDeb (use-case)">
       <data key="d0">ToolDeb
 (use-case)</data>
-      <data key="d1">ToolDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">ToolDeb</data>
+      <data key="d3">Tool-Aided Debugging</data>
+      <data key="d4">tool-aided debugging</data>
+      <data key="d5">category</data>
     </node>
     <node id="Debugging styles/SocDeb (use-case)">
       <data key="d0">SocDeb
 (use-case)</data>
-      <data key="d1">SocDeb</data>
-      <data key="d2">Debugging styles</data>
-      <data key="d3">category</data>
+      <data key="d1">Debugging styles</data>
+      <data key="d2">SocDeb</data>
+      <data key="d3">Socially-Aided Debugging</data>
+      <data key="d4">socially-aided debugging</data>
+      <data key="d5">category</data>
     </node>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="13">
-      <data key="d4">1</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <node id="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)">
+      <data key="d0">from: ManDeb
+to: ManDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)">
+      <data key="d0">from: ManDeb
+to: ToolDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)">
+      <data key="d0">from: SocDeb
+to: ManDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)">
+      <data key="d0">from: SocDeb
+to: ToolDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)">
+      <data key="d0">from: ManDeb
+to: IntDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)">
+      <data key="d0">from: IntDeb
+to: IntDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)">
+      <data key="d0">from: IntDeb
+to: ManDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">6</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">6</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)">
+      <data key="d0">from: IntDeb
+to: ToolDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)">
+      <data key="d0">from: SocDeb
+to: IntDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">2</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">2</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (routine)Debugging styles/SocDeb (feature)">
+      <data key="d0">from: ManDeb
+to: SocDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (routine)Debugging styles/SocDeb (feature)">
+      <data key="d0">from: IntDeb
+to: SocDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (routine)Debugging styles/SocDeb (feature)">
+      <data key="d0">from: SocDeb
+to: SocDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">2</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">2</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (routine)Debugging styles/ManDeb (feature)">
+      <data key="d0">from: ToolDeb
+to: ManDeb</data>
+      <data key="d6">tool-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">2</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ToolDeb</data>
+      <data key="d12">Tool-Aided Debugging</data>
+      <data key="d13">Debugging styles / ToolDeb</data>
+      <data key="d14">tool-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">2</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ToolDeb</data>
+      <data key="d20">Tool-Aided Debugging</data>
+      <data key="d21">Debugging styles / ToolDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (routine)Debugging styles/ToolDeb (feature)">
+      <data key="d0">from: ToolDeb
+to: ToolDeb</data>
+      <data key="d6">tool-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">2</data>
+      <data key="d9">routine</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ToolDeb</data>
+      <data key="d12">Tool-Aided Debugging</data>
+      <data key="d13">Debugging styles / ToolDeb</data>
+      <data key="d14">tool-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">2</data>
+      <data key="d17">routine</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ToolDeb</data>
+      <data key="d20">Tool-Aided Debugging</data>
+      <data key="d21">Debugging styles / ToolDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)">
+      <data key="d0">from: ManDeb
+to: ManDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)">
+      <data key="d0">from: ManDeb
+to: ToolDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)">
+      <data key="d0">from: ToolDeb
+to: ManDeb</data>
+      <data key="d6">tool-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ToolDeb</data>
+      <data key="d12">Tool-Aided Debugging</data>
+      <data key="d13">Debugging styles / ToolDeb</data>
+      <data key="d14">tool-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ToolDeb</data>
+      <data key="d20">Tool-Aided Debugging</data>
+      <data key="d21">Debugging styles / ToolDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)">
+      <data key="d0">from: ToolDeb
+to: ToolDeb</data>
+      <data key="d6">tool-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ToolDeb</data>
+      <data key="d12">Tool-Aided Debugging</data>
+      <data key="d13">Debugging styles / ToolDeb</data>
+      <data key="d14">tool-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ToolDeb</data>
+      <data key="d20">Tool-Aided Debugging</data>
+      <data key="d21">Debugging styles / ToolDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)">
+      <data key="d0">from: IntDeb
+to: IntDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)">
+      <data key="d0">from: IntDeb
+to: ToolDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (feature)Debugging styles/IntDeb (use-case)">
+      <data key="d0">from: ManDeb
+to: IntDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)">
+      <data key="d0">from: ToolDeb
+to: IntDeb</data>
+      <data key="d6">tool-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">2</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ToolDeb</data>
+      <data key="d12">Tool-Aided Debugging</data>
+      <data key="d13">Debugging styles / ToolDeb</data>
+      <data key="d14">tool-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">2</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ToolDeb</data>
+      <data key="d20">Tool-Aided Debugging</data>
+      <data key="d21">Debugging styles / ToolDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (feature)Debugging styles/ManDeb (use-case)">
+      <data key="d0">from: IntDeb
+to: ManDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ManDeb (feature)Debugging styles/SocDeb (use-case)">
+      <data key="d0">from: ManDeb
+to: SocDeb</data>
+      <data key="d6">manual debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ManDeb</data>
+      <data key="d12">Manual Debugging</data>
+      <data key="d13">Debugging styles / ManDeb</data>
+      <data key="d14">manual debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ManDeb</data>
+      <data key="d20">Manual Debugging</data>
+      <data key="d21">Debugging styles / ManDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/IntDeb (feature)Debugging styles/SocDeb (use-case)">
+      <data key="d0">from: IntDeb
+to: SocDeb</data>
+      <data key="d6">interactive debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">IntDeb</data>
+      <data key="d12">Interactive Debugging</data>
+      <data key="d13">Debugging styles / IntDeb</data>
+      <data key="d14">interactive debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">IntDeb</data>
+      <data key="d20">Interactive Debugging</data>
+      <data key="d21">Debugging styles / IntDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/ToolDeb (feature)Debugging styles/SocDeb (use-case)">
+      <data key="d0">from: ToolDeb
+to: SocDeb</data>
+      <data key="d6">tool-aided debugging</data>
+      <data key="d7">5</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">ToolDeb</data>
+      <data key="d12">Tool-Aided Debugging</data>
+      <data key="d13">Debugging styles / ToolDeb</data>
+      <data key="d14">tool-aided debugging</data>
+      <data key="d15">5</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">ToolDeb</data>
+      <data key="d20">Tool-Aided Debugging</data>
+      <data key="d21">Debugging styles / ToolDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (feature)Debugging styles/ManDeb (use-case)">
+      <data key="d0">from: SocDeb
+to: ManDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">3</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">3</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (feature)Debugging styles/IntDeb (use-case)">
+      <data key="d0">from: SocDeb
+to: IntDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">3</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">3</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (feature)Debugging styles/ToolDeb (use-case)">
+      <data key="d0">from: SocDeb
+to: ToolDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">3</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">3</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Debugging styles/SocDeb (feature)Debugging styles/SocDeb (use-case)">
+      <data key="d0">from: SocDeb
+to: SocDeb</data>
+      <data key="d6">socially-aided debugging</data>
+      <data key="d7">4</data>
+      <data key="d8">3</data>
+      <data key="d9">feature</data>
+      <data key="d10">Debugging styles</data>
+      <data key="d11">SocDeb</data>
+      <data key="d12">Socially-Aided Debugging</data>
+      <data key="d13">Debugging styles / SocDeb</data>
+      <data key="d14">socially-aided debugging</data>
+      <data key="d15">4</data>
+      <data key="d16">3</data>
+      <data key="d17">feature</data>
+      <data key="d18">Debugging styles</data>
+      <data key="d19">SocDeb</data>
+      <data key="d20">Socially-Aided Debugging</data>
+      <data key="d21">Debugging styles / SocDeb</data>
+      <data key="d5">join</data>
+    </node>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" id="36">
+      <data key="d22">manual debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="20">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" id="46">
+      <data key="d22">manual debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="23">
-      <data key="d4">5</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" id="74">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (feature)" id="25">
-      <data key="d4">6</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" id="98">
+      <data key="d22">manual debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="15">
-      <data key="d4">2</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" id="110">
+      <data key="d22">manual debugging</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/IntDeb (feature)" id="19">
-      <data key="d4">3</data>
-      <data key="d5">feature</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" id="38">
+      <data key="d22">manual debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ManDeb (feature)" id="16">
-      <data key="d4">2</data>
-      <data key="d5">feature</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" id="48">
+      <data key="d22">manual debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="18">
-      <data key="d4">3</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" id="66">
+      <data key="d22">manual debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (feature)" id="21">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" id="78">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="14">
-      <data key="d4">1</data>
-      <data key="d5">feature</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" id="100">
+      <data key="d22">manual debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="17">
-      <data key="d4">2</data>
-      <data key="d5">feature</data>
-      <data key="d6">2</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)" id="44">
+      <data key="d22">manual debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="22">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">2</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)" id="68">
+      <data key="d22">manual debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/ToolDeb (feature)" id="24">
-      <data key="d4">5</data>
-      <data key="d5">feature</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)" id="76">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="26">
-      <data key="d4">1</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ManDeb (routine)" target="Debugging styles/ManDeb (routine)Debugging styles/SocDeb (feature)" id="80">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="32">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)" id="50">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (use-case)" id="36">
-      <data key="d4">5</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)" id="64">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="29">
-      <data key="d4">2</data>
-      <data key="d5">use-case</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)" id="84">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="38">
-      <data key="d4">6</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)" id="52">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="28">
-      <data key="d4">2</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)" id="82">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="33">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)" id="112">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">6</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="31">
-      <data key="d4">3</data>
-      <data key="d5">use-case</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)" id="54">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="27">
-      <data key="d4">1</data>
-      <data key="d5">use-case</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)" id="62">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (use-case)" id="34">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">2</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)" id="86">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/IntDeb (use-case)" id="30">
-      <data key="d4">3</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/IntDeb (routine)" target="Debugging styles/IntDeb (routine)Debugging styles/SocDeb (feature)" id="88">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/SocDeb (use-case)" id="37">
-      <data key="d4">5</data>
-      <data key="d5">use-case</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ToolDeb (routine)" target="Debugging styles/ToolDeb (routine)Debugging styles/ManDeb (feature)" id="106">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (use-case)" id="35">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">3</data>
-      <data key="d7">transition</data>
+    <edge source="Debugging styles/ToolDeb (routine)" target="Debugging styles/ToolDeb (routine)Debugging styles/ToolDeb (feature)" id="108">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" id="40">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" id="58">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" id="90">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" id="102">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" id="42">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" id="60">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" id="70">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" id="94">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" id="104">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)" id="56">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)" id="72">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)" id="92">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)" target="Debugging styles/SocDeb (routine)Debugging styles/SocDeb (feature)" id="96">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" id="114">
+      <data key="d22">manual debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" id="146">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" id="178">
+      <data key="d22">manual debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" id="192">
+      <data key="d22">manual debugging</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" id="116">
+      <data key="d22">manual debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" id="128">
+      <data key="d22">manual debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" id="150">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" id="182">
+      <data key="d22">manual debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" id="190">
+      <data key="d22">manual debugging</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/IntDeb (use-case)" id="126">
+      <data key="d22">manual debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/IntDeb (use-case)" id="148">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/SocDeb (use-case)" id="152">
+      <data key="d22">manual debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)Debugging styles/SocDeb (use-case)" id="180">
+      <data key="d22">manual debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ManDeb</data>
+      <data key="d28">Manual Debugging</data>
+      <data key="d29">Debugging styles / ManDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)" id="122">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)" id="140">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)" id="156">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)" id="124">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)" id="142">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)" id="158">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/ManDeb (use-case)" id="144">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/ManDeb (use-case)" id="154">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)Debugging styles/SocDeb (use-case)" id="160">
+      <data key="d22">interactive debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">IntDeb</data>
+      <data key="d28">Interactive Debugging</data>
+      <data key="d29">Debugging styles / IntDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" id="118">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" id="138">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" id="162">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" id="184">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" id="120">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">1</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" id="132">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">2</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" id="136">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" id="166">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" id="188">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)" id="130">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">2</data>
+      <data key="d24">2</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)" id="134">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)" id="164">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/SocDeb (use-case)" id="168">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">2</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)Debugging styles/SocDeb (use-case)" id="186">
+      <data key="d22">tool-aided debugging</data>
+      <data key="d23">5</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">ToolDeb</data>
+      <data key="d28">Tool-Aided Debugging</data>
+      <data key="d29">Debugging styles / ToolDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)Debugging styles/ManDeb (use-case)" id="170">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">3</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)Debugging styles/IntDeb (use-case)" id="172">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">3</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)Debugging styles/ToolDeb (use-case)" id="174">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">3</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)Debugging styles/SocDeb (use-case)" id="176">
+      <data key="d22">socially-aided debugging</data>
+      <data key="d23">4</data>
+      <data key="d24">3</data>
+      <data key="d25">feature</data>
+      <data key="d26">Debugging styles</data>
+      <data key="d27">SocDeb</data>
+      <data key="d28">Socially-Aided Debugging</data>
+      <data key="d29">Debugging styles / SocDeb</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="37">
+      <data key="d31">manual debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="47">
+      <data key="d31">manual debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="75">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="99">
+      <data key="d31">manual debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="111">
+      <data key="d31">manual debugging</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="39">
+      <data key="d31">manual debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="49">
+      <data key="d31">manual debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="67">
+      <data key="d31">manual debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="79">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="101">
+      <data key="d31">manual debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="41">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="59">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="91">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="103">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="43">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="61">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="71">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="95">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="105">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="45">
+      <data key="d31">manual debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="69">
+      <data key="d31">manual debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="77">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="51">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="65">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="85">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="53">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="83">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="113">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">6</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="55">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="63">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="87">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="57">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="73">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/IntDeb (feature)" target="Debugging styles/IntDeb (feature)" id="93">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (routine)Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)" id="81">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (routine)Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)" id="89">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (routine)Debugging styles/SocDeb (feature)" target="Debugging styles/SocDeb (feature)" id="97">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (routine)Debugging styles/ManDeb (feature)" target="Debugging styles/ManDeb (feature)" id="107">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (routine)Debugging styles/ToolDeb (feature)" target="Debugging styles/ToolDeb (feature)" id="109">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="115">
+      <data key="d31">manual debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="147">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="179">
+      <data key="d31">manual debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="193">
+      <data key="d31">manual debugging</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="117">
+      <data key="d31">manual debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="129">
+      <data key="d31">manual debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="151">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="183">
+      <data key="d31">manual debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="191">
+      <data key="d31">manual debugging</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="119">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="139">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="163">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="185">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="121">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">1</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="133">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">2</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="137">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="167">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="189">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="123">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="141">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="157">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="125">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="143">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="159">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="127">
+      <data key="d31">manual debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="149">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="131">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">2</data>
+      <data key="d33">2</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="135">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="165">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="145">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="155">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/SocDeb (use-case)" target="Debugging styles/SocDeb (use-case)" id="153">
+      <data key="d31">manual debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ManDeb (feature)Debugging styles/SocDeb (use-case)" target="Debugging styles/SocDeb (use-case)" id="181">
+      <data key="d31">manual debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ManDeb</data>
+      <data key="d37">Manual Debugging</data>
+      <data key="d38">Debugging styles / ManDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/IntDeb (feature)Debugging styles/SocDeb (use-case)" target="Debugging styles/SocDeb (use-case)" id="161">
+      <data key="d31">interactive debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">IntDeb</data>
+      <data key="d37">Interactive Debugging</data>
+      <data key="d38">Debugging styles / IntDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/SocDeb (use-case)" target="Debugging styles/SocDeb (use-case)" id="169">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">2</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/ToolDeb (feature)Debugging styles/SocDeb (use-case)" target="Debugging styles/SocDeb (use-case)" id="187">
+      <data key="d31">tool-aided debugging</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">ToolDeb</data>
+      <data key="d37">Tool-Aided Debugging</data>
+      <data key="d38">Debugging styles / ToolDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)Debugging styles/ManDeb (use-case)" target="Debugging styles/ManDeb (use-case)" id="171">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">3</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)Debugging styles/IntDeb (use-case)" target="Debugging styles/IntDeb (use-case)" id="173">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">3</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)Debugging styles/ToolDeb (use-case)" target="Debugging styles/ToolDeb (use-case)" id="175">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">3</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Debugging styles/SocDeb (feature)Debugging styles/SocDeb (use-case)" target="Debugging styles/SocDeb (use-case)" id="177">
+      <data key="d31">socially-aided debugging</data>
+      <data key="d32">4</data>
+      <data key="d33">3</data>
+      <data key="d34">feature</data>
+      <data key="d35">Debugging styles</data>
+      <data key="d36">SocDeb</data>
+      <data key="d37">Socially-Aided Debugging</data>
+      <data key="d38">Debugging styles / SocDeb</data>
+      <data key="d30">to</data>
     </edge>
   </graph>
 </graphml>

@@ -21,7 +21,7 @@
 19,By IDE,\srcide,Std,\srcideStd,"stdout, stderr and Log Files",\srcideStdL,"stdout, stderr and log-files"
 20,By IDE,\srcide,Trc,\srcideTrc,Stack Traces,\srcideTrcL,traces
 21,By IDE,\srcide,Cover,\srcideCover,Code Coverage,\srcideCoverL,test coverage
-22,By IDE,\srcide,Test,\srcideTest,Rest Results,\srcideTestL,test results
+22,By IDE,\srcide,Test,\srcideTest,Test Results,\srcideTestL,test results
 23,By IDE,\srcide,Order,\srcideOrder,Ordered Lists,\srcideOrderL,ranks
 24,By IDE,\srcide,iFL,\srcideIfl,iFL Rank Order,\srcideIflL,iFL
 25,By IDE,\srcide,Conf,\srcideSets,Settings and Configuration of the IDE or Tools,\srcideSetsL,settings and configuration of the IDE or tools

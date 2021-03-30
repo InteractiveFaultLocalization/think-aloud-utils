@@ -1,91 +1,431 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d7" for="edge" attr.name="style" attr.type="string" />
-  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
-  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
-  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
-  <key id="d3" for="node" attr.name="style" attr.type="string" />
-  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
-  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d38" for="edge" attr.name="to_unique name" attr.type="string" />
+  <key id="d37" for="edge" attr.name="to_long category name" attr.type="string" />
+  <key id="d36" for="edge" attr.name="to_short category name" attr.type="string" />
+  <key id="d35" for="edge" attr.name="to_aspect name" attr.type="string" />
+  <key id="d34" for="edge" attr.name="to_phase name" attr.type="string" />
+  <key id="d33" for="edge" attr.name="to_category rank" attr.type="int" />
+  <key id="d32" for="edge" attr.name="to_vsz id" attr.type="string" />
+  <key id="d31" for="edge" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d30" for="edge" attr.name="style" attr.type="string" />
+  <key id="d29" for="edge" attr.name="from_unique name" attr.type="string" />
+  <key id="d28" for="edge" attr.name="from_long category name" attr.type="string" />
+  <key id="d27" for="edge" attr.name="from_short category name" attr.type="string" />
+  <key id="d26" for="edge" attr.name="from_aspect name" attr.type="string" />
+  <key id="d25" for="edge" attr.name="from_phase name" attr.type="string" />
+  <key id="d24" for="edge" attr.name="from_category rank" attr.type="int" />
+  <key id="d23" for="edge" attr.name="from_vsz id" attr.type="string" />
+  <key id="d22" for="edge" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d21" for="node" attr.name="to_unique name" attr.type="string" />
+  <key id="d20" for="node" attr.name="to_long category name" attr.type="string" />
+  <key id="d19" for="node" attr.name="to_short category name" attr.type="string" />
+  <key id="d18" for="node" attr.name="to_aspect name" attr.type="string" />
+  <key id="d17" for="node" attr.name="to_phase name" attr.type="string" />
+  <key id="d16" for="node" attr.name="to_category rank" attr.type="int" />
+  <key id="d15" for="node" attr.name="to_vsz id" attr.type="string" />
+  <key id="d14" for="node" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d13" for="node" attr.name="from_unique name" attr.type="string" />
+  <key id="d12" for="node" attr.name="from_long category name" attr.type="string" />
+  <key id="d11" for="node" attr.name="from_short category name" attr.type="string" />
+  <key id="d10" for="node" attr.name="from_aspect name" attr.type="string" />
+  <key id="d9" for="node" attr.name="from_phase name" attr.type="string" />
+  <key id="d8" for="node" attr.name="from_category rank" attr.type="int" />
+  <key id="d7" for="node" attr.name="from_vsz id" attr.type="string" />
+  <key id="d6" for="node" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d5" for="node" attr.name="style" attr.type="string" />
+  <key id="d4" for="node" attr.name="legacy category name" attr.type="string" />
+  <key id="d3" for="node" attr.name="long category name" attr.type="string" />
+  <key id="d2" for="node" attr.name="short category name" attr.type="string" />
+  <key id="d1" for="node" attr.name="aspect name" attr.type="string" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="External sources/Comm (routine)">
       <data key="d0">Comm
 (routine)</data>
-      <data key="d1">Comm</data>
-      <data key="d2">External sources</data>
-      <data key="d3">category</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Comm</data>
+      <data key="d3">Community</data>
+      <data key="d4">community</data>
+      <data key="d5">category</data>
+    </node>
+    <node id="External sources/Offic (routine)">
+      <data key="d0">Offic
+(routine)</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Offic</data>
+      <data key="d3">Official Sources</data>
+      <data key="d4">official</data>
+      <data key="d5">category</data>
     </node>
     <node id="External sources/Exp (routine)">
       <data key="d0">Exp
 (routine)</data>
-      <data key="d1">Exp</data>
-      <data key="d2">External sources</data>
-      <data key="d3">category</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Exp</data>
+      <data key="d3">This Experiment</data>
+      <data key="d4">experiment</data>
+      <data key="d5">category</data>
     </node>
     <node id="External sources/Comm (feature)">
       <data key="d0">Comm
 (feature)</data>
-      <data key="d1">Comm</data>
-      <data key="d2">External sources</data>
-      <data key="d3">category</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Comm</data>
+      <data key="d3">Community</data>
+      <data key="d4">community</data>
+      <data key="d5">category</data>
     </node>
     <node id="External sources/Exp (feature)">
       <data key="d0">Exp
 (feature)</data>
-      <data key="d1">Exp</data>
-      <data key="d2">External sources</data>
-      <data key="d3">category</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Exp</data>
+      <data key="d3">This Experiment</data>
+      <data key="d4">experiment</data>
+      <data key="d5">category</data>
     </node>
     <node id="External sources/Comm (use-case)">
       <data key="d0">Comm
 (use-case)</data>
-      <data key="d1">Comm</data>
-      <data key="d2">External sources</data>
-      <data key="d3">category</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Comm</data>
+      <data key="d3">Community</data>
+      <data key="d4">community</data>
+      <data key="d5">category</data>
     </node>
     <node id="External sources/Exp (use-case)">
       <data key="d0">Exp
 (use-case)</data>
-      <data key="d1">Exp</data>
-      <data key="d2">External sources</data>
-      <data key="d3">category</data>
+      <data key="d1">External sources</data>
+      <data key="d2">Exp</data>
+      <data key="d3">This Experiment</data>
+      <data key="d4">experiment</data>
+      <data key="d5">category</data>
     </node>
-    <edge source="External sources/Comm (routine)" target="External sources/Comm (feature)" id="112">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <node id="External sources/Exp (routine)External sources/Exp (feature)">
+      <data key="d0">from: Exp
+to: Exp</data>
+      <data key="d6">experiment</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">External sources</data>
+      <data key="d11">Exp</data>
+      <data key="d12">This Experiment</data>
+      <data key="d13">External sources / Exp</data>
+      <data key="d14">experiment</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">External sources</data>
+      <data key="d19">Exp</data>
+      <data key="d20">This Experiment</data>
+      <data key="d21">External sources / Exp</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="External sources/Comm (routine)External sources/Exp (feature)">
+      <data key="d0">from: Comm
+to: Exp</data>
+      <data key="d6">community</data>
+      <data key="d7">6</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">External sources</data>
+      <data key="d11">Comm</data>
+      <data key="d12">Community</data>
+      <data key="d13">External sources / Comm</data>
+      <data key="d14">community</data>
+      <data key="d15">6</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">External sources</data>
+      <data key="d19">Comm</data>
+      <data key="d20">Community</data>
+      <data key="d21">External sources / Comm</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="External sources/Comm (routine)External sources/Comm (feature)">
+      <data key="d0">from: Comm
+to: Comm</data>
+      <data key="d6">community</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">External sources</data>
+      <data key="d11">Comm</data>
+      <data key="d12">Community</data>
+      <data key="d13">External sources / Comm</data>
+      <data key="d14">community</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">External sources</data>
+      <data key="d19">Comm</data>
+      <data key="d20">Community</data>
+      <data key="d21">External sources / Comm</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="External sources/Offic (routine)External sources/Exp (feature)">
+      <data key="d0">from: Offic
+to: Exp</data>
+      <data key="d6">official</data>
+      <data key="d7">6</data>
+      <data key="d8">2</data>
+      <data key="d9">routine</data>
+      <data key="d10">External sources</data>
+      <data key="d11">Offic</data>
+      <data key="d12">Official Sources</data>
+      <data key="d13">External sources / Offic</data>
+      <data key="d14">official</data>
+      <data key="d15">6</data>
+      <data key="d16">2</data>
+      <data key="d17">routine</data>
+      <data key="d18">External sources</data>
+      <data key="d19">Offic</data>
+      <data key="d20">Official Sources</data>
+      <data key="d21">External sources / Offic</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="External sources/Exp (feature)External sources/Exp (use-case)">
+      <data key="d0">from: Exp
+to: Exp</data>
+      <data key="d6">experiment</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">External sources</data>
+      <data key="d11">Exp</data>
+      <data key="d12">This Experiment</data>
+      <data key="d13">External sources / Exp</data>
+      <data key="d14">experiment</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">External sources</data>
+      <data key="d19">Exp</data>
+      <data key="d20">This Experiment</data>
+      <data key="d21">External sources / Exp</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="External sources/Comm (feature)External sources/Comm (use-case)">
+      <data key="d0">from: Comm
+to: Comm</data>
+      <data key="d6">community</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">External sources</data>
+      <data key="d11">Comm</data>
+      <data key="d12">Community</data>
+      <data key="d13">External sources / Comm</data>
+      <data key="d14">community</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">External sources</data>
+      <data key="d19">Comm</data>
+      <data key="d20">Community</data>
+      <data key="d21">External sources / Comm</data>
+      <data key="d5">join</data>
+    </node>
+    <edge source="External sources/Comm (routine)" target="External sources/Comm (routine)External sources/Exp (feature)" id="750">
+      <data key="d22">community</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Comm</data>
+      <data key="d28">Community</data>
+      <data key="d29">External sources / Comm</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="111">
-      <data key="d4">3</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="External sources/Comm (routine)" target="External sources/Comm (routine)External sources/Exp (feature)" id="756">
+      <data key="d22">community</data>
+      <data key="d23">6</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Comm</data>
+      <data key="d28">Community</data>
+      <data key="d29">External sources / Comm</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="External sources/Exp (routine)" target="External sources/Exp (feature)" id="113">
-      <data key="d4">6</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="External sources/Comm (routine)" target="External sources/Comm (routine)External sources/Comm (feature)" id="752">
+      <data key="d22">community</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Comm</data>
+      <data key="d28">Community</data>
+      <data key="d29">External sources / Comm</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="External sources/Comm (feature)" target="External sources/Comm (use-case)" id="115">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="External sources/Offic (routine)" target="External sources/Offic (routine)External sources/Exp (feature)" id="758">
+      <data key="d22">official</data>
+      <data key="d23">6</data>
+      <data key="d24">2</data>
+      <data key="d25">routine</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Offic</data>
+      <data key="d28">Official Sources</data>
+      <data key="d29">External sources / Offic</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="114">
-      <data key="d4">3</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="External sources/Exp (routine)" target="External sources/Exp (routine)External sources/Exp (feature)" id="748">
+      <data key="d22">experiment</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Exp</data>
+      <data key="d28">This Experiment</data>
+      <data key="d29">External sources / Exp</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="External sources/Exp (feature)" target="External sources/Exp (use-case)" id="116">
-      <data key="d4">6</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="External sources/Exp (routine)" target="External sources/Exp (routine)External sources/Exp (feature)" id="754">
+      <data key="d22">experiment</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Exp</data>
+      <data key="d28">This Experiment</data>
+      <data key="d29">External sources / Exp</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="External sources/Comm (feature)" target="External sources/Comm (feature)External sources/Comm (use-case)" id="762">
+      <data key="d22">community</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Comm</data>
+      <data key="d28">Community</data>
+      <data key="d29">External sources / Comm</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="External sources/Exp (feature)" target="External sources/Exp (feature)External sources/Exp (use-case)" id="760">
+      <data key="d22">experiment</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Exp</data>
+      <data key="d28">This Experiment</data>
+      <data key="d29">External sources / Exp</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="External sources/Exp (feature)" target="External sources/Exp (feature)External sources/Exp (use-case)" id="764">
+      <data key="d22">experiment</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">External sources</data>
+      <data key="d27">Exp</data>
+      <data key="d28">This Experiment</data>
+      <data key="d29">External sources / Exp</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="External sources/Exp (routine)External sources/Exp (feature)" target="External sources/Exp (feature)" id="749">
+      <data key="d31">experiment</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Exp</data>
+      <data key="d37">This Experiment</data>
+      <data key="d38">External sources / Exp</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Exp (routine)External sources/Exp (feature)" target="External sources/Exp (feature)" id="755">
+      <data key="d31">experiment</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Exp</data>
+      <data key="d37">This Experiment</data>
+      <data key="d38">External sources / Exp</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Comm (routine)External sources/Exp (feature)" target="External sources/Exp (feature)" id="751">
+      <data key="d31">community</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Comm</data>
+      <data key="d37">Community</data>
+      <data key="d38">External sources / Comm</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Comm (routine)External sources/Exp (feature)" target="External sources/Exp (feature)" id="757">
+      <data key="d31">community</data>
+      <data key="d32">6</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Comm</data>
+      <data key="d37">Community</data>
+      <data key="d38">External sources / Comm</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Comm (routine)External sources/Comm (feature)" target="External sources/Comm (feature)" id="753">
+      <data key="d31">community</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Comm</data>
+      <data key="d37">Community</data>
+      <data key="d38">External sources / Comm</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Offic (routine)External sources/Exp (feature)" target="External sources/Exp (feature)" id="759">
+      <data key="d31">official</data>
+      <data key="d32">6</data>
+      <data key="d33">2</data>
+      <data key="d34">routine</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Offic</data>
+      <data key="d37">Official Sources</data>
+      <data key="d38">External sources / Offic</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Exp (feature)External sources/Exp (use-case)" target="External sources/Exp (use-case)" id="761">
+      <data key="d31">experiment</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Exp</data>
+      <data key="d37">This Experiment</data>
+      <data key="d38">External sources / Exp</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Exp (feature)External sources/Exp (use-case)" target="External sources/Exp (use-case)" id="765">
+      <data key="d31">experiment</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Exp</data>
+      <data key="d37">This Experiment</data>
+      <data key="d38">External sources / Exp</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="External sources/Comm (feature)External sources/Comm (use-case)" target="External sources/Comm (use-case)" id="763">
+      <data key="d31">community</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">External sources</data>
+      <data key="d36">Comm</data>
+      <data key="d37">Community</data>
+      <data key="d38">External sources / Comm</data>
+      <data key="d30">to</data>
     </edge>
   </graph>
 </graphml>

@@ -1,133 +1,759 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d7" for="edge" attr.name="style" attr.type="string" />
-  <key id="d6" for="edge" attr.name="rank" attr.type="int" />
-  <key id="d5" for="edge" attr.name="cause" attr.type="string" />
-  <key id="d4" for="edge" attr.name="developer" attr.type="string" />
-  <key id="d3" for="node" attr.name="style" attr.type="string" />
-  <key id="d2" for="node" attr.name="aspect" attr.type="string" />
-  <key id="d1" for="node" attr.name="category" attr.type="string" />
+  <key id="d38" for="edge" attr.name="to_unique name" attr.type="string" />
+  <key id="d37" for="edge" attr.name="to_long category name" attr.type="string" />
+  <key id="d36" for="edge" attr.name="to_short category name" attr.type="string" />
+  <key id="d35" for="edge" attr.name="to_aspect name" attr.type="string" />
+  <key id="d34" for="edge" attr.name="to_phase name" attr.type="string" />
+  <key id="d33" for="edge" attr.name="to_category rank" attr.type="int" />
+  <key id="d32" for="edge" attr.name="to_vsz id" attr.type="string" />
+  <key id="d31" for="edge" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d30" for="edge" attr.name="style" attr.type="string" />
+  <key id="d29" for="edge" attr.name="from_unique name" attr.type="string" />
+  <key id="d28" for="edge" attr.name="from_long category name" attr.type="string" />
+  <key id="d27" for="edge" attr.name="from_short category name" attr.type="string" />
+  <key id="d26" for="edge" attr.name="from_aspect name" attr.type="string" />
+  <key id="d25" for="edge" attr.name="from_phase name" attr.type="string" />
+  <key id="d24" for="edge" attr.name="from_category rank" attr.type="int" />
+  <key id="d23" for="edge" attr.name="from_vsz id" attr.type="string" />
+  <key id="d22" for="edge" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d21" for="node" attr.name="to_unique name" attr.type="string" />
+  <key id="d20" for="node" attr.name="to_long category name" attr.type="string" />
+  <key id="d19" for="node" attr.name="to_short category name" attr.type="string" />
+  <key id="d18" for="node" attr.name="to_aspect name" attr.type="string" />
+  <key id="d17" for="node" attr.name="to_phase name" attr.type="string" />
+  <key id="d16" for="node" attr.name="to_category rank" attr.type="int" />
+  <key id="d15" for="node" attr.name="to_vsz id" attr.type="string" />
+  <key id="d14" for="node" attr.name="to_legacy category name" attr.type="string" />
+  <key id="d13" for="node" attr.name="from_unique name" attr.type="string" />
+  <key id="d12" for="node" attr.name="from_long category name" attr.type="string" />
+  <key id="d11" for="node" attr.name="from_short category name" attr.type="string" />
+  <key id="d10" for="node" attr.name="from_aspect name" attr.type="string" />
+  <key id="d9" for="node" attr.name="from_phase name" attr.type="string" />
+  <key id="d8" for="node" attr.name="from_category rank" attr.type="int" />
+  <key id="d7" for="node" attr.name="from_vsz id" attr.type="string" />
+  <key id="d6" for="node" attr.name="from_legacy category name" attr.type="string" />
+  <key id="d5" for="node" attr.name="style" attr.type="string" />
+  <key id="d4" for="node" attr.name="legacy category name" attr.type="string" />
+  <key id="d3" for="node" attr.name="long category name" attr.type="string" />
+  <key id="d2" for="node" attr.name="short category name" attr.type="string" />
+  <key id="d1" for="node" attr.name="aspect name" attr.type="string" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="directed">
     <node id="Information topic/SpecKnow (routine)">
       <data key="d0">SpecKnow
 (routine)</data>
-      <data key="d1">SpecKnow</data>
-      <data key="d2">Information topic</data>
-      <data key="d3">category</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">SpecKnow</data>
+      <data key="d3">Special Knowledge Required for the Task</data>
+      <data key="d4">special knowledge required for the task</data>
+      <data key="d5">category</data>
     </node>
     <node id="Information topic/RelCode (routine)">
       <data key="d0">RelCode
 (routine)</data>
-      <data key="d1">RelCode</data>
-      <data key="d2">Information topic</data>
-      <data key="d3">category</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">RelCode</data>
+      <data key="d3">Information about Related Source Code</data>
+      <data key="d4">information about the related source code</data>
+      <data key="d5">category</data>
     </node>
     <node id="Information topic/SpecKnow (feature)">
       <data key="d0">SpecKnow
 (feature)</data>
-      <data key="d1">SpecKnow</data>
-      <data key="d2">Information topic</data>
-      <data key="d3">category</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">SpecKnow</data>
+      <data key="d3">Special Knowledge Required for the Task</data>
+      <data key="d4">special knowledge required for the task</data>
+      <data key="d5">category</data>
     </node>
     <node id="Information topic/RelCode (feature)">
       <data key="d0">RelCode
 (feature)</data>
-      <data key="d1">RelCode</data>
-      <data key="d2">Information topic</data>
-      <data key="d3">category</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">RelCode</data>
+      <data key="d3">Information about Related Source Code</data>
+      <data key="d4">information about the related source code</data>
+      <data key="d5">category</data>
+    </node>
+    <node id="Information topic/CommKnow (use-case)">
+      <data key="d0">CommKnow
+(use-case)</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">CommKnow</data>
+      <data key="d3">Common Knowledge about Software Engineering</data>
+      <data key="d4">common knowledge about software engineering</data>
+      <data key="d5">category</data>
     </node>
     <node id="Information topic/SpecKnow (use-case)">
       <data key="d0">SpecKnow
 (use-case)</data>
-      <data key="d1">SpecKnow</data>
-      <data key="d2">Information topic</data>
-      <data key="d3">category</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">SpecKnow</data>
+      <data key="d3">Special Knowledge Required for the Task</data>
+      <data key="d4">special knowledge required for the task</data>
+      <data key="d5">category</data>
     </node>
     <node id="Information topic/RelCode (use-case)">
       <data key="d0">RelCode
 (use-case)</data>
-      <data key="d1">RelCode</data>
-      <data key="d2">Information topic</data>
-      <data key="d3">category</data>
+      <data key="d1">Information topic</data>
+      <data key="d2">RelCode</data>
+      <data key="d3">Information about Related Source Code</data>
+      <data key="d4">information about the related source code</data>
+      <data key="d5">category</data>
     </node>
-    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (feature)" id="121">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">1</data>
-      <data key="d7">transition</data>
+    <node id="Information topic/RelCode (routine)Information topic/RelCode (feature)">
+      <data key="d0">from: RelCode
+to: RelCode</data>
+      <data key="d6">information about the related source code</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">RelCode</data>
+      <data key="d12">Information about Related Source Code</data>
+      <data key="d13">Information topic / RelCode</data>
+      <data key="d14">information about the related source code</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">RelCode</data>
+      <data key="d20">Information about Related Source Code</data>
+      <data key="d21">Information topic / RelCode</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/SpecKnow (routine)Information topic/RelCode (feature)">
+      <data key="d0">from: SpecKnow
+to: RelCode</data>
+      <data key="d6">special knowledge required for the task</data>
+      <data key="d7">6</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">SpecKnow</data>
+      <data key="d12">Special Knowledge Required for the Task</data>
+      <data key="d13">Information topic / SpecKnow</data>
+      <data key="d14">special knowledge required for the task</data>
+      <data key="d15">6</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">SpecKnow</data>
+      <data key="d20">Special Knowledge Required for the Task</data>
+      <data key="d21">Information topic / SpecKnow</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/RelCode (routine)Information topic/SpecKnow (feature)">
+      <data key="d0">from: RelCode
+to: SpecKnow</data>
+      <data key="d6">information about the related source code</data>
+      <data key="d7">4</data>
+      <data key="d8">0</data>
+      <data key="d9">routine</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">RelCode</data>
+      <data key="d12">Information about Related Source Code</data>
+      <data key="d13">Information topic / RelCode</data>
+      <data key="d14">information about the related source code</data>
+      <data key="d15">4</data>
+      <data key="d16">0</data>
+      <data key="d17">routine</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">RelCode</data>
+      <data key="d20">Information about Related Source Code</data>
+      <data key="d21">Information topic / RelCode</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/SpecKnow (routine)Information topic/SpecKnow (feature)">
+      <data key="d0">from: SpecKnow
+to: SpecKnow</data>
+      <data key="d6">special knowledge required for the task</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">routine</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">SpecKnow</data>
+      <data key="d12">Special Knowledge Required for the Task</data>
+      <data key="d13">Information topic / SpecKnow</data>
+      <data key="d14">special knowledge required for the task</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">routine</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">SpecKnow</data>
+      <data key="d20">Special Knowledge Required for the Task</data>
+      <data key="d21">Information topic / SpecKnow</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/RelCode (feature)Information topic/SpecKnow (use-case)">
+      <data key="d0">from: RelCode
+to: SpecKnow</data>
+      <data key="d6">information about the related source code</data>
+      <data key="d7">5</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">RelCode</data>
+      <data key="d12">Information about Related Source Code</data>
+      <data key="d13">Information topic / RelCode</data>
+      <data key="d14">information about the related source code</data>
+      <data key="d15">5</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">RelCode</data>
+      <data key="d20">Information about Related Source Code</data>
+      <data key="d21">Information topic / RelCode</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/RelCode (feature)Information topic/RelCode (use-case)">
+      <data key="d0">from: RelCode
+to: RelCode</data>
+      <data key="d6">information about the related source code</data>
+      <data key="d7">6</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">RelCode</data>
+      <data key="d12">Information about Related Source Code</data>
+      <data key="d13">Information topic / RelCode</data>
+      <data key="d14">information about the related source code</data>
+      <data key="d15">6</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">RelCode</data>
+      <data key="d20">Information about Related Source Code</data>
+      <data key="d21">Information topic / RelCode</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/RelCode (feature)Information topic/CommKnow (use-case)">
+      <data key="d0">from: RelCode
+to: CommKnow</data>
+      <data key="d6">information about the related source code</data>
+      <data key="d7">2</data>
+      <data key="d8">0</data>
+      <data key="d9">feature</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">RelCode</data>
+      <data key="d12">Information about Related Source Code</data>
+      <data key="d13">Information topic / RelCode</data>
+      <data key="d14">information about the related source code</data>
+      <data key="d15">2</data>
+      <data key="d16">0</data>
+      <data key="d17">feature</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">RelCode</data>
+      <data key="d20">Information about Related Source Code</data>
+      <data key="d21">Information topic / RelCode</data>
+      <data key="d5">join</data>
+    </node>
+    <node id="Information topic/SpecKnow (feature)Information topic/RelCode (use-case)">
+      <data key="d0">from: SpecKnow
+to: RelCode</data>
+      <data key="d6">special knowledge required for the task</data>
+      <data key="d7">4</data>
+      <data key="d8">1</data>
+      <data key="d9">feature</data>
+      <data key="d10">Information topic</data>
+      <data key="d11">SpecKnow</data>
+      <data key="d12">Special Knowledge Required for the Task</data>
+      <data key="d13">Information topic / SpecKnow</data>
+      <data key="d14">special knowledge required for the task</data>
+      <data key="d15">4</data>
+      <data key="d16">1</data>
+      <data key="d17">feature</data>
+      <data key="d18">Information topic</data>
+      <data key="d19">SpecKnow</data>
+      <data key="d20">Special Knowledge Required for the Task</data>
+      <data key="d21">Information topic / SpecKnow</data>
+      <data key="d5">join</data>
+    </node>
+    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" id="768">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">1</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="117">
-      <data key="d4">1</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" id="774">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">3</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="118">
-      <data key="d4">2</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" id="780">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="119">
-      <data key="d4">3</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" id="786">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">5</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="120">
-      <data key="d4">4</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" id="790">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">6</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="122">
-      <data key="d4">5</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/SpecKnow (routine)" target="Information topic/SpecKnow (routine)Information topic/SpecKnow (feature)" id="782">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (feature)" id="123">
-      <data key="d4">6</data>
-      <data key="d5">feature</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/RelCode (feature)" id="766">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (feature)" target="Information topic/SpecKnow (use-case)" id="124">
-      <data key="d4">1</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/RelCode (feature)" id="770">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="125">
-      <data key="d4">2</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/RelCode (feature)" id="772">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="126">
-      <data key="d4">3</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/RelCode (feature)" id="776">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="127">
-      <data key="d4">4</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/RelCode (feature)" id="784">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="128">
-      <data key="d4">5</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/RelCode (feature)" id="788">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
     </edge>
-    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (use-case)" id="129">
-      <data key="d4">6</data>
-      <data key="d5">use-case</data>
-      <data key="d6">0</data>
-      <data key="d7">transition</data>
+    <edge source="Information topic/RelCode (routine)" target="Information topic/RelCode (routine)Information topic/SpecKnow (feature)" id="778">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">routine</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (feature)" target="Information topic/SpecKnow (feature)Information topic/RelCode (use-case)" id="802">
+      <data key="d22">special knowledge required for the task</data>
+      <data key="d23">4</data>
+      <data key="d24">1</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">SpecKnow</data>
+      <data key="d28">Special Knowledge Required for the Task</data>
+      <data key="d29">Information topic / SpecKnow</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/SpecKnow (use-case)" id="792">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">1</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/SpecKnow (use-case)" id="806">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/RelCode (use-case)" id="794">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/RelCode (use-case)" id="798">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">3</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/RelCode (use-case)" id="800">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">4</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/RelCode (use-case)" id="804">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">5</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/RelCode (use-case)" id="808">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">6</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)" target="Information topic/RelCode (feature)Information topic/CommKnow (use-case)" id="796">
+      <data key="d22">information about the related source code</data>
+      <data key="d23">2</data>
+      <data key="d24">0</data>
+      <data key="d25">feature</data>
+      <data key="d26">Information topic</data>
+      <data key="d27">RelCode</data>
+      <data key="d28">Information about Related Source Code</data>
+      <data key="d29">Information topic / RelCode</data>
+      <data key="d30">from</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="767">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="771">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="773">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="777">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="785">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="789">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="769">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">1</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="775">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="781">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="787">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (routine)Information topic/RelCode (feature)" target="Information topic/RelCode (feature)" id="791">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">6</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (routine)Information topic/SpecKnow (feature)" target="Information topic/SpecKnow (feature)" id="779">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (routine)Information topic/SpecKnow (feature)" target="Information topic/SpecKnow (feature)" id="783">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">routine</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/SpecKnow (use-case)" target="Information topic/SpecKnow (use-case)" id="793">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">1</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/SpecKnow (use-case)" target="Information topic/SpecKnow (use-case)" id="807">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/RelCode (use-case)" target="Information topic/RelCode (use-case)" id="795">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/RelCode (use-case)" target="Information topic/RelCode (use-case)" id="799">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">3</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/RelCode (use-case)" target="Information topic/RelCode (use-case)" id="801">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">4</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/RelCode (use-case)" target="Information topic/RelCode (use-case)" id="805">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">5</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/RelCode (use-case)" target="Information topic/RelCode (use-case)" id="809">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">6</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/RelCode (feature)Information topic/CommKnow (use-case)" target="Information topic/CommKnow (use-case)" id="797">
+      <data key="d31">information about the related source code</data>
+      <data key="d32">2</data>
+      <data key="d33">0</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">RelCode</data>
+      <data key="d37">Information about Related Source Code</data>
+      <data key="d38">Information topic / RelCode</data>
+      <data key="d30">to</data>
+    </edge>
+    <edge source="Information topic/SpecKnow (feature)Information topic/RelCode (use-case)" target="Information topic/RelCode (use-case)" id="803">
+      <data key="d31">special knowledge required for the task</data>
+      <data key="d32">4</data>
+      <data key="d33">1</data>
+      <data key="d34">feature</data>
+      <data key="d35">Information topic</data>
+      <data key="d36">SpecKnow</data>
+      <data key="d37">Special Knowledge Required for the Task</data>
+      <data key="d38">Information topic / SpecKnow</data>
+      <data key="d30">to</data>
     </edge>
   </graph>
 </graphml>

@@ -1,3 +1,5 @@
+import argparse
+import os
 import re
 from math import isnan
 import matplotlib.pyplot as plt
@@ -11,10 +13,10 @@ from matplotlib.figure import Figure
 import networkx as nx
 
 MACRO_TEX_PATH = r'C:\data\interactive-fl\emse\thinkmacros.tex'
-NOTE_PATH = r'C:\data\think-aloud-toolkit\summarize\think-aloud videók kategórizálás és szempontok.txt'
+NOTE_PATH = r'C:\data\interactive-fl\emse\think-aloud videók kategórizálás és szempontok.txt'
 
 
-def load_category_macros() -> pandas.DataFrame:
+def load_category_macros_from_tex() -> pandas.DataFrame:
     macros = pandas.DataFrame(columns=[
         'aspect name',
         'aspect command',
@@ -55,8 +57,8 @@ def load_category_macros() -> pandas.DataFrame:
     return macros
 
 
-def load_categorization() -> pandas.DataFrame:
-    categorization = pandas.DataFrame(columns=['legacy category name', 'vsz id', 'category rank', 'section name'])
+def load_categorization_from_raw_notes() -> pandas.DataFrame:
+    categorization = pandas.DataFrame(columns=['legacy category name', 'vsz id', 'category rank', 'phase name'])
     with open(NOTE_PATH, 'r', encoding='utf-8') as note_file:
         current_vsz = None
         for line in note_file:
@@ -65,22 +67,22 @@ def load_categorization() -> pandas.DataFrame:
             if vsz_match:
                 current_vsz = vsz_match.group('id')
                 continue
-            section_match = re.search(r'^[(](?P<name>[\w-]+)[)]\s+(?P<list>.+)$', line)
-            if section_match:
-                section_name = section_match.group('name')
-                categories = [legacy_name.strip() for legacy_name in section_match.group('list').strip(';').split(';')]
+            phase_match = re.search(r'^[(](?P<name>[\w-]+)[)]\s+(?P<list>.+)$', line)
+            if phase_match:
+                phase_name = phase_match.group('name')
+                categories = [legacy_name.strip() for legacy_name in phase_match.group('list').strip(';').split(';')]
                 for index, legacy_name in enumerate(categories):
                     if legacy_name not in ['none']:
                         categorization = categorization.append({
                             'legacy category name': legacy_name,
                             'vsz id': current_vsz,
                             'category rank': index,
-                            'section name': section_name
+                            'phase name': phase_name
                         }, ignore_index=True)
     return categorization
 
 
-def generate_category_by_rareness_heatmap(_categorization, section, y_label=True):
+def generate_category_by_rareness_heatmap(_categorization, phase, y_label=True):
     interesting_columns = ['unique name', 'vsz id', 'category rank']
     heat_mapped = _categorization[interesting_columns].groupby(by=['unique name', 'vsz id']).sum().unstack('vsz id')
     present = set(heat_mapped.index)
@@ -115,14 +117,14 @@ def generate_category_by_rareness_heatmap(_categorization, section, y_label=True
     ax.set_xticklabels(range(1, 7))
     fig.tight_layout()
     # fig.show()
-    fig.savefig(f'category_by_rareness_{section}_{"label" if y_label else "no-label"}_heatmap.pdf', bbox_inches='tight')
+    fig.savefig(f'category_by_rareness_{phase}_{"label" if y_label else "no-label"}_heatmap.pdf', bbox_inches='tight')
 
 
 def generate_category_by_rareness_figure(_categorization):
     _categorization['unique name'] = _categorization['aspect name'] + ' / ' + _categorization['short category name']
 
     y = _categorization['unique name']
-    x = _categorization['section name']
+    x = _categorization['phase name']
     z = _categorization['category rank'].map(
         {
             0: 'mostly observed',
@@ -153,15 +155,15 @@ def generate_category_by_rareness_figure(_categorization):
     fig.savefig('category_by_rareness.pdf', bbox_inches='tight')
 
 
-def node_id(category_record, section):
-    return f'{category_record["aspect name"]}/{category_record["short category name"]} ({section})'
+def node_id(category_record, phase):
+    return f'{category_record["aspect name"]}/{category_record["short category name"]} ({phase})'
 
 
 edge_id = 0
 
 
 def _connect_to_from(from_categorization, to_categorization,
-                     from_section, to_section,
+                     from_phase, to_phase,
                      graph):
     global edge_id
     for from_index, from_category in from_categorization.iterrows():
@@ -169,29 +171,39 @@ def _connect_to_from(from_categorization, to_categorization,
             from_vsz_id = from_category['vsz id']
             to_vsz_id = to_category['vsz id']
             is_vsz_id_same = from_vsz_id == to_vsz_id
-            from_rank = from_category['category rank']
-            to_rank = to_category['category rank']
-            is_category_rank_same = from_rank == to_rank
             is_aspect_same = from_category['aspect name'] == to_category['aspect name']
-            if is_vsz_id_same and is_category_rank_same and is_aspect_same:
-                from_node = node_id(from_category, from_section)
-                to_node = node_id(to_category, to_section)
+            if is_vsz_id_same and is_aspect_same:
+                from_node = node_id(from_category, from_phase)
+                to_node = node_id(to_category, to_phase)
+                join_node = from_node + to_node
+                graph.add_node(
+                    join_node,
+                    label=f'from: {from_category["short category name"]}\nto: {to_category["short category name"]}',
+                    **{'from_' + key: _value for key, _value in from_category.items() if 'command' not in key},
+                    **{'to_' + key: _value for key, _value in from_category.items() if 'command' not in key},
+                    style='join'
+                )
                 graph.add_edge(
-                    from_node, to_node, key=edge_id,
-                    developer=from_vsz_id, cause=to_section,
-                    rank=from_rank,
-                    style='transition'
+                    from_node, join_node, key=edge_id,
+                    **{'from_' + key: _value for key, _value in from_category.items() if 'command' not in key},
+                    style='from'
+                )
+                edge_id += 1
+                graph.add_edge(
+                    join_node, to_node, key=edge_id,
+                    **{'to_' + key: _value for key, _value in from_category.items() if 'command' not in key},
+                    style='to'
                 )
                 edge_id += 1
 
 
-def _create_nodes(section, _macros, graph):
+def _create_nodes(phase, _macros, graph):
     for index, category in _macros.iterrows():
         graph.add_node(
-            node_id(category, section),
-            label=f'{category["short category name"]}\n({section})',
-            # label=f'{category["aspect name"]} / {category["short category name"]}\n({section})',
-            category=category['short category name'], aspect=category['aspect name'], style='category')
+            node_id(category, phase),
+            label=f'{category["short category name"]}\n({phase})',
+            **{key: _value for key, _value in category.items() if 'command' not in key},
+            style='category')
 
 
 def generate_arch_graph(filter_name, category_filter, macros_filter):
@@ -200,9 +212,9 @@ def generate_arch_graph(filter_name, category_filter, macros_filter):
     _create_nodes('routine', filtered_macros, graph)
     _create_nodes('feature', filtered_macros, graph)
     _create_nodes('use-case', filtered_macros, graph)
-    is_routine = (categorization['section name'] == 'routine') & category_filter
-    is_feature = (categorization['section name'] == 'feature') & category_filter
-    is_use_case = (categorization['section name'] == 'use-case') & category_filter
+    is_routine = (categorization['phase name'] == 'routine') & category_filter
+    is_feature = (categorization['phase name'] == 'feature') & category_filter
+    is_use_case = (categorization['phase name'] == 'use-case') & category_filter
     _connect_to_from(
         categorization[is_routine], categorization[is_feature],
         'routine', 'feature', graph)
@@ -216,32 +228,51 @@ def generate_arch_graph(filter_name, category_filter, macros_filter):
 
 
 if __name__ == '__main__':
-    print("loading categories...", end='')
-    macros = load_category_macros()
-    with open('macro_mapping.csv', 'w', encoding='utf-8') as mapping:
-        mapping.write(macros.to_csv())
-    print("done")
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--macros', type=str, default=None, help='CSV file containing the aspects and categories')
+    parser.add_argument(
+        '--categorization', type=str, default=None,
+        help='CSV file containing the categorization of the behavior of the participants')
+    args = parser.parse_args()
 
-    print("loading categorization...", end='')
-    categorization = load_categorization()
-    categorization = categorization.join(macros.set_index('legacy category name'), on='legacy category name')
-    categorization['unique name'] = categorization['aspect name'] + ' / ' + categorization['short category name']
+    if os.path.isfile(args.macros) and os.path.isfile(args.categorization):
+        print("loading preprocessed data...", end='')
+        macros = pandas.read_csv(args.macros)
+        categorization = pandas.read_csv(args.categorization)
+        print("done")
+    else:
+        print("loading raw data")
+        print("loading categories...", end='')
+        macros = load_category_macros_from_tex()
+        with open('macros.csv', 'w', encoding='utf-8') as macros_file:
+            macros_file.write(macros.to_csv())
+        print("done")
 
-    for record in categorization.values:
-        for value in record:
-            if isinstance(value, float) and isnan(value):
-                raise ValueError("missing or corrupted data")
-    print("done")
+        print("loading categorization...", end='')
+        categorization = load_categorization_from_raw_notes()
+        categorization = categorization.join(macros.set_index('legacy category name'), on='legacy category name')
+        categorization['unique name'] = categorization['aspect name'] + ' / ' + categorization['short category name']
+
+        with open('categorization.csv', 'w', encoding='utf-8') as categorization_file:
+            categorization_file.write(categorization.to_csv())
+        print("done")
+
+        for record in categorization.values:
+            for value in record:
+                if isinstance(value, float) and isnan(value):
+                    raise ValueError("missing or corrupted data")
+        print("done")
 
     print("generating category by rareness...", end='')
     generate_category_by_rareness_figure(categorization.copy())
     print("done")
 
     print("generating category by rareness heatmap...", end='')
-    for section in categorization['section name'].unique():
-        is_section = categorization['section name'] == section
-        generate_category_by_rareness_heatmap(categorization[is_section].copy(), section)
-        generate_category_by_rareness_heatmap(categorization[is_section].copy(), section, y_label=False)
+    for phase in categorization['phase name'].unique():
+        is_phase = categorization['phase name'] == phase
+        generate_category_by_rareness_heatmap(categorization[is_phase].copy(), phase)
+        generate_category_by_rareness_heatmap(categorization[is_phase].copy(), phase, y_label=False)
     print("done")
 
     for aspect in macros['aspect name'].unique():
@@ -254,16 +285,16 @@ if __name__ == '__main__':
                         macros_filter=[True] * len(macros.index))
     print("done")
 
-    raw_counts = categorization.groupby(by=['aspect command', 'short category command', 'section name']).count()
+    raw_counts = categorization.groupby(by=['aspect command', 'short category command', 'phase name']).count()
     counts = {}
     for by, entry in raw_counts.iterrows():
-        aspect, category, section = by
+        aspect, category, phase = by
         count = entry['vsz id']
         if aspect not in counts:
             counts[aspect] = {}
         if category not in counts[aspect]:
             counts[aspect][category] = {'routine': '', 'feature': '', 'use-case': ''}
-        counts[aspect][category][section] = count if count > 0 else ''
+        counts[aspect][category][phase] = count if count > 0 else ''
         assert 0 <= count <= 6
 
     with open('table.tex', 'w', encoding='utf-8') as table_file:
@@ -273,14 +304,14 @@ if __name__ == '__main__':
             table_file.write(r'\toprule' + '\n')
             table_file.write(r'&\header{routine}&\header{feature}&\header{use-case}\\')
             table_file.write(r'\midrule' + '\n')
-            for category, sections_count in categories_count.items():
+            for category, phases_count in categories_count.items():
                 table_file.write(
                     f'\\header{{{category}}}&'
-                    f'{sections_count["routine"]}&{sections_count["feature"]}&{sections_count["use-case"]}\\\\\n')
+                    f'{phases_count["routine"]}&{phases_count["feature"]}&{phases_count["use-case"]}\\\\\n')
             table_file.write(r'\bottomrule' + '\n')
             table_file.write(r'\end{tabular}' + '\n')
             table_file.write(
                 f'\\caption{{Count of categories'
-                f' during various sections'
+                f' during various phases'
                 f' regarding \\enquote{{{aspect}}} aspect}}' + '\n')
             table_file.write(r'\end{table}' + '\n')
