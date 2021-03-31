@@ -1,0 +1,1320 @@
+﻿1
+00:00:00,000 --> 00:00:05,000
+El is indítottam a felvételt (Feri)
+
+2
+00:00:05,000 --> 00:00:07,000
+És akkor (Feri)
+
+3
+00:00:07,000 --> 00:00:10,600
+Akkor mondom, hogy megint majd itt a jobboldalon leszek (Feri)
+
+4
+00:00:10,600 --> 00:00:12,600
+Vagy jobboldalt szemben (Feri)
+
+5
+00:00:13,400 --> 00:00:17,460
+Jó, tehát úgy szolna ez a (Feri)
+
+6
+00:00:17,460 --> 00:00:19,460
+Ööö, session (Feri)
+
+7
+00:00:19,460 --> 00:00:24,380
+hogy toolokkal kapcsolatos lehetséges használati eseteket fogok (Feri)
+
+8
+00:00:24,380 --> 00:00:30,900
+bemutatni, ööö, és akkor azzal kapcsolatban kellene kifejteni, hogy (Feri)
+
+9
+00:00:30,900 --> 00:00:35,760
+befolyásolt-e volna az téged vagy a véleményedet az esetről (Feri)
+
+10
+00:00:35,760 --> 00:00:39,800
+Jó? No, akkor (Feri)
+
+11
+00:00:39,800 --> 00:00:46,080
+Az első esetünk az a 6.1-es, amely úgy szól, hogy - felírom hogy (Feri)
+
+12
+00:00:46,080 --> 00:00:52,680
+[motyog, ír] (Feri)
+
+13
+00:00:52,680 --> 00:00:54,680
+Jó, tehát (Feri)
+
+14
+00:00:54,680 --> 00:00:56,680
+Még egyszer, akkor a 6.1-es esetünk (Feri)
+
+15
+00:00:56,680 --> 00:01:02,340
+úgy szól, hogy tegyük fel, hogy lefuttatod a lefedettségmérést az adott teszten (Feri)
+
+16
+00:01:02,340 --> 00:01:09,400
+amely mondjuk a hétfőiben, a hétfői session-ök közül mondjuk a test case numberes teszt (Feri)
+
+17
+00:01:09,400 --> 00:01:11,400
+- Ühüm. 
+- Emlékszem még (Feri)
+
+18
+00:01:11,400 --> 00:01:16,320
+Ööö, amely értint egy csomó metódust, tehát voltak itt olyanok, hogy mindenféle (Feri)
+
+19
+00:01:16,320 --> 00:01:20,480
+createFloat, createBiginteger, mindenféle create-ek (Feri)
+
+20
+00:01:20,480 --> 00:01:22,480
+Ööö
+
+21
+00:01:22,480 --> 00:01:26,600
+Így nehezebben azonosítod, a kód mely részére kell fókuszálni (Feri)
+
+22
+00:01:26,600 --> 00:01:29,980
+Ööö, a kézzel való átnézés után (Feri)
+
+23
+00:01:29,980 --> 00:01:34,240
+Kiderül, hogy ööö, a keresett kód (Feri)
+
+24
+00:01:34,240 --> 00:01:40,040
+ugyanaz az if, ahol a startsWith -- ellenőrzés volt (Feri)
+
+25
+00:01:40,040 --> 00:01:45,560
+az közvetlenül az egyik ilyen a lefedettség által jelölt (Feri)
+
+26
+00:01:45,560 --> 00:01:49,140
+metódus, a createNumber elején volt (Feri)
+
+27
+00:01:49,140 --> 00:01:53,900
+így egy rövid átolvasással is könnyen megtaláltad volna ezt a részt (Feri)
+
+28
+00:01:53,900 --> 00:01:58,620
+Lefuttatod a lefedettséget (Feri)
+
+29
+00:01:58,620 --> 00:02:02,800
+egy csomó mindent érint, összességében többek között a createNumber (Feri)
+
+30
+00:02:02,800 --> 00:02:07,140
+meg egyebek is, aztán átnézed kézzel, (Feri)
+
+31
+00:02:07,140 --> 00:02:14,600
+hogy elindult ezen a listán mondjuk, megtalálod ezt az ifet, és rájössz, hogy igazából ezt ööö (Feri)
+
+32
+00:02:14,600 --> 00:02:19,080
+ööö, kézzel átolvasással is tök gyorsan megtaláltad volna (Feri)
+
+33
+00:02:19,080 --> 00:02:23,880
+[gondolkodik]
+
+34
+00:02:23,880 --> 00:02:25,600
+Tehát most akkor 
+
+35
+00:02:25,600 --> 00:02:30,400
+- az a kérdés, hogy (Feri)
+- gyorsabb lett volna-e, hogyha
+
+36
+00:02:30,400 --> 00:02:34,340
+- a coverage-dzsel...
+- Minden lehet, ami eszedbe jut ezzel a (Feri)
+
+37
+00:02:34,340 --> 00:02:36,340
+a szituációval kapcsolatban (Feri)
+
+38
+00:02:36,340 --> 00:02:40,480
+legalábbis nekem nem, tehát hogy ez nekem eléggé triviális eset volt, tehát ha
+
+39
+00:02:40,480 --> 00:02:45,600
+a teszteset az nagyon jól leírta, hogy minek és mikor és minek kell történnie, szóval
+
+40
+00:02:46,980 --> 00:02:50,440
+Ráadásul főleg úgy, hogy a 
+
+41
+00:02:50,440 --> 00:02:55,020
+az ifben konkrétan a -- volt, tehát hogyha
+
+42
+00:02:55,020 --> 00:03:02,880
+ha kicsit bonyolultabban lett volna megfogalmazva a condition, akkor lehet hogy segített volna, de így nem
+
+43
+00:03:02,880 --> 00:03:04,880
+Tehát a (Feri)
+
+44
+00:03:04,880 --> 00:03:11,380
+nem lett volna gyorsabb se a coverage toolal se így hogy kézzel néztem át, mert egyből
+
+45
+00:03:11,380 --> 00:03:13,720
+- láttam, hogy, hogy itt ez
+- Aha (Feri)
+
+46
+00:03:13,720 --> 00:03:19,220
+- Értem (Feri)
+- Ugye a coverage tool így is belement, tehát igazából ööö
+
+47
+00:03:19,220 --> 00:03:22,160
+mert még hogyha kihagyta volna, mondjuk az akkor
+
+48
+00:03:22,160 --> 00:03:26,060
+vagy halott kód, vagy nincs olyan teszteset
+
+49
+00:03:26,060 --> 00:03:32,840
+tehát ígyis-úgyis, csak nem a jó eredményt adta a tesztesetnek
+
+50
+00:03:33,760 --> 00:03:37,340
+- Tehát ebben az esetben nem segített volna. 
+- Jó, oké (Feri)
+
+51
+00:03:37,340 --> 00:03:43,060
+Akkor következő, az a 16.585 (Feri)
+
+52
+00:03:43,060 --> 00:03:47,060
+amely úgy szól, hogy a feladat megoldása során (Feri)
+
+53
+00:03:47,060 --> 00:03:50,720
+Ööö, több metódust is a hibával kapcsolatosnak gondolsz (Feri)
+
+54
+00:03:50,720 --> 00:03:55,500
+Ööö, legyenek ezek mondjuk a volt egy isAllZeros, createFloat (Feri)
+
+55
+00:03:55,500 --> 00:04:00,440
+asszem a bigdecimalnak volt ott valami, ööö (Feri)
+
+56
+00:04:00,440 --> 00:04:04,640
+metódusa, createNumber, stb. (Feri)
+
+57
+00:04:04,640 --> 00:04:07,500
+és ránézel az iFL listájára, (Feri)
+
+58
+00:04:07,500 --> 00:04:14,600
+és ööö az elején találsz, ööö, egyszerűen ellenőrizhető metódusokat (Feri)
+
+59
+00:04:14,600 --> 00:04:16,600
+pl. ugye az isAllZeros (Feri)
+
+60
+00:04:16,600 --> 00:04:22,040
+Ööö, meg mittomén a createFloat asszem az is annyi volt, csakhogy itt nem nulla (Feri)
+
+61
+00:04:22,040 --> 00:04:26,880
+floatValueOf, ezeket kizárod, ööö (Feri)
+
+62
+00:04:26,880 --> 00:04:31,120
+így a valóban hibás metódus az előkerül a listában (Feri)
+
+63
+00:04:31,120 --> 00:04:36,140
+tehát a createNumber ezzel úgymond előrehozod (Feri)
+
+64
+00:04:36,140 --> 00:04:38,900
+[sóhajt]
+
+65
+00:04:38,900 --> 00:04:43,260
+Hát elmondom őszintén, hogy odáig nem jutottam el, hogy ellenőrizzem azokat a metódusokat
+
+66
+00:04:43,260 --> 00:04:49,620
+hogy a nagymetódust akartam megérteni először, hogy miről szól, azokat feltettem, hogy jól működnek
+
+67
+00:04:49,620 --> 00:04:53,940
+aztán nyilván oda mentem volna a következőkben, hogyha nem jól működnek
+
+68
+00:04:53,940 --> 00:04:57,380
+Háát, lehet hogy igen, segített volna
+
+69
+00:04:57,380 --> 00:05:01,760
+Igen, bár mondjuk annyira még nem ismerem ezt az iFL-t, de...
+
+70
+00:05:01,760 --> 00:05:04,680
+[gondolkodik]
+
+71
+00:05:04,680 --> 00:05:07,560
+kizárásból lehet hogy segített volna, igen
+
+72
+00:05:07,560 --> 00:05:12,340
+Ööö, egyébként nemcsak az a kérdés, hogy segített-e, tényleg bármi ami (Feri)
+
+73
+00:05:12,340 --> 00:05:18,760
+ami befolyásolta volna, hogy utána hogy dolgozol, bármi, tehát nemcsak (Feri)
+
+74
+00:05:18,760 --> 00:05:25,480
+azért tettem fel a kérdést, hogy igen vagy nem, tehát hogy rosszabb lett volna vagy jobb, hanem tényleg bármi ...
+
+75
+00:05:25,480 --> 00:05:28,380
+- Aha.
+- ami eszedbe jutott ezzel a szituval kapcsolatban (Feri)
+
+76
+00:05:28,380 --> 00:05:30,380
+Értem, ööö
+
+77
+00:05:30,380 --> 00:05:33,620
+hát mondom, még eléggé ismeretlen az iFL tool
+
+78
+00:05:33,620 --> 00:05:37,200
+Tehát ööö az sem világos, hogy honnan jönnek az adatok, honnan van az előző
+
+79
+00:05:37,200 --> 00:05:40,540
+futtatás, vagy előző elemzés eredménye, vagy
+
+80
+00:05:40,540 --> 00:05:44,940
+- Hát vagy nem tudom.
+- Igen ez egyébként úgy működik, annyit elárulhatok, hogy (Feri)
+
+81
+00:05:44,940 --> 00:05:49,460
+...hogy az egy előző elemzés, tehát dinamikusan elemződik (Feri)
+
+82
+00:05:49,460 --> 00:05:54,880
+- Volt olyan rész, amikor...(Feri)
+- És amikor állítom, az egy új elemzésnek számít, és akkor abból lesz
+
+83
+00:05:54,880 --> 00:05:59,340
+- ...ki lehet exportálni?
+- Nem, ez úgy működik most jelenleg (Feri)
+
+84
+00:05:59,340 --> 00:06:04,820
+hogy tehát mittomén mondjuk az Atlasnál hogyha belemódosítasz a kódba, akkor elkezdi újra mappelni a... (Feri)
+
+85
+00:06:04,820 --> 00:06:09,520
+aa... aaa... kódmapat, amit ő épít (Feri)
+
+86
+00:06:09,520 --> 00:06:15,620
+Ööö, és akkor abból újra tud frissíteni neked mindenféle vizualizációt, az iFL-nél úgy működik (Feri)
+
+87
+00:06:15,620 --> 00:06:24,280
+hogy van egy hosszabb elemzés a háttérben, amit le kell futtatni, tehát ez ilyen szempontból most csak egy statikus, a kiindulási (Feri)
+
+88
+00:06:24,280 --> 00:06:28,600
+projekt indulási állapotának a helyzetét mutatja meg neked (Feri)
+
+89
+00:06:28,600 --> 00:06:30,600
+ööö (Feri)
+
+90
+00:06:33,520 --> 00:06:39,360
+- Igen, tehát ha... (Feri)
+- Hát csak akkor azt nem értem, hogy abból honnan jönnek az adatok, hogy mittomén valamelyik
+
+91
+00:06:39,360 --> 00:06:43,240
+0.53, hogyha ....
+
+92
+00:06:43,240 --> 00:06:48,380
+- Tehát hogy ez nem jön nekem össze
+- Kezdeti érték... Ez pedig úgy működik (Feri)
+
+93
+00:06:48,380 --> 00:06:53,840
+hogy ööö ez egy ilyen spektrum based hibalokalizáció (Feri)
+
+94
+00:06:53,840 --> 00:07:00,700
+ööö, folyamat, ahol a spektrumot úgy értjük, hogy a lefedettségből számolt (Feri)
+
+95
+00:07:00,700 --> 00:07:06,480
+bizonyos adatokat... tehát a spektrum az gyakorlatilag a lefedettség, tehát megvan hogy melyik tesztre, melyik teszt (Feri)
+
+96
+00:07:06,480 --> 00:07:08,980
+melyik metódusokat érinti (Feri)
+
+97
+00:07:08,980 --> 00:07:14,100
+illetve megvan, hogy melyik teszt milyen eredménnyel fut le, tehát hogy passed vagy failed (Feri)
+
+98
+00:07:14,100 --> 00:07:18,460
+és akkor, bazinagy szakirodalma van, de úgy néz ki, hogy (Feri)
+
+99
+00:07:18,460 --> 00:07:22,420
+ezek ilyen statisztikák, hogy (Feri)
+
+100
+00:07:22,420 --> 00:07:27,680
+a legegyszerűbb, hogy az a leggyanúsabb metódus, amit sok (Feri)
+
+101
+00:07:27,680 --> 00:07:32,440
+- failed teszt fed le. (Feri)
+- Igen, igen, ez érthető. 
+
+102
+00:07:32,440 --> 00:07:35,200
+Ha erre ráfed egy kicsi passed is, (Feri)
+
+103
+00:07:35,200 --> 00:07:41,200
+tehát hogyha mittomén van 5 failed, ami fedi, akkor már nem annyira gyanús, akkor egy kicsit (Feri)
+
+104
+00:07:41,200 --> 00:07:47,380
+csökken a score-ja, és akkor vannak ilyen 3 km hosszú képletek is, amik ezt így (Feri)
+
+105
+00:07:47,380 --> 00:07:54,080
+próbálják a legjobban közelíteni, hogy a valóságban tényleg hibás legyen a legnagyobb score-unk (Feri)
+
+106
+00:07:54,080 --> 00:07:58,200
+ööö, és akkor innen jönnek azok a kezdőértékek. (Feri)
+
+107
+00:07:58,200 --> 00:08:01,160
+- Jó, hát így, így
+- Ahhoz, hogy ezt kiszámold, (Feri)
+
+108
+00:08:01,160 --> 00:08:05,260
+ahhoz a teljes elemzést újra kell csinálni, tehát a teljes, ööö, ugye (Feri)
+
+109
+00:08:05,260 --> 00:08:08,360
+tesztszintű lefedettséget, nem csak azt mint mondjuk a (Feri)
+
+110
+00:08:08,360 --> 00:08:10,760
+az Eclipse-ben meg tudsz csinálni, hogy jobb klikk, futtatás (Feri)
+
+111
+00:08:10,760 --> 00:08:14,580
+mert az ugye csak egy, ööö (Feri)
+
+112
+00:08:14,580 --> 00:08:20,920
+hogy mondjam, tehát összeakumulálja, összeaggregálja a lefedettséget, ehhez az elemzéshez meg az kell, hogy (Feri)
+
+113
+00:08:20,920 --> 00:08:22,920
+minden teszthez külön meglegyen a (Feri)
+
+114
+00:08:22,920 --> 00:08:27,940
+hogy melyiket érinti, és melyiket nem, és utána lehet belőle számolgatni, az egy (Feri)
+
+115
+00:08:27,940 --> 00:08:31,680
+- hosszadalmas... (Feri)
+- Aha, értem-értem, igen...
+
+116
+00:08:31,680 --> 00:08:36,660
+- Főleg ilyen számú tesztnél
+- Igen, projektfüggő nyiván (Feri)
+
+117
+00:08:36,660 --> 00:08:41,580
+Na, tehát így néz ki az FL-es, iFL-es (Feri)
+
+118
+00:08:41,580 --> 00:08:43,580
+- vonal. (Feri)
+- Ühüm. 
+
+119
+00:08:43,580 --> 00:08:48,580
+Ez befolyásolja, vagy módosít ezt ott valamit a (Feri)
+
+120
+00:08:48,580 --> 00:08:53,500
+- aa ezzel az esettel kapcsolatban gondoltál, gondolsz? (Feri)
+- Ööö
+
+121
+00:08:53,500 --> 00:08:58,680
+[gondolkodik]
+
+122
+00:08:58,680 --> 00:09:01,780
+Hát ezt nem tudom, lehet. Mert ööö
+
+123
+00:09:01,780 --> 00:09:05,540
+ugye akkor még nem volt meg ez a tool, és 
+
+124
+00:09:05,540 --> 00:09:08,360
+lehet, hogy befolyásolt volna
+
+125
+00:09:08,360 --> 00:09:15,280
+hát attól függ, hogy mennyi jó érték van, azért ott láttam most a tegnapi példában, hogy eléggé
+
+126
+00:09:15,280 --> 00:09:19,240
+ott mittudomén volt pár osztály, ahol elég közeli
+
+127
+00:09:19,240 --> 00:09:22,140
+értékek voltak, tehát ilyen, ööö
+
+128
+00:09:22,140 --> 00:09:28,680
+0.5, 0.4, és akkor ementén voltak értékek, több különböző osztály meg ilyesmi
+
+129
+00:09:28,680 --> 00:09:30,680
+Ööö
+
+130
+00:09:30,680 --> 00:09:37,840
+hát most az, hogy kizárjam hogy a floatot nem, hogyha azok nullások, valószínűleg igen
+
+131
+00:09:39,180 --> 00:09:45,560
+De mondom így is, én ugye úgy kezdtem el, hogy dropdown, tehát hogy megnéztem, hogy melyik az a metódus, aztán 
+
+132
+00:09:45,560 --> 00:09:50,700
+kellett érteni, mert máshogy nem, ööö
+
+133
+00:09:50,700 --> 00:09:53,660
+Ez egyébként a hibától függ (Feri)
+
+134
+00:09:53,660 --> 00:09:56,420
+vagy mindig így dolgozol? (Feri)
+
+135
+00:09:58,000 --> 00:10:01,820
+Ööö, hát hibától függ
+
+136
+00:10:01,820 --> 00:10:06,080
+Hibától függ, mert én a 
+
+137
+00:10:06,080 --> 00:10:13,900
+cégnél a szoftvert, amit fejlesztettünk, azt mi is üzemeltettük, és mi is nyújtjuk a third level supportot és
+
+138
+00:10:13,900 --> 00:10:17,540
+hát... [gondolkodik]
+
+139
+00:10:17,540 --> 00:10:22,380
+ennek történelme van, most PE vagyok, de korábban fejlesztő, tesztelő, architect
+
+140
+00:10:22,380 --> 00:10:27,900
+is voltam ezen a projekten, tehát én is nyújtok third level supportot, és ott azért előfordul olyan, amikor 
+
+141
+00:10:27,900 --> 00:10:31,480
+amikor nem sikerül meghatározni a hibát, csak ott van
+
+142
+00:10:31,480 --> 00:10:34,960
+és a többi, tehát ott minden módszer
+
+143
+00:10:34,960 --> 00:10:39,640
+- akármit be kell vetni. 
+- Királyság, értem (Feri)
+
+144
+00:10:39,640 --> 00:10:44,420
+Vegyesen, most éppen ...
+
+145
+00:10:44,420 --> 00:10:48,660
+metódust mondta hibásnak. 
+- Értem, jó, csak ez nekem nem volt (Feri)
+
+146
+00:10:48,660 --> 00:10:53,760
+teljesen világos, hogy mi volt a döntés alapja, hogy milyen módszer... jó, szuper (Feri)
+
+147
+00:10:53,760 --> 00:10:58,600
+Akkor a következő, a harmadik, tehát a 18.11-es (Feri)
+
+148
+00:10:58,600 --> 00:11:00,600
+ööö (Feri)
+
+149
+00:11:00,600 --> 00:11:08,460
+szintén egy iFL-es példa, hogy a feladat megoldása során több metódust is a hibával kapcsolatosnak gondolsz (Feri)
+
+150
+00:11:08,460 --> 00:11:11,380
+itt a stopWatchos eset (Feri)
+
+151
+00:11:11,380 --> 00:11:17,540
+ööö, tehát írtam ki, ez a suspend, getTime, Stop, stb. 
+
+152
+00:11:18,120 --> 00:11:23,180
+ööö, és az iFL listájában egy általad nem vizsgált metódust (Feri)
+
+153
+00:11:23,180 --> 00:11:28,260
+találsz az első helyen, tehát mittomén a stopWatch-nak a konstruktorát (Feri)
+
+154
+00:11:28,260 --> 00:11:31,600
+találod meg az iFL listában (Feri)
+
+155
+00:11:31,600 --> 00:11:34,480
+és a... megvizsgálod (Feri)
+
+156
+00:11:34,480 --> 00:11:39,960
+illetve elkezdesz vizsgálódni, és a vizsgálat során kiderül, hogy nem ez volt a hibás metódus (Feri)
+
+157
+00:11:39,960 --> 00:11:41,960
+Ühüm
+
+158
+00:11:41,960 --> 00:11:48,420
+Hogy van egy elképzelésed, hogy suspend, get azok hibásak (Feri)
+
+159
+00:11:48,420 --> 00:11:56,280
+ránézel az iFL-re, ott meglátod az első helyen egy olyat, amit te nem gondoltál, hogy hibás lenne (Feri)
+
+160
+00:11:56,280 --> 00:12:01,380
+ööö, folytatod a saját folyamatodat, akár (Feri)
+
+161
+00:12:01,380 --> 00:12:04,520
+iFL-t követve, akár a saját gondolatmeneted alapján (Feri)
+
+162
+00:12:04,520 --> 00:12:11,020
+és aztán végül kiderül, hogy az, amit az iFL javasolt, az első helyen, az nem is volt hibás (Feri)
+
+163
+00:12:11,020 --> 00:12:13,020
+Ühüm
+
+164
+00:12:13,900 --> 00:12:19,540
+Hát ez jó kérdést, hogy az áldozatok alapján azt miért így érte el [nevet]
+
+165
+00:12:19,540 --> 00:12:21,540
+Ööö 
+
+166
+00:12:21,540 --> 00:12:25,760
+[gondolkodik]
+
+167
+00:12:25,760 --> 00:12:31,820
+- Hát, nem tudom, itt akkor mi is a kérdés? [nevet]
+- Hát hogy mit gondolsz erről (Feri)
+
+168
+00:12:31,820 --> 00:12:37,140
+hát, ezt nem tudom, ez egy érdekes, érdekes eset, tehát ööö
+
+169
+00:12:39,620 --> 00:12:42,720
+Konstruktorokat ugye nyilván nem ellenőrizzük
+
+170
+00:12:42,720 --> 00:12:48,640
+hogy megcsinálják-e azt a folyamatot, vagy hát, én nem szoktam legalábbis, mert ugye a konstruktornak az a 
+
+171
+00:12:48,640 --> 00:12:54,020
+fő feladata, hogy minél kevesebb, ööö
+
+172
+00:12:54,020 --> 00:12:57,900
+minél rövidebb idő alatt megcsinálja az objektumpéldányt, és a 
+
+173
+00:12:57,900 --> 00:13:04,160
+ha nem sikerül megcsinálni az objektumpéldányt, akkor nem tudjuk használni az objektumot, tehát ööö
+
+174
+00:13:04,160 --> 00:13:11,600
+Akkor igazából azzal teszteljük, hogy, hogy nem ... tehát ööö
+
+175
+00:13:11,600 --> 00:13:14,020
+[gondolkodik]
+
+176
+00:13:14,020 --> 00:13:19,040
+Ennek ellenére lehet benne hiba, találkoztam már ilyennel, csak ööö
+
+177
+00:13:20,680 --> 00:13:25,780
+nem, ezt nem tudom, hogy befolyásolná-e 
+
+178
+00:13:25,780 --> 00:13:28,100
+ennyire még nem ismerem a toolt 
+
+179
+00:13:28,100 --> 00:13:34,440
+lehet hogy mittomén először furcsállnám, aztán megnézném, aztán másodjára már lehet hogy, hogy 
+
+180
+00:13:34,440 --> 00:13:39,140
+nem hallgatnék rá, vagy nem tudom, csak akkor az meg [sóhajt]
+
+181
+00:13:39,140 --> 00:13:42,580
+az meg fura, mert, hát nem tudom
+
+182
+00:13:42,580 --> 00:13:47,000
+- Nem, ezt most nem tudom. 
+- Ühüm (Feri)
+
+183
+00:13:47,000 --> 00:13:50,840
+Tehát a ... hogy ööö
+
+184
+00:13:52,640 --> 00:13:59,720
+- Attól is függ, hogy mennyit használtad előtte a toolt. (Feri)
+- Igen, igen, ez függ attól, mert lehet ugye 
+
+185
+00:13:59,720 --> 00:14:05,180
+szoftverfejlesztők vagyunk, tudjuk hogy bugmentes szoftver nincs, szóval egy bug is lehet a... [nevet]
+
+186
+00:14:05,180 --> 00:14:08,640
+Az iFL-ben [nevet] tehát ööö
+
+187
+00:14:08,640 --> 00:14:16,040
+Nyilván nem azt mondom, hogy meg... hogy nem bíznék benne onnastól kezdve, mert
+
+188
+00:14:16,040 --> 00:14:21,720
+és akkor olyan szoftvert használni, mert van bug is, meg library, meg ilyesmit és mégis bízom benne 
+
+189
+00:14:21,720 --> 00:14:24,100
+csak, ööö, nyilván
+
+190
+00:14:24,100 --> 00:14:30,400
+Biztos lassítani a hibafeltárási folyamatot, mert ugye rossz útra vinne, de 
+
+191
+00:14:30,400 --> 00:14:37,380
+- [gondolkodik] Nem tudom, ezt így, ezt így nem tudom, befolyásolná-e egyáltalán 
+- Jó, oké (Feri)
+
+192
+00:14:37,380 --> 00:14:39,780
+Akkor a 4-es (Feri)
+
+193
+00:14:39,780 --> 00:14:47,780
+esetünk, az a 8.95-ös, ez úgy szól, hogy ööö, volt ez a két number metódus (Feri)
+
+194
+00:14:47,780 --> 00:14:49,780
+ezt megváltoztatod (Feri), 
+
+195
+00:14:49,780 --> 00:14:55,320
+több metódushívást is hozzáadsz, átrendezed a metódushívásokat, más sorrendben, stb. (Feri)
+
+196
+00:14:55,320 --> 00:15:01,700
+Ööö, de ennek a hatására további tesztek is buknak, azon kívül, ami eredetileg bukott (Feri)
+
+197
+00:15:01,700 --> 00:15:05,500
+Ööö, itt a (Feri)
+
+198
+00:15:05,500 --> 00:15:10,500
+te vizsgálod a hívási gráfnak erre a két metódusra vonatkozó részét (Feri)
+
+199
+00:15:10,500 --> 00:15:13,940
+Ühüm [gondolkodik]
+
+200
+00:15:13,940 --> 00:15:16,700
+és ennyi, hogy, tehát hogy a (Feri)
+
+201
+00:15:16,700 --> 00:15:22,620
+beszúrtál egy csomó hívást, ki is vettél, másoltál, ésatöbbi, igen (Feri)
+
+202
+00:15:22,620 --> 00:15:25,300
+ööö, és tegyük fel, hogy a (Feri)
+
+203
+00:15:25,300 --> 00:15:31,280
+a hívási gráfot hívod segítségül, ahhoz hogy a két numbernek a hívási (Feri)
+
+204
+00:15:31,280 --> 00:15:37,440
+dolgait megértsd, földerítsd, vagy megvizsgáld közelebbről (Feri)
+
+205
+00:15:37,440 --> 00:15:41,400
+Hááát, ööö
+
+206
+00:15:41,400 --> 00:15:44,920
+[gondolkodik]
+
+207
+00:15:44,920 --> 00:15:48,560
+Mivel alapvetően, aaa, aaa
+
+208
+00:15:48,560 --> 00:15:52,920
+[gondolkodik, fogja a fejét]
+
+209
+00:15:52,920 --> 00:15:59,260
+Hát biztos segített volna, mert ugye nem a tesztekkor derül ki, hogy bizonyos esetekre nem 
+
+210
+00:15:59,260 --> 00:16:03,500
+gondoltam, vagy hát, igazából csúnya lesz azt mondani, hogy nem gondoltam, mert 
+
+211
+00:16:03,500 --> 00:16:08,080
+mert a refaktorálásnak, mert hogyha refaktorálásról beszélünk, nem pedig a 
+
+212
+00:16:08,080 --> 00:16:11,740
+új funkcionalitás, vagy funkcionalitás módosításáról
+
+213
+00:16:11,740 --> 00:16:15,620
+a refaktorálásnak az lenne a lényege, hogy ekvivalens lesz
+
+214
+00:16:15,620 --> 00:16:21,100
+a kód, tehát hogy nem módosítod a kódnak a működését és a logikáját, csak
+
+215
+00:16:21,100 --> 00:16:23,640
+ugye szebbé teszed, úgyhogy
+
+216
+00:16:23,640 --> 00:16:28,020
+itt, ööö, én ugye el is kezdtem refaktorálni ezt a metódust, háromnegyed óra alatt
+
+217
+00:16:28,020 --> 00:16:34,200
+aztán rájöttem, hogy ezzel nem fogok a végére érni a 90 perc alatt úgyhogy visszavontam amennyit tudtam
+
+218
+00:16:34,200 --> 00:16:36,560
+ööö
+
+219
+00:16:36,560 --> 00:16:39,560
+[gondolkodik]
+
+220
+00:16:39,560 --> 00:16:44,820
+Hát ezen az se segített volna, hogyha látom a hívási gráfot, tehát az idő rövidsége miatt nem
+
+221
+00:16:44,820 --> 00:16:47,880
+a 90 percbe bele kellett férjek, így, így nem
+
+222
+00:16:47,880 --> 00:16:52,140
+hogyha ugye van rá több idő, khm
+
+223
+00:16:52,140 --> 00:16:55,980
+akkor lehet hogy megnéztem volna igen a hívási gráfot, hogy
+
+224
+00:16:55,980 --> 00:17:03,780
+hogy ööö, milyen esetek amik befolyásolják ennek a metódusnak a működését, igen az lehet 
+
+225
+00:17:03,780 --> 00:17:08,100
+Oké, jó, akkor a következő (Feri)
+
+226
+00:17:08,100 --> 00:17:10,900
+ez a 17.075-ös (Feri)
+
+227
+00:17:11,540 --> 00:17:18,880
+azt mondja, hogy ez úgy szól, hogy a metódusok score szerint csökkenő sorrendben vannak rendezve az iFL toolban (Feri)
+
+228
+00:17:18,880 --> 00:17:25,740
+tehát úgy állítottad be a rendezést, hogy mondjuk az alap rendezést használtad, nem állítottad át másmire (Feri)
+
+229
+00:17:25,740 --> 00:17:31,860
+Igen, ööö, és a két number metódust a 7. helyen találod meg a listában (Feri)
+
+230
+00:17:31,860 --> 00:17:37,160
+Ööö, tegyük fel, hogy ez a hibás, ugye ez kiderült, hogy tényleg így volt később (Feri)
+
+231
+00:17:37,160 --> 00:17:43,360
+Így, és tegyük fel azt is, hogy az iFL listájára támaszkodsz (Feri)
+
+232
+00:17:43,360 --> 00:17:46,580
+7. helyen dobja a (Feri)
+
+233
+00:17:46,580 --> 00:17:51,620
+az első lapnak az utolsó lapja lesz a createNumber (Feri)
+
+234
+00:17:51,620 --> 00:17:53,620
+Tehát ez azt jelenti, hogy előtte (Feri)
+
+235
+00:17:53,620 --> 00:17:58,600
+még 6 metódust meg kell vizsgáljál, tehát szépen veszel egy ... sorra, és akkor mondjuk (Feri)
+
+236
+00:17:58,600 --> 00:18:01,640
+kizárod őket, vagy módosítod a score-okat (Feri)
+
+237
+00:18:01,640 --> 00:18:07,380
+itt is az ilyen createFloat, meg a bigInterger meg az ilyen sallangokra gondolok (Feri) 
+
+238
+00:18:07,380 --> 00:18:11,380
+ööö, erről mit gondolsz, hogy ez (Feri)
+
+239
+00:18:12,680 --> 00:18:19,420
+Ezaz hogy ha nem azzal a metódussal függ össze
+
+240
+00:18:19,420 --> 00:18:23,260
+Vagyis, hogy igen, akkor ott még nem tudom, hogy a
+
+241
+00:18:23,260 --> 00:18:28,540
+hogy az a metódus a hibás-e? Ugye, igen
+
+242
+00:18:28,540 --> 00:18:34,840
+- Ööö, hát nyilván azért, itt lehet, hogy elkezdem használni a 
+- Ezt most csak kontextus miatt mondtam (Feri)
+
+243
+00:18:34,860 --> 00:18:39,720
+Atlast toolt, hogy megnézzem, hogy kontextusban van-e a 
+
+244
+00:18:39,720 --> 00:18:44,720
+vannak-e egymással, tehát hogy valamilyen 
+
+245
+00:18:44,720 --> 00:18:47,540
+úton-módon kontextusban vannak-e egymással 
+
+246
+00:18:47,540 --> 00:18:50,140
+és, ööö, mert nyilván az befolyásolja 
+
+247
+00:18:50,140 --> 00:18:54,800
+már amennyire ismerem az iFL-t, a score-okat
+
+248
+00:18:54,800 --> 00:18:58,060
+Ööö, khm
+
+249
+00:18:58,060 --> 00:19:02,820
+- Mármint közvetetten befolyásolja a score-okat
+- Aha (Feri)
+
+250
+00:19:02,820 --> 00:19:06,080
+Itt a kontextus alatt mit értesz pontosan? 
+
+251
+00:19:06,080 --> 00:19:10,040
+Hát hogyha, mittomén a hívási gráfba az egyikből a másik
+
+252
+00:19:10,040 --> 00:19:13,820
+jön, tehát ha egyik hívja a másikat az első hét közül
+
+253
+00:19:13,820 --> 00:19:16,560
+- Tehát ez nem mittomén hogy... (Feri) 
+- Bármilyen sorrendben, csak
+
+254
+00:19:16,560 --> 00:19:20,640
+Hát igen, igen, igen
+
+255
+00:19:20,640 --> 00:19:23,360
+Hát az, hogy egy osztályban vannak, és azt úgy gondolom, hogy
+
+256
+00:19:23,360 --> 00:19:27,680
+nem feltétlenül befolyásoló tényező, mert...
+
+257
+00:19:27,680 --> 00:19:30,580
+Azért jó eséllyel nem, 
+
+258
+00:19:30,580 --> 00:19:33,780
+[gondolkodik]
+
+259
+00:19:33,780 --> 00:19:38,900
+nem teszi bugokkal teli egy fejlesztő ugyanazt az osztályát [nevet], tehát 
+
+260
+00:19:38,900 --> 00:19:44,200
+ez azért viszonylag ritka eset, hogy ugyanabba az osztályba, inkább az amikor
+
+261
+00:19:44,200 --> 00:19:48,320
+Mert ugye egy osztály, az egy, főleg Javában ugye egy
+
+262
+00:19:48,320 --> 00:19:52,640
+ööö, csomag, amit viszonylag könnyű áttekinteni, és akkor
+
+263
+00:19:52,640 --> 00:19:59,900
+abban levő metódusokban általában nem szokott hiba lenni, inkább akkor szokott már hiba előjönni, amikor már egy osztály
+
+264
+00:19:59,900 --> 00:20:06,480
+másikba levő objektumot hív, vagy még nagyobb komponensek között van áthívás
+
+265
+00:20:06,480 --> 00:20:11,540
+Lehet hogy ott már elveszti a fonalat a fejlesztő is, hogy mit 
+
+266
+00:20:11,540 --> 00:20:13,540
+mit-merre-hány méter
+
+267
+00:20:13,540 --> 00:20:16,560
+hogy kódolt le, khm 
+
+268
+00:20:16,560 --> 00:20:18,560
+szóval, ööö
+
+269
+00:20:18,560 --> 00:20:26,220
+hát megnézném a függő... a hívási gráfot, hogy egymásból hívódnak-e
+
+270
+00:20:26,220 --> 00:20:33,920
+Ööö, nyilván ahol van ilyen nagyobb lánc, azt érdemes lenne le... megnézni kézzel is
+
+271
+00:20:33,920 --> 00:20:39,760
+és hogy... manuálisan, szemmel végigvinni, hogy nem-e valahol azok
+
+272
+00:20:39,760 --> 00:20:44,080
+abba a láncban van hiba, aztán
+
+273
+00:20:44,080 --> 00:20:49,900
+[gondolkodik] hát igazából ennyi.
+
+274
+00:20:49,900 --> 00:20:53,620
+Mondjuk ugye a unit teszt az viszonylag sokat segített, de hogyha nem lenne unit
+
+275
+00:20:53,620 --> 00:20:58,940
+teszt, csak az iFL tool lenne meg az Atlas, akkor végig kéne nézni igen
+
+276
+00:20:58,940 --> 00:21:01,820
+a másik hetet, amíg ráakadok
+
+277
+00:21:01,820 --> 00:21:08,060
+de így, hogy ugye volt rá teszt is, így egy kicsit más, mert így rögtön behatárolta az a pontot
+
+278
+00:21:08,060 --> 00:21:12,040
+ahol nyilván hogyha van teszt, akkor csak azt a kontextust nézem, szintén
+
+279
+00:21:12,040 --> 00:21:15,580
+úgy értem, a függőségi, vagy hát hívási gráfot
+
+280
+00:21:15,580 --> 00:21:19,700
+hogy ami abból indul ki, és akkor azoknak megnézem a
+
+281
+00:21:19,700 --> 00:21:27,120
+amit... ez a metódus hívott, azokat a metódusokat nézem csak meg, a többit meg kizárom
+
+282
+00:21:28,060 --> 00:21:31,220
+- Aha, jó (Feri)
+- Ugye itt a unit teszt, hogy meg...
+
+283
+00:21:31,220 --> 00:21:36,200
+az sokat befolyásolt az egészen, ugye asszem az első kérdés is ez volt, hogy izé hogy
+
+284
+00:21:36,200 --> 00:21:40,760
+- befolyásol... 
+- Igen, igen, igen (Feri)
+
+285
+00:21:40,760 --> 00:21:45,980
+Tehát ahogy mondom, itt a unit teszt az nagyon sokat befolyásolt, hogy kiköpte rögtön, hogy ez a rossz
+
+286
+00:21:45,980 --> 00:21:49,580
+Aha, jó, rendben (Feri)
+
+287
+00:21:49,580 --> 00:21:56,220
+Oké, és akkor az utolsó, a 6., ez a 15, nem, az 5-ös (Feri)
+
+288
+00:21:56,220 --> 00:22:03,220
+ez úgy szól, hogy tegyük fel, hogy lefuttatod a lefedettségmérést az adott tesztre, ha már [nevet] lefedettségmérés (Feri)
+
+289
+00:22:03,220 --> 00:22:09,980
+ami a... stopWatch-nak ez a suspend and stopos tesztje volt (Feri)
+
+290
+00:22:09,980 --> 00:22:16,560
+Ööö, amely csak néhány metódust érint így könnyen azonosítod a core melyik részére fókuszálj (Feri)
+
+291
+00:22:16,560 --> 00:22:21,740
+Ööö, azonban kézzel való átnézés után kiderül, hogy a keresett metódus (Feri)
+
+292
+00:22:21,740 --> 00:22:26,460
+ez a stopTime, ööö (Feri)
+
+293
+00:22:27,640 --> 00:22:30,180
+- Hm, várjál (Feri)
+- Nem metódus volt, hanem adattag
+
+294
+00:22:30,180 --> 00:22:34,540
+Az egy adattag volt igen, bocsánat, pont azt nézem, tehát hogy a keresett (Feri)
+
+295
+00:22:34,540 --> 00:22:38,300
+adattag vagy változó, ami a stopTime (Feri)
+
+296
+00:22:38,300 --> 00:22:41,980
+volt, módosítása közvetlenül a stopnak a közepén van
+
+297
+00:22:41,980 --> 00:22:46,700
+metódus volt ... viszonylag kicsi kódrészletben (Feri)
+
+298
+00:22:46,700 --> 00:22:49,900
+Ööö, könnyen megtalálhatóan ott volt (Feri)
+
+299
+00:22:49,900 --> 00:22:54,840
+Ööö, így igazából egy rövid átolvasással is megtalál... könnyen megtaláltad volna (Feri)
+
+300
+00:22:54,840 --> 00:22:56,840
+Igen, hát ööö
+
+301
+00:22:56,840 --> 00:23:01,700
+Ez a tegyük föl ha, én lefuttattam [nevet] úgyhogy ez nem, nem.. 
+
+302
+00:23:01,740 --> 00:23:07,780
+... már lefuttattam, nem segített igazából, tehát hogy ööö
+
+303
+00:23:07,780 --> 00:23:10,660
+se a lokalizációban, sem a hiba
+
+304
+00:23:10,660 --> 00:23:17,480
+feltárásban nem segített, maga a code coverage tool most ebben az esetben, úgyhogy
+
+305
+00:23:17,480 --> 00:23:24,700
+Code coverage toolt én aminek hasznosnak éreztem tapasztalataim alapján, az inkább a lefedettségnek a 
+
+306
+00:23:24,700 --> 00:23:28,220
+növelése, az elágazási pontoknál
+
+307
+00:23:28,220 --> 00:23:34,720
+- abba nagyon jó. 
+- Tehát arra gondolsz, amikor futtatsz egy mérést, mindent lefuttatsz (Feri)
+
+308
+00:23:34,720 --> 00:23:42,300
+- vagy éppen amire csak... (Feri)
+- Hát amira csak, és hogyha vannak ugye if-else ágak, akkor, elágazásoknál 
+
+309
+00:23:42,300 --> 00:23:47,040
+ott akkor látod, hogy mi az ami ilyen esetre még nem írtál tesztet
+
+310
+00:23:47,040 --> 00:23:51,400
+- Mert ugye az egy másik... hát igen
+- Piros, azt kijelzi, és alapján könnyen (Feri)
+
+311
+00:23:51,400 --> 00:23:53,400
+tudom bővíteni a test suite-ot. (Feri)
+
+312
+00:23:53,400 --> 00:23:58,700
+Igen, csak ugye itt ebben az esetben nem elágazáson belül volt hiba, hanem
+
+313
+00:23:58,700 --> 00:24:03,900
+ööö, ugye sorfolytonosan volt a hiba, és tehát már az első, tehát 
+
+314
+00:24:03,900 --> 00:24:06,720
+- ha meghívod a metódust, már akkor lefut. 
+- Aha (Feri)
+
+315
+00:24:06,720 --> 00:24:09,600
+sorfolytonosan, a, a
+
+316
+00:24:09,600 --> 00:24:13,700
+a soralapú lefedettség ebben az esetben nem segít
+
+317
+00:24:13,700 --> 00:24:20,020
+- Tehát, ja.
+- Jó. Ööö, bármi ilyesmi, ami ugye esetleg ami a (Feri)
+
+318
+00:24:20,020 --> 00:24:23,640
+bármelyikkel kapcsolatban még így visszamenőleg eszedbe jutott? (Feri)
+
+319
+00:24:23,640 --> 00:24:28,740
+- Hm, nem. 
+- Jó, akkor készen is vagyunk. (Feri)
+
+320
+00:24:28,740 --> 00:24:32,760
+[vakarja a fejét]
+
+321
+00:24:32,760 --> 00:24:35,900
+Le is állítom akkor a felvételt. (Feri)
+

@@ -1,0 +1,308 @@
+﻿1
+00:00:01,000 --> 00:00:03,000
+Béla: Jó, akkor elindítottam a felvételt.
+
+2
+00:00:04,000 --> 00:00:08,000
+Béla: Ez a feladat, ez ugyan olyan, mint a legelső volt.
+
+3
+00:00:09,000 --> 00:00:17,000
+Béla: A papíron levő összeadást kellene elvégezni, 4 összeadás művelet van.
+
+4
+00:00:17,000 --> 00:00:23,000
+Béla: Hasonlóan, ahogy a legelsőhöz számítógép segítségét nem lehet használni.
+
+5
+00:00:23,000 --> 00:00:29,000
+Béla: Illetve ugyan úgy azt kérném, hogy mindent, ami eszedbe jut, azt hangosan mondd ki.
+
+6
+00:00:30,000 --> 00:00:33,000
+Béla: Fél óra áll a rendelkezésedre.
+
+7
+00:00:33,000 --> 00:00:41,000
+Béla: Hogyha előbb kész vagy, akkor szólsz és akkor...után megmondom, hogy mikor folytatódik a...szekció.
+
+8
+00:00:41,000 --> 00:00:43,000
+Béla: Van-e kérdés?
+
+9
+00:00:43,000 --> 00:00:44,000
+Nincs.
+
+10
+00:00:44,000 --> 00:00:45,000
+Béla: Rendben, akkor jó munkát.
+
+11
+00:00:45,000 --> 00:00:46,000
+Köszi.
+
+12
+00:01:03,000 --> 00:01:08,000
+Legelőször kitöltöm a kezdés időpontjában a feladatlapot.
+
+13
+00:01:28,000 --> 00:01:30,000
+És kettő számot kell összeadnom.
+
+14
+00:01:32,000 --> 00:01:35,000
+Ismét felírom egymás alá a számokat.
+
+15
+00:01:35,000 --> 00:01:39,000
+Úgy, hogy az egyes helyiértékek megfelelően egymás alatt legyenek.
+
+16
+00:01:45,000 --> 00:01:48,000
+És ez után...elkezdem összeadni őket.
+
+17
+00:01:49,000 --> 00:01:53,000
+Kettő számom a 45838 és 11304.
+
+18
+00:01:54,000 --> 00:01:59,000
+Ez által most a 8-ast és 4-est fogom összeadni, az 12.
+
+19
+00:01:59,000 --> 00:02:10,000
+Tehát az eredményben egy 2-est írok az utolsó számjegy helyére és egy 10-est átviszek a következő tizedes helyre.
+
+20
+00:02:10,000 --> 00:02:23,000
+Tehát itt 3+0 az 3 és illetve még az 1-et áthozom az előző 12-ből, tehát 3+1 az 4.
+
+21
+00:02:23,000 --> 00:02:27,000
+8+3 az 11, tehát 1-est írok ki és tovább viszek egy 1-est.
+
+22
+00:02:28,000 --> 00:02:37,000
+5+1 az 6 és mivel volt még egy 10-esem az előző helyi értéken, ezért ide egy 7-eset fogok írni az eredménybe.
+
+23
+00:02:37,000 --> 00:02:45,000
+És végül 4+1 az 5 és a végeredmény 57142.
+
+24
+00:02:48,000 --> 00:03:05,000
+Most ellenőrzöm, hogy nagyságrendileg...jó eredményt kaptam-e, tehát 45000-et és 15000-et összeadom, az 56, ez eredményem 57142, tehát nagyságrendileg ugyan az az eredmény.
+
+25
+00:03:05,000 --> 00:03:19,000
+Illetve, hogyha...ellenőrzésképpen mondjuk a 800-at és a 300-at is hozzáadom, akkor látszódik, hogy 57000-es nagyságrendben vagyunk, tehát jó eredményt kaptunk.
+
+26
+00:03:22,000 --> 00:03:23,000
+Következő.
+
+27
+00:03:29,000 --> 00:03:32,000
+Ismét felírom a kezdés időpontját.
+
+28
+00:03:46,000 --> 00:03:56,000
+És ismét ugyan olyan formában a kettő számot...87662-t és 92985-öt felírom egymás alá.
+
+29
+00:04:09,000 --> 00:04:13,000
+És ez után elkezdem a helyi értékeknek megfelelően összeadni őket.
+
+30
+00:04:14,000 --> 00:04:16,000
+Tehát 5+2 az 7.
+
+31
+00:04:16,000 --> 00:04:20,000
+Kiírom az eredménybe az utolsó számjegy helyére egy 7-t.
+
+32
+00:04:20,000 --> 00:04:21,000
+És nem maradt semmi.
+
+33
+00:04:21,000 --> 00:04:30,000
+6+8 az 14, tehát egy 4-est írok le és megjegyzem, hogy tovább kell vinnem egy 1-est a következő helyi értékre.
+
+34
+00:04:31,000 --> 00:04:45,000
+9+6 az 15, de mivel az előző helyi értéken maradt...még egy 1-esem, ezért 16, tehát 6-ost írok ide az 1-est tovább viszem. 
+
+35
+00:04:45,000 --> 00:04:53,000
+7+2 az 9+1 az 10, tehát 0-t írok és egy 1-est újra tovább tolok a következő helyi értékre.
+
+36
+00:04:53,000 --> 00:04:59,000
+9+8 az 17 és ehhez még egy 1-est hozzá kell adnom, tehát 18.
+
+37
+00:05:00,000 --> 00:05:03,000
+És az eredmény az 180647.
+
+38
+00:05:08,000 --> 00:05:22,000
+Most ismét nagyságrendileg ellenőrzöm, hogy jó eredményt kaptam-e, tehát 87000+92000 az 180000.
+
+39
+00:05:23,000 --> 00:05:24,000
+Tehát...
+
+40
+00:05:27,000 --> 00:05:29,000
+Nem, 179000.
+
+41
+00:05:30,000 --> 00:05:40,000
+És...ez által a többi az 1000-es nagyságrend az...valószínűleg stimmel, tehát jó eredményt kaptam.
+
+42
+00:05:44,000 --> 00:05:47,000
+Ismét a kezdés időpontjával kezdem.
+
+43
+00:06:07,000 --> 00:06:09,000
+Felírom egymás alá a kettő számot.
+
+44
+00:06:22,000 --> 00:06:26,000
+És elkezdem összeadni őket a helyiértékeknek megfelelően.
+
+45
+00:06:26,000 --> 00:06:29,000
+Tehát 2+3 az 5.
+
+46
+00:06:29,000 --> 00:06:39,000
+6+8 az 14, tehát egy 4-est írok le és egy 10-est, illetve most egy 100-ast tovább léptetek.
+
+47
+00:06:39,000 --> 00:06:41,000
+9+0 az 9.
+
+48
+00:06:41,000 --> 00:06:48,000
+Maradt az 1, ami léptetek, ezért ide 0-t írok és léptetem az 1-est.
+
+49
+00:06:48,000 --> 00:06:57,000
+6+4 az 10, tehát ide is egy...10 és az 1-est tovább léptetem, ezért 11.
+
+50
+00:06:57,000 --> 00:06:59,000
+Egy 1-est írok le és tovább léptetem az 1-est.
+
+51
+00:06:59,000 --> 00:07:08,000
+7+7 az 14 és a maradék 1-est hozzáadom a 14-hez, ez által kapok 15-öt.
+
+52
+00:07:08,000 --> 00:07:12,000
+És az eredményem az 151045.
+
+53
+00:07:13,000 --> 00:07:19,000
+Most ellenőrzöm a...számolásomat, tehát 2+3 az 5, 6+8 az 14, maradt az 1.
+
+54
+00:07:19,000 --> 00:07:23,000
+9+0 az 9, hogyha hozzáadom az 1-et, akkor az 10.
+
+55
+00:07:23,000 --> 00:07:26,000
+Tehát tovább kell léptetnünk egy 1-est.
+
+56
+00:07:26,000 --> 00:07:33,000
+6+4 az 10 és a +1 az 11, tehát 1-et írok le és 1-et tovább léptetek.
+
+57
+00:07:33,000 --> 00:07:38,000
+7+7 az 14 és a maradék 1-essel az 15.
+
+58
+00:07:47,000 --> 00:07:48,000
+Felírom a kezdés időpontját.
+
+59
+00:08:07,000 --> 00:08:10,000
+Ismét kettő számot kell összeadnom, felírom egymás alá őket.
+
+60
+00:08:23,000 --> 00:08:25,000
+7+0 az 7.
+
+61
+00:08:25,000 --> 00:08:32,000
+8+2 az 10, tehát egy 0-át írok ki és tovább léptetem az 1-est a következő helyi értékre.
+
+62
+00:08:32,000 --> 00:08:42,000
+6+5 az 11, illetve volt egy 1-esem, tehát 2-est írok le, mivel 12 az eredmény és tovább léptetem az 1-est.
+
+63
+00:08:42,000 --> 00:08:50,000
+5+2 az 7, ehhez hozzádok 1-et, az 8 és itt már nem kell tovább léptetni.
+
+64
+00:08:50,000 --> 00:08:56,000
+8+2 az 10 és itt egy 10-est írok le és az eredményem az 108207.
+
+65
+00:08:56,000 --> 00:08:59,000
+Ellenőrzésképpen újra összeadom őket.
+
+66
+00:08:59,000 --> 00:09:17,000
+Tehát 7+0 az 7, 8+2 az 10 maradék az 1, 5+6 az 11+1 az 12, 5+2 az 7+1 az 8, 8+2 az 10.
+
+67
+00:09:29,000 --> 00:09:36,000
+Most leellenőrzöm visszamenőleg is az előző eredményeket.
+
+68
+00:09:38,000 --> 00:09:39,000
+Tehát...
+
+69
+00:09:41,000 --> 00:09:45,000
+76063+74982.
+
+70
+00:09:45,000 --> 00:10:05,000
+3+2 az 5, 6+8 az 14 maradt az 1, 9+0 az 9+1 az 10, 6+4 az 10+1 az 11, 7+7 az 14 és 15 lesz az eredmény.
+
+71
+00:10:19,000 --> 00:10:22,000
+Ismét ellenőrzöm egy korábbi feladatot.
+
+72
+00:10:22,000 --> 00:10:27,000
+87662+92985.
+
+73
+00:10:27,000 --> 00:10:48,000
+2+5 az 7, 6+8 az 14 maradt az 1, 9+6 az 15+1 az 16 maradt az 1, 7+2 9+1 az 10 maradt az 1, 9+8 az 17+1 az 18.
+
+74
+00:10:50,000 --> 00:10:54,000
+És az első feladatnak az ellnőrzése.
+
+75
+00:10:54,000 --> 00:10:59,000
+45838-hoz 15304-et kell hozzáadnom.
+
+76
+00:11:00,000 --> 00:11:23,000
+8+4 az 12 tovább viszek 1-et, 3+0 az 3+1 az 4, 8+3 11 tovább viszek egyet, 5+1 az 6+1 az 7, 4+1 az pedig 5 és 57142.
+
+77
+00:12:51,000 --> 00:12:52,000
+Készen vagyok.
+

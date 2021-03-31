@@ -1,0 +1,208 @@
+﻿1
+00:00:02,000 --> 00:00:03,000
+Gergő: Elindítom most a felvételt.
+
+2
+00:00:03,000 --> 00:00:04,000
+Okés. Rendben.
+
+3
+00:00:04,000 --> 00:00:06,000
+Gergő: Jó. Most van hang.
+
+4
+00:00:06,000 --> 00:00:07,000
+Zsír.
+
+5
+00:00:07,000 --> 00:00:13,000
+Gergő: Ööö. Ez[...] amitt mondom, hogy volt probléma a hanggal és akkor most újraindítottuk, úgyhogy ez két darab lesz ez a videó.
+
+6
+00:00:14,000 --> 00:00:16,000
+Gergő: Csak hogy legyen nyoma a felvételen.
+
+7
+00:00:16,000 --> 00:00:22,000
+Gergő: Újraindítottam az OBS-t. Egyszerűen eldobta az audió divet, tehát itt volt a device, de nem mozgott a csík.
+
+8
+00:00:22,000 --> 00:00:35,000
+Gergő: És a Windows látta, tehát azt megnéztem, de egyszerűen itt akármit csináltam, az OBS minthogyha, és a kamerakép ment, mindenmás ment, kamerát kihúztam, bedugtam minden, de az újraindítás az meg már nemtom.
+
+9
+00:00:35,000 --> 00:00:37,000
+Gergő: Annyi, hogy most ezzel így jártunk.
+
+10
+00:00:38,000 --> 00:00:54,000
+Gergő: Most abban maradtunk, hogy összefoglalja egy pár szóban, hogy mit csinált eddig.
+
+11
+00:00:54,000 --> 00:00:59,000
+Most akkor az történt eddig, hogy az előzőt nem tudtuk fölvenni.
+
+12
+00:00:59,000 --> 00:01:00,000
+Ööö.
+
+13
+00:01:00,000 --> 00:01:01,000
+Megtaláltam az osztályt.
+
+14
+00:01:01,000 --> 00:01:02,000
+Megtaláltam a tesztesetet.
+
+15
+00:01:02,000 --> 00:01:03,000
+Lefuttattam.
+
+16
+00:01:03,000 --> 00:01:11,000
+Utána külön debug-ban eljutottam odáig, hogy az input mezőre ööö vagy erre a tesztesetre amire nekem hibát dobott eljutottam addig az inputig.
+
+17
+00:01:11,000 --> 00:01:17,000
+[...] akart csinálni belőle utána megkerestem, hogy a float és a double között mi a különbség.
+
+18
+00:01:17,000 --> 00:01:25,000
+A float és a double között az a különbség, hogy a float az 7 lebegőpontosig megy C++-ban, de Java-ban nem.
+
+19
+00:01:27,000 --> 00:01:28,000
+Valószínű.
+
+20
+00:01:28,000 --> 00:01:34,000
+Utána meg 16 pontosságig megy szerintem Java-ba.
+
+21
+00:01:34,000 --> 00:01:43,000
+És odáig jutottam el, hogy ööö amikor generálni akar- ja a 8 [...] 8 bit.
+
+22
+00:01:49,000 --> 00:01:55,000
+Ja a float az 6 és 7 decimális digit-ig megy, a double 15 és 16 között megy.
+
+23
+00:01:55,000 --> 00:02:07,000
+Szóval...amikor itt beraktam a try-catch-be hogyha "numDecimal" akkor kisebb egyenlő 7 vagy kisebb egyenlő 16.
+
+24
+00:02:07,000 --> 00:02:17,000
+Mert hogyha hétig...hét-hétig...aha...és hogyha...
+
+25
+00:02:18,000 --> 00:02:19,000
+Így le fogjuk futtatni újra, megnézzük, hogy de amúgy úgy kéne, hogy berakni kéne, hogyha [köhög] "numDecimal" 0 és 7 között van vagy 1 és 7 között van, akkor float-ot akarunk csinálni,
+
+26
+00:02:19,000 --> 00:02:31,000
+[futtat]
+Így le fogjuk futtatni újra, megnézzük, hogy de amúgy úgy kéne, hogy berakni kéne, hogyha [köhög] "numDecimal" 0 és 7 között van vagy 1 és 7 között van, akkor float-ot akarunk csinálni,
+
+27
+00:02:31,000 --> 00:02:37,000
+de hogyha kisebb egyenlő mint 16, mondjuk ez úgyis úgy fog lefutni.
+[futtat]
+
+28
+00:02:37,000 --> 00:02:52,000
+Szóval most lefuttatjuk újra, szóval annyi a különbség a float és a double között, hogy 16 tizedesjegyig, 8 byte-ig megy, a másik csak 4 byte-ig, az 8 tizedesjegyig megy.
+[futtat]
+
+29
+00:02:52,000 --> 00:02:53,000
+[futtat]
+
+30
+00:02:53,000 --> 00:02:54,000
+Vagyis 7 tizedesjegyig.
+[futtat]
+
+31
+00:02:54,000 --> 00:02:55,000
+[futtat]
+
+32
+00:02:55,000 --> 00:03:08,000
+7 és 6, a másik az [köhög] 16 pontosságig megy, szóval volt egy olyan változó, ami number of decimals, az a digit tizedesjegyeknek a száma van benne.
+[futtat]
+
+33
+00:03:08,000 --> 00:03:17,000
+És akkor akkor akarok csinálni ha hetet éri csak el a tizedesjegyeknek a száma akkor float-ot akarunk generálni belőle meg double-t.
+[futtat]
+
+34
+00:03:17,000 --> 00:03:23,000
+Ha 16-nál nagyobb, akkor egy nagy decimal-t fogunk vissza adni ebbe a függvénybe.
+[futtat]
+
+35
+00:03:23,000 --> 00:03:30,000
+[futtat]
+
+36
+00:03:30,000 --> 00:03:42,000
+Most lefuttatjuk újra a teszteseteket és megnézzük...hogy jó-e a javításunk.
+[futtat]
+
+37
+00:03:42,000 --> 00:04:13,000
+[futtat]
+
+38
+00:04:13,000 --> 00:04:17,000
+Várjuk, hogy fussanak a tesztesetek le,
+[futtat]
+
+39
+00:04:17,000 --> 00:04:27,000
+[futtat]
+
+40
+00:04:27,000 --> 00:04:32,000
+Egy try-catch-be is bele lehetne rakni.
+[futtat]
+
+41
+00:04:32,000 --> 00:04:34,000
+Ööö.
+[futtat]
+
+42
+00:04:34,000 --> 00:04:38,000
+Dehát...nem raktam bele. [nevet]
+[futtat]
+
+43
+00:04:38,000 --> 00:05:06,000
+[futtat]
+
+44
+00:05:06,000 --> 00:05:13,000
+Följebb megyünk, megkeressük, a mi number-es UtilTest-et.
+
+45
+00:05:13,000 --> 00:05:15,000
+Tökéletesen működik.
+
+46
+00:05:15,000 --> 00:05:17,000
+Megvan a hiba forrása.
+
+47
+00:05:19,000 --> 00:05:32,000
+Szóval annyi a lényeg, hogy 7 tizedejegyig float-ot tudunk csinálni belőle, 7 és 16 között double-t, azon kívül egy createBigDecimal függvény hívódik meg,
+
+48
+00:05:32,000 --> 00:05:35,000
+ami a nagy decimális számot ad vissza sztringből.
+
+49
+00:05:35,000 --> 00:05:37,000
+Kész is.
+

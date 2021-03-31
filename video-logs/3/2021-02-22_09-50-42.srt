@@ -1,0 +1,944 @@
+﻿1
+00:00:04,000 --> 00:00:05,000
+Ott van az a papírlap.
+
+2
+00:00:05,000 --> 00:00:06,000
+Aha.
+
+3
+00:00:06,000 --> 00:00:07,000
+A hátulján van egy feladat, ha megfordítod.
+
+4
+00:00:07,000 --> 00:00:08,000
+Okés.
+
+5
+00:00:08,000 --> 00:00:10,000
+El van indítva neked egy Eclipse.
+
+6
+00:00:10,000 --> 00:00:11,000
+Aha.
+
+7
+00:00:11,000 --> 00:00:16,000
+A feladat az, hogy ebben le tudod futtatni a teszteseteket, ott van leírva, hogy pontosan hogyan.
+
+8
+00:00:16,000 --> 00:00:17,000
+Jó.
+
+9
+00:00:17,000 --> 00:00:18,000
+Egyetlen egy bukó van jelenleg.
+
+10
+00:00:18,000 --> 00:00:19,000
+Aha.
+
+11
+00:00:19,000 --> 00:00:23,000
+Az a cél, hogy a tesztek módosítása nélkül ne legyen egyáltalán bukó teszteset.
+
+12
+00:00:23,000 --> 00:00:24,000
+Aha.
+
+13
+00:00:24,000 --> 00:00:26,000
+Ki kell javítani a hibákat nyilván a programban.
+
+14
+00:00:26,000 --> 00:00:27,000
+Jó.
+
+15
+00:00:27,000 --> 00:00:34,000
+Internetet lehet használni és továbbra is minden ami az eszedbe jut, ahogy dolgozol közben, bármi ami a fejedben van, csak mondjad, mondjad, mondjad folyamatosan.
+
+16
+00:00:34,000 --> 00:00:37,000
+Jó, jó. Rendben, okés.
+
+17
+00:00:37,000 --> 00:00:46,000
+Illetve még egy dolog, hogy ezek ismert hibák, úgy hogy szépen megkérünk, hogy a hivatalos bug adatbázisokban a projekt miatt ne keresd meg a hibát, mert nyilván ott van.
+
+18
+00:00:46,000 --> 00:00:47,000
+Okés.
+
+19
+00:00:47,000 --> 00:00:49,000
+De az nyilván torzítaná a [...] itt a mérés során.
+
+20
+00:00:49,000 --> 00:00:51,000
+Jó, jó. Rendben.
+
+21
+00:00:51,000 --> 00:00:53,000
+90 perc lesz erre a feladatra, másfél óra.
+
+22
+00:00:53,000 --> 00:00:54,000
+Okés.
+
+23
+00:00:54,000 --> 00:00:56,000
+Így magadra leszel megintcsak hagyva.
+
+24
+00:00:56,000 --> 00:00:57,000
+Jó.
+
+25
+00:00:57,000 --> 00:00:59,000
+Időnként bejövünk, megnézzük minden rendben van. És gyakorlatilag ez lesz a [...]
+
+26
+00:00:59,000 --> 00:01:00,000
+Jó, rendben.
+
+27
+00:01:00,000 --> 00:01:01,000
+Az egeremet visszakaphatom, ugye?
+
+28
+00:01:01,000 --> 00:01:02,000
+Persze.
+
+29
+00:01:02,000 --> 00:01:10,000
+Neem, nincs semmi. Rendben, köszönöm.
+
+30
+00:01:10,000 --> 00:01:38,000
+Megkaptam a feladatoma, elolvasom.. [felületes átolvasás]
+
+31
+00:01:38,000 --> 00:01:46,000
+Task-A
+
+32
+00:01:46,000 --> 00:03:15,000
+Megeresem ezt a tesztosztályt.
+
+33
+00:03:15,000 --> 00:04:11,000
+Megkerestem a NumberUtilsTest.java nevű fájlt, várom, hogy betöltsön.
+
+34
+00:04:11,000 --> 00:04:15,000
+Nézzük. Lefuttattam a környezetet. Lefuttattam a teszteseteket.
+
+35
+00:04:15,000 --> 00:04:23,000
+Itt vannak az annotacion-ből a...."Test run: 10" átment. Nem adott hibát.
+
+36
+00:04:23,000 --> 00:04:26,000
+Az ArrayUtilsAddTest sem adott hibát.
+
+37
+00:04:26,000 --> 00:04:33,000
+A következő se, nem adott hibát, addig, amíg meg nem találom azt ami hibát dobott.
+
+38
+00:04:33,000 --> 00:04:40,000
+Ez dobott hibát.. ReflectionToStringBuilderConcurrencyTest adott három "Skipped"-et.
+
+39
+00:04:40,000 --> 00:04:48,000
+A ReflectionToStringBuilderMutateInspectConcurrencyTest is adott egy "Skipped"-et.
+
+40
+00:04:48,000 --> 00:05:02,000
+Keresem azt, ami hibát dob.
+
+41
+00:05:02,000 --> 00:05:07,000
+math.Num'Utils teszt bodott egy hibát.
+
+42
+00:05:07,000 --> 00:05:58,000
+NumberFormatException hibát dobott a 242.sorban
+
+43
+00:05:58,000 --> 00:06:03,000
+Bemegyünk a NumberUtils.createNumber függvénybe, hogy ott mi történik.
+
+44
+00:06:03,000 --> 00:06:06,000
+CreateNumber függvényt megnézzük.
+
+45
+00:06:06,000 --> 00:06:09,000
+NumberFormatException hibát dobta a tesztesetünk.
+
+46
+00:06:09,000 --> 00:06:29,000
+Mert a tesztesetben createnumber-elni akarjuk ezt a --1.1E-700F-et
+
+47
+00:06:17,000 --> 00:06:19,000
+createNumber-be belementünk, hogy mit csinál.
+
+48
+00:06:20,000 --> 00:06:22,000
+A createNumber vár egy sztringet, amit...
+
+49
+00:06:22,000 --> 00:06:24,000
+....static number-t ad vissza,
+
+50
+00:06:24,000 --> 00:06:27,000
+ami valószínűleg vissza akarunk adni egy számot.
+
+51
+00:06:27,000 --> 00:06:28,000
+Sztringet fogunk számmá alakítani.
+
+52
+00:06:28,000 --> 00:06:31,000
+Hogyha üres a sztring, akkor nullát adunk vissza.
+
+53
+00:06:37,000 --> 00:06:40,000
+Van a [...] az, hogy nincs definiálva a sztring,
+
+54
+00:06:40,000 --> 00:06:42,000
+van az, hogy üres a sztring,
+
+55
+00:06:42,000 --> 00:06:54,000
+arra dobunk egy NumberFormat Exception-t, hogy [olvassa a kódot] az üres szting nem [...] szám utána.
+
+56
+00:06:54,000 --> 00:06:56,000
+Megnézzük, hogy a kettő [...]
+
+57
+00:06:58,000 --> 00:07:02,000
+Ha ez egy mínusz jellel kezdődik, akkor "null"-t dobunk vissza.
+
+58
+00:07:04,000 --> 00:07:08,000
+Ami meg is van már ennél a tesztesetünknél ezt...ez...
+
+59
+00:07:10,000 --> 00:07:14,000
+...erre futunk rá legelsőnek, talán nem is fog futni, mert itt a visszatérési érték meg is történt.
+
+60
+00:07:15,000 --> 00:07:20,000
+Utána vannak még ilyenek, hogy a következő esetvizsgálata [köhög]
+
+61
+00:07:20,000 --> 00:07:26,000
+hogy "0x"-el kezdődik, "-0x"-el vagy "0X"-el
+
+62
+00:07:26,000 --> 00:07:31,000
+és "-0X"-el kezdődik akkor az...izé...
+
+63
+00:07:31,000 --> 00:07:33,000
+hexadigitté alakra jutunk.
+
+64
+00:07:35,000 --> 00:07:37,000
+Az "strl.length()-2"...
+
+65
+00:07:38,000 --> 00:07:41,000
+...től alakítjuk az int-et.
+
+66
+00:07:43,000 --> 00:07:53,000
+[összefüggéstelenül olvassa a kódot]
+
+67
+00:07:53,000 --> 00:07:56,000
+[olvassa a leírást]
+
+68
+00:07:56,000 --> 00:08:04,000
+[olvassa a kódot]
+
+69
+00:08:04,000 --> 00:08:09,000
+De ez itt hibát dobhat, mert három karaktert is levehetünk majd
+
+70
+00:08:09,000 --> 00:08:11,000
+[összefüggéstelenül olvassa a kódot]
+
+71
+00:08:11,000 --> 00:08:12,000
+Na mindegy.
+
+72
+00:08:12,000 --> 00:08:19,000
+És hogyha...igen itt is van, hogyha mínusszal kezdődik, akkor a hexdigitet még egyel csökkentsük.
+
+73
+00:08:19,000 --> 00:08:26,000
+Hogyha nagyobb a hexdigit 8...aa...számláló akkor izé "too many for int" "return createLong(str)".
+
+74
+00:08:27,000 --> 00:08:34,000
+Akkor long-ot create-lünk, hogyha meg nem, akkor meg integer-t create-lünk, hogyha tudjuk, hogy hexa-val kezdődik az eleje.
+
+75
+00:08:35,000 --> 00:08:41,000
+Karakternél izé kivesszük a [olvassa a kódot] az utolsó karaktert kivesszük.
+
+76
+00:08:42,000 --> 00:08:44,000
+Létrrehozunk pár változót.
+
+77
+00:08:44,000 --> 00:08:48,000
+A decPos meg az expPos az index az pont.
+
+78
+00:08:48,000 --> 00:08:56,000
+Ööö..meg a...ezek pozíciók, a decimálisnak a pozíciója.
+
+79
+00:08:56,000 --> 00:08:58,000
+A ponttól van.
+
+80
+00:08:59,000 --> 00:09:05,000
+Az exponenciálisnak meg megkeressük a 'e' betűt a 'E" betűt plusz egynek a pozícióját.
+
+81
+00:09:06,000 --> 00:09:08,000
+DecPost az kisebb mínusz egy.
+
+82
+00:09:08,000 --> 00:09:18,000
+[olvassa a kódot]
+
+83
+00:09:18,000 --> 00:09:22,000
+[olvassa a leírást]
+
+84
+00:09:22,000 --> 00:09:27,000
+[olvassa a kódot]
+
+85
+00:09:27,000 --> 00:09:33,000
+[olvassa a leírást]
+
+86
+00:09:33,000 --> 00:09:49,000
+[olvassa a kódot]
+
+87
+00:09:49,000 --> 00:09:58,000
+Míg expPos nagyobb mint mínusz egy, akkor expPos kisebb mint decPos vagy expPos nagyobb mint a sztringnek a hossza, akkor
+
+88
+00:09:58,000 --> 00:10:03,000
+NumberFormatException dobunk vagy ez az input nem valid number.
+
+89
+00:10:04,000 --> 00:10:05,000
+Okés
+
+90
+00:10:06,000 --> 00:10:08,000
+Amúgy meg berakjuk a
+
+91
+00:10:08,000 --> 00:10:12,000
+Kiválasztjuk a decPos-tól...plusz egytől az expPos pozíciót.
+
+92
+00:10:12,000 --> 00:10:22,000
+Szóval dec[...]-nak ahol a tízedvonás ponttól egyel arrébbról az exponenciális pozícióig kiválasztjuk a számot.
+
+93
+00:10:22,000 --> 00:10:30,000
+Különben meg ha az expPos nagyobb..kisebb..nem nagyobb mint mínusz egy akkor a substring az decPost-tól mínusz egy.
+
+94
+00:10:31,000 --> 00:10:34,000
+Jaa hogyha van-e benne exponenciális tag.
+
+95
+00:10:34,000 --> 00:10:39,000
+Hogyha nincs benne exponenciális tag, akkor csak simán decPos-tól egyig a substring-eljük
+
+96
+00:10:39,000 --> 00:10:45,000
+és akkor mant...rak meg nullától decPos-ig az az jaa az az [...] mantissza.
+
+97
+00:10:45,000 --> 00:10:48,000
+Az ele[...]
+
+98
+00:10:48,000 --> 00:10:51,000
+Az meg a nulladik karaktert a decPos-ig tart.
+
+99
+00:10:51,000 --> 00:10:53,000
+Öö.
+
+100
+00:10:53,000 --> 00:10:58,000
+[olvassa a kódot]
+
+101
+00:10:59,000 --> 00:11:04,000
+Oké. Dec [ásít] null.
+
+102
+00:11:05,000 --> 00:11:07,000
+Oké. És hogyha a karakter pont
+
+103
+00:11:07,000 --> 00:11:11,000
+Ha "last" karakter ööö is nem
+
+104
+00:11:11,000 --> 00:11:13,000
+[olvassa a leírást]
+
+105
+00:11:13,000 --> 00:11:15,000
+Ja igen.
+
+106
+00:11:15,000 --> 00:11:26,000
+Hogyha az utolsó karakter..nem...ez[...] és nem egyenlő ponttal akkor megnézzük, hogy az exp van benne exponenciális tag.
+
+107
+00:11:26,000 --> 00:11:34,000
+És az exponenciális tagnak a..nem az utolsó..háthogy..exponenciális tagnak az indexe.
+
+108
+00:11:34,000 --> 00:11:36,000
+Öö.
+
+109
+00:11:36,000 --> 00:11:44,000
+A sztring..nek a hosszúsága mínusz egyik tart, akkor visszaadjuk, hogy az exponenciális tag az a sub..
+
+110
+00:11:44,000 --> 00:11:48,000
+a mostani sztring levágjuk az exponenciális tagtól plusz egyig.
+
+111
+00:11:48,000 --> 00:11:51,000
+Meg a sztring mínusz length mínusz egyig.
+
+112
+00:11:51,000 --> 00:11:57,000
+Szóval az input öö karakterfolyamnak az végé mínusz egyig.
+
+113
+00:11:57,000 --> 00:12:02,000
+Oké. És különben az[...] hogyha nem, akkor különben az exponenciális tag az nulla.
+
+114
+00:12:05,000 --> 00:12:06,000
+Rendben.
+
+115
+00:12:06,000 --> 00:12:11,000
+[összefüggéstelen olvassa a kódot]
+
+116
+00:12:11,000 --> 00:12:13,000
+Mmm.
+
+117
+00:12:13,000 --> 00:12:25,000
+[olvassa a kódot]
+
+118
+00:12:25,000 --> 00:12:29,000
+Oké. És [összefüggéstelenül olvassa a kódot]
+
+119
+00:12:29,000 --> 00:12:32,000
+[ásít]
+
+120
+00:12:33,000 --> 00:12:36,000
+Az "allZeros" vissza adja, hogy az összes karakter..
+
+121
+00:12:36,000 --> 00:12:46,000
+[olvassa a kódot]
+
+122
+00:12:46,000 --> 00:12:51,000
+Vissza adja [köhög] jaja
+
+123
+00:12:51,000 --> 00:12:56,000
+[olvassa a kódot]
+
+124
+00:12:56,000 --> 00:13:00,000
+Ja innentől...följebb megyünk vissza itt tartottunk.
+
+125
+00:13:00,000 --> 00:13:04,000
+[olvassa a kódot]
+
+126
+00:13:04,000 --> 00:13:07,000
+[összefüggéstelenül olvassa a kódot]
+
+127
+00:13:07,000 --> 00:13:12,000
+Megnézzük [ásít] a mantissza az mind nulla-e.
+
+128
+00:13:12,000 --> 00:13:24,000
+És..és hogyha az exponenciális tag is mind nulla f[...] azt berakjuk egy boolean változóba.
+
+129
+00:13:25,000 --> 00:13:49,000
+Switch...öö csináltunk egy switch-et a last karakterre, megnézzük, hogy 'l' vagy 'L' betű akkor...abban az esetben vizsgáljuk, hogy ha dec az null és az exponenciális és...null érték is a numeric a nulladik karakteren egy mínusz jel van mellette a...
+
+130
+00:13:49,000 --> 00:14:00,000
+az első karakter az szám vagy...az egész szám...akkor öö...
+
+131
+00:14:00,000 --> 00:14:07,000
+Hogyha a dec...imális izé az nulla és az exponenciális is null
+
+132
+00:14:07,000 --> 00:14:10,000
+nincs benne pontos pont tizedesjegy.
+
+133
+00:14:10,000 --> 00:14:21,000
+Meg nincs benne ilyen...exponenciális tag, akk[...] és megnézzük, hogy az első karakter az...
+
+134
+00:14:21,000 --> 00:14:27,000
+[olvassa a kódot]
+
+135
+00:14:27,000 --> 00:14:36,000
+ööö szám vagy az egész egy szám, akkor [...] csinálni egy createLongot-ot.
+
+136
+00:14:36,000 --> 00:14:45,000
+A createLong az vár egy numeric sztinget és hát hogy visszaadja egyedi kódolva a long-nak a törzsfüggvényében lévő [...]inget.
+
+137
+00:14:45,000 --> 00:14:50,000
+[olvassa a kódot]
+
+138
+00:14:50,000 --> 00:14:52,000
+Ennyi.
+
+139
+00:14:53,000 --> 00:14:54,000
+[köhög]
+
+140
+00:14:54,000 --> 00:14:56,000
+Menjünk tovább.
+
+141
+00:14:58,000 --> 00:15:00,000
+Try-catch.
+
+142
+00:15:00,000 --> 00:15:05,000
+[olvassa a kódot]
+
+143
+00:15:05,000 --> 00:15:17,000
+Hogy[...] try igen hogyha ez nem igaz, akkor createBigInteger...el térünk vissza, hogyha ez az előző...izé nem működik.
+
+144
+00:15:17,000 --> 00:15:37,000
+Vagy nem az, hogy nem működik, hanem fut rá az ágába az izébe a BigInteger vár egy sztringet az csak egy BigInteger-t ad vissza az alap izé az a create(new)BigInteger ez egy...base...base ez a Java-nak egy saját izéje.
+
+145
+00:15:37,000 --> 00:15:54,000
+[olvassa a kódot]
+
+146
+00:15:54,000 --> 00:15:58,000
+[összefüggéstelenül olvassa a kódot]
+
+147
+00:15:58,000 --> 00:16:15,000
+Ööö hogyha ez az if dec nem egyenlő nulla, vagy hát [...] decimális és exponenciális nem egyenlő nulla akkor dob egy izét...NumberFormatExceptiont-t hogy nem valós szám.
+
+148
+00:16:15,000 --> 00:16:30,000
+A 'f'-nél 'F' vizsgálatnál float-ot kapunk, szóval az az 'l' jelöli a long-ot, az 'f' a float-ot, a 'd' meg a double-t a legeslegvégén, hogy milyen típusban van a szám.
+
+149
+00:16:30,000 --> 00:16:38,000
+Hogy double lebegőpontos duplás vagy ööö long-ban van a szám és akkor ezt vizsgáltuk az elején ezeket.
+
+150
+00:16:38,000 --> 00:16:47,000
+Megnézzük, hogy a float 'f'-el hogyha a végén akkor NumberUtils.createFloat-ot szeretnénk csinálni.
+
+151
+00:16:50,000 --> 00:16:51,000
+Ööö
+
+152
+00:16:51,000 --> 00:17:05,000
+És hogyha az 'f' az...öö...'f'-ről megmondjuk, hogy végtelen vagy a nulla a value-ja vagy az összes karakter nulla vagyis ennek a tagadása, akkor vissza tudjuk adni.
+
+153
+00:17:05,000 --> 00:17:19,000
+Hogyha nem végtelen vagy nem nulla az értéke vagy nem az összes nulla...akkor visszaadjuk magát az 'f' betűt.
+
+154
+00:17:19,000 --> 00:17:22,000
+Amúgy meg izé NumberFormatException-t dobunk vissza.
+
+155
+00:17:22,000 --> 00:17:24,000
+"ignore the bad number"
+
+156
+00:17:24,000 --> 00:17:38,000
+A 'd' betűt...nél vagyunk [köhög] eee 'D' esetén megpróbáljuk 'd'-vé alakí kis 'd' betű double-be NumberUtils.createDouble-el csinálni.
+
+157
+00:17:38,000 --> 00:17:52,000
+Ugyanúgy megnézzük, hogy ha a 'd' nem a 'd'-be nem végtelen ööö n[...] az értéke nem nulla, akkor nulla a mardéka vagy hogy nulla az összes karakter, akkor visszaadjuk magát a számot.
+
+158
+00:17:52,000 --> 00:17:57,000
+Amúgy ööö izé catch-be nem csinálunk semmit.
+
+159
+00:17:57,000 --> 00:17:58,000
+Ööö
+
+160
+00:17:59,000 --> 00:18:01,000
+Utána meg ööö
+
+161
+00:18:01,000 --> 00:18:05,000
+[összefüggéstelenül olvassa a kódot]
+
+162
+00:18:07,000 --> 00:18:13,000
+Hogyha nem...hogyha nem tudnánk eljutni akkor meg vissza akarnánk adni egy "return createBig Decimal"-t.
+
+163
+00:18:14,000 --> 00:18:21,000
+Itt sem csinálunk s[...]ba default ágba meg ugyan úgy dobunk egy exception-t, hogyha ez nem egy valós szám else-be.
+
+164
+00:18:27,000 --> 00:18:29,000
+Nézegetjük a dolgot.
+
+165
+00:18:31,000 --> 00:18:47,000
+Az expozíció nagyobb mint mínusz egy és hosszabb és kisebb mint mint a háthogy...a nulladik és a sztringnek a hossza közötti karakterszámban vagyunk bent akkor utána substring-eljük ezt a részt.
+
+166
+00:18:47,000 --> 00:18:50,000
+[...] vissza adjuk az expozícióba a nullát.
+
+167
+00:18:50,000 --> 00:18:57,000
+Hogyha a "dec" az nulla és az expozíció nulla, akkor createInteger-el próbálunk try-catch-ből megcsinálni [...] semmit.
+
+168
+00:18:58,000 --> 00:18:59,000
+[köhög]
+
+169
+00:18:59,000 --> 00:19:02,000
+Hogyha ez nem sikerült, akkor meg long-ot próbálunk vissza adni.
+
+170
+00:19:02,000 --> 00:19:05,000
+Hogyha ez sem sikerült, akkor utána meg BigInteger-t próbálunk vissza adni.
+
+171
+00:19:07,000 --> 00:19:18,000
+Hogyha ööö ez itt...ez "expPos", hogyha expozíciós pozíciónk ágba nem lépne bele, akkor menjünk az else-ágba.
+
+172
+00:19:18,000 --> 00:19:22,000
+Ott megnézzük a boolean-nel azt, hogy az összes érték nulla-e.
+
+173
+00:19:22,000 --> 00:19:23,000
+Okés.
+
+174
+00:19:23,000 --> 00:19:26,000
+Ööö beraktuk egy boolean változóba.
+
+175
+00:19:26,000 --> 00:19:30,000
+A mantisszába meg az exponenciálisnak hogy a nulla az izé
+
+176
+00:19:30,000 --> 00:19:47,000
+Hogyha az 'f'-be 'f'-et megpróbáljuk try-catch blokkon belül create-elni ööö hogyha az 'f' nem végtelen vagy nem egyenlő az értéke nullával vagy az összes karakter nem nulla, akkor vissza tudunk adni egy 'f' értéket.
+
+177
+00:19:47,000 --> 00:19:49,000
+Amúgy meg a catch-be nem csinálunk semmit.
+
+178
+00:19:49,000 --> 00:19:56,000
+Ha ide nem tu...ha valami miatt nem tudunk vele tovább, akkor meg double-t próbálunk meg csinálni belőle.
+
+179
+00:19:56,000 --> 00:19:59,000
+Ugyan úgy megnézzük. hogy nem végtelen-e
+
+180
+00:19:59,000 --> 00:20:03,000
+Nem nulla az értéke és nem az összes szám nulla-e.
+
+181
+00:20:03,000 --> 00:20:09,000
+Hogyha ez se, a try-catch ágba se futott akkor meg vissza adjuk a BigDecimal-t.
+
+182
+00:20:09,000 --> 00:20:16,000
+[olvassa a leírást]
+
+183
+00:20:16,000 --> 00:20:20,000
+Na visszafele megyünk, hogy ez...eset...
+
+184
+00:20:23,000 --> 00:20:26,000
+[olvassa a leírást]
+
+185
+00:20:28,000 --> 00:20:33,000
+Ez itt legelsőnek azért bukik meg, mert "--"-el kezdődik ez eleje.
+
+186
+00:20:38,000 --> 00:20:43,000
+"--"-el, szóval itt a második harmadik if-re visszadobja a "null"-t.
+
+187
+00:20:43,000 --> 00:21:17,000
+[olvassa a leírást]
+
+188
+00:21:17,000 --> 00:21:23,000
+Most pontosan nem értem, hogy mi a probléma, hogy mi a megoldása ennek a feladatnak.
+
+189
+00:21:23,000 --> 00:21:38,000
+[olvassa a leírást]
+
+190
+00:23:17,000 --> 00:23:24,000
+[összefüggéstelenül olvassa a kódot]
+
+191
+00:23:55,000 --> 00:24:14,000
+Ja itt megtaláltam, hogy valószínű csak annyi az egésznek a hibája, hogy a startWith-nél egy "null"-t adunk vissza értékül és akkor azt kéne, hogy true-val kéne hogy [...] NumberFormatException-t és akkor beleírni a szövegbe, hogy "--" karakterrel kezdődő ööö nem jól működnek.
+
+192
+00:24:57,000 --> 00:25:04,000
+Meg itt a sztring nullánál is vissza adhatjuk azt, hogy ööö "A null string is not a valid number"
+
+193
+00:25:11,000 --> 00:25:12,000
+És lefuttatjuk újra.
+
+194
+00:25:12,000 --> 00:25:19,000
+[futtat]
+
+195
+00:25:19,000 --> 00:25:20,000
+[köhög]
+[futtat]
+
+196
+00:25:20,000 --> 00:25:26,000
+[futtat]
+
+197
+00:25:26,000 --> 00:25:28,000
+Na szóval itt csak annyi volt a
+[futtat]
+
+198
+00:25:28,000 --> 00:25:36,000
+Most futtatom le a megnézzük, hogy ööö átment-e a teszteset javításon vagy nem.
+[futtat]
+
+199
+00:25:36,000 --> 00:25:57,000
+[futtat]
+
+200
+00:25:57,000 --> 00:26:06,000
+Mert annyi volt csak, hogy ööö nem öm "null" értéket adtunk vissza és nem egy exception-t amit várt volna...az assert osztály...uk.
+[futtat]
+
+201
+00:26:06,000 --> 00:27:40,000
+[futtat]
+
+202
+00:27:40,000 --> 00:27:45,000
+Megvárom, hogy mit fog kidobni a compiler az újabb futtatásra.
+[futtat]
+
+203
+00:27:45,000 --> 00:28:29,000
+[futtat]
+
+204
+00:28:29,000 --> 00:28:33,000
+Király. NumberUtilsTest is átment az izén.
+[futtat]
+
+205
+00:28:33,000 --> 00:29:04,000
+[futtat]
+
+206
+00:29:04,000 --> 00:29:06,000
+Visszamegyek megnézni, hogy a NumberUtilsTest dobott hibát.
+[futtat]
+
+207
+00:29:06,000 --> 00:29:09,000
+Visszamegyek megnézni, hogy a NumberUtilsTest dobott hibát.
+
+208
+00:29:09,000 --> 00:29:17,000
+[olvassa a kódot]
+
+209
+00:29:17,000 --> 00:29:21,000
+NumberUtils 447.sorában.
+
+210
+00:29:21,000 --> 00:29:41,000
+[olvassa a kódot]
+
+211
+00:29:41,000 --> 00:29:45,000
+Jaa amit beírtam az nem biztos, hogy jó, szóval visszamegyek ide.
+
+212
+00:30:04,000 --> 00:30:07,000
+Jaa a "null"-nak kell visszatérnie, igen.
+
+213
+00:30:08,000 --> 00:30:09,000
+Én rontottam el.
+
+214
+00:30:10,000 --> 00:30:11,000
+Ja.
+
+215
+00:30:15,000 --> 00:30:16,000
+[futtat]
+
+216
+00:30:16,000 --> 00:30:18,000
+Azt az egyet nem kellett voln átírni,
+[futtat]
+
+217
+00:30:18,000 --> 00:30:19,000
+[futtat]
+
+218
+00:30:19,000 --> 00:30:22,000
+A nullos eset az jól működik, mert az "null"-t vár vissza.
+[futtat]
+
+219
+00:30:22,000 --> 00:30:31,000
+[futtat]
+
+220
+00:30:31,000 --> 00:30:34,000
+Most újra lefuttatjuk, ez megint egy másfél perc lesz.
+[futtat]
+
+221
+00:30:34,000 --> 00:30:42,000
+[futtat]
+
+222
+00:30:42,000 --> 00:30:45,000
+[ásít]
+[futtat]
+
+223
+00:30:45,000 --> 00:31:41,000
+[futtat]
+
+224
+00:31:41,000 --> 00:31:42,000
+Jajaja itt nincsen.
+[futtat]
+
+225
+00:31:42,000 --> 00:31:46,000
+[futtat]
+
+226
+00:31:46,000 --> 00:31:47,000
+Unexpected NumberFormatException.
+[futtat]
+
+227
+00:31:47,000 --> 00:32:47,000
+[futtat]
+
+228
+00:32:47,000 --> 00:32:53,000
+Most visszamegyünk, megnézzük, hogy dobott e NumberUtilsTest hibát.
+
+229
+00:32:53,000 --> 00:32:55,000
+De hát...úgy nézem, hogy nem.
+
+230
+00:33:09,000 --> 00:33:11,000
+Itt van NumberUtilsTest...átment.
+
+231
+00:33:11,000 --> 00:33:12,000
+Királyság.
+
+232
+00:33:12,000 --> 00:33:22,000
+Ja akkor csak annyi volt a hiba, hogy itt "null"-t dobott vissza, de a testesetben meg egy NumberFormatException-t vár, azt is dobtam vissza utána.
+
+233
+00:33:22,000 --> 00:33:24,000
+Szóval meg van oldva ez a feladat.

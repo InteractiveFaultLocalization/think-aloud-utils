@@ -1,0 +1,1056 @@
+﻿1
+00:00:00,000 --> 00:00:02,000
+Béla: Elindítottam a felvételt.
+
+2
+00:00:03,000 --> 00:00:06,000
+Béla: A feladatod az hasonló lenne, mint a tegnapi nap folyamán.
+
+3
+00:00:06,000 --> 00:00:11,000
+Béla: Láthatsz egy lapot rajta egy matematikai műveletet.
+
+4
+00:00:12,000 --> 00:00:16,000
+Béla: Ezt kellene megoldani számítógép használata nélkül.
+
+5
+00:00:16,000 --> 00:00:19,000
+Béla: 30 perc áll a rendelkezésedre.
+
+6
+00:00:19,000 --> 00:00:26,000
+Béla: Hogyha előbb végzel, akkor szólsz és akkor megállítjuk majd a felvételt.
+
+7
+00:00:26,000 --> 00:00:35,000
+Béla: Azt kérnénk majd, hogy hangosan mondj ki mindent, ami a feladat megoldása közben eszedbe jut.
+
+8
+00:00:36,000 --> 00:00:37,000
+Béla: Van-e kérdés?
+
+9
+00:00:37,000 --> 00:00:38,000
+Nincs.
+
+10
+00:00:38,000 --> 00:00:40,000
+Béla: Köszönöm.
+
+11
+00:00:47,000 --> 00:00:50,000
+Először is felírom a kezdés időpontját.
+
+12
+00:01:10,000 --> 00:01:15,000
+És azt látom, hogy egy kivonást, illetve szorzásokat kell elvégeznem.
+
+13
+00:01:15,000 --> 00:01:18,000
+Értelem szerűen először a szorzásokat fogom.
+
+14
+00:01:22,000 --> 00:01:25,000
+Látom, hogy összesen 6 tagot kell összeszoroznom.
+
+15
+00:01:27,000 --> 00:01:38,000
+Úgy gondolom, hogy...hogy párosával fogom őket, tehát...az első kettőt, utána ennek eredményét a harmadikkal és így tovább.
+
+16
+00:01:40,000 --> 00:01:45,000
+És el is kezdem a 787*577-el.
+
+17
+00:01:54,000 --> 00:01:57,000
+Most leírtam egymás mellé a kettő számot.
+
+18
+00:02:08,000 --> 00:02:25,000
+És...valószínűleg úgy kell elvégeznem a szorzást - erre már nem emlékszem pontosan -, hogy...az egyik szám utolsó helyiértékével végig szorzom az első számot, utána az utolsó helyiértékkel és így tovább.
+
+19
+00:02:49,000 --> 00:02:55,000
+Illetve...nem vagyok biztos ennek a módszernek a helyességében, szóval...
+
+20
+00:02:57,000 --> 00:03:01,000
+Inkább most másképpen fogom ezt csinálni.
+
+21
+00:03:02,000 --> 00:03:07,000
+Tehát...a 787-et először megszorzom 500-al.
+
+22
+00:03:12,000 --> 00:03:17,000
+Ez azt jelenti, hogy először megszorzom 5-el és utána az eredményt 100-al.
+
+23
+00:03:24,000 --> 00:03:26,000
+Tehát 787*5...
+
+24
+00:03:28,000 --> 00:03:33,000
+7*5 az 35, megmaradt a 3.
+
+25
+00:03:33,000 --> 00:03:39,000
+Most aláhúztam a 787-et és...kiírtam alá az ötöst.
+
+26
+00:03:40,000 --> 00:03:45,000
+És most egy hármast tovább viszek, 5*840+3 az...
+
+27
+00:03:47,000 --> 00:03:48,000
+43.
+
+28
+00:03:48,000 --> 00:03:52,000
+7*5 az 35+4 az 39.
+
+29
+00:03:54,000 --> 00:04:01,000
+És 787*5-nek az eredménye...3935.
+
+30
+00:04:04,000 --> 00:04:07,000
+4*5 az 35.
+
+31
+00:04:07,000 --> 00:04:09,000
+80*5 az 400.
+
+32
+00:04:10,000 --> 00:04:14,000
+És 700*5 az 3500, tehát...
+
+33
+00:04:15,000 --> 00:04:18,000
+Igen, ez...jó eredményt kaptam.
+
+34
+00:04:21,000 --> 00:04:25,000
+787*500 tehát az...
+
+35
+00:04:27,000 --> 00:04:36,000
+az 3935*100, tehát 393500.
+
+36
+00:04:41,000 --> 00:04:43,000
+Most 787*70.
+
+37
+00:04:45,000 --> 00:04:48,000
+Mivel hogy 577-el kell összesen megszoroznom.
+
+38
+00:04:53,000 --> 00:04:55,000
+Tehát először 7-el és utána még...
+
+39
+00:04:57,000 --> 00:04:59,000
+10-el az eredményt.
+
+40
+00:05:00,000 --> 00:05:06,000
+7*7 az 49, megmaradt a 4.
+
+41
+00:05:06,000 --> 00:05:13,000
+7*8 az 56+4 az 60, tehát 0-át írok le és megmaradt a 6.
+
+42
+00:05:13,000 --> 00:05:19,000
+7*7 az 49 és ehhez 6-ot hozzáadok, az 55.
+
+43
+00:05:20,000 --> 00:05:26,000
+Tehát 787*7 az 5509.
+
+44
+00:05:27,000 --> 00:05:31,000
+Ellenőrzöm az erdményt, 7*7 az 49.
+
+45
+00:05:32,000 --> 00:05:38,000
+7*80 az 560+40 az 600.
+
+46
+00:05:39,000 --> 00:05:46,000
+700*7 az 4900+600 az 5500.
+
+47
+00:05:50,000 --> 00:05:52,000
+Igen, 5509.
+
+48
+00:05:54,000 --> 00:05:55,000
+És...
+
+49
+00:05:55,000 --> 00:06:00,000
+És hogyha 70-el szorzom, akkor az 55090.
+
+50
+00:06:02,000 --> 00:06:04,000
+Illetve még 7-el meg kell szoroznom.
+
+51
+00:06:05,000 --> 00:06:08,000
+Illetve mégsem kell, mert egyszer már megvan az eredményem.
+
+52
+00:06:08,000 --> 00:06:10,000
+Tehát...
+
+53
+00:06:11,000 --> 00:06:27,000
+787*577 az egyenlő 393500+55090.
+
+54
+00:06:30,000 --> 00:06:32,000
++5509.
+
+55
+00:06:36,000 --> 00:06:38,000
+Most összeadom ezt a három számot.
+
+56
+00:06:39,000 --> 00:06:40,000
+9.
+
+57
+00:06:41,000 --> 00:06:45,000
+5+5 az 10, 0-át írok, megmaradt az 1.
+
+58
+00:06:46,000 --> 00:06:49,000
+13+1 az 14, 4-est írok le.
+
+59
+00:06:50,000 --> 00:06:53,000
+Ezt úgy jött ki, hogy 5+5+3+1.
+
+60
+00:06:53,000 --> 00:06:56,000
+4-est írok le és megmaradt az 1.
+
+61
+00:06:56,000 --> 00:07:00,000
+9+5 az 14 hozzáadok 1-et az 15.
+
+62
+00:07:00,000 --> 00:07:12,000
+Megmaradt az 1 és 3+1 az 4, tehát 787*577 az 454099.
+
+63
+00:07:17,000 --> 00:07:31,000
+Most ez alapján...érdemes lenne...a teljes számok...tehát a helyes írásbeli szorzást kikövetkeztetnem.
+
+64
+00:07:33,000 --> 00:07:39,000
+787*577.
+
+65
+00:07:52,000 --> 00:07:57,000
+Ez azt jelenti, hogy 7*7 az 49.
+
+66
+00:07:58,000 --> 00:08:00,000
+Leírok egy 9-est, megmaradt a 4.
+
+67
+00:08:00,000 --> 00:08:04,000
+7*8 az 56.
+
+68
+00:08:06,000 --> 00:08:11,000
+Megmaradt a 4, tehát 60, 0-át írok le és megmarad a 6.
+
+69
+00:08:11,000 --> 00:08:15,000
+7*5 az 35+6 az 41.
+
+70
+00:08:21,000 --> 00:08:30,000
+Újra egy 7-es, tehát...ugyan azt fogom leírni, csak egy helyiértékkel...eltolva.
+
+71
+00:08:35,000 --> 00:08:37,000
+Illetve 500-szor...
+
+72
+00:08:37,000 --> 00:08:40,000
+7*5 az 35.
+
+73
+00:08:40,000 --> 00:08:42,000
+Megmaradt a 3.
+
+74
+00:08:47,000 --> 00:08:50,000
+Igen, 5*8 az 40.
+
+75
+00:08:50,000 --> 00:08:54,000
+Ja, maradt a 3, ezért egy 3-ast írok le, megmaradt a 4.
+
+76
+00:08:54,000 --> 00:09:04,000
+7*5 az 35+4 az 39.
+
+77
+00:09:11,000 --> 00:09:12,000
+Viszont...
+
+78
+00:09:17,000 --> 00:09:21,000
+Úgy tűnik, hogy ebből nem a jó eredményt fogom megkapni.
+
+79
+00:09:24,000 --> 00:09:31,000
+Tehát...sajnos maradnom kell a...az előző megoldásnál.
+
+80
+00:09:31,000 --> 00:09:35,000
+Vagy...itt kitalálnom, hogy mi lehet a gond.
+
+81
+00:09:44,000 --> 00:09:46,000
+Újra próbálom ezt módszert, viszont...
+
+82
+00:09:51,000 --> 00:09:56,000
+Viszont most legelőször...az ötössel fogom végig szorozni.
+
+83
+00:10:00,000 --> 00:10:04,000
+Tehát 7*5 az 35, 5-ötöst írok le, megmaradt a 3.
+
+84
+00:10:05,000 --> 00:10:09,000
+5*8 az 40, 3-ast írok le, megmaradt a 4.
+
+85
+00:10:09,000 --> 00:10:15,000
+7*5 az 35 és a végén egy 39-est írok le.
+
+86
+00:10:17,000 --> 00:10:22,000
+Igen, tehát 787*5-nek megvan az eredménye.
+
+87
+00:10:34,000 --> 00:10:37,000
+Az 3935.
+
+88
+00:10:37,000 --> 00:10:40,000
+Ami megegyezik az előző számításommal.
+
+89
+00:10:45,000 --> 00:10:52,000
+Viszont a...most észrevettem, hogy 787*7-nél nem jó eredményt kaptam.
+
+90
+00:10:52,000 --> 00:10:59,000
+Mert 5509-et kellett volna és az előző megoldásomban 4109-et kaptam.
+
+91
+00:10:59,000 --> 00:11:05,000
+Tehát ezt ellenőrzöm, 7*7 az 49, 9-et írok le, megmaradt a 4.
+
+92
+00:11:05,000 --> 00:11:09,000
+7*8 az...56.
+
+93
+00:11:10,000 --> 00:11:13,000
+0-át írok le, megmaradt a 6.
+
+94
+00:11:13,000 --> 00:11:25,000
+7*7 az 49+6 az...55, tehát mégis jó volt az előző megoldásom.
+
+95
+00:11:25,000 --> 00:11:27,000
+Visszatérek oda.
+
+96
+00:11:32,000 --> 00:11:33,000
+Tehát...
+
+97
+00:11:42,000 --> 00:11:48,000
+Kiírom az előző módszeremet, csak most a helyes számokkal.
+
+98
+00:11:50,000 --> 00:11:57,000
+És most egymás alatt szerepel az 5509, 5509 és 3935.
+
+99
+00:11:57,000 --> 00:12:03,000
+És...illetve egy tizedes nagyságrendi eltolással.
+
+100
+00:12:03,000 --> 00:12:07,000
+Most összeadom ezt a három számot, 9 9 5+5 az...
+
+101
+00:12:08,000 --> 00:12:10,000
+10, 0-át írok le, megaradt az 1.
+
+102
+00:12:11,000 --> 00:12:15,000
+5+5+3 az 13+1 az 4, 1 megmaradt.
+
+103
+00:12:15,000 --> 00:12:20,000
+9+5 14+1 az 15, 5-öst írok le és megmaradt az 1 az 4.
+
+104
+00:12:21,000 --> 00:12:22,000
+Tehát...
+
+105
+00:12:23,000 --> 00:12:25,000
+ezt a módszert kell folytatnom.
+
+106
+00:12:28,000 --> 00:12:40,000
+Most ennek az eredményét fogom megszorozni, tehát 454099-et kell megszoroznom 232-vel.
+
+107
+00:12:42,000 --> 00:12:48,000
+Az azt jelenti, hogy először 2-vel szorzom meg a 9-et.
+
+108
+00:12:49,000 --> 00:12:51,000
+18, megmaradt az 1.
+
+109
+00:12:51,000 --> 00:12:59,000
+2*9 és még 18, mivel megmaradt az 1, ezért 19, 9-et írok le, megmaradt az 1.
+
+110
+00:12:59,000 --> 00:13:02,000
+2*0 az 0+1 az 1.
+
+111
+00:13:02,000 --> 00:13:04,000
+2*4 8.
+
+112
+00:13:04,000 --> 00:13:06,000
+2*5 az 10, megmaradt az 1.
+
+113
+00:13:06,000 --> 00:13:11,000
+2*4 8 és...9-est...írok le.
+
+114
+00:13:11,000 --> 00:13:15,000
+Mivel megmaradt az 1 az előző eredményből, a 2*5-ből.
+
+115
+00:13:16,000 --> 00:13:19,000
+Most 3-mal fogom megszorozni...
+
+116
+00:13:20,000 --> 00:13:23,000
+a 454099-et.
+
+117
+00:13:24,000 --> 00:13:26,000
+Tehát...
+
+118
+00:13:27,000 --> 00:13:29,000
+9*3 az 27.
+
+119
+00:13:30,000 --> 00:13:32,000
+7-est írok le, megmaradt a 2.
+
+120
+00:13:32,000 --> 00:13:38,000
+9*3 27+2, 9-est írok le, ismét megmaradt a 2.
+
+121
+00:13:39,000 --> 00:13:43,000
+3*0 az 0, de megmaradt a 2, ezért 2-est írok le.
+
+122
+00:13:44,000 --> 00:13:48,000
+3*4 12, 2-est írok le, megmaradt az 1.
+
+123
+00:13:48,000 --> 00:13:54,000
+3*5 az 15+1, 6-ost írok le, megmaradt az 1.
+
+124
+00:13:54,000 --> 00:14:00,000
+És 3*4 12, tehát egy 13-ast írok le.
+
+125
+00:14:02,000 --> 00:14:09,000
+És ismét 2-vel kell végigszoroznom, tehát leírom az első műveletnek...az eredményét.
+
+126
+00:14:13,000 --> 00:14:28,000
+Tehát 908198-at...csak a helyiértékeket eltolva...mivel itt már 200-al szorzok, nem 2-vel.
+
+127
+00:14:32,000 --> 00:14:35,000
+Most összeadom ezt a három részeredményt.
+
+128
+00:14:37,000 --> 00:14:41,000
+8, 9+7 az 16, 6-ost írok le, megmaradt az 1.
+
+129
+00:14:42,000 --> 00:14:50,000
+9+1 az 10+8 az 18+1, 9-est írok le, megmaradt az 1.
+
+130
+00:14:50,000 --> 00:14:59,000
+8+2 10, 19, viszont megmaradt az 1, 20, 0-át írok le és 2-t viszek át a következő helyiértékre.
+
+131
+00:15:00,000 --> 00:15:03,000
+2+1 az 3+2 az 5.
+
+132
+00:15:04,000 --> 00:15:13,000
+9+6 az 15+8 az 23, 3-ast írok le, megmaradt a 2.
+
+133
+00:15:14,000 --> 00:15:18,000
+3+0+2 az 5 és 9+1 az 10.
+
+134
+00:15:19,000 --> 00:15:22,000
+Tehát itt az eredményem...
+
+135
+00:15:23,000 --> 00:15:27,000
+105350968.
+
+136
+00:15:28,000 --> 00:15:35,000
+Ami azt jelenti, hogy megvan az első három tagnak a szorzata.
+
+137
+00:15:35,000 --> 00:15:39,000
+Most ezt kell megszoroznom 841-el.
+
+138
+00:15:43,000 --> 00:15:51,000
+Tehát 105350968*841.
+
+139
+00:15:54,000 --> 00:15:57,000
+Ismét kiírom egymás mellé a két számot.
+
+140
+00:15:57,000 --> 00:16:00,000
+És a 105 milliós értéket eláhúzom.
+
+141
+00:16:02,000 --> 00:16:07,000
+Megszorzom 1-el ezt az értéket, tehát egyszerűen csak lemásolom.
+
+142
+00:16:11,000 --> 00:16:13,000
+Most 4-el kell megszoroznom.
+
+143
+00:16:13,000 --> 00:16:16,000
+8*4 az 32.
+
+144
+00:16:17,000 --> 00:16:20,000
+2-est írok le, megaradt a 3.
+
+145
+00:16:20,000 --> 00:16:27,000
+6*4 az 24+3 az 7-est írok le, megmaradt a 2.
+
+146
+00:16:27,000 --> 00:16:39,000
+9*4 36+2, 8-ast írok le, megmaradt a 3.
+
+147
+00:16:39,000 --> 00:16:43,000
+4*0 az 0+3 az 3-ast írok le.
+
+148
+00:16:43,000 --> 00:16:48,000
+4*5 az 20, 0-át írok le, megmaradt a 2.
+
+149
+00:16:48,000 --> 00:16:56,000
+3*4 12+2 az 14, 1 megmaradt.
+
+150
+00:16:58,000 --> 00:17:06,000
+4*5 az 20+1 az 21, megmaradt a 2.
+
+151
+00:17:06,000 --> 00:17:11,000
+4*0 az 0+2 az 2 és 4*1 az 4.
+
+152
+00:17:13,000 --> 00:17:19,000
+És még 800-al meg kell szoroznom ezt a számot.
+
+153
+00:17:20,000 --> 00:17:23,000
+8*8 az 64.
+
+154
+00:17:25,000 --> 00:17:27,000
+Megmaradt a 6.
+
+155
+00:17:29,000 --> 00:17:39,000
+6*8 az 48+6 az 54, tehát 4-est írok le, megmaradt az 5.
+
+156
+00:17:42,000 --> 00:17:49,000
+Igen, 6*8 48+6 az 54, igen, tehát 4, megmaradt az 5.
+
+157
+00:17:49,000 --> 00:17:59,000
+9*8 72+5 az 77, 7-est írok le, megmaradt a 7.
+
+158
+00:17:59,000 --> 00:18:07,000
+8*0 az 8+7 az 15, 5-öst írok le, megmaradt az 1.
+
+159
+00:18:09,000 --> 00:18:16,000
+5*8 az 40+1 az 41, 1-est írok le, megmaradt a 4.
+
+160
+00:18:18,000 --> 00:18:34,000
+8*3 az 24+4 az 28, 8-at írok le, megmaradt a 2.
+
+161
+00:18:34,000 --> 00:18:39,000
+5*8 az 40+2, 2-est írok le, megmaradt a 4.
+
+162
+00:18:44,000 --> 00:19:08,000
+8+4, 2-est írok le...illetve...újraellenőrzöm, mert elvesztettem a sorrendet.
+
+163
+00:19:08,000 --> 00:19:12,000
+Tehát 8*8 az 64, 4-es az utolsó számjegy, megmaradt a 6.
+
+164
+00:19:12,000 --> 00:19:19,000
+6*8 48+6 az 54, 4-est írtam le, megmaradt az 5.
+
+165
+00:19:19,000 --> 00:19:29,000
+9*8 az 72+5 az 77, 7-est írtam le, megmaradt a 7.
+
+166
+00:19:31,000 --> 00:19:45,000
+8*0 az 0+7...tehát ezt itt elszámoltam.
+
+167
+00:19:46,000 --> 00:19:52,000
+8*8 64, 4, megmaradt a 6.
+
+168
+00:19:53,000 --> 00:19:58,000
+6*8 48+6 az 54, 5-öst írok le.
+
+169
+00:19:58,000 --> 00:20:07,000
+9*8 az 72+7 az 77, 7-est írtam le, megmaradt a 7.
+
+170
+00:20:07,000 --> 00:20:17,000
+8*0 az 0, viszont itt...5-öt adtam hozzá az előző eredményben, ezt 7-esre javítom.
+
+171
+00:20:23,000 --> 00:20:24,000
+Igen.
+
+172
+00:20:26,000 --> 00:20:34,000
+Ezt inkább át is húzom és ezt a 8-al való szorzást újra...újra megoldom.
+
+173
+00:20:34,000 --> 00:20:40,000
+Tehát 8*8 az 64, 4-est írok le, megmaradt 6.
+
+174
+00:20:40,000 --> 00:20:48,000
+6*8 az 48+6 az 54, 4, megmaradt az 5.
+
+175
+00:20:48,000 --> 00:20:53,000
+9*8 72+5 77, 7-es maradt meg.
+
+176
+00:20:53,000 --> 00:20:57,000
+8*0 az 0, 7-est írok le.
+
+177
+00:20:57,000 --> 00:21:06,000
+5*8 az 40, 0-át írok le és megmaradt a 4.
+
+178
+00:21:06,000 --> 00:21:12,000
+8*3 az 24+4 az 8. 2-es maradt meg.
+
+179
+00:21:12,000 --> 00:21:19,000
+5*8 az 40+2 42, 2-est írok le, megmaradt a 4.
+
+180
+00:21:20,000 --> 00:21:26,000
+8*0 az 0, 4-est írok le és még egy 8-as...
+
+181
+00:21:26,000 --> 00:21:29,000
+az eredmény végére 8*1-ből.
+
+182
+00:21:30,000 --> 00:21:32,000
+Most összeadom ezt a három számot.
+
+183
+00:21:32,000 --> 00:21:40,000
+8, 6+2 az is 8, 9+7+4...az 20.
+
+184
+00:21:40,000 --> 00:21:42,000
+Leírom a 0-át, megaradt a 2.
+
+185
+00:21:43,000 --> 00:21:48,000
+8+4+2 az 14, 4-est írok le, megmaradt az 1.
+
+186
+00:21:49,000 --> 00:21:56,000
+5+3+7 az 15+1 az 16, 6-ost írok le, megmaradt az 1.
+
+187
+00:21:56,000 --> 00:22:01,000
+7+3+1 az 11, 1-est írok le, megmaradt az 1.
+
+188
+00:22:01,000 --> 00:22:07,000
+1+4 9+1 az 10, tehát 0-át írok le, megmaradt az 1.
+
+189
+00:22:07,000 --> 00:22:13,000
+8+1+1 az ismét 10, tehát 0-át írok le, megmaradt az 1.
+
+190
+00:22:13,000 --> 00:22:20,000
+2+2+1 az 5+1 az 6, 6-ost írok le, nem maradt meg semmi. 
+
+191
+00:22:20,000 --> 00:22:23,000
+4+4 az 8 és ismét 8.
+
+192
+00:22:25,000 --> 00:22:28,000
+Tehát mostmár az első négy tagomnak a szorzata van meg.
+
+193
+00:22:33,000 --> 00:22:38,000
+És ezt kell most 484-el megszoroznom.
+
+194
+00:22:50,000 --> 00:23:03,000
+Most kiírom a számot, ezt a 88600164088-at.
+
+195
+00:23:03,000 --> 00:23:07,000
+És ezt kell 484-el megszoroznom.
+
+196
+00:23:15,000 --> 00:23:19,000
+Igen, tehát...4-essel kezdem.
+
+197
+00:23:19,000 --> 00:23:27,000
+8*4 az 32, 2-est írok le, megmaradt a 3.
+
+198
+00:23:27,000 --> 00:23:37,000
+8*4 32, de megmaradt a 3, ezért hozzá kell adnom, 35 lesz az eredmény, 3 maradt meg.
+
+199
+00:23:37,000 --> 00:23:41,000
+4*0 az 0+3, 3-ast írok le.
+
+200
+00:23:41,000 --> 00:23:45,000
+4*4 16, 6-ost írok le, megmaradt az 1.
+
+201
+00:23:45,000 --> 00:23:52,000
+6*4 24+1 az 25, 5-öst írok le, megmaradt a 2.
+
+202
+00:23:52,000 --> 00:23:55,000
+4*1 az 4+2 az 6.
+
+203
+00:23:56,000 --> 00:24:00,000
+Itt van kettő darab 0-ás szorzatom.
+
+204
+00:24:00,000 --> 00:24:05,000
+6*4 az 24, 4-est írok le, megmaradt a 2.
+
+205
+00:24:06,000 --> 00:24:12,000
+8*4 az 32+2, 4-et írok le, megmaradt a 3.
+
+206
+00:24:12,000 --> 00:24:18,000
+8*4 32+3, 35-öt írok a végére.
+
+207
+00:24:19,000 --> 00:24:22,000
+Most 8-al kell megszoroznom ezt a számot.
+
+208
+00:24:23,000 --> 00:24:30,000
+8*8 az 64, 4-est írok le, megmaradt a 6.
+
+209
+00:24:30,000 --> 00:24:38,000
+8*8 az 64, de megmaradt a 6, ezért 70, 0-át írok le, megmaradt a 7.
+
+210
+00:24:38,000 --> 00:24:42,000
+8*0 az 0+7, 7-est írok le.
+
+211
+00:24:42,000 --> 00:24:48,000
+8*4 az 32, 2-est írok le, megmaradt a 3.
+
+212
+00:24:49,600 --> 00:24:57,000
+6*8 az 48+3 az 51, 1-est írok le, megaradt az 5.
+
+213
+00:24:58,000 --> 00:25:05,000
+8+5 az 13, 3-ast írok le, megmaradt az 1.
+
+214
+00:25:05,000 --> 00:25:09,000
+0+1 az 1, 8*0 0.
+
+215
+00:25:09,000 --> 00:25:13,000
+6*8 az 48, megmaradt a 4.
+
+216
+00:25:14,000 --> 00:25:19,000
+8*8 az 64+4, 8-ast írok le, megmaradt a 6.
+
+217
+00:25:19,000 --> 00:25:24,000
+És ismét 64+6 az 70.
+
+218
+00:25:25,000 --> 00:25:38,000
+És most ismét 4-el kell szoroznom, tehát ugyan az lesz az eredmény, mint a legelső műveletnél, csak...most egy 100-as helyiértékkel eltolva.
+
+219
+00:25:38,000 --> 00:25:42,000
+Tehát elég csak lemásolnom a legelső sort.
+
+220
+00:25:52,000 --> 00:25:55,000
+És most összeadom ezeket a számokat.
+
+221
+00:25:56,000 --> 00:25:59,000
+2, 5+4 az 9.
+
+222
+00:25:59,000 --> 00:26:01,000
+2+3 az 5,
+
+223
+00:26:01,000 --> 00:26:09,000
+6+7+5 az 18.
+
+224
+00:26:12,000 --> 00:26:14,000
+Megmaradt az 1.
+
+225
+00:26:15,000 --> 00:26:19,000
+5+2+3 az 10+1 az 11, megmaradt az 1.
+
+226
+00:26:19,000 --> 00:26:26,000
+6+1+6 az 13, megmaradt az 1.
+
+227
+00:26:27,000 --> 00:26:32,000
+Ezért 4-est írok le és ismét tovább viszek egy 1-est a következő helyiértékre.
+
+228
+00:26:32,000 --> 00:26:35,000
+5+3 az 8+1 az 9.
+
+229
+00:26:35,000 --> 00:26:38,000
+6+1 az 7.
+
+230
+00:26:38,000 --> 00:26:39,000
+4.
+
+231
+00:26:39,000 --> 00:26:44,000
+4+8 az 12, 2-est írok le, tovább viszek egy 1-est.
+
+232
+00:26:44,000 --> 00:26:56,000
+5+8+4 az 17+1 az 18, 8-ast írok le, tovább viszek egy 1-est.
+
+233
+00:26:56,000 --> 00:26:59,000
+3+4 az 7+1 az 8.
+
+234
+00:26:59,000 --> 00:27:07,000
+7+5 az 12, 2-est írok le, megmaradt az 1 és 3-hoz hozzáadom a maradék 1-et.
+
+235
+00:27:09,000 --> 00:27:13,000
+Így megkaptam az újabb szorzásnak az eredményét.
+
+236
+00:27:15,000 --> 00:27:21,000
+És most...ezt kell megszoroznom 10-el, tehát csak egy 0-át írok a végére.
+
+237
+00:27:22,000 --> 00:27:26,000
+És ezt kell kivonnom 495-ből.
+
+238
+00:27:35,000 --> 00:27:43,000
+Tulajdonképpen ennek...ugyan az lesz az eredménye, mintha ebből vonnék ki 495-öt.
+
+239
+00:27:45,000 --> 00:27:48,000
+És ezt megszoroznám -1-el.
+
+240
+00:27:52,000 --> 00:27:57,000
+Igen, tehát például 495-500 az -5.
+
+241
+00:27:58,000 --> 00:28:03,000
+Ami ugyan az, mint 500-495*-1.
+
+242
+00:28:03,000 --> 00:28:08,000
+Tehát most ebből a számból kell kivonnom 495-öt.
+
+243
+00:28:11,000 --> 00:28:14,000
+Most leírom az eddigi eredményembet.
+
+244
+00:28:24,000 --> 00:28:29,000
+2 8 8 2 4 4 7 9.
+
+245
+00:28:33,000 --> 00:28:41,000
+8 2 4 4 7 9 4 1 8 5 9.
+
+246
+00:28:44,000 --> 00:28:46,000
+9 2 0.
+
+247
+00:28:46,000 --> 00:28:50,000
+Tehát ellenőrzöm, hogy jól másoltam-e le.
+
+248
+00:28:52,000 --> 00:28:58,000
+4 2 8 8 2 4 4 7 9 4.
+
+249
+00:28:58,000 --> 00:29:04,000
+1 8 5 9 2 és egy 0 a végére, mivel még 10-el is meg kellett sozorznom.
+
+250
+00:29:05,000 --> 00:29:08,000
+És ebből kivonok 495-öt.
+
+251
+00:29:12,000 --> 00:29:19,000
+Tulajdonképpen ugyan az, mint hogyha 920-ból vonnám ki, mert ez a vége a számomnak.
+
+252
+00:29:20,000 --> 00:29:23,000
+920-495.
+
+253
+00:29:27,000 --> 00:29:30,000
+10-5 az 5.
+
+254
+00:29:31,000 --> 00:29:33,000
+Leírom az 5-öst.
+
+255
+00:29:43,000 --> 00:29:47,000
+Viszont itt nem tudom, hogy mit kell kezdenem a maradékkal.
+
+256
+00:29:50,000 --> 00:29:58,000
+Hát hogyha abból a példából indulok ki, hogy 500-495, akkor itt is 10-ből kivonok 5-öt.
+
+257
+00:30:00,000 --> 00:30:08,000
+Az 5 lesz és...tehát tudom, hogy 5-nek kell lennie a végeredménynek, ezért...
+
+258
+00:30:09,000 --> 00:30:16,000
+azt gondolom, hogy a kivonandó tételhez kell hozzáadnom a 10-es helyiértékre.
+
+259
+00:30:16,000 --> 00:30:20,000
+Tehát...hogy 10-ből 10-et vonjak ki az 0.
+
+260
+00:30:21,000 --> 00:30:28,000
+És...mivel 10-ből vontam ki, ezért tovább viszem és 5-ből 5 az 0.
+
+261
+00:30:28,000 --> 00:30:34,000
+Tehát 2-10 az 8.
+
+262
+00:30:41,000 --> 00:30:42,000
+-8.
+
+263
+00:30:46,000 --> 00:30:48,000
+Béla: Lejárt az idő.
+
+264
+00:30:48,000 --> 00:30:50,000
+Jó.
+

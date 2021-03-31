@@ -1,0 +1,1012 @@
+﻿1
+00:00:02,000 --> 00:00:08,000
+Béla: Ebben a szekcióban egy hibát kellene kijavítani az Eclipse környezetben.
+
+2
+00:00:09,000 --> 00:00:14,000
+Béla: Megkaptad a lapon a hibáról a leírást. Az input illetve az eszközök.
+
+3
+00:00:19,000 --> 00:00:21,000
+Béla: 90 perc áll rendelkezésre.
+
+4
+00:00:21,000 --> 00:00:24,000
+Béla: Ha előbb végeztél, akkor szólj.
+
+5
+00:00:24,000 --> 00:00:27,000
+Okés, akkor ellopon innen ezt az egeret.
+
+6
+00:00:28,000 --> 00:00:29,000
+Köszi.
+
+7
+00:00:32,000 --> 00:00:36,000
+Itt van a papíron a tesztosztálynak a neve, a teszteset.
+
+8
+00:00:39,000 --> 00:00:41,000
+Megnyitjuk mind a kettőt.
+
+9
+00:00:44,000 --> 00:00:46,000
+Már itt is van.
+
+10
+00:00:48,000 --> 00:00:50,000
+"FastDateFormatTest.java.bak".
+
+11
+00:00:50,000 --> 00:00:52,000
+"FastDateFormatTest.java".
+
+12
+00:00:54,000 --> 00:00:57,000
+Mindkettő ugyan abban a tesztesetben van.
+
+13
+00:00:57,000 --> 00:00:59,000
+"LocalDateInstance".
+
+14
+00:01:01,000 --> 00:01:03,000
+Megkeresem ezt a függvényt.
+
+15
+00:01:05,000 --> 00:01:07,000
+Ő lefuttatjuk inkább.
+
+16
+00:01:09,000 --> 00:01:09,000
+[futtat]
+
+17
+00:01:09,000 --> 00:01:11,000
+Ez a "Fault Localization".
+
+18
+00:01:17,000 --> 00:01:20,000
+Behúzzuk a Load scores-t teszterről.
+
+19
+00:01:21,000 --> 00:01:22,000
+Itt van.
+
+20
+00:01:22,000 --> 00:01:25,000
+[olvassa a leírást]
+
+21
+00:01:31,000 --> 00:01:35,000
+Használjuk ezt a [ásít] eszközt mellé, ezt az IFL-t.
+
+22
+00:01:54,000 --> 00:02:04,000
+Behúzzuk a Load scores-nál az asztalon lévő score.csv-t, ezzel adjuk meg a izét.
+
+23
+00:02:04,000 --> 00:02:06,000
+Be van húzva.
+
+24
+00:02:06,000 --> 00:02:09,000
+Az ordering list-et átállítjuk rajta.
+
+25
+00:02:11,000 --> 00:02:24,000
+Hogy a "Score" attribute-al...csökkenés sorrendbe csinálja a függvényeket.
+
+26
+00:02:43,000 --> 00:02:50,000
+[olvassa a leírást]
+
+27
+00:03:02,000 --> 00:03:04,000
+Ja, egyszer kéne klikkelni.
+
+28
+00:03:09,000 --> 00:03:10,000
+Királyság.
+
+29
+00:03:10,000 --> 00:03:12,000
+Átállította a "Score"-t.
+
+30
+00:03:12,000 --> 00:03:21,000
+Megtaláltuk [köhög] ez a függvény, hogy ez a test izét is ööö ezt adja a legnagyobb "Score"-nak: 0,7. 
+
+31
+00:03:22,000 --> 00:03:25,000
+Rákattintnuk, hogy meg találjuk ezt a...
+
+32
+00:03:30,000 --> 00:03:31,000
+Meg is nyitotta.
+
+33
+00:03:43,000 --> 00:03:48,000
+[ásít]
+
+34
+00:03:51,000 --> 00:03:52,000
+"getInstance" metódus.
+
+35
+00:03:55,000 --> 00:04:03,000
+[...] "getDateInstance" az "int style" alapján visszaad egy "return getDateInstance"-ot.
+
+36
+00:04:09,000 --> 00:04:13,000
+Itt van alatta, a "getDateInstance" meghívja a "style"-al és "locale"-al.
+
+37
+00:04:15,000 --> 00:04:19,000
+Az előző csak a "getDateInstance"-t hívja meg, "style,null,null".
+
+38
+00:04:19,000 --> 00:04:21,000
+Megnézzük ez a "getDateInstance" ez mit ad.
+
+39
+00:04:37,000 --> 00:04:44,000
+A "getDateInstance" az vár egy stílust..."timeZone"-t és egy "locale"-t.
+
+40
+00:04:44,000 --> 00:04:46,000
+Hogyha megnézzük.
+
+41
+00:04:47,000 --> 00:04:48,000
+"Object key = new Integer(style)".
+
+42
+00:04:51,000 --> 00:04:54,000
+Csinálunk egy kulcsot neki.
+
+43
+00:04:54,000 --> 00:05:01,000
+Ha a "timeZone != 0"-al, akkor visszaadnuk egy új, van egy új párunk, hogy kulcsba belerakjuk a "timeZone"-t.
+
+44
+00:05:01,000 --> 00:05:13,000
+Ha a "locale", a loka...hát ez a lokalizáció lesz valószínűleg, abba a kulcs...kulcsba belerakjuk a...egy...a kulcsot meg a lokalizációt.
+
+45
+00:05:14,000 --> 00:05:23,000
+Hogyha csinálunk egy "FastDateFormat format"-ot az a "cDateInstanceCache.get()"-ből kivesszük a "key"-t és hogyha...
+
+46
+00:05:23,000 --> 00:05:33,000
+Hogyha a "format == null", akkor...és a "locale" is nulla, akkor default lokált visszaadjuk.
+
+47
+00:05:34,000 --> 00:05:43,000
+Amúgy meg..."formatter"-be...megpróbáljuk a stílus és a lokalizáció alapján egy "formatter"-t visszahozni.
+
+48
+00:05:43,000 --> 00:06:00,000
+A "formatter"-el..."toPattern()"-t csinálunk a sztringbe és a "format"-ra "getInstance"...ból a "pattern,timeZone,locale"-t visszaadjuk és berakjuk ebbe a... "cDateInstanceCache.put(key,format)"-ot ad.
+
+49
+00:06:01,000 --> 00:06:03,000
+És a "No date pattern for locale".
+
+50
+00:06:03,000 --> 00:06:10,000
+Ehhez a lokalizációhoz nincsen dátum formátum, hogy erre azt dobunk, olyan hibát, hogyha nem sikerül rápakolni.
+
+51
+00:06:10,000 --> 00:06:12,000
+Visszamegyünk a tesztbe.
+
+52
+00:06:13,000 --> 00:06:20,000
+Itt...megnézzük, hogy melyikek használják ezt a...
+
+53
+00:06:24,000 --> 00:06:25,000
+"getInstance".
+
+54
+00:06:34,000 --> 00:06:36,000
+"test_changeDefault_Locale_DateInstance".
+
+55
+00:06:37,000 --> 00:06:39,000
+"DateTimeInstance" is van.
+
+56
+00:06:40,000 --> 00:06:42,000
+Oké, és megnézzük elsőnek a "DateInstance"-t.
+
+57
+00:06:45,000 --> 00:06:48,000
+Itt van egy olyanunk, hogy "FastDateFormat.FULL"-t adjuk vissza.
+
+58
+00:06:48,000 --> 00:06:50,000
+"GERMANY"-t.
+
+59
+00:06:53,000 --> 00:06:56,000
+Utána a "format2"-be is a..."FULL" van csak.
+
+60
+00:06:56,000 --> 00:06:59,000
+"Locale.setDefault(Locale.GERMANY)".
+
+61
+00:07:01,000 --> 00:07:04,000
+A "format3"-ra meg csak simán a "FULL"-t adjuk meg.
+
+62
+00:07:04,000 --> 00:07:54,000
+[olvassa a kódot]
+
+63
+00:07:54,000 --> 00:07:58,000
+[...] mutatjuk ezt a tesztesetet.
+
+64
+00:08:01,000 --> 00:08:03,000
+Kijelöljük ezt a függvényt.
+
+65
+00:08:03,000 --> 00:08:05,000
+És lefuttatjuk, mint junit teszt.
+
+66
+00:08:05,000 --> 00:08:06,000
+[futtat]
+És lefuttatjuk, mint junit teszt.
+
+67
+00:08:06,000 --> 00:08:10,000
+És megnézzük, hogy milyen hibát...hol dobhat hibát ez a teszteset.
+[futtat]
+
+68
+00:08:10,000 --> 00:08:11,000
+[futtat]
+
+69
+00:08:26,000 --> 00:08:30,000
+146.sorba dobott hibát.
+
+70
+00:08:30,000 --> 00:08:56,000
+[olvassa a kódot]
+
+71
+00:08:56,000 --> 00:09:01,000
+Ühüm. Annyi, hogy a "FastDateFormat"-nak nem adtunk meg...egy üres "locale"-t hoztunk vissza.
+
+72
+00:09:01,000 --> 00:09:04,000
+"format3"-nak a "getLocale()"-ját várta meg a "GERMANY"-t és itt meg...
+
+73
+00:09:10,000 --> 00:09:20,000
+Elsőnek Németországnak a lokalizációját adtuk meg, de a vissza...az elsőben az van meg és a másodikban az angolt adta vissza alapjáraton.
+
+74
+00:09:23,000 --> 00:09:31,000
+Szóval el kell mennünk a "FastDateFormat.getDateInstance" metódusba.
+
+75
+00:09:35,000 --> 00:09:40,000
+"getDateInstance" alapján "null"-t ad vissza.
+
+76
+00:09:41,000 --> 00:09:50,000
+"null" "locale"-el meg...default "locale"-t adja vissza. 
+
+77
+00:09:54,000 --> 00:09:59,000
+És a...ez ennyi.
+
+78
+00:09:59,000 --> 00:10:02,000
+A default az az "US".
+
+79
+00:10:02,000 --> 00:10:12,000
+[olvassa a kódot]
+
+80
+00:10:13,000 --> 00:10:19,000
+Ha "format2" is van meg "format3" is ugya[...] a "format"-ot csinálja meg.
+
+81
+00:10:19,000 --> 00:10:55,000
+[olvassa a kódot]
+
+82
+00:10:55,000 --> 00:10:56,000
+Ja, igen.
+
+83
+00:10:56,000 --> 00:10:59,000
+A "locale"-nek beállítottuk "setDefault"-nak a "US"-t.
+
+84
+00:11:01,000 --> 00:11:02,000
+Itt átadta.
+
+85
+00:11:11,000 --> 00:11:24,000
+Ja, az elsőben a "GERMANY" a "Locale.US", itt egynelő a "format2"-nek a "getLocale"[...] mert annak az és a harmadikba meg "GERMANY" a harmadiknak...a "getLocale" mert az egyenlő.
+
+86
+00:11:28,000 --> 00:11:31,000
+Okés és a 146.sorban dobott.
+
+87
+00:11:31,000 --> 00:11:40,000
+[olvassa a kódot]
+
+88
+00:11:40,000 --> 00:11:45,000
+Németországot várta, de Anglia...angolt [...] meg.
+
+89
+00:11:47,000 --> 00:11:48,000
+"format3.getLocale".
+
+90
+00:11:48,000 --> 00:11:50,000
+Az mit ad vissza?
+
+91
+00:11:54,000 --> 00:11:55,000
+"mLocale"-t.
+
+92
+00:11:58,000 --> 00:11:59,000
+Aha.
+
+93
+00:11:59,000 --> 00:12:08,000
+[olvassa a kódot]
+
+94
+00:12:08,000 --> 00:12:10,000
+"Locale.setDefault" az...
+
+95
+00:12:10,000 --> 00:12:25,000
+[olvassa a kódot]
+
+96
+00:12:25,000 --> 00:12:43,000
+[összefüggéstelenül olvassa a kódot]
+
+97
+00:12:43,000 --> 00:12:48,000
+Mindjárt lefuttatjuk ezt itt és debug-olunk a 146.sor előtt.
+
+98
+00:12:48,000 --> 00:12:50,000
+És akkor megnézzük, hogy a "format3"-ban mi van.
+
+99
+00:12:54,000 --> 00:12:55,000
+Junit tesztként lefuttatjuk és [...]val az értékben mi lesz benne.
+
+100
+00:12:55,000 --> 00:13:00,000
+[futtat]
+Junit tesztként lefuttatjuk és [...]val az értékben mi lesz benne.
+
+101
+00:13:00,000 --> 00:13:01,000
+[futtat]
+
+102
+00:13:01,000 --> 00:13:05,000
+Amúgy Anglia a lokális, az volt benne.
+[futtat]
+
+103
+00:13:05,000 --> 00:13:10,000
+[futtat]
+
+104
+00:13:30,000 --> 00:13:31,000
+Igen.
+
+105
+00:13:31,000 --> 00:13:33,000
+"realDefaultLocale".
+
+106
+00:13:37,000 --> 00:13:38,000
+Mindegy.
+
+107
+00:13:38,000 --> 00:13:42,000
+"format3"-nak...a "getLocale"-je az mi?
+
+108
+00:13:42,000 --> 00:13:44,000
+"mLocale".
+
+109
+00:13:44,000 --> 00:13:46,000
+"id=50".
+
+110
+00:13:46,000 --> 00:13:48,000
+[köhög]
+
+111
+00:13:57,000 --> 00:13:59,000
+"setDefault" az mit csinál?
+
+112
+00:13:59,000 --> 00:14:01,000
+Gondolom beállítja.
+
+113
+00:14:01,000 --> 00:14:38,000
+[összefüggéstelenül olvassa a kódot]
+
+114
+00:14:39,000 --> 00:14:43,000
+67 és itt meg a "format3"-nak a "mLocale"-je.
+
+115
+00:14:43,000 --> 00:14:56,000
+[olvassa a kódot]
+
+116
+00:14:56,000 --> 00:15:00,000
+"mLocale" az itt 50, ami Amerikának az értéke.
+
+117
+00:15:00,000 --> 00:15:02,000
+Jajaja.
+
+118
+00:15:03,000 --> 00:15:05,000
+Itt ez "format[...]" valamiért.
+
+119
+00:15:05,000 --> 00:15:17,000
+[összefüggéstelenül olvassa a kódot]
+
+120
+00:15:17,000 --> 00:15:35,000
+[olvassa a kódot]
+
+121
+00:15:35,000 --> 00:15:37,000
+Jaa, ez már tudom miért.
+
+122
+00:15:37,000 --> 00:15:39,000
+Azért, mert...várjunk.
+
+123
+00:15:44,000 --> 00:15:47,000
+A "FULL"-hoz már létezik egy "GERMANY".
+
+124
+00:15:47,000 --> 00:16:02,000
+[olvassa a kódot]
+
+125
+00:16:07,000 --> 00:16:09,000
+Most újra lefuttatjuk.
+
+126
+00:16:11,000 --> 00:16:20,000
+[futtat]
+
+127
+00:16:22,000 --> 00:16:24,000
+Ide belemegyünk.
+
+128
+00:16:28,000 --> 00:16:29,000
+Így ni.
+
+129
+00:16:29,000 --> 00:16:31,000
+És a "locale"-ünk az nem lesz üres.
+
+130
+00:16:36,000 --> 00:16:38,000
+"locale" az nem üres.
+
+131
+00:16:42,000 --> 00:16:44,000
+Menjünk lejebb.
+
+132
+00:16:50,000 --> 00:16:51,000
+Cool.
+
+133
+00:17:05,000 --> 00:17:07,000
+Ühüm. Lejebb megyünk.
+
+134
+00:17:15,000 --> 00:17:16,000
+Cool.
+
+135
+00:17:19,000 --> 00:17:20,000
+Ühüm.
+
+136
+00:17:20,000 --> 00:17:27,000
+[olvassa a kódot]
+
+137
+00:17:27,000 --> 00:17:31,000
+Itt maga a "locale" az nem üres.
+
+138
+00:17:31,000 --> 00:17:41,000
+[olvassa a kódot]
+
+139
+00:17:41,000 --> 00:17:43,000
+És azért nem ad...
+
+140
+00:17:43,000 --> 00:18:14,000
+[olvassa a kódot]
+
+141
+00:18:14,000 --> 00:18:17,000
+Ja. És akkor az előtte lévő "locale"-t adja vissza.
+
+142
+00:18:27,000 --> 00:18:29,000
+Úgy itt.
+
+143
+00:18:29,000 --> 00:18:32,000
+Lefuttatjuk újra.
+
+144
+00:18:41,000 --> 00:18:43,000
+Junit teszt.
+[futtat]
+
+145
+00:18:43,000 --> 00:18:51,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+146
+00:18:51,000 --> 00:19:45,000
+[összefüggéstelenül olvassa a kódot]
+
+147
+00:19:45,000 --> 00:19:49,000
+Szóval itt átállítottam "GERMANY"-ra már a lokalizációt.
+
+148
+00:19:49,000 --> 00:20:20,000
+[olvassa a kódot]
+
+149
+00:20:20,000 --> 00:20:21,000
+Igen.
+
+150
+00:20:21,000 --> 00:20:23,000
+"return format".
+
+151
+00:20:23,000 --> 00:20:35,000
+A "format3"-ba a "mLocale" az 69.
+
+152
+00:20:37,000 --> 00:20:39,000
+Ami az USA.
+
+153
+00:20:43,000 --> 00:20:49,000
+Mert már benne van ezzel a...a "FULL"-nak a "locale"-ja.
+
+154
+00:20:58,000 --> 00:20:59,000
+Ühüm.
+
+155
+00:21:05,000 --> 00:21:06,000
+Ühüm.
+
+156
+00:21:06,000 --> 00:21:08,000
+Visszajövünk ide.
+
+157
+00:21:14,000 --> 00:21:16,000
+Elindítjuk újra.
+
+158
+00:21:16,000 --> 00:21:18,000
+Itt van a hiba.
+
+159
+00:21:18,000 --> 00:21:23,000
+Németországot várt, de a "getLocate" az izét adott vissza neki.
+
+160
+00:21:23,000 --> 00:21:46,000
+[olvassa a kódot]
+
+161
+00:21:47,000 --> 00:21:49,000
+Ühüm. Itt kéne [...]
+
+162
+00:21:49,000 --> 00:22:05,000
+[olvassa a kódot]
+
+163
+00:22:05,000 --> 00:22:10,000
+Lefuttatjuk újra az izét junit teszttel.
+
+164
+00:22:10,000 --> 00:22:18,000
+[futtat]
+
+165
+00:22:18,000 --> 00:22:19,000
+Okés.
+
+166
+00:22:19,000 --> 00:22:24,000
+A "locale" az...44-es.
+
+167
+00:22:30,000 --> 00:22:32,000
+Miért 44-es?
+
+168
+00:22:32,000 --> 00:22:35,000
+Itt az USA az...ja az USA az 44-es.
+
+169
+00:22:35,000 --> 00:22:54,000
+[olvassa a kódot]
+
+170
+00:22:54,000 --> 00:22:57,000
+Ja mert a "FULL"-ból kiveszem.
+
+171
+00:22:57,000 --> 00:22:59,000
+Jaa.
+
+172
+00:23:00,000 --> 00:23:01,000
+Ühüm.
+
+173
+00:23:03,000 --> 00:23:08,000
+Hogy itt van a "FULL" és ki próbáljuk venni.
+
+174
+00:23:24,000 --> 00:23:25,000
+Ühüm.
+
+175
+00:23:41,000 --> 00:24:00,000
+A nullásra meghívjuk, nulla a stílusa, abból csinálunk egy nulla...ezzel a stílussal...aha...ez a stílus...sal be lett rakva ez a lokalizáció és létezik ez a lokalizáció és hogy ezért nem azt, nem a default-ot adja vissza, hanem a létezőt.
+
+176
+00:24:08,000 --> 00:24:09,000
+Ühüm.
+
+177
+00:24:19,000 --> 00:24:23,000
+[ásít]
+
+178
+00:24:26,000 --> 00:24:29,000
+[olvassa a leírást]
+
+179
+00:24:29,000 --> 00:24:50,000
+[olvassa a kódot]
+
+180
+00:24:50,000 --> 00:24:54,000
+Van egy ilyen "FULL"-al már le van mentve és a "FULL"-ból kikéri.
+
+181
+00:24:56,000 --> 00:24:57,000
+Ja.
+
+182
+00:24:59,000 --> 00:25:01,000
+Kulcs alapján már le van mentve.
+
+183
+00:25:08,000 --> 00:25:09,000
+Várjunk.
+
+184
+00:25:09,000 --> 00:25:11,000
+Menjünk lejebb.
+
+185
+00:25:51,000 --> 00:25:53,000
+ÉS hogyha ide írok egy "null"-t.
+
+186
+00:25:53,000 --> 00:26:16,000
+[olvassa a kódot]
+
+187
+00:26:16,000 --> 00:26:17,000
+Ja.
+
+188
+00:26:22,000 --> 00:26:23,000
+Ühüm.
+
+189
+00:26:23,000 --> 00:26:26,000
+Most azt pórbáljuk meg, hogy [...] a "locale"-be.
+
+190
+00:26:27,000 --> 00:26:28,000
+Itt lesz valami.
+
+191
+00:26:31,000 --> 00:26:55,000
+Szóval az a probléma, hogy...elsőnek [...] adjuk a "locale"-be a "FULL"-t, "FULL"-nak "GERMANY" az izéja, után a "format2"-be "FULL"-ba...ott beállítja a..."format" "GERMANY", utána beállítja, hogy üresen adod át, akkor..."setDefault"-ra az US-re, utána átállítottam a "GERMANY"-t és a "GERMANY" is itt az izére állítja.
+
+192
+00:26:55,000 --> 00:26:58,000
+A "GERMANY"-t átállítja defaul-ra.
+
+193
+00:26:58,000 --> 00:27:15,000
+És a "format3"-nak a...az...ezen kívül mi van még?
+
+194
+00:27:15,000 --> 00:27:35,000
+[olvassa a kódot]
+
+195
+00:27:40,000 --> 00:27:41,000
+Ja.
+
+196
+00:27:41,000 --> 00:27:50,000
+Itt a "FULL"-ra már be van állítva egyszer a...az előző default-nak...
+
+197
+00:27:50,000 --> 00:27:52,000
+Újraindítjuk.
+
+198
+00:27:54,000 --> 00:27:56,000
+Na igen, itt vagyunk.
+
+199
+00:27:56,000 --> 00:27:58,000
+A "mLocale" az 93.
+
+200
+00:28:05,000 --> 00:28:06,000
+65.
+
+201
+00:28:06,000 --> 00:28:08,000
+"format3"...áh.
+
+202
+00:28:08,000 --> 00:28:10,000
+Még egyszer újraindítjuk.
+
+203
+00:28:18,000 --> 00:28:25,000
+Igen, "format1" az..."format1"-ben a..."mLocale" az 65.
+
+204
+00:28:25,000 --> 00:28:27,000
+"format2"-ben az "mLocale" az is.
+
+205
+00:28:33,000 --> 00:28:34,000
+Annak default lett.
+
+206
+00:28:34,000 --> 00:28:36,000
+A default-ot átállítjuk.
+
+207
+00:28:36,000 --> 00:28:38,000
+Átállítottuk.
+
+208
+00:28:39,000 --> 00:28:43,000
+És most belemegyünk a...okés.
+
+209
+00:28:46,000 --> 00:28:47,000
+ITt vagyunk.
+
+210
+00:28:47,000 --> 00:28:49,000
+A "format"-ot kikérjük.
+
+211
+00:28:50,000 --> 00:28:59,000
+A "format" az...nem egyenlő [...].
+
+212
+00:29:23,000 --> 00:29:26,000
+Mert ilyennel már létezik egy üres izé.
+
+213
+00:29:30,000 --> 00:29:32,000
+És a default-ot állította be.
+
+214
+00:29:32,000 --> 00:29:50,000
+[olvassa a kódot]
+
+215
+00:29:50,000 --> 00:29:55,000
+Ja mert hogy a "format"-ra már le van mentve egy és akkor ennyi.
+
+216
+00:29:55,000 --> 00:30:16,000
+[olvassa a kódot]
+
+217
+00:30:48,000 --> 00:31:19,000
+[olvassa a kódot]
+
+218
+00:32:00,000 --> 00:33:04,000
+[olvassa a kódot]
+
+219
+00:33:04,000 --> 00:33:05,000
+Ühüm.
+
+220
+00:33:08,000 --> 00:33:09,000
+Lefuttatjuk.
+
+221
+00:33:18,000 --> 00:33:22,000
+Itt kell állítani valamit, a "locale == null"-on.
+
+222
+00:33:53,000 --> 00:33:54,000
+Így.
+
+223
+00:34:14,000 --> 00:34:16,000
+A tesztre megyünk és lefuttatjuk.
+
+224
+00:34:21,000 --> 00:34:27,000
+[futtat]
+
+225
+00:34:28,000 --> 00:34:29,000
+Sikeres.
+
+226
+00:34:29,000 --> 00:34:31,000
+Nagyon jó.
+
+227
+00:34:31,000 --> 00:34:38,000
+Annyit csináltunk, hogy megtaláltuk a végén, és hogyha az a "locale" üres, akkor átállítjuk a default-ra már az elején és utána csináljuk a többi dolgot.
+
+228
+00:34:38,000 --> 00:34:40,000
+Királyság.
+
+229
+00:34:41,000 --> 00:34:44,000
+"DateTimeInstance"-ba is elmegyünk ugyan így.
+
+230
+00:34:44,000 --> 00:34:46,000
+Lefuttatjuk.
+
+231
+00:34:49,000 --> 00:34:53,000
+Lejebb megyünk, itt vannak a "DateTimeInstance", nagyon hasonlít a másikhoz.
+
+232
+00:34:53,000 --> 00:34:56,000
+Lefuttatjuk itt is a junit tesztet.
+
+233
+00:34:58,000 --> 00:35:02,000
+[futtat]
+
+234
+00:35:03,000 --> 00:35:05,000
+Itt is hibát dobott.
+
+235
+00:35:31,000 --> 00:35:33,000
+Lefuttatjuk itt újra.
+
+236
+00:35:36,000 --> 00:35:43,000
+[futtat]
+
+237
+00:35:44,000 --> 00:35:45,000
+És hibátlanul le is futott.
+
+238
+00:35:45,000 --> 00:35:50,000
+Csak annyi volt, hogy be kell állítani a lokalizációt legelején.
+
+239
+00:35:50,000 --> 00:35:53,000
+Hogyha a lokalizáció üres, akkor default-ot átadjuk és kész.
+
+240
+00:35:53,000 --> 00:35:57,000
+És utána bele is raktuk kulccsal, minden teljesen tökéletesen működik.
+
+241
+00:35:57,000 --> 00:35:59,000
+Lefuttatom az egész konfigurációt.
+
+242
+00:36:00,000 --> 00:36:51,000
+[futtat]
+
+243
+00:36:51,000 --> 00:36:55,000
+Most futnak a tesztesetek, nézzük, hogy az összes jó-e vagy nem.
+[futtat]
+
+244
+00:36:55,000 --> 00:36:57,000
+De szerintem jó lett.
+[futtat]
+
+245
+00:36:57,000 --> 00:38:02,000
+[futtat]
+
+246
+00:38:05,000 --> 00:38:07,000
+Király, nem dobott hibát.
+
+247
+00:50:15,000 --> 00:50:16,000
+Kész vagyok.
+
+248
+00:50:16,000 --> 00:50:17,000
+Gergő: Kész vagy?
+
+249
+00:50:17,000 --> 00:50:18,000
+Persze.
+
+250
+00:50:19,000 --> 00:50:21,000
+Gergő: Jó régóta kész lehetsz ezzel.
+
+251
+00:50:21,000 --> 00:50:23,000
+Igen. [nevet]
+

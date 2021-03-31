@@ -1,0 +1,2227 @@
+﻿1
+00:00:01,000 --> 00:00:04,000
+Béla: Akkor elindítottam a felvételt.
+
+2
+00:00:06,000 --> 00:00:11,000
+Bela: A feladat az gyakorlatilag ugyan az, mint a második alkalommal volt.
+
+3
+00:00:11,000 --> 00:00:22,000
+Béla: Látható egy leírás, arról a hibáról, ami előtted meg van nyitva az Eclipse projektben.
+
+4
+00:00:22,000 --> 00:00:26,000
+Béla: A feladat ugyan az, a hibát kijavítani.
+
+5
+00:00:27,000 --> 00:00:36,000
+Béla: Akkor sikeres a javítás, hogyha teszt[...] nélküli újrafuttatásakor az összes teszt az sikeres.
+
+6
+00:00:37,000 --> 00:00:45,000
+Béla: 90 perc áll rendelkezésedre, hogyha előbb kész vagy, akkor szólj és akkor elmondom a továbbiakat.
+
+7
+00:00:46,000 --> 00:00:48,000
+Megvárjalak vagy ki is mehetek, aztán szólok.
+
+8
+00:00:48,000 --> 00:00:58,000
+Béla: Kijöhetsz nyugodtan, tehát én itt kb. egy olyan 5-10 percenként járok. Ha kész vagy, akkor nyugodtan odajöhetsz és akkor szólj.
+
+9
+00:00:59,000 --> 00:01:08,000
+Béla: Jó. Ugyan úgy kérnénk, hogy bármi ami eszedbe jut, mit miért csinálsz, azt mondd ki hangosan.
+
+10
+00:01:08,000 --> 00:01:18,000
+Azon gondolkoztam az előző feladatnál, hogy vannak-e valamilyen alternatív...ilyen célok, hogy mittomén' refaktoroljak, vagy [nevet] nem tudom.
+
+11
+00:01:18,000 --> 00:01:32,000
+Béla: A kísérletből úgy...úgy majd lehet, hogy...jobban kiderül, hogy mit miért csinálunk. Egyenlőre még csak ennyi információ tudunk elmondani.
+
+12
+00:01:32,000 --> 00:01:35,000
+Ühüm, ühüm. Jó. Tehát akár még ez is benne lehet.
+
+13
+00:01:36,000 --> 00:01:37,000
+Ööö jó.
+
+14
+00:01:37,000 --> 00:01:41,000
+Béla. Jó. Akkor jó munkát, ha bármi kérdés van, akkor szólj.
+
+15
+00:01:43,000 --> 00:01:46,000
+Normális, hogy itt visszaállt egy ór...ja...oké.
+
+16
+00:01:46,000 --> 00:01:47,000
+Béla: Tessék?
+
+17
+00:01:47,000 --> 00:01:53,000
+Csak itt néztem, hogy angol kiosztású az idő, aztán...[nevet] egy óra alatt. Köszi!
+
+18
+00:01:54,000 --> 00:01:57,000
+[sóhajt]
+
+19
+00:01:57,000 --> 00:01:58,000
+Na nézzük.
+
+20
+00:01:59,000 --> 00:02:20,000
+[összefüggéstelenül olvassa a leírást]
+
+21
+00:02:24,000 --> 00:02:26,000
+Tehát run és "task-B".
+
+22
+00:02:26,000 --> 00:02:28,000
+Ezt most lefuttatjuk.
+[futtat]
+
+23
+00:02:28,000 --> 00:02:31,000
+[futtat]
+
+24
+00:02:31,000 --> 00:02:32,000
+[sóhajt]
+[futtat]
+
+25
+00:02:32,000 --> 00:02:34,000
+[futtat]
+
+26
+00:02:34,000 --> 00:02:36,000
+Közben meg is nézem...
+[futtat]
+
+27
+00:02:36,000 --> 00:03:22,000
+[futtat]
+
+28
+00:03:22,000 --> 00:03:39,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+29
+00:03:39,000 --> 00:03:41,000
+Number-ré konvertálás háát...
+[futtat]
+
+30
+00:03:41,000 --> 00:03:47,000
+[futtat]
+
+31
+00:03:47,000 --> 00:03:53,000
+Tehát a pontosságnak a...nehogy elhagyjuk a pontosságot.
+[futtat]
+
+32
+00:03:53,000 --> 00:03:56,000
+Bár az, hogy "instanceOf" az háát...
+[futtat]
+
+33
+00:03:56,000 --> 00:03:57,000
+Na mindegy.
+[futtat]
+
+34
+00:03:57,000 --> 00:04:05,000
+[futtat]
+
+35
+00:04:05,000 --> 00:04:06,000
+Jó.
+[futtat]
+
+36
+00:04:06,000 --> 00:04:10,000
+[futtat]
+
+37
+00:04:10,000 --> 00:04:12,000
+Akkor lehet ez is célja a feladatnak?
+[futtat]
+
+38
+00:04:12,000 --> 00:04:14,000
+Itt például ugyan azokat csinálja.
+[futtat]
+
+39
+00:04:14,000 --> 00:04:20,000
+[futtat]
+
+40
+00:04:20,000 --> 00:04:23,000
+[sóhajt]
+[futtat]
+
+41
+00:04:23,000 --> 00:04:30,000
+[futtat]
+
+42
+00:04:30,000 --> 00:04:38,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+43
+00:04:38,000 --> 00:04:41,000
+[futtat]
+
+44
+00:04:41,000 --> 00:04:46,000
+[olvassa a leírást]
+[futtat]
+
+45
+00:04:46,000 --> 00:04:47,000
+[futtat]
+
+46
+00:04:47,000 --> 00:04:55,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+47
+00:04:55,000 --> 00:05:05,000
+[futtat]
+
+48
+00:05:05,000 --> 00:05:06,000
+Uramatyám.
+[futtat]
+
+49
+00:05:06,000 --> 00:05:08,000
+Jó hosszú.
+[futtat]
+
+50
+00:05:08,000 --> 00:05:10,000
+Tele van "DMP"-s izékkel.
+[futtat]
+
+51
+00:05:10,000 --> 00:05:33,000
+[futtat]
+
+52
+00:05:54,000 --> 00:06:00,000
+Hát igen, ezek nem...[sóhajt] tartalmaz refarkoroló...
+
+53
+00:06:02,000 --> 00:06:03,000
+Ööö.
+
+54
+00:06:08,000 --> 00:06:09,000
+Igen.
+
+55
+00:06:11,000 --> 00:06:13,000
+Ez nem lesz double. Jó, miért nem lesz double?
+
+56
+00:06:13,000 --> 00:06:20,000
+[összefüggéstelenül olvassa a kódot]
+
+57
+00:06:20,000 --> 00:06:23,000
+Na ez már egy picit...picit nehezebb.
+
+58
+00:06:27,000 --> 00:06:31,000
+Azt mondja, hogy...már csak bontsuk már fel ezt.
+
+59
+00:07:39,000 --> 00:07:40,000
+Mi az a "pfxlen", úristen?
+
+60
+00:08:31,000 --> 00:08:32,000
+Húha.
+
+61
+00:08:34,000 --> 00:08:37,000
+Na ezt akkor osszuk fel kisebb egységekre.
+
+62
+00:08:37,000 --> 00:08:41,000
+Azt mondja, hogy van itt egy null check.
+
+63
+00:08:43,000 --> 00:08:44,000
+Nincs ilyen, hogy isNull?
+
+64
+00:08:48,000 --> 00:08:55,000
+[összefüggéstelenül olvassa a kódot]
+
+65
+00:09:23,000 --> 00:09:26,000
+Ez a "pfxlen" ez sehol nincsen használva máshol.
+
+66
+00:09:28,000 --> 00:09:54,000
+[összefüggéstelenül olvassa a kódot]
+
+67
+00:09:54,000 --> 00:09:56,000
+Hát, nem is kell.
+
+68
+00:09:56,000 --> 00:11:31,000
+[összefüggéstelenül olvassa a kódot]
+
+69
+00:11:31,000 --> 00:12:05,000
+[olvass a kódot]
+
+70
+00:12:05,000 --> 00:12:08,000
+[összefüggéstelenül olvassa a kódot]
+
+71
+00:12:08,000 --> 00:13:00,000
+[olvass a kódot]
+
+72
+00:13:38,000 --> 00:13:40,000
+[sóhajt]
+
+73
+00:16:49,000 --> 00:16:51,000
+Ó, basszus.
+
+74
+00:18:05,000 --> 00:18:08,000
+[futtat]
+
+75
+00:18:08,000 --> 00:18:18,000
+Most lefuttatom, hogy...kiszerveztem eddig egy olyan...metódust, ami megnézi, hogy hexadecimális számról van szó.
+[futtat]
+
+76
+00:18:18,000 --> 00:18:21,000
+Hogy kicsit egyértelműbb legyen a metódus eleje.
+[futtat]
+
+77
+00:18:21,000 --> 00:18:29,000
+Illetve utána egy if-be nyílván, hogyha hexadecimális a szám, akkor...akkor azzal térjen is vissza.
+[futtat]
+
+78
+00:18:29,000 --> 00:18:32,000
+Bár ezt akár egybe is lehetett volna.
+[futtat]
+
+79
+00:18:32,000 --> 00:18:36,000
+Csak akkor ebből a metódusból vissza kéne tárni, szóval...igazából mégse.
+[futtat]
+
+80
+00:18:36,000 --> 00:18:39,000
+Mert ugye itt még tovább a metódus.
+[futtat]
+
+81
+00:18:39,000 --> 00:18:40,000
+Ööö.
+[futtat]
+
+82
+00:18:40,000 --> 00:18:41,000
+[futtat]
+
+83
+00:18:41,000 --> 00:18:44,000
+Igen, És ööö.
+[futtat]
+
+84
+00:18:44,000 --> 00:18:49,000
+Most kiszerveztem...a...megnéztem "indexOf"-al, hogy van-e.
+[futtat]
+
+85
+00:18:49,000 --> 00:19:03,000
+"indexOf"-ot fölhasználva, hogy ha nagyobb, mint 0, akkor visszatérek a hexadecimális számmal, most meg futtatok egy tesztet, hogy ez a két refaktorálás ez...megfolygatta-e a többi tesztet vagy minden teszten átmegy.
+[futtat]
+
+86
+00:19:03,000 --> 00:19:12,000
+Ugye elvileg ekvivalens átalakításokat végzek, szóval új funkciót nem adok hozzá, így ugyan azoknak a teszteknek működniük kell továbbra is.
+[futtat]
+
+87
+00:19:12,000 --> 00:19:13,000
+[futtat]
+
+88
+00:19:13,000 --> 00:19:16,000
+Jó, ha már meg vannak hívva.
+[futtat]
+
+89
+00:19:16,000 --> 00:19:21,000
+Most nézzük mik ezek a "lastChar", "mant", "dec", "exp".
+[futtat]
+
+90
+00:19:21,000 --> 00:19:34,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+91
+00:19:34,000 --> 00:19:35,000
+[futtat]
+
+92
+00:19:35,000 --> 00:19:41,000
+Ez mondjuk érdekes, hogy a...'e'-t meg a 'E'-t összeadja plusz egyet.
+[futtat]
+
+93
+00:19:41,000 --> 00:19:58,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+94
+00:19:58,000 --> 00:19:59,000
+Hm.
+[futtat]
+
+95
+00:19:59,000 --> 00:20:01,000
+Ezt nem is tudtam.
+[futtat]
+
+96
+00:20:01,000 --> 00:20:03,000
+[futtat]
+
+97
+00:20:03,000 --> 00:20:04,000
+Jó.
+[futtat]
+
+98
+00:20:04,000 --> 00:20:22,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+99
+00:20:22,000 --> 00:20:43,000
+[összefüggéstelenül olvassa a kódot]
+
+100
+00:20:43,000 --> 00:20:45,000
+Aha. Tehát hogy itt kettő részre bontja.
+
+101
+00:20:47,000 --> 00:20:51,000
+Tehát itt történik meg ez a...bontás. Igen.
+
+102
+00:20:53,000 --> 00:20:56,000
+Jó. Még mindig csak egy hibám van.
+
+103
+00:20:56,000 --> 00:21:00,000
+Méghozzá ugyan az, mint eddig is.
+
+104
+00:21:00,000 --> 00:21:04,000
+Tehát...átalakítások azok jók voltak.
+
+105
+00:21:04,000 --> 00:21:06,000
+Jó.
+
+106
+00:21:06,000 --> 00:21:12,000
+Na most jön az a...hahaa...szépség, hogy bontjuk a számot...
+
+107
+00:21:12,000 --> 00:21:23,000
+[összefüggéstelenül olvassa a kódot]
+
+108
+00:21:23,000 --> 00:21:25,000
+az egész meg a maradék részre.
+
+109
+00:21:30,000 --> 00:21:33,000
+Akkor igazából azt is ki lehet szervezni.
+
+110
+00:21:33,000 --> 00:21:35,000
+Hát most így ezt az egészet kitépem innen.
+
+111
+00:21:36,000 --> 00:21:39,000
+[sóhajt]
+
+112
+00:21:39,000 --> 00:21:46,000
+Igen. Itt majd izével csinálom most...bemeneti paraméterekkel.
+
+113
+00:22:16,000 --> 00:22:19,000
+Igen, ezeket majd szépen széttördelem.
+
+114
+00:22:19,000 --> 00:22:25,000
+Az a lényeg, hogy itt most lett egy ilyen, hogy...
+
+115
+00:22:29,000 --> 00:22:31,000
+Ja meg még a sztring is kéne.
+
+116
+00:22:43,000 --> 00:22:46,000
+És akkor itt szépen ez széttördeli nekem.
+
+117
+00:22:52,000 --> 00:22:55,000
+És akkor ez itt ki is lehet törölni.
+
+118
+00:22:58,000 --> 00:22:59,000
+Jó.
+
+119
+00:23:02,000 --> 00:23:03,000
+Nem.
+
+120
+00:23:03,000 --> 00:23:27,000
+[olvassa a kódot]
+
+121
+00:23:27,000 --> 00:23:30,000
+Hát akkor azok lehet, hogy kellenek még.
+
+122
+00:23:36,000 --> 00:23:39,000
+Mondjuk attól ezt még külön lehet szedni.
+
+123
+00:23:39,000 --> 00:24:35,000
+[összefüggéstelenül olvassa a kódot]
+
+124
+00:24:35,000 --> 00:24:39,000
+Ezt egy picit betöldelem...elég hosszú lett.
+
+125
+00:24:40,000 --> 00:24:43,000
+Mi legalábbis a cégnél ezt így szoktuk.
+
+126
+00:24:44,000 --> 00:24:46,000
+Ezek "final"-ok.
+
+127
+00:24:46,000 --> 00:24:47,000
+Ez is "final"
+
+128
+00:24:49,000 --> 00:24:51,000
+Ezeket nem módosítjuk.
+
+129
+00:25:08,000 --> 00:25:10,000
+Na itt ezzel mi bajod van?
+
+130
+00:25:24,000 --> 00:25:28,000
+Nem tudom miért kell ezt inicializálni, főleg így, hogyha "null"-ra is tudom inicializálni.
+
+131
+00:25:37,000 --> 00:25:39,000
+[futtat]
+
+132
+00:25:39,000 --> 00:25:45,000
+Így kicsit közelebb kerülök ahhoz, hogy hol van a konkrét hiba anélkül, hogy átnézném az egészet tüzetrsen.
+[futtat]
+
+133
+00:25:45,000 --> 00:25:47,000
+Bár így is át kell néznem, úgyhogy...
+[futtat]
+
+134
+00:25:47,000 --> 00:25:48,000
+[futtat]
+
+135
+00:25:48,000 --> 00:25:49,000
+"!Character.isDigit(lastChar)"
+[futtat]
+
+136
+00:25:49,000 --> 00:25:54,000
+[futtat]
+
+137
+00:25:54,000 --> 00:26:03,000
+Ja hogyha nem [...]ális és nem pont, akkor még akár "exp" is lehet.
+[futtat]
+
+138
+00:26:03,000 --> 00:26:07,000
+[futtat]
+
+139
+00:26:07,000 --> 00:26:09,000
+Úristen, ez micsoda?
+[futtat]
+
+140
+00:26:09,000 --> 00:26:10,000
+Na mit akar ez itt?
+[futtat]
+
+141
+00:26:10,000 --> 00:26:13,000
+[futtat]
+
+142
+00:26:13,000 --> 00:26:32,000
+Itt az biztos, hogy...a karakterek alapján...hogyha nem szám és nem pont...akkor megpróbálja 'l' 'f' vagy 'd'-t konvertálni.
+[futtat]
+
+143
+00:26:32,000 --> 00:26:42,000
+[futtat]
+
+144
+00:26:42,000 --> 00:26:45,000
+Uh azt nem írtam fel, hogy mikor kezdtem, de 55-kor kezdtem.
+[futtat]
+
+145
+00:26:45,000 --> 00:26:47,000
+[futtat]
+
+146
+00:26:47,000 --> 00:26:52,000
+Lehet gyorsabb lenne amúgy, hogyha megkeresném a hibát ko konkrétan, de...ez így izgalmasabb.
+[futtat]
+
+147
+00:26:52,000 --> 00:27:15,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+148
+00:27:15,000 --> 00:27:17,000
+Tehát van exposition...
+[futtat]
+
+149
+00:27:17,000 --> 00:27:27,000
+Ez az "expPos > -1" ez...ezt ki kéne emelni, mert nagyon sok helyen használjuk.
+[futtat]
+
+150
+00:27:27,000 --> 00:27:31,000
+[futtat]
+
+151
+00:27:31,000 --> 00:27:34,000
+Tehát...van, és nem a végén van.
+[futtat]
+
+152
+00:27:34,000 --> 00:27:45,000
+[futtat]
+
+153
+00:27:45,000 --> 00:27:46,000
+Van.
+[futtat]
+
+154
+00:27:46,000 --> 00:27:48,000
+[futtat]
+
+155
+00:27:48,000 --> 00:27:51,000
+Öm igen. Csak egy kicsit...erre is 90 perc van, ugye?
+[futtat]
+
+156
+00:27:51,000 --> 00:27:53,000
+Béla: Igen.
+[futtat]
+
+157
+00:27:53,000 --> 00:27:56,000
+[futtat]
+
+158
+00:27:56,000 --> 00:27:59,000
+Ne üljek már itt feleslegesen, kicsit refaktorolok és majd abból próbálom meg visszafejteni a hibát.
+[futtat]
+
+159
+00:27:59,000 --> 00:28:00,000
+[nevet]
+Ne üljek már itt feleslegesen, kicsit refaktorolok és majd abból próbálom meg visszafejteni a hibát.
+[futtat]
+
+160
+00:28:00,000 --> 00:28:01,000
+Ne üljek már itt feleslegesen, kicsit refaktorolok és majd abból próbálom meg visszafejteni a hibát.
+[futtat]
+
+161
+00:28:01,000 --> 00:28:05,000
+[futtat]
+
+162
+00:28:05,000 --> 00:28:07,000
+[összefüggéstelenül olvassa a kódot]
+[futtat]
+
+163
+00:28:07,000 --> 00:28:59,000
+[összefüggéstelenül olvassa a kódot]
+
+164
+00:28:59,000 --> 00:29:01,000
+Jól bebiztosították ezt azért.
+
+165
+00:30:17,000 --> 00:31:17,000
+[futtat]
+
+166
+00:32:01,000 --> 00:32:04,000
+Keressük meg a hibát, azt' akkor ha marad időm, azt kidöltöm.
+
+167
+00:32:06,000 --> 00:32:08,000
+Azt mondja, hogy...
+
+168
+00:32:08,000 --> 00:32:18,000
+3 meg 4 az 40, exposition plusz 38, tehát itt az van, hogy nem hexadecmiális a szám.
+
+169
+00:32:19,000 --> 00:32:30,000
+Ööö van exposition, van decimalis, decimális pozíció az három pontról a második meg még van plusz is.
+
+170
+00:32:30,000 --> 00:32:44,000
+Jó, nincs a végén izé..."Character.isDigit(lastChar)" de a "lastChar" az digit, úgyhogy ez...át is ugorhatjuk.
+
+171
+00:32:46,000 --> 00:32:50,000
+Exposition...azt is átírjuk.
+
+172
+00:32:56,000 --> 00:32:57,000
+Sőt ez is.
+
+173
+00:33:05,000 --> 00:33:06,000
+Igen.
+
+174
+00:33:10,000 --> 00:33:23,000
+Ez mit is csinál? Az expositont...az beállítja, úgy hogy a sztringnek az exposition plusz egy...
+
+175
+00:33:23,000 --> 00:33:26,000
+től...ja igen.
+
+176
+00:33:26,000 --> 00:33:30,000
+Tehát ide ez kell is nekünk, mert ugye itt van exposition...
+
+177
+00:33:32,000 --> 00:33:33,000
+plusz egy.
+
+178
+00:33:34,000 --> 00:33:36,000
+Ez hogy is van?
+
+179
+00:33:37,000 --> 00:33:38,000
+Ez a plusz.
+
+180
+00:33:40,000 --> 00:33:44,000
+"str.length()"-ig, tehét ez a 38 lesz az exposition, ugye?
+
+181
+00:34:11,000 --> 00:34:15,000
+Akkor igazából ezt ki is lehetne szervezni.
+
+182
+00:34:17,000 --> 00:34:19,000
+Mert ez is ugyan ezt csinálja ugye.
+
+183
+00:34:34,000 --> 00:34:36,000
+Itt is van valami.
+
+184
+00:34:38,000 --> 00:34:39,000
+Nem.
+
+185
+00:34:41,000 --> 00:34:42,000
+Aha.
+
+186
+00:34:42,000 --> 00:34:44,000
+Itt ugye még ezt nem vizsgálja. Jó.
+
+187
+00:36:11,000 --> 00:36:12,000
+Itt is van.
+
+188
+00:36:38,000 --> 00:36:41,000
+Jó, itt megkapjuk az "exp"-et, az 38.
+
+189
+00:36:49,000 --> 00:36:52,000
+[sóhajt]
+
+190
+00:37:34,000 --> 00:37:36,000
+Béla: Kicsit hangosabban tudnál majd beszélni?
+
+191
+00:37:36,000 --> 00:37:38,000
+Ja, persze.
+
+192
+00:37:41,000 --> 00:37:48,000
+Szóval itt akkor megvan a decimális pozíciónk, megvan a...decimális számunk...
+
+193
+00:37:50,000 --> 00:37:55,000
+Igen, az a muttudomén' sok, négy nulla stb. stb.
+
+194
+00:37:57,000 --> 00:37:58,000
+Ööö.
+
+195
+00:37:58,000 --> 00:38:05,000
+Megvan a...nominális (eszembe jutott) nominális számunk.
+
+196
+00:38:06,000 --> 00:38:07,000
+Ugye nominális vagy valami ilyesmi.
+
+197
+00:38:07,000 --> 00:38:12,000
+Aaa az aaa három.
+
+198
+00:38:16,000 --> 00:38:27,000
+A digits decimálisnak a hossza...az a decimális számoknak a hossza.
+
+199
+00:38:32,000 --> 00:38:33,000
+Ezt mire használjuk?
+
+200
+00:38:34,000 --> 00:38:35,000
+Semmire, mi?
+
+201
+00:38:36,000 --> 00:38:38,000
+Akkor minek van itt kiszámolva?
+
+202
+00:38:39,000 --> 00:38:40,000
+Hehe.
+
+203
+00:38:53,000 --> 00:38:57,000
+Miért van ez itt kiszámolva, ez a "numDecimals" hogyha nem használjuk sehol? Na mindegy.
+
+204
+00:38:57,000 --> 00:39:15,000
+Tehát hogyha van decimális pozíció, igen, akkor megvan a decimális szám meg a "mant". Hogyha nincsen decimális pozíció...és van "expPos" és az nagyobb, mint a "str.length()", akkor nem jó.
+
+205
+00:39:15,000 --> 00:39:18,000
+De mondjuk olyan is lehet ha igen. Tehát hogy nincsen decimális része.
+
+206
+00:39:19,000 --> 00:39:24,000
+És akkor "mant" és akkor a decimal az pedig..."null".
+
+207
+00:39:26,000 --> 00:39:27,000
+Hű.
+
+208
+00:39:29,000 --> 00:39:34,000
+Ja igen, mert itt nincsen decimális pozíció...
+
+209
+00:39:36,000 --> 00:39:37,000
+csak expozíció.
+
+210
+00:39:38,000 --> 00:39:46,000
+Jó, tehát elvileg megvan a három, négy, a...ugye ezek alapján itt fentebb meg a...a három.
+
+211
+00:39:48,000 --> 00:39:50,000
+Hát itt ebben most nem vagyok biztos.
+
+212
+00:39:50,000 --> 00:39:55,000
+Ja, várjál már, itt expozíció...az 'e' vagy az 'E' plusz egy.
+
+213
+00:39:59,000 --> 00:40:07,000
+Igen, és akkor itt a plusz és akkor úgy...az "exp"-hoz még hozzáadunk itt plusz egyet.
+
+214
+00:40:07,000 --> 00:40:08,000
+Jó.
+
+215
+00:40:08,000 --> 00:40:18,000
+Tehát ez ugye "isDigit", de hogyha nem "isDigit", tehát az skip-eljük megvan az "exp" a "dec"-ünk az nem nulla, az "exp" az nem null.
+
+216
+00:40:18,000 --> 00:40:20,000
+Tehát itt megyünk tovább.
+
+217
+00:40:20,000 --> 00:40:28,000
+"allZeros" "isAllZeros" tehát a "mant", ami az első rész, az mind nulla? Nem.
+
+218
+00:40:28,000 --> 00:40:32,000
+"isAllZeros" az "exp". Nem.
+
+219
+00:40:33,000 --> 00:40:37,000
+Ööö akkor ugye "float"...
+
+220
+00:40:41,000 --> 00:40:43,000
+De megpróbálja "float"-tá konvertálni.
+
+221
+00:40:47,000 --> 00:40:52,000
+És hogyha nem megy, akkor megpróbálja "double"-lé konvertálni.
+
+222
+00:40:52,000 --> 00:40:54,000
+És mi a pontos hiba amúgy?
+
+223
+00:40:54,000 --> 00:40:57,000
+Hopp, itt már kettő "failed", nagyon jó.
+
+224
+00:40:58,000 --> 00:41:00,000
+Akkor valamit nem jól csináltam.
+
+225
+00:41:07,000 --> 00:41:09,000
+Nem jól szerveztem ki.
+
+226
+00:41:41,000 --> 00:41:47,000
+Hát igen, van amikor nem jobb, hogyha...szét van törve ez az egész.
+
+227
+00:41:47,000 --> 00:41:49,000
+Nézzük így.
+
+228
+00:41:49,000 --> 00:41:50,000
+[futtat]
+
+229
+00:41:50,000 --> 00:41:54,000
+Le is jár az egy órám és akkor még van fél óra.
+[futtat]
+
+230
+00:41:54,000 --> 00:42:01,000
+Na, háthogyha ez így jó lesz, akkor...hát az biztos, hogy a hiba valahol itt lesz.
+[futtat]
+
+231
+00:42:01,000 --> 00:42:06,000
+[futtat]
+
+232
+00:42:06,000 --> 00:42:09,000
+Rossz, hogy így ennyire nem lehet széttörni ezeket.
+[futtat]
+
+233
+00:42:09,000 --> 00:42:12,000
+[futtat]
+
+234
+00:42:12,000 --> 00:42:14,000
+Itt a "HexadecimalValue"-t keressük.
+[futtat]
+
+235
+00:42:14,000 --> 00:42:16,000
+[futtat]
+
+236
+00:42:16,000 --> 00:42:32,000
+Itt keressük azt, hogy objektumorientáltabban lehetne és akkor ugye akkor a "mant" "expPos"-t külön ki lehetne emelgeti, meg megkerestetni az objektumon belül, tehát ez egy nagyon nagyon katyvasz, elég hosszú.
+[futtat]
+
+237
+00:42:32,000 --> 00:42:36,000
+[futtat]
+
+238
+00:42:36,000 --> 00:42:44,000
+Na mindegy, ez egy elég hosszú...metódus.
+[futtat]
+
+239
+00:42:44,000 --> 00:42:46,000
+Szóval...
+[futtat]
+
+240
+00:42:46,000 --> 00:42:48,000
+[futtat]
+
+241
+00:42:48,000 --> 00:42:52,000
+Most igazából e fő feladat az a hibajavítás lenne.
+[futtat]
+
+242
+00:42:52,000 --> 00:42:59,000
+De most hogyha, most vagy debug-olok egyet...igen azt is lehet.
+[futtat]
+
+243
+00:42:59,000 --> 00:43:01,000
+És akkor ide teszek egy breakpoint-ot.
+[futtat]
+
+244
+00:43:01,000 --> 00:43:02,000
+[futtat]
+
+245
+00:43:02,000 --> 00:43:04,000
+Csak azt nem tudom mikorra fut le.
+[futtat]
+
+246
+00:43:04,000 --> 00:43:09,000
+Vagy...kisziszózom, mert elvileg idáig el kell hogy jusson.
+[futtat]
+
+247
+00:43:09,000 --> 00:43:11,000
+[futtat]
+
+248
+00:43:11,000 --> 00:43:20,000
+De igazából...a hibában is meg lehetne nézni, mert ugye itt "instanceOf" van, tehát ennek double-nek kéne lennie,
+[futtat]
+
+249
+00:43:20,000 --> 00:43:24,000
+De mikor lesz double, nézzük csak.
+[futtat]
+
+250
+00:43:24,000 --> 00:43:28,000
+Akkor lesz double, hogyha...ugye itt ezen nem megy át.
+[futtat]
+
+251
+00:43:28,000 --> 00:43:29,000
+[futtat]
+
+252
+00:43:29,000 --> 00:43:45,000
+Itt van itt egy "createDouble" mert hogy vagy van 'd' a végén, vagy itt float-tá sikerül konvertálni, ezért nincsen 'd' a végén.
+[futtat]
+
+253
+00:43:45,000 --> 00:43:46,000
+[futtat]
+
+254
+00:43:46,000 --> 00:44:01,000
+A "createFloat" az azt csinálja, hogy "Float.valueOf"...hogyan tudja a float [összefüggéstelenül olvassa a kódot] "FloatigDecimal" mit csinál ezzel?
+[futtat]
+
+255
+00:44:01,000 --> 00:44:03,000
+Pfúha.
+[futtat]
+
+256
+00:44:03,000 --> 00:44:05,000
+Jól belemegy.
+[futtat]
+
+257
+00:44:05,000 --> 00:44:12,000
+[futtat]
+
+258
+00:44:12,000 --> 00:44:14,000
+Akkor nem ez.
+[futtat]
+
+259
+00:44:14,000 --> 00:44:16,000
+A hiba.
+[futtat]
+
+260
+00:44:16,000 --> 00:44:24,000
+[futtat]
+
+261
+00:44:34,000 --> 00:44:35,000
+Ez micsoda?
+
+262
+00:44:39,000 --> 00:44:40,000
+Úristen.
+
+263
+00:44:40,000 --> 00:44:46,000
+[összefüggéstelenül olvassa a kódot]
+
+264
+00:44:46,000 --> 00:44:50,000
+[sóhajt]
+
+265
+00:44:52,000 --> 00:44:55,000
+Na, még mindig hibás? A franc egye meg.
+
+266
+00:44:55,000 --> 00:44:57,000
+Akkor visszaállítjuk az egészet.
+
+267
+00:45:12,000 --> 00:45:14,000
+Pedig milyen szépen elkezdtem kiszervezgetni.
+
+268
+00:45:22,000 --> 00:45:23,000
+Na jó, ez maradhat.
+
+269
+00:45:30,000 --> 00:45:32,000
+Ez még biztos jó volt.
+
+270
+00:45:41,000 --> 00:45:44,000
+[futtat]
+
+271
+00:45:49,000 --> 00:45:51,000
+Ezt itt is jelöli, hogy nem is van használva.
+
+272
+00:45:51,000 --> 00:45:55,000
+Úgyhogy ezen fölösleges volt fönnakadnom.
+
+273
+00:46:00,000 --> 00:46:02,000
+De most már legalább megértettem a működését.
+
+274
+00:46:02,000 --> 00:46:09,000
+Tehát első körben megnézi, hogy hexadecimális-e a szám, hogyha igen, akkor aszerint konvertálja.
+
+275
+00:46:11,000 --> 00:46:26,000
+Ööö hogyha pedig...igen...ha pedig ugye nem hexadecimális a szám, akkor szétbontja [sóhajt] decimális meg nominális részre.
+
+276
+00:46:26,000 --> 00:46:29,000
+Ugye decimális az eleje, nominális a pont utáni rész.
+
+277
+00:46:29,000 --> 00:46:34,000
+Megkeresi az 'e' betűnek a pozícióját.
+
+278
+00:46:34,000 --> 00:46:36,000
+Nem tudom mi a pontos neve.
+
+279
+00:46:36,000 --> 00:46:39,000
+Ahhoz hozzádva egyet, mert ugye ott van egy plusz.
+
+280
+00:46:39,000 --> 00:46:49,000
+És akkor az után jön igazából a kitevő, most nem tudom hogy hívják angolul, de kitevő rész.
+
+281
+00:46:49,000 --> 00:46:51,000
+És akkor hogyha van decimális pozíció...
+
+282
+00:46:53,000 --> 00:47:04,000
+akkor ugye megnézi mi a decimális rész, az ugye a decimális pont és az exponenciális kitevő, ez 'e' betű közötti rész.
+
+283
+00:47:05,000 --> 00:47:09,000
+Hogyha nincsen...'e' betű, akkor csak a végéig.
+
+284
+00:47:09,000 --> 00:47:15,000
+A...nominális rész az pedig a...asszem így hívják, na mindegy.
+
+285
+00:47:15,000 --> 00:47:18,000
+Tehát az eleje az pedig a nullától a decimális pozícióig.
+
+286
+00:47:19,000 --> 00:47:31,000
+Igen, hogyha viszont...decimális pont nincs, akkor meg hát egyértelmű, hogy a nullától az exponenciális pozícióig vagy a végéig az az a szám.
+
+287
+00:47:31,000 --> 00:47:55,000
+Jó, aztán még megnézni, hogyha van a végén...tehát ha a vége az nem szám vagy nem pont, akkor megpróbálja...az 'l' vagy 'f' vagy 'd' szerint a megfelelő...en megjelölt...típusba konvertálni.
+
+288
+00:47:56,000 --> 00:48:04,000
+Ha pedig nincs, jelen esetben nincs, akkor ugye megkeresi a kitevőt, azt kiszámolja, vagyis hogy elmenti.
+
+289
+00:48:04,000 --> 00:48:06,000
+Igen.
+
+290
+00:48:06,000 --> 00:48:15,000
+Megnézi, hogyha a decimális rész "null" vagy az exponenciális rész "null", akkor integer vagy long lesz. 
+
+291
+00:48:15,000 --> 00:48:17,000
+Igen.
+
+292
+00:48:17,000 --> 00:48:19,000
+Vagy big integer még esetleg, hogyha nagyon nagy számról van szó.
+
+293
+00:48:19,000 --> 00:48:21,000
+Igen.
+
+294
+00:48:21,000 --> 00:48:36,000
+Illetve, hogyha vannak benne..."AllZeros"...ja a nominális rész és az "exp" a kitevő rész az...az mind nulla...azt is még megnézi.
+
+295
+00:48:40,000 --> 00:48:42,000
+És...most mivel van a baj?
+
+296
+00:48:48,000 --> 00:48:51,000
+Tehát igazából idáig el kell, hogy jusson.
+
+297
+00:48:51,000 --> 00:48:53,000
+Most jön az, hogy akkor ráindítok egy dubog-ot.
+
+298
+00:48:53,000 --> 00:48:55,000
+Hátha ez így meg.
+[futtat]
+
+299
+00:48:55,000 --> 00:48:57,000
+[futtat]
+
+300
+00:48:57,000 --> 00:49:11,000
+Tehát hogyha az összes nulla, igen, megpróbálja float-tá konvertálni, mert ugye ott tartottunk, hogy van decimális rész, van nominális rész, van exponenciális rész, azok sikeresen elvileg fel kellett hogy szedje.
+[futtat]
+
+301
+00:49:11,000 --> 00:49:13,000
+[futtat]
+
+302
+00:49:13,000 --> 00:49:15,000
+Bár nem tudom, hogy arra vannak e tesztek.
+[futtat]
+
+303
+00:49:15,000 --> 00:49:16,000
+Mondjuk azt meg lehetne nézni.
+[futtat]
+
+304
+00:49:16,000 --> 00:49:32,000
+[futtat]
+
+305
+00:49:32,000 --> 00:49:34,000
+Jó hát ezek nem azok.
+[futtat]
+
+306
+00:49:34,000 --> 00:49:39,000
+[futtat]
+
+307
+00:49:39,000 --> 00:49:45,000
+Jó, itt megpróbálja float-tá konvertálni és valószínűleg ez lesz a baj, hogy ezt meg is tudja csinálni.
+[futtat]
+
+308
+00:49:45,000 --> 00:49:46,000
+[futtat]
+
+309
+00:49:46,000 --> 00:49:50,000
+Megnézi, hogy a float értékként végtelen-e.
+[futtat]
+
+310
+00:49:50,000 --> 00:49:53,000
+[futtat]
+
+311
+00:49:53,000 --> 00:49:58,000
+Vagy a float értékként ugye túlcsordult-e.
+[futtat]
+
+312
+00:49:58,000 --> 00:50:00,000
+Ez a nulla pont nulla.
+[futtat]
+
+313
+00:50:00,000 --> 00:50:03,000
+[futtat]
+
+314
+00:50:03,000 --> 00:50:06,000
+Ez valami kitüntetett érték lehet a float-nál.
+[futtat]
+
+315
+00:50:06,000 --> 00:50:08,000
+"0.0F"
+[futtat]
+
+316
+00:50:08,000 --> 00:50:25,000
+És a float érték "0.0" de a...nominális és az exponenciális nem...tartalmaz nullákat, akkor ez nem jó érték.
+[futtat]
+
+317
+00:50:25,000 --> 00:50:32,000
+És hogy vagy végtelen, ezt negálva...úristen ezt hogy a francba?
+[futtat]
+
+318
+00:50:32,000 --> 00:50:36,000
+[futtat]
+
+319
+00:50:36,000 --> 00:50:40,000
+Igen, vagy még ez lehet, hogy double és ha sikerül konvertálni...
+[futtat]
+
+320
+00:50:40,000 --> 00:50:47,000
+[futtat]
+
+321
+00:50:47,000 --> 00:50:49,000
+És igazából big decimális lesz.
+[futtat]
+
+322
+00:50:49,000 --> 00:50:51,000
+Itt van a hiba.
+[futtat]
+
+323
+00:50:51,000 --> 00:50:53,000
+Ezen a részen.
+[futtat]
+
+324
+00:50:53,000 --> 00:51:11,000
+[futtat]
+
+325
+00:51:11,000 --> 00:51:12,000
+Ez lenne a hiba?
+[futtat]
+
+326
+00:51:12,000 --> 00:51:15,000
+[futtat]
+
+327
+00:51:15,000 --> 00:51:19,000
+Itt nem az exponciálist kéne nézni, hanem a decimálist.
+[futtat]
+
+328
+00:51:19,000 --> 00:51:21,000
+[futtat]
+
+329
+00:51:21,000 --> 00:51:24,000
+Mert számot nulladik kitevőre téve nullát kapunk.
+[futtat]
+
+330
+00:51:24,000 --> 00:51:28,000
+[futtat]
+
+331
+00:51:28,000 --> 00:51:30,000
+Vagy...a nulla egész...
+[futtat]
+
+332
+00:51:30,000 --> 00:51:41,000
+[futtat]
+
+333
+00:51:41,000 --> 00:51:43,000
+Hogyha itt "AllZeros"...
+[futtat]
+
+334
+00:51:43,000 --> 00:52:20,000
+[futtat]
+
+335
+00:52:20,000 --> 00:52:22,000
+Elnyithattam volna csak ezt az egyet önmagában.
+[futtat]
+
+336
+00:52:22,000 --> 00:52:26,000
+[futtat]
+
+337
+00:52:26,000 --> 00:52:28,000
+Ez így jó hosszú.
+[futtat]
+
+338
+00:52:28,000 --> 00:52:37,000
+[futtat]
+
+339
+00:52:37,000 --> 00:52:38,000
+Jó, hát itt lesz a hiba ezen a részen.
+[futtat]
+
+340
+00:52:38,000 --> 00:52:39,000
+Jó, hát itt lesz a hiba ezen a részen.
+
+341
+00:52:41,000 --> 00:52:42,000
+A franc essen beléd.
+
+342
+00:52:59,000 --> 00:53:04,000
+Itt is vagyunk, tehát a...úristen, várjál, mert ez nem az a szám.
+
+343
+00:53:05,000 --> 00:53:06,000
+Ja, ez még az előző.
+
+344
+00:53:34,000 --> 00:53:35,000
+Most jó helyen vagyok?
+
+345
+00:53:35,000 --> 00:53:40,000
+Nem még mindig nem, mert ide raktam és ide kellett volna.
+
+346
+00:53:40,000 --> 00:53:42,000
+Igen.
+
+347
+00:53:56,000 --> 00:54:12,000
+És és most vagyunk itt, hogy amit mondtam is, hogy a...az utolsó karakter az 8, a nominális az 3, a decimális az jó, expinenciális az "+38"...mondjuk az fontos, igen fontos.
+
+348
+00:54:13,000 --> 00:54:16,000
+Decimális pozíció az 1, az exponenciális az 10.
+
+349
+00:54:18,000 --> 00:54:32,000
+Most vagy az van, hogy...ha tovább ugrálunk akkor floatként ez a szám...ez 3,4...38.
+
+350
+00:54:33,000 --> 00:54:36,000
+[sóhajt]
+
+351
+00:54:44,000 --> 00:54:46,000
+Ott elmaradt egy szám.
+
+352
+00:54:53,000 --> 00:54:55,000
+Ott elmaradt egy 4-es.
+
+353
+00:54:55,000 --> 00:54:57,000
+Pontosságból vesztett.
+
+354
+00:55:02,000 --> 00:55:03,000
+Hát igen.
+
+355
+00:55:05,000 --> 00:55:06,000
+Nézzük csak.
+
+356
+00:55:20,000 --> 00:55:22,000
+Tehát hogy nem végtelen.
+
+357
+00:56:00,000 --> 00:56:01,000
+Várjál.
+
+358
+00:56:12,000 --> 00:56:15,000
+Tehát ennek itt double-nek kéne lennie
+
+359
+00:56:27,000 --> 00:56:32,000
+Hát itt az "AllZeros" lesz majd az izé...kulcs, vagy pedig a...
+
+360
+00:56:48,000 --> 00:56:50,000
+Ja nem. Várjál várjál várjál.
+
+361
+00:57:03,000 --> 00:57:04,000
+Na igen.
+
+362
+00:57:05,000 --> 00:57:07,000
+Itt ki van számolva, hogy 8...
+
+363
+00:57:08,000 --> 00:57:17,000
+És megnézzük, Java-ban a float-nak a...decimális hossza...
+
+364
+00:57:18,000 --> 00:57:19,000
+az mennyi.
+
+365
+00:57:23,000 --> 00:57:24,000
+Meg is van.
+
+366
+00:57:26,000 --> 00:57:27,000
+Na.
+
+367
+00:57:27,000 --> 00:57:29,000
+Nyílj meg böngésző!
+
+368
+00:57:29,000 --> 00:57:35,000
+Mert egyébként az van, hogy itt vesztünk egy pontosságot.
+
+369
+00:57:36,000 --> 00:57:45,000
+És izé...hát most nem tudom, hogy ide rakjak bele...
+
+370
+00:57:53,000 --> 00:57:56,000
+Hát lehet ide is belerakni.
+
+371
+00:57:56,000 --> 00:57:59,000
+Az "allZreos" az kell.
+
+372
+00:57:59,000 --> 00:58:01,000
+Úgy hogy akkor...
+
+373
+00:58:35,000 --> 00:58:38,000
+Sőt ide még rakhatnánk egy olyan is, hogy...
+
+374
+00:59:53,000 --> 00:59:54,000
+15.
+
+375
+01:00:05,000 --> 01:00:13,000
+Ezt jó lenne valahogy úgy beállítani, hogy megából a...
+
+376
+01:00:26,000 --> 01:00:31,000
+Ezt valahogy jó lenne kiszámoltatni, nem csak úgy odaírni, hogy...8.
+
+377
+01:00:31,000 --> 01:00:35,000
+Vagyis, hogy nem 8 bocsánat, hanem 7.
+
+378
+01:00:42,000 --> 01:00:45,000
+Hátha van valamilyen izé...
+
+379
+01:00:49,000 --> 01:00:51,000
+Ó, van ilyen!
+
+380
+01:01:14,000 --> 01:01:21,000
+Most keresek valami olyan Java 7-be mondjuk, nem tudom, hogy van-e korábbiban.
+
+381
+01:01:21,000 --> 01:01:24,000
+Ja, 1.0-tól van ez a float.
+
+382
+01:01:26,000 --> 01:01:40,000
+De majd mindjárt visszább keresek, csak azt akarom megnézni, hogy van-e valami olyan, amiből nem csak odaírom, hogy 7 és akkor az lesz a max precision-je a float-nak, hanem valahogy dinamikussát tenni.
+
+383
+01:01:40,000 --> 01:01:54,000
+Mert ezt nyílván majd a jövőben, főleg a 64-bitnél lehet, hogy...bár mondjuk nem tudom, hogy pont ez a gép 64-bites és a Java 64-bites van-e rajta, de az a lényeg, hogy még ott is lehet a 32 64 bit között különbség.
+
+384
+01:01:54,000 --> 01:01:57,000
+Nem tudom pontosan [...] van.
+
+385
+01:01:57,000 --> 01:01:59,000
+Ez 15.
+
+386
+01:02:18,000 --> 01:02:20,000
+Hm hm hmm.
+
+387
+01:02:20,000 --> 01:02:22,000
+Azt mondja, hogy...
+
+388
+01:02:42,000 --> 01:02:44,000
+Még dolgozok.
+
+389
+01:02:45,000 --> 01:02:47,000
+Már rájöttem a hibára.
+
+390
+01:02:48,000 --> 01:02:49,000
+Béla: Tessék?
+
+391
+01:02:49,000 --> 01:02:51,000
+Már rájöttem a hibára, de még dolgozok.
+
+392
+01:02:51,000 --> 01:02:53,000
+Béla: Oké.
+
+393
+01:03:08,000 --> 01:03:13,000
+Szóval most azt keressük meg, mert ugye itt lehetne egy olyan szép kis izé javítás.
+
+394
+01:03:23,000 --> 01:03:25,000
+Hogy ez 7.
+
+395
+01:03:30,000 --> 01:03:33,000
+A másik meg 15, asszem azt olvastam.
+
+396
+01:03:45,000 --> 01:03:48,000
+Mondjuk ez most nem volt feladat, de már beleraktam ezt is.
+
+397
+01:03:48,000 --> 01:03:53,000
+Tehát hogyha így elvileg lefuttatom, vagy hát csak ezt az egy tesztet.
+
+398
+01:03:57,000 --> 01:04:02,000
+Akkor ez most pipa kéne hogy legyen, mert ugye már megvan az izé...
+
+399
+01:04:02,000 --> 01:04:09,000
+És akkor most jön a szépítés, vagy hát kellene, hogy jöjjön a szépítés.
+
+400
+01:04:46,000 --> 01:04:54,000
+Itt azt írja, hogy a...float-nak a single precision az 32 bit.
+
+401
+01:04:54,000 --> 01:04:56,000
+A double-nek meg 64 bit.
+
+402
+01:04:56,000 --> 01:04:58,000
+Az IEEE 754 szerint.
+
+403
+01:05:05,000 --> 01:05:20,000
+Ami azt jelenti, hogy...hogy ugye a 32 bit...az kettő az ötödiken, ugye?
+
+404
+01:05:22,000 --> 01:05:23,000
+Nem.
+
+405
+01:05:27,000 --> 01:05:28,000
+Hogy is van?
+
+406
+01:05:29,000 --> 01:05:30,000
+Azt mondja, hogy...
+
+407
+01:05:30,000 --> 01:05:37,000
+1,2,4,8,16,32. Az hatodikon.
+
+408
+01:05:44,000 --> 01:05:45,000
+Na itt a pontosság.
+
+409
+01:05:45,000 --> 01:05:47,000
+Meg is van.
+
+410
+01:06:03,000 --> 01:06:04,000
+Ez érdekes.
+
+411
+01:06:10,000 --> 01:06:12,000
+Na, most egyik se lett jó?
+
+412
+01:06:15,000 --> 01:06:16,000
+Hm.
+
+413
+01:06:30,000 --> 01:06:32,000
+Aha, most valami máshol elromlott.
+
+414
+01:06:32,000 --> 01:06:34,000
+De az nem baj.
+
+415
+01:06:49,000 --> 01:06:50,000
+Aha.
+
+416
+01:06:50,000 --> 01:06:52,000
+Nagyon jó.
+
+417
+01:06:52,000 --> 01:06:54,000
+Tehát akkor itt az annyira ne menjek előre.
+
+418
+01:07:02,000 --> 01:07:04,000
+Tehát itt van egy "createNumber".
+
+419
+01:07:09,000 --> 01:07:14,000
+Igen, a "Double.MAX_VALUE"-t nem tudta bekonvertálni.
+
+420
+01:07:25,000 --> 01:07:27,000
+Igen, hát ez akkor mennyi?
+
+421
+01:07:27,000 --> 01:07:29,000
+16 lesz?
+
+422
+01:07:29,000 --> 01:07:31,000
+Ez meg 8 talán?
+
+423
+01:07:37,000 --> 01:07:39,000
+Mert itt van még egy izé ilyen szám.
+
+424
+01:07:43,000 --> 01:07:44,000
+[sóhajt]
+
+425
+01:07:44,000 --> 01:07:46,000
+Futtassuk újra a teszteket.
+
+426
+01:07:46,000 --> 01:07:48,000
+Ezért nem szeretek találgatni.
+
+427
+01:07:51,000 --> 01:07:54,000
+Mert most akkor a izétől eltekintek, a double-től.
+
+428
+01:07:56,000 --> 01:07:57,000
+És akkor ezt kitörlöm.
+
+429
+01:07:59,000 --> 01:08:01,000
+Legalább a double-ös az fusson le.
+
+430
+01:08:11,000 --> 01:08:12,000
+Jó.
+
+431
+01:08:14,000 --> 01:08:16,000
+És akkor...
+
+432
+01:08:21,000 --> 01:08:28,000
+Ja igen, és akkor itt ez most a float precision az 7 vagy 8?
+
+433
+01:08:28,000 --> 01:08:30,000
+Mert most másik hibát dobott ki.
+
+434
+01:08:30,000 --> 01:08:32,000
+Ahol precision lost lett.
+
+435
+01:08:35,000 --> 01:08:36,000
+Aha.
+
+436
+01:08:43,000 --> 01:08:46,000
+Ennek hogy lehet...izé...
+
+437
+01:09:20,000 --> 01:09:24,000
+Várjunk csak, itt az izével együtt kell számolni, ugye?
+
+438
+01:10:00,000 --> 01:10:02,000
+Nem is ebből kéne kiindulni.
+
+439
+01:10:09,000 --> 01:10:11,000
+Mindjárt lejár a 90 perc.
+
+440
+01:10:11,000 --> 01:10:15,000
+Jó, ez már kicsit bonyolultabb feladat.
+
+441
+01:11:43,000 --> 01:12:01,000
+Jó, tehát itt van akkor nekünk egy problémánk, hogy a...most már nem tudok rákeresni, de az a lényeg, hogy itt a...ugye itt a fraction az a pont utáni rész.
+
+442
+01:12:01,000 --> 01:12:03,000
+Az igazából lehetne.
+
+443
+01:12:03,000 --> 01:12:05,000
+Lehetne.
+
+444
+01:12:05,000 --> 01:12:09,000
+De várjál ez a normalizált szám.
+
+445
+01:12:20,000 --> 01:12:23,000
+Akár azt is lehetne, hogy összehasonlítom az izével.
+
+446
+01:12:23,000 --> 01:12:27,000
+De az biztos, hogy nem jó megoldás.
+
+447
+01:15:52,000 --> 01:15:54,000
+Hát akkor jól csináltam igazából, csak...
+
+448
+01:16:12,000 --> 01:16:14,000
+csak mennyi a max double precision?
+
+449
+01:16:14,000 --> 01:16:16,000
+Hm?
+
+450
+01:16:16,000 --> 01:16:18,000
+Elvileg dupla annyi.
+
+451
+01:16:19,000 --> 01:16:23,000
+De akkor mennyi, hogyha 16?
+
+452
+01:16:23,000 --> 01:16:28,000
+Mert ugye itt 16-ot néztem.
+
+453
+01:17:09,000 --> 01:17:11,000
+Hát akkor mennyi?
+
+454
+01:18:16,000 --> 01:18:18,000
+Most kapkodok egy kicsit.
+
+455
+01:18:18,000 --> 01:18:20,000
+Hehe.
+
+456
+01:18:20,000 --> 01:18:26,000
+De 17 az pont jó erre a két számra, de az miért 17?
+
+457
+01:18:38,000 --> 01:18:45,000
+Na, tehát itt a [...] állunk, hogy az egyszeres pontosság az 8, a dupla pontosság az 11.
+
+458
+01:18:45,000 --> 01:18:48,000
+A kiterjesztett az 15, a négyszeres is 15.
+
+459
+01:18:48,000 --> 01:19:02,000
+És itt most az van, hogy ugye itt a...hát erre a konkrét számra...az 2,4,6,8,10,12,14,16,18.
+
+460
+01:19:02,000 --> 01:19:04,000
+Ez ugye 18.
+
+461
+01:19:04,000 --> 01:19:06,000
+Igen.
+
+462
+01:19:06,000 --> 01:19:08,000
+És akkor várjál, hogy van?
+
+463
+01:19:08,000 --> 01:19:15,000
+2,4,6,8,10,12,14,16,18.
+
+464
+01:19:18,000 --> 01:19:19,000
+A double precision.
+
+465
+01:19:19,000 --> 01:19:24,000
+Igen, tehát a decimális szám, de az megy hogyan?
+
+466
+01:19:24,000 --> 01:19:26,000
+Az hogy lesz jó?
+
+467
+01:20:38,000 --> 01:20:40,000
+Most már érdekel.
+
+468
+01:20:40,000 --> 01:20:42,000
+És itt mennyi lesz?
+
+469
+01:20:49,000 --> 01:20:50,000
+Semennyi.
+
+470
+01:20:50,000 --> 01:20:52,000
+Azt hogy?
+
+471
+01:20:52,000 --> 01:20:55,000
+Hú várjál, itt van még valami.
+
+472
+01:20:55,000 --> 01:20:57,000
+Az "exp".
+
+473
+01:20:58,000 --> 01:20:59,000
+De nem.
+
+474
+01:21:01,000 --> 01:21:03,000
+Mmm javítottam.
+
+475
+01:21:05,000 --> 01:21:06,000
+Úgy ahogy.
+
+476
+01:21:06,000 --> 01:21:08,000
+[nevet]
+
+477
+01:21:08,000 --> 01:21:10,000
+Sajnos.
+
+478
+01:21:10,000 --> 01:21:14,000
+Béla: A tesztek sikeresen lefutnak?
+
+479
+01:21:14,000 --> 01:21:16,000
+Lefutnak a tesztek igen, sikeresen, de...
+
+480
+01:21:16,000 --> 01:21:18,000
+hasraütés szerű a javítás kb.
+
+481
+01:21:18,000 --> 01:21:21,000
+Úgyhogy.
+
+482
+01:21:23,000 --> 01:21:28,000
+Azt még nem tudom, hogy mik lennénk a pontos számok, amik...limiteket kéne berakni, de lefutna az összes teszt.
+
+483
+01:21:28,000 --> 01:21:30,000
+Elvileg.
+
+484
+01:21:30,000 --> 01:21:31,000
+[futtat]
+
+485
+01:21:31,000 --> 01:21:35,000
+Futtatok egy végleges maven-es tesztet, mert a junit-os tesztek lefutnak.
+[futtat]
+
+486
+01:21:35,000 --> 01:21:38,000
+[futtat]
+
+487
+01:21:38,000 --> 01:21:40,000
+Mindjárt megnézem így is.
+[futtat]
+
+488
+01:21:40,000 --> 01:21:47,000
+[futtat]
+
+489
+01:21:47,000 --> 01:21:54,000
+Eléggé megkoptak az emkékeim a...pontosságról, a mi volt az?
+[futtat]
+
+490
+01:21:54,000 --> 01:21:55,000
+[futtat]
+
+491
+01:21:55,000 --> 01:21:56,000
+Milyen tárgy?
+[futtat]
+
+492
+01:21:56,000 --> 01:22:03,000
+[futtat]
+
+493
+01:22:03,000 --> 01:22:05,000
+Már nem is jut eszembe.
+[futtat]
+
+494
+01:22:05,000 --> 01:22:10,000
+[futtat]
+
+495
+01:22:10,000 --> 01:22:12,000
+Béla: Mire gondolsz? Melyik tárgyból tanították?
+[futtat]
+
+496
+01:22:12,000 --> 01:22:15,000
+Hát igen, hogy melyik tárgyból a pontosságot.
+[futtat]
+
+497
+01:22:15,000 --> 01:22:16,000
+[futtat]
+
+498
+01:22:16,000 --> 01:22:18,000
+Nem jut eszembe.
+[futtat]
+
+499
+01:22:18,000 --> 01:22:20,000
+Béla: Szerintem progalapon volt, nem?
+[futtat]
+
+500
+01:22:20,000 --> 01:22:27,000
+Nem. Nem progalapon. Ott is vettük igen, de...ott nem vettük részleteibe menően.
+[futtat]
+
+501
+01:22:27,000 --> 01:22:36,000
+Csak hogy mittomén' van ugye a float, double és akkor ugye duplázni, ugye ott big integer-től ugye még nem is volt szó, mert az C.
+[futtat]
+
+502
+01:22:36,000 --> 01:22:37,000
+[futtat]
+
+503
+01:22:37,000 --> 01:22:41,000
+Hanem Bohus tanította asszem a...
+[futtat]
+
+504
+01:22:41,000 --> 01:22:43,000
+[futtat]
+
+505
+01:22:43,000 --> 01:22:45,000
+nem jut eszembe a neve a tárgynak.
+[futtat]
+
+506
+01:22:45,000 --> 01:22:49,000
+[futtat]
+
+507
+01:22:49,000 --> 01:22:51,000
+Na mindegy, Nagyon rég volt már.
+[futtat]
+
+508
+01:22:51,000 --> 01:22:53,000
+[nevet]
+[futtat]
+
+509
+01:22:53,000 --> 01:22:54,000
+Több mint tíz éve.
+[futtat]
+
+510
+01:22:54,000 --> 01:22:55,000
+[nevet]
+[futtat]
+
+511
+01:22:55,000 --> 01:23:00,000
+[futtat]
+
+512
+01:23:00,000 --> 01:23:02,000
+De azt tudom, hogy tanították.
+[futtat]
+
+513
+01:23:02,000 --> 01:23:04,000
+[nevet]
+[futtat]
+
+514
+01:23:04,000 --> 01:23:13,000
+Tanultuk. Ha nagyon kéne akkor biztos elő tudnám kaparni, csak...most ez így nem...most ez így nem jön.
+[futtat]
+
+515
+01:23:13,000 --> 01:23:24,000
+[futtat]
+
+516
+01:23:24,000 --> 01:23:29,000
+Most a junit-os tesztek azok lefutottak, bár abból csak 81 van és hogy ha mittomén' 200-ra emlékeznék...
+[futtat]
+
+517
+01:23:29,000 --> 01:23:32,000
+[futtat]
+
+518
+01:23:32,000 --> 01:23:35,000
+Csak abban az osztályban van 81.
+[futtat]
+
+519
+01:23:35,000 --> 01:23:38,000
+De lefut mind igen, úgyhogy...
+
+520
+01:23:44,000 --> 01:23:50,000
+Csak nem szeretem így itthagyni, hogy [nevet] nem tudom a pontos...megoldást.
+
+521
+01:23:50,000 --> 01:23:53,000
+Unit tesztek szintjén oké, de...
+
+522
+01:23:53,000 --> 01:23:56,000
+ez így nem szép megoldás [nevet] szerintem.
+
+523
+01:23:59,000 --> 01:24:13,000
+Ez a 80-20-as sszabály. Megoldottam az esetek 80%-át 20% idő ráfordítással, de [nevet] mehetne még bele 80%-nyi idő, hogy szép is legyen és a maradk 20% is meglegyen.
+
+524
+01:24:16,000 --> 01:24:19,000
+Béla: Akkor leállítom a felvételt.
+
+525
+01:24:19,000 --> 01:24:21,000
+Oké. Tessék.
+

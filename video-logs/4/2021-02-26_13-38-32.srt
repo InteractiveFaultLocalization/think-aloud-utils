@@ -1,0 +1,2894 @@
+﻿1
+00:00:00,000 --> 00:00:05,000
+Felvétel, szóval ebben a (Béla)
+
+2
+00:00:05,000 --> 00:00:07,000
+szekcióban egy (Béla)
+
+3
+00:00:07,000 --> 00:00:11,520
+javas hibát kellene megtalálni és megoldani, a feladat (Béla)
+
+4
+00:00:11,520 --> 00:00:15,500
+annak leírását látod az egyik lapon (Béla)
+
+5
+00:00:15,500 --> 00:00:20,460
+Illetve a rendelkezésre álló eszközökről, technikai (Béla)
+
+6
+00:00:20,460 --> 00:00:27,790
+ööö, információkat, 90 perc áll rendelkezésedre, ha előbb kész vagy, akkor (Béla)
+
+7
+00:00:27,790 --> 00:00:32,560
+majd szólj bátran, jó (Béla)
+
+8
+00:00:32,560 --> 00:00:36,170
+- Okés.
+- Ha nincs kérdés, akkor jó munkát! (Béla)
+
+9
+00:00:36,170 --> 00:00:40,490
+Rendben, köszi! Na azt mondja, hogy
+
+10
+00:00:40,490 --> 00:00:44,560
+Péntek délután bukó tesztek, tesztosztály, fastDateFormat
+
+11
+00:00:44,560 --> 00:00:46,560
+test, huhu
+
+12
+00:00:46,560 --> 00:00:51,740
+teszteset, iha, szép ...
+
+13
+00:00:51,740 --> 00:00:58,030
+függvényében, igen
+
+14
+00:00:58,030 --> 00:01:03,470
+A jelenség lokalizációfüggő, dátum- és időformátumok
+
+15
+00:01:03,470 --> 00:01:06,750
+létrehozása hibásan történik...
+
+16
+00:01:06,750 --> 00:01:10,170
+Alap konfiguráció, igen, task K
+
+17
+00:01:11,400 --> 00:01:13,980
+metaadatok, 60...
+
+18
+00:01:14,350 --> 00:01:19,930
+Na nézzük, akkor futtassuk le, itt megint mavenös
+
+19
+00:01:19,930 --> 00:01:23,120
+a tesztfuttatás, hát
+
+20
+00:01:23,120 --> 00:01:25,120
+ennek annyira nem örülök
+
+21
+00:01:27,720 --> 00:01:33,040
+Majd meglátjuk, hogy mennyire gyors, biztos itt is lesz egy rakat teszteset
+
+22
+00:01:33,040 --> 00:01:37,290
+Na nézzük akkor, azt mondja hogy
+
+23
+00:01:38,540 --> 00:01:41,960
+[sóhajt] fastDate... aha
+
+24
+00:01:41,960 --> 00:01:46,160
+formatTest
+
+25
+00:01:47,980 --> 00:01:51,280
+Igen, és akkor nekünk a
+
+26
+00:01:51,280 --> 00:01:54,620
+test... hö?
+
+27
+00:01:54,620 --> 00:01:57,770
+jajj, ezek itt
+
+28
+00:01:57,770 --> 00:02:01,630
+fölugranak, de nekem nem kellenek, azt mondjuk hogy...
+
+29
+00:02:01,630 --> 00:02:03,630
+test [gépel]
+
+30
+00:02:03,630 --> 00:02:07,150
+ööö, igen
+
+31
+00:02:07,150 --> 00:02:10,600
+dateInstance
+
+32
+00:02:11,850 --> 00:02:16,410
+Ühüm, tehát azt mondja hogy
+
+33
+00:02:16,410 --> 00:02:19,310
+[nézi a kódot]
+
+34
+00:02:19,310 --> 00:02:24,360
+van egy lock... lockale, és akkor azt mire használja?
+
+35
+00:02:24,360 --> 00:02:29,280
+[kattint] jah, hogy átállítja a... nah
+
+36
+00:02:29,280 --> 00:02:32,360
+[kattint] Húha, mi történik?
+
+37
+00:02:32,360 --> 00:02:38,030
+[nézi a kódot, kattint]
+
+38
+00:02:38,030 --> 00:02:41,470
+[kattint] Nah, azért! [nevet]
+
+39
+00:02:41,470 --> 00:02:44,520
+[nézi a kódot]
+
+40
+00:02:45,820 --> 00:02:49,280
+Aha, szal átállítja,
+
+41
+00:02:49,280 --> 00:02:53,080
+elmenti a locale-t, mert ugye beállítja a
+
+42
+00:02:53,080 --> 00:02:55,080
+US-re
+
+43
+00:02:55,080 --> 00:03:01,770
+utána [motyog] Na nézzük, hogy áll a
+
+44
+00:03:01,770 --> 00:03:05,120
+[kattint] a teszt
+
+45
+00:03:05,120 --> 00:03:08,120
+Bukott, nahát, ki hitte volna
+
+46
+00:03:08,120 --> 00:03:14,730
+Igen, és azt mondja, hogy a dateInstance meg a dateTimeInstance jah igen, az a másik
+
+47
+00:03:14,730 --> 00:03:19,820
+Okés, és akkor [görget]
+
+48
+00:03:19,820 --> 00:03:22,880
+mi volt itt a hiba?
+
+49
+00:03:22,880 --> 00:03:27,340
+[nézi az eredményt]
+
+50
+00:03:27,340 --> 00:03:30,840
+...311 teszt futott...
+
+51
+00:03:31,280 --> 00:03:33,610
+igen
+
+52
+00:03:33,610 --> 00:03:37,820
+[nézi az eredményt]
+
+53
+00:03:37,820 --> 00:03:42,860
+[görget] Hm, de hol mutatod itt hogy
+
+54
+00:03:43,870 --> 00:03:46,490
+failure, ez eddig oké
+
+55
+00:03:48,060 --> 00:03:52,220
+Jó, futtassunk már egy jUnitost
+
+56
+00:03:52,220 --> 00:03:59,070
+[kattint, futtat]
+
+57
+00:03:59,070 --> 00:04:02,330
+[sóhajt]
+
+58
+00:04:02,330 --> 00:04:18,490
+[futtat, vár]
+
+59
+00:04:18,490 --> 00:04:23,550
+Húha, mi az a 8 error, 16 error, 24 error
+
+60
+00:04:23,550 --> 00:04:32,810
+[nézi az eredményt]
+
+61
+00:04:32,810 --> 00:04:40,040
+[ráncolja a szemöldökét]
+
+62
+00:04:43,070 --> 00:04:47,870
+Huh, de hát ez 5000 tesztet futtat, aha, az
+
+63
+00:04:47,870 --> 00:04:50,620
+amúgy nem olyan jó, nézzük csak ez
+
+64
+00:04:50,620 --> 00:04:57,000
+[kattint] Be van itt esetleg állítva neki valami?
+
+65
+00:04:57,000 --> 00:05:04,490
+[nézi a Run configuration ablakot]
+
+66
+00:05:04,490 --> 00:05:09,520
+[kattintgat]
+
+67
+00:05:09,520 --> 00:05:14,570
+Ez miért futtatott ilyen kevés tesztet?
+
+68
+00:05:14,570 --> 00:05:21,400
+User settings [kattintgat]
+
+69
+00:05:21,400 --> 00:05:23,850
+[nézi az ablakot]
+
+70
+00:05:23,850 --> 00:05:25,850
+Huh
+
+71
+00:05:26,570 --> 00:05:28,960
+Ááá, lehet hogy...
+
+72
+00:05:29,640 --> 00:05:35,080
+kell neki ez a https protokoll?
+
+73
+00:05:35,080 --> 00:05:37,080
+[kattint]
+
+74
+00:05:39,600 --> 00:05:43,000
+De most...
+
+75
+00:05:43,000 --> 00:05:51,550
+[nézi a Run Configuration ablakot]
+
+76
+00:05:51,550 --> 00:05:55,530
+[kattint] Hm
+
+77
+00:05:55,530 --> 00:05:59,240
+[gondolkodik]
+
+78
+00:05:59,240 --> 00:06:05,920
+[kattint] Nézzük csak ezt újra, gyanús volt, hogy ilyen
+
+79
+00:06:06,670 --> 00:06:09,450
+ilyen keveset futtatott
+
+80
+00:06:10,000 --> 00:06:13,040
+azt mondja, hogy egyébként
+
+81
+00:06:13,040 --> 00:06:15,600
+expected
+
+82
+00:06:16,640 --> 00:06:18,280
+...was not...
+
+83
+00:06:20,280 --> 00:06:22,510
+... és [nézi az eredményt]
+
+84
+00:06:24,940 --> 00:06:28,800
+létrehozta ezt?
+
+85
+00:06:28,800 --> 00:06:34,780
+[kattintgat] 106... 166. sorban
+
+86
+00:06:34,780 --> 00:06:39,580
+[nézi a kódot]
+
+87
+00:06:39,580 --> 00:06:41,580
+[sóhajt]
+
+88
+00:06:43,560 --> 00:06:47,760
+Azt mondta, hogy a format 3-nak a locale-je az nem
+
+89
+00:06:47,760 --> 00:06:50,880
+Hm... Germany
+
+90
+00:06:51,280 --> 00:06:54,970
+ööö, de miért kellett volna annak lennie?
+
+91
+00:06:54,970 --> 00:06:58,510
+Azért, mert itt beállítja a
+
+92
+00:06:59,770 --> 00:07:03,310
+aa, default locale-t
+
+93
+00:07:03,310 --> 00:07:05,310
+aha
+
+94
+00:07:05,310 --> 00:07:08,090
+[nézi a kódot]
+
+95
+00:07:08,090 --> 00:07:14,000
+hát de... ott akkor a format 1-nek sem
+
+96
+00:07:15,640 --> 00:07:17,740
+ehhez meg jó volt?
+
+97
+00:07:19,800 --> 00:07:23,960
+Ja, jaa! Aha, oké, oké
+
+98
+00:07:24,320 --> 00:07:27,930
+Tehát hogy itt paraméterben megmondta a locale-t, az úgy
+
+99
+00:07:27,930 --> 00:07:34,270
+Az úgy fasza, format 2-nél US, igen
+
+100
+00:07:35,820 --> 00:07:41,610
+és a format 3... aha, akkor itt valószínűleg a default locale az egyébként akkor ott gondolom
+
+101
+00:07:42,350 --> 00:07:44,400
+a US
+
+102
+00:07:45,930 --> 00:07:49,450
+Hát, jó, itt már 1700 teszt futott
+
+103
+00:07:50,600 --> 00:07:53,070
+és failure csak 2
+
+104
+00:07:55,850 --> 00:07:56,810
+[kattint]
+
+105
+00:07:56,810 --> 00:08:09,840
+[nézi az eredményt, kattint, görget]
+
+106
+00:08:09,840 --> 00:08:14,330
+Ja, hát ennek be van állítva a limit gondolom
+
+107
+00:08:14,330 --> 00:08:22,170
+Ó, kedves Eclipse! [kattintgat, sóhajt]
+
+108
+00:08:22,170 --> 00:08:25,360
+[futtat]
+
+109
+00:08:25,360 --> 00:08:29,960
+Mondjuk ennek bele kellett volna férnie, ez nem volt olyan sok
+
+110
+00:08:29,960 --> 00:08:34,460
+log, hogy kipörögjön
+
+111
+00:08:34,460 --> 00:08:37,520
+sose lehet tudni
+
+112
+00:08:37,520 --> 00:08:43,530
+[nézi az eredményt] és akkor az elsőnél, ja igen
+
+113
+00:08:43,530 --> 00:08:46,520
+ott meg ugye azt mondta, hogy a
+
+114
+00:08:46,520 --> 00:08:51,340
+a 146. sorban, aha, itt ugyanaz
+
+115
+00:08:51,340 --> 00:08:53,820
+ugyanaz a probléma
+
+116
+00:08:54,890 --> 00:08:56,830
+Csak...
+
+117
+00:08:56,830 --> 00:09:03,610
+ja, az egyik az dateTimeFormat, az meg dateFormat, aha, itt az a kérdés, hogy
+
+118
+00:09:03,610 --> 00:09:06,940
+ez a dateFormat például
+
+119
+00:09:07,440 --> 00:09:09,210
+ez honnan veszi
+
+120
+00:09:09,840 --> 00:09:15,470
+a locale-t [kattint]
+
+121
+00:09:16,360 --> 00:09:18,560
+Igen
+
+122
+00:09:18,560 --> 00:09:23,080
+[kattint, gépel]
+
+123
+00:09:23,080 --> 00:09:29,610
+[olvassa a kódot]
+
+124
+00:09:29,610 --> 00:09:33,120
+simpleDateFormat getInstance
+
+125
+00:09:34,250 --> 00:09:37,480
+igen, oh, ott volt egy
+
+126
+00:09:37,480 --> 00:09:41,260
+ja, aha, itt a locale
+
+127
+00:09:42,890 --> 00:09:46,360
+és akkor itt azt mondja, hogy
+
+128
+00:09:47,900 --> 00:09:51,790
+aha, itt azt mondja hogy locale
+
+129
+00:09:51,790 --> 00:09:53,790
+getDefault
+
+130
+00:09:54,110 --> 00:10:00,040
+[nézi az eredményt] na itt már több, nem, nincs több
+
+131
+00:10:00,920 --> 00:10:06,590
+Nincs több infó [görget]
+
+132
+00:10:06,590 --> 00:10:09,800
+hát de legalább
+
+133
+00:10:09,800 --> 00:10:14,080
+egy perc 15 másodperc alatt lefut
+
+134
+00:10:14,080 --> 00:10:18,320
+[görget] Igen, csak
+
+135
+00:10:18,320 --> 00:10:21,040
+azt mondja, hogy milyen test suitok vannak itt?
+
+136
+00:10:22,840 --> 00:10:29,120
+mathlang és egyébként itt meg
+
+137
+00:10:29,120 --> 00:10:35,200
+[nézi az eredményt]
+
+138
+00:10:35,200 --> 00:10:39,800
+math... várjunk csak
+
+139
+00:10:39,800 --> 00:10:44,860
+[görget] az be lehet szerintem itt is állítani
+
+140
+00:10:46,240 --> 00:10:49,360
+Ööö, azt mondja, hogy
+
+141
+00:10:49,360 --> 00:10:52,200
+nem ott, hanem itt
+
+142
+00:10:52,200 --> 00:11:00,680
+[nézi a run configurationt]
+
+143
+00:11:00,680 --> 00:11:02,680
+[kattint]
+
+144
+00:11:02,680 --> 00:11:06,540
+de nem, mert ez project, ez-ez oké
+
+145
+00:11:06,540 --> 00:11:08,540
+class...
+
+146
+00:11:08,540 --> 00:11:13,920
+jó, nem, hagyjuk, nem ezt csináljuk, hanem azt csináljuk, hogy csak
+
+147
+00:11:13,920 --> 00:11:17,180
+lefuttatott, mert most az egész teszt
+
+148
+00:11:17,180 --> 00:11:21,240
+aaa, az összes teszt lefuttatásához jó lesz a mavenös
+
+149
+00:11:21,240 --> 00:11:24,170
+akkor most elég csak ez
+
+150
+00:11:24,170 --> 00:11:28,300
+[kattint, futtat] így
+
+151
+00:11:28,300 --> 00:11:33,680
+[vár, helyezkedik]
+
+152
+00:11:35,530 --> 00:11:38,280
+Igen, hát ez itt bukik, igen
+
+153
+00:11:38,280 --> 00:11:44,400
+[kattintgat]
+
+154
+00:11:44,400 --> 00:11:47,770
+és azt mondja, hogy a 3-asnak
+
+155
+00:11:49,550 --> 00:11:55,550
+nem... Germany a locale-je, holott
+
+156
+00:11:57,470 --> 00:11:59,930
+holott beállította
+
+157
+00:12:00,840 --> 00:12:03,480
+előtte a default locale-t
+
+158
+00:12:03,480 --> 00:12:08,320
+[kattint] és itt az a kérdés
+
+159
+00:12:08,320 --> 00:12:13,070
+hogy ezen a ponton mit mond?
+
+160
+00:12:13,070 --> 00:12:15,070
+[nézi a kódot]
+
+161
+00:12:15,070 --> 00:12:19,280
+Nézzük meg csak azt a coverage-et!
+
+162
+00:12:19,280 --> 00:12:25,600
+Ööö... most ezt vajon így tudok ilyet csinálni?
+
+163
+00:12:25,600 --> 00:12:39,120
+[nézi az eredményt, gondolkodik, kattint]
+
+164
+00:12:39,120 --> 00:12:44,990
+Ühüm, hát jó [kattintgat]
+
+165
+00:12:47,880 --> 00:12:53,280
+Na nézzük azt az, azt mondja hogy nem az Atlast, hanem a
+
+166
+00:12:55,050 --> 00:13:00,700
+Igen, hol volt ez, várjunk csak [nézi a jegyzeteket]
+
+167
+00:13:00,700 --> 00:13:04,650
+Ja igen
+
+168
+00:13:04,650 --> 00:13:11,500
+Igen, [kattint] igen
+
+169
+00:13:11,500 --> 00:13:23,580
+[kattint, nézi a kódot, vár]
+
+170
+00:13:23,580 --> 00:13:27,880
+Igen, és akkor betöltjük a score-okat
+
+171
+00:13:27,880 --> 00:13:37,580
+[betölti az iFL-t]
+
+172
+00:13:37,580 --> 00:13:39,580
+Hm...
+
+173
+00:13:39,580 --> 00:13:49,770
+[kattintgat] és most a rendezés az hogy van? Mert itt hogy rendezi
+
+174
+00:13:51,530 --> 00:13:54,880
+Igen, score
+
+175
+00:13:55,630 --> 00:13:58,590
+szerint csökkenő
+
+176
+00:13:58,590 --> 00:14:18,160
+[kattint, nézi az iFL-t]
+
+177
+00:14:18,160 --> 00:14:23,080
+Aha, getDateTimeInstance, az ugye nyilván
+
+178
+00:14:23,080 --> 00:14:26,700
+[nézi a kódot]
+
+179
+00:14:26,700 --> 00:14:29,450
+igen, ööö, hát az, az, igen
+
+180
+00:14:29,920 --> 00:14:32,090
+és akkor itt azt mondja, hogy
+
+181
+00:14:33,130 --> 00:14:35,800
+getLocale
+
+182
+00:14:36,240 --> 00:14:39,120
+szerintem az lesz az
+
+183
+00:14:40,620 --> 00:14:43,600
+a getLocale, de hát a getLocale
+
+184
+00:14:43,600 --> 00:14:49,150
+az... az már nem a mienk, mármint hogy az, abba nem tudok belenyúlni
+
+185
+00:14:52,840 --> 00:14:55,230
+Hm... hm
+
+186
+00:14:56,300 --> 00:15:01,200
+Azt mondja, hogy rakjuk valahova ide a breakpointot
+
+187
+00:15:01,920 --> 00:15:04,730
+és akkor...
+
+188
+00:15:04,730 --> 00:15:09,290
+[kattint] nézzük ezt
+
+189
+00:15:10,800 --> 00:15:16,750
+[sóhajt, helyezkedik]
+
+190
+00:15:16,750 --> 00:15:21,210
+Igen, ez itt ugye a
+
+191
+00:15:24,330 --> 00:15:27,390
+[sóhajt, kattintgat]
+
+192
+00:15:27,390 --> 00:15:31,360
+[kattint]
+
+193
+00:15:31,360 --> 00:15:34,380
+Uh ezt a coverage-et el lehet tüntetni innen?
+
+194
+00:15:34,380 --> 00:15:45,370
+[nézi a helyi menüt, kattint]
+
+195
+00:15:45,370 --> 00:15:49,630
+Hm-hm, hmm
+
+196
+00:15:49,630 --> 00:16:06,840
+[kattintgat, nézi a coverage ablakot]
+
+197
+00:16:06,840 --> 00:16:18,490
+[nézi a helyi menüt, kattint]
+
+198
+00:16:18,490 --> 00:16:21,290
+na jó
+
+199
+00:16:21,290 --> 00:16:24,460
+Igen, tehát ugye itt az első
+
+200
+00:16:25,070 --> 00:16:29,560
+Germany... és akkor ott tartunk, hogy
+
+201
+00:16:29,560 --> 00:16:35,290
+[nézi a javadocot] igen
+
+202
+00:16:36,380 --> 00:16:40,570
+A másodiknál ott elvileg null, de
+
+203
+00:16:42,300 --> 00:16:47,630
+Aha... igen, null, oké, és akkor ott mit fog
+
+204
+00:16:47,630 --> 00:16:49,630
+mi fog történni
+
+205
+00:16:49,630 --> 00:16:53,240
+nem egyenlő null, igen
+
+206
+00:16:53,240 --> 00:16:59,450
+[nézi a kódot]
+
+207
+00:16:59,450 --> 00:17:03,770
+Hehe [nevet] hát igen
+
+208
+00:17:03,770 --> 00:17:07,610
+[nézi a javadocot] ezt itt a probléma
+
+209
+00:17:07,610 --> 00:17:13,230
+[nézi a kódot]
+
+210
+00:17:13,230 --> 00:17:15,230
+Innentől kezdve
+
+211
+00:17:15,230 --> 00:17:17,920
+sok értleme nincs is
+
+212
+00:17:17,920 --> 00:17:22,810
+nézni tovább, mert ez így nem jó [kattint]
+
+213
+00:17:22,810 --> 00:17:26,730
+Igen, és utána a következő az pedig
+
+214
+00:17:26,730 --> 00:17:31,520
+ott megint csak null, itt nyilván
+
+215
+00:17:31,520 --> 00:17:35,790
+ho? Mert itt nem volt format
+
+216
+00:17:35,790 --> 00:17:38,970
+Aha, ez sem biztos hogy jó
+
+217
+00:17:40,640 --> 00:17:45,690
+[sóhajt]
+
+218
+00:17:45,690 --> 00:17:53,100
+[nézi a kódot, nyit egy böngészőt]
+
+219
+00:17:53,100 --> 00:17:57,520
+[nézi a jegyzetet]
+
+220
+00:17:57,520 --> 00:18:04,700
+Igen [gépel]
+
+221
+00:18:04,700 --> 00:18:08,960
+Hm... [motyog]
+
+222
+00:18:08,960 --> 00:18:16,220
+[kattint, nyit egy új tabot]
+
+223
+00:18:16,220 --> 00:18:21,720
+Ühüm, [kattint] hát gondolhattam volna
+
+224
+00:18:21,720 --> 00:18:24,920
+Oh, szuper
+
+225
+00:18:24,920 --> 00:18:28,120
+Jó, hát ööö
+
+226
+00:18:28,120 --> 00:18:33,610
+Most belenézhetek, de, jajj
+
+227
+00:18:33,610 --> 00:18:38,410
+[kattint, nézi a kódot]
+
+228
+00:18:38,410 --> 00:18:41,760
+ebbe nem fogok tudni belenyúlni
+
+229
+00:18:41,760 --> 00:18:49,720
+[olvassa a kódot, kattint]
+
+230
+00:18:49,720 --> 00:18:54,910
+[vált a fájlok között]
+
+231
+00:18:54,910 --> 00:19:07,390
+[nézi a kódot, sóhajt]
+
+232
+00:19:07,390 --> 00:19:29,130
+[nézi a kódot, gondolkodik, kattint]
+
+233
+00:19:29,130 --> 00:19:34,270
+hacsak... hacsak nincs, ööö
+
+234
+00:19:34,270 --> 00:19:37,980
+[gondolkodik]
+
+235
+00:19:37,980 --> 00:19:40,960
+de nem, hát ez gondolom
+
+236
+00:19:40,960 --> 00:19:43,550
+Aha, ez ráadásul egy sima
+
+237
+00:19:43,980 --> 00:19:48,410
+sima map... az csak nem befolyásolja a
+
+238
+00:19:48,410 --> 00:19:52,560
+a locale-t, mert még az lehet, hogy valami
+
+239
+00:19:54,410 --> 00:19:58,010
+valami fölülcsapja?
+
+240
+00:19:58,010 --> 00:20:03,020
+[gondolkodik, nézi a kódot]
+
+241
+00:20:03,020 --> 00:20:09,690
+ugyan nézzük már meg, hogy ennek mi az értéke
+
+242
+00:20:09,690 --> 00:20:16,090
+Ööö, látszik hogyha belenyúlok? Hogy azt módosítottam?
+
+243
+00:20:16,090 --> 00:20:18,520
+[gépel]
+
+244
+00:20:18,520 --> 00:20:22,840
+[gépel] igen, és akkor
+
+245
+00:20:22,840 --> 00:20:26,840
+[kattint] Itt ezt megdebuggoljuk
+
+246
+00:20:27,720 --> 00:20:31,580
+Ühüm [kattint]
+
+247
+00:20:31,580 --> 00:20:47,020
+[futtat, vár, nézi a kódot, kattint]
+
+248
+00:20:47,020 --> 00:20:49,020
+Na, gyerünk!
+
+249
+00:20:49,020 --> 00:20:54,700
+[kattint]
+
+250
+00:20:54,700 --> 00:20:58,640
+Ja, ez még a másik tesztek, na, na!
+
+251
+00:20:58,640 --> 00:21:04,480
+[nézi a kódot]
+
+252
+00:21:04,480 --> 00:21:09,070
+Hm... most mi történt? Miért nem álltál meg?
+
+253
+00:21:09,070 --> 00:21:17,450
+[kattint] Jah, azért nem mert, ööö, dateTimeInstance
+
+254
+00:21:17,450 --> 00:21:22,600
+Nem azt futtattam valószínűleg, de nemár!
+
+255
+00:21:22,600 --> 00:21:29,400
+[futtat, nézi az eredményt]
+
+256
+00:21:29,400 --> 00:21:32,440
+Ühüm, jó, sikerült
+
+257
+00:21:33,680 --> 00:21:37,900
+Aha, és itt még, itt még jó
+
+258
+00:21:37,900 --> 00:21:43,310
+viszont... gyerünk bele
+
+259
+00:21:43,310 --> 00:21:50,240
+[futtat, nézi a kódot]
+
+260
+00:21:50,240 --> 00:21:53,310
+hát...
+
+261
+00:21:53,310 --> 00:22:12,750
+[nézi a kódot, javadocot]
+
+262
+00:22:12,750 --> 00:22:15,760
+Ja! Oh!
+
+263
+00:22:15,760 --> 00:22:20,800
+Hogyha van már ilyen format, ha van már format
+
+264
+00:22:20,800 --> 00:22:23,550
+Mihez van? Mi ez a key?
+
+265
+00:22:23,550 --> 00:22:34,220
+[nézi a javadocot]
+
+266
+00:22:34,220 --> 00:22:38,800
+Ja dateStyle meg timeStyle, óóó, hát aha!
+
+267
+00:22:38,800 --> 00:22:42,730
+Jó, aha, így értem
+
+268
+00:22:42,730 --> 00:22:46,460
+Hát de az előbb ezt hogy nem láttam meg?
+
+269
+00:22:46,460 --> 00:22:50,700
+[kattint] Ja, azért nem, mert
+
+270
+00:22:50,700 --> 00:22:57,790
+[kattintgat]
+
+271
+00:22:57,790 --> 00:23:18,080
+[nézi a kódot, kattint]
+
+272
+00:23:18,080 --> 00:23:20,080
+Ühüm
+
+273
+00:23:20,080 --> 00:23:37,070
+[nézi a javadocot, kódot, sóhajt]
+
+274
+00:23:37,070 --> 00:23:50,540
+[nézi a kódot, javadocot, vált a fájlok között]
+
+275
+00:23:50,540 --> 00:23:53,360
+ja, mert hogy az a
+
+276
+00:23:53,360 --> 00:23:57,800
+[nézi a javadocot]
+
+277
+00:23:57,800 --> 00:24:00,970
+fastDateformat, aha
+
+278
+00:24:00,970 --> 00:24:04,080
+Igen, és akkor ahhoz
+
+279
+00:24:04,080 --> 00:24:06,780
+elcasheli
+
+280
+00:24:06,780 --> 00:24:10,160
+de a locale-t azt nem veszi figyelembe
+
+281
+00:24:10,160 --> 00:24:12,160
+vagyis hát...
+
+282
+00:24:12,160 --> 00:24:15,180
+[nézi a javadocot]
+
+283
+00:24:15,180 --> 00:24:20,430
+de várjunk, mert itt azt mondja, ha
+
+284
+00:24:20,430 --> 00:24:25,020
+[nyújtózkodik]
+
+285
+00:24:25,020 --> 00:24:29,450
+[nézi a kódot]
+
+286
+00:24:29,450 --> 00:24:35,370
+Jó hát ez itt nem kell, ezt gyorsan eltüntetjük, nem módosítunk a
+
+287
+00:24:35,370 --> 00:24:38,170
+a... teszten.
+
+288
+00:24:38,170 --> 00:24:41,900
+[nézi a kódot, kattint]
+
+289
+00:24:41,900 --> 00:24:45,130
+Akkor gondoljuk csak ezt végig még egyszer az elejéről
+
+290
+00:24:45,130 --> 00:24:58,110
+[futtat, vár, nézi a kódot]
+
+291
+00:24:58,110 --> 00:25:03,370
+Hm [kattint]
+
+292
+00:25:03,370 --> 00:25:13,340
+[nézi a kódot, vár]
+
+293
+00:25:13,340 --> 00:25:17,230
+Most miért nem áll meg?
+
+294
+00:25:17,230 --> 00:25:20,600
+Ja, azért mert a debugban
+
+295
+00:25:20,600 --> 00:25:30,200
+[görget, kattint]
+
+296
+00:25:30,200 --> 00:25:32,730
+dateTimeInstance
+
+297
+00:25:34,840 --> 00:25:39,440
+[kattint] ezt debuggoljuk
+
+298
+00:25:39,440 --> 00:25:43,280
+[kattint] így
+
+299
+00:25:45,150 --> 00:25:48,840
+Na, erről van szó! Okés, és akkor most
+
+300
+00:25:48,840 --> 00:25:52,440
+vagyunk ugye ott, hogy
+
+301
+00:25:52,440 --> 00:25:57,840
+mondom, hol a teszt, hm, igen
+
+302
+00:25:57,840 --> 00:26:02,170
+Igen, ugye van egy Germany
+
+303
+00:26:02,170 --> 00:26:07,320
+[kattint, nézi a kódot]
+
+304
+00:26:07,320 --> 00:26:10,640
+[kattint] Igen
+
+305
+00:26:11,980 --> 00:26:13,790
+úgyis van
+
+306
+00:26:15,340 --> 00:26:17,840
+timeZone az nincs
+
+307
+00:26:17,840 --> 00:26:23,980
+[nézi a javadocot]
+
+308
+00:26:23,980 --> 00:26:28,040
+ja várjunk csak, mert ez itt, aha, aha
+
+309
+00:26:28,040 --> 00:26:32,650
+Okés, tehát nincs timeZone, locale van
+
+310
+00:26:32,650 --> 00:26:35,080
+Csinál egy locale kulcsot
+
+311
+00:26:36,090 --> 00:26:37,690
+úgyhogy nincs
+
+312
+00:26:40,430 --> 00:26:44,080
+mármint hogy a... igen, a... mihez csinálja?
+
+313
+00:26:44,080 --> 00:26:49,370
+ez a kulcs, amit a dateStyle... igen, aha
+
+314
+00:26:49,370 --> 00:26:54,520
+Tehát a dateStyle, timeStyle-ból csinál egy kulcsot
+
+315
+00:26:54,520 --> 00:26:56,520
+és ahhoz...
+
+316
+00:26:56,520 --> 00:26:58,520
+[gondolkodik]
+
+317
+00:26:58,520 --> 00:27:01,320
+csinált egy locale
+
+318
+00:27:02,250 --> 00:27:04,280
+locale kulcsot
+
+319
+00:27:04,280 --> 00:27:10,700
+[nézi a kódot]
+
+320
+00:27:10,700 --> 00:27:13,720
+Na de várjunk
+
+321
+00:27:13,720 --> 00:27:16,990
+[nézi a kódot]
+
+322
+00:27:16,990 --> 00:27:21,130
+tehát alapból dateStyle, timeStyle a kulcs
+
+323
+00:27:21,130 --> 00:27:22,460
+de hogyha...
+
+324
+00:27:24,030 --> 00:27:26,990
+ha van timeZone, akkor
+
+325
+00:27:28,840 --> 00:27:33,880
+Jaaa! Akkor az egy olyan kulcs lesz, amiben
+
+326
+00:27:33,880 --> 00:27:36,520
+a dateStyle... aha, oké
+
+327
+00:27:36,520 --> 00:27:40,030
+igen, és akkor most ugye az úgy van, hogy
+
+328
+00:27:40,940 --> 00:27:44,330
+0:0:... igen
+
+329
+00:27:44,330 --> 00:27:46,670
+tehát akkor itt benne van a locale is
+
+330
+00:27:46,670 --> 00:27:51,150
+[nézi a kódot]
+
+331
+00:27:51,150 --> 00:27:55,870
+igen, és akkor ehhez a kulcshoz elcash-eli
+
+332
+00:27:56,240 --> 00:27:58,080
+[kattint]
+
+333
+00:27:58,080 --> 00:28:00,080
+jön a következő
+
+334
+00:28:00,080 --> 00:28:03,500
+itt ugye locale nincs, timeZone sincs
+
+335
+00:28:03,500 --> 00:28:05,930
+formatok ugyanazok
+
+336
+00:28:05,930 --> 00:28:08,440
+[nézi a kódot]
+
+337
+00:28:08,440 --> 00:28:10,780
+akkor lesz egy olyan, ahol
+
+338
+00:28:12,010 --> 00:28:14,360
+ahol ugye nincs, ööö
+
+339
+00:28:14,360 --> 00:28:18,360
+se locale, timeZone, igen
+
+340
+00:28:18,360 --> 00:28:21,150
+ez veszi a default locale-t
+
+341
+00:28:21,150 --> 00:28:24,700
+ami itt a US
+
+342
+00:28:25,880 --> 00:28:28,860
+igen, itt a US, nagyon jó
+
+343
+00:28:28,860 --> 00:28:32,670
+azt hogy elcash-eli, igen
+
+344
+00:28:32,670 --> 00:28:35,760
+és aztán jön egy olyan, hogy
+
+345
+00:28:35,760 --> 00:28:37,760
+megint nincs
+
+346
+00:28:37,760 --> 00:28:43,450
+[kattint] locale, de itt már beállította a default locale-t, ahaa
+
+347
+00:28:43,450 --> 00:28:45,450
+aha
+
+348
+00:28:47,160 --> 00:28:52,280
+[kattint] ühüm, és akkor itt meg ugye az van, hogy
+
+349
+00:28:52,280 --> 00:28:55,770
+hogy ez már benne van a cash-ben
+
+350
+00:28:55,770 --> 00:28:59,210
+így van [kattint]
+
+351
+00:29:01,560 --> 00:29:04,060
+aminél ugye a
+
+352
+00:29:05,920 --> 00:29:09,950
+a default locale az a US volt, mert
+
+353
+00:29:09,950 --> 00:29:16,000
+[nézi a kódot]
+
+354
+00:29:16,000 --> 00:29:20,140
+Igen, ühüm
+
+355
+00:29:20,140 --> 00:29:25,340
+[kattint, nézi a project explorert]
+
+356
+00:29:25,340 --> 00:29:28,940
+Na, hát ez így nem, nem jó
+
+357
+00:29:28,940 --> 00:29:32,750
+[nézi a kódot]
+
+358
+00:29:32,750 --> 00:29:38,520
+Ennek így nincs értelme
+
+359
+00:29:38,520 --> 00:29:43,020
+igen, tehát itt valószínűleg a timeZone
+
+360
+00:29:43,020 --> 00:29:45,740
+... eh
+
+361
+00:29:45,740 --> 00:29:47,950
+[gondolkodik]
+
+362
+00:29:47,950 --> 00:29:52,160
+mármint várjunk csak, ugye a timeZone, de annak is van default
+
+363
+00:29:52,160 --> 00:29:57,480
+[nézi a kódot] ...értéke
+
+364
+00:29:57,480 --> 00:30:02,010
+ja csak azt... azt itt gondolom megeszi a getInstance, ha az null
+
+365
+00:30:02,010 --> 00:30:04,910
+viszont a locale
+
+366
+00:30:04,910 --> 00:30:10,910
+[nézi a kódot]
+
+367
+00:30:10,910 --> 00:30:14,960
+az itt mindegy, tehát most mondhatjuk azt, hogy
+
+368
+00:30:14,960 --> 00:30:19,580
+hogy... ezt bevesszük [gépel]
+
+369
+00:30:19,580 --> 00:30:21,580
+ja azt nem mondhatom
+
+370
+00:30:23,020 --> 00:30:27,660
+[gépel] igen, hanem azt mondhatom
+
+371
+00:30:28,320 --> 00:30:31,870
+hogy... ez legyen
+
+372
+00:30:31,870 --> 00:30:34,760
+[gépel] itt
+
+373
+00:30:34,760 --> 00:30:38,650
+[nézi a kódot]
+
+374
+00:30:38,650 --> 00:30:40,650
+így
+
+375
+00:30:40,650 --> 00:30:49,260
+[nézi a kódot, futtat]
+
+376
+00:30:49,260 --> 00:30:52,330
+Igen, hát ez így okés
+
+377
+00:30:52,330 --> 00:30:56,800
+[kattint, nézi a kódot]
+
+378
+00:30:56,800 --> 00:30:58,800
+ez itt nem okés
+
+379
+00:30:58,800 --> 00:31:02,120
+[kattint]
+
+380
+00:31:02,120 --> 00:31:10,810
+[nézi a kódot]
+
+381
+00:31:10,810 --> 00:31:15,400
+és itt sincs timeZone, tehát nem az a
+
+382
+00:31:15,400 --> 00:31:18,000
+nem az a gáz
+
+383
+00:31:19,660 --> 00:31:22,270
+[kattint] ja de ez lehet másik
+
+384
+00:31:22,270 --> 00:31:24,270
+függvény?
+
+385
+00:31:24,270 --> 00:31:31,820
+[kattint, nézi a kódot]
+
+386
+00:31:31,820 --> 00:31:40,430
+Aha [nézi a kódot, gépel]
+
+387
+00:31:41,550 --> 00:31:45,290
+Jajj, elnyomtam... ctrl+V
+
+388
+00:31:45,290 --> 00:31:47,290
+[gépel]
+
+389
+00:31:47,290 --> 00:31:57,960
+[kattint, futtat]
+
+390
+00:31:57,960 --> 00:31:59,960
+Ühüm
+
+391
+00:31:59,960 --> 00:32:07,310
+[kattint, futtat]
+
+392
+00:32:07,310 --> 00:32:11,720
+Na nézzük, hány másikat rontotta el, a timeZone-os
+
+393
+00:32:11,720 --> 00:32:14,240
+történet az még itt
+
+394
+00:32:15,840 --> 00:32:19,930
+vagy bekavarhat, vagy ott is kell valami ilyesmi
+
+395
+00:32:19,930 --> 00:32:21,930
+ööö, hol fut ez közben?
+
+396
+00:32:21,930 --> 00:32:30,010
+[kattint, futtat]
+
+397
+00:32:30,010 --> 00:33:18,540
+[nézi a console ablakot, vár, nézi az iFL ablakot]
+
+398
+00:33:18,540 --> 00:33:23,280
+Igen, hát ez... akkor nem itt volt a hiba, hanem
+
+399
+00:33:23,280 --> 00:33:26,780
+ööö, hanem ez egy... de ez mind
+
+400
+00:33:26,780 --> 00:33:30,270
+nem ugyanaz, csak ugyanannyi score-t kapott
+
+401
+00:33:31,790 --> 00:33:33,520
+position
+
+402
+00:33:34,330 --> 00:33:35,870
+Óóó!
+
+403
+00:33:35,870 --> 00:33:41,470
+[nézi az iFL-t]
+
+404
+00:33:41,470 --> 00:33:47,640
+[kattintgat]
+
+405
+00:33:47,640 --> 00:33:52,880
+és ezzel így oda tudok ugrani? Nem
+
+406
+00:33:52,880 --> 00:33:54,880
+[kattint]
+
+407
+00:33:54,880 --> 00:33:59,310
+Aha... ennyi.
+
+408
+00:33:59,310 --> 00:34:07,880
+[görget]
+
+409
+00:34:07,880 --> 00:34:10,680
+ez biztos?
+
+410
+00:34:10,680 --> 00:34:16,430
+[sóhajt] task F jelölésű konfiguráció
+
+411
+00:34:16,430 --> 00:34:36,620
+[vár, futtat]
+
+412
+00:34:36,620 --> 00:35:00,560
+[vár, nézi az eredményt]
+
+413
+00:35:00,560 --> 00:35:05,240
+Huh, szegényke, de miért ilyen lassú egyébként
+
+414
+00:35:05,240 --> 00:35:09,480
+Vagyis hát... végül is nem olyan vészes, csak
+
+415
+00:35:09,480 --> 00:35:11,480
+[nézi a task managert]
+
+416
+00:35:11,480 --> 00:35:15,690
+Úúú... úúú, jah
+
+417
+00:35:15,690 --> 00:35:18,140
+Hát, az OBS, haha [nevet]
+
+418
+00:35:18,140 --> 00:35:25,240
+[nézi a task managert, kattint]
+
+419
+00:35:25,240 --> 00:35:30,920
+Ajjaj... [nézi az eredményt]
+
+420
+00:35:33,050 --> 00:35:37,880
+hát ezt nem értem, hogy a jUnitos miért futtat sokkal többet
+
+421
+00:35:38,940 --> 00:35:42,620
+mindjárt megpróbálom azt is, hátha, hátha most
+
+422
+00:35:43,260 --> 00:35:49,340
+jobb eredménnyel zárul, de szerintem nem, ez, ez itt lefutott szépen
+
+423
+00:35:49,340 --> 00:35:53,880
+Hm... nézzük meg egy jUnitos
+
+424
+00:35:53,880 --> 00:35:57,520
+tesztet
+
+425
+00:35:57,520 --> 00:36:06,920
+[futtat, nézi az eredményt]
+
+426
+00:36:06,920 --> 00:36:08,920
+Ühüm
+
+427
+00:36:08,920 --> 00:36:44,270
+[vár, nézi az eredményt]
+
+428
+00:36:44,270 --> 00:36:48,680
+Hm... mi ez a testBroken?
+
+429
+00:36:48,680 --> 00:36:55,000
+[nézi a kódot, kattint]
+
+430
+00:36:55,000 --> 00:36:57,000
+Aha
+
+431
+00:36:57,000 --> 00:37:04,780
+[kattint]
+
+432
+00:37:04,780 --> 00:37:10,400
+Hm... jó, végül is csinálhatunk olyat, hogy azt mondom, hogy
+
+433
+00:37:10,400 --> 00:37:14,730
+nem ezt, hanem azt mondom hogy ő
+
+434
+00:37:14,730 --> 00:37:17,580
+ő, hogyis van itt a
+
+435
+00:37:17,580 --> 00:37:20,760
+fájlhoz ugrás?
+
+436
+00:37:22,440 --> 00:37:24,040
+ja ez
+
+437
+00:37:24,040 --> 00:37:26,040
+igen
+
+438
+00:37:26,780 --> 00:37:31,050
+és ha lefuttatjuk a time-ban lévő összeset
+
+439
+00:37:31,050 --> 00:37:33,050
+[kattint]
+
+440
+00:37:33,500 --> 00:37:40,280
+Valami ezer... hétszáz, vagy mennyi futott itt a mavenben?
+
+441
+00:37:42,030 --> 00:37:44,460
+Hajajjajajj
+
+442
+00:37:44,460 --> 00:37:50,250
+össze... összekonfliktálódott itt a kettő
+
+443
+00:37:51,660 --> 00:37:54,570
+maven consol
+
+444
+00:37:54,570 --> 00:37:57,480
+Jó, hát miért is maradna meg
+
+445
+00:37:58,040 --> 00:38:01,290
+121 [kattint, futtat]
+
+446
+00:38:01,290 --> 00:38:21,310
+[vár, nézi az eredményt]
+
+447
+00:38:21,310 --> 00:38:25,930
+Hát szerintem a mavenes az többet futtatott
+
+448
+00:38:27,920 --> 00:38:30,220
+Azt mondja, hogy
+
+449
+00:38:31,180 --> 00:38:34,460
+Ez most test suite-onként írja ki, hogy mennyit
+
+450
+00:38:34,460 --> 00:38:40,960
+[nézi az eredményt]
+
+451
+00:38:40,960 --> 00:38:42,960
+na mindjárt kiderül
+
+452
+00:38:42,960 --> 00:38:48,250
+[nézi az eredményt]
+
+453
+00:38:48,250 --> 00:38:53,040
+Hát, kár hogy nem lehet, itt gondolom nem lehet megadni, bár mondjuk
+
+454
+00:38:53,040 --> 00:38:55,760
+keressünk rá addig
+
+455
+00:38:55,760 --> 00:38:59,390
+[görget]
+
+456
+00:38:59,390 --> 00:39:02,520
+[átvált böngészőre] azt mondja hogy
+
+457
+00:39:03,400 --> 00:39:09,480
+eclipse... run junit test [gépel]
+
+458
+00:39:10,110 --> 00:39:15,560
+[gépel, kattint]
+
+459
+00:39:15,560 --> 00:39:27,360
+[nézi a böngészőt, kattint, visszavált Eclipse-re]
+
+460
+00:39:27,360 --> 00:39:29,840
+1707
+
+461
+00:39:29,840 --> 00:39:31,840
+[kattint]
+
+462
+00:39:31,840 --> 00:39:34,440
+[nézi a böngészőt]
+
+463
+00:39:34,440 --> 00:39:40,250
+Hát igen, itt ugye megvannak... dehát akkor meg itt is meg kéne annotálódni
+
+464
+00:39:40,250 --> 00:39:44,730
+ha legyen... [sóhajt, kattint]
+
+465
+00:39:44,730 --> 00:39:52,240
+[kattint, nézi a keresést Eclipse-ben]
+
+466
+00:39:52,240 --> 00:39:57,870
+[keres, nézi az eredményt]
+
+467
+00:39:57,870 --> 00:40:02,080
+[nézi az eredményt]
+
+468
+00:40:02,080 --> 00:40:09,340
+[átvált böngészőre]
+
+469
+00:40:09,340 --> 00:40:14,760
+[nézi a böngészőt, kattint]
+
+470
+00:40:14,760 --> 00:40:29,320
+[nézi a böngészőt]
+
+471
+00:40:29,320 --> 00:40:32,640
+Ööö, de igen, én pont ezt szeretném, hogy
+
+472
+00:40:32,640 --> 00:41:00,030
+Hm... [olvassa a böngésző tartalmát, kattint, visszavált Eclipse-re]
+
+473
+00:41:00,030 --> 00:41:07,710
+[kattintgat]
+
+474
+00:41:07,710 --> 00:41:10,650
+[nézi az Open Resource ablakot]
+
+475
+00:41:10,650 --> 00:41:13,960
+[gépel]
+
+476
+00:41:16,200 --> 00:41:17,880
+így van
+
+477
+00:41:19,050 --> 00:41:23,530
+És akkor... ja ez gondolom az az
+
+478
+00:41:23,530 --> 00:41:27,360
+ez ugyanaz [vakarja a fejét]
+
+479
+00:41:27,360 --> 00:41:35,500
+[kattint, futtat]
+
+480
+00:41:35,500 --> 00:41:37,500
+Sőt, ez még kevesebb is
+
+481
+00:41:38,830 --> 00:41:44,570
+Jó, de... ez így késznek tűnik
+
+482
+00:41:44,570 --> 00:41:48,320
+[nézi a kódot]
+
+483
+00:41:48,320 --> 00:41:50,320
+[kattint]
+
+484
+00:41:50,320 --> 00:41:52,890
+[görget]
+
+485
+00:41:52,890 --> 00:41:55,760
+Akkor itt hagyjuk úgy, hogy
+
+486
+00:41:55,760 --> 00:42:00,880
+[nézi a kódot] futtatjuk ezt
+
+487
+00:42:02,920 --> 00:42:08,720
+[futtat, vár]
+
+488
+00:42:08,720 --> 00:42:18,640
+[kattint, nézi az eredményt]
+
+489
+00:42:18,640 --> 00:42:23,320
+[futtat, vár]
+
+490
+00:42:23,320 --> 00:42:28,510
+[kinyitja a táskáját]
+
+491
+00:42:32,600 --> 00:42:52,010
+[nézi tovább az eredményt]
+
+492
+00:42:52,010 --> 00:43:26,330
+[nézi a jegyzeteket, vár]
+
+493
+00:43:26,330 --> 00:43:30,700
+Ez kész.
+
+494
+00:43:30,700 --> 00:43:32,700
+[felkel]
+
+495
+00:45:44,160 --> 00:45:48,890
+[visszaül]
+
+496
+00:45:55,630 --> 00:46:02,040
+[iszik]
+
+497
+00:46:13,450 --> 00:46:18,480
+Na jó, nézzük addig meg ezt
+
+498
+00:46:18,480 --> 00:46:32,000
+[megnyitja az Atlast, nézi a kódot, kattint]
+
+499
+00:46:34,380 --> 00:46:38,720
+Na az hogy is volt [nézi a jegyzeteket]
+
+500
+00:46:38,720 --> 00:46:43,280
+Automatikus, automatikus
+
+501
+00:46:43,280 --> 00:46:51,100
+[kattint, nézi a jegyzetet]
+
+502
+00:46:51,100 --> 00:46:56,270
+Ööö [kattintgat] de
+
+503
+00:46:56,270 --> 00:47:00,970
+ja, menü, aha [kattintgat]
+
+504
+00:47:00,970 --> 00:47:05,360
+[kattint] wow
+
+505
+00:47:08,570 --> 00:47:11,260
+igen, és akkor mit lehet...
+
+506
+00:47:11,260 --> 00:47:15,320
+[nézi az Atlast]
+
+507
+00:47:15,320 --> 00:47:19,150
+Ha, jaj, aha
+
+508
+00:47:19,150 --> 00:48:05,580
+[nézi az atlast, ezen belül is a diagramot]
+
+509
+00:48:05,580 --> 00:48:13,900
+[kattint, sóhajt]
+
+510
+00:48:16,200 --> 00:48:22,960
+ja, hogy őt hívja egy másik, getDateInstance... aha, aha
+
+511
+00:48:22,960 --> 00:48:24,960
+Úúú, de menő
+
+512
+00:48:24,960 --> 00:48:29,850
+[kattint]
+
+513
+00:48:29,850 --> 00:48:36,700
+Na, akkor vissza [gépel]
+
+514
+00:48:36,700 --> 00:48:43,630
+[kattintgat] Hm...
+
+515
+00:48:43,630 --> 00:48:49,980
+Aha, ezaz, jajj, aha
+
+516
+00:48:49,980 --> 00:49:00,680
+[nézi a diagramot]
+
+517
+00:49:01,640 --> 00:49:04,350
+[felkel]
+
+518
+00:49:11,260 --> 00:49:17,240
+[visszaül]
+
+519
+00:49:17,240 --> 00:49:32,640
+[kattint, nézi az iFL-t, nézi a coverage-t]
+
+520
+00:49:32,640 --> 00:49:36,560
+[kattint, futtat]
+
+521
+00:49:36,560 --> 00:49:43,240
+[vár]
+
+522
+00:49:43,240 --> 00:49:47,000
+Mondjuk ez érdekes megközelítés
+
+523
+00:49:47,000 --> 00:49:50,430
+de amúgy tök jogos, hát hogy a
+
+524
+00:49:50,430 --> 00:49:56,560
+ööö, ilyen coverage toolt azt nem nagyon használtam, hát, sőt
+
+525
+00:49:56,560 --> 00:50:02,090
+szinte egyáltalán nem, kivéve most az utóbbi, tényleg fél évet
+
+526
+00:50:02,090 --> 00:50:08,280
+ööö, és ott is a sonarqube, sonarqube-ot
+
+527
+00:50:08,280 --> 00:50:13,370
+de akkor sem... ilyen megközelítésben, hogy
+
+528
+00:50:13,370 --> 00:50:15,370
+mondjuk hibakeresésnél, hogy
+
+529
+00:50:16,320 --> 00:50:21,520
+hogy az alapján keresem, hogy melyik sorokban lehet a hiba a coverage alapján, de amúgy
+
+530
+00:50:21,520 --> 00:50:25,950
+jó ötlet végül is, hát nem volt olyan bonyolult a
+
+531
+00:50:26,570 --> 00:50:30,830
+az az üzleti logika, ahol használtuk, meg
+
+532
+00:50:32,960 --> 00:50:35,340
+igazából tényleg csak
+
+533
+00:50:35,340 --> 00:50:39,640
+akkor elősorban arra törekedtünk, hogy a
+
+534
+00:50:41,160 --> 00:50:44,430
+a tesztek a teljes kódot lefedjék
+
+535
+00:50:44,430 --> 00:50:48,640
+tehát tényleg csak arra, hogy mi az a rész, amire
+
+536
+00:50:48,640 --> 00:50:52,160
+amire még nincs teszt, de így
+
+537
+00:50:52,160 --> 00:50:54,910
+hibakeresésre nem használtam.
+
+538
+00:50:54,910 --> 00:50:58,430
+[kattint] És igen, itt látszódik is, hogy a
+
+539
+00:50:58,430 --> 00:51:01,260
+a timeZone-os rész az nincs lefedve
+
+540
+00:51:01,260 --> 00:51:04,920
+vagy hát gondolom hogyha az egészre futtatok egy coverage-et, akkor
+
+541
+00:51:04,920 --> 00:51:07,920
+sem lesz, de itt ugye ez nem része a
+
+542
+00:51:07,920 --> 00:51:11,450
+a feladatnak, ennek a... a
+
+543
+00:51:12,640 --> 00:51:16,460
+javítása vagy vizsgálata, mert szerintem az ugye
+
+544
+00:51:18,750 --> 00:51:23,100
+Á, de mondjuk nem, mert egymásba fűzi a kulcsokat, szóval
+
+545
+00:51:23,100 --> 00:51:26,960
+szóval az úgy simán működhet, aha
+
+546
+00:51:26,960 --> 00:51:33,920
+[gondolkodik] jah
+
+547
+00:51:33,920 --> 00:51:37,500
+És akkor itt, itt meg ugye ez csak részben... bár mondjuk ez
+
+548
+00:51:39,130 --> 00:51:42,640
+ez ilyenkor mit jelent, hogy ez le van fedve, ez meg részben
+
+549
+00:51:42,640 --> 00:51:44,640
+az azt jelenti, hogy a
+
+550
+00:51:44,640 --> 00:51:51,150
+[sóhajt] mit jelent?
+
+551
+00:51:51,150 --> 00:51:54,000
+[nézi a kódot]
+
+552
+00:51:54,000 --> 00:51:56,300
+Aha, hát de...
+
+553
+00:51:57,050 --> 00:51:59,680
+ez hogy lehet?
+
+554
+00:52:00,200 --> 00:52:04,540
+[nézi az eredményt, a kódot]
+
+555
+00:52:04,540 --> 00:52:06,540
+Hát de ez itt, ez itt oké
+
+556
+00:52:06,540 --> 00:52:13,616
+ez... [nézi a kódot] ez hibás rész, az nincs lefedve 
+
+557
+00:52:13,610 --> 00:52:18,320
+[nézi a kódot]
+
+558
+00:52:18,320 --> 00:52:22,256
+[nézi a kódot] Jaa!
+
+559
+00:52:22,250 --> 00:52:25,536
+[nézi az eredményt]
+
+560
+00:52:25,530 --> 00:52:29,520
+de nem, hát az nem teszt [kattint]
+
+561
+00:52:31,776 --> 00:52:35,504
+Ja, hát igen, itt igazából lehet azt mondani, hogy
+
+562
+00:52:35,500 --> 00:52:38,688
+[gépel] hogy ezt az ifet kiszedjük onnan
+
+563
+00:52:38,680 --> 00:52:42,304
+[gépel] mert... 
+
+564
+00:52:42,300 --> 00:52:46,288
+mindig lesz locale, hát amúgy érdekes
+
+565
+00:52:46,280 --> 00:52:49,792
+és akkor emitt is... emitt hol? 
+
+566
+00:52:49,790 --> 00:52:52,304
+[görget]
+
+567
+00:52:52,300 --> 00:52:56,816
+[kattint, nézi a kódot]
+
+568
+00:52:56,810 --> 00:53:01,568
+[nézi a kódot]
+
+569
+00:53:01,560 --> 00:53:04,416
+Ööö, mindjárt megvagyok, vagyis igazából
+
+570
+00:53:04,410 --> 00:53:07,008
+- Isten ments! Jaj nem, nem, dehogy is (Gergő)
+
+571
+00:53:07,000 --> 00:53:09,136
+Tudom, csak most 
+
+572
+00:53:09,130 --> 00:53:11,840
+ki akarok próbálni még valamit 
+
+573
+00:53:11,840 --> 00:53:14,672
+Hogy? [Gergő mond valamit]
+
+574
+00:53:14,672 --> 00:53:16,670
+Jah, haha [nevet]
+
+575
+00:53:16,670 --> 00:53:19,728
+[gépel]
+
+576
+00:53:19,720 --> 00:53:22,720
+[gépel] kipróbáljuk, hogy így jó-e
+
+577
+00:53:22,992 --> 00:53:26,736
+[nézi a kódot]
+
+578
+00:53:26,730 --> 00:53:29,840
+Hm... igen, mit is akartam? Ja
+
+579
+00:53:29,840 --> 00:53:32,784
+[Gergő beszél távolról]
+
+580
+00:53:32,780 --> 00:53:36,384
+Oké, ööö, jó, de szerintem pár perc
+
+581
+00:53:36,380 --> 00:53:37,936
+Jó, figyelj itt vagyunk, ha ... (Gergő)
+
+582
+00:53:37,930 --> 00:53:41,568
+Jó, okés [Gergő beszél távolról]
+
+583
+00:53:41,560 --> 00:53:42,848
+10 percenként szoktunk (Gergő)
+
+584
+00:53:42,840 --> 00:53:46,000
+- Ja jó rendben, köszi. 
+- Ahogy gondolod (Gergő)
+
+585
+00:53:47,392 --> 00:53:50,272
+Nem sürgetésnek mondtam (Gergő)
+
+586
+00:53:50,270 --> 00:53:54,576
+[nézi a kódot]
+
+587
+00:53:54,570 --> 00:53:57,568
+Hm, ez így, ez így még mindig okés
+
+588
+00:53:57,560 --> 00:54:02,752
+[kattint, futtat]
+
+589
+00:54:02,750 --> 00:54:06,528
+[motyog]
+
+590
+00:54:06,520 --> 00:54:11,152
+[vár, nézi a kódot]
+
+591
+00:54:11,150 --> 00:54:14,288
+Ja és akkor itt most a coverage az 
+
+592
+00:54:14,280 --> 00:54:16,928
+az... ööö
+
+593
+00:54:16,920 --> 00:54:20,112
+Eltűnt, mert gondolom ugye megváltoztattam a kódot azt
+
+594
+00:54:20,110 --> 00:54:24,560
+akkor változott az is - jó mondjuk
+
+595
+00:54:25,168 --> 00:54:27,632
+végül is
+
+596
+00:54:27,630 --> 00:54:30,656
+Nem a teszten változtattam, hanem a kódon, de akkor
+
+597
+00:54:30,650 --> 00:54:33,264
+kiszedtem olyan részt a kódból, ami 
+
+598
+00:54:33,264 --> 00:54:35,260
+haha, rontotta a coverage [motyog]
+
+599
+00:54:35,536 --> 00:54:39,328
+[kattint] aha, most fut a teszt
+
+600
+00:54:39,320 --> 00:54:43,456
+[sóhajt, vár]
+
+601
+00:54:43,450 --> 00:54:50,384
+[vár]
+
+602
+00:54:50,380 --> 00:54:53,952
+Hm... csúnyán néz ez így ki
+
+603
+00:54:53,950 --> 00:54:58,544
+Megformázzuk... jajj
+
+604
+00:54:58,540 --> 00:55:04,704
+Így, úgyni [kattint]
+
+605
+00:55:04,700 --> 00:55:09,472
+[görget, nézi a kódot]
+
+606
+00:55:09,470 --> 00:55:12,544
+igen, az ott, ja nem, nem
+
+607
+00:55:13,888 --> 00:55:16,656
+[kattint]
+
+608
+00:55:16,650 --> 00:55:21,888
+[görget] így
+
+609
+00:55:21,880 --> 00:55:25,392
+Hát, ööö
+
+610
+00:55:25,390 --> 00:55:31,312
+[görget]
+
+611
+00:55:31,310 --> 00:55:34,720
+Ja, az timeInstance, jól van, oké
+
+612
+00:55:34,720 --> 00:55:37,552
+Akkor nem szóltam semmit
+
+613
+00:55:37,968 --> 00:55:42,672
+ööö, dateTime... hol a másik
+
+614
+00:55:42,670 --> 00:55:47,856
+[görget, kattint]
+
+615
+00:55:47,856 --> 00:55:49,850
+Ühüm
+
+616
+00:55:49,850 --> 00:55:54,432
+dateTimeInstance, getDateInstance, és, aha
+
+617
+00:55:54,430 --> 00:56:03,744
+[kattint, nézi a kódot]
+
+618
+00:56:03,740 --> 00:56:09,552
+[nézi a kódot, javadocot]
+
+619
+00:56:09,550 --> 00:56:12,496
+[kattint, gépel]
+
+620
+00:56:12,490 --> 00:56:18,752
+[görget, nézi a kódot]
+
+621
+00:56:18,750 --> 00:56:23,056
+Ja, nézzünk akkor egy coverage-t, azt mondjuk hogy
+
+622
+00:56:23,050 --> 00:56:28,608
+[kattint]
+
+623
+00:56:28,600 --> 00:56:34,320
+[kattint, futtat] Hoppá, mi volt az
+
+624
+00:56:34,320 --> 00:57:05,184
+[vár, nézi az eredményt]
+
+625
+00:57:05,180 --> 00:57:11,792
+[nézi a kódot, kattint] ejnye
+
+626
+00:57:11,790 --> 00:57:16,272
+nem ez az, nem ez az a coverage, amit keresek
+
+627
+00:57:16,270 --> 00:57:23,984
+[nézi a kódot, kattint]
+
+628
+00:57:23,980 --> 00:57:29,552
+[nézi a javadocot]
+
+629
+00:57:29,550 --> 00:57:33,104
+[kattint]
+
+630
+00:57:33,100 --> 00:57:40,160
+[nézi a kódot, várja az eredményt]
+
+631
+00:57:40,160 --> 00:58:23,088
+[vár, sóhajt]
+
+632
+00:58:23,088 --> 00:58:25,080
+na, mert nem is az a függvény, amit 
+
+633
+00:58:26,688 --> 00:58:30,112
+igen, aha, ez így már 
+
+634
+00:58:30,110 --> 00:58:35,712
+szuper, csak azott nincs meg, jó [helyezkedik]
+
+635
+00:58:35,710 --> 00:58:49,168
+[kattint, nézi a Console-t]
+
+636
+00:58:49,160 --> 00:58:53,488
+[kattint]
+
+637
+00:58:53,488 --> 00:58:55,480
+[vakarja a fejét]
+
+638
+00:58:56,080 --> 00:59:14,512
+[nézi a kódot, vár, nézi a jegyzetet]
+
+639
+00:59:19,980 --> 00:59:26,784
+[nézi valamit a táskájában]
+
+640
+00:59:26,780 --> 00:59:58,208
+[nézi az eredményt]
+
+641
+00:59:58,200 --> 01:00:02,192
+[sóhajt]
+
+642
+01:00:02,190 --> 01:00:25,600
+[nézi az eredményt]
+
+643
+01:00:25,600 --> 01:00:28,576
+Na, build success
+
+644
+01:00:28,570 --> 01:00:32,464
+[felkel]
+
+645
+01:01:18,760 --> 01:01:22,272
+[visszaül]
+
+646
+01:01:22,270 --> 01:01:40,544
+[lefele néz]
+
+647
+01:01:40,540 --> 01:01:44,688
+[helyezkedik]
+
+648
+01:01:44,680 --> 01:01:47,104
+[vár]
+
+649
+01:01:51,150 --> 01:01:56,272
+[az ajtó fele néz]
+
+650
+01:01:56,270 --> 01:01:59,328
+- Szuper, akkor kész vagy. (Gergő)
+- Igen. 
+
+651
+01:01:59,320 --> 01:02:04,240
+[Gergő beszél] 
+- Ja nem-nem
+
+652
+01:02:04,240 --> 01:02:11,712
+Ööö, jó, alapvetően a részvétel itt a kísérletnek akkor lezárul, tehát innentől nem kell több feladat (Gergő)
+
+653
+01:02:11,710 --> 01:02:13,232
+effektíve nincs (Gergő)
+
+654
+01:02:13,230 --> 01:02:17,728
+Ööö, úgy fog kinézni a történet, hogy majd egyszer valamikor, a jövőben, nem tudok (Gergő)
+
+655
+01:02:17,720 --> 01:02:21,760
+biztosat ígérni... ezt föl kell dolgozni, ki kell elemezni, miegyéb (Gergő)
+
+656
+01:02:21,760 --> 01:02:24,560
+ebből mi nagyon szeretnénk egy cikket írni, aminek (Gergő)
+
+657
+01:02:24,560 --> 01:02:28,016
+hova, hogy, egy kutatásnak egy része lesz (Gergő)
+
+658
+01:02:28,010 --> 01:02:31,696
+Ööö, hát reméljük ez a cikk hamarosan elkészül (Gergő)
+
+659
+01:02:31,690 --> 01:02:33,568
+amennyiben a lehetőségek adják (Gergő)
+
+660
+01:02:33,560 --> 01:02:38,560
+lehet hogy el tudunk küldeni egy példányt, egy előzetesen még nem kiadott változtatot is akár (Gergő)
+
+661
+01:02:38,560 --> 01:02:41,712
+ezt egyeztetnünk kell, hogy jogilag ez hogy néz ki (Gergő)
+
+662
+01:02:41,710 --> 01:02:45,040
+copyright-ok és egyéb ilyen csodadolgok, ezeket majd mind (Gergő)
+
+663
+01:02:45,040 --> 01:02:46,816
+megnézzük, viszont (Gergő)
+
+664
+01:02:46,810 --> 01:02:50,608
+az eredményekkel kapcsolatban, amennyiben érdekel, lesz róla majd (Gergő)
+
+665
+01:02:50,600 --> 01:02:55,232
+egy tájékoztatás, ezt nem tudom megmondani hogy mikor és milyen formátumban (Gergő)
+
+666
+01:02:55,230 --> 01:02:57,312
+Ööö, valószínűleg online lesz (Gergő)
+
+667
+01:02:57,310 --> 01:03:00,880
+Ööö, és majd Beszédes Árpád küldd valami levelet, hogy... (Gergő)
+
+668
+01:03:00,880 --> 01:03:03,696
+Jó, mindenképpen érdekel.
+
+669
+01:03:03,690 --> 01:03:07,664
+Hetek kérdése, és lehet hogy hónapoké (Gergő)
+
+670
+01:03:07,660 --> 01:03:10,256
+ahogy sorra jutunk, mert nyilván azért itt most rengeteg anyagot (Gergő)
+
+671
+01:03:10,256 --> 01:03:12,250
+fölvettünk, meg mittudomén (Gergő)
+
+672
+01:03:12,250 --> 01:03:15,216
+ööö, illetve majd - nyilván ez nem kötelező (Gergő) 
+
+673
+01:03:15,210 --> 01:03:18,016
+senki nem fog ezen megsértődni, hogyha azt mondod hogy (Gergő) 
+
+674
+01:03:18,010 --> 01:03:20,432
+hagyjuk a francba, nem jössz, meg mittudomén (Gergő) 
+
+675
+01:03:20,432 --> 01:03:22,430
+Ööö, próbáljuk úgy intézni majd hogy (Gergő)
+
+676
+01:03:22,430 --> 01:03:24,430
+ha esetleg mégsem ér rá valaki, akkor is valami kis (Gergő)
+
+677
+01:03:24,430 --> 01:03:27,232
+kivonatot tudjunk küldeni, hogy mégis ez lett a (Gergő) 
+
+678
+01:03:27,230 --> 01:03:31,472
+tudományos eredmény, ilyen, nem akarunk sötétben tartani titeket nyilván (Gergő)
+
+679
+01:03:31,470 --> 01:03:35,664
+Ööö, igen, meg a másik dolog, hogy a (Gergő)
+
+680
+01:03:35,660 --> 01:03:38,096
+ööö, hogy ez mikor lesz, azt nem tudom, jó? tehát (Gergő)
+
+681
+01:03:38,090 --> 01:03:41,744
+tényleg nem akarok itt most tippet mondani... (Gergő)
+
+682
+01:03:41,740 --> 01:03:45,392
+Iparkodunk nyilván haladni vele, miegyéb (Gergő)
+
+683
+01:03:45,390 --> 01:03:49,184
+Ööö, igen, a másik, hogy most hétvégén, jövő hét (Gergő) 
+
+684
+01:03:49,184 --> 01:03:51,180
+elején valamikor (Gergő) 
+
+685
+01:03:51,180 --> 01:03:54,224
+a nevezett tool, nem én, hanem Árpi fogja kiküldeni (Gergő) 
+
+686
+01:03:54,220 --> 01:03:56,832
+...egy ilyen elégedettségi (Gergő) 
+
+687
+01:03:56,830 --> 01:03:59,312
+kérdőívszerű valamit, ez ilyen (Gergő) 
+
+688
+01:03:59,310 --> 01:04:03,952
+teljesen önkéntes, ez nekünk lenne egy nagy segítség, hogy legközelebb talán mégjobban szervezzük (Gergő) 
+
+689
+01:04:03,950 --> 01:04:06,080
+a kísérletet, mit rontottunk el (Gergő) 
+
+690
+01:04:06,080 --> 01:04:08,080
+mi volt ami negatívum maradt benned, mi (Gergő) 
+
+691
+01:04:08,080 --> 01:04:10,080
+ilyen dolgok lesznek benne, de ez (Gergő) 
+
+692
+01:04:10,080 --> 01:04:11,504
+ez nem része a kutatásnak, ez csak... (Gergő)
+
+693
+01:04:11,500 --> 01:04:13,584
+Értem, persze, igen
+
+694
+01:04:13,580 --> 01:04:16,800
+- Aha. 
+- Hogy mivel nem voltál esetleg elégedett, ilyen dolgok (Gergő)
+
+695
+01:04:16,800 --> 01:04:18,800
+hogy tanuljunk belőle mi is esetleg (Gergő)
+
+696
+01:04:18,800 --> 01:04:21,232
+Ööö, illetve hát nagyon-nagyon szépen (Gergő) 
+
+697
+01:04:21,230 --> 01:04:25,024
+- köszönjük, hogy itt voltál, segítettél... (Gergő) 
+- Igazán nincs mit, remélem hogy... 
+
+698
+01:04:25,020 --> 01:04:27,360
+hogy ez nekünk nyilván nagy segítség, hogy vannak (Gergő) 
+
+699
+01:04:27,360 --> 01:04:29,360
+adataink, amiből tudunk dolgozni (Gergő) 
+
+700
+01:04:29,952 --> 01:04:32,272
+Biztos hogy lesznek olyan dolgok, amivel tudunk (Gergő) 
+
+701
+01:04:32,270 --> 01:04:34,992
+valamit csinálni, most hogy konkrétan mik lesznek az eredmények, azt (Gergő) 
+
+702
+01:04:34,990 --> 01:04:37,280
+nyilván összegzés után tudjuk, nyilván minden eredmény (Gergő)
+
+703
+01:04:37,280 --> 01:04:39,728
+anonim lesz, még csak a sorszámok sem (Gergő) 
+
+704
+01:04:39,720 --> 01:04:42,512
+fognak felkerülni szerintem sehova (Gergő) 
+
+705
+01:04:42,510 --> 01:04:46,448
+nincs is rá szükségünk, amúgy sincs rá szükségunk (Gergő) [nevet]
+
+706
+01:04:46,440 --> 01:04:49,504
+meg úgy, hogy igen, nyilván a fényképeket a (Gergő) 
+
+707
+01:04:49,504 --> 01:04:51,500
+kollega intézi, amit ő csinált (Gergő) 
+
+708
+01:04:51,500 --> 01:04:53,500
+az nem az én hatásköröm (Gergő)
+
+709
+01:04:53,500 --> 01:04:56,096
+azt az újságíró intézi, ha valami nem tetszik (Gergő)
+
+710
+01:04:56,096 --> 01:04:58,090
+- azt meg kell vele harcolnod (Gergő)
+- Okés [nevet]
+
+711
+01:04:58,090 --> 01:05:01,824
+Ööö, igen, alapvetően (Gergő)
+
+712
+01:05:01,824 --> 01:05:03,820
+ez történik, ennyi (Gergő)
+
+713
+01:05:03,820 --> 01:05:07,408
+Ööö, más nincs, ha bármi kérdésed van, nyilván tudsz (Gergő)
+
+714
+01:05:07,408 --> 01:05:09,400
+emailt küldeni, vagy fel tudsz minket hívni (Gergő)
+
+715
+01:05:09,400 --> 01:05:14,624
+- de részünkről ez... bezárult (Gergő)
+- Okés
+
+716
+01:05:14,620 --> 01:05:17,888
+- Tájékoztatni fogunk... (Gergő)
+- Jó, rendben
+
+717
+01:05:17,880 --> 01:05:20,848
+Kíváncsian várom, érdekes volt 
+
+718
+01:05:20,848 --> 01:05:22,840
+Hát örülünk neki, hogy... (Gergő) 
+
+719
+01:05:22,840 --> 01:05:25,616
+legalább valamennyire fogsz ... (Gergő) 
+
+720
+01:05:25,610 --> 01:05:29,904
+- Köszi szépen!
+- Köszönjük! (Gergő)
+
+721
+01:05:29,900 --> 01:05:43,456
+[beszélgetnek a háttérben]
+

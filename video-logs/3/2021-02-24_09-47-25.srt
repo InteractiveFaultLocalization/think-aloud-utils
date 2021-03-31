@@ -1,0 +1,1135 @@
+﻿1
+00:00:00,000 --> 00:00:05,000
+- Szuper, meg itt van a rövid leírás (Gergő)
+- Aha
+
+2
+00:00:05,000 --> 00:00:07,000
+- Mögötte a feladat (Gergő)
+- Rendben
+
+3
+00:00:07,000 --> 00:00:11,184
+- Itt van C feladat 
+- Szuper, ugyanúgy egy hibát kell (Gergő)
+
+4
+00:00:11,180 --> 00:00:14,112
+Kijavítani, mint ahogy korábbiakban, annyi, hogy (Gergő)
+
+5
+00:00:14,110 --> 00:00:18,000
+Közben már telepítésre került az a három tool, amiről most láttatok az előbb egy kis (Gergő)
+
+6
+00:00:18,000 --> 00:00:20,512
+videót, saját belátásotok szerint (Gergő) 
+
+7
+00:00:20,510 --> 00:00:25,152
+javítjátok a hibát nyilván. Továbbra is mindent mondjál ki, ami az eszedbe jut (Gergő)
+
+8
+00:00:25,150 --> 00:00:28,880
+ööö, hangosan, minél több részletességgel, ahogy eddig is volt (Gergő)
+
+9
+00:00:28,880 --> 00:00:34,096
+Továbbra is magadra leszel hagyva, 20 percenként megnézünk, nyilván hogyha kész (Gergő)
+
+10
+00:00:34,090 --> 00:00:37,632
+vagy, szólsz, amikor legközelebb itt járunk, és akkor (Gergő)
+
+11
+00:00:37,630 --> 00:00:41,760
+- öööö, beszélünk, jó. Hányas számú vagy te? (Gergő)
+- Én vagyok a 3-as számú
+
+12
+00:00:41,760 --> 00:00:43,760
+Szuper, oké (Gergő)
+
+13
+00:00:43,760 --> 00:00:47,472
+[lapoz] - Na, okés. 
+- Jól van, köszi! (Gergő)
+
+14
+00:00:47,470 --> 00:00:50,208
+Okés, elkezdtem olvasni a 
+
+15
+00:00:50,200 --> 00:00:56,048
+[lefele néz] hm, kettő kis anyagot kaptunk mellé, hogy ezt hogy kell használni
+
+16
+00:00:56,040 --> 00:01:01,072
+az EclEmmat, az Atlast meg az iFL-t
+
+17
+00:01:01,070 --> 00:01:03,552
+a forráskódlefedettség-mérés
+
+18
+00:01:03,550 --> 00:01:09,696
+gráf.. meg az interaktív hiba lokalizáció, én szerintem átnéztem, csak annyi, hogy
+
+19
+00:01:09,690 --> 00:01:15,648
+... amit elmondtak ebben a videóban, amit végignéztünk [motyog]
+
+20
+00:01:15,640 --> 00:01:18,480
+mik vannak, meg hogy a CO-t hogy lehet izé
+
+21
+00:01:18,480 --> 00:01:23,024
+[motyog] itt van a feladat
+
+22
+00:01:23,020 --> 00:01:27,808
+Ööö, bukó teszt, van a tesztosztály.. a stopWatch.test
+
+23
+00:01:27,800 --> 00:01:31,680
+teszteset ez a testSuspended and stop
+
+24
+00:01:31,680 --> 00:01:36,544
+Hibajelenség a stopwatch az számolja az időt, ha suspend és a stop metódus ... is használjuk
+
+25
+00:01:36,540 --> 00:01:40,768
+[motyogva olvas] Igen, okés
+
+26
+00:01:40,760 --> 00:01:45,488
+Akkor menjünk erre a tesztosztályra
+
+27
+00:01:45,480 --> 00:01:49,328
+[kattint, nézi a hierarchiát]
+
+28
+00:01:49,320 --> 00:01:54,096
+Ühüm, tesztosztály, blank, time
+
+29
+00:01:54,090 --> 00:01:59,696
+[kattint] StopWatchTest.java, megvan
+
+30
+00:01:59,690 --> 00:02:10,928
+[megnyitja az osztályt, vár]
+
+31
+00:02:10,920 --> 00:02:13,616
+tölti most éppen a StopWatchTestet
+
+32
+00:02:13,610 --> 00:02:15,936
+szerintem erre fogjuk használni az 
+
+33
+00:02:15,930 --> 00:02:21,200
+interaktív hibalokalizációt
+
+34
+00:02:21,200 --> 00:02:24,064
+itt van ez a iFL session
+
+35
+00:02:24,064 --> 00:02:26,060
+disabled [kattint]
+
+36
+00:02:26,060 --> 00:02:28,060
+non-resource selected
+
+37
+00:02:28,060 --> 00:02:36,144
+[kattintgat]
+
+38
+00:02:36,140 --> 00:02:39,216
+Jó, most csinálja, szerintem
+
+39
+00:02:39,210 --> 00:02:42,032
+Igen-igen-igen
+
+40
+00:02:42,030 --> 00:02:47,520
+[vár, nézi az eredményt]
+
+41
+00:02:47,520 --> 00:02:52,176
+[kattint] okés [kattint]
+
+42
+00:02:52,170 --> 00:02:55,040
+[vár]
+
+43
+00:02:55,040 --> 00:02:57,040
+Okés, itt vannak az izék
+
+44
+00:02:57,040 --> 00:03:01,424
+Betöltjük a csv fájlt
+
+45
+00:03:01,420 --> 00:03:08,048
+Ez... nekünk [lenéz]
+
+46
+00:03:08,048 --> 00:03:10,040
+ide van írva, hogy 
+
+47
+00:03:10,040 --> 00:03:13,232
+[olvas a jegyzetből]
+
+48
+00:03:13,230 --> 00:03:18,432
+megfelelő csv kiválasztása 
+
+49
+00:03:18,430 --> 00:03:22,800
+Ez jó kérdés, mik vannak itt - van 16, ühüm
+
+50
+00:03:22,800 --> 00:03:25,680
+[vakarja az orrát]
+
+51
+00:03:25,680 --> 00:03:27,952
+Hm...
+
+52
+00:03:27,952 --> 00:03:29,950
+az jó kérdés, hogy ez milyen langos
+
+53
+00:03:29,950 --> 00:03:32,912
+megmondom őszintén, ezt 16b.csv-t kéne
+
+54
+00:03:32,910 --> 00:03:36,192
+haszálni, ... hátha van valahol
+
+55
+00:03:36,190 --> 00:03:39,088
+valami
+
+56
+00:03:39,080 --> 00:03:41,520
+[olvassa a jegyzetet]
+
+57
+00:03:41,520 --> 00:03:46,304
+...Desktop scores.csv... akkor itt van, az asztalon lesz
+
+58
+00:03:46,880 --> 00:03:50,064
+scores.csv, open
+
+59
+00:03:50,060 --> 00:03:52,608
+[nézi a monitort]
+
+60
+00:03:52,600 --> 00:03:55,952
+[olvas] Only the 10 source code... okés
+
+61
+00:03:55,950 --> 00:04:00,320
+Okés, nem töltöttük az izét, Ordering list
+
+62
+00:04:00,320 --> 00:04:04,624
+Beállítjuk, hogy a score-t nézzük 
+
+63
+00:04:04,620 --> 00:04:08,368
+[kattint] és lefele
+
+64
+00:04:08,360 --> 00:04:11,680
+[kattintgat]
+
+65
+00:04:11,680 --> 00:04:26,032
+[kattint, nézi az iFL plugint]
+
+66
+00:04:26,032 --> 00:04:28,030
+Ahan, score ordering, okés
+
+67
+00:04:28,336 --> 00:04:32,288
+[vakarja a fejét] el is jutottunk odáig, hogy erre a suspend
+
+68
+00:04:32,280 --> 00:04:37,456
+de izére írja a legnagyobb a stopwatchba, itt
+
+69
+00:04:37,450 --> 00:04:41,024
+több izé is van, a stop
+
+70
+00:04:41,020 --> 00:04:45,872
+a suspend, getTime, stop, stopwatch
+
+71
+00:04:45,870 --> 00:04:49,504
+Ööö... dolog... nézzük meg, hogy ez a suspend
+
+72
+00:04:49,500 --> 00:04:52,384
+[kattint] ez mit csinál
+
+73
+00:04:52,384 --> 00:04:54,380
+Egyszer rákattintunk
+
+74
+00:04:54,380 --> 00:04:57,136
+[köhög] suspend az
+
+75
+00:04:57,130 --> 00:04:59,872
+[nézi az iFL-t] ha nem fut a
+
+76
+00:04:59,870 --> 00:05:04,352
+This.runningState, az nem state running, akkor dob egy hibát
+
+77
+00:05:04,350 --> 00:05:08,160
+amúgy stoptime az system.currentTimeMillis
+
+78
+00:05:08,160 --> 00:05:10,160
+millisecundumban adja vissza
+
+79
+00:05:10,160 --> 00:05:13,616
+a runningState-et átállítja suspendedre, király
+
+80
+00:05:14,736 --> 00:05:18,464
+[kattint] Megnézzük a getTime-ot, hogy ő mit ad
+
+81
+00:05:18,460 --> 00:05:20,736
+[olvassa a kódot]
+
+82
+00:05:20,730 --> 00:05:24,128
+getTime az hogyha stoppolva 
+
+83
+00:05:24,120 --> 00:05:28,208
+a state, vagy
+
+84
+00:05:28,200 --> 00:05:33,232
+föl van függesztve, akkor visszaadja a stopTime - startTime-ot, különben
+
+85
+00:05:33,230 --> 00:05:37,584
+a runningState az unstarted akkor nulla, ö
+
+86
+00:05:37,580 --> 00:05:42,128
+[kattint, olvassa a kódot] az if az
+
+87
+00:05:42,120 --> 00:05:46,272
+hogyha, jah, hogyha izé, ha running akkor meg
+
+88
+00:05:46,270 --> 00:05:51,888
+a currentTime-ot adjuk vissza, amúgy meg dobunk egy illegalRunningState-hez occurt
+
+89
+00:05:51,880 --> 00:05:55,568
+[olvassa a kódot] Ühüm
+
+90
+00:05:55,560 --> 00:05:58,576
+ugye ez a getTime, megnézzük ezt a stopot
+
+91
+00:05:58,576 --> 00:06:00,570
+[olvassa a kódot]
+
+92
+00:06:00,570 --> 00:06:05,440
+Ha a stop az run... nem running
+
+93
+00:06:05,984 --> 00:06:10,048
+és nem suspended, akkor dobunk egy "Stopwatch is not running"-ot
+
+94
+00:06:10,040 --> 00:06:17,520
+[olvassa a kódot]
+
+95
+00:06:17,520 --> 00:06:21,280
+ha nem running és nem felfüggesztett, akkor 
+
+96
+00:06:21,280 --> 00:06:24,928
+nem fut az izé, dobunk egy hibát, és akkor stop 
+
+97
+00:06:24,920 --> 00:06:31,296
+visszaadjuk a millisecundot, és akkor a runningState-et stoppedre állítsuk
+
+98
+00:06:31,290 --> 00:06:36,448
+[nézi az iFL-t, lenéz] Ühüm
+
+99
+00:06:36,440 --> 00:06:40,496
+Akkor megnézzük ezt a stopWatch.testet
+
+100
+00:06:40,496 --> 00:06:42,490
+suspend and stop
+
+101
+00:06:42,490 --> 00:06:56,128
+[olvassa a kódot] suspend and stop, megkeressük [görget]
+
+102
+00:06:56,120 --> 00:06:59,808
+Ühüm [görget]
+
+103
+00:06:59,800 --> 00:07:05,088
+testStopWatchSuspendAndStop() osztályt megtaláltuk
+
+104
+00:07:05,712 --> 00:07:11,280
+ööö, annyit csinálok, hogy startoljuk, sleepeljük, 200 millisecre az izét
+
+105
+00:07:12,336 --> 00:07:15,056
+catch-eljük az exceptiont [kattint]
+
+106
+00:07:15,050 --> 00:07:19,216
+[olvassa a kódot] itt nem csinálunk semmit
+
+107
+00:07:19,210 --> 00:07:26,144
+startoljuk, megpróblájuk altatni 200 millisecundig
+
+108
+00:07:26,140 --> 00:07:29,616
+suspendeljük a suspend.time-ot, a watch.getTime
+
+109
+00:07:29,616 --> 00:07:31,610
+[olvassa a javadocot]
+
+110
+00:07:31,610 --> 00:07:35,648
+adjunk, hogy meddig volt, vagy a long suspendTime, hogy meddig volt izé, utána meg 
+
+111
+00:07:35,640 --> 00:07:37,744
+megpróbáljuk mégegyszer 200-zal suspendelni
+
+112
+00:07:37,740 --> 00:07:41,248
+mert a time az watch.gettime
+
+113
+00:07:41,808 --> 00:07:47,920
+megállítjuk, és akkor assertTrue suspendTime egyenlő totalTime
+
+114
+00:07:47,920 --> 00:07:52,336
+[helyezkedik]
+
+115
+00:07:52,336 --> 00:07:54,330
+Huh, ez dob egy hibát
+
+116
+00:07:54,848 --> 00:08:00,176
+[nézi a kódot] Hm
+
+117
+00:08:00,170 --> 00:08:05,248
+ez nem true-t ad vissza, de akkor meg fogjuk a stopWatchTest.java-t 
+
+118
+00:08:05,240 --> 00:08:08,320
+rákattintunk, és lefuttatjuk 
+
+119
+00:08:08,320 --> 00:08:09,968
+[kattint]
+
+120
+00:08:09,960 --> 00:08:12,976
+lefuttatjuk, mint jUnit teszt
+
+121
+00:08:12,976 --> 00:08:14,970
+jUnit teszt
+
+122
+00:08:14,970 --> 00:08:30,592
+[futtat, vár]
+
+123
+00:08:30,590 --> 00:08:33,696
+[nézi az iFL-t]
+
+124
+00:08:33,690 --> 00:08:37,152
+[motyog]
+
+125
+00:08:37,728 --> 00:08:41,376
+... jUnit...
+
+126
+00:08:41,370 --> 00:08:48,320
+[vár, nézi a monitort]
+
+127
+00:08:48,320 --> 00:08:51,168
+3 db failelt van
+
+128
+00:08:51,160 --> 00:08:55,456
+[nézi az eredményt]
+
+129
+00:08:55,456 --> 00:08:57,450
+[kattint]
+
+130
+00:08:57,450 --> 00:09:08,400
+[nézi az eredményt, lenéz]
+
+131
+00:09:08,400 --> 00:09:10,400
+[kattint]
+
+132
+00:09:10,400 --> 00:09:13,456
+Ühüm, és ha ez mind lefut akkor
+
+133
+00:09:13,456 --> 00:09:15,450
+[kattint] Run
+
+134
+00:09:15,450 --> 00:09:21,728
+[futtat, vár]
+
+135
+00:09:21,728 --> 00:09:23,720
+...Problems
+
+136
+00:09:23,720 --> 00:09:25,720
+[kattint] Debug Shell
+
+137
+00:09:27,152 --> 00:09:31,200
+[kattint] coverage
+
+138
+00:09:32,048 --> 00:09:34,688
+[motyog]
+
+139
+00:09:34,688 --> 00:09:36,680
+[gondolkodik]
+
+140
+00:09:36,680 --> 00:09:41,440
+[kattintgat]
+
+141
+00:09:41,440 --> 00:09:45,904
+[motyog]
+
+142
+00:09:45,900 --> 00:09:50,464
+Debug [kattint]
+
+143
+00:09:50,460 --> 00:09:57,712
+[kattint] Projekt explorer ... bezárjuk ... stopWatchTest
+
+144
+00:09:57,712 --> 00:09:59,710
+[kattint]
+
+145
+00:10:01,056 --> 00:10:04,176
+jUnit teszt... lefuttatjuk
+
+146
+00:10:04,170 --> 00:10:13,360
+[nézi az eredményt]
+
+147
+00:10:13,360 --> 00:10:17,344
+suspendAndStop
+
+148
+00:10:17,340 --> 00:10:27,408
+[olvassa a kódot, javadocot]
+
+149
+00:10:27,400 --> 00:10:30,784
+Aha... [motyog]
+
+150
+00:10:30,780 --> 00:10:38,576
+[futtat, vár]
+
+151
+00:10:38,570 --> 00:10:42,512
+Ja ez itt nem ad assert true-t vissza, akkor ledebuggoljuk
+
+152
+00:10:42,510 --> 00:10:49,872
+[olvassa a kódot] megnézzük, hogy debug módban ... ide rakunk egy assert izét
+
+153
+00:10:49,870 --> 00:10:55,280
+Debugban indítjuk el a ... jUnit tesztet
+
+154
+00:10:55,280 --> 00:11:00,864
+...suspend and stop...
+
+155
+00:11:00,860 --> 00:11:06,320
+számok közötti különbség lesz, ezt fogjuk megnézni
+
+156
+00:11:06,320 --> 00:11:11,104
+[olvassa a kódot] aha
+
+157
+00:11:11,100 --> 00:11:14,624
+[kattint] Variables ... a jobb oldalt
+
+158
+00:11:14,620 --> 00:11:19,600
+Lejjebb húzzuk egy kicsit, mert most fölhúztuk ezt a ... 
+
+159
+00:11:19,600 --> 00:11:21,824
+és akkor suspendTime az 205
+
+160
+00:11:21,820 --> 00:11:24,592
+totalTime az 406
+
+161
+00:11:24,592 --> 00:11:26,590
+Ühüm
+
+162
+00:11:26,590 --> 00:11:58,032
+[gondolkodik, olvassa a kódot]
+
+163
+00:11:58,030 --> 00:11:59,696
+Beszéljél légy szíves (Gergő)
+
+164
+00:11:59,690 --> 00:12:04,256
+Igen, csak pont épp izé, itt a suspendtime-os dolognál 
+
+165
+00:12:04,250 --> 00:12:06,720
+- vagyok
+- Nyugodtan mindent, ami a fejedben van (Gergő)
+
+166
+00:12:06,720 --> 00:12:08,720
+Okés, épp, rendben
+
+167
+00:12:08,720 --> 00:12:14,576
+Nincs mit - Nézem itt hogy 205-öt ad a suspendTime, szóval 
+
+168
+00:12:15,968 --> 00:12:20,528
+itt a suspendnél, menjünk a watch.suspendbe
+
+169
+00:12:20,528 --> 00:12:22,520
+[sóhajt]
+
+170
+00:12:22,520 --> 00:12:27,408
+az visszaadja current millisecund... nem tudom, melyik pillanatban lett megállítva
+
+171
+00:12:27,400 --> 00:12:29,776
+[kattint]
+
+172
+00:12:29,770 --> 00:12:33,472
+Ööö... igen, utána még 
+
+173
+00:12:33,470 --> 00:12:36,416
+[olvassa a kódot] még
+
+174
+00:12:36,410 --> 00:12:39,872
+még... és utána leállítottuk
+
+175
+00:12:39,870 --> 00:12:43,728
+és ugye watch... [motyog] totalTime
+
+176
+00:12:43,720 --> 00:12:47,344
+[köhög] és akkor stopnál
+
+177
+00:12:47,340 --> 00:12:51,072
+[kattint] a stopnál hogyha running
+
+178
+00:12:51,070 --> 00:12:59,680
+[nézi a kódot, javadocot]
+
+179
+00:12:59,680 --> 00:13:03,952
+currentMilliSecet ad vissza, hogyha nem running és nem suspended
+
+180
+00:13:03,950 --> 00:13:06,384
+[olvassa a javadocot]
+
+181
+00:13:06,384 --> 00:13:08,380
+akkor vissza kéne annyit adni, és akkor úgy van, hogy
+
+182
+00:13:08,380 --> 00:13:17,024
+[görget, olvassa a kódot]
+
+183
+00:13:17,020 --> 00:13:20,464
+start and stopTime, reset, split
+
+184
+00:13:20,464 --> 00:13:22,460
+unsplit, suspend
+
+185
+00:13:23,168 --> 00:13:26,832
+[kattint] aha itt a stopTime-mal kéne visszajönni
+
+186
+00:13:26,830 --> 00:13:31,504
+[olvassa a kódot, görget]
+
+187
+00:13:31,504 --> 00:13:33,500
+Aha
+
+188
+00:13:33,500 --> 00:13:36,400
+[köhög]
+
+189
+00:13:36,400 --> 00:13:40,832
+Ühüm, ja igen, és akkor itt kéne csinálnunk egy olyat, hogy 
+
+190
+00:13:40,830 --> 00:13:44,528
+ha, a suspend
+
+191
+00:13:44,520 --> 00:13:49,440
+akkor azt a stopTime-ot kéne visszaadnia, amit itt volt, és hogyha nem suspend, akkor
+
+192
+00:13:49,440 --> 00:13:53,072
+azt az időt, ami most van
+
+193
+00:13:53,070 --> 00:13:55,376
+if [gépel]
+
+194
+00:13:55,370 --> 00:13:59,232
+this. [gondolkodik]
+
+195
+00:13:59,230 --> 00:14:01,904
+runningState =
+
+196
+00:14:01,900 --> 00:14:06,320
+[gépel] state.
+
+197
+00:14:06,320 --> 00:14:10,224
+suspended [gépel]
+
+198
+00:14:10,220 --> 00:14:14,480
+akkor vissza kéne adnia a stopTime-ot
+
+199
+00:14:14,480 --> 00:14:19,616
+[gondolkodik, gépel]
+
+200
+00:14:19,616 --> 00:14:21,610
+akkor ne csináljunk a stopTime-mal semmit
+
+201
+00:14:21,610 --> 00:14:24,912
+[nézi a kódot]
+
+202
+00:14:24,910 --> 00:14:27,408
+vagy ha a runningState az fut
+
+203
+00:14:27,400 --> 00:14:31,088
+[kattint] akkor a stopTime-ot változtatjuk, aha
+
+204
+00:14:31,080 --> 00:14:34,448
+vagy a running, nem, visszajövünk
+
+205
+00:14:34,440 --> 00:14:37,408
+stopTime, jah
+
+206
+00:14:37,400 --> 00:14:40,176
+[görget]
+
+207
+00:14:40,170 --> 00:14:45,232
+ühüm, jah, igen, hogyha suspended, akkor nem csinálunk vele semmit, hogyha 
+
+208
+00:14:45,230 --> 00:14:47,968
+[kattint] state
+
+209
+00:14:47,960 --> 00:14:53,808
+[kattint] ha ez stateRunning, akkor visszaadjuk a stop... akkor beállítjuk a stopTime-ot
+
+210
+00:14:53,800 --> 00:14:57,008
+[kattint] amúgy meg
+
+211
+00:14:57,312 --> 00:15:01,872
+meg ugyanaz marad a stopTime... le kéne futtatnunk újra
+
+212
+00:15:01,872 --> 00:15:03,870
+[kattint]
+
+213
+00:15:03,870 --> 00:15:08,800
+ezt az izét... jUnit tesztet, debuggoljuk újra
+
+214
+00:15:08,800 --> 00:15:10,800
+unit tesztre
+
+215
+00:15:10,800 --> 00:15:16,400
+[nézi az eredményt]
+
+216
+00:15:16,400 --> 00:15:20,912
+Most elkezdtük újra futtatni, átállítottuk hogy akkor adunk vissza, ööö
+
+217
+00:15:20,910 --> 00:15:27,056
+[olvassa a kódot]
+
+218
+00:15:27,056 --> 00:15:29,050
+ühüm
+
+219
+00:15:29,050 --> 00:15:33,280
+[kattint]
+
+220
+00:15:33,280 --> 00:15:35,280
+Na! 
+
+221
+00:15:35,280 --> 00:15:38,144
+Tyű, és a suspendTime az pont jó is lett
+
+222
+00:15:38,140 --> 00:15:43,568
+Annyit csináltuk, hogy a stopWatchba hogyha a runningState az running volt, akkor adjuk 
+
+223
+00:15:43,568 --> 00:15:45,560
+vissza az izét, amúgy meg visszaadjuk mert
+
+224
+00:15:45,560 --> 00:15:48,416
+akkor nem állítunk a stopTime-on semmit, és akkor már 
+
+225
+00:15:48,410 --> 00:15:51,152
+jó is a stopTime
+
+226
+00:15:51,150 --> 00:15:54,592
+[olvassa a jegyzetet]
+
+227
+00:15:54,590 --> 00:15:57,248
+Most kéne interactive fault localization
+
+228
+00:15:57,240 --> 00:16:01,264
+[nézi az iFL-t]
+
+229
+00:16:01,260 --> 00:16:03,664
+load scores... nem tudom, aha
+
+230
+00:16:03,660 --> 00:16:06,064
+[gondolkodik]
+
+231
+00:16:06,064 --> 00:16:08,060
+Királyság
+
+232
+00:16:08,060 --> 00:16:10,060
+Stop watch pont teszt
+
+233
+00:16:10,060 --> 00:16:15,152
+[motyog] az egész configurationt, hogy
+
+234
+00:16:15,150 --> 00:16:19,584
+nem változott-e semmi benne
+
+235
+00:16:19,580 --> 00:16:23,728
+[nézi a jegyzetet]
+
+236
+00:16:23,720 --> 00:16:25,920
+[helyezkedik]
+
+237
+00:16:25,920 --> 00:16:31,216
+[nézi a kódot] ezután lefuttatom ezt az egészet
+
+238
+00:16:31,210 --> 00:16:43,744
+[futtat, vár]
+
+239
+00:16:43,740 --> 00:16:48,160
+Ühüm, most kezdi változtatni az izéket
+
+240
+00:16:48,160 --> 00:16:52,752
+debuggolja az egész, összes tesztet
+
+241
+00:16:52,750 --> 00:17:13,136
+[vár, nézi az eredményt]
+
+242
+00:17:13,130 --> 00:17:14,848
+[helyezkedik]
+
+243
+00:17:14,840 --> 00:17:22,592
+[vár, nézi az eredményt]
+
+244
+00:17:22,590 --> 00:17:27,008
+most compile-ol mindent [kattint]
+
+245
+00:17:27,000 --> 00:17:37,296
+[vár, nézi az eredményt]
+
+246
+00:17:37,296 --> 00:17:39,290
+Aha
+
+247
+00:17:39,290 --> 00:17:46,064
+[vár, lapozza a jegyzetet]
+
+248
+00:17:46,060 --> 00:18:09,136
+[nézi az eredményt, vár]
+
+249
+00:18:09,130 --> 00:18:14,896
+Most még mindig csinálja a teszteseteknek a kiértékelését, és
+
+250
+00:18:14,890 --> 00:18:18,160
+[fogja a fejét]
+
+251
+00:18:18,160 --> 00:18:22,176
+na most a tesztig már eljutottunk, elkezdi kifele írogatni
+
+252
+00:18:22,170 --> 00:18:50,304
+[vár, nézi az eredményt]
+
+253
+00:18:50,300 --> 00:18:54,816
+Na, király [motyog] testSuite
+
+254
+00:18:54,810 --> 00:19:00,208
+[görget, nézi az eredményt]
+
+255
+00:19:00,200 --> 00:19:02,624
+stopWatchTest
+
+256
+00:19:02,620 --> 00:19:06,192
+remélem nem írja ki azt, hogy stopWatchTest
+
+257
+00:19:06,190 --> 00:19:11,616
+[görget]
+
+258
+00:19:11,610 --> 00:19:14,960
+timeTestSuite... aha
+
+259
+00:19:14,960 --> 00:19:19,312
+[nézi az eredményt]
+
+260
+00:19:19,310 --> 00:19:26,512
+Hm, jah hogy ezt valami suite-ba... testSuite-ban nyitja meg
+
+261
+00:19:26,510 --> 00:19:30,464
+[kattint] Project [motyog]
+
+262
+00:19:30,464 --> 00:19:32,460
+Ühüm
+
+263
+00:19:34,240 --> 00:19:37,152
+TimeTestSuite.java
+
+264
+00:19:38,528 --> 00:19:40,816
+[kattint]
+
+265
+00:19:41,472 --> 00:19:43,296
+test suite
+
+266
+00:19:43,290 --> 00:19:51,568
+..StopWatchTest.suite(), király, na az kész is [tapsol]
+
+267
+00:19:53,840 --> 00:19:57,904
+[ásít]
+
+268
+00:19:58,704 --> 00:20:02,816
+Na szóval akkor annyi volt, hogy a stopWatch-nál, amikor
+
+269
+00:20:02,810 --> 00:20:06,752
+a stopnál megállítom az izét, akkor hogyha a futó
+
+270
+00:20:06,750 --> 00:20:09,680
+Izé volt, akkor futó i, akkor 
+
+271
+00:20:09,680 --> 00:20:13,056
+most akkor testStopTime-ot adok vissza, hogyha előtte ha már úgyis leállította
+
+272
+00:20:13,050 --> 00:20:14,560
+a suspend a 
+
+273
+00:20:14,560 --> 00:20:17,664
+a stopTime-ot és a testStopTime-ot nem írom felül ad vissza stopTime-ot
+
+274
+00:20:17,660 --> 00:21:30,720
+[nézelődik, vár, nézi a monitort]
+
+275
+00:21:30,720 --> 00:21:35,072
+[félrenéz]
+
+276
+00:21:35,070 --> 00:22:12,048
+[az ajtó fele néz, vár]
+
+277
+00:22:12,040 --> 00:22:14,896
+[nyújtózkodik]
+
+278
+00:22:14,890 --> 00:23:30,288
+[ásít, vár, hátradől]
+
+279
+00:23:30,288 --> 00:23:32,280
+- Készen vagyok. 
+- Kész? (Gergő)
+
+280
+00:23:32,280 --> 00:23:46,608
+[vár]
+
+281
+00:23:46,600 --> 00:23:50,576
+[mosolyog]
+
+282
+00:23:50,570 --> 00:23:54,256
+[kattint]
+

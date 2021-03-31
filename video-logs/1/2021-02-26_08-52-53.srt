@@ -1,0 +1,549 @@
+﻿1
+00:00:03,000 --> 00:00:04,000
+Egy, kettő.
+
+2
+00:00:04,000 --> 00:00:05,000
+Gergő: Szuper jó. Nagyon jó.
+
+3
+00:00:05,000 --> 00:00:06,000
+Fut.
+Gergő: Szuper jó. Nagyon jó.
+
+4
+00:00:09,000 --> 00:00:12,000
+A másodikon hagytam a tollamat. Kérhetek vagy felszaladjak érte?
+
+5
+00:00:12,000 --> 00:00:14,000
+Gergő: Hozok innen egy tollat.
+
+6
+00:00:15,000 --> 00:00:17,000
+Jó, köszönöm.
+
+7
+00:00:27,000 --> 00:00:29,000
+Gergő: Nézd meg, hogy ez fog-e, légyszi.
+
+8
+00:00:30,000 --> 00:00:32,000
+Gergpő: Majd a kettp között add vissza, légyszi. Jó?
+
+9
+00:00:32,000 --> 00:00:33,000
+Oké.
+
+10
+00:00:33,000 --> 00:00:34,000
+Fog.
+
+11
+00:00:34,000 --> 00:00:35,000
+Gergő: Szuper.
+
+12
+00:00:35,000 --> 00:00:38,000
+Gergő: Jó, ugyan úgy egy bemelegítő kör lenne.
+
+13
+00:00:38,000 --> 00:00:45,000
+Gergő: Továbbra is mindent mondjál ki menet közben az eszedbe jut, hogy szokjátok ezt a hangosan gondolkódos történetet.
+
+14
+00:00:45,000 --> 00:00:50,000
+Gergő: Azt a műveletet kell megoldani, amit ott a papíron látsz.
+
+15
+00:00:50,000 --> 00:00:53,000
+Gergő: Nem használhatsz hozzá számítógépet, mobiltelefont, miegyebet.
+
+16
+00:00:53,000 --> 00:00:56,000
+Gergő: Papíron tollal lehet összeadni meg szorozni.
+
+17
+00:00:57,000 --> 00:00:58,000
+Gergő: Fél órád van maximum erre a feladatra.
+
+18
+00:00:58,000 --> 00:01:04,000
+Gergő: Ugyan úgy pár percenként rád lesz nézve, hogy minden rendben van-e, minden működik.
+
+19
+00:01:05,000 --> 00:01:07,000
+Gergő: És alapvetően igazából ennyi.
+
+20
+00:01:07,000 --> 00:01:12,000
+Gergő: Bármi, ami az eszedbe jut menet közben, mindent mondjál ki. Inkább többet, mint kevesebbet.
+
+21
+00:01:12,000 --> 00:01:13,000
+Rendben.
+
+22
+00:01:14,000 --> 00:01:15,000
+Gergő: Jó, van-e kérdés?
+
+23
+00:01:15,000 --> 00:01:16,000
+Nincs.
+
+24
+00:01:16,000 --> 00:01:18,000
+Nincsen.
+
+25
+00:01:18,000 --> 00:01:19,000
+Gergő: Szuper.
+
+26
+00:01:19,000 --> 00:01:29,000
+Egyes vagyok, ezt odaírtam. Kezdés időpontja 26.-a, 8:54.
+
+27
+00:01:30,000 --> 00:01:31,000
+[sóhajt]
+
+28
+00:01:31,000 --> 00:01:36,000
+[olvassa a leírást]
+
+29
+00:01:37,000 --> 00:01:39,000
+Feladat ugyan az, mint eddig.
+
+30
+00:01:40,000 --> 00:01:42,000
+Itt most van két...
+
+31
+00:01:44,000 --> 00:01:59,000
+Tehát a szorzást hamarabb kell végrehajtani, mint a kivonást és a...gyakorlatilag itt csak kivonás van, esetleg itt majd lesz egy összeadás, mert a végén a 649-ből 694-et azt hamarabb kell elvégezni...
+
+32
+00:01:59,000 --> 00:02:09,000
+a zárójel miatt és az ott egy negatív szám lesz és - meg - az +, tehát...először a szorzás, után a kivonás és összeadás.
+
+33
+00:02:09,000 --> 00:02:10,000
+Ööö.
+
+34
+00:02:15,000 --> 00:02:16,000
+Igen.
+
+35
+00:02:17,000 --> 00:02:18,000
+Jó.
+
+36
+00:02:19,000 --> 00:02:27,000
+Vagy hát igazából most, hogy kicsit bepörögjön az agyam, ha 649-ből 694 az...
+
+37
+00:02:28,000 --> 00:02:31,000
+1...41, 45 talán?
+
+38
+00:02:31,000 --> 00:02:32,000
+45.
+
+39
+00:02:33,000 --> 00:02:35,000
+45 igen.
+
+40
+00:02:35,000 --> 00:02:37,000
+Tehát az -45 lesz.
+
+41
+00:02:37,000 --> 00:02:39,000
+[ír]
+
+42
+00:02:39,000 --> 00:02:45,000
+-45, azt úgy számoltam ki, hogy mennyit kell hozzáadni a 649-hez, hogy 694 legyen.
+
+43
+00:02:46,000 --> 00:02:48,000
+És az 45.
+
+44
+00:02:49,000 --> 00:02:51,000
+Így van, tehát az ott -45 lesz.
+
+45
+00:02:52,000 --> 00:02:54,000
+Úgyhogy - - az +.
+
+46
+00:02:55,000 --> 00:02:56,000
+Tehát.
+
+47
+00:02:58,000 --> 00:02:59,000
++45.
+
+48
+00:03:02,000 --> 00:03:12,000
+Most hogy így akkor ez eltűnjön, a -155+45 az olyan, mint -110.
+
+49
+00:03:12,000 --> 00:03:20,000
+Tehát, hogyha nem -155-öt vonunk ki, csak 45-el kevesebbet [...] hozzáadjuk a végét, tehát fölösleges kivonni, úgyhogy akkor...
+
+50
+00:03:21,000 --> 00:03:29,000
+-110 és [áthúz] ez innentől kezdve már nem fontos.
+
+51
+00:03:30,000 --> 00:03:35,000
+Jó, hát most már nem tudom tovább húzni az időt, a szorzással kell kezdenem.
+
+52
+00:03:35,000 --> 00:03:41,000
+Legyen az, hogy 780*601.
+
+53
+00:03:41,000 --> 00:03:52,000
+Direkt a 601-et írtam hátulra, mert a művelet során ugye felcserélhető és 0-val szorozni meg 1-el szorozni az egyszerűbb, mint 7-el, 8-al.
+
+54
+00:03:52,000 --> 00:03:53,000
+Na tehát.
+
+55
+00:03:53,000 --> 00:04:01,000
+6*780 az 4200...6*8, 48? Az létezik?
+
+56
+00:04:03,000 --> 00:04:04,000
+6*8.
+
+57
+00:04:05,000 --> 00:04:08,000
+Hát 8+8 az 16.
+
+58
+00:04:08,000 --> 00:04:10,000
+16+16, 32.
+
+59
+00:04:10,000 --> 00:04:12,000
+32+16 az 48.
+
+60
+00:04:13,000 --> 00:04:14,000
+Jó, tehát.
+
+61
+00:04:15,000 --> 00:04:20,000
+480+4200 az 4680.
+
+62
+00:04:20,000 --> 00:04:24,000
+4680, [ír] de ezt azért gyorsan ellenőrzöm.
+
+63
+00:04:24,000 --> 00:04:28,000
+4200+480 az 4680. Oké.
+
+64
+00:04:29,000 --> 00:04:32,000
+0-szor ez az 0, 1-szer az pedig...
+
+65
+00:04:35,000 --> 00:04:39,000
+Most ilyenkor 0-val való szorzással nem tudom, hogy tologatni kell-e vagy nem.
+
+66
+00:04:40,000 --> 00:04:41,000
+Bakker.
+
+67
+00:04:41,000 --> 00:04:47,000
+Lehet, hogy jobb lett volna, ha 7-szer szorzom nem 8-al. Na mindegy.
+
+68
+00:04:49,000 --> 00:04:54,000
+Szerintem tologatni kell itt is.
+
+69
+00:04:56,000 --> 00:04:57,000
+Tehát ez akkor...
+
+70
+00:04:59,000 --> 00:05:03,000
+Akkor ide 0-kal írok, 0 0 0.
+
+71
+00:05:03,000 --> 00:05:07,000
+És 1*780 az 780.
+
+72
+00:05:07,000 --> 00:05:14,000
+Tehát az 0 8 7 8 6 4.
+
+73
+00:05:15,000 --> 00:05:17,000
+Igen, ez...
+
+74
+00:05:17,000 --> 00:05:24,000
+Ugye 6*700 az 4200, 60*400 az 42000, 600*700 az 420000.
+
+75
+00:05:24,000 --> 00:05:32,000
+És teljesen valid lett az én eredményem, a 468780.
+
+76
+00:05:32,000 --> 00:05:35,000
+Ezt kell beszorozni 640-el.
+
+77
+00:05:36,000 --> 00:05:41,000
+640*468780.
+
+78
+00:05:44,000 --> 00:05:45,000
+Hát ez...
+
+79
+00:05:46,000 --> 00:05:47,000
+6-szor...
+
+80
+00:05:53,000 --> 00:05:55,000
+Hát mennyi lehet ez? 6-szor...
+
+81
+00:05:57,000 --> 00:05:58,000
+Szerintem...
+
+82
+00:05:58,000 --> 00:06:06,000
+6*0 az 0, 6*8 az 48, 42+4 az 6.
+
+83
+00:06:09,000 --> 00:06:10,000
+Jó.
+
+84
+00:06:10,000 --> 00:06:17,000
+48, akkor az [...] 2-t és 5-öt tovább viszek, 6*6 az 36.
+
+85
+00:06:17,000 --> 00:06:22,000
+36+5 az 1, 4-et tovább viszek.
+
+86
+00:06:22,000 --> 00:06:27,000
+4*6 az 24.
+
+87
+00:06:29,000 --> 00:06:32,000
+24, de 4-et tovább viszem az 28.
+
+88
+00:06:34,000 --> 00:06:35,000
+Hmm.
+
+89
+00:06:36,000 --> 00:06:37,000
+600-szor...
+
+90
+00:06:39,000 --> 00:06:40,000
+ugye...
+
+91
+00:06:41,000 --> 00:06:43,000
+most csak így a nagyságrend miatt.
+
+92
+00:06:46,000 --> 00:06:50,000
+500000*6 az 300000...
+
+93
+00:06:50,000 --> 00:06:52,000
+3000000...
+
+94
+00:06:53,000 --> 00:06:54,000
+300000000.
+
+95
+00:07:00,000 --> 00:07:05,000
+Jó, ez jó, mert 281000000, hogyha itt 0-kat a végére írtam.
+
+96
+00:07:05,000 --> 00:07:07,000
+4-szer ez a szám.
+
+97
+00:07:08,000 --> 00:07:13,000
+4*0 0,4*8 az 32, 2-t leírom 3-at tovább viszem.
+
+98
+00:07:13,000 --> 00:07:21,000
+28+3 az 1, 3-at tovább viszem.
+
+99
+00:07:22,000 --> 00:07:23,000
+Ööö.
+
+100
+00:07:25,000 --> 00:07:27,000
+32+3...
+
+101
+00:07:31,000 --> 00:07:34,000
+32+3 az 5, 3-at tovább viszem.
+
+102
+00:07:35,000 --> 00:07:46,000
+4*6 az...24.
+
+103
+00:07:46,000 --> 00:07:51,000
+3-at tovább viszem, az...7, 2-t viszem utána tovább.
+
+104
+00:07:55,000 --> 00:07:57,000
+4*4 16.
+
+105
+00:07:57,000 --> 00:08:00,000
+De akkor +2 az 18.
+
+106
+00:08:01,000 --> 00:08:02,000
+Oké.
+
+107
+00:08:02,000 --> 00:08:11,000
+És 0-szor az meg 0, tehát 0 0 2 9, ez nem tudom milyen szám volt.
+
+108
+00:08:14,000 --> 00:08:15,000
+Talán 5.
+
+109
+00:08:15,000 --> 00:08:17,000
+Nem tudom.
+
+110
+00:08:17,000 --> 00:08:19,000
+Megnézem újra.
+
+111
+00:08:21,000 --> 00:08:39,000
+4*0 az 0, 4*8 az 32, 3-at tovább viszem, 4*7 az 28, az 31, 3-at tovább viszem, 4*8 az 32, 3-at tovább viszem, akkor 5.
+
+112
+00:08:40,000 --> 00:08:41,000
+Jó.
+
+113
+00:08:41,000 --> 00:08:43,000
+Oké, akkor ez 5-ös volt.
+
+114
+00:08:43,000 --> 00:08:47,000
+6+5 az 1, 1-et tovább viszem.
+
+115
+00:08:48,000 --> 00:08:53,000
+01-et tovább viszek, 01-et tovább viszek, 01-et tovább viszek, 3.
+
+116
+00:08:56,000 --> 00:08:57,000
+Jó. 
+
+117
+00:09:01,000 --> 00:09:03,000
+És igazából itt...
+
+118
+00:09:04,000 --> 00:09:14,000
+Hogy ne bonyolítsam túl a dolgomat, itt ki kell vonni összesen 966-ot.
+
+119
+00:09:16,000 --> 00:09:28,000
+-966 [ír], mert -856-110 az -966. Jó.
+
+120
+00:09:29,000 --> 00:09:44,000
+Tehát akkor ebből a 300019200-ból a -966.
+
+121
+00:09:45,000 --> 00:09:47,000
+Az...
+
+122
+00:09:48,000 --> 00:10:12,000
+az 19000-766 és az pedig...ahhoz kell 4 3 2 234, 909, igen.
+
+123
+00:10:12,000 --> 00:10:19,000
+Tehát az...234 az 18234.
+
+124
+00:10:21,000 --> 00:10:32,000
+300 pont 0 0 1, 18234.
+
+125
+00:10:34,000 --> 00:10:37,000
+De még ezt azért az utolsó műveletet gyorsan lellenőrzöm.
+
+126
+00:10:38,000 --> 00:10:50,000
+Ez a 18234-hoz hozzáadom a 966-ot, az 999 és ugye tolódik, akkor az 1000, 19000. Jó.
+
+127
+00:10:50,000 --> 00:10:52,000
+Ez az eredmény.
+
+128
+00:10:53,000 --> 00:10:57,000
+A 300018234.
+
+129
+00:12:00,000 --> 00:12:17,000
+Még csak annyit csinálok, hogy felírom ezt a...a műveletet, hogy meg tudjam majd, nézni, hogy mi volt a megoldás. Most nem számolom ki számológéppel, csak érdekel, hogy jól számoltam-e.
+
+130
+00:12:17,000 --> 00:12:38,000
+601*780*640 és ebből a 966.
+
+131
+00:17:21,000 --> 00:17:22,000
+Gergő: Kész is?
+
+132
+00:17:22,000 --> 00:17:24,000
+[bólogat]
+
+133
+00:17:24,000 --> 00:17:26,000
+Hát ez most egyszerűbb volt. [nevet]
+
+134
+00:17:27,000 --> 00:17:29,000
+Meg mert megtanultam szorozni közben.
+
+135
+00:17:31,000 --> 00:17:33,000
+Elképzelhető, hogy hibásan.
+
+136
+00:17:35,000 --> 00:17:42,000
+Itt közben én felírtam egy cetlire, hogy ki tudjam számolni majd telefonnal, de ezt mondtam a kamerának is.
+
+137
+00:17:42,000 --> 00:17:43,000
+Gergő: Jó, oké.
+

@@ -1,0 +1,3785 @@
+﻿1
+00:00:00,000 --> 00:00:03,580
+VV: Jó
+
+2
+00:00:03,580 --> 00:00:08,740
+Nah ööh.. Ott van egy papírlap a billentyűzetednél, ha minden igaz.
+
+3
+00:00:08,740 --> 00:00:13,980
+Ööö... A másik oldalán van a feladat. Bocsánat [felnevet]
+
+4
+00:00:13,980 --> 00:00:16,280
+ Ööö... Az a lényeg, hogy itt most látsz egy eclipset.
+
+5
+00:00:16,280 --> 00:00:16,580
+VSZ: Aha
+
+6
+00:00:16,580 --> 00:00:17,830
+VV: Be van bele töltve egy projekt
+
+7
+00:00:17,830 --> 00:00:18,270
+VSZ: Aha
+
+8
+00:00:18,270 --> 00:00:19,400
+VV: Ott van kis leírás is hozzá
+
+9
+00:00:19,400 --> 00:00:20,800
+ tehát körülbelül ez, amit én elmondok
+
+10
+00:00:20,800 --> 00:00:22,480
+Ööhh.. Az lenne a feladat
+
+11
+00:00:22,480 --> 00:00:24,090
+ , hogy egy hibát kéne kijavítani
+
+12
+00:00:24,090 --> 00:00:25,970
+Egy adott teszteset elbukik
+
+13
+00:00:25,970 --> 00:00:28,690
+Le van írva, hogy hogyan tudod lefuttatni a teszteseteket.
+
+14
+00:00:28,690 --> 00:00:31,100
+meg tudod nézni, hogy akkor melyik bukik el
+
+15
+00:00:31,100 --> 00:00:32,940
+de ott amúgy meg is van adva
+
+16
+00:00:32,940 --> 00:00:32,960
+VSZ: Aha
+de ott amúgy meg is van adva
+
+17
+00:00:32,960 --> 00:00:33,320
+VSZ: Aha
+
+18
+00:00:33,320 --> 00:00:35,320
+ VV: ööö.. és az lenne a cél, hogy érd el,
+
+19
+00:00:35,320 --> 00:00:37,320
+hogy ne legyen bukó teszteset
+
+20
+00:00:37,320 --> 00:00:39,320
+az adott projekten belül
+
+21
+00:00:39,320 --> 00:00:42,120
+öö... Erre a feladatra másfél óra van összesen
+
+22
+00:00:42,120 --> 00:00:42,400
+VSZ: Aha
+
+23
+00:00:42,400 --> 00:00:44,730
+VV: Nyílván, ha készen vagy akkor szóljál
+
+24
+00:00:44,730 --> 00:00:46,380
+és továbbra is él az, hogy
+
+25
+00:00:46,380 --> 00:00:48,440
+mindent mondjál ki hangosan, amit csináljál
+
+26
+00:00:48,440 --> 00:00:49,710
+minél részletesebben
+
+27
+00:00:49,710 --> 00:00:51,310
+tehát gyakorlatilag a brain dump
+
+28
+00:00:51,310 --> 00:00:52,690
+kategória
+
+29
+00:00:52,690 --> 00:00:53,720
+ööö...
+
+30
+00:00:53,720 --> 00:00:55,280
+és hát igazából
+
+31
+00:00:55,280 --> 00:00:57,160
+ennyi a történet jó?
+
+32
+00:00:57,160 --> 00:00:58,030
+VSZ: Jó
+
+33
+00:00:58,030 --> 00:00:59,160
+Szerintem nincs
+
+34
+00:00:59,160 --> 00:01:00,510
+VV: Minden benne van az eclipsbe.
+
+35
+00:01:00,510 --> 00:01:02,780
+VSZ: Őő.. Az internetet használhatom?
+
+36
+00:01:02,780 --> 00:01:05,170
+VV: Internetet használhatsz egyetlen egy kérésünk van, hogy
+
+37
+00:01:05,170 --> 00:01:06,540
+ezek ismert projektek
+
+38
+00:01:06,540 --> 00:01:07,580
+ismert hibái
+
+39
+00:01:07,580 --> 00:01:07,820
+VSZ: Aha
+
+40
+00:01:07,820 --> 00:01:11,300
+VV: tehát az eredeti hibanaplóba ne keresd meg légyszíves a hibát
+
+41
+00:01:11,300 --> 00:01:13,080
+ez az egyetlen egy kérésünk van
+
+42
+00:01:13,080 --> 00:01:14,730
+VSZ: Jó, de stackoverflow meg
+
+43
+00:01:14,730 --> 00:01:16,800
+VV: Persze-persze tehát az eredeti issue
+
+44
+00:01:16,800 --> 00:01:18,590
+trackerében ne nézd meg a projektnek, mert ott
+
+45
+00:01:18,590 --> 00:01:19,100
+VV: nyilván VSZ: Jó
+
+46
+00:01:19,100 --> 00:01:21,320
+VV: ott ott van VSZ: Oké ott nem fogom [felnevet]
+
+47
+00:01:21,320 --> 00:01:22,620
+VV: Jó oké
+
+48
+00:01:22,620 --> 00:01:24,460
+VSZ: És de akkor ti láttok mindent, hogy
+
+49
+00:01:24,460 --> 00:01:26,330
+azt, hogy mit csinálok azt nem kell mondanom, mert
+
+50
+00:01:26,330 --> 00:01:28,330
+a képernyőmet is látjátok
+
+51
+00:01:28,330 --> 00:01:29,340
+VV: Öö... VSZ: Vagy azt mondajm?
+
+52
+00:01:29,340 --> 00:01:31,650
+VV: Én azt mondanám, hogy itt bármit mondjál
+
+53
+00:01:31,650 --> 00:01:33,650
+tehát mindent, ami csak eszedbejut jö?
+
+54
+00:01:33,650 --> 00:01:35,070
+VSZ: Jó csak most leírom azt, hogy
+
+55
+00:01:35,070 --> 00:01:35,980
+new ArrayList
+
+56
+00:01:35,980 --> 00:01:37,040
+akk őő..
+
+57
+00:01:37,040 --> 00:01:37,870
+VV: Őő..
+
+58
+00:01:37,870 --> 00:01:39,970
+Én nem szeretnék ilyen utasítást adni, hogy mi az amit
+
+59
+00:01:39,970 --> 00:01:41,970
+nem mert ez befolyásoló tényező VSZ:Jó oké
+
+60
+00:01:41,970 --> 00:01:44,280
+VV: Őő.. Én azt mondanám, hogy mindent-mindent
+
+61
+00:01:44,280 --> 00:01:46,900
+ami eszedbe jut és ahogy gépelsz közbe akár azt is
+
+62
+00:01:46,900 --> 00:01:50,010
+ha nyílván nem tudsz akkor közbe azt is mondhatod, hogy nem tudsz, tehát, hogy VSZ: Jó
+
+63
+00:01:50,010 --> 00:01:55,290
+VSZ: mindent ami  VV: minden ami csak van a fejedbe azt min minthogyha dumpolnád kifele az adatot jó?
+
+64
+00:01:55,290 --> 00:01:57,200
+VSZ: [Kacag] Oké VV: Oké? VSZ:rendben
+
+65
+00:01:57,200 --> 00:01:59,100
+VV: Öö... megint az lesz, hogy magadra hagylak
+
+66
+00:01:59,100 --> 00:02:01,840
+Őő.. és akkor x időnként rátok nézünk
+
+67
+00:02:01,840 --> 00:02:04,180
+hogy minden rendben van-e jó? VSZ: Okés rendben
+
+68
+00:02:04,180 --> 00:02:04,840
+VV: Oké
+
+69
+00:02:04,840 --> 00:02:06,840
+köszi VSZ: akkor kezdem köszi
+
+70
+00:02:08,840 --> 00:02:10,840
+[gépel]
+
+71
+00:02:10,840 --> 00:02:12,490
+[leteszi a tollat]
+
+72
+00:02:12,490 --> 00:02:14,490
+[sóhajt]
+
+73
+00:02:14,490 --> 00:02:18,770
+Hétfő délelőtt bukó teszt tesztosztálya az Apache-nak a [levegőt vesz]
+
+74
+00:02:18,770 --> 00:02:21,650
+common-szában a number utils
+
+75
+00:02:21,650 --> 00:02:27,010
+teszt osztály a tesztesetet a testCreatNumber és a hibejelnség az a
+
+76
+00:02:27,010 --> 00:02:29,650
+xy string
+
+77
+00:02:29,650 --> 00:02:32,770
+számmá alakítása nem megfelelően történik
+
+78
+00:02:32,770 --> 00:02:34,770
+[gépel]
+
+79
+00:02:34,770 --> 00:02:36,770
+Oké
+
+80
+00:02:36,770 --> 00:02:42,010
+[helyezkedik] [sóhajt]
+
+81
+00:02:42,800 --> 00:02:45,920
+hát futtatom az alap ...
+
+82
+00:02:45,920 --> 00:02:47,920
+zöld run gomb mellett
+
+83
+00:02:47,920 --> 00:02:52,160
+lefelé mutató nyilra és a lenyíló menüből válasszuk a taskA jelölésű konfigurációt
+
+84
+00:02:54,160 --> 00:02:56,160
+[sóhajt]
+
+85
+00:02:58,160 --> 00:03:00,160
+[sóhajt]
+
+86
+00:03:00,160 --> 00:03:02,160
+lenyíló menüböl válaszd
+
+87
+00:03:02,160 --> 00:03:04,160
+oké
+
+88
+00:03:04,160 --> 00:03:06,160
+[Kattintás a TaskA tesztre] [futtatja a tesztet]
+
+89
+00:03:08,160 --> 00:03:11,020
+most várom, hogy lefusson
+
+90
+00:03:11,020 --> 00:03:13,020
+ahogy látom ez egy maven project
+
+91
+00:03:13,020 --> 00:03:15,020
+mondjuk ez már az erv main javabol
+
+92
+00:03:15,020 --> 00:03:17,020
+is sejtettem meg a
+
+93
+00:03:17,020 --> 00:03:19,020
+pom ból
+
+94
+00:03:20,410 --> 00:03:24,980
+itt érdekes, mert egyébként a jre system library 1.6 os javat mond
+
+95
+00:03:24,980 --> 00:03:27,530
+de itt az 1.7-es el volt futtatva
+
+96
+00:03:27,530 --> 00:03:29,530
+[köszörüli a torkát]
+
+97
+00:03:29,530 --> 00:03:32,120
+dehát
+
+98
+00:03:32,120 --> 00:03:34,120
+már ennek utánajárok
+
+99
+00:03:34,120 --> 00:03:37,040
+oké itt úgy látom, hogy
+
+100
+00:03:37,040 --> 00:03:39,690
+kitörölte
+
+101
+00:03:45,690 --> 00:03:48,260
+[szemüveget igazít]
+
+102
+00:03:48,260 --> 00:03:50,930
+megkeresem a
+
+103
+00:03:58,930 --> 00:04:01,430
+math ban
+
+104
+00:04:01,430 --> 00:04:03,430
+aa...
+
+105
+00:04:05,430 --> 00:04:07,760
+a NumberUtils.java-t
+
+106
+00:04:07,760 --> 00:04:11,670
+de egyébként a tesztbe kell keresni
+
+107
+00:04:11,670 --> 00:04:13,670
+de erre a
+
+108
+00:04:13,670 --> 00:04:17,770
+a java class föl... értelmezhető a teszt
+
+109
+00:04:21,770 --> 00:04:24,160
+ezeket megnyitom
+
+110
+00:04:24,160 --> 00:04:29,040
+és megkeresem a taskCreatNumber taskot
+
+111
+00:04:29,040 --> 00:04:31,520
+ez constructor
+
+112
+00:04:33,520 --> 00:04:35,920
+testToInt
+
+113
+00:04:35,920 --> 00:04:37,540
+string
+
+114
+00:04:37,540 --> 00:04:39,540
+ez egy viszonylag hosszú fájl úgy hogy
+
+115
+00:04:39,540 --> 00:04:41,540
+ctrl+f el keresek
+
+116
+00:04:41,540 --> 00:04:45,030
+umm... remélem ez működni fog
+
+117
+00:04:46,750 --> 00:04:49,260
+keresm a test [gépel]
+
+118
+00:04:49,260 --> 00:04:54,820
+Creat, de itt van valahol eclipseben egy olyan, hogy látom a
+
+119
+00:04:54,820 --> 00:04:56,820
+a functionokat
+
+120
+00:04:58,200 --> 00:05:00,810
+Windowban talán editor
+
+121
+00:05:05,970 --> 00:05:09,040
+show view és itt van egy olyan, hogy
+
+122
+00:05:09,040 --> 00:05:11,040
+nem project
+
+123
+00:05:11,040 --> 00:05:13,040
+hanem
+
+124
+00:05:13,040 --> 00:05:15,780
+expressions talán
+
+125
+00:05:17,780 --> 00:05:19,780
+hát nem nem nem nem
+
+126
+00:05:20,900 --> 00:05:22,100
+valahol látni akarom a
+
+127
+00:05:26,100 --> 00:05:28,100
+hogy ebbe mik vannak
+
+128
+00:05:28,900 --> 00:05:33,250
+na mindegy inkább rákeresek, hogy ne menjen ezzel az idő, mert nem tudom, hogy hogy
+
+129
+00:05:33,250 --> 00:05:35,250
+szabták ezt a másfél órát
+
+130
+00:05:37,250 --> 00:05:40,050
+testCreate
+
+131
+00:05:40,050 --> 00:05:43,380
+Number volt a függvény neve
+
+132
+00:05:45,380 --> 00:05:47,380
+mert ügye írni nem tudok
+
+133
+00:05:47,380 --> 00:05:49,990
+oké
+
+134
+00:05:49,990 --> 00:05:54,180
+és itt van a testCreateNumber, ami
+
+135
+00:05:58,180 --> 00:06:00,180
+ami azt csinálja, hogyha
+
+136
+00:06:02,180 --> 00:06:04,630
+float vlaueOf igen
+
+137
+00:06:05,650 --> 00:06:07,650
+NumberUtils igen
+
+138
+00:06:07,650 --> 00:06:09,650
+s igne
+
+139
+00:06:37,650 --> 00:06:40,160
+azt akarom megkeresni, hogy
+
+140
+00:06:41,450 --> 00:06:43,820
+1.1 700F
+
+141
+00:06:45,820 --> 00:06:48,540
+azt hol hol csináljuk
+
+142
+00:06:54,460 --> 00:06:56,460
+igen ez gondolom
+
+143
+00:07:00,460 --> 00:07:02,460
+big decimal
+
+144
+00:07:02,460 --> 00:07:04,770
+NumbeUtils createNumber
+
+145
+00:07:14,770 --> 00:07:17,940
+most kíváncsi vagyok, hogy mennyi mennyi ideig futhat ez
+
+146
+00:07:17,940 --> 00:07:19,940
+gondolom
+
+147
+00:07:19,940 --> 00:07:21,940
+most nem tudom mit futtat
+
+148
+00:07:23,050 --> 00:07:26,180
+ebbe lehet keresni? [gépel]
+
+149
+00:07:26,180 --> 00:07:29,570
+[gépel]
+
+150
+00:07:31,010 --> 00:07:33,010
+igen itt már meg is van a hiba
+
+151
+00:07:34,560 --> 00:07:35,870
+őh..
+
+152
+00:07:37,420 --> 00:07:39,420
+azt mondja, hogy a
+
+153
+00:07:40,230 --> 00:07:44,320
+a testCreateNumber-nek a..  igen ezt már meg is találtam
+
+154
+00:07:44,320 --> 00:07:46,320
+talán
+
+155
+00:07:54,320 --> 00:07:56,320
+[gépel]
+
+156
+00:07:57,700 --> 00:08:03,090
+őh.. Check taht the code fails to create a valid number when procedeed by createNumber
+
+157
+00:08:11,090 --> 00:08:13,090
+ühüm
+
+158
+00:08:27,090 --> 00:08:27,810
+ahaa
+
+159
+00:08:33,460 --> 00:08:36,560
+ez egy másik fail de ez engem annyira már nem érdekel
+
+160
+00:08:36,560 --> 00:08:38,560
+itt van notepad esetleg?
+
+161
+00:08:38,560 --> 00:08:40,560
+[gépel]
+
+162
+00:08:42,560 --> 00:08:45,280
+notepad++ király [gépel]
+
+163
+00:08:47,280 --> 00:08:49,170
+egyébként én a munkámban én
+
+164
+00:08:49,170 --> 00:08:51,170
+linuxot használok többnyire
+
+165
+00:08:51,170 --> 00:08:53,170
+így kicsit szokatlan ez a
+
+166
+00:08:53,170 --> 00:08:55,170
+környezet
+
+167
+00:08:55,170 --> 00:08:57,170
+dee
+
+168
+00:08:57,170 --> 00:08:59,520
+szerintem ez nem lesz probléma
+
+169
+00:08:59,520 --> 00:09:01,520
+[gépel]
+
+170
+00:09:01,520 --> 00:09:04,130
+[gépel] most újra rákeresek, hogy
+
+171
+00:09:05,460 --> 00:09:07,460
+melyik teszt failelet el
+
+172
+00:09:09,460 --> 00:09:10,610
+őh...
+
+173
+00:09:12,610 --> 00:09:15,200
+igen és itt tört
+
+174
+00:09:15,200 --> 00:09:17,900
+tént a failel
+
+175
+00:09:52,700 --> 00:09:54,700
+ühüm..
+
+176
+00:09:55,660 --> 00:09:58,720
+ezt nem tudom pontsoan, hogy mit jelent
+
+177
+00:09:58,720 --> 00:10:00,720
+ez a kettő dolog
+
+178
+00:10:00,720 --> 00:10:02,720
+ránézek erre a függvényre, hogy ez
+
+179
+00:10:02,720 --> 00:10:04,720
+mit csinál
+
+180
+00:10:06,720 --> 00:10:09,660
+ez egy számot ad vissza stringbe és
+
+181
+00:10:09,660 --> 00:10:12,970
+szám formátum exceptiont dob
+
+182
+00:10:14,260 --> 00:10:17,640
+ha a string 0 akkor visszatér, ha üres
+
+183
+00:10:17,640 --> 00:10:19,640
+akkor visszatér
+
+184
+00:10:19,640 --> 00:10:21,980
+ha string startsWith
+
+185
+00:10:21,980 --> 00:10:24,880
+-- akkor a return null
+
+186
+00:10:24,880 --> 00:10:26,670
+ühüm..
+
+187
+00:10:26,670 --> 00:10:28,670
+ez azért érdekes
+
+188
+00:10:28,670 --> 00:10:30,670
+mert akkor
+
+189
+00:10:30,670 --> 00:10:32,670
+a mi függvényünk
+
+190
+00:10:32,670 --> 00:10:34,670
+242. sorban
+
+191
+00:10:34,670 --> 00:10:36,670
+ez itt
+
+192
+00:10:36,670 --> 00:10:38,670
+nullával fog visszatérni
+
+193
+00:10:44,670 --> 00:10:46,670
+pontosabban nullal
+
+194
+00:10:46,670 --> 00:10:48,980
+check that the code fails
+
+195
+00:10:48,980 --> 00:10:51,900
+azt checkoljuk, hogy a kód failel
+
+196
+00:10:51,900 --> 00:10:53,900
+egy új valid szám
+
+197
+00:10:53,900 --> 00:10:56,500
+csinálása közben
+
+198
+00:10:56,500 --> 00:10:58,500
+proceeded by
+
+199
+00:11:10,500 --> 00:11:13,940
+tehát itt az az elvárt viselkedés, hogy
+
+200
+00:11:13,940 --> 00:11:15,940
+hogy őő...
+
+201
+00:11:15,940 --> 00:11:17,940
+hogy a kód faileljen
+
+202
+00:11:19,940 --> 00:11:21,940
+amikor kettő izével
+
+203
+00:11:21,940 --> 00:11:25,020
+ilyen kötőjellel keződik nem eggyel
+
+204
+00:11:33,020 --> 00:11:36,450
+ez egyébként csak azért érdekes
+
+205
+00:11:36,450 --> 00:11:40,830
+testCreateNumber a lot of things can go wrong
+
+206
+00:11:40,830 --> 00:11:42,570
+Jó
+
+207
+00:11:42,570 --> 00:11:45,620
+[mosolyog] ez így jó komment
+
+208
+00:11:45,620 --> 00:11:46,370
+um...
+
+209
+00:11:49,190 --> 00:11:51,490
+igen ott azzal nem is volt probléma
+
+210
+00:11:55,490 --> 00:11:57,080
+de érdekes egyébként, hogy
+
+211
+00:11:58,880 --> 00:12:00,520
+már megint elvesztettem azt amit
+
+212
+00:12:00,520 --> 00:12:02,020
+az előbb találtam
+
+213
+00:12:12,020 --> 00:12:14,020
+azt mondja, hogy
+
+214
+00:12:35,580 --> 00:12:37,580
+itt meghívjuk a createNumber-t
+
+215
+00:12:37,580 --> 00:12:40,910
+igen itt az elvárt er.. működés az, hogy
+
+216
+00:12:41,990 --> 00:12:44,340
+mivel a stringünk nem null
+
+217
+00:12:44,790 --> 00:12:47,470
+azért továbbjön, mivre a stringünk nem
+
+218
+00:12:47,470 --> 00:12:50,040
+üres StringUtils.isBlank()
+
+219
+00:12:50,780 --> 00:12:53,820
+de a miénk nem tehát továbbjön
+
+220
+00:12:53,820 --> 00:12:54,900
+a string
+
+221
+00:12:54,900 --> 00:12:56,900
+az ezzel kezdődik
+
+222
+00:12:58,900 --> 00:13:00,900
+[kattint] tehát akkor itt
+
+223
+00:13:00,900 --> 00:13:02,900
+return null
+
+224
+00:13:02,900 --> 00:13:06,840
+[kattint] és még mivel ez nem dobott hibát
+
+225
+00:13:14,600 --> 00:13:18,820
+igen itt még nézi az utolsó karaktert jó ezután nem annyira érdekes
+
+226
+00:13:37,990 --> 00:13:40,660
+itt meg nem hasalt el ugyan erre a számra
+
+227
+00:13:45,490 --> 00:13:46,980
+hiabejelnség a
+
+228
+00:13:46,980 --> 00:13:53,510
+--1.1E 700-as string számmá alakítása nem megfelelően történik
+
+229
+00:13:59,510 --> 00:14:01,510
+ühüm..
+
+230
+00:14:02,500 --> 00:14:05,160
+nem megfelelően történik, de hát ő..
+
+231
+00:14:08,870 --> 00:14:10,870
+én meg azt látom, hogy azért failelt el
+
+232
+00:14:11,650 --> 00:14:14,500
+mert akkor itt lehet, hogy itt ez a probléma, dehogy
+
+233
+00:14:18,030 --> 00:14:22,190
+hogy itt visszatérünk nullal és azért [kattint]
+
+234
+00:14:22,190 --> 00:14:24,190
+ez a fail ez
+
+235
+00:14:25,970 --> 00:14:26,720
+működik
+
+236
+00:14:28,720 --> 00:14:33,700
+if message null AssertionError ...
+
+237
+00:14:33,700 --> 00:14:36,930
+most egyébként ezzel a hibaüzenettel küldi a
+
+238
+00:14:38,030 --> 00:14:40,030
+expected number
+
+239
+00:14:40,030 --> 00:14:42,030
+format
+
+240
+00:14:45,650 --> 00:14:47,650
+hát itt
+
+241
+00:14:51,650 --> 00:14:53,650
+...
+
+242
+00:14:55,650 --> 00:14:58,860
+expexted number format exceptiont dobott itt
+
+243
+00:14:58,860 --> 00:15:00,860
+ügye azt az üzenetet látom
+
+244
+00:15:00,860 --> 00:15:03,530
+amit itt dobunk a failel
+
+245
+00:15:05,120 --> 00:15:07,120
+az alatta már nem érdekes
+
+246
+00:15:31,120 --> 00:15:33,650
+hát egyébként itt
+
+247
+00:15:41,650 --> 00:15:42,910
+szerintem
+
+248
+00:15:42,910 --> 00:15:49,360
+lehet throw new NumberFormatException kellene ide is  ez is egy NumberFormatException
+
+249
+00:15:53,360 --> 00:15:56,860
+most én azt látom, hogy az lehet itt a probléma, hogy
+
+250
+00:15:56,860 --> 00:15:58,370
+ügye a
+
+251
+00:15:58,370 --> 00:16:03,260
+a stringünk -- al kezdődik és nem kezdődhet
+
+252
+00:16:04,910 --> 00:16:09,420
+pontosabban ha -- al kezdődik nullal térünk vissza és a tezstben
+
+253
+00:16:09,420 --> 00:16:14,040
+amikor ennek hibát kéne dobnia, hogy a catch elkapja
+
+254
+00:16:14,040 --> 00:16:18,130
+dee.. nem dobunk hibát, mert visszatérünk nullal
+
+255
+00:16:18,130 --> 00:16:21,210
+tehát szerintem annyit kéne csinálni, hogy a
+
+256
+00:16:22,320 --> 00:16:24,000
+a createNumberben
+
+257
+00:16:25,280 --> 00:16:29,360
+itt egy NumberFormatExceptiont kéne dobnunk
+
+258
+00:16:31,360 --> 00:16:33,360
+[gépel]
+
+259
+00:16:33,360 --> 00:16:36,120
+őő... , hogy ne jusson el a failelhez
+
+260
+00:16:37,010 --> 00:16:38,850
+csak itt nem az lesz aa..
+
+261
+00:16:40,450 --> 00:16:42,450
+hogy ő..
+
+262
+00:16:43,560 --> 00:16:46,840
+hogy a balnk string is not a vaild number, hanem mondjuk azt, hogy
+
+263
+00:16:46,840 --> 00:16:50,740
+[gépel] number starting with [gépel]
+
+264
+00:16:50,740 --> 00:16:53,410
+[gépel] -- is
+
+265
+00:16:53,410 --> 00:16:55,410
+[géple] not
+
+266
+00:16:55,410 --> 00:16:57,410
+valid [gépel]
+
+267
+00:16:57,410 --> 00:16:59,090
+[gépel] ...
+
+268
+00:16:59,090 --> 00:17:03,950
+Number
+
+269
+00:17:03,950 --> 00:17:06,620
+oo...
+
+270
+00:17:10,240 --> 00:17:13,690
+szerintem ez így jó lehet akkor erre rámentek
+
+271
+00:17:14,920 --> 00:17:18,210
+és akkor msot újra újra futattom
+
+272
+00:17:18,210 --> 00:17:20,820
+nem lehet csak ezt az egy tesztesetet futattni?
+
+273
+00:17:22,610 --> 00:17:24,610
+ezt a testCreatNumbert
+
+274
+00:17:27,440 --> 00:17:28,720
+biztos lehet valahogy
+
+275
+00:17:30,010 --> 00:17:31,330
+őő...
+
+276
+00:17:35,330 --> 00:17:39,120
+milyen fancy lenne, hogyha itt lenne egy olyan, hogy run this tescase
+
+277
+00:17:40,630 --> 00:17:41,920
+mondjuk azért
+
+278
+00:17:43,920 --> 00:17:46,370
+lehet, hogy egyébként
+
+279
+00:17:46,370 --> 00:17:48,930
+ezt itt tudom futtatni
+
+280
+00:17:50,930 --> 00:17:52,930
+run as
+
+281
+00:17:54,930 --> 00:17:56,470
+hát ezt most kipróbálom
+
+282
+00:17:56,470 --> 00:18:03,250
+öö... itt jobbklikkeltem a NumberUtilsTest pont javan és a..  as JUnit
+
+283
+00:18:03,250 --> 00:18:05,750
+most megpróbálom, hogy az alap konfigurációval mit csinál
+
+284
+00:18:06,410 --> 00:18:09,240
+hát itt most az eclipse a tűzfalon szeretne átmenni
+
+285
+00:18:09,240 --> 00:18:11,240
+én engédelyezem neki a
+
+286
+00:18:14,340 --> 00:18:17,130
+az elérést vagy legalább is megpróbálom
+
+287
+00:18:17,130 --> 00:18:19,030
+lehet le cacnel-ezem
+
+288
+00:18:19,030 --> 00:18:21,030
+most nem reagál semmire
+
+289
+00:18:25,030 --> 00:18:27,400
+na hát most nulla
+
+290
+00:18:27,400 --> 00:18:29,400
+error, 0 failure lett
+
+291
+00:18:29,400 --> 00:18:33,070
+tehát akkor futtatom az egész TaskA-t
+
+292
+00:18:34,160 --> 00:18:36,160
+és megnézzük, hogy a testCrerateNumber-re
+
+293
+00:18:36,160 --> 00:18:38,160
+most akkor lesz-e hiba
+
+294
+00:18:38,160 --> 00:18:40,160
+őő...
+
+295
+00:18:41,690 --> 00:18:43,780
+De szerintem megoldottam
+
+296
+00:18:47,490 --> 00:18:49,490
+Most várok, hogy fusson
+
+297
+00:18:53,490 --> 00:18:56,710
+Igazábol itt ügye, hogy ha megnézzük itt az volt, hogy itt egy
+
+298
+00:18:56,710 --> 00:19:01,650
+egy direkt egy rosszat csináltak és nem nem dobott creataNumber exceptiont,
+
+299
+00:19:01,650 --> 00:19:04,300
+hanem visszatért nullal ezért rá tudott menni a fail-re
+
+300
+00:19:05,600 --> 00:19:09,070
+de így, hogy dobtunk exceptiont így a catch-ben elkapódik
+
+301
+00:19:09,070 --> 00:19:12,080
+ és ott volt a az volt az a.. elvárt
+
+302
+00:19:12,790 --> 00:19:14,450
+viselkedés, tehát
+
+303
+00:19:15,430 --> 00:19:17,430
+szerintem ez így talán
+
+304
+00:19:17,430 --> 00:19:19,430
+még jó is lesz
+
+305
+00:19:26,670 --> 00:19:31,280
+VV: ... VSZ: Végig beszéltem most futtam szerintem megoldottam VV: készen vagy?
+
+306
+00:19:31,280 --> 00:19:35,080
+nincs bukó teszt ezek szerint VSZ: őő.. most futtatom ő.. igazából
+
+307
+00:19:35,080 --> 00:19:39,000
+nem nem tudom mondjam e, hogy szerintem mi a megoldás vagy ne, dehogy
+
+308
+00:19:40,210 --> 00:19:44,240
+VV: Igazából, ha nincs bukó teszt az a kívánatos VSZ: Itt az előbb ezt a
+
+309
+00:19:44,240 --> 00:19:46,240
+ez nem ismerem annyira
+
+310
+00:19:46,240 --> 00:19:48,240
+az eclipset, de itt a 75-ből 75
+
+311
+00:19:48,240 --> 00:19:50,240
+lefutott csak a NumberUtils
+
+312
+00:19:50,240 --> 00:19:53,850
+teszten és 0 error vagy fail VV: de..
+
+313
+00:19:53,850 --> 00:19:56,990
+itt futattad ügye azzal a konfiggal, ami a lapon is volt
+
+314
+00:19:56,990 --> 00:19:58,990
+VSZ: most most azzal futtatom igen ez
+
+315
+00:19:58,990 --> 00:20:02,620
+ez a ez egy jobb klikkes a  project exploreren
+
+316
+00:20:02,620 --> 00:20:04,620
+VV: az.. az a baj, hogy az máshogy futtatja
+
+317
+00:20:04,620 --> 00:20:06,620
+VSZ: Máshogy futtatja  VV: Ez nyilvános projekt
+
+318
+00:20:06,620 --> 00:20:08,620
+és az máshogy futtatja VSZ: jó
+
+319
+00:20:08,620 --> 00:20:12,420
+Most futtatom a TakA configurationnal is
+
+320
+00:20:25,320 --> 00:20:27,320
+De tényleg végig beszéltam
+
+321
+00:20:27,320 --> 00:20:29,320
+VV: ühüm oké
+
+322
+00:20:43,320 --> 00:20:47,320
+[gépel]
+
+323
+00:20:57,320 --> 00:20:59,320
+nah most indulnak a tes.. tesztek
+
+324
+00:21:04,640 --> 00:21:06,960
+csak úgy ilyen gyorsan nem fogom látni, de a
+
+325
+00:21:20,960 --> 00:21:24,080
+VV: megnézem a többieket mindjárt visszajövök VSZ: Oké
+
+326
+00:21:28,080 --> 00:21:33,570
+Most az toStringStyleConcurrencyTest fut
+
+327
+00:21:33,570 --> 00:21:35,570
+vagy nem tudom mi
+
+328
+00:21:35,570 --> 00:21:42,140
+fut. huhu nekem ez a lang3Testben van lang3...
+
+329
+00:21:44,770 --> 00:21:46,770
+oké it a very ..
+
+330
+00:21:46,770 --> 00:21:51,080
+lang3.. lang3.StringUtils teszt ....
+
+331
+00:21:52,770 --> 00:21:54,400
+tesztnél járunk és a
+
+332
+00:21:54,400 --> 00:21:56,800
+nem tudom milyen sorrendben futtatja, de akkor a
+
+333
+00:21:56,800 --> 00:21:59,000
+a matekon túlmentünk
+
+334
+00:22:00,420 --> 00:22:02,420
+vagy kihagyta
+
+335
+00:22:06,420 --> 00:22:08,420
+nah mindjárt kiderül
+
+336
+00:22:38,140 --> 00:22:41,060
+seem not found én eddig nagyon örülök
+
+337
+00:22:44,640 --> 00:22:46,640
+és egyébként átdobott egy másik
+
+338
+00:22:46,640 --> 00:22:48,640
+teszt is
+
+339
+00:22:48,640 --> 00:22:51,340
+aa... testParseSync
+
+340
+00:22:52,140 --> 00:22:54,140
+nem tudom, hogy azt is ki kell-e javítanom
+
+341
+00:22:55,680 --> 00:22:58,420
+szerintem nem, mert itt a hibajelenség az a
+
+342
+00:22:58,420 --> 00:23:02,160
+string számmá alakítása nem megfelelően történik volt
+
+343
+00:23:02,160 --> 00:23:05,540
+de hát ügye ez nem is egy valid string volt
+
+344
+00:23:06,750 --> 00:23:08,750
+tehát itt az volt az elvárás, hogy
+
+345
+00:23:08,750 --> 00:23:10,750
+exception dobódjon
+
+346
+00:23:10,750 --> 00:23:12,750
+nem tudom szerintem túlragoztam
+
+347
+00:23:13,950 --> 00:23:17,000
+hogy ha ez volt a megoldás, ha nem akkor gondolkoznunk kell tovább
+
+348
+00:23:18,660 --> 00:23:20,660
+őő...
+
+349
+00:23:20,660 --> 00:23:22,660
+oké
+
+350
+00:23:23,740 --> 00:23:26,290
+itt ebben vannak hibák, de
+
+351
+00:23:26,290 --> 00:23:28,290
+mégegyszer
+
+352
+00:23:28,290 --> 00:23:30,290
+[gépel] testCreate [gépel]
+
+353
+00:23:30,290 --> 00:23:32,290
+[gépel] number
+
+354
+00:23:32,290 --> 00:23:34,290
+not found backward
+
+355
+00:23:34,290 --> 00:23:36,290
+VV: a task még nem jó
+
+356
+00:23:36,290 --> 00:23:37,440
+VV: nem jó?
+
+357
+00:23:37,440 --> 00:23:40,670
+VV: hát ha nem futnak le rendesen .... exception
+
+358
+00:23:40,670 --> 00:23:42,670
+VSZ: de ez ez másik
+
+359
+00:23:42,670 --> 00:23:44,670
+VV: őő... az az igazság, hogy
+
+360
+00:23:44,670 --> 00:23:47,920
+igen előfordult, hogy bukik másik eset sa lényeg, hogy
+
+361
+00:23:47,920 --> 00:23:51,140
+vagy legyen mindegyik kijavítva vagy letelik az idő jó?
+
+362
+00:23:51,140 --> 00:23:53,140
+VSZ: ühüm jó VV: úgyhogy addig
+
+363
+00:23:53,140 --> 00:23:55,500
+próbáld azt, hogy újrafuttatod
+
+364
+00:23:55,500 --> 00:23:57,500
+őő konkrétan itt ezzel a
+
+365
+00:23:57,500 --> 00:23:59,500
+ahogy a lapon is van, hogy ezt a zöld nyíl mellett
+
+366
+00:23:59,500 --> 00:24:02,010
+lenyitod és a megfelelő
+
+367
+00:24:02,010 --> 00:24:04,010
+azt elindítod
+
+368
+00:24:04,010 --> 00:24:08,460
+VSZ: Jó most még először megnézem ennek a futásnak az eredményét VV: jó ezt csak azért mondom, mert előfordul, hogy
+
+369
+00:24:08,460 --> 00:24:11,300
+VSZ: Jó VV: kétszeri futtatásnál valami beakad neki
+
+370
+00:24:11,300 --> 00:24:14,920
+VSZ: Oké VV: mert te ügye elindítottad a Junitot is ami lehet ott egy kicsit bekavart
+
+371
+00:24:14,920 --> 00:24:17,420
+VSZ: Jó VV: Ő... Próbáld meg így mégegyszer
+
+372
+00:24:17,420 --> 00:24:21,580
+és nyílván visszafogok majd jönni
+
+373
+00:24:23,580 --> 00:24:25,580
+VSZ: Itt ő...
+
+374
+00:24:25,580 --> 00:24:30,890
+ügye nem  itt úgy látom a logban, hogy nem ez látszódik, hanem elvileg ez a
+
+375
+00:24:30,890 --> 00:24:40,920
+[gépel] NumberU.. nem NumberUtilsTest
+
+376
+00:24:40,920 --> 00:24:42,920
+found
+
+377
+00:24:42,920 --> 00:24:45,620
+és itt 75 run tehát elvileg jó
+
+378
+00:24:45,620 --> 00:24:49,730
+akkor ez ki lett javítva, akkor most megpróbálom újrafuttatni
+
+379
+00:24:49,730 --> 00:24:51,730
+ő...
+
+380
+00:24:53,730 --> 00:24:55,730
+hátha
+
+381
+00:24:55,730 --> 00:24:57,730
+hátha most így jó lesz
+
+382
+00:24:57,730 --> 00:25:02,210
+de hogyha nem akkor keresem ott is, hogy mi lehet a hiba, viszont
+
+383
+00:25:04,210 --> 00:25:06,210
+az valmi date-es volt  úgyhogy
+
+384
+00:25:06,210 --> 00:25:09,710
+várjál a rendszer idő 21 2 22
+
+385
+00:25:09,710 --> 00:25:12,640
+10 11 AM
+
+386
+00:25:12,640 --> 00:25:15,800
+szerintem jónak kéne lennie
+
+387
+00:25:17,800 --> 00:25:19,800
+[kinyit egy üveget]
+
+388
+00:25:21,800 --> 00:25:25,800
+[iszik]
+
+389
+00:25:25,800 --> 00:25:27,800
+[bezárja az üveget]
+
+390
+00:25:29,800 --> 00:25:31,800
+[maszkot igazít]
+
+391
+00:25:31,800 --> 00:25:37,680
+[helyezkedik] szóval úgy láttam, hogy .. most így gondolkodva , hogy ez egy date-es
+
+392
+00:25:37,680 --> 00:25:39,680
+teszt
+
+393
+00:25:39,680 --> 00:25:41,940
+ő.. eset ő... romlott el
+
+394
+00:25:43,450 --> 00:25:51,500
+dátum hát itt a rendszeridőt úgy látom, hogy jól van beállítva megnézem majd azt a tesztesetet is, mert most így nem tudom  melyik melyik bukott el
+
+395
+00:25:57,500 --> 00:26:00,800
+Ő... De az is, lehet, hogy másodjára így akkor ó lesz
+
+396
+00:26:06,660 --> 00:26:12,990
+mert igazából az meg ügye következhet a.. ez a hiba abból, amit már itt az előbb mondtam, hogy hogy a...
+
+397
+00:26:14,260 --> 00:26:19,940
+1.7 es jvaval buildel, de itt az eclipsben a jre az az 1.6
+
+398
+00:26:19,940 --> 00:26:21,940
+az őő..
+
+399
+00:26:23,720 --> 00:26:27,550
+nem tudom, hogy okozhatja-e ezt, hogy a másik teszteset elszállt
+
+400
+00:26:28,370 --> 00:26:30,110
+minden esetre számora ez
+
+401
+00:26:30,110 --> 00:26:32,110
+ez szerintem érdekes
+
+402
+00:26:32,110 --> 00:26:34,110
+mert ez, ha minden igaz ez azt
+
+403
+00:26:34,110 --> 00:26:35,800
+azt mondja, hogy
+
+404
+00:26:35,800 --> 00:26:37,800
+most melyik
+
+405
+00:26:37,800 --> 00:26:45,100
+jdk van hasznáva a program futtatásához, fordításához, futtatásához stb...
+
+406
+00:26:46,210 --> 00:26:47,440
+de itt ügye
+
+407
+00:26:47,440 --> 00:26:52,160
+azt is el tudom képzelni, hogy ezt használja valami a projectnek a
+
+408
+00:26:52,160 --> 00:26:54,160
+jre jét
+
+409
+00:26:54,160 --> 00:26:56,160
+na mindegy jönnek a tesztek
+
+410
+00:27:10,160 --> 00:27:12,520
+nagyon kíváncsian várom
+
+411
+00:27:22,520 --> 00:27:23,550
+eddig jó
+
+412
+00:27:26,890 --> 00:27:29,260
+0 failures 0 failure
+
+413
+00:27:34,580 --> 00:27:38,480
+Can't test IS_JAVA  is java value.... ott volt valami
+
+414
+00:27:42,340 --> 00:27:45,370
+Na itt már a timenál vagyunk úgyhogy
+
+415
+00:27:45,370 --> 00:27:50,860
+FastDateFormatTest fast bocsánat
+
+416
+00:27:52,220 --> 00:27:54,220
+FastDateFormatTest
+
+417
+00:27:54,220 --> 00:27:56,330
+Reméljük ez sem failel
+
+418
+00:27:58,330 --> 00:28:01,010
+de ha igen, akkor megkeresem, hogy mi az oka
+
+419
+00:28:11,010 --> 00:28:13,980
+Ahhjjj...
+
+420
+00:28:14,850 --> 00:28:18,430
+Itt van egy hibája, azt mondja, hogy a
+
+421
+00:28:20,000 --> 00:28:24,140
+FastDateFormatTest-nek a testParseSync
+
+422
+00:28:24,140 --> 00:28:27,860
+je az did not complete tasks és itt a
+
+423
+00:28:27,860 --> 00:28:32,340
+nem is a measureTime ami lehet a fontos
+
+424
+00:28:32,340 --> 00:28:35,090
+failed ... invoke invok invoke
+
+425
+00:28:35,090 --> 00:28:37,330
+blablabla
+
+426
+00:28:37,330 --> 00:28:40,430
+FastDateFormatTest pont java
+
+427
+00:28:42,430 --> 00:28:44,430
+és itt a
+
+428
+00:28:44,430 --> 00:28:46,590
+testParseSync
+
+429
+00:28:46,590 --> 00:28:48,590
+[kattint]
+
+430
+00:28:50,850 --> 00:28:58,820
+long fdfTime egyenlő measureTime firmatter FastDateFormatter pont getInstance
+
+431
+00:29:00,400 --> 00:29:05,630
+pattern szóval .... ez egy YY mm dd
+
+432
+00:29:05,630 --> 00:29:07,630
+tj
+
+433
+00:29:07,630 --> 00:29:10,100
+[motyogva olvas]
+
+434
+00:29:10,100 --> 00:29:13,700
+jó ez így jól néz ki, bár ez a Z a végén ezt.. még nem találkoztam
+
+435
+00:29:19,700 --> 00:29:22,320
+humm..
+
+436
+00:29:24,320 --> 00:29:26,830
+most lehet, hogy az a baj, hogy ezt itt futtatam
+
+437
+00:29:26,830 --> 00:29:30,850
+mert JUnit tesztet nem
+
+438
+00:29:32,850 --> 00:29:35,090
+[szemüveget igazít]
+
+439
+00:29:35,090 --> 00:29:37,240
+nem tudom
+
+440
+00:29:40,900 --> 00:29:44,780
+did not complete tasks measureTime
+
+441
+00:29:46,780 --> 00:29:48,780
+[kattint]
+
+442
+00:29:52,780 --> 00:29:54,780
+az baj
+
+443
+00:29:56,780 --> 00:30:03,660
+pool pon awaitTermination ahha shoutDownNow
+
+444
+00:30:05,460 --> 00:30:09,650
+assertEquals failures pont get
+
+445
+00:30:12,900 --> 00:30:14,900
+itt van egy failing
+
+446
+00:30:14,900 --> 00:30:17,330
+azért mert
+
+447
+00:30:19,040 --> 00:30:25,040
+wait termination 20..  20 másodpercig vár.. várjál
+
+448
+00:30:25,040 --> 00:30:28,420
+ezt nem tudom pontosan, hogy ez a pool micsoda
+
+449
+00:30:30,270 --> 00:30:32,270
+ez egy
+
+450
+00:30:34,270 --> 00:30:36,270
+[helyezkedik]
+
+451
+00:30:36,270 --> 00:30:41,790
+ExecutorService és awaitTermination 20
+
+452
+00:30:41,790 --> 00:30:52,690
+aa.. secondot vár és ha 20 second aa.. igen, akkor leállítja [olvassa a kódot] Did not complete tasks
+
+453
+00:30:54,690 --> 00:30:56,690
+ez valmi ciklus lehet
+
+454
+00:30:56,690 --> 00:30:58,690
+[kattint]
+
+455
+00:30:58,690 --> 00:31:00,690
+több szálon futtatva
+
+456
+00:31:00,690 --> 00:31:02,850
+őő...
+
+457
+00:31:02,850 --> 00:31:04,850
+[kattint]
+
+458
+00:31:04,850 --> 00:31:11,100
+egyébként én úgy emlékszem, hogy ez amikor legelőször futtatam akkor már ez a teszteset elhasalt
+
+459
+00:31:11,100 --> 00:31:15,330
+pontosabban nem nem csak a number format exception-ös
+
+460
+00:31:15,330 --> 00:31:19,140
+probléma volt vele, mert ez már akkor is elvolt romolva
+
+461
+00:31:19,140 --> 00:31:21,140
+őő...
+
+462
+00:31:29,140 --> 00:31:31,300
+itt igazából
+
+463
+00:31:31,300 --> 00:31:35,040
+[kattint]
+
+464
+00:31:35,040 --> 00:31:39,000
+measureTime formatter getIsntance pattern
+
+465
+00:31:39,000 --> 00:31:42,340
+measureTime
+
+466
+00:31:45,400 --> 00:31:53,950
+ennek mi lenne a funkciója it az idő mérése formatter és getInstance pattern
+
+467
+00:31:55,950 --> 00:31:58,970
+formatter ez van
+
+468
+00:32:00,970 --> 00:32:02,970
+....
+
+469
+00:32:04,500 --> 00:32:06,500
+FastDateFormatter
+
+470
+00:32:06,500 --> 00:32:10,030
+ami abból a petternből jön
+
+471
+00:32:12,030 --> 00:32:17,970
+és measureTime.. ennek mit kellen csinálnia? Létrhoz egy poolt
+
+472
+00:32:17,970 --> 00:32:19,970
+Nthread-de
+
+473
+00:32:19,970 --> 00:32:21,970
+failures oké
+
+474
+00:32:21,970 --> 00:32:23,970
+oké
+
+475
+00:32:23,970 --> 00:32:26,480
+[olvassaa a kódot ]pool pont submit date
+
+476
+00:32:26,480 --> 00:32:29,090
+formatted date
+
+477
+00:32:29,090 --> 00:32:31,090
+formatter pont format date
+
+478
+00:32:31,090 --> 00:32:33,090
+start current time millis
+
+479
+00:32:33,090 --> 00:32:35,090
+object pd
+
+480
+00:32:35,090 --> 00:32:38,850
+ez a parser pont parseObject format date
+
+481
+00:32:38,850 --> 00:32:46,190
+totalElapsed pont addEndGet jelenlegi milis mínusz igen a start oké
+
+482
+00:32:46,190 --> 00:32:49,940
+ha nem egyenlő, akkor oké
+
+483
+00:32:49,940 --> 00:32:53,480
+oké.. és itt hogy van ez a
+
+484
+00:32:53,480 --> 00:32:55,480
+ez egy kicsi így itt nagy nekem
+
+485
+00:32:59,480 --> 00:33:01,480
+hüm...
+
+486
+00:33:05,480 --> 00:33:08,700
+itt leállítjuk a poolt és, hogy ha
+
+487
+00:33:11,960 --> 00:33:13,960
+blocks until all tasks have completed
+
+488
+00:33:13,960 --> 00:33:15,960
+execution after shutdown request
+
+489
+00:33:15,960 --> 00:33:22,330
+or timout occurs or the current thread is interupted whichever happens first
+
+490
+00:33:22,330 --> 00:33:24,330
+oké tehát itt
+
+491
+00:33:24,330 --> 00:33:26,590
+addig vár, amíg az összes feladat
+
+492
+00:33:26,590 --> 00:33:28,590
+le nem futott
+
+493
+00:33:28,590 --> 00:33:31,890
+vagy 20 másodpercig
+
+494
+00:33:31,890 --> 00:33:33,250
+és akkor shout downol ez
+
+495
+00:33:33,250 --> 00:33:35,250
+gondolom kritikusan
+
+496
+00:33:35,250 --> 00:33:37,250
+did not complete task tehát itt valamelyik
+
+497
+00:33:37,250 --> 00:33:39,720
+ threaden valamilyen probléma van a dátummal
+
+498
+00:33:41,720 --> 00:33:43,720
+ami
+
+499
+00:33:45,720 --> 00:33:47,720
+érdekes
+
+500
+00:33:47,720 --> 00:33:49,720
+[nézegeti a kódot]
+
+501
+00:33:49,720 --> 00:33:51,720
+nézegeti a kódot]
+
+502
+00:33:53,720 --> 00:33:59,200
+testParseSync ezt itt annyit csinál, hogy
+
+503
+00:33:59,200 --> 00:34:00,860
+van egy
+
+504
+00:34:00,860 --> 00:34:02,860
+pattern
+
+505
+00:34:02,860 --> 00:34:05,550
+kész teljesen validnak tűnik
+
+506
+00:34:05,550 --> 00:34:07,550
+mondjuk ez a z nem tudom micsoda
+
+507
+00:34:07,550 --> 00:34:09,550
+ez egy valid pattern
+
+508
+00:34:11,550 --> 00:34:13,550
+[gépel]
+
+509
+00:34:13,550 --> 00:34:15,550
+rákeresek
+
+510
+00:34:15,550 --> 00:34:17,550
+interneten, hogy ez a
+
+511
+00:34:17,550 --> 00:34:22,100
+fastDateFormatTest,java-nak a
+
+512
+00:34:22,100 --> 00:34:25,010
+255. sorábon lévő
+
+513
+00:34:25,010 --> 00:34:27,890
+pattern az valódi pattern e
+
+514
+00:34:27,890 --> 00:34:31,890
+[gépel]
+
+515
+00:34:31,890 --> 00:34:34,720
+mert ez a z a végén nem tudom mi lehet
+
+516
+00:34:34,720 --> 00:34:36,720
+...
+
+517
+00:34:36,720 --> 00:34:38,720
+[kattint]
+
+518
+00:34:40,720 --> 00:34:42,720
+mindjárt kiderül
+
+519
+00:34:46,350 --> 00:34:48,350
+hát ott ez a z az van
+
+520
+00:34:48,350 --> 00:34:50,350
+csak not [görget]
+
+521
+00:34:52,350 --> 00:34:54,350
+amúgy ez teljesen validnak tűnik
+
+522
+00:34:54,350 --> 00:34:56,350
+mondjuk a z az
+
+523
+00:34:56,350 --> 00:34:58,350
+[kattint]
+
+524
+00:34:58,350 --> 00:35:00,350
+aha
+
+525
+00:35:01,600 --> 00:35:03,600
+a z nek lehet, hogy
+
+526
+00:35:03,600 --> 00:35:09,200
+kis iék között kellene lennie
+
+527
+00:35:13,200 --> 00:35:15,200
+megpróbáljam úgy
+
+528
+00:35:15,200 --> 00:35:17,200
+megpróbálhatom
+
+529
+00:35:20,200 --> 00:35:30,530
+[olvassa a választ]
+
+530
+00:35:32,530 --> 00:35:39,970
+[olvassa a választ]
+
+531
+00:35:47,070 --> 00:35:49,690
+oké én itt most azt látom, hogy a
+
+532
+00:35:51,690 --> 00:35:53,690
+még a t az
+
+533
+00:35:53,690 --> 00:35:55,850
+az őm
+
+534
+00:35:55,850 --> 00:36:02,050
+macs nem a macskaköröm, hanem aposztrófok között van a hms.ss
+
+535
+00:36:02,930 --> 00:36:04,930
+az szintén jó viszont a z
+
+536
+00:36:04,930 --> 00:36:06,930
+az
+
+537
+00:36:06,930 --> 00:36:10,640
+az most nem tudom, hogy így tudja e értelmezbu
+
+538
+00:36:14,430 --> 00:36:18,480
+fastDateFormat.getInstance ezt megnézzük, hogy hogyan dolgozza fel
+
+539
+00:36:20,290 --> 00:36:22,690
+ha bejön
+
+540
+00:36:22,690 --> 00:36:25,280
+cache getInstance
+
+541
+00:36:27,020 --> 00:36:31,120
+pattern, oké hogy ha null ha a timezone null oké
+
+542
+00:36:31,120 --> 00:36:33,120
+oké
+
+543
+00:36:33,120 --> 00:36:35,120
+hogyha a kulcs
+
+544
+00:36:35,120 --> 00:36:39,470
+kulcs legyen egyenlő többrészes kulcs oké
+
+545
+00:36:40,530 --> 00:36:42,530
+f mint format
+
+546
+00:36:48,530 --> 00:36:50,530
+oké
+
+547
+00:36:51,870 --> 00:36:58,110
+hát szerintem egyébként, annyi, hogy itt a 20 másodperc miatt leállítja ezért fut ez ilyen sokáig
+
+548
+00:36:59,640 --> 00:37:01,640
+őő...
+
+549
+00:37:01,640 --> 00:37:03,810
+[görget] nem tudom a másikban van?
+
+550
+00:37:03,810 --> 00:37:08,980
+van itt egy testStopSuspend is hiba
+
+551
+00:37:08,980 --> 00:37:10,980
+a..
+
+552
+00:37:12,980 --> 00:37:14,980
+nézzük, hogy itt
+
+553
+00:37:16,980 --> 00:37:18,980
+ahan
+
+554
+00:37:18,980 --> 00:37:21,690
+itt a suspendTimal
+
+555
+00:37:21,690 --> 00:37:23,690
+[kattint]
+
+556
+00:37:23,690 --> 00:37:26,300
+watch.getTime
+
+557
+00:37:28,300 --> 00:37:34,110
+testStopWatchSuspende watch egyenlő egy new StopWatch
+
+558
+00:37:35,170 --> 00:37:37,170
+várunk itt 55
+
+559
+00:37:37,170 --> 00:37:39,170
+oké suspend
+
+560
+00:37:39,170 --> 00:37:41,170
+oké
+
+561
+00:37:43,170 --> 00:37:45,170
+és aa..
+
+562
+00:37:45,170 --> 00:37:47,170
+[kattint]
+
+563
+00:37:47,170 --> 00:37:49,900
+totalTime az a watch.getTime
+
+564
+00:37:53,900 --> 00:37:57,880
+hát igen és akkor itt meg az 1500
+
+565
+00:37:59,880 --> 00:38:01,880
+1650
+
+566
+00:38:07,880 --> 00:38:09,880
+hát ő.. azt tudom csinálni, hogy
+
+567
+00:38:09,880 --> 00:38:14,040
+a fastDate formattedben itt itt ő..
+
+568
+00:38:14,040 --> 00:38:16,040
+[kattint]
+
+569
+00:38:20,040 --> 00:38:22,040
+talán a tesztben
+
+570
+00:38:22,040 --> 00:38:24,560
+kéne módosítani, bár
+
+571
+00:38:28,380 --> 00:38:30,380
+bár lehet
+
+572
+00:38:30,380 --> 00:38:34,330
+itt egyébként működik is  itt a measurement time-nál
+
+573
+00:38:34,330 --> 00:38:36,740
+sdfTime
+
+574
+00:38:38,740 --> 00:38:40,740
+és ez azt mondja, hogy
+
+575
+00:38:40,740 --> 00:38:43,290
+times .. fast date format
+
+576
+00:38:43,290 --> 00:38:48,930
+[olvassa a kódot]
+
+577
+00:38:48,930 --> 00:38:53,840
+SimpleDateFormat sdfTime oké
+
+578
+00:38:53,840 --> 00:38:59,840
+[kattint]
+
+579
+00:38:59,840 --> 00:39:02,010
+oké tehát itt
+
+580
+00:39:02,010 --> 00:39:06,820
+Az  a különbség, hogy nem egy simpla date formattert használunk hanem a
+
+581
+00:39:08,080 --> 00:39:10,600
+hanem a fast data formattert
+
+582
+00:39:12,600 --> 00:39:15,040
+ez a java text
+
+583
+00:39:16,040 --> 00:39:18,500
+simle date fromattból származik
+
+584
+00:39:18,500 --> 00:39:19,820
+[kattint]
+
+585
+00:39:19,820 --> 00:39:21,940
+ez amúgy hogy néz ki
+
+586
+00:39:21,940 --> 00:39:23,940
+ű
+
+587
+00:39:23,940 --> 00:39:26,890
+őő.. van neki egy szülője és
+
+588
+00:39:26,890 --> 00:39:29,530
+FULL, LONG, MEDIUM, SORT
+
+589
+00:39:31,310 --> 00:39:33,560
+[görgetg
+
+590
+00:39:35,560 --> 00:39:37,560
+...
+
+591
+00:39:37,560 --> 00:39:39,560
+hát annyit tudunk csinálni, hogy [kattint]
+
+592
+00:39:46,770 --> 00:39:48,770
+nem ezt akartam
+
+593
+00:39:52,420 --> 00:39:54,420
+goals clean test
+
+594
+00:39:55,360 --> 00:39:57,850
+biztos meg lehet valami profilet adni
+
+595
+00:39:59,240 --> 00:40:00,860
+na mindegy nem akarom
+
+596
+00:40:00,860 --> 00:40:02,860
+...
+
+597
+00:40:02,860 --> 00:40:04,860
+őő...
+
+598
+00:40:04,860 --> 00:40:07,580
+skip test hát akkor nem fog elhasalni
+
+599
+00:40:12,730 --> 00:40:14,730
+és a maven az ez
+
+600
+00:40:16,730 --> 00:40:18,730
+[kattint]
+
+601
+00:40:18,730 --> 00:40:21,850
+szerintem jónak tűnik ez a konfig
+
+602
+00:40:25,850 --> 00:40:37,220
+[helyezkedik] nincsen semmi értelme lefuttatni többször a tesztet, mérgszer megnézem, ha nem jó most sem, akkor vagy az van, hogy hozzányultam valamihez
+
+603
+00:40:37,220 --> 00:40:42,430
+ha nem akkor esetleg ez a JUnit rontotta el
+
+604
+00:40:44,430 --> 00:40:48,270
+de szerintem még azt meg lehet csinálni, hogy itt
+
+605
+00:40:50,080 --> 00:40:52,080
+hogy még ott az a Z betű
+
+606
+00:40:52,080 --> 00:40:55,290
+aposztrófok nélkül furán néz ki
+
+607
+00:40:55,290 --> 00:41:00,280
+nem tudom, hogy a milyen formátumban hívjuk meg ezt a
+
+608
+00:41:00,280 --> 00:41:02,280
+[felnéz]
+
+609
+00:41:04,280 --> 00:41:06,280
+csak ezt közben megnézem
+
+610
+00:41:06,280 --> 00:41:08,280
+hogy itt ügye
+
+611
+00:41:08,280 --> 00:41:10,280
+[kattint]
+
+612
+00:41:10,280 --> 00:41:12,280
+a formatter az a
+
+613
+00:41:12,280 --> 00:41:14,280
+a patternből lett
+
+614
+00:41:14,280 --> 00:41:16,280
+oké és ott működik is
+
+615
+00:41:16,280 --> 00:41:18,280
+szóval a SimplaeDateFormat
+
+616
+00:41:18,280 --> 00:41:20,280
+nál nincsen semmi baj
+
+617
+00:41:20,280 --> 00:41:27,870
+pedig ugyan azt a patternt használja, viszont a fast date formatter meg itt hibát dob
+
+618
+00:41:27,870 --> 00:41:30,460
+őő..
+
+619
+00:41:30,460 --> 00:41:34,290
+Mindjárt megnézzük, hogy mislyen hibái vannak
+
+620
+00:41:35,760 --> 00:41:37,760
+ez amúgy logolja valahogyan valahova
+
+621
+00:41:39,380 --> 00:41:41,380
+biztos van valami log fiájl ez a
+
+622
+00:41:42,430 --> 00:41:44,720
+valaki workspace task-A
+
+623
+00:41:46,720 --> 00:41:48,720
+őő..
+
+624
+00:41:48,720 --> 00:41:50,720
+[kattint]
+
+625
+00:41:50,720 --> 00:41:52,720
+c users [kattint]
+
+626
+00:41:52,720 --> 00:41:54,720
+[kattint] valaki
+
+627
+00:41:54,720 --> 00:41:56,720
+workspace
+
+628
+00:41:56,720 --> 00:41:59,220
+vagy eclipse-worksapces
+
+629
+00:42:00,330 --> 00:42:03,230
+vagy csak simán a valaki worspaces
+
+630
+00:42:03,230 --> 00:42:05,230
+[kattint]
+
+631
+00:42:05,230 --> 00:42:07,230
+task-A [kattint]
+
+632
+00:42:11,230 --> 00:42:13,230
+és itt
+
+633
+00:42:15,230 --> 00:42:17,230
+bla bla bla
+
+634
+00:42:17,230 --> 00:42:19,230
+target
+
+635
+00:42:19,230 --> 00:42:21,330
+test-classes
+
+636
+00:42:23,330 --> 00:42:25,330
+...
+
+637
+00:42:25,330 --> 00:42:27,330
+[kattint]
+
+638
+00:42:27,330 --> 00:42:29,330
+hova logol ez?
+
+639
+00:42:29,330 --> 00:42:31,680
+ha van egyáltalán
+
+640
+00:42:33,680 --> 00:42:35,150
+[kattint]
+
+641
+00:42:35,150 --> 00:42:37,150
+src [kattint]
+
+642
+00:42:37,150 --> 00:42:41,640
+...
+
+643
+00:42:43,640 --> 00:42:45,640
+mert őő...
+
+644
+00:42:45,640 --> 00:42:49,090
+nem nagyon átlátható az eclipsenek ez a
+
+645
+00:42:49,090 --> 00:42:51,090
+teszt futtatója
+
+646
+00:42:57,090 --> 00:42:59,090
+jó igaz az, hogy a
+
+647
+00:43:00,850 --> 00:43:03,250
+hogy a matekos az megoldódott
+
+648
+00:43:05,250 --> 00:43:07,250
+nem failel mar el
+
+649
+00:43:07,250 --> 00:43:09,250
+a programunk ez most azért double
+
+650
+00:43:09,250 --> 00:43:11,250
+checkelem
+
+651
+00:43:13,250 --> 00:43:15,250
+ühmm...
+
+652
+00:43:15,250 --> 00:43:18,180
+ez itt ügye a SimpleDateFormatból
+
+653
+00:43:18,180 --> 00:43:20,180
+nek a gyereke a
+
+654
+00:43:20,180 --> 00:43:22,180
+a FastDateFormatter
+
+655
+00:43:22,180 --> 00:43:24,180
+és ezért a
+
+656
+00:43:24,180 --> 00:43:26,180
+a SImplaeDateFormattelnél nem szállt el
+
+657
+00:43:26,180 --> 00:43:28,180
+a pattern szóval az így valid, de
+
+658
+00:43:28,180 --> 00:43:31,150
+meg tudom nézni, hogy mi a különbség a két osztály közöt, hogy
+
+659
+00:43:31,150 --> 00:43:36,500
+ha esetleg van olyan eltérés, ami miatt a pattern miatt elszállhat, akkor
+
+660
+00:43:37,860 --> 00:43:42,840
+akkor ezt megtaláljam, itt most itt az előbb már a mathok mentek őő..
+
+661
+00:43:42,840 --> 00:43:44,840
+[nézi az eredményt]
+
+662
+00:43:44,840 --> 00:43:48,500
+Math.UtilTest
+
+663
+00:43:48,500 --> 00:43:51,810
+number number utils test
+
+664
+00:43:51,810 --> 00:43:53,810
+őő...
+
+665
+00:43:53,810 --> 00:43:57,200
+itt 75 ez ok teljesen
+
+666
+00:43:57,200 --> 00:44:00,650
+jó most jitt vagyunk a DateFormatUtils-nál
+
+667
+00:44:00,650 --> 00:44:02,650
+jó hát minden
+
+668
+00:44:02,650 --> 00:44:04,650
+minden futott eddig
+
+669
+00:44:04,650 --> 00:44:06,920
+de itt van ez a FastDateFormat
+
+670
+00:44:06,920 --> 00:44:08,850
+test ez 25sec múlva el fog
+
+671
+00:44:08,850 --> 00:44:10,850
+hasalni valószínűleg
+
+672
+00:44:12,850 --> 00:44:14,850
+hmm...
+
+673
+00:44:14,850 --> 00:44:16,850
+még mindig lehet a különböző java
+
+674
+00:44:16,850 --> 00:44:18,850
+verzió miatt is, de nem
+
+675
+00:44:18,850 --> 00:44:20,850
+hiszem
+
+676
+00:44:22,300 --> 00:44:24,300
+vagy esetleg az, hogy a
+
+677
+00:44:24,300 --> 00:44:26,300
+az 1.7-es
+
+678
+00:44:26,300 --> 00:44:28,300
+ben ügye itt
+
+679
+00:44:28,300 --> 00:44:30,490
+már megint failurelünk van
+
+680
+00:44:30,490 --> 00:44:32,490
+did not complete task
+
+681
+00:44:32,490 --> 00:44:34,490
+[kattint]
+
+682
+00:44:34,490 --> 00:44:36,490
+őő...
+
+683
+00:44:38,490 --> 00:44:40,100
+itt ez ügye
+
+684
+00:44:40,100 --> 00:44:42,100
+hol lett ez az
+
+685
+00:44:42,100 --> 00:44:44,670
+measureTime FastDate
+
+686
+00:44:44,670 --> 00:44:48,670
+...
+
+687
+00:44:52,670 --> 00:44:54,670
+hoppá itt ugrott egyet
+
+688
+00:44:54,670 --> 00:44:57,490
+[kattint] jó átmenni
+
+689
+00:44:59,490 --> 00:45:01,490
+formatter
+
+690
+00:45:01,490 --> 00:45:08,430
+persze internal exception oké van egy executer service-ünk
+
+691
+00:45:10,140 --> 00:45:12,610
+őő.. n szállal
+
+692
+00:45:14,610 --> 00:45:16,610
+van egy hibánk meg egy
+
+693
+00:45:16,610 --> 00:45:18,610
+oké
+
+694
+00:45:18,610 --> 00:45:20,610
+[olvassa a kódot] integer 0-tól
+
+695
+00:45:20,610 --> 00:45:22,610
+NOROUNDS-ig növeljük ...
+
+696
+00:45:22,610 --> 00:45:24,610
+...
+
+697
+00:45:24,610 --> 00:45:27,810
+öhm nullától NTHREADS ig oké
+
+698
+00:45:27,810 --> 00:45:29,810
+date formatted date oké
+
+699
+00:45:29,810 --> 00:45:31,810
+formatter.format
+
+700
+00:45:31,810 --> 00:45:33,810
+date stop
+
+701
+00:45:33,810 --> 00:45:37,450
+start System.CurrentTimeMillis
+
+702
+00:45:39,450 --> 00:45:41,630
+pd az a
+
+703
+00:45:41,630 --> 00:45:43,630
+foramttedDate
+
+704
+00:45:43,630 --> 00:45:45,630
+[kattint]
+
+705
+00:45:47,630 --> 00:45:49,630
+parsolja oké
+
+706
+00:45:49,630 --> 00:45:51,630
+őő..
+
+707
+00:45:51,630 --> 00:45:53,630
+parserünk
+
+708
+00:45:57,410 --> 00:45:59,410
+hát, hogy igne
+
+709
+00:45:59,410 --> 00:46:03,450
+az ügye valahol FastDateFormatter
+
+710
+00:46:03,450 --> 00:46:06,280
+parseObject
+
+711
+00:46:18,280 --> 00:46:20,280
+oké ez mostt itt nem érdekel
+
+712
+00:46:20,280 --> 00:46:22,920
+itt ennek lehet egy
+
+713
+00:46:22,920 --> 00:46:24,920
+egy
+
+714
+00:46:26,920 --> 00:46:28,920
+oké
+
+715
+00:46:28,920 --> 00:46:30,920
+ha nem egyenlő
+
+716
+00:46:30,920 --> 00:46:32,920
+oké
+
+717
+00:46:32,920 --> 00:46:34,920
+ha a dátum, ami
+
+718
+00:46:34,920 --> 00:46:36,920
+itt
+
+719
+00:46:36,920 --> 00:46:38,920
+ee..
+
+720
+00:46:38,920 --> 00:46:40,920
+pd [kattint]
+
+721
+00:46:40,920 --> 00:46:42,920
+parsoltuk a
+
+722
+00:46:42,920 --> 00:46:44,920
+formattált dátumot
+
+723
+00:46:44,920 --> 00:46:46,920
+datehezés
+
+724
+00:46:46,920 --> 00:46:48,610
+akkor igen
+
+725
+00:46:48,610 --> 00:46:50,610
+increment
+
+726
+00:46:50,610 --> 00:46:52,820
+és, hogy ha hiba van akkor is
+
+727
+00:46:52,820 --> 00:46:54,820
+increment
+
+728
+00:46:54,820 --> 00:46:56,820
+... [kattint]
+
+729
+00:46:56,820 --> 00:46:58,820
+failures.
+
+730
+00:46:58,820 --> 00:47:00,820
+nem is itt van a baj, hanem
+
+731
+00:47:00,820 --> 00:47:02,820
+az, hogy
+
+732
+00:47:02,820 --> 00:47:04,820
+az egyik threadem várt
+
+733
+00:47:04,820 --> 00:47:06,820
+túl sokáig
+
+734
+00:47:14,820 --> 00:47:16,820
+ühüm
+
+735
+00:47:16,820 --> 00:47:18,820
+hát akkor
+
+736
+00:47:18,820 --> 00:47:20,820
+azt megtudom még nézni
+
+737
+00:47:20,820 --> 00:47:22,820
+hogy amikor
+
+738
+00:47:24,820 --> 00:47:27,290
+...
+
+739
+00:47:27,290 --> 00:47:29,290
+aa...
+
+740
+00:47:29,290 --> 00:47:33,290
+[kattint]
+
+741
+00:47:33,290 --> 00:47:35,290
+nincsen szükség
+
+742
+00:47:35,290 --> 00:47:37,290
+látszik, hogy
+
+743
+00:47:37,290 --> 00:47:39,290
+tüöbb helyen. Na tehát
+
+744
+00:47:41,290 --> 00:47:43,290
+testParseSync
+
+745
+00:47:45,290 --> 00:47:47,290
+és itt van egy
+
+746
+00:47:47,290 --> 00:47:49,290
+itt dobodik hiba a measure
+
+747
+00:47:49,290 --> 00:47:51,290
+timeba
+
+748
+00:47:51,290 --> 00:47:53,290
+[kattint]
+
+749
+00:47:56,780 --> 00:47:58,780
+ez azt csinálja, hogy
+
+750
+00:47:58,780 --> 00:48:08,780
+[olvassa a leírást]
+
+751
+00:48:10,780 --> 00:48:12,780
+oké
+
+752
+00:48:12,780 --> 00:48:14,780
+és, hogyha már az nem
+
+753
+00:48:16,780 --> 00:48:18,780
+ühüm
+
+754
+00:48:20,450 --> 00:48:22,600
+[helyzkedik] itt azért
+
+755
+00:48:22,600 --> 00:48:26,180
+megy le 21 másodperc att, mert itt 20-at még várunk
+
+756
+00:48:28,180 --> 00:48:30,180
+shoutDown-nál
+
+757
+00:48:30,180 --> 00:48:32,180
+hmm
+
+758
+00:48:33,680 --> 00:48:35,680
+tehát azt megpróbálhatom, hogy
+
+759
+00:48:35,680 --> 00:48:37,680
+a javaban mi a valid
+
+760
+00:48:37,680 --> 00:48:47,220
+pattern, de szerintem ez jó. De ennek nem kellene hibának lennie [gépel]
+
+761
+00:48:47,220 --> 00:48:49,220
+[görget]
+
+762
+00:48:51,220 --> 00:48:53,220
+aa...
+
+763
+00:48:53,220 --> 00:48:55,220
+a számolós az eredeti feladat az me
+
+764
+00:48:55,220 --> 00:48:57,220
+goldódott az lefut VV: ühüm
+
+765
+00:48:57,220 --> 00:49:00,380
+VSZ: Most itt a többi hibát keresem
+
+766
+00:49:00,380 --> 00:49:02,700
+VV: Jó VSZ: Ö..
+
+767
+00:49:03,560 --> 00:49:05,640
+Ez egyébként elvárt működés vol, hogy
+
+768
+00:49:05,640 --> 00:49:07,640
+hogy több hiba is van?
+
+769
+00:49:07,640 --> 00:49:09,880
+VV: Erről nem nyilatkozhatom
+
+770
+00:49:09,880 --> 00:49:10,650
+VSZ: Ja jó
+
+771
+00:49:10,650 --> 00:49:13,780
+VV:  ... Nekünk adott mindent erre a kódra
+
+772
+00:49:13,780 --> 00:49:15,780
+VSZ: Ühüm jó oké én
+
+773
+00:49:15,780 --> 00:49:17,780
+debugolom [nevet] VV: oké
+
+774
+00:49:17,780 --> 00:49:19,780
+VSZ: [mosolyog]
+
+775
+00:49:19,780 --> 00:49:21,780
+oké
+
+776
+00:49:21,780 --> 00:49:23,780
+itt a SimpleDateFromatter
+
+777
+00:49:23,780 --> 00:49:25,780
+példákat akarok látni
+
+778
+00:49:25,780 --> 00:49:29,780
+[görget]
+
+779
+00:49:29,780 --> 00:49:31,780
+ühüm
+
+780
+00:49:31,780 --> 00:49:33,780
+őő...
+
+781
+00:49:33,780 --> 00:49:35,780
+z ...
+
+782
+00:49:43,780 --> 00:49:45,780
+s ez itt ügye
+
+783
+00:49:45,780 --> 00:49:47,780
+t hh
+
+784
+00:49:47,780 --> 00:49:50,160
+s...
+
+785
+00:49:50,160 --> 00:49:52,160
+[kattint]
+
+786
+00:49:54,160 --> 00:49:57,070
+jó lenne megkeresni, hogy x az mit csinál
+
+787
+00:49:57,070 --> 00:49:59,070
+[görget] vagy a Z
+
+788
+00:49:59,070 --> 00:50:01,070
+timezone
+
+789
+00:50:05,070 --> 00:50:07,070
+ennek jónak kellene lennie
+
+790
+00:50:07,070 --> 00:50:09,070
+a Z nek
+
+791
+00:50:09,070 --> 00:50:11,070
+ennek teljesen validnak kellene lennie
+
+792
+00:50:11,070 --> 00:50:13,070
+ez csak az, hogy a timezone
+
+793
+00:50:13,070 --> 00:50:15,070
+az egy szó
+
+794
+00:50:15,070 --> 00:50:17,070
+közzel eltolva
+
+795
+00:50:17,070 --> 00:50:19,070
+hol van
+
+796
+00:50:19,070 --> 00:50:21,070
+ez a teszt, tehát
+
+797
+00:50:21,070 --> 00:50:23,070
+itt amikor meghívjuk
+
+798
+00:50:23,070 --> 00:50:25,070
+egy kicsit fentebb [görget]
+
+799
+00:50:25,070 --> 00:50:28,350
+269. sorban
+
+800
+00:50:30,350 --> 00:50:32,350
+itt [olvassa a kódot] year month date
+
+801
+00:50:32,350 --> 00:50:34,350
+t h m
+
+802
+00:50:34,350 --> 00:50:36,350
+s:ss itt annyi, hogy
+
+803
+00:50:36,350 --> 00:50:38,350
+aa..
+
+804
+00:50:38,350 --> 00:50:40,350
+a szóköz timezonnal
+
+805
+00:50:51,470 --> 00:50:54,410
+vagy esetleg, amikor visszajön megkérdezem
+
+806
+00:50:57,680 --> 00:50:59,680
+mert most így [géprl]
+
+807
+00:50:59,680 --> 00:51:01,680
+nagyon úgy látom, hogy a
+
+808
+00:51:05,680 --> 00:51:07,680
+most nyitottam egy CMD-t
+
+809
+00:51:07,680 --> 00:51:11,360
+és megnézem, hogy a Javanak mi a verziója
+
+810
+00:51:11,360 --> 00:51:13,360
+őő...
+
+811
+00:51:13,360 --> 00:51:15,360
+[gépel] java --v
+
+812
+00:51:15,360 --> 00:51:18,770
+őh.. java -version
+
+813
+00:51:20,370 --> 00:51:22,700
+1.8 hát akkor
+
+814
+00:51:22,700 --> 00:51:24,700
+a java
+
+815
+00:51:24,700 --> 00:51:26,700
+home az a
+
+816
+00:51:26,700 --> 00:51:28,700
+1.8-as
+
+817
+00:51:28,700 --> 00:51:30,700
+de a ...
+
+818
+00:51:30,700 --> 00:51:32,700
+1.7-esel
+
+819
+00:51:32,700 --> 00:51:34,700
+fordul, viszont
+
+820
+00:51:34,700 --> 00:51:36,700
+jre az 1.6-os
+
+821
+00:51:38,700 --> 00:51:42,130
+nem tudom, hogy ebből lehet-e ilyen hiba
+
+822
+00:51:42,130 --> 00:51:48,410
+igazából azért nem tudom elképzleni, mert a SimpleDateFormatter meg a FastDateFormatter [hátradől]
+
+823
+00:51:48,410 --> 00:51:51,230
+között lehet különbség mert
+
+824
+00:51:51,230 --> 00:51:53,230
+aa...
+
+825
+00:51:54,180 --> 00:52:00,410
+a FastDateFormatter ügye nem változik , viszont ha a jdk ha változik, akkor a SimplaDateFormatter, ami a java [maszkot igazít]
+
+826
+00:52:00,410 --> 00:52:02,410
+nem tudom mi
+
+827
+00:52:04,410 --> 00:52:06,410
+java text SimpleDateFormatterben
+
+828
+00:52:06,410 --> 00:52:08,410
+class az változhat
+
+829
+00:52:08,410 --> 00:52:10,410
+mert ezek a packagek a
+
+830
+00:52:10,410 --> 00:52:12,410
+a jdk
+
+831
+00:52:12,410 --> 00:52:14,410
+val  gondolom
+
+832
+00:52:14,410 --> 00:52:16,410
+változhatnak
+
+833
+00:52:16,410 --> 00:52:18,410
+őő...
+
+834
+00:52:20,410 --> 00:52:22,410
+táhot, hogy simán lehet, hogy itt ez
+
+835
+00:52:22,410 --> 00:52:24,410
+a probléma
+
+836
+00:52:24,410 --> 00:52:27,650
+őő.. ugyan azt a formattert adtuk át
+
+837
+00:52:27,650 --> 00:52:29,650
+őő...
+
+838
+00:52:31,650 --> 00:52:33,650
+s aa...
+
+839
+00:52:33,650 --> 00:52:35,650
+aa..
+
+840
+00:52:45,650 --> 00:52:47,650
+[tornáztatja a nyakát]
+
+841
+00:52:51,650 --> 00:52:53,650
+igazából simán el tudom képzelni, hogy
+
+842
+00:53:03,650 --> 00:53:05,650
+simán el tudom képzelni
+
+843
+00:53:05,650 --> 00:53:07,650
+hogy iit ...
+
+844
+00:53:07,650 --> 00:53:09,650
+ogy itt
+
+845
+00:53:09,650 --> 00:53:11,650
+szükség lenne valami hasonlóra
+
+846
+00:53:11,650 --> 00:53:13,650
+hogyigyan úgy
+
+847
+00:53:13,650 --> 00:53:15,650
+egy
+
+848
+00:53:19,000 --> 00:53:21,000
+FastDateFormatter
+
+849
+00:53:21,000 --> 00:53:25,000
+[olvassa a leírást]
+
+850
+00:53:27,000 --> 00:53:29,000
+gyors és thread biztos
+
+851
+00:53:29,000 --> 00:53:31,620
+verziója a SimpleDateFormatnak
+
+852
+00:53:31,620 --> 00:53:33,620
+hát cool igen látszik
+
+853
+00:53:33,620 --> 00:53:57,170
+[olvassa a leírást]
+
+854
+00:54:01,170 --> 00:54:03,170
+ühüm
+
+855
+00:54:03,170 --> 00:54:05,170
+[helyezkedik]
+
+856
+00:54:05,170 --> 00:54:07,170
+tehát itt
+
+857
+00:54:07,170 --> 00:54:13,850
+ami a SimpleDateFormatnál működik az itt is működhetne, hát akkor
+
+858
+00:54:13,850 --> 00:54:15,850
+viszont mért nem működik
+
+859
+00:54:15,850 --> 00:54:17,850
+[kattint]
+
+860
+00:54:17,850 --> 00:54:19,850
+getInstance az a
+
+861
+00:54:19,850 --> 00:54:21,850
+a cache-ből getInstance pattern
+
+862
+00:54:23,850 --> 00:54:26,370
+itt van, hogy mekkora
+
+863
+00:54:26,370 --> 00:54:28,090
+[kattint]
+
+864
+00:54:28,090 --> 00:54:30,090
+osztály
+
+865
+00:54:30,090 --> 00:54:32,090
+dejó
+
+866
+00:54:32,090 --> 00:54:34,090
+[maszkot igazít]
+
+867
+00:54:35,880 --> 00:54:37,970
+az most itt de az nem megoldás
+
+868
+00:54:37,970 --> 00:54:39,970
+hogy ezt kikommentezem
+
+869
+00:54:39,970 --> 00:54:43,970
+[kattogtatja a tollát]
+
+870
+00:54:43,970 --> 00:54:47,560
+oké. tehát, akkor most a Java verziók
+
+871
+00:54:47,560 --> 00:54:49,560
+[kattogtatja a tollát]
+
+872
+00:54:49,560 --> 00:54:51,650
+thread
+
+873
+00:54:53,650 --> 00:54:55,650
+a threadekkel lehet probléma
+
+874
+00:54:55,650 --> 00:54:57,770
+itt a measureTime
+
+875
+00:55:01,570 --> 00:55:04,910
+a measure timenak mit mit kellene csinálnia? Van egy formattere
+
+876
+00:55:04,910 --> 00:55:06,910
+ami egy
+
+877
+00:55:14,910 --> 00:55:17,140
+...
+
+878
+00:55:19,140 --> 00:55:21,140
+ebbe keres
+
+879
+00:55:22,380 --> 00:55:26,190
+itt a measure time, hogy ha SimpleDateFormattal van
+
+880
+00:55:28,000 --> 00:55:30,000
+létrehozva
+
+881
+00:55:30,990 --> 00:55:32,990
+akkor működik
+
+882
+00:55:36,510 --> 00:55:38,250
+és a FastDateFormatter
+
+883
+00:55:38,250 --> 00:55:40,250
+nem a measureTimeba
+
+884
+00:55:40,250 --> 00:55:43,150
+mi történik? Szerintem csak annyi, hogy igen
+
+885
+00:55:43,150 --> 00:55:46,100
+mindig micsinálunk egy dátumot
+
+886
+00:55:46,100 --> 00:55:48,100
+megnézzük, hogy mennyi telt el
+
+887
+00:55:48,100 --> 00:55:55,080
+... Nem tudom a SimpleDate
+
+888
+00:55:57,080 --> 00:55:59,080
+[kattint] parser
+
+889
+00:55:59,080 --> 00:56:01,080
+[kattint]
+
+890
+00:56:01,080 --> 00:56:03,080
+final format
+
+891
+00:56:03,080 --> 00:56:05,080
+formatter meg parser
+
+892
+00:56:05,080 --> 00:56:07,080
+de mi
+
+893
+00:56:11,080 --> 00:56:13,080
+[kattint] [görget]
+
+894
+00:56:15,080 --> 00:56:16,600
+hmm...
+
+895
+00:56:16,600 --> 00:56:18,600
+10 szálon
+
+896
+00:56:26,600 --> 00:56:28,600
+[kattint]
+
+897
+00:56:30,600 --> 00:57:02,030
+[olvassa a leírást]
+
+898
+00:57:04,030 --> 00:57:06,030
+aha tehát itt akkor
+
+899
+00:57:06,030 --> 00:57:08,030
+az történik
+
+900
+00:57:14,030 --> 00:57:16,030
+ühüm [görget]
+
+901
+00:57:20,030 --> 00:57:22,030
+hát akkor
+
+902
+00:57:22,030 --> 00:57:24,030
+[kattitnt]
+
+903
+00:57:24,030 --> 00:57:26,030
+[igazítja a maszkot] ...
+
+904
+00:57:30,030 --> 00:57:34,110
+ez a 3 féle java szerintem
+
+905
+00:57:36,110 --> 00:57:38,110
+[kattogtatja a tollat]
+
+906
+00:57:38,110 --> 00:57:40,110
+probléma
+
+907
+00:57:40,110 --> 00:57:42,110
+[kattogtatja a tollat]
+
+908
+00:57:48,110 --> 00:57:51,740
+én úgy emlékszem mikor legelőször futtatam akkor is
+
+909
+00:57:51,740 --> 00:57:53,740
+már rosz volt, nem csak
+
+910
+00:57:53,740 --> 00:57:55,740
+ezaz egy
+
+911
+00:57:55,740 --> 00:57:58,360
+de az jó lenne ha lehet valahova jegyezni
+
+912
+00:58:08,360 --> 00:58:13,230
+aa.. szerintem nállam már legelőször is több hiba volt
+
+913
+00:58:14,750 --> 00:58:16,750
+őő.. és..
+
+914
+00:58:17,720 --> 00:58:19,720
+és nem tudom, hogy ezzel itt mi lehet
+
+915
+00:58:20,990 --> 00:58:22,990
+itt egy gey date
+
+916
+00:58:22,990 --> 00:58:24,990
+format test
+
+917
+00:58:24,990 --> 00:58:27,290
+VV: nem mondhatok meg fél problémát VSZ: ühüm
+
+918
+00:58:27,290 --> 00:58:30,450
+VV: az biztos VSZ: Jah tudom csak, hogy
+
+919
+00:58:30,450 --> 00:58:33,280
+nem tudom ő..
+
+920
+00:58:33,280 --> 00:58:35,280
+3 féle java verzió van
+
+921
+00:58:35,280 --> 00:58:39,090
+találkoztam vagy egy beálltva az eclipsbe egy jre
+
+922
+00:58:39,090 --> 00:58:41,090
+van egy amivel futtatjuk
+
+923
+00:58:41,090 --> 00:58:43,090
+meg a java version
+
+924
+00:58:43,090 --> 00:58:45,530
+az 1.8 és 1-től 6ig
+
+925
+00:58:45,530 --> 00:58:47,530
+1.6-tól
+
+926
+00:58:47,530 --> 00:58:49,530
+1.8-ig minden van
+
+927
+00:58:49,530 --> 00:58:52,380
+Az nem tudom, hogy az előidézhet iylen hibát
+
+928
+00:58:55,630 --> 00:58:58,110
+Meg, hogy ezt állíthatom-e? vagy
+
+929
+00:58:58,110 --> 00:59:05,690
+VV: Hát elvileg az eclipsek vannk készítve úgy egyben van ahogyan oda van rakva tehát ezt elvileg ezt nem kellene állítgatni VSZ: ühüm
+
+930
+00:59:05,690 --> 00:59:07,690
+ühüm
+
+931
+00:59:13,690 --> 00:59:19,440
+VV: az van, hogy ezeket az ötleteléseket is  lehet ...
+
+932
+00:59:20,980 --> 00:59:22,980
+Jegyzetelk ...
+
+933
+00:59:22,980 --> 00:59:25,680
+20%-tól kezdve bármit ... jó? VSZ: Jó
+
+934
+00:59:25,680 --> 00:59:31,260
+Oké  [mosolyog] VV: Csak, hogy minél több információ, ami rögzítve van, mert a fejedbe nem látunk bele
+
+935
+00:59:33,260 --> 00:59:35,260
+Hát akkor most itt ő..
+
+936
+00:59:35,260 --> 00:59:38,740
+erre gyanakszom, vagy a három java verzió közül
+
+937
+00:59:40,270 --> 00:59:42,960
+vagy a három java verzió környékén van a baj
+
+938
+00:59:44,830 --> 00:59:46,830
+vagy
+
+939
+00:59:46,830 --> 00:59:48,830
+vagy hát igazából fogalmam sincs
+
+940
+00:59:48,830 --> 00:59:51,540
+hogy ha ennek jónak kellene lennie
+
+941
+00:59:52,960 --> 00:59:54,740
+az a baj, hogy
+
+942
+00:59:54,740 --> 00:59:57,810
+jó lenne, hogy ha ez logolna valahova
+
+943
+00:59:57,810 --> 01:00:03,000
+mert akkor megtudnám nézni az első futattás eredményét és ott látnám, hogy rossz volt -e
+
+944
+01:00:03,000 --> 01:00:05,000
+hogy én rontottam el vagy nem
+
+945
+01:00:05,000 --> 01:00:07,740
+Nem tudom, hogy ez git mappa egyébként [kattint]
+
+946
+01:00:09,740 --> 01:00:11,740
+classpath build default.properties
+

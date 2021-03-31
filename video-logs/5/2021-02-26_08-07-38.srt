@@ -1,0 +1,721 @@
+﻿1
+00:00:00,000 --> 00:00:06,460
+Oké, akkor... el is indult a felvétel (Béla)
+
+2
+00:00:06,460 --> 00:00:10,100
+Jó, szóval akkor ebben a szekcióban a toolokkal kapcsolatos (Béla)
+
+3
+00:00:10,100 --> 00:00:12,900
+használati eseteket mutatnám be (Béla)
+
+4
+00:00:12,900 --> 00:00:18,300
+a korábbi feladatokra értelmezve vagy ültetve (Béla)
+
+5
+00:00:19,820 --> 00:00:23,640
+Szóval egy korábban látott feladatban törölsz egy (Béla)
+
+6
+00:00:23,640 --> 00:00:28,680
+egy elágazást, a stopWatch stop metódusában (Béla)
+
+7
+00:00:28,680 --> 00:00:33,620
+de most a stopWatch test egy másik assertje (Béla)
+
+8
+00:00:33,620 --> 00:00:37,780
+failelt, még pedig egy olyan, amelyik a suspendTime és a (Béla)
+
+9
+00:00:37,780 --> 00:00:43,080
+totalTime változók értékét, ööö (Béla)
+
+10
+00:00:43,080 --> 00:00:48,180
+vizsgálja, a suspend és resume metódusok (Béla)
+
+11
+00:00:48,180 --> 00:00:51,480
+hívása után, ööö (Béla)
+
+12
+00:00:51,480 --> 00:00:56,140
+Ezután a törlés, elágazás törlés után (Béla)
+
+13
+00:00:56,140 --> 00:00:59,460
+megvizsgálod a vezérlési folyamatot (Béla)
+
+14
+00:00:59,460 --> 00:01:04,380
+Ööö, mennyire volt érthető ez a használati eset? (Béla)
+
+15
+00:01:04,380 --> 00:01:09,700
+- Hm, nagyjából igen. 
+- Tehát volt a stop metódusod (Béla)
+
+16
+00:01:09,700 --> 00:01:14,780
+abban törölsz egy elágazást, viszont egy másik assert is (Béla)
+
+17
+00:01:14,780 --> 00:01:20,320
+ööö bukik, amelyik megvizsgálja a suspendTime és a totalTime (Béla)
+
+18
+00:01:20,320 --> 00:01:23,960
+változók értékét, a suspend és a resume (Béla)
+
+19
+00:01:23,960 --> 00:01:28,380
+hívása után. Így (Béla)
+
+20
+00:01:28,380 --> 00:01:32,020
+megvizsgálod a vezérlési (Béla)
+
+21
+00:01:32,020 --> 00:01:34,020
+ööö, folyam gráfot. (Béla)
+
+22
+00:01:34,020 --> 00:01:39,460
+Hmm, jó, mit gondolsz erről a (Béla)
+
+23
+00:01:39,460 --> 00:01:44,640
+használati esetről? Mi a véleményed erről a (Béla)
+
+24
+00:01:44,640 --> 00:01:49,620
+ööö, használatról? (Béla)
+
+25
+00:01:49,620 --> 00:01:54,220
+- Bátran fejtsd ki... (Béla)
+- Most az első gondolatom az az, hogy a 
+
+26
+00:01:54,220 --> 00:01:58,640
+az if törlése után, tehát az elágazás törlése után valószínűleg
+
+27
+00:01:58,640 --> 00:02:04,020
+ööö, nem sok értelme van vizsgálni a gráfot, tehát onnantól
+
+28
+00:02:04,020 --> 00:02:07,580
+egyértelmű a folyamat, hogyha
+
+29
+00:02:07,580 --> 00:02:09,840
+ha jól gondolom.
+
+30
+00:02:09,840 --> 00:02:17,260
+[gondolkodik] ööö
+
+31
+00:02:17,260 --> 00:02:22,740
+Ehelyett inkább az adatfolyamra kellene koncentrálni, hogyha
+
+32
+00:02:22,740 --> 00:02:27,940
+hogyha tényleg konkrétan ezekről a feladatokról van szó, akkor azoknak az adatfolyamát nézném meg
+
+33
+00:02:27,940 --> 00:02:32,420
+és akkor az alapján próbálnék kiindulni, tehát így a 
+
+34
+00:02:32,420 --> 00:02:36,620
+mivel már kitöröltem, így a vezérlési gráfban valószínűleg nincs mit nézni
+
+35
+00:02:36,620 --> 00:02:40,180
+vagy nem tudnám ott megtalálni a hibát
+
+36
+00:02:40,180 --> 00:02:44,880
+[gondolkodik]
+
+37
+00:02:48,840 --> 00:02:52,580
+Akkor a következő, hm (Béla)
+
+38
+00:02:52,580 --> 00:02:55,700
+Korábban látott feladatban (Béla)
+
+39
+00:02:55,700 --> 00:02:57,700
+A feladat megoldása során (Béla)
+
+40
+00:02:57,700 --> 00:03:01,860
+több metódus is van, amit a hibával kapcsolatosnak gondolsz (Béla)
+
+41
+00:03:01,860 --> 00:03:06,200
+az iFL listában az egyik általad vizsgált metódus (Béla)
+
+42
+00:03:06,200 --> 00:03:09,660
+találod a 6. helyen. (Béla)
+
+43
+00:03:09,660 --> 00:03:13,240
+Erről mi a véleményed? Tehát hogy (Béla)
+
+44
+00:03:13,240 --> 00:03:17,360
+- megértetted-e, érthető volt-e a használati eset? (Béla)
+- Igen. 
+
+45
+00:03:17,360 --> 00:03:20,220
+Tehát hogy több metódusra is gyanakszom, hogy hol lehet a probléma
+
+46
+00:03:20,220 --> 00:03:24,400
+- és az egyiket konkrétan megtalálom a listában. 
+- Igen-igen (Béla)
+
+47
+00:03:24,400 --> 00:03:27,820
+[gondolkodik] Ööö, igen ez
+
+48
+00:03:27,820 --> 00:03:32,160
+ez valósnak tűnik, tehát valószínűleg akkor azzal kezdeném, amit 
+
+49
+00:03:32,160 --> 00:03:34,860
+amit megtaláltam a listában legelőször.
+
+50
+00:03:34,860 --> 00:03:36,860
+Hogyha az összes gyanús metódus
+
+51
+00:03:36,860 --> 00:03:39,980
+közül ez a legelső, akkor ezt nézném meg a legelőször. 
+
+52
+00:03:39,980 --> 00:03:50,940
+[gondolkodik]
+
+53
+00:03:50,940 --> 00:03:55,500
+A korábban megoldott feladat során (Béla)
+
+54
+00:03:55,500 --> 00:04:01,400
+a vizsgált teszt, ez a testStopWatch suspend and stop (Béla)
+
+55
+00:04:01,400 --> 00:04:07,420
+ennek a tesztnek az alapján van egy bizonytalan ötleted (Béla)
+
+56
+00:04:07,420 --> 00:04:09,700
+hogy melyik metódusban lehet a hiba (Béla)
+
+57
+00:04:09,700 --> 00:04:13,820
+sejted, de a biztonság kedvéért megnézed az iFL (Béla)
+
+58
+00:04:13,820 --> 00:04:17,540
+által adott listát. (Béla)
+
+59
+00:04:17,540 --> 00:04:21,440
+Erről mit gondolsz? (Béla)
+
+60
+00:04:21,440 --> 00:04:24,340
+[gondolkodik]
+
+61
+00:04:24,340 --> 00:04:28,440
+Ez is hasonlónak tűnik, mint az előző, tehát hogy
+
+62
+00:04:28,440 --> 00:04:32,160
+ööö, több tippem is van, hogy hol a hiba
+
+63
+00:04:32,160 --> 00:04:37,280
+és van egy listám, az alapján sorrendbe rakva, hogy mik a gyanús helyek
+
+64
+00:04:37,280 --> 00:04:41,020
+így valószínűleg értelemszerűen ez alapján tudnám végignézni
+
+65
+00:04:41,020 --> 00:04:44,660
+ööö
+
+66
+00:04:44,660 --> 00:04:48,000
+Illetve ez attól is kérdés, hogy hogyan állítjuk a 
+
+67
+00:04:48,000 --> 00:04:51,120
+pontszámokat az iFL-nél
+
+68
+00:04:51,120 --> 00:04:55,940
+tehát hogy mi alapján tekintünk valamit gyanúsnak
+
+69
+00:04:55,940 --> 00:05:00,100
+de, de az alapján a lista alapján tudnék haladni.
+
+70
+00:05:00,100 --> 00:05:09,420
+[gondolkodik]
+
+71
+00:05:09,420 --> 00:05:15,100
+Akkor a következő: hosszú ideig vizsgáltad (Béla)
+
+72
+00:05:15,100 --> 00:05:20,400
+át a TestStringCreateNumberEnsureNoPrecisionLost tesztet (Béla)
+
+73
+00:05:21,040 --> 00:05:26,600
+Ööö, hogy megállapítsd, mely részét érintik a kódnak. (Béla)
+
+74
+00:05:26,600 --> 00:05:30,700
+Tegyük fel, hogy lefuttatod a lefedettségmérést az adott tesztre (Béla)
+
+75
+00:05:30,700 --> 00:05:34,200
+mely sok metódust érint, így nehezen azonosítod (Béla)
+
+76
+00:05:34,200 --> 00:05:39,300
+a kód, a kód mely részére fókuszálj. (Béla)
+
+77
+00:05:39,300 --> 00:05:42,920
+- Nem tudom, hogy ez érthető-e? (Béla)
+- Értem. 
+
+78
+00:05:42,920 --> 00:05:47,400
+Tehát hogy egy darab tesztesetemnél történik ez?
+
+79
+00:05:47,400 --> 00:05:52,000
+Ööö, igen-igen, tehát ... egy konkrét tesztet (Béla)
+
+80
+00:05:52,000 --> 00:05:54,000
+hogy megtaláld a (Béla)
+
+81
+00:05:54,000 --> 00:05:56,320
+a kód mely részét érinti (Béla)
+
+82
+00:05:56,320 --> 00:05:58,840
+és lefuttatod (Béla)
+
+83
+00:05:58,840 --> 00:06:02,640
+mondjuk hogy lefuttatod a lefedettségmérést egy adott tesztre (Béla)
+
+84
+00:06:02,640 --> 00:06:05,820
+ööö, és ööö (Béla)
+
+85
+00:06:05,820 --> 00:06:11,580
+és ez sok metódust érint, így nehezen (Béla)
+
+86
+00:06:11,580 --> 00:06:14,820
+találod meg, hogy, ööö (Béla)
+
+87
+00:06:14,820 --> 00:06:19,860
+mely részére fókuszálj a kódnak (Béla)
+
+88
+00:06:19,860 --> 00:06:25,280
+Ööö... erről mi a véleményed? (Béla)
+
+89
+00:06:25,280 --> 00:06:31,060
+Hát a legelső gondolatom az, hogy célszerű lenne az egyes metódusoknak, tehát a hívott
+
+90
+00:06:31,060 --> 00:06:35,760
+metódusoknak megnézni, hogy őket mennyire fedjük le más tesztekkel
+
+91
+00:06:35,760 --> 00:06:37,760
+mivel hogyha
+
+92
+00:06:37,760 --> 00:06:42,580
+ööö valamit teljesen lefedtem, akkor feltételezem, hogy azok a tesztek valóban 
+
+93
+00:06:42,580 --> 00:06:45,800
+tényleg a helyes működést ellenőrzik, és akkor
+
+94
+00:06:45,800 --> 00:06:49,460
+ott, nem igazán keresnék gyanús működést
+
+95
+00:06:49,460 --> 00:06:53,100
+illetve ezeket vizsgálhatnám tovább, hogy
+
+96
+00:06:53,100 --> 00:06:58,120
+ööö, hogy annak ellenére, hogy lefedték, mégis milyen értékek a 
+
+97
+00:06:58,120 --> 00:07:02,460
+az egyes case-eket mennyire fedik le, esetleg ezeket tudnám megnézni
+
+98
+00:07:02,460 --> 00:07:05,740
+de alapvetően abból indulnék ki, hogy van-e olyan hívott metódus, 
+
+99
+00:07:05,740 --> 00:07:07,840
+ami egyébként más tesztesetben nincsen lefedve. 
+
+100
+00:07:07,840 --> 00:07:11,080
+Tehát ami arra irányul
+
+101
+00:07:11,080 --> 00:07:16,140
+- Csak ez nagyon időigényes lenne. 
+- És erre a (Béla)
+
+102
+00:07:16,140 --> 00:07:18,980
+megközelítésre, tehát hogy egy teszt (Béla)
+
+103
+00:07:18,980 --> 00:07:23,140
+ööö, egy tesztet vizsgálsz arra az egy tesztre (Béla)
+
+104
+00:07:23,140 --> 00:07:26,580
+nem futtatsz lefedettséget erre a (Béla)
+
+105
+00:07:26,580 --> 00:07:28,580
+erről mit gondolsz? (Béla)
+
+106
+00:07:28,580 --> 00:07:32,700
+Ha jól értem, azt mondod, hogy több (Béla)
+
+107
+00:07:32,700 --> 00:07:36,020
+- tesztet is futtatsz. (Béla)
+- Igen, többet is, tehát
+
+108
+00:07:36,020 --> 00:07:38,780
+egyszerre egyet, csak külön-külön megnézném az
+
+109
+00:07:38,780 --> 00:07:41,660
+adott metódusoknak, hogy ők mennyire vannak egyébként
+
+110
+00:07:41,660 --> 00:07:44,640
+önmagukban letesztelve. 
+
+111
+00:07:46,080 --> 00:07:48,480
+Illetve
+
+112
+00:07:48,480 --> 00:07:51,900
+hát nem volt szó erről az eszközről, de pl. a 
+
+113
+00:07:51,900 --> 00:07:54,860
+a visszaadott, a metódus által visszakapott értékeket
+
+114
+00:07:54,860 --> 00:07:58,060
+is tudnám úgymond mókolni, tehát hogy
+
+115
+00:07:58,060 --> 00:08:01,840
+feltételezem, hogy helyes értéket adnak vissza, mondjuk beégetek
+
+116
+00:08:01,840 --> 00:08:04,680
+a helyükre egy visszatérési értéknek mondjuk, egy számot
+
+117
+00:08:04,680 --> 00:08:07,420
+hogyha éppen olyan típusról van szó
+
+118
+00:08:07,420 --> 00:08:11,460
+és... és akkor biztos lehetek benne, hogy az a metódus egy
+
+119
+00:08:11,460 --> 00:08:13,460
+egy helyes értékkel tért vissza. 
+
+120
+00:08:13,460 --> 00:08:15,460
+És ez alapján már talán tudnám
+
+121
+00:08:15,460 --> 00:08:17,460
+ööö jobban ki tudnám szűrni
+
+122
+00:08:17,460 --> 00:08:19,460
+hogy, meddig jutunk el helyesen. 
+
+123
+00:08:19,460 --> 00:08:26,980
+[gondolkodik]
+
+124
+00:08:26,980 --> 00:08:30,240
+Oké. A korábban megoldott (Béla)
+
+125
+00:08:30,240 --> 00:08:33,520
+feladat során több metódust (Béla)
+
+126
+00:08:33,520 --> 00:08:37,460
+is a hibával kapcsolatosnak gondolsz, van több jelölted (Béla)
+
+127
+00:08:37,460 --> 00:08:41,600
+az iFL listában az egyik, általad vizsgált metódust (Béla)
+
+128
+00:08:41,600 --> 00:08:44,540
+találod a 12. helyen. (Béla)
+
+129
+00:08:44,540 --> 00:08:49,380
+Ööö, erről mit gondolsz? (Béla)
+
+130
+00:08:49,380 --> 00:08:53,240
+Hát, ez
+
+131
+00:08:53,240 --> 00:08:56,260
+most, most az első gondolatom, hogy ez attól függ, hogy összességében
+
+132
+00:08:56,260 --> 00:08:58,260
+mekkora ez a lista, mert
+
+133
+00:08:58,260 --> 00:09:00,260
+ööö, így a 12. 
+
+134
+00:09:00,260 --> 00:09:02,260
+hely az eléggé
+
+135
+00:09:02,260 --> 00:09:05,080
+hátrasoroltnak tűnik
+
+136
+00:09:05,080 --> 00:09:08,560
+[gondolkodik]
+
+137
+00:09:08,560 --> 00:09:12,180
+Valószínűleg így is azzal kezdeném, tehát 
+
+138
+00:09:13,500 --> 00:09:16,320
+valószínűleg csak annyit változtatna a 
+
+139
+00:09:16,320 --> 00:09:19,560
+a folyamaton, hogy azt nézném meg legelőször
+
+140
+00:09:19,560 --> 00:09:21,560
+ööö, de 
+
+141
+00:09:21,560 --> 00:09:23,680
+de itt már nem 
+
+142
+00:09:23,680 --> 00:09:25,680
+tartanám annyira
+
+143
+00:09:25,680 --> 00:09:29,220
+biztosnak ezt a tippet, hogy majd a 12. helyről
+
+144
+00:09:29,220 --> 00:09:32,140
+kiválasztok valamit
+
+145
+00:09:32,140 --> 00:09:34,380
+az már eléggé hátsó helynek tűnik
+
+146
+00:09:34,380 --> 00:09:42,420
+[vár]
+
+147
+00:09:42,420 --> 00:09:45,380
+Következő (Béla)
+
+148
+00:09:45,380 --> 00:09:51,600
+hosszú ideig vizsgáltad a testStringCreateNumberEnsureNoPrecisionLoss (Béla)
+
+149
+00:09:51,600 --> 00:09:53,600
+tesztet, hogy megállapítsd (Béla)
+
+150
+00:09:53,600 --> 00:09:56,660
+mely részét érinti a kódnak. (Béla)
+
+151
+00:09:56,660 --> 00:10:00,020
+Tegyük fel, hogy lefuttattad a lefedettségmérést az adott tesztre (Béla)
+
+152
+00:10:00,020 --> 00:10:03,040
+amely néhány metódust érint. (Béla)
+
+153
+00:10:03,040 --> 00:10:06,620
+és így könnyen azonosítod a (Béla)
+
+154
+00:10:06,620 --> 00:10:10,200
+hogy a kód mely részére kell hogy fókuszálj (Béla)
+
+155
+00:10:10,200 --> 00:10:14,700
+Ööö, ez mennyire volt érhető, ez a (Béla)
+
+156
+00:10:14,700 --> 00:10:19,220
+- leírás, vagy ez a forgatókönyv? (Béla)
+- Tehát hogy egy
+
+157
+00:10:19,220 --> 00:10:22,440
+- tesztesetem van...
+- Igen, van egy teszted (Béla)
+
+158
+00:10:22,440 --> 00:10:26,720
+ööö, amit hosszú ideig vizsgálsz (Béla)
+
+159
+00:10:26,720 --> 00:10:30,540
+erre az egy tesztre lefuttatod a lefedettségmérést (Béla)
+
+160
+00:10:30,540 --> 00:10:34,380
+és azt tapasztalod, hogy néhány metódust érint (Béla)
+
+161
+00:10:34,380 --> 00:10:38,120
+csak ez az egy teszt, így (Béla)
+
+162
+00:10:38,120 --> 00:10:42,180
+könnyen azonosíthatod, hogy a kód mely részére kell hogy (Béla)
+
+163
+00:10:42,180 --> 00:10:45,020
+nagyobb figyelmet fordíts (Béla)
+
+164
+00:10:45,020 --> 00:10:49,940
+[gondolkodik]
+
+165
+00:10:49,940 --> 00:10:54,240
+Erről mit gondolsz? (Béla)
+
+166
+00:10:54,980 --> 00:10:59,960
+Igen, tulajdonképpen célszerű minél kevesebb
+
+167
+00:10:59,960 --> 00:11:02,820
+metódust lefedni, ööö
+
+168
+00:11:02,820 --> 00:11:06,440
+ez, ez továbbra is az a működés, azt feltételezem, hogy
+
+169
+00:11:06,440 --> 00:11:08,880
+egy darab metódust hívok, de ő továbbiakat hív
+
+170
+00:11:08,880 --> 00:11:11,340
+ezáltal lesznek azok lefedve
+
+171
+00:11:11,340 --> 00:11:14,460
+ööö
+
+172
+00:11:14,460 --> 00:11:16,700
+valószínűleg könnyebben meg tudnám találni a 
+
+173
+00:11:16,700 --> 00:11:18,700
+a problémát, tehát biztos
+
+174
+00:11:18,700 --> 00:11:21,840
+lehetek benne, hogy kevesebb sorra futott rá a vezérlés
+
+175
+00:11:21,840 --> 00:11:23,960
+így, így az alapján jobban, hamarabb
+
+176
+00:11:23,960 --> 00:11:25,960
+be tudnám azonosítani, gyorsabban.
+
+177
+00:11:25,960 --> 00:11:34,920
+[vár]
+
+178
+00:11:34,920 --> 00:11:38,700
+Jó, rendben, köszönöm szépen (Béla)
+

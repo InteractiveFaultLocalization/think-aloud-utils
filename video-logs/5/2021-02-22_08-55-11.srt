@@ -1,0 +1,160 @@
+﻿1
+00:00:02,000 --> 00:00:03,000
+Béla: Jó.
+
+2
+00:00:03,000 --> 00:00:04,000
+Béla: Akkor...
+
+3
+00:00:05,000 --> 00:00:07,000
+Béla: Ebben a...
+
+4
+00:00:08,000 --> 00:00:15,000
+Béla: részben az lenne a feladat, hogy itt van 2 lap, rajta 2-2 szám.
+
+5
+00:00:15,000 --> 00:00:20,000
+Béla: Ezt kellene papíron összeadni, jó?
+
+6
+00:00:20,000 --> 00:00:25,000
+Béla: A végrehajtáshoz nem lehet számítógépet haszálni.
+
+7
+00:00:26,000 --> 00:00:30,000
+Béla: És összeseb 30 perc áll a rendelkezésedre.
+
+8
+00:00:30,000 --> 00:00:45,000
+Béla: Azt kérném, ahogy Gergő is mondta ez elején, hogy minden dolgot mondj ki hangosan, ami eszedbe jut a feladat megoldása során vagy közben.
+
+9
+00:00:45,000 --> 00:00:51,000
+Béla: És majd én it járkálni fogok, hogyha elkészültél a feladattal, akkor azt majd jelezd nekem.
+
+10
+00:00:51,000 --> 00:00:52,000
+Jó.
+
+11
+00:00:54,000 --> 00:00:55,000
+Béla: Jó.
+
+12
+00:00:55,000 --> 00:00:57,000
+Béla: Köszönöm szépen, megyek is.
+
+13
+00:01:05,000 --> 00:01:07,000
+Kezdhetem is, ugye?
+
+14
+00:01:08,000 --> 00:01:09,000
+Árpi: Volt már itt Béla, ugye?
+
+15
+00:01:09,000 --> 00:01:11,000
+Igen, éppen most mondta a feladatot.
+
+16
+00:01:11,000 --> 00:01:15,000
+Árpi: Persze, az ajtót becsukom és a maszkot is nyugodtan le lehet venni.
+
+17
+00:01:46,000 --> 00:01:50,000
+Először felírom a dátumot a kezdés időpontjához.
+
+18
+00:01:57,000 --> 00:01:58,000
+És elkezdem a feladatot.
+
+19
+00:02:01,000 --> 00:02:04,000
+Látom, hogy ezt a kettő számot kell összeadnom.
+
+20
+00:02:04,000 --> 00:02:06,000
+Kiírom egymás alá őket.
+
+21
+00:02:10,000 --> 00:02:12,000
+A helyi értékeknek megfelelően.
+
+22
+00:02:17,000 --> 00:02:22,000
+A kettő számom a 91029 és 35518.
+
+23
+00:02:24,000 --> 00:02:30,000
+Először a legutolsó számjegyeket adom össze, a a 9 és 8, összegük 17.
+
+24
+00:02:31,000 --> 00:02:35,000
+És maradt az 1, amit át kell vinnem a következő helyi értékre.
+
+25
+00:02:36,000 --> 00:02:41,000
+2+1 az 3+1 az 4.
+
+26
+00:02:43,000 --> 00:02:48,000
+Itt csak egy 5-ösöm van, a második szám 500.
+
+27
+00:02:50,000 --> 00:02:52,000
+Utána 1 és 5 az 6.
+
+28
+00:02:52,000 --> 00:02:56,000
+És 3+9 az 12.
+
+29
+00:02:57,000 --> 00:03:00,000
+És az összegük, az 126547.
+
+30
+00:03:08,000 --> 00:03:11,000
+Elkezdem a második feladatot.
+
+31
+00:03:29,000 --> 00:03:33,000
+Ugyan úgy fogom megoldani a feladatot, tehát kiírom egymás alá a kettő számot.
+
+32
+00:03:44,000 --> 00:03:50,000
+És hozzáadom egymáshoz őket a helyi értékeknek megfelelően, úgyan így a maradékokat átviszem. 
+
+33
+00:03:50,000 --> 00:03:57,000
+2+3 az 5, itt nem maradt semmi, amit át kéne vinnem a következő tizedesjegyre.
+
+34
+00:03:57,000 --> 00:04:02,000
+6+8 az 14, tehát itt egy 4-est írok, illetve átviszek egy 1-est.
+
+35
+00:04:02,000 --> 00:04:11,000
+9+0 az 9, illetve a maradék az 1, tehát ide is 0-át írok és tovább viszem a maradékomat.
+
+36
+00:04:11,000 --> 00:04:18,000
+6+4 az 10 és maradék 1, az 11, tehát 1-est írok és tovább viszem.
+
+37
+00:04:18,000 --> 00:04:24,000
+7+7 az 14 és maradék 1-el ezt...15-öst fogok írni.
+
+38
+00:04:24,000 --> 00:04:27,000
+Így az összeg az 151045.
+
+39
+00:04:38,000 --> 00:04:40,000
+És elkészültem a második feladattal is.
+
+40
+00:04:55,000 --> 00:04:58,000
+Most kimegyek, szólok, hogy készen vagyok.
+

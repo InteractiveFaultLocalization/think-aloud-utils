@@ -1,0 +1,272 @@
+﻿1
+00:00:02,000 --> 00:00:08,000
+Gergő: Jó, az első feladat az úgy fog kinézni, hogy ilyen bemelegítő feladat arra, hogy ezt a [...] ezt megszokjátok.
+
+2
+00:00:08,000 --> 00:00:09,000
+Ez kicsit kérdekes.
+
+3
+00:00:09,000 --> 00:00:11,000
+Gergő: Igen, informatikusként egy picit...
+
+4
+00:00:13,000 --> 00:00:16,000
+Gergő: [...] papírlapot, az lenne a feladat.
+
+5
+00:00:19,000 --> 00:00:32,000
+Gergő: Az lenne a cél, hogy...találsz rajta két számot és számítógép használata nélkül kell megoldani a feladatot, az lényeg, hogy minden közben, ami eszedbe jut, azt mondd ki.
+
+6
+00:00:32,000 --> 00:00:34,000
+Gergő: Nyugodtan jegyzeteljél.
+
+7
+00:00:34,000 --> 00:00:35,000
+Gergő: Ami jól esik...
+
+8
+00:00:35,000 --> 00:00:38,000
+Tehát a papíron most írjam le, hogy adjam össze a két számot.
+
+9
+00:00:38,000 --> 00:00:40,000
+Gergő: Igen, igen, hogy hogyan adod össze.
+
+10
+00:00:40,000 --> 00:00:42,000
+Gergő: És közben folyamatosan mondjad, hogy mit csinálsz, miért csinálod...
+
+11
+00:00:44,000 --> 00:00:50,000
+Gergő: Tehát itt az a cél, hogy folyamatosan beszéljél és hogy halljuk, hogy éppen mi az amire gondolsz, mert az nem látszik nyilván.
+
+12
+00:00:51,000 --> 00:00:55,000
+Gergő: És nyilván én magadra foglak hagyni, fél óra van amúgy erre a feladatra.
+
+13
+00:00:57,000 --> 00:01:01,000
+Gergő: Nem az a cél, hogy mindenhol jó eredményt kapjál, tehát nem fogjuk megnézni, hogy ki tudod-e számolni.
+
+14
+00:01:05,000 --> 00:01:10,000
+Gergő: Igen és itt foglak hagyni, néha rád nézünk, hogy jól haladnak-e a dolgok.
+
+15
+00:01:11,000 --> 00:01:12,000
+Gergő: Amúgy pedig jó munkát kívánok.
+
+16
+00:01:12,000 --> 00:01:14,000
+Jó, rendben, köszönöm szépen.
+
+17
+00:01:23,000 --> 00:01:24,000
+Megkaptam a feladatot.
+
+18
+00:01:24,000 --> 00:01:30,000
+Fölírom a nevem, az azonosítómat és hogy mikor kezdtem el, 8:57-kor.
+
+19
+00:01:31,000 --> 00:01:36,000
+A feladat annyi, hogy van két darab számunk, amit össze kell adnom.
+
+20
+00:01:36,000 --> 00:01:40,000
+A 14946-ot a 29331-el.
+
+21
+00:01:40,000 --> 00:01:42,000
+Megfogom és felírom őket egymás fölé.
+
+22
+00:01:43,000 --> 00:01:52,000
+Fölülre felírom a 14946-ot, alá minden számot 29331.
+
+23
+00:01:54,000 --> 00:02:01,000
+És a jobb oldalról, az egyesektől a tizes, százas felé összeadom, hogy 6+1 az 7.
+
+24
+00:02:01,000 --> 00:02:03,000
+4+3 az is 7.
+
+25
+00:02:04,000 --> 00:02:08,000
+9+3 az 12, szóval 2-t írok le és marad az 1.
+
+26
+00:02:08,000 --> 00:02:10,000
+Utána 4+9 az...
+
+27
+00:02:12,000 --> 00:02:15,000
+13+1 az 14, maradt az 1.
+
+28
+00:02:15,000 --> 00:02:18,000
+Maradt az 1 2 [...] meg még egy az 4.
+
+29
+00:02:18,000 --> 00:02:21,000
+Szóval az eredmény az 44277.
+
+30
+00:02:22,000 --> 00:02:24,000
+Ez volt az első...
+
+31
+00:02:24,000 --> 00:02:26,000
+számtás.
+
+32
+00:02:27,000 --> 00:02:28,000
+Szóval...
+
+33
+00:02:28,000 --> 00:02:30,000
+leellenőrzöm még egyszer.
+
+34
+00:02:30,000 --> 00:02:31,000
+6+1 az 7.
+
+35
+00:02:31,000 --> 00:02:33,000
+4+3 az is 7.
+
+36
+00:02:33,000 --> 00:02:35,000
+9+3 az 12, maradt az 1.
+
+37
+00:02:35,000 --> 00:02:38,000
+Utána 4+9 az...
+
+38
+00:02:39,000 --> 00:02:41,000
+13+1 az 14.
+
+39
+00:02:41,000 --> 00:02:45,000
+Maradt az 1, 1+2 az 3+1 az 4.
+
+40
+00:02:45,000 --> 00:02:47,000
+Leellenőriztük.
+
+41
+00:02:47,000 --> 00:02:50,000
+Most elkezdjük a második megoldását.
+
+42
+00:02:50,000 --> 00:02:55,000
+Ugyan úgy felírom az azonosító számomat [...] ráírom, hogy mikor kezdtem pontosan.
+
+43
+00:02:58,000 --> 00:03:03,000
+Felírom fölé, hogy hanyadikán is kezdtem, mert ez is ide van írva.
+
+44
+00:03:04,000 --> 00:03:06,000
+22.-e van.
+
+45
+00:03:06,000 --> 00:03:12,000
+Az előző lapra nem írtam föl melyik nap kezdtem, ezt felírom visszamenőleg.
+
+46
+00:03:16,000 --> 00:03:19,000
+Itt van két szám, amit össze kell adnom.
+
+47
+00:03:19,000 --> 00:03:23,000
+A 27104 a 37757-el.
+
+48
+00:03:23,000 --> 00:03:30,000
+Megfogom ezeket és felírom egymás fölé a két számot az első számot írom fölülre, alulra írom a másodikat.
+
+49
+00:03:34,000 --> 00:03:38,000
+Aláhúztam, odaírtam a '+' jelet előre, kezdem az egyesektől.
+
+50
+00:03:38,000 --> 00:03:41,000
+4+7 az 11, maradt az 1.
+
+51
+00:03:41,000 --> 00:03:44,000
+2+5 az 7+1 az 8.
+
+52
+00:03:44,000 --> 00:03:46,000
+Utána 1+7 az is 8.
+
+53
+00:03:46,000 --> 00:03:51,000
+Utána 7+7 az 14, maradt az 1.
+
+54
+00:03:51,000 --> 00:03:54,000
+2+3 az 5+1 az 6.
+
+55
+00:03:55,000 --> 00:04:01,000
+Visszamegyünk az elejére, leellenőrizzük, jól írtam-e mind a két számot.
+
+56
+00:04:01,000 --> 00:04:03,000
+4+7 az 11, maradt az 1
+
+57
+00:04:03,000 --> 00:04:15,000
+2+5 az 7+1 az 8.
+
+58
+00:04:15,000 --> 00:04:17,000
+1+7 az is 8.
+
+59
+00:04:17,000 --> 00:04:18,000
+7+7 az 14, maradt az 1.
+
+60
+00:04:20,000 --> 00:04:22,000
+2+3 az 5+1 az 6.
+
+61
+00:04:25,000 --> 00:04:26,000
+Készen is vagyunk.
+
+62
+00:04:30,000 --> 00:04:31,000
+Szóval...
+
+63
+00:04:31,000 --> 00:04:34,000
+meg is van oldva mind a két feladat.
+
+64
+00:09:13,000 --> 00:09:14,000
+Készen vagyok.
+
+65
+00:09:14,000 --> 00:09:15,000
+Gergő: Készen vagy?
+
+66
+00:09:15,000 --> 00:09:16,000
+Aha.
+
+67
+00:09:16,000 --> 00:09:18,000
+Gergő: Sikerült akkor megoldani, szépen mondogatni...
+
+68
+00:09:18,000 --> 00:09:20,000
+Igen, igen.
+

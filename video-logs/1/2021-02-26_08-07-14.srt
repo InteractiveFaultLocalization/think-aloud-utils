@@ -1,0 +1,828 @@
+﻿1
+00:00:01,000 --> 00:00:03,000
+Egy, kettő, három.
+
+2
+00:00:03,000 --> 00:00:04,000
+Gergő: Szuper.
+
+3
+00:00:04,000 --> 00:00:05,000
+Gergő: Működik a hang is.
+
+4
+00:00:06,000 --> 00:00:07,000
+Gergő: No.
+
+5
+00:00:13,000 --> 00:00:17,000
+Gergő: Ja igen. Erről az oldalról vagyok a kamerának.
+
+6
+00:00:20,000 --> 00:00:21,000
+Gergő: Ööö jó.
+
+7
+00:00:23,000 --> 00:00:33,000
+Gergő: Ebben a szekcióban az eszközökkel kapcsolatos ilyen használati eset szerű kis feltételes hipotetikus esetekkel fogunk foglalkozni.
+
+8
+00:00:33,000 --> 00:00:39,000
+Gergő: Úgy fog kinézni a történet, hogy én mondok neked egy ilyen használati esetet, felttelezést.
+
+9
+00:00:40,000 --> 00:00:48,000
+Gergő: A cél az, hogy megértsd, tehát, hogyha valami nem világos, hogy mit miért akkor kérdezzél.
+
+10
+00:00:48,000 --> 00:00:53,000
+Gergő: Miután megértetted, lesz lehetőséged mindegyikre hogy válaszoljál. valamit reagáljál.
+
+11
+00:00:53,000 --> 00:00:59,000
+Gergő: Mit gondolsz róla, mi jut róla eszedbe, hogyan változtattad volna meg stb.
+
+12
+00:00:59,000 --> 00:01:01,000
+Gergő: Hasonlóan, mint a legutóbbi alkalommal, jó?
+
+13
+00:01:01,000 --> 00:01:02,000
+Jó.
+
+14
+00:01:04,000 --> 00:01:09,000
+Gergő: Jó. Nyilván minél érthetőbben, hangosabban mondd a válaszokat, hogy lehessen hallani.
+
+15
+00:01:12,000 --> 00:01:17,000
+Gergő: Jó. Az első használati eset, az a 18.07-es.
+
+16
+00:01:17,000 --> 00:01:22,000
+Gergő: Tegyük fel, hogy a metódusok score szerint csökkenő sorrendbe vannak rendezve az IFL tool-ban.
+
+17
+00:01:23,000 --> 00:01:29,000
+Gergő: És a NumberUtils osztálynak a createNumber metódusa az az első legyen tárolva a listában.
+
+18
+00:01:30,000 --> 00:01:31,000
+Gergő: Jó, eddig tiszta?
+
+19
+00:01:31,000 --> 00:01:32,000
+Igen.
+
+20
+00:01:32,000 --> 00:01:41,000
+Gergő: Megvizsgálod az adott metódust és úgy ítéled, hogy ez valószínűleg nem hibás, de nem vagy teljesen biztos, így a score-ját csökkented 66%-al.
+
+21
+00:01:42,000 --> 00:01:46,000
+Gergő: Később, ahogy tovább dolgozol kiderül, hogy azonban mégis hibás volt.
+
+22
+00:01:52,000 --> 00:01:54,000
+Értem a kérdést.
+
+23
+00:01:56,000 --> 00:01:59,000
+Mit teszek, vagy...
+
+24
+00:01:59,000 --> 00:02:03,000
+Gergő: Hát mit gondolsz róla igazából bármi, ami ezzel kapcsolatban az eszedbe jut.
+
+25
+00:02:03,000 --> 00:02:04,000
+Ühüm.
+
+26
+00:02:05,000 --> 00:02:07,000
+Oké, ööö.
+
+27
+00:02:07,000 --> 00:02:17,000
+Ez az IFL ez ez...nekem egész szerdai alkalmon egy olyan volt, hogy nem nagyon tudtam hova tenni, hogy ez mennyire hasznos dolog.
+
+28
+00:02:19,000 --> 00:02:41,000
+Nem tudom, hogy pontosan hogy mérik a függvények veszéllyességét vagy potenciális hibalehetőségét, de kapok egy értéket, amit egyébként én is úgy gondolom, hogy mondjuk az első nyolc, amit megmutat, én is arra a nyolc függvényre gondolok, hogy valószínűleg ezek között van a hiba.
+
+29
+00:02:41,000 --> 00:02:44,000
+És utána meg én állítgatom az értéket.
+
+30
+00:02:44,000 --> 00:02:47,000
+De én ezt az IFL tool-t ezt nem tudtam hova tenni...
+
+31
+00:02:47,000 --> 00:02:48,000
+Gergő: Ühüm.
+
+32
+00:02:49,000 --> 00:02:51,000
+hasznosság szerint.
+
+33
+00:02:53,000 --> 00:02:54,000
+Úgyhogy...
+
+34
+00:02:55,000 --> 00:03:09,000
+Nem tudom. Hogyha csökkentettem 66%-al az értékét, akkor...akkor az azért történt, mert átnéztem a függvényt és úgy gondoltam, hogy ez jó lesz és mégse volt jó.
+
+35
+00:03:11,000 --> 00:03:15,000
+Nem tudom, hogy...mit lehet erre válaszolni.
+
+36
+00:03:16,000 --> 00:03:22,000
+Valószínűleg nehezebben találtam volna meg, hogy ott van a hiba, mert egyszer már átállítottam, átnéztem.
+
+37
+00:03:22,000 --> 00:03:24,000
+Tehát ez szerintem...
+
+38
+00:03:26,000 --> 00:03:30,000
+Ennek az eszköznek, a használatait még lassítja is...
+
+39
+00:03:30,000 --> 00:03:32,000
+...az egész folyamatot, mert...
+
+40
+00:03:32,000 --> 00:03:37,000
+már egyszer azt hittem, hogy akkor nem ott van a hiba és akkor kiderül, hogy mégis ott van.
+
+41
+00:03:37,000 --> 00:03:42,000
+Akkor valószínűleg nem...már az alapfüggvényen nem gondolkodtam többet.
+
+42
+00:03:42,000 --> 00:03:43,000
+Gergő: Ühüm.
+
+43
+00:03:44,000 --> 00:03:48,000
+Ezt így kizártam a potenciális hibalehetőségek közül.
+
+44
+00:03:52,000 --> 00:03:53,000
+Szerintem ennyi.
+
+45
+00:03:53,000 --> 00:03:57,000
+Gergő: Jó, bármi más, ami esetleg eszedbe jut ezzel kapcsolatban?
+
+46
+00:03:57,000 --> 00:03:58,000
+Nincs.
+
+47
+00:03:59,000 --> 00:04:00,000
+Gergő: Jó, oké.
+
+48
+00:04:01,000 --> 00:04:03,000
+Gergő: Akkor áttérünk a következőre.
+
+49
+00:04:03,000 --> 00:04:06,000
+Gergő: A következő eset ez a 80.56.
+
+50
+00:04:06,000 --> 00:04:13,000
+Gergő: Beszúrsz egy elágazást - egy except gyakorlatilag - a createNumber metódusba.
+
+51
+00:04:17,000 --> 00:04:29,000
+Gergő: És ennek hatására a TestCreateNumber-nek egy másik assert-je fog elhasalni.
+
+52
+00:04:29,000 --> 00:04:34,000
+Gergő: Konkrétan az, amelyik bigDecimal-nak a nullságát ellenőrzi, ami visszakaptál a begDecimal-t az null-e.
+
+53
+00:04:35,000 --> 00:04:43,000
+Gergő: Így megvizsgálod a vezérlési folyam gráfot, ami megmutatja, hogy melyik feltétel után melyik utastás fog végrehajtódni.
+
+54
+00:04:50,000 --> 00:04:51,000
+Ühüm.
+
+55
+00:04:52,000 --> 00:04:55,000
+És most ilyenkor...mi a konkrét kérdés vagy mit...
+
+56
+00:04:55,000 --> 00:04:58,000
+Gergő: Nincs konkrét kérdés, tehát ez egy eset.
+
+57
+00:04:59,000 --> 00:05:02,000
+Gergő: Arra vagyok kíváncsi, hogy ezzel kapcsolatban mit gondolsz.
+
+58
+00:05:02,000 --> 00:05:13,000
+Gergő: Illetve, hogy esetleg, ha változtatott volna valamit ennek a ténye, hogy ez történik, akkor mit változtatott volna a feladat végrehajtás során.
+
+59
+00:05:14,000 --> 00:05:15,000
+Gergő: Gondolkodásba.
+
+60
+00:05:16,000 --> 00:05:17,000
+Gergő: Megoldásba stb.
+
+61
+00:05:18,000 --> 00:05:22,000
+Gergő: De igazából bármi, tehát, hogyha az jut eszedbe róla, hogy csicseregnek a madarak, akkor az is jó.
+
+62
+00:05:22,000 --> 00:05:23,000
+Jó, oké.
+
+63
+00:05:23,000 --> 00:05:27,000
+Gergő: Tehát, hogy nem kell ilyen szempontból szűrni, azt majd mi megcsináljuk a végén.
+
+64
+00:05:27,000 --> 00:05:28,000
+Oké.
+
+65
+00:05:30,000 --> 00:05:34,000
+Azt a tool-t, azt hasznosnak találtam, én azt mindig...
+
+66
+00:05:34,000 --> 00:05:36,000
+Gergő: Melyik tool-ra gondolsz?
+
+67
+00:05:36,000 --> 00:05:39,000
+Az az Atlas, ott van ez a folyamgráf.
+
+68
+00:05:39,000 --> 00:05:42,000
+Gergő: Én nem fogok válaszolni a kérdésre, hogy melyikben volt.
+
+69
+00:05:42,000 --> 00:05:44,000
+Jó, szerintem a középsőben, abban volt.
+
+70
+00:05:46,000 --> 00:05:47,000
+És...
+
+71
+00:05:47,000 --> 00:05:49,000
+én azt, így...
+
+72
+00:05:50,000 --> 00:05:54,000
+én csináltam eddig, hogy akkor a kód merre folyik, és...
+
+73
+00:05:56,000 --> 00:06:04,000
+és hogyha látom egy ilyen folyamdiagramon, akkor azért könnyebb megtalálni dolgokat.
+
+74
+00:06:04,000 --> 00:06:10,000
+És hogyha egy if-et beszúrok és ott látom, hogy az egyik ágba nem megy bele vagy...
+
+75
+00:06:12,000 --> 00:06:16,000
+nem tudom, akkor az segíthet debug-olás közben.
+
+76
+00:06:17,000 --> 00:06:29,000
+Mert azt hinném, hogy belemegy, mondjuk az else ágba, de nem és látom a diagramon.
+
+77
+00:06:30,000 --> 00:06:31,000
+Úgyhogy...
+
+78
+00:06:33,000 --> 00:06:35,000
+ez az eszköz segítene...
+
+79
+00:06:36,000 --> 00:06:37,000
+és...
+
+80
+00:06:40,000 --> 00:06:44,000
+nyilván befolyásolná a debug-olásom...
+
+81
+00:06:45,000 --> 00:06:50,000
+ha látom, hogy valahova nem megy, ahova mennie kéne vagy valahova nem kéne mennie.
+
+82
+00:06:50,000 --> 00:06:51,000
+Gergő: Ühüm.
+
+83
+00:06:54,000 --> 00:06:56,000
+Igen, asszem ennyi.
+
+84
+00:06:56,000 --> 00:06:59,000
+Gergő: Jó, bármi más, ami ezzel kapcsolatban eszedbe jut?
+
+85
+00:06:59,000 --> 00:07:00,000
+Nincs,
+
+86
+00:07:01,000 --> 00:07:02,000
+Gergő: Oké.
+
+87
+00:07:03,000 --> 00:07:07,000
+Gergő: Következő az a 16.615-ös lenne.
+
+88
+00:07:08,000 --> 00:07:34,000
+Gergő: A feladat megoldása során a stringader-nek a telepimpl és a stringader-nek ugyan így a telepfirst metódusokat...az IFL listában egy általad eddig nem vizsgált metódust találsz, a stringader.indexOf metódust, az általad vizsgáltak közé ékelődve.
+
+89
+00:07:38,000 --> 00:07:46,000
+A vizsgálat során kiderül, hogy a stringader.indexOf volt a hibás metódus.
+
+90
+00:07:55,000 --> 00:08:02,000
+Hát, hogy szerdán mi történt ott, én az indexOf-ra már az IFL előtt gondoltam.
+
+91
+00:08:03,000 --> 00:08:19,000
+Főleg amikor elolvastam a feladatot, hogy mi a...mert csak nekiálltam a tesztesetet nézni és ott indexelést írt a hibajelenségnél meg azt használta mind a két függvény, úgyhogy...
+
+92
+00:08:20,000 --> 00:08:23,000
+ez volt a közös bennük, úgyhogy gondoltam arra függvényre...
+
+93
+00:08:27,000 --> 00:08:40,000
+Ha kiderül, hogy...ha egy olyan függvény jelenik meg, amire nem gondoltam, de magas a száma, akkor annak tökre örülök, akkor megnézem, hogy mi lehet ott a probléma.
+
+94
+00:08:42,000 --> 00:08:50,000
+Így...nem tudom, ott volt asszem a harmadik vagy negyedik helyen...nem tudom.
+
+95
+00:08:58,000 --> 00:09:03,000
+Gergő: Hogyan befolyásolná ez a feladat végrehajtását?
+
+96
+00:09:07,000 --> 00:09:10,000
+Ha meglátom, hogy ott van és nem gondoltam rá, akkor megnézem.
+
+97
+00:09:10,000 --> 00:09:15,000
+Egyébként, ha csak látom, hogy ott van, akkor...akkor is megnézem.
+
+98
+00:09:15,000 --> 00:09:18,000
+Tehát...nem tudom.
+
+99
+00:09:19,000 --> 00:09:34,000
+Ha egy olyan dolog jelenik meg a score-ok miatt az első pár között, amire nem gondoltam, akkor befolyásolja a megoldást, mert arra egyenlőre még nem gondoltam, később lehet eljutottam volna oda, de...de akkor az úgy ott plust információ.
+
+100
+00:09:34,000 --> 00:09:35,000
+Gergő: Ühüm.
+
+101
+00:09:37,000 --> 00:09:38,000
+Ennyi szerintem.
+
+102
+00:09:38,000 --> 00:09:42,000
+Gergő: Jó, megnézem, hogy a kamera jól megy-e a biztonság kedvéért.
+
+103
+00:09:44,000 --> 00:09:45,000
+Gergő: Szuper.
+
+104
+00:09:55,000 --> 00:09:58,000
+Gergő: Bármi más ezzel kapcsolatban, ami még eszedbe jut?
+
+105
+00:10:03,000 --> 00:10:04,000
+Nincs.
+
+106
+00:10:07,000 --> 00:10:10,000
+Gergő: Jó, akkor áttérnénk a következő esetre.
+
+107
+00:10:10,000 --> 00:10:12,000
+Gergő: Ez a 66 25-ös.
+
+108
+00:10:13,000 --> 00:10:25,000
+Gergő: A stringader-nek a testDeleteAll tesztesetét vizsgálod és a vizsgálat során szeretnél lefuttatni egy lefedettség mérést, de a mérő eszköz nem működik.
+
+109
+00:10:25,000 --> 00:10:26,000
+Gergő: Mondjuk lejárt a licens-e.
+
+110
+00:10:29,000 --> 00:10:34,000
+Gergő: Így debug módban lépve vizsgálod meg a stringader-nek a deleteAll metódusát.
+
+111
+00:10:44,000 --> 00:10:45,000
+Ühüm.
+
+112
+00:10:46,000 --> 00:10:47,000
+Gergő: Érted a...?
+
+113
+00:10:47,000 --> 00:10:53,000
+Értem, értem, én egyébként alapból meglehetősen kevedet használom a debug módot, inkább...
+
+114
+00:10:54,000 --> 00:10:58,000
+kiírom konzolra amire kíváncsi vagyok.
+
+115
+00:11:00,000 --> 00:11:16,000
+Hát akkor gondolom úgy működik, hogy végig kattintgatom steppenként, hogy akkor mi van, meg akkor ha mondjuk egy if-be arra megy tovább, amerre éppen az értékek vagy feltételek engedik.
+
+116
+00:11:19,000 --> 00:11:23,000
+De ugyan ez történik, hogyha kiírom, úgyhogy...
+
+117
+00:11:25,000 --> 00:11:35,000
+Arra jó, tehát van rá egyszer gyakorlásom, hogy tényleg merre megy, de ezt nem tudom, tehát nem hiszem, hogy változtatott volna bármin.
+
+118
+00:11:35,000 --> 00:11:42,000
+Mert látom, hogy meghívta a deleteimpl-t meg eljutottam az indexOf-hoz is.
+
+119
+00:11:43,000 --> 00:11:44,000
+Úgyhogy...
+
+120
+00:11:44,000 --> 00:11:46,000
+szerintem ez...
+
+121
+00:11:49,000 --> 00:11:58,000
+még abban befolyásolt volna, hogy ugye ott az indexekkel probléma volt és azt gondolom steppenként látom minden változónak az értékét.
+
+122
+00:11:59,000 --> 00:12:09,000
+Tehát ott el tudom képzelni, hogy...valamelyik lépés után úgy változtak az értékek, hogy az nem logikus.
+
+123
+00:12:10,000 --> 00:12:15,000
+Úgyhogy lehet, hogy úgy meg tudtam volna oldani a problémát.
+
+124
+00:12:16,000 --> 00:12:17,000
+Gergő: Ühüm.
+
+125
+00:12:20,000 --> 00:12:21,000
+Ennyi.
+
+126
+00:12:21,000 --> 00:12:25,000
+Gergő: Bármi ami ezzel az esettel kapcsolatban az eszedbe jut még?
+
+127
+00:12:29,000 --> 00:12:32,000
+Az, hogy ez jó ötlet lett volna.
+
+128
+00:12:33,000 --> 00:12:34,000
+Gergő: Konkrétan...?
+
+129
+00:12:34,000 --> 00:12:38,000
+A debug, a debuggolás, hogy debug módban futtatás.
+
+130
+00:12:39,000 --> 00:12:43,000
+Én nekem valahogy nem lett valahogy a rutinom része.
+
+131
+00:12:43,000 --> 00:12:49,000
+De...de itt el tudom képzelni, hogy pont ebben az esetben hasznos lett volna, hogyha látom, hogy...
+
+132
+00:12:49,000 --> 00:13:00,000
+Ott az egyértelmű volt, hogy a...valahogy a...a buffer-ben ott vannak a dolgok, de a size az talán jól van állítva.
+
+133
+00:13:00,000 --> 00:13:12,000
+És ezért a toString...a stringader-nek a toString metódusa után meg már jó volt a string- tehát...és a size alapján vágta le az elejét.
+
+134
+00:13:12,000 --> 00:13:13,000
+Úgyhogy...
+
+135
+00:13:14,000 --> 00:13:15,000
+Úgyhogy...
+
+136
+00:13:15,000 --> 00:13:25,000
+Ezért, amikor mondjuk a buffer-t láttam volna, nem tudom, hogy annak látom-e az értékét, de ott az segített volna.
+
+137
+00:13:28,000 --> 00:13:29,000
+Gergő: Oké, bármi egyéb?
+
+138
+00:13:29,000 --> 00:13:30,000
+Nincs.
+
+139
+00:13:31,000 --> 00:13:32,000
+Gergő: Oké.
+
+140
+00:13:32,000 --> 00:13:34,000
+Gergő: Jó és akkor áttérnénk a következőre.
+
+141
+00:13:34,000 --> 00:13:37,000
+Gergő: A következő eset az a 4.55-ös.
+
+142
+00:13:38,000 --> 00:13:45,000
+Gergő: Tegyük föl, hogy hosszú ideig vizsgáltad a TestDeleteFirst tesztet...
+
+143
+00:13:45,000 --> 00:13:48,000
+Gergő: hogy megállapítsd, hogy mely részét [...]
+
+144
+00:13:49,000 --> 00:13:50,000
+Gergő: Miközben fut.
+
+145
+00:13:50,000 --> 00:14:04,000
+Gergő: Tegyük fel, hogy lefuttatod a lefedettség mérést az adott tesztre, amely a deleteFirst, deleteImpl és az indexof metódusokat értinti, így könnyebben tudod vele azonosítani, hogy mely metódusokra kell fókuszálni.
+
+146
+00:14:09,000 --> 00:14:12,000
+Igen, ez biztos segít.
+
+147
+00:14:12,000 --> 00:14:15,000
+Nekem ez sem...
+
+148
+00:14:17,000 --> 00:14:28,000
+alakult ki rutinként, hogy ezt csináljam, hanem...hanem én látom a függvényt a TestDeleteFirst akkor látom, hogy meghívja a deleteFirst-öt és utána látom, hogy az miket hív meg.
+
+149
+00:14:28,000 --> 00:14:38,000
+Hogyha különböző osztályokban vannak, akkor különböző tabon megnyitom a fejlesztő környezetben és..és így látom, hogy melyik függvény melyiket hívja.
+
+150
+00:14:38,000 --> 00:14:41,000
+Honann hova megy át az irányítás is.
+
+151
+00:14:42,000 --> 00:14:48,000
+És egy tök hasznos eszköz, meg ezt, amit én megcsináltam, ezt valószínűleg gyorsabban megcsinálja, mint én.
+
+152
+00:14:48,000 --> 00:14:51,000
+Meg gondolom kevesebbet is hibázik.
+
+153
+00:14:51,000 --> 00:14:53,000
+De...de nem...
+
+154
+00:14:54,000 --> 00:14:57,000
+nem alakult ki rutinként ez sem.
+
+155
+00:14:57,000 --> 00:14:59,000
+Viszont...
+
+156
+00:14:59,000 --> 00:15:01,000
+hogyha látom, hogy...
+
+157
+00:15:02,000 --> 00:15:06,000
+ez a három függvény van érintve, akkor...
+
+158
+00:15:06,000 --> 00:15:15,000
+ez amit mondtál, hogy ez a három függvény érintett, ez azt jelenti, hogy már ez a három sem hív másikat? Tehát...
+
+159
+00:15:15,000 --> 00:15:19,000
+Így amikor egy faként ábrázoljuk, akkor onnan visszajön?
+
+160
+00:15:20,000 --> 00:15:24,000
+Gergő: Hát a lefedettség az csak azt jelenti, hogy végrehajtódott...
+
+161
+00:15:24,000 --> 00:15:25,000
+Ühüm.
+
+162
+00:15:25,000 --> 00:15:27,000
+Gergő: az adott teszt futása során az a metódus.
+
+163
+00:15:27,000 --> 00:15:30,000
+Tehát akkor az azt jelenti, hogy ott lehetett azokban a hiba, csak...
+
+164
+00:15:30,000 --> 00:15:31,000
+úgyhogy...
+
+165
+00:15:32,000 --> 00:15:33,000
+úgyhogy igen, azért...
+
+166
+00:15:34,000 --> 00:15:42,000
+Ez tök jó, hogyha látom, hogy valahol hiba van és tudom, hogy melyik három függvény közül valamelyikben, hogy többen van hiba.
+
+167
+00:15:43,000 --> 00:15:51,000
+Még ez így annyira nem áll össze fejben, hogyha csak izélgetem, hogy merre megy, nyilván sokkal szemléletesebb, hogy egy diagramon merre.
+
+168
+00:15:51,000 --> 00:15:52,000
+Úgyhogy...
+
+169
+00:15:55,000 --> 00:15:59,000
+Ez a probléma lokalizálásában segített.
+
+170
+00:16:03,000 --> 00:16:04,000
+Ennyit akartam.
+
+171
+00:16:09,000 --> 00:16:10,000
+Gergő. Oké, bármi egyéb?
+
+172
+00:16:10,000 --> 00:16:11,000
+Nincs.
+
+173
+00:16:11,000 --> 00:16:12,000
+Gergő: Oké.
+
+174
+00:16:14,000 --> 00:16:19,000
+Gergő: Jó, akkor áttérnénk a következő esetre, ez a 17.075-ös.
+
+175
+00:16:20,000 --> 00:16:25,000
+Gergő: A metódusok score szerint csökkenő sorrendbe vannak rendezve az IFL tool-ban.
+
+176
+00:16:25,000 --> 00:16:30,000
+Gergő: És a NumberUtils createNumber metódus a 7.helyen találod meg ebben a listában.
+
+177
+00:16:35,000 --> 00:16:41,000
+Gergő: Tegyük fel, hogy ez a hibás, így ez előtt már 6 metódust meg kellett vizsgálnod.
+
+178
+00:16:43,000 --> 00:16:48,000
+Gergő: Mert a createFloat, createDigit, createDouble és még volt 4-5 elem.
+
+179
+00:17:08,000 --> 00:17:15,000
+Ezt a tool-t ezt úgy használják akkor, hogy a legnagyobb számtól mennek lefele és nézik a hibákat?
+
+180
+00:17:17,000 --> 00:17:21,000
+Gergő: Igen, ez az egyik felhasználási lehetőség.
+
+181
+00:17:23,000 --> 00:17:27,000
+Gergő: Ugye a score, az az alap[...]sága, hogy mennyire gyanús.
+
+182
+00:17:30,000 --> 00:17:36,000
+Gergő: Nyilván nincs meg, hogy pont a legelsőt kell neked mindenképp neked, senki sem kényszerít rá puskával a fejedhez.
+
+183
+00:17:38,000 --> 00:17:47,000
+Értem, hát hogyha már előtte hetet átnéztem, akkor már...azért 7 függvény átnézésénél már tévedhet az ember.
+
+184
+00:17:47,000 --> 00:17:49,000
+És ott már egyre...
+
+185
+00:17:50,000 --> 00:17:59,000
+frusztráltabb lennék valószínűleg, hogy a hét leg[...] közül egyikben sem találtam hibát, akkor...akkor valószínűleg elsiklottam fölötte.
+
+186
+00:17:59,000 --> 00:18:05,000
+Úgyhogy amíg eljutok a nyolcadikhoz, azt már nem is olyan figyelemmel nézném.
+
+187
+00:18:06,000 --> 00:18:15,000
+Meg azt hinném, hogy addigra már végig ott volt a hiba, csak nem vettem észre, úgyhogy valószínűleg el sem jutnék a nyolcasig, visszamennék az elsőhöz.
+
+188
+00:18:21,000 --> 00:18:23,000
+Gergő: Mennyi az, amennyit még elbírsz?
+
+189
+00:18:24,000 --> 00:18:27,000
+Szerintem egy 3 vagy maximum 5.
+
+190
+00:18:27,000 --> 00:18:30,000
+Hogyha abba a háromba tuti biztos vagyok, hogy...
+
+191
+00:18:31,000 --> 00:18:33,000
+hogy nincsen hiba, akkor mennék ötre.
+
+192
+00:18:36,000 --> 00:18:46,000
+De egyébként ha meg a 3 leggyanúsabb függvényben nem találok hibát, akkor azt hiszem, hogy azt gondolnám, hogy ott van a hiba.
+
+193
+00:18:53,000 --> 00:19:32,000
+Bár egyébként ezt a gyanússágot összevetve mondjuk egy...egy...bármilyen, nem bármilyen, mondjuk egy...vezérlés diagram - nem tudom pontosan mi a neve - vel és ott [...] a nyolcadik leggyanúsabb függvény az az összes olyan dologban érintett, ami a hibát okozza, tehát mind a két tesztesetnél, akkor lehet, hogy...hogy nem nyolcadikként vizsgálnám meg.
+
+194
+00:19:32,000 --> 00:19:35,000
+Tehát azt gondolom, hogy...
+
+195
+00:19:35,000 --> 00:20:39,000
+Ja de itt már az volt a kérdés, hogy hetet előtte megvizsgáltam.
+
+196
+00:20:40,000 --> 00:20:45,000
+Hát akkor nyolcadikként azt biztos, hogy nem tudnám olyan figyelemmel vizsgálni, mint az első párat.
+
+197
+00:20:45,000 --> 00:20:46,000
+Gergő: Ühüm.
+
+198
+00:20:51,000 --> 00:20:52,000
+Szerintem ennyi.
+
+199
+00:20:52,000 --> 00:20:54,000
+Gergő: Bármi más esetleg?
+
+200
+00:20:57,000 --> 00:20:58,000
+Nincs.
+
+201
+00:20:59,000 --> 00:21:05,000
+Gergő: Jó. Bármi, ami a korábbiakkal esetleg eszedbe jutott vagy ami ezekkel az esetekkel kapcsolatos?
+
+202
+00:21:07,000 --> 00:21:08,000
+Nincs.
+
+203
+00:21:09,000 --> 00:21:10,000
+Gergő: Semmi?
+
+204
+00:21:10,000 --> 00:21:11,000
+Semmi.
+
+205
+00:21:11,000 --> 00:21:14,000
+Gergő. Jó, oké. Nagyon szépen köszönöm a válaszokat.
+
+206
+00:21:14,000 --> 00:21:15,000
+Nincs mit.
+
+207
+00:21:16,000 --> 00:21:18,000
+Gergő: Le is állítom a felvételt.
+

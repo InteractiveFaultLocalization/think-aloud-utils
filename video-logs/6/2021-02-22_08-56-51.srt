@@ -1,0 +1,512 @@
+﻿1
+00:00:05,000 --> 00:00:07,000
+Béla: Ebben a részben az lenne a feladat...
+
+2
+00:00:08,000 --> 00:00:15,000
+Béla: Tehát itt van nálam kettő szám, ezeket kellene majd összeadnod.
+
+3
+00:00:15,000 --> 00:00:18,000
+Béla: Méghozzá számítógép használata nélkül, jó?
+
+4
+00:00:18,000 --> 00:00:22,000
+Béla: Tehát írásban kellene a művletet elvégezni.
+
+5
+00:00:23,000 --> 00:00:26,000
+Béla: És 30 perc áll rendelkezésre.
+
+6
+00:00:26,000 --> 00:00:28,000
+Béla: Bőven van időd.
+
+7
+00:00:28,000 --> 00:00:42,000
+Béla: Ami fontos, hogy a végrehajtás során - ahogy Gergő is mondta az elején - bármi ami eszedbe jut azt mondd ki hangosan, hogy aztán abból mi majd információkat tudjunk kinyerni.
+
+8
+00:00:42,000 --> 00:00:47,000
+Béla: Ha elkészültél a két feladattal, akkor azt kérném, hogy jelezd nekem.
+
+9
+00:00:47,000 --> 00:00:50,000
+Béla: Majd itt járkálni fogok, benézek.
+
+10
+00:00:50,000 --> 00:00:55,000
+Béla: Ha elkészültél, akkor azt kérném, hogy szólj.
+
+11
+00:00:56,000 --> 00:00:57,000
+Béla: Jó.
+
+12
+00:00:57,000 --> 00:00:59,000
+Béla: Okés, akkor el is lehet kezdeni.
+
+13
+00:01:02,000 --> 00:01:06,000
+Egy olyan kérdésem lenne, hogy így, hogy mindannyian külön teremben vagyunk, a maszk az...
+
+14
+00:01:06,000 --> 00:01:09,000
+Béla: Az nem, ha gondolod leveheted nyugodtan.
+
+15
+00:01:10,000 --> 00:01:11,000
+Akkor én leveszem.
+
+16
+00:01:11,000 --> 00:01:13,000
+Béla: Jó, okés.
+
+17
+00:01:14,000 --> 00:01:16,000
+Béla: Jó, akkor majd jövök.
+
+18
+00:01:34,000 --> 00:01:37,000
+Az általános iskolai összeadás az már régen volt.
+
+19
+00:01:38,000 --> 00:01:41,000
+Ezt egy kicsit máshogy szoktam összeadni ezeket a számokat.
+
+20
+00:01:43,000 --> 00:01:45,000
+Remélem elég hangosan mondom.
+
+21
+00:01:49,000 --> 00:01:51,000
+Hát általában szoktam menni, úgyhogy...
+
+22
+00:01:52,000 --> 00:01:58,000
+82000+25000 az 107000.
+
+23
+00:02:01,000 --> 00:02:02,000
+Igen.
+
+24
+00:02:03,000 --> 00:02:04,000
+107000.
+
+25
+00:02:05,000 --> 00:02:09,000
+587 az 108000 lesz.
+
+26
+00:02:12,000 --> 00:02:14,000
+87+120.
+
+27
+00:02:14,000 --> 00:02:16,000
+[ír]
+
+28
+00:02:17,000 --> 00:02:18,000
+108000....
+
+29
+00:02:21,000 --> 00:02:26,000
+87+120 az 207.
+
+30
+00:02:27,000 --> 00:02:30,000
+108207.
+
+31
+00:02:30,000 --> 00:02:32,000
+Azért visszaellenőrzöm.
+
+32
+00:02:33,000 --> 00:02:40,000
+Azt mondja, hogy 82000+25000 az ugye 107000.
+
+33
+00:02:40,000 --> 00:02:46,000
+Az 500+600 miatt 108000 lesz.
+
+34
+00:02:46,000 --> 00:03:00,000
+És a 87, amivel több ugye az 500-nál meg a 120, ami több az 500-nál az pedig 207.
+
+35
+00:03:06,000 --> 00:03:07,000
+Azért le is vezetem.
+
+36
+00:03:12,000 --> 00:03:39,000
+[ír]
+
+37
+00:03:39,000 --> 00:03:40,000
+[áthúz]
+
+38
+00:03:40,000 --> 00:04:30,000
+[ír]
+
+39
+00:04:38,000 --> 00:04:39,000
+Jó.
+
+40
+00:04:39,000 --> 00:04:41,000
+Hát ezt is hasonlóan fogom összeadni.
+
+41
+00:04:41,000 --> 00:04:59,000
+58000+14000 az 72000.
+
+42
+00:05:00,000 --> 00:05:04,000
+367+668.
+
+43
+00:05:12,000 --> 00:05:13,000
+Igazából 300...
+
+44
+00:05:13,000 --> 00:05:17,000
+Mindig valahogy egy egéaz számra kerekítek.
+
+45
+00:05:17,000 --> 00:05:22,000
+Mármint 100-as nagyságrend vagy 10-es vagy 10000-es, amiket könnyű összeadni.
+
+46
+00:05:22,000 --> 00:05:26,000
+Tehát ezt fölbontom 300+67-re.
+
+47
+00:05:26,000 --> 00:05:31,000
+Illetve 600+68-ra.
+
+48
+00:05:32,000 --> 00:05:42,000
+És akkor 300 meg 600-ból, meg ugye a 72000-ből lesz 72900.
+
+49
+00:05:42,000 --> 00:05:43,000
+És a...
+
+50
+00:05:43,000 --> 00:06:00,000
+67 meg 68-ból pedig lesz 135.
+
+51
+00:06:03,000 --> 00:06:08,000
+Tehát az összesen 73035.
+
+52
+00:06:12,000 --> 00:06:16,000
+És nagyjából így szoktam számolni főleg fejben, de...
+
+53
+00:06:21,000 --> 00:06:23,000
+most éppen papíron is.
+
+54
+00:06:26,000 --> 00:06:38,000
+Azt mondja, hogy 9:03-kor ezt pedig 9:00-kor kezdtem el csinálni.
+
+55
+00:06:38,000 --> 00:06:39,000
+Ezt elfejetettem felírni, de....
+
+56
+00:06:40,000 --> 00:06:43,000
+Nem volt túl sok idő.
+
+57
+00:07:04,000 --> 00:07:05,000
+Végeztem.
+
+58
+00:07:08,000 --> 00:07:09,000
+Bocsi.
+
+59
+00:07:10,000 --> 00:07:11,000
+Béla.
+
+60
+00:07:45,000 --> 00:07:49,000
+Ezért megpróbáljuk az általános iskolás módszerrel is.
+
+61
+00:07:52,000 --> 00:08:00,000
+[ír]
+
+62
+00:08:00,000 --> 00:08:03,000
+8+7 15, oké az megvan.
+
+63
+00:08:03,000 --> 00:08:09,000
+6+7 az 13.
+
+64
+00:08:10,000 --> 00:08:11,000
+Ott is maradt az 1.
+
+65
+00:08:11,000 --> 00:08:13,000
+Ez itt 0.
+
+66
+00:08:16,000 --> 00:08:23,000
+6+3, igen itt is maradt az 1, tehát akkor 8+5 az 4.
+
+67
+00:08:24,000 --> 00:08:26,000
+Itt valamit akkor elszámoltam.
+
+68
+00:08:29,000 --> 00:08:31,000
+Nem, 3 nem 4.
+
+69
+00:08:36,000 --> 00:08:39,000
+És ott is maradt az 1, az 74000.
+
+70
+00:08:39,000 --> 00:08:40,000
+Na jól elszámoltam.
+
+71
+00:08:40,000 --> 00:08:46,000
+58+14 az 72000.
+
+72
+00:09:10,000 --> 00:09:11,000
+Mit számoltam el?
+
+73
+00:09:11,000 --> 00:09:13,000
+Azt mondja, hogy 58...
+
+74
+00:09:17,000 --> 00:09:19,000
+Ez 72000.
+
+75
+00:09:27,000 --> 00:09:29,000
+Mit számoltam volna el?
+
+76
+00:10:10,000 --> 00:10:12,000
+Akkor lehet, hogy nem is jól számolok így?
+
+77
+00:11:02,000 --> 00:11:45,000
+[ír]
+
+78
+00:11:45,000 --> 00:11:50,000
+Most már visszaellenőrzöm a másikat is, mert...mert mostmár abban sem vagyok biztos.
+
+79
+00:12:04,000 --> 00:12:08,000
+108207, ez ugyan arra jött ki.
+
+80
+00:12:11,000 --> 00:12:13,000
+Jó, tehát ez jó.
+
+81
+00:12:17,000 --> 00:12:21,000
+A másiknál mi a probléma a számolásomban?
+
+82
+00:12:22,000 --> 00:12:26,000
+58000+14000 az 72000.
+
+83
+00:12:26,000 --> 00:12:29,000
+300+600 az 900.
+
+84
+00:12:29,000 --> 00:12:31,000
+Az 72900.
+
+85
+00:12:31,000 --> 00:12:34,000
+És 68+67.
+
+86
+00:12:34,000 --> 00:12:37,000
+73035.
+
+87
+00:12:43,000 --> 00:12:45,000
+74035.
+
+88
+00:12:53,000 --> 00:13:20,000
+[ír]
+
+89
+00:13:20,000 --> 00:13:23,000
+Na, hát ellenőrizzük vissza.
+
+90
+00:13:23,000 --> 00:13:25,000
+Azt mondja...
+
+91
+00:13:25,000 --> 00:13:39,000
+74035-14668.
+
+92
+00:13:41,000 --> 00:13:47,000
+5-8 az 3.
+
+93
+00:13:47,000 --> 00:13:48,000
+Maradt az 1.
+
+94
+00:13:51,000 --> 00:13:53,000
+13-6...
+
+95
+00:13:59,000 --> 00:14:00,000
+5-8 az 7.
+
+96
+00:14:02,000 --> 00:14:03,000
+[áthúz]
+
+97
+00:14:03,000 --> 00:14:15,000
+73035-14668.
+
+98
+00:14:16,000 --> 00:14:19,000
+8-hoz, hogy 15 legyen kell 7.
+
+99
+00:14:21,000 --> 00:14:27,000
+7-hez, hogy 13 legyen kell 6.
+
+100
+00:14:27,000 --> 00:14:28,000
+Maradt az 1.
+
+101
+00:14:29,000 --> 00:14:32,000
+7-hez, hogy 0 legyen kell 3.
+
+102
+00:14:37,000 --> 00:14:38,000
+Maradt az 1.
+
+103
+00:14:38,000 --> 00:14:40,000
+5-höz, hogy 13 legyen kell 8.
+
+104
+00:14:42,000 --> 00:14:43,000
+Maradt az 1.
+
+105
+00:14:43,000 --> 00:14:45,000
+És 2-höz, hogy 7 az 5.
+
+106
+00:14:47,000 --> 00:14:51,000
+Na akkor itt mit számoltam el közép iskolás matekkal?
+
+107
+00:14:51,000 --> 00:14:53,000
+Vagy a közép iskolás általánossal?
+
+108
+00:14:56,000 --> 00:14:59,000
+8+7 az 15, maradt az 1.
+
+109
+00:14:59,000 --> 00:15:01,000
+6+1 az 7...
+
+110
+00:15:02,000 --> 00:15:03,000
++6...
+
+111
+00:15:03,000 --> 00:15:08,000
+7+6 az 13, oké.
+
+112
+00:15:08,000 --> 00:15:10,000
+Maradt az 1.
+
+113
+00:15:10,000 --> 00:15:15,000
+És akkor 7+3 az 10, maradt az 1.
+
+114
+00:15:15,000 --> 00:15:17,000
+4+1 az 5.
+
+115
+00:15:17,000 --> 00:15:21,000
+5+8 az 13.
+
+116
+00:15:21,000 --> 00:15:23,000
+Nem tudok számolni.
+
+117
+00:15:26,000 --> 00:15:27,000
+Ahh.
+
+118
+00:15:37,000 --> 00:15:38,000
+Kész.
+
+119
+00:15:58,000 --> 00:16:08,000
+Számomra ez azt bizonyította, hogy az általános iskolás matek összeadás az...nem a legpontosabb módszer.
+
+120
+00:16:08,000 --> 00:16:14,000
+Főleg hogyha sok számot kell összeadni egymás után és még a maradékokat meg kell jegyezni.
+
+121
+00:16:14,000 --> 00:16:17,000
+Persze ez általános iskolában ez biztos jó, de...
+
+122
+00:16:18,000 --> 00:16:25,000
+Való életben fejben inkább köze[...] valami nagyobb számokhoz, egész számokhoz.
+
+123
+00:16:26,000 --> 00:16:28,000
+Amiket könnyű összeadni fejben.
+
+124
+00:16:34,000 --> 00:16:38,000
+Legalábbis nekem...de hát ezt embere válogatja.
+
+125
+00:16:52,000 --> 00:16:53,000
+Végeztem.
+
+126
+00:16:58,000 --> 00:17:02,000
+Háromszor átszámoltam, úgyhogy [nevet] még egyszer nem tenném.
+
+127
+00:17:03,000 --> 00:17:06,000
+Nézzük már meg, hogy jó lett-e, hogy hallatszik-e eléggé...
+
+128
+00:17:07,000 --> 00:17:08,000
+ami kell.
+

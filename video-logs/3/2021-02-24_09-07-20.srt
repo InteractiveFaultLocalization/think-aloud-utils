@@ -1,0 +1,778 @@
+﻿1
+00:00:01,440 --> 00:00:04,256
+Igen, és akkor mostantól megy a felvétel, jó? (Gergő)
+- Rendben
+
+2
+00:00:04,250 --> 00:00:07,056
+Ööö, elsőre egy bemeleítéses kör lesz (Gergő)
+
+3
+00:00:07,050 --> 00:00:10,736
+- Akkor vegyek elő egy tollat? 
+- Egy tollat keressél légyszíves (Gergő)
+
+4
+00:00:10,730 --> 00:00:22,528
+[keres egy tollat]
+
+5
+00:00:22,520 --> 00:00:26,640
+- És ha minden igaz, te vagy a 3-as számú  (Gergő)
+- Igen-igen
+
+6
+00:00:28,336 --> 00:00:32,000
+[visszaül]
+
+7
+00:00:32,480 --> 00:00:36,544
+Jó, ott találsz egy papírt a billenytűzeteden, azon van egy feladat (Gergő)
+
+8
+00:00:36,540 --> 00:00:41,456
+Megnézheted persze, ugyanúgy ahogy az előző feladatot, meg kell oldani azt (Gergő)
+
+9
+00:00:41,450 --> 00:00:46,688
+a műveletet, amit ott látsz, ugyanúgy hangosan kellene gondolkodni, tehát minden ami csak eszedbe jut (Gergő)
+
+10
+00:00:46,680 --> 00:00:51,664
+mondj ki, teljesen lényegtelen, hogy mihez kapcsolódik, ami a fejedben van dumpoljad (Gergő)
+
+11
+00:00:51,660 --> 00:00:55,696
+- Jó. 
+- Ugyanúgy magadra leszel hagyva, fél óra van erre a bemelegítéses (Gergő)
+
+12
+00:00:55,690 --> 00:00:59,648
+részre maximum, pár percenként rád fogunk nézni, hogy minden rendben van-e (Gergő)
+
+13
+00:00:59,640 --> 00:01:03,680
+és gyakorlatilag igazából ennyi. Bármi kérdésed van, nyilván majd szólsz (Gergő)
+
+14
+00:01:03,680 --> 00:01:05,680
+- jó? (Gergő)
+- Okés, rendben
+
+15
+00:01:05,680 --> 00:01:10,288
+- Jó munkát! (Gergő)
+ - Okés, persze-persze értem. Köszi! 
+
+16
+00:01:10,912 --> 00:01:14,768
+...feladat... Felírom a feladatokat, hogy mikor kezdtem meg hogy
+
+17
+00:01:14,760 --> 00:01:19,088
+[sóhajt] hanyas ember vagyok
+
+18
+00:01:19,080 --> 00:01:30,080
+[jegyzetel, ír]
+
+19
+00:01:30,080 --> 00:01:32,848
+Ööö, most egy ilyen nehezebb, hosszabb
+
+20
+00:01:32,848 --> 00:01:34,840
+bonyolultabb feladatot kapok, egy ilyen
+
+21
+00:01:34,840 --> 00:01:39,088
+zárójelezett, összeadásos, szorzásos
+
+22
+00:01:39,728 --> 00:01:43,664
+dolog elsőnek - két nagyobb részletből áll, és 
+
+23
+00:01:43,660 --> 00:01:47,168
+Khm, hát ezt valószínűleg úgy fogom elkezdni, hogy a 
+
+24
+00:01:47,160 --> 00:01:50,448
+bentről kifele kezdem a zárójeleknek a megoldását
+
+25
+00:01:50,440 --> 00:01:55,664
+és metódusban a legbelső, hát ez
+
+26
+00:01:55,660 --> 00:01:59,456
+Legelső, lenagyobb, legbelsőbb zárójelet
+
+27
+00:01:59,450 --> 00:02:03,520
+Ööö, megoldom, az 688
+
+28
+00:02:04,768 --> 00:02:10,464
+- 790 - 959 a feladat
+
+29
+00:02:12,720 --> 00:02:14,224
+Hm
+
+30
+00:02:17,264 --> 00:02:21,952
+ugye ezt gyorsan fogom megoldani, ugye ez 80 - 790
+
+31
+00:02:21,950 --> 00:02:26,560
+az mínusz száztizen... nem, az -102
+
+32
+00:02:27,024 --> 00:02:31,024
+ezt a -102-t hozzá kell adnom a -959-hez
+
+33
+00:02:31,020 --> 00:02:36,032
+és annyi lesz az első, öö, végeredménye
+
+34
+00:02:36,030 --> 00:02:47,120
+[ír, számol]
+
+35
+00:02:47,120 --> 00:02:53,872
+És ez -102 -959-et össze kell adni, szóval mínusz
+
+36
+00:02:55,776 --> 00:02:59,584
+ja nem is, -102-ből kivonok innen az 905
+
+37
+00:02:59,584 --> 00:03:01,580
+vagy kivonok 959-et
+
+38
+00:03:02,432 --> 00:03:04,992
+2 + 9 az 1, maradt az 
+
+39
+00:03:05,392 --> 00:03:09,472
+2 + 9 az 11, maradt az 1, 1 + 5 az 6
+
+40
+00:03:09,968 --> 00:03:14,512
+és akkor 1061 - szóval az első eredménye a zárójelnek -1061
+
+41
+00:03:14,512 --> 00:03:16,510
+végereménye
+
+42
+00:03:18,288 --> 00:03:20,704
+ezen kívül, ööö
+
+43
+00:03:21,552 --> 00:03:25,424
+van még egy plusz zárójel, hogy +4 akkor -1061 - 4
+
+44
+00:03:25,420 --> 00:03:29,264
+az egyenlő -1057
+
+45
+00:03:30,288 --> 00:03:32,448
+és akkor ez 
+
+46
+00:03:32,440 --> 00:03:35,008
+ez a baloldala a feladatnak 
+
+47
+00:03:37,440 --> 00:03:39,184
+utána van egy jobboldala
+
+48
+00:03:39,180 --> 00:03:41,808
+838 - 55
+
+49
+00:03:42,016 --> 00:03:46,928
+ööö, zárójelben ezt meg kell oldalni, és 835 - 55-öt azt 
+
+50
+00:03:46,920 --> 00:03:50,064
+gyorsan fogjuk megoldani, mert azt elég 
+
+51
+00:03:50,060 --> 00:03:53,152
+könnyen ki tudjuk számolni fejben, hogy 700
+
+52
+00:03:55,440 --> 00:03:59,856
+na, várjunk, 838 - 55
+
+53
+00:03:59,850 --> 00:04:03,120
+Hm, ki is számolhatjuk
+
+54
+00:04:05,360 --> 00:04:08,864
+55, felírtam egymás felé, és akkor 8 - 5 az 
+
+55
+00:04:08,864 --> 00:04:10,860
+3, maradt az első oszlopban 
+
+56
+00:04:12,832 --> 00:04:16,672
+Ööö, 5, 13, vagy 3
+
+57
+00:04:16,670 --> 00:04:23,344
+13 - 5 az 8, maradt egy, az le kell vonni, szóval 783
+
+58
+00:04:24,112 --> 00:04:28,528
+783 + 55, leellenőrizzük
+
+59
+00:04:28,528 --> 00:04:30,520
+Ööö
+
+60
+00:04:30,520 --> 00:04:35,568
+az 820, 7...50-et hozzáadni az 823
+
+61
+00:04:36,160 --> 00:04:40,512
+833 + 55 az 838, szóval jó a végeredmény
+
+62
+00:04:40,992 --> 00:04:44,320
+szóval itt jobbra az első zárójel az 783
+
+63
+00:04:44,320 --> 00:04:47,424
+utána van egy 783-szor, ennek, ezt az
+
+64
+00:04:47,420 --> 00:04:50,848
+ezt kell megszorozni a 774-gyel
+
+65
+00:04:50,840 --> 00:04:54,848
+szóval leírjuk, hogy 783
+
+66
+00:04:54,840 --> 00:05:00,992
+* 774
+
+67
+00:05:00,990 --> 00:05:05,008
+huh, szorzást azt már rég csináltam papíron
+
+68
+00:05:05,000 --> 00:05:13,408
+[számol, ír]
+
+69
+00:05:13,400 --> 00:05:16,624
+[ír] ööö
+
+70
+00:05:16,620 --> 00:05:20,384
+gondolkozok éppen, hogy kell megoldani ezt a feladatot, leírtam
+
+71
+00:05:21,872 --> 00:05:23,920
+és el kell csúsztatni majd
+
+72
+00:05:23,920 --> 00:05:32,688
+[gondolkodik]
+
+73
+00:05:32,680 --> 00:05:38,768
+Jobbra, vagy balra, gondolkodom közben rajta, hogy szorozni már
+
+74
+00:05:38,760 --> 00:05:52,592
+[gondolkodik]
+
+75
+00:05:52,590 --> 00:05:56,512
+Most látom, hogy egyszerűen a 783-at megszorozzuk
+
+76
+00:05:56,510 --> 00:06:00,656
+700-zal, utána 70-nel, meg 4-gyel, és aztán összeadjuk ezt a 3-at
+
+77
+00:06:01,744 --> 00:06:04,368
+elcsúszott...
+
+78
+00:06:04,360 --> 00:06:11,888
+[gondolkodik]
+
+79
+00:06:11,888 --> 00:06:13,880
+vagy a...
+
+80
+00:06:13,880 --> 00:06:17,104
+[ír]
+
+81
+00:06:17,100 --> 00:06:20,800
+nem, várjunk csak, úgy csináljuk, hogy 783
+
+82
+00:06:21,872 --> 00:06:26,096
+azt picit arrébb írjuk [áthúz] 783
+
+83
+00:06:26,090 --> 00:06:30,192
+* 774-gyel kezdjük
+
+84
+00:06:30,190 --> 00:06:33,168
+4 * 3 az 12
+
+85
+00:06:33,168 --> 00:06:35,160
+maradt az 1, 4 * 8
+
+86
+00:06:35,160 --> 00:06:38,752
+32, + 1 az 33
+
+87
+00:06:38,750 --> 00:06:42,832
+maradt 3, 4 * 7 az 28 +1, az harminc
+
+88
+00:06:42,830 --> 00:06:55,408
+[számol, ír]
+
+89
+00:06:55,400 --> 00:06:58,176
+Ühüm
+
+90
+00:06:58,170 --> 00:07:01,760
+[számol]
+
+91
+00:07:01,760 --> 00:07:06,512
+a 70 * 783-at az egy tizedesjeggyel arrébb kezdjük írni
+
+92
+00:07:06,510 --> 00:07:10,160
+és nem, vagy egy 0-át rakunk a végére
+
+93
+00:07:12,368 --> 00:07:15,920
+és akkor 7 * 3 az, ööö
+
+94
+00:07:16,704 --> 00:07:22,288
+az 21, maradt a 2, 7 * 8 az 56 + 2 az 8
+
+95
+00:07:24,640 --> 00:07:29,312
+maradt az 5, és 7 * 7 az 49 + 5 az 
+
+96
+00:07:29,792 --> 00:07:32,352
+49 + 5 az 54
+
+97
+00:07:32,350 --> 00:07:35,824
+[számol, ír]
+
+98
+00:07:35,820 --> 00:07:38,384
+Utána kettő nullát írunk itt a végére, mert
+
+99
+00:07:38,384 --> 00:07:40,380
+a 700-zal szoroztunk, és akkor 
+
+100
+00:07:40,380 --> 00:07:43,728
+ezt leírjuk még egyszer, és akkor
+
+101
+00:07:43,720 --> 00:07:46,912
+1, 8, 4 
+
+102
+00:07:47,616 --> 00:07:50,624
+és ezt kéne összeadnunk
+
+103
+00:07:50,620 --> 00:07:54,976
+[ír]
+
+104
+00:07:54,970 --> 00:07:58,752
+és akkor 0 + 0 + 2 az 2, 3 + 1 az 4
+
+105
+00:07:59,648 --> 00:08:03,744
+1 + 8 + 1 az 10 maradt az 1, ööö
+
+106
+00:08:03,740 --> 00:08:05,424
+4 + 8 az 12 + 3
+
+107
+00:08:05,420 --> 00:08:08,640
+az 15 + 1 az 16, maradt az 1, 5 + 4 az
+
+108
+00:08:08,640 --> 00:08:12,560
+9 + 1 az 0, maradt az 1
+
+109
+00:08:12,912 --> 00:08:16,592
+vagyis 10, maradt az 1, és akkor 5 + 1 az 6, és akkor az 
+
+110
+00:08:17,808 --> 00:08:20,880
+606.042 lett a végeredmény
+
+111
+00:08:20,880 --> 00:08:22,880
+és ööö
+
+112
+00:08:24,224 --> 00:08:28,656
+...még hozzá kell adnunk az 538-at, meg ezt a 
+
+113
+00:08:28,650 --> 00:08:31,952
+-1057-et majd ki kell vonni belőle
+
+114
+00:08:31,950 --> 00:08:35,648
+Szóval megfogjuk, és hozzáadjuk az 538-at
+
+115
+00:08:37,248 --> 00:08:41,344
+[motyog]
+
+116
+00:08:41,340 --> 00:08:45,472
+536-hoz hozzáadjuk, és akkor 
+
+117
+00:08:45,696 --> 00:08:50,608
+Ööö, 2 + 8 az 0, + 3 az 7, 5 
+
+118
+00:08:51,296 --> 00:08:54,112
+606.570
+
+119
+00:08:56,560 --> 00:09:01,008
+Nem... 580, mert itt elbasztam, király
+
+120
+00:09:01,000 --> 00:09:05,600
+2 + 8, lemaradt az 1, 4 + 3 az 7 + 1 így igaz
+
+121
+00:09:05,600 --> 00:09:13,312
+606.580 és akkor -1056-ot ki kell vonni belőle
+
+122
+00:09:13,312 --> 00:09:15,310
+Khm
+
+123
+00:09:16,400 --> 00:09:19,456
+Ez a legelső részben maradt
+
+124
+00:09:19,450 --> 00:09:22,960
+és akkor 0-ból, 10-ből, háthogy
+
+125
+00:09:22,960 --> 00:09:24,960
+10 - 7 az 3
+
+126
+00:09:24,960 --> 00:09:29,520
+maradt az 1, amit le kell vonni, 8 - 5 az 3 - 1 az 2
+
+127
+00:09:30,880 --> 00:09:34,432
+maradt a 0, 5 - 0 az 0
+
+128
+00:09:34,430 --> 00:09:38,032
+5 - 0 az 5, 6 - 1 az 5
+
+129
+00:09:38,032 --> 00:09:40,030
+[motyog]
+
+130
+00:09:40,336 --> 00:09:44,480
+szóval 605.523, kétszer aláhúzzuk, ez a végeredmény
+
+131
+00:09:44,480 --> 00:09:48,896
+[ír]
+
+132
+00:09:48,890 --> 00:09:52,320
+és szerintem készen is vagyunk, de leellenőrizhetjük
+
+133
+00:09:55,056 --> 00:10:07,968
+[nézi a jegyzetet, számol]
+
+134
+00:10:07,960 --> 00:10:13,520
+688-ből 790, szóval hogy 700... megfordítjuk, leellenőrizzük újra
+
+135
+00:10:13,520 --> 00:10:16,288
+790 - 688
+
+136
+00:10:16,280 --> 00:10:21,072
+Ööö, az 102 még mindig, jó akkor ...
+
+137
+00:10:21,070 --> 00:10:24,480
+- 2 - 959 - 102 + 959
+
+138
+00:10:24,480 --> 00:10:28,480
+102-őt meg az 959-et összeadjuk, és lesz lesz mínusz értékben
+
+139
+00:10:28,480 --> 00:10:33,328
+az 1059 + 2 az 1061 meg ... a négy
+
+140
+00:10:36,208 --> 00:10:41,440
+az - 1061 és ha hozzáadjuk a 4-et akkor 1057, akkor le van ellenőrizve az első része
+
+141
+00:10:41,440 --> 00:10:45,488
+838 - 55-öt is leellenőrizzük újra
+
+142
+00:10:45,488 --> 00:10:47,480
+az 783
+
+143
+00:10:47,840 --> 00:10:51,616
+vagy, itt az van, és akkor megnézzük, hogy 
+
+144
+00:10:51,616 --> 00:10:53,610
+8, az 38
+
+145
+00:10:53,610 --> 00:10:56,240
+vagy a 38-hoz hogy tizen...
+
+146
+00:10:56,240 --> 00:11:00,112
+hét kell még, azt még levonjuk a 800-ból, és az
+
+147
+00:11:00,110 --> 00:11:02,480
+783 pontosan, ez is
+
+148
+00:11:02,480 --> 00:11:06,784
+jó megoldás, és utána akkor 783 * 774
+
+149
+00:11:06,784 --> 00:11:08,780
+felírtuk
+
+150
+00:11:08,780 --> 00:11:12,496
+hogy 4-gyel szorozzuk meg, mert 4 * 700
+
+151
+00:11:13,184 --> 00:11:17,520
+ 4 * 3 az 12 maradt egy, 4 * 8 az 32 maradt 
+
+152
+00:11:17,520 --> 00:11:21,328
+az 1, vagy még 1 az 33, maradt a 3, 4 * 7 az
+
+153
+00:11:21,328 --> 00:11:23,320
+7 + 
+
+154
+00:11:23,320 --> 00:11:28,272
+4 * 7 az 28 + 3
+
+155
+00:11:28,270 --> 00:11:31,008
+maradt a 31, azt leírtuk, az 3.132
+
+156
+00:11:32,304 --> 00:11:36,032
+amit, ami jónak tűnik
+
+157
+00:11:39,184 --> 00:11:41,280
+teljes mértékben
+
+158
+00:11:43,152 --> 00:11:45,792
+utána a 7-tel is 
+
+159
+00:11:45,790 --> 00:11:50,208
+Leellenőrizzük, oda írtunk egy 0-át, mert ugye 70-nel szorozzuk nem 7-tel
+
+160
+00:11:50,208 --> 00:11:52,200
+7 * 3 az
+
+161
+00:11:53,072 --> 00:11:57,568
+1, az 21 maradt a 2, 7 * 8 az 56 maradt a 
+
+162
+00:11:57,568 --> 00:11:59,560
+56 + 2 az 58, leírjuk
+
+163
+00:11:59,560 --> 00:12:01,560
+* 81-et írtunk eddig 
+
+164
+00:12:01,560 --> 00:12:04,512
+ööö, maradt az 5
+
+165
+00:12:04,510 --> 00:12:07,072
+7 * 7 az 49 + 5 az
+
+166
+00:12:07,664 --> 00:12:11,888
+54, szóval 4810
+
+167
+00:12:11,880 --> 00:12:16,192
+és akkor 700... 548.100, összeadtam ezeket, ez 
+
+168
+00:12:16,190 --> 00:12:19,424
+ezt leellenőrizzük, mert 2 + 0 
+
+169
+00:12:19,420 --> 00:12:23,696
++ 0 2, 3 + 1 az 4, 1 + 8 + 1
+
+170
+00:12:23,696 --> 00:12:25,690
+az 10, maradt az 1, 6 +
+
+171
+00:12:25,690 --> 00:12:30,176
+nem is... 3 + 7 az, + 8 az
+
+172
+00:12:30,176 --> 00:12:32,170
+15 + 1 az 16
+
+173
+00:12:32,170 --> 00:12:35,152
+5 + 4 az 9 + 1 az 10
+
+174
+00:12:35,150 --> 00:12:43,008
+0, 5 + 1 az 6, 60.642, hozzáadjuk itt a jobb oldalon levő 638-at még,
+
+175
+00:12:43,664 --> 00:12:47,248
+az 606.580
+
+176
+00:12:47,240 --> 00:12:51,008
+abból levonjuk az előző részből az 1057-et
+
+177
+00:12:51,000 --> 00:12:58,832
+és az 600... 5523, de ezt leellenőrizzük
+
+178
+00:12:58,830 --> 00:13:02,016
+[ír] 3 maradt
+
+179
+00:13:02,010 --> 00:13:06,080
+10 - 7 az 3 maradt az 1, amit le kell vonni a következőből
+
+180
+00:13:06,080 --> 00:13:08,080
+8 - 5 az 
+
+181
+00:13:08,080 --> 00:13:10,080
+3 - 1 az 2
+
+182
+00:13:10,080 --> 00:13:13,632
+az így jó, 5 - 0 az 5
+
+183
+00:13:13,630 --> 00:13:17,920
+6 - 1 az 5, 0, igen, és akkor 605
+
+184
+00:13:19,120 --> 00:13:22,816
+523 a végeredmény
+
+185
+00:13:22,810 --> 00:13:27,936
+[ír, nézi a jegyzetet]
+
+186
+00:13:27,930 --> 00:13:31,232
+[ásít]
+
+187
+00:13:31,230 --> 00:13:38,512
+[nyújtózkodik]
+
+188
+00:13:38,510 --> 00:13:43,056
+[helyezkedik]
+
+189
+00:13:44,704 --> 00:13:50,352
+[rendezi a jegyzetet]
+
+190
+00:13:50,350 --> 00:15:39,456
+[vár, nézelődik]
+
+191
+00:15:39,450 --> 00:16:08,960
+[vár, ásít]
+
+192
+00:16:08,960 --> 00:18:36,304
+[továbbra is vár, nézelődik, maszkot igazgat]
+
+193
+00:18:36,300 --> 00:18:40,048
+Készen vagyok. 
+

@@ -1,0 +1,232 @@
+﻿1
+00:00:01,000 --> 00:00:04,000
+Béla: Jó...elvileg...működik...jó.
+
+2
+00:00:04,000 --> 00:00:07,000
+Béla: Jó reggelt kívánok.
+
+3
+00:00:09,000 --> 00:00:17,000
+Béla: Ebben a szekcióban különböző hipotetikus eseteket vázolunk fel, melyekre válaszolni kellene.
+
+4
+00:00:17,000 --> 00:00:27,000
+Béla: Nyugodtan ki lehet fejteni hosszabban is, nem feltétlenül csak két szavas válaszok kellenek.
+
+5
+00:00:27,000 --> 00:00:38,000
+Béla: Ismét kérnénk ugye, hogy hangosan, érthatően mondd ki, itt a külső zajok ne nyomják el a hangfelvételt, ne rontsák a hangnak a minőségét.
+
+6
+00:00:39,000 --> 00:00:40,000
+Béla: Jó.
+
+7
+00:00:40,000 --> 00:00:48,000
+Béla: Akkor azt kérném, hogy fejtsd ki, hogy hogyan befolyásolt volna téged az alábbi eset a feladat végrehajtása során.
+
+8
+00:00:49,000 --> 00:01:06,000
+Béla: Tegyük fel, hogy a legutóbbi alkalmon megoldott feladat során, miközben az egyik teszt metódust olvasod, az Eclipse fejlesztő környezet összeomlik és újra kell indítani, minden megnyitott fájl becsukódik és a metódusok elvesznek.
+
+9
+00:01:07,000 --> 00:01:09,000
+Béla: Elmondjam még egyszer...?
+
+10
+00:01:09,000 --> 00:01:12,000
+Azt a részét, hogy mit jelent az, hogy elvesznek a metódusok.
+
+11
+00:01:15,000 --> 00:01:17,000
+Béla: A módosítások elvesznek.
+
+12
+00:01:17,000 --> 00:01:19,000
+A módosítások. Metódusokat mondtál.
+
+13
+00:01:19,000 --> 00:01:22,000
+Béla: Ja, bocsánat. A módosítások elvesznek.
+
+14
+00:01:25,000 --> 00:01:29,000
+Hát valószínűleg nem lenne akkora probléma, hogy a módosítások elvesznek, gyakran szoktam menteni.
+
+15
+00:01:29,000 --> 00:01:33,000
+Tehát az valószínűleg nem lenne olyan nagy gond.
+
+16
+00:01:35,000 --> 00:01:42,000
+Igazából talán az lenne a leginkább probléma, hogyha több fájl van megnyitva egyszerre.
+
+17
+00:01:43,000 --> 00:01:58,000
+És azokat nem tudom pontosan megnyitogatni újra, de...igazából az is csak időigényessé tenné, tehát metódusok között egymás...ahogy hívják egymást, úgy szoktam navigálni.
+
+18
+00:01:58,000 --> 00:02:00,000
+Úgy nyitom meg a különböző fájlokat, tehát...
+
+19
+00:02:00,000 --> 00:02:04,000
+Valószínűleg ugyan arra az állapotra el tudnék jutni elég hamar.
+
+20
+00:02:07,000 --> 00:02:17,000
+Béla: Hogyha...azt mondod, hogy ennyit szerettél volna mondani, akkor...de amúgy bátran amit szeretnél.
+
+21
+00:02:18,000 --> 00:02:27,000
+Úgy gondolom, hogy...igen...esetlen fejlesztés közben, hogyha fejlesztés közben történik ez, akkor nyilván a gondolatmenetet jobban meg tudná szakítani.
+
+22
+00:02:28,000 --> 00:02:32,000
+Ezért ez itt is fennáll, de itt ez szerintem nem akkor probléma.
+
+23
+00:02:34,000 --> 00:02:35,000
+Ennyit szerettem volna mondani.
+
+24
+00:02:42,000 --> 00:02:51,000
+Béla: Tegyük fel, hogy a legutóbbi alkalmon megoldott feladatot egy egyszínű világos zöldre festett teremben kell megoldani.
+
+25
+00:02:54,000 --> 00:02:58,000
+Béla: Ez hogyan befolyásol téged a...végrehajtásban?
+
+26
+00:03:00,000 --> 00:03:05,000
+Hát ez valószínűleg irritált volna, tehát elvonta volna a figyelmemet.
+
+27
+00:03:07,000 --> 00:03:13,000
+Igazából talán egy idő után ki tudnám zárni, de eleinte biztos többet figyelnék rá.
+
+28
+00:03:13,000 --> 00:03:15,000
+Szerintem ennyiben befolyásolna.
+
+29
+00:03:25,000 --> 00:03:40,000
+Béla: Tegyük fel, hogy a legutóbbi alkalmon megoldott feladat közben felhív téged egy közvetítő és értesít, hogy egy régóta vágyott tárgyat nyertél egy játék kereteiben.
+
+30
+00:03:40,000 --> 00:03:42,000
+Béla: Ez hogyan befolyásol?
+
+31
+00:03:46,000 --> 00:03:48,000
+Gondolkozom. 
+
+32
+00:03:48,000 --> 00:03:54,000
+Igazából szerintem itt is csak az lenne a legnagyobb tényező, hogy megszakította a gondolatmenetet.
+
+33
+00:03:56,000 --> 00:04:07,000
+Nyilván biztosan örülnék neki, de nem hiszem, hogy ez után csak arra figyelnék, hogy...vagy azon gondolkoznék, tehát...azért ki tudnám ezt zárni.
+
+34
+00:04:07,000 --> 00:04:12,000
+Tényleg az lenne a zavaró, hogy megszakította a munkafolyamatot.
+
+35
+00:04:19,000 --> 00:04:37,000
+Béla: Tegyük fel, hogy a legutóbbi alkalmon megoldott feladat előtt egy megbeszélésen hallottad, hogy a numberUtils osztályt egy fiatal kezdő és kevés tapasztalattal rendelkező kolléga készítette, tehát...ez hogyan befolyásolt volna?
+
+36
+00:04:38,000 --> 00:04:42,000
+Valószínűleg előítéletesebben kezdtem volna neki a feladatnak, tehát...
+
+37
+00:04:44,000 --> 00:04:45,000
+Talán...
+
+38
+00:04:46,000 --> 00:04:49,000
+Figyelmesebben kerestem volna a hibákat is benne.
+
+39
+00:04:49,000 --> 00:04:51,000
+Tehát olyan szempontból, hogy...
+
+40
+00:04:52,000 --> 00:04:55,000
+triviálisabb hibákat vártam volna el tőle.
+
+41
+00:05:00,000 --> 00:05:14,000
+Talán ennyi lenne, mivel hogy tudnám azt, hogy a tesztesetek...a biztos pont a feladatmegoldás során...és...és csak egy tesztesetről van szó, így...
+
+42
+00:05:15,000 --> 00:05:26,000
+Tehát így valószínűleg ugyanúgy jobban be tudnám határolni, hogy hol a probléma, talán csak annyi módon változtatás lenne, hogy előítéletesebben kezdtem volna neki.
+
+43
+00:05:27,000 --> 00:05:28,000
+És...
+
+44
+00:05:29,000 --> 00:05:36,000
+És talán a...a külső metódusok hívását is jobban leellenőriztem volna, tehát...
+
+45
+00:05:39,000 --> 00:05:48,000
+Ellenőriztem volna, hogy biztos jól működnek azok is, mert...ha jól emlékszem, akkor tegnap volt olyan, hogy feltételeztem, hogy az adott metódus biztosan jól működik.
+
+46
+00:05:48,000 --> 00:05:51,000
+Viszont akkor mindent ellenőriztem volna.
+
+47
+00:05:59,000 --> 00:06:05,000
+Béla: Oké. Tegyük fel, hogy a legutóbbi alkalmon megoldott feladat során kint esett az eső.
+
+48
+00:06:06,000 --> 00:06:09,000
+Béla: Ez hogyan befolyásolt volna téged?
+
+49
+00:06:11,000 --> 00:06:15,000
+Talán csak annyiban, hogy jobban kellett volna figyelnem, hogy hangosabban beszéljek.
+
+50
+00:06:15,000 --> 00:06:27,000
+Talán ez lenne, ami...ami egy ilyen befolyásoló tényező lett volna, de egyébként...egészen jól ki tudnám zárni ezt a...ezt a külső zajt.
+
+51
+00:06:38,000 --> 00:07:00,000
+Béla: Tegyük fel, hogy a legutóbbi alkalmon megoldott feladatot a munkahelyeden oldottad meg. Ebéd előtt a numberUtils osztályt kezdted el átnézni. Az ebédszünetben beszélgettetek erről az egyik kollégával, aki felajánlotta, hogy segít megérteni, hogy mire szolgál az osztály.
+
+52
+00:07:01,000 --> 00:07:04,000
+Béla: Ez hogyan befolyásolt volna téged?
+
+53
+00:07:05,000 --> 00:07:11,000
+Személy szerint én eleinte próbálnám még egyedül folytatni a feladatmegoldást.
+
+54
+00:07:11,000 --> 00:07:31,000
+Igazából ez attól függően változna a reakcióm, hogy minél több időt töltöttem már el az adott feladattal, tehát eleinte probálok még egyedül megoldást találni rá, de később biztos vagyok benne, hogy megkértem volna vagy utólag megkértem volna, hogy segtsen.
+
+55
+00:07:31,000 --> 00:07:37,000
+Tehát először elutasítottam volna és utána mégis éltem volna a lehetőséggel, hogyha továbbra sem sikerül.
+
+56
+00:07:50,000 --> 00:07:58,000
+Béla: Jó, igazából...akkor ennyi lett volna...ez az eset.
+
+57
+00:07:59,000 --> 00:08:01,000
+Béla: Köszönöm szépen.
+
+58
+00:08:01,000 --> 00:08:03,000
+Béla: Le is állítom a videót.
+

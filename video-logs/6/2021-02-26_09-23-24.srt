@@ -1,0 +1,1843 @@
+﻿1
+00:00:00,000 --> 00:00:04,464
+- Mindegy, azért annyira ... (Gergő)
+- [nevet]
+
+2
+00:00:04,460 --> 00:00:07,920
+Azt, azt megjegyeztem, utolsó... úgyhogy [nevet]
+
+3
+00:00:07,920 --> 00:00:10,624
+Ööö jó, következő feladat ugyanúgy egy hibát (Gergő)
+
+4
+00:00:10,620 --> 00:00:13,248
+kell kijavítani, az a cél, hogy ne legyen bukó tesztesetek (Gergő)
+
+5
+00:00:13,240 --> 00:00:16,304
+Ugyanúgy hangosan kéne gondolkodni, tehát minden ami az eszedben van (Gergő)
+
+6
+00:00:16,300 --> 00:00:19,632
+csak így dumpoljad kifele jó? - braindump (Gergő)
+
+7
+00:00:19,630 --> 00:00:22,736
+Ööö... inkább több legyen, mint kevesebb (Gergő)
+
+8
+00:00:22,730 --> 00:00:25,200
+ööö.. Eclipse ott van nyitva (Gergő)
+
+9
+00:00:25,200 --> 00:00:30,544
+abba tudsz dolgozni, a toolok fel vannak ugyanúgy telepítve, tetszőlegesen használhatod őket vagy sem (Gergő)
+
+10
+00:00:30,540 --> 00:00:33,088
+A feladatot a ott a lapon találod (Gergő)
+
+11
+00:00:33,080 --> 00:00:37,856
+Erre a részre 90 perced van összesen, az másfél óra, és néhány percenként (Gergő)
+
+12
+00:00:37,850 --> 00:00:41,584
+úgy rád-rád lesz nézve, hogy akkor hogy haladsz, meg mi egyéb (Gergő)
+
+13
+00:00:41,580 --> 00:00:44,752
+Ööö annyi még, hogy ezek továbbra is ismert bugok, tehát (Gergő)
+
+14
+00:00:44,750 --> 00:00:49,744
+kérjük, hogy bugadatbázisokban, issue trackerekben és ilyen helyeken ne keresd meg őket, mert nyilván akkor (Gergő)
+
+15
+00:00:49,740 --> 00:00:54,464
+úgyhogy azt-azt ne, mert az úgy torzít, ööö (Gergő)
+
+16
+00:00:54,464 --> 00:00:56,460
+Akkor van kész a feladat, hogyha lejár az idő (Gergő)
+
+17
+00:00:56,460 --> 00:00:58,460
+vagy hogyha nincs bukó teszteset (Gergő)
+
+18
+00:00:58,460 --> 00:01:00,460
+- Jó, jó. 
+- Oké? (Gergő)
+
+19
+00:01:00,460 --> 00:01:02,960
+- Az egeret azt megkaphatom?
+- Ja persze bocsánat (Gergő)
+
+20
+00:01:02,960 --> 00:01:06,672
+Enélkül is menne [nevet], de így könyebb lesz azért
+
+21
+00:01:06,672 --> 00:01:08,670
+[pakol, mosolyog]
+
+22
+00:01:08,670 --> 00:01:12,016
+[Nézi a monitort, kattint]
+
+23
+00:01:12,010 --> 00:01:15,936
+[lapoz]
+
+24
+00:01:15,930 --> 00:01:18,944
+Jó, tehát akkor - Jó munkát! (Gergő) - Köszi! 
+
+25
+00:01:18,940 --> 00:01:22,720
+Ööö, ugye minden feladatot így kezdtünk, úgyhogy lefuttatom
+
+26
+00:01:22,720 --> 00:01:26,432
+itt a mavenes buildet, ami a teszteket 
+
+27
+00:01:26,432 --> 00:01:28,430
+fogja dobni, hogy hol van hiba
+
+28
+00:01:28,430 --> 00:01:31,712
+Ööö, itt kettő teszt bukik, 
+
+29
+00:01:31,710 --> 00:01:36,256
+Ööö, ez is a commons-langban van 
+
+30
+00:01:37,280 --> 00:01:41,664
+nagy egész számokból áll, a törtek egyszerűsítése hibásan történik meg 
+
+31
+00:01:41,660 --> 00:01:44,656
+Jó
+
+32
+00:01:44,650 --> 00:01:47,664
+Jó, és akkor 
+
+33
+00:01:47,660 --> 00:01:50,752
+Mert a... és vannak ezek a...
+
+34
+00:01:50,750 --> 00:01:54,864
+Desktop/scores, meg még itt is van egy scores, nem tudom, hogy 
+
+35
+00:01:54,860 --> 00:01:58,304
+[nézi a monitort] ...hogy...
+
+36
+00:01:58,300 --> 00:02:02,400
+melyik lesz a ... még nincs kijelölve a projekt
+
+37
+00:02:02,400 --> 00:02:04,400
+[kattint]
+
+38
+00:02:04,400 --> 00:02:11,040
+[nézi az eredményt, görget]
+
+39
+00:02:11,040 --> 00:02:13,344
+Milyen jó hogy jöttél, itt a 
+
+40
+00:02:13,340 --> 00:02:17,888
+Van egy scores a project rootban is meg itt a desktopon is van egy scores
+
+41
+00:02:17,880 --> 00:02:23,280
+- Mindegy, hogy melyik? 
+- Az ugyanaz (Feri)
+
+42
+00:02:23,280 --> 00:02:28,192
+- Akkor van egy ilyen rövid leírás (Feri)
+- Mondtam Gergőnek hogy nem fontos, mert úgysem olvastam (nevet)
+
+43
+00:02:28,190 --> 00:02:33,152
+De azért köszi [nevet] megjegyeztem a videóról
+
+44
+00:02:33,360 --> 00:02:36,928
+De a projekt alatt arra gondolsz, ami az eclipses
+
+45
+00:02:36,920 --> 00:02:39,072
+- Igen, ott is van egy scores.csv
+- Ugyanaz (Feri)
+
+46
+00:02:39,072 --> 00:02:42,352
+- Kiraktuk az asztalra, hogy könnyebb legyen megtalálni (Feri)
+- Jó, oké
+
+47
+00:02:42,352 --> 00:02:44,350
+Köszi
+
+48
+00:02:44,350 --> 00:02:46,992
+[Nézi a kódot]
+
+49
+00:02:46,990 --> 00:02:53,184
+Jó, hát ööö, most megpróbáljuk használni ezt az iFL-t - jah, még mindig nem jelöltem ki a projektet
+
+50
+00:02:53,180 --> 00:02:55,840
+Jó, itt vannak a bukó tesztek
+
+51
+00:02:55,840 --> 00:02:57,840
+iFL [kattint]
+
+52
+00:02:57,840 --> 00:03:07,104
+Ööö, igen, most akkor kijelöltem a projektet ifl-be, ööö, jó
+
+53
+00:03:07,280 --> 00:03:10,832
+[vár]
+
+54
+00:03:10,830 --> 00:03:15,872
+Most kiteszteljük, hogy mire jó ez a tool, így hogy most már tudom, hogy 
+
+55
+00:03:15,872 --> 00:03:17,870
+hogy hogy működik. 
+
+56
+00:03:19,392 --> 00:03:24,528
+Azért ez egy kicsit más kontextusba helyezi, hogy tudom, hogy hogy működik
+
+57
+00:03:24,520 --> 00:03:28,800
+[grimaszol]
+
+58
+00:03:28,800 --> 00:03:30,800
+Viszont sajnos a ...
+
+59
+00:03:30,800 --> 00:03:38,352
+... a tool az nem túl, túúúlzottan gyors [nevet]
+
+60
+00:03:38,352 --> 00:03:40,350
+Hoppá [nézi az eredményt]
+
+61
+00:03:40,350 --> 00:03:45,104
+[nézi az eredményt] Most ide bedobott valamit
+
+62
+00:03:45,100 --> 00:03:47,504
+[nézi az eredményt]
+
+63
+00:03:47,500 --> 00:03:51,520
+Lehet, hogyha a ...-ban van akkor betölt automatikusan? 
+
+64
+00:03:51,520 --> 00:03:56,000
+Mert, ööö [kattint]
+
+65
+00:03:56,000 --> 00:04:01,488
+[kattint] Ugye a tegnap, hát mindegy, Load scores.... rányomok még egyszer
+
+66
+00:04:01,480 --> 00:04:04,944
+Ööö, [kattint]
+
+67
+00:04:04,940 --> 00:04:09,040
+[kattint]
+
+68
+00:04:09,040 --> 00:04:15,776
+Jó, azt mondja, hogy [kattint] score alapján
+
+69
+00:04:15,776 --> 00:04:17,770
+sorrendbe rakom
+
+70
+00:04:17,770 --> 00:04:20,096
+Föntről lefele
+
+71
+00:04:21,408 --> 00:04:26,176
+egy gond van csak ezzel, hogy a signature az ... aha
+
+72
+00:04:26,170 --> 00:04:28,416
+Hát ilyen... így lapozató
+
+73
+00:04:28,976 --> 00:04:31,648
+Itt a fractionnél lesz a hiba
+
+74
+00:04:31,640 --> 00:04:34,704
+itt a fraction tesztnek a ... igen
+
+75
+00:04:34,700 --> 00:04:38,224
+nézzük meg ez a... ööö
+
+76
+00:04:38,220 --> 00:04:42,464
+Duplán kattintok ugye? Akkor odaugrik?
+
+77
+00:04:42,800 --> 00:04:48,176
+Meg is nyitja? Vagy csak...ha meg van nyitva odaugrik? Nem, meg is nyitja, szuper
+
+78
+00:04:48,170 --> 00:04:52,832
+ööö, jó, tehát elvileg, ez a
+
+79
+00:04:53,344 --> 00:04:56,688
+[nézi a plugint] ebben a tesztben vannak ugye a hibák
+
+80
+00:04:56,688 --> 00:04:58,680
+[nézi a plugint]
+
+81
+00:04:58,680 --> 00:05:02,704
+[motyog] fraction, fraction, fraction....
+
+82
+00:05:02,700 --> 00:05:05,984
+azt mondja, hogy 
+
+83
+00:05:05,980 --> 00:05:09,152
+Name: reduce
+
+84
+00:05:09,150 --> 00:05:11,872
+Kicsit lentebb van azért, jó, ez elég nagy
+
+85
+00:05:11,870 --> 00:05:15,408
+[kattint] Izé...
+
+86
+00:05:15,400 --> 00:05:18,400
+[kattint]
+
+87
+00:05:18,400 --> 00:05:21,072
+Hát ez így [motyog] találná az hiba
+
+88
+00:05:21,070 --> 00:05:28,240
+De hát mondjuk ezek, elég nagy [kattintgat]
+
+89
+00:05:28,240 --> 00:05:30,240
+...elég nagy metódusok
+
+90
+00:05:30,784 --> 00:05:34,320
+getNumerator, ebben nem lesz hiba
+
+91
+00:05:34,960 --> 00:05:38,048
+ugye ennek a score-ját lentebb is veszem
+
+92
+00:05:38,040 --> 00:05:45,824
+Hogy is kellett? Lehet hogy erre csak kell [kattint]
+
+93
+00:05:45,824 --> 00:05:47,820
+[kattint]
+
+94
+00:05:47,820 --> 00:05:53,152
+[kattint, nézi a plugint]
+
+95
+00:05:53,150 --> 00:05:58,448
+[nézi a metódust, kattint] ezaz 
+
+96
+00:05:58,440 --> 00:06:02,288
+Ööö [olvassa a funkciót]
+
+97
+00:06:02,280 --> 00:06:06,608
+Context feedback... jó
+
+98
+00:06:06,600 --> 00:06:10,960
+Akkor ezt levesszük, a többit most még nem módosítom, de ezt levesszük, hogy
+
+99
+00:06:10,960 --> 00:06:14,352
+ebben biztos nem lesz hiba.
+
+100
+00:06:14,352 --> 00:06:16,350
+getter
+
+101
+00:06:16,350 --> 00:06:22,112
+[kattintgat]
+
+102
+00:06:22,592 --> 00:06:26,224
+[motyog] Mutable ... ja igen, itt a 
+
+103
+00:06:26,220 --> 00:06:31,280
+a sorrendezés - itt jelentenék egy bugot az iFL-lel, hogyha módosítom a kontextet, akkor a
+
+104
+00:06:31,280 --> 00:06:37,008
+sorrendezés az megszűnik, Denominator
+
+105
+00:06:37,000 --> 00:06:40,496
+[kattint] ööö
+
+106
+00:06:40,490 --> 00:06:43,984
+Itt többet is lehetne egyszerre 
+
+107
+00:06:43,980 --> 00:06:49,760
+ööö Fraction, itt izé, hát ebben sem nagyon lesz hiba
+
+108
+00:06:49,760 --> 00:06:54,448
+ööö.. getReduceFraction
+
+109
+00:06:54,440 --> 00:07:02,048
+...kicsit el van csúszva itt a sor, Position, de mindegy, megtalálgatom ezeket, ez oké
+
+110
+00:07:02,040 --> 00:07:06,128
+Na tehát hogyha ez a Denominator meg ez a 
+
+111
+00:07:06,120 --> 00:07:10,688
+aaa fraction, ööö, ezeknek [kattint]
+
+112
+00:07:10,680 --> 00:07:14,960
+selected context
+
+113
+00:07:14,960 --> 00:07:18,144
+[motyog] nulla
+
+114
+00:07:18,140 --> 00:07:25,792
+[motyog] denominator, mutable
+
+115
+00:07:25,790 --> 00:07:28,800
+Itt ez miért jelölte ki a mutable-t? Jah! 
+
+116
+00:07:28,800 --> 00:07:31,776
+Hoppá [kattint]
+
+117
+00:07:31,770 --> 00:07:33,552
+Van itt egy kicsi bug
+
+118
+00:07:33,550 --> 00:07:37,648
+[kattintgat]
+
+119
+00:07:37,648 --> 00:07:39,640
+Ööö, jah, aha, hogy ez 
+
+120
+00:07:39,640 --> 00:07:41,640
+kijelölve marad! Hm [grimaszol]
+
+121
+00:07:41,640 --> 00:07:46,560
+Aha, jó [kattintgat]
+
+122
+00:07:47,056 --> 00:07:53,600
+Jó, hát ezeknek - itt ez nem ... nulla
+
+123
+00:07:53,600 --> 00:07:58,848
+Jó, ja igen [kattintgat]
+
+124
+00:07:58,840 --> 00:08:01,376
+Itt jó lenne megszüntetni a kijelölését
+
+125
+00:08:01,370 --> 00:08:04,848
+[kattintgat]
+
+126
+00:08:04,840 --> 00:08:10,288
+Amikor újrarendezzük, érdemes lenne a kijelölést megszüntetni, mert kicsit zavaró, hogy 
+
+127
+00:08:10,280 --> 00:08:14,528
+hogy marad, jó? És akkor a fraction-ben van igazából
+
+128
+00:08:14,520 --> 00:08:18,416
+három metódus, ami hibás maradt
+
+129
+00:08:18,410 --> 00:08:23,264
+ööö, hol van a FractionTest? 
+
+130
+00:08:23,260 --> 00:08:27,856
+[kattint] FractionTest, mi lenne hogyha 
+
+131
+00:08:27,856 --> 00:08:29,850
+[nézi az eredményt]
+
+132
+00:08:29,850 --> 00:08:35,456
+[kattint] hogyha... rákattintok és betöltene
+
+133
+00:08:35,504 --> 00:08:40,576
+[kattint, gépel] 
+
+134
+00:08:40,576 --> 00:08:42,570
+Hát ezt majd így
+
+135
+00:08:42,570 --> 00:08:47,088
+És akkor itt a classra nyomok egy olyat, hogy coverage
+
+136
+00:08:47,080 --> 00:08:50,624
+[kattint] hátha az mond valamit
+
+137
+00:08:50,620 --> 00:08:56,128
+Ugye most eddig a izét használtam, nem is a tesztre
+
+138
+00:08:56,120 --> 00:09:00,320
+nem is az egész tesztre kéne, hanem csak azokra az egyes tesztekre kéne
+
+139
+00:09:01,440 --> 00:09:04,848
+hátha... testFactory.int_int
+
+140
+00:09:04,848 --> 00:09:06,840
+az volt az egyik hibás, ugye? 
+
+141
+00:09:06,840 --> 00:09:11,472
+[olvassa a kódot]
+
+142
+00:09:11,470 --> 00:09:16,080
+Jó, tehát a getterek, a két getter az ki van lőve, meg a 
+
+143
+00:09:16,080 --> 00:09:19,344
+konstruktor is, mert azokban nem lehet hiba
+
+144
+00:09:19,340 --> 00:09:24,464
+[olvassa a kódot] igen
+
+145
+00:09:24,460 --> 00:09:28,320
+Igazából nem ezt kellett volna, hanem ezt kellett
+
+146
+00:09:28,320 --> 00:09:34,224
+[kattint] volna csak - coverage as... jUnit test
+
+147
+00:09:34,220 --> 00:09:37,024
+Mondjuk a fractionTest az eléggé alul
+
+148
+00:09:37,020 --> 00:09:39,408
+[nézi az eredményt]
+
+149
+00:09:39,400 --> 00:09:43,312
+alul van [helyezkedik]
+
+150
+00:09:43,310 --> 00:09:48,032
+[kattint] jó, de ez nem az izé
+
+151
+00:09:48,032 --> 00:09:50,030
+[kattint]
+
+152
+00:09:50,030 --> 00:09:53,504
+A fractionTest az nem sok részét teszteli
+
+153
+00:09:53,500 --> 00:09:55,856
+hát, mondjuk még a saját osztályának sem
+
+154
+00:09:55,850 --> 00:09:58,000
+[sóhajt] ez mondjuk érdekes
+
+155
+00:09:58,000 --> 00:10:00,848
+testInitFraction
+
+156
+00:10:00,840 --> 00:10:05,344
+[lenéz, görget]
+
+157
+00:10:05,340 --> 00:10:08,112
+test fraction int
+
+158
+00:10:08,110 --> 00:10:12,080
+ja várjunk, ez a fraction test, nekem nem ez kell
+
+159
+00:10:12,080 --> 00:10:15,424
+hanem a common
+
+160
+00:10:15,420 --> 00:10:18,864
+10%-át teszteli a fractionnek
+
+161
+00:10:18,860 --> 00:10:20,624
+test init
+
+162
+00:10:20,620 --> 00:10:24,672
+[kattint, motyog] ...getFraction...
+
+163
+00:10:24,670 --> 00:10:31,392
+[olvassa a kódot, javadocot, görget]
+
+164
+00:10:31,390 --> 00:10:33,776
+Aaa... getFraction
+
+165
+00:10:33,770 --> 00:10:38,640
+[helyezkedik, motyog]
+
+166
+00:10:38,640 --> 00:10:45,184
+[olvassa a kódot, nézi az eredményt] getFraction
+
+167
+00:10:45,180 --> 00:10:49,408
+[görget]
+
+168
+00:10:49,400 --> 00:10:52,608
+[kattint] statikus metódus
+
+169
+00:10:52,600 --> 00:10:55,824
+Ide 100%-ra teszteli
+
+170
+00:10:55,820 --> 00:11:02,400
+Itt van egy nem teljesült elágazás, amikor a konstant [motyogva olvas]
+
+171
+00:11:02,400 --> 00:11:06,368
+[olvassa a javadocot]
+
+172
+00:11:06,360 --> 00:11:10,128
+...numerator, denominator...
+
+173
+00:11:10,120 --> 00:11:14,736
+[kattint, motyogva olvas]
+
+174
+00:11:14,730 --> 00:11:17,168
+[sóhajt] Igen
+
+175
+00:11:17,160 --> 00:11:43,440
+[olvassa a kódot, javadocot]
+
+176
+00:11:43,440 --> 00:11:48,224
+Igazából a fraction nem igazán tudom, hogy mire való, de mindegy, annak ellenére
+
+177
+00:11:48,220 --> 00:11:54,832
+kidebuggoljuk a hibát, itt az van, hogy számokat adunk meg, ööö, és, ööö
+
+178
+00:11:54,830 --> 00:11:56,272
+[kattint]
+
+179
+00:11:56,270 --> 00:12:01,536
+getNumerator az nulla, a denominator 1
+
+180
+00:12:01,530 --> 00:12:05,376
+igazából elosztja, ugye? 
+
+181
+00:12:05,370 --> 00:12:12,480
+vagyis hogy nem elosztja, hanem ezek a tört számokat tárolja, igazából ennyi
+
+182
+00:12:12,480 --> 00:12:17,120
+[olvassa a kódot, kattint] nominator, -6
+
+183
+00:12:17,120 --> 00:12:20,624
+Igen, ugye nullával nem osztunk
+
+184
+00:12:20,620 --> 00:12:24,960
+Ööö, integer.MIN_VALUE
+
+185
+00:12:26,304 --> 00:12:32,192
+...sem osztunk [motyog]
+
+186
+00:12:32,190 --> 00:12:35,632
+Aha, tehát min value-val sem osztunk, jó
+
+187
+00:12:35,630 --> 00:12:38,976
+aaa, fraction
+
+188
+00:12:38,970 --> 00:12:43,440
+y/z [helyezkedik] igen
+
+189
+00:12:43,440 --> 00:12:50,784
+[olvassa a kódot]
+
+190
+00:12:50,780 --> 00:12:58,096
+Jó, denominator is negative, and the numerator is MIN_VALUE, tehát hogy itt igazából akkor kellene csak
+
+191
+00:12:58,880 --> 00:13:01,552
+Igen, khm-khm
+
+192
+00:13:01,552 --> 00:13:03,550
+[nézi a kódot]
+
+193
+00:13:03,550 --> 00:13:06,320
+Mondjuk az a fura, hogy ez most így önmagában
+
+194
+00:13:06,896 --> 00:13:10,144
+ööö, pipa
+
+195
+00:13:10,140 --> 00:13:12,576
+[kattint]
+
+196
+00:13:12,576 --> 00:13:14,570
+Most azt nem tudom, hogy
+
+197
+00:13:15,024 --> 00:13:19,760
+[kattint, olvassa a kódot]
+
+198
+00:13:19,760 --> 00:13:23,632
+Ja ez a reduceFactoryInit, az kell nekünk
+
+199
+00:13:23,630 --> 00:13:27,856
+Show view, outline
+
+200
+00:13:27,856 --> 00:13:29,850
+Show outline
+
+201
+00:13:29,850 --> 00:13:40,208
+[nézi a monitort] testReduce
+
+202
+00:13:40,200 --> 00:13:47,504
+testFactory, testReduceFactory_init_init, na ez kell nekem, rosszat futtattam, bocsánat
+
+203
+00:13:47,500 --> 00:13:50,528
+coverage as...
+
+204
+00:13:50,520 --> 00:13:55,168
+[várja az eredményt]
+
+205
+00:13:55,160 --> 00:13:57,888
+jó, igen
+
+206
+00:13:57,880 --> 00:14:01,840
+6, -6, -10, igen
+
+207
+00:14:01,840 --> 00:14:04,624
+[görget, olvassa a kódot]
+
+208
+00:14:04,620 --> 00:14:07,712
+Igazából itt...
+
+209
+00:14:09,504 --> 00:14:14,208
+ez is a getReduced... ez a getReducedFractiont
+
+210
+00:14:14,200 --> 00:14:19,904
+...teszteli, [kattint] és mi amúgy a hibája neki? 
+
+211
+00:14:19,904 --> 00:14:21,900
+Az a hiba, hogy
+
+212
+00:14:21,900 --> 00:14:26,592
+[olvassa a kódot]
+
+213
+00:14:26,590 --> 00:14:30,928
+...hogy, aaa, reducedFraction
+
+214
+00:14:30,920 --> 00:14:36,320
+integer.MIN_VALUE-t osztva kettővel a...
+
+215
+00:14:36,320 --> 00:14:41,120
+a numerator az a MIN_VALUE osztva kettővel
+
+216
+00:14:41,744 --> 00:14:45,344
+aa... denominator
+
+217
+00:14:45,340 --> 00:14:48,224
+meg egy, hát ez érdekes
+
+218
+00:14:48,220 --> 00:14:49,488
+[kattint]
+
+219
+00:14:50,672 --> 00:14:55,648
+[sóhajt] reducedFraction
+
+220
+00:14:55,640 --> 00:15:02,064
+Mi az a reducedFraction? [olvassa a javadocot]
+
+221
+00:15:02,064 --> 00:15:04,060
+Jaa, aha, tehát ez a 
+
+222
+00:15:04,060 --> 00:15:09,056
+[helyezkedik] mi ez, jó, értem, ez a
+
+223
+00:15:09,648 --> 00:15:12,816
+...normalizálás
+
+224
+00:15:12,810 --> 00:15:16,800
+[olvassa a javadocot, kattint]
+
+225
+00:15:16,800 --> 00:15:21,584
+denominator is zero, akkor dobunk csak arithmetic exceptiont, viszont itt a
+
+226
+00:15:21,584 --> 00:15:23,580
+Ööö
+
+227
+00:15:23,580 --> 00:15:27,648
+[kattint] Igen, jó, ez meg hívja a 
+
+228
+00:15:27,640 --> 00:15:32,144
+rendes izét, nézzük csak Atlassal, hogy 
+
+229
+00:15:32,144 --> 00:15:34,140
+miket hív ez meg? 
+
+230
+00:15:34,140 --> 00:15:39,312
+[kattint] dataflow, controlflow, nem
+
+231
+00:15:39,310 --> 00:15:45,664
+dataflow... ööö... ööö... call
+
+232
+00:15:45,660 --> 00:15:50,240
+[kattint, nézi az eredményt]
+
+233
+00:15:50,240 --> 00:15:55,360
+Azt mondja, hogy [nézi az Atlast]
+
+234
+00:15:55,360 --> 00:15:58,496
+Ez a reducedFractiont ugye a tesztek hívják
+
+235
+00:15:58,960 --> 00:16:01,456
+és ő pedig mit hív? 
+
+236
+00:16:01,450 --> 00:16:07,888
+Aaaa. arithmeticExceptiont, vagy greatestCommonDivisort vagy a Fractiont
+
+237
+00:16:07,880 --> 00:16:12,928
+Hol hívja meg a fractiont... a fractiont azt kizártuk, mert abban nincsen hiba
+
+238
+00:16:12,920 --> 00:16:15,664
+Igen [görget]
+
+239
+00:16:15,660 --> 00:16:18,800
+[olvassa a kódot] Hol van a fraction?
+
+240
+00:16:18,800 --> 00:16:23,376
+Itt. Tehát új fractionnel tér vissza. Tehát akkor vagy ebben a
+
+241
+00:16:23,744 --> 00:16:28,672
+a metódusban van a hiba, vagy a greatestCommonDivisiornek a ...
+
+242
+00:16:28,670 --> 00:16:32,448
+ööö... nézzük csak meg az iFL-ben, hogy ez benne van-e? 
+
+243
+00:16:32,440 --> 00:16:36,896
+...a listában, fractionReduce
+
+244
+00:16:36,890 --> 00:16:40,352
+greatestCommonDivisor... ott is ott van [helyezkedik]
+
+245
+00:16:40,350 --> 00:16:46,064
+[helyezkedik] Nézzük ezt a greatestCommonDivisort
+
+246
+00:16:46,060 --> 00:16:51,632
+[kattint] ööö... jaj
+
+247
+00:16:51,630 --> 00:16:57,440
+greatestCommonDivisor... igen, hát itt azért már [olvassa a kódot]
+
+248
+00:16:57,440 --> 00:17:00,960
+kevesebb a 
+
+249
+00:17:00,960 --> 00:17:02,960
+ezt hívja tovább valahova
+
+250
+00:17:03,616 --> 00:17:09,568
+arithmeticException... math.abs... hát a math.absban valószínűleg nem lesz hiba
+
+251
+00:17:09,560 --> 00:17:13,216
+nem is tud dobni arithmeticExceptiont
+
+252
+00:17:13,210 --> 00:17:22,720
+[olvassa a kódot] greatestCommonDivision, u, v
+
+253
+00:17:22,720 --> 00:17:29,552
+Tyűha... [vakarja a fejét] azt mondja, hogy k=31
+
+254
+00:17:29,550 --> 00:17:34,640
+Az lesz a kitevő, ugye? 
+
+255
+00:17:34,640 --> 00:17:45,168
+[olvassa a kódot]
+
+256
+00:17:45,160 --> 00:17:48,144
+Hm-hm
+
+257
+00:17:48,144 --> 00:17:50,140
+[olvassa a kódot]
+
+258
+00:17:50,140 --> 00:17:53,744
+greatesCommonDivisor, multiplyBy
+
+259
+00:17:53,740 --> 00:17:56,016
+by... igen
+
+260
+00:17:56,384 --> 00:17:58,912
+[görget, kattint]
+
+261
+00:17:58,910 --> 00:18:04,176
+Hát itt az a baj, hogy az integer.min_value-t osztva 2-vel [helyezkedik]
+
+262
+00:18:04,170 --> 00:18:07,104
+[helyezkedik, sóhajt]
+
+263
+00:18:07,100 --> 00:18:10,848
+kellene legyen a numeratornak, ugye
+
+264
+00:18:10,848 --> 00:18:12,840
+az hogy is jön ki? 
+
+265
+00:18:12,840 --> 00:18:17,776
+[kattint] ööö, a numerator
+
+266
+00:18:17,770 --> 00:18:22,336
+az a gcd, a greatestCommonDivisorrel való osztás
+
+267
+00:18:22,330 --> 00:18:27,728
+és hogy a numerator, denominator
+
+268
+00:18:27,720 --> 00:18:31,600
+[kattint] annak kellene hogy legyen
+
+269
+00:18:31,600 --> 00:18:35,440
+integer.min_value / 2 
+
+270
+00:18:35,440 --> 00:18:38,224
+ezt elosztva kettővel [grimaszol]
+
+271
+00:18:38,220 --> 00:18:41,424
+[olvassa a kódot]
+
+272
+00:18:41,424 --> 00:18:43,420
+ugye ezt itt pozitív szám
+
+273
+00:18:44,992 --> 00:18:48,832
+Igen, és lehet osztani kettővel
+
+274
+00:18:48,830 --> 00:18:52,768
+[helyezkedik] A greatesCommonDivisorben lesz? 
+
+275
+00:18:52,760 --> 00:19:09,584
+[olvassa a kódot, görget, kattint] 
+
+276
+00:19:09,580 --> 00:19:12,624
+...number without overflow...
+
+277
+00:19:13,088 --> 00:19:18,224
+Igen, tehát -2 a 31.-en
+
+278
+00:19:18,816 --> 00:19:22,960
+lesz... [motyogva olvas]
+
+279
+00:19:22,960 --> 00:19:26,512
+... nagyobb mint nulla, ami a
+
+280
+00:19:26,510 --> 00:19:43,328
+[olvassa a kódot, görget, kattint ] itt a denominator, várjunk csak
+
+281
+00:19:43,320 --> 00:19:47,584
+Numerator, denominator nem nulla
+
+282
+00:19:47,580 --> 00:19:51,232
+[kattint] denominator... az
+
+283
+00:19:52,128 --> 00:19:57,888
+Nem min_value, numerator és 1 
+
+284
+00:19:58,368 --> 00:20:04,096
+az nulla, ööö [olvassa a javadocot]
+
+285
+00:20:04,090 --> 00:20:08,976
+az osztva kettővel az nulla [kattint] ugye
+
+286
+00:20:08,976 --> 00:20:10,970
+[kattint]
+
+287
+00:20:10,970 --> 00:20:16,752
+[olvassa a kódot, kattint]
+
+288
+00:20:16,750 --> 00:20:22,800
+numerator/=2; denominator/=2;
+
+289
+00:20:22,800 --> 00:20:27,200
+de azt mondja, hogy a denominator az nem integer.min_value
+
+290
+00:20:27,200 --> 00:20:33,984
+[olvassa a kódot]
+
+291
+00:20:33,980 --> 00:20:37,008
+tehát ez nem
+
+292
+00:20:37,000 --> 00:20:39,984
+denominator kisebb mint nulla
+
+293
+00:20:39,980 --> 00:20:45,872
+az sem igaz, tehát ide megy a b teszt commonDivisorbe
+
+294
+00:20:45,870 --> 00:20:49,152
+tehát a greatestCommonDivisorben lesz a...
+
+295
+00:20:49,150 --> 00:20:54,560
+aaa... hiba, mert az nem találja meg a kettőt, miért nem találja meg a kettőt?
+
+296
+00:20:54,560 --> 00:20:58,656
+[kattint] ez integer.min_value
+
+297
+00:20:58,650 --> 00:21:01,264
+ez meg kettő [kattint]
+
+298
+00:21:01,260 --> 00:21:05,040
+és akkor kisebb, mint 0
+
+299
+00:21:05,040 --> 00:21:08,944
+vagy kisebb mint 1, math.abs
+
+300
+00:21:08,940 --> 00:21:13,808
+[olvassa a javadocot] kisebb mint egy vagy ez [kattint]
+
+301
+00:21:13,800 --> 00:21:30,800
+kisebb mint egy [motyogva olvas, kattint, olvassa a kódot]
+
+302
+00:21:30,800 --> 00:21:35,056
+A math.abs az mit is csinál? [motyogva olvas]
+
+303
+00:21:35,050 --> 00:21:42,752
+[kattint, olvassa a javadocot]
+
+304
+00:21:42,750 --> 00:21:46,624
+[helyezkedik] hát itt ez visszatér eggyel
+
+305
+00:21:46,620 --> 00:21:50,816
+[olvassa a kódot]
+
+306
+00:21:50,810 --> 00:21:56,288
+[kattint, gondolkodik]
+
+307
+00:21:56,280 --> 00:22:00,816
+[görget] ez mondjuk, ööö
+
+308
+00:22:00,816 --> 00:22:02,810
+ez monjuk visszatér eggyel
+
+309
+00:22:02,810 --> 00:22:11,600
+mert ugye a... integer.min_value-nak az abszolút értéke kisebb mint egy
+
+310
+00:22:11,600 --> 00:22:13,168
+[vakarja a fejét]
+
+311
+00:22:13,160 --> 00:22:19,168
+either operand is abs 1, return 1, egyelőre
+
+312
+00:22:19,160 --> 00:22:23,952
+ööö, gépel, ha javítom
+
+313
+00:22:23,950 --> 00:22:28,192
+[kattint]
+
+314
+00:22:28,190 --> 00:22:31,968
+akkor mit csinál?
+
+315
+00:22:31,960 --> 00:22:37,856
+[gondolkodik, nézi a kódot]
+
+316
+00:22:37,850 --> 00:22:44,416
+Jó, ez fut, igen
+
+317
+00:22:44,410 --> 00:22:46,832
+és van még a testReduce
+
+318
+00:22:47,312 --> 00:22:53,472
+[kattint, gépel]
+
+319
+00:22:53,470 --> 00:22:58,576
+Nézzük csak meg ezt coverage-dzsel 
+
+320
+00:22:58,570 --> 00:23:02,256
+[vár]
+
+321
+00:23:02,250 --> 00:23:04,960
+Mondjuk ez valószínűleg ugyanaz a
+
+322
+00:23:04,960 --> 00:23:07,856
+...ugyanaz volt a hiba itt is. 
+
+323
+00:23:07,850 --> 00:23:10,624
+Igen, úgyhogy jah
+
+324
+00:23:10,620 --> 00:23:13,696
+Hát akkor, kész is vagyok
+
+325
+00:23:13,690 --> 00:23:27,664
+[olvassa a kódot, kattint, futtat]
+
+326
+00:23:27,660 --> 00:23:31,088
+Mondjuk ehhez azért matematikai ismeret kell [ráncolja a szemöldökét]
+
+327
+00:23:31,080 --> 00:23:34,432
+Nem lehet azt mondani, hogy nem kell.
+
+328
+00:23:34,430 --> 00:23:36,528
+Hát itt ööö [kattint]
+
+329
+00:23:36,520 --> 00:23:41,104
+a hiba lokalizálását valószínűleg segítik ezek a toolok, igen
+
+330
+00:23:41,100 --> 00:23:44,960
+de magát a hibának a javítását szerintem nem. 
+
+331
+00:23:45,504 --> 00:23:49,968
+De most végül is egész gyorsan rájöttem arra, hogy a
+
+332
+00:23:49,960 --> 00:23:54,592
+hogy a... közös...
+
+333
+00:23:54,590 --> 00:23:58,464
+ööö... legnagyobb közös többszörösnek a
+
+334
+00:23:58,460 --> 00:24:03,424
+kiszámolásában van a hiba, de hogyha 
+
+335
+00:24:03,872 --> 00:24:08,336
+további részben lett volna hiba, hát az biztos feladta volna a leckét
+
+336
+00:24:08,330 --> 00:24:10,848
+hogy magát a hibát kijavítsam, bár mondjuk
+
+337
+00:24:10,848 --> 00:24:12,840
+[grimaszol] legalább, hát igen 
+
+338
+00:24:12,840 --> 00:24:16,400
+Mondjuk azért elég sokat segített, jah, most, hogy így
+
+339
+00:24:16,400 --> 00:24:19,344
+tudom, hogy hogy működik az iFL
+
+340
+00:24:19,340 --> 00:24:23,344
+Igen, mondjuk azért gyanúsan kevés volt a lefedettség is
+
+341
+00:24:23,340 --> 00:24:25,696
+[nézi a kódot]
+
+342
+00:24:25,696 --> 00:24:27,690
+Na mindegy, hát 
+
+343
+00:24:27,690 --> 00:24:37,616
+[olvassa a kódot, görget]
+
+344
+00:24:37,610 --> 00:24:42,096
+Amit nem érzek, hogy ez junioroknak mekkora segítség lehet 
+
+345
+00:24:42,090 --> 00:24:46,672
+mert senioroknak, rájönnek, hogy hogy használják, és akkor használják
+
+346
+00:24:46,670 --> 00:24:49,536
+de junioroknak, hááát [grimaszol]
+
+347
+00:24:50,272 --> 00:24:52,928
+nem vagyok benne biztos, hogy segítség.
+
+348
+00:24:52,920 --> 00:24:56,000
+[görget]
+
+349
+00:24:56,000 --> 00:25:00,432
+legalábbis az alapján, amennyire ismerem a junioroknak a gondolkodásmódját
+
+350
+00:25:00,430 --> 00:25:06,480
+[nézi az eredményt]
+
+351
+00:25:06,480 --> 00:25:08,480
+...sajnos.
+
+352
+00:25:08,480 --> 00:25:11,584
+Jó, ööö, kész. 
+
+353
+00:25:11,580 --> 00:25:16,032
+Ha már itt vagyok, akkor ezt a 
+
+354
+00:25:16,030 --> 00:25:18,672
+greatestCommonDivisiont
+
+355
+00:25:18,672 --> 00:25:20,670
+meg a ...
+
+356
+00:25:20,670 --> 00:25:24,592
+[nézi az iFL-t]
+
+357
+00:25:24,592 --> 00:25:26,590
+reduce, ugye? 
+
+358
+00:25:26,590 --> 00:25:31,728
+ööö [kattint] mit is...
+
+359
+00:25:31,720 --> 00:25:34,864
+[olvassa a kódot]
+
+360
+00:25:34,860 --> 00:25:41,280
+melyik is volt lent lent... getReduceFraction
+
+361
+00:25:41,280 --> 00:25:44,624
+igen
+
+362
+00:25:44,620 --> 00:25:47,504
+[kattint] hogy ezt a reduce-t
+
+363
+00:25:47,500 --> 00:25:52,096
+vagy kár többet... igen, ezeknek lentebb veszem a [nevet]
+
+364
+00:25:52,090 --> 00:25:55,888
+az értékét, ha már itt vagyok
+
+365
+00:25:55,880 --> 00:26:00,976
+Ööö, hát mittomén, egy 33%-kal, mert javítottam
+
+366
+00:26:00,970 --> 00:26:09,376
+[kattint] így, és akkor [kattint]
+
+367
+00:26:09,370 --> 00:26:12,048
+még így is itt vannak a topban, de 
+
+368
+00:26:12,040 --> 00:26:15,216
+[kattintgat]
+
+369
+00:26:15,210 --> 00:26:19,744
+de azért már szebb értékekkel, jó
+
+370
+00:26:19,740 --> 00:26:22,752
+[helyezkedik]
+
+371
+00:26:22,750 --> 00:26:29,088
+Jó, na [pakol] és most mindent úgy használtam
+
+372
+00:26:29,080 --> 00:26:32,352
+[pakol]
+
+373
+00:26:32,350 --> 00:26:35,696
+[vakarja a fejét]
+
+374
+00:26:35,690 --> 00:26:39,712
+nem is néztem, hogy mikor kezdtem
+
+375
+00:26:39,710 --> 00:26:47,104
+[lenéz, olvas]
+
+376
+00:26:47,100 --> 00:26:50,384
+[vakarja a fejét]
+
+377
+00:26:50,380 --> 00:26:53,984
+[feláll]
+
+378
+00:26:53,980 --> 00:26:58,016
+[visszaül] még megvárok valakit
+
+379
+00:26:58,010 --> 00:27:01,872
+Addig nézelődök, hogy mi van itt.
+
+380
+00:27:01,870 --> 00:27:06,848
+[kattint] Undefined score is van, na 
+
+381
+00:27:06,840 --> 00:27:09,440
+[kattint]
+
+382
+00:27:10,736 --> 00:27:14,240
+Jó, iFL filter
+
+383
+00:27:14,240 --> 00:27:16,240
+[kattint] choose preset
+
+384
+00:27:16,240 --> 00:27:19,312
+[kattint] single domain preset
+
+385
+00:27:19,312 --> 00:27:21,310
+[nézi az iFL-t]
+
+386
+00:27:21,310 --> 00:27:25,136
+top 10 suspicious item, az mondjuk jó lehet 
+
+387
+00:27:25,130 --> 00:27:30,592
+[nézi a preseteket, kattint]
+
+388
+00:27:30,590 --> 00:27:33,456
+add rule
+
+389
+00:27:33,450 --> 00:27:36,528
+score, choose relation - Ha! [nevet]
+
+390
+00:27:36,520 --> 00:27:41,264
+[kattintgat]
+
+391
+00:27:41,260 --> 00:27:46,688
+Hm [kattint]
+
+392
+00:27:46,680 --> 00:27:49,152
+Ezek mondjuk nem rosszak
+
+393
+00:27:49,150 --> 00:27:52,960
+bár egy kicsit...show ordering list
+
+394
+00:27:52,960 --> 00:28:08,688
+[nézi az iFL-t, kattint] aha
+
+395
+00:28:08,680 --> 00:28:13,280
+Hát, nem tudom, ez egyébként, ööö [helyezkedik]
+
+396
+00:28:13,980 --> 00:28:19,264
+szép ez a csempés UI, de
+
+397
+00:28:19,260 --> 00:28:22,144
+lehet hogy hasznosabb lenne, hogyha
+
+398
+00:28:22,720 --> 00:28:24,800
+[kattint] ezek
+
+399
+00:28:24,800 --> 00:28:29,520
+egy ablakban lennének, mert ez így kicsit kényelmetlen, hogy ez így külön van
+
+400
+00:28:29,984 --> 00:28:34,064
+Ööö, lehetne inkább egy lista, ugye ugyanazokat az elemeket
+
+401
+00:28:34,060 --> 00:28:37,120
+ööö, jelenítjük meg
+
+402
+00:28:37,120 --> 00:28:40,624
+De a programozók számára szerintem kényelmesebb egy lista
+
+403
+00:28:40,620 --> 00:28:44,832
+mint ez így, és akkor nyilván azt egyszerűen lehet a 
+
+404
+00:28:44,830 --> 00:28:49,232
+különböző elemek szerint sorrendbe rakni
+
+405
+00:28:50,128 --> 00:28:53,888
+Ööö, illetve, a többi hát nem tudom, pop-upban
+
+406
+00:28:53,880 --> 00:29:00,144
+Ugyanúgy lehet, és akkor ne kelljen milyen rule-ok engedélyezettek itt ezen a felületen
+
+407
+00:29:00,140 --> 00:29:04,512
+ugye itt a... ki lehet azt rakni new windowba, pl. 
+
+408
+00:29:04,510 --> 00:29:07,072
+[kattint]
+
+409
+00:29:07,070 --> 00:29:10,576
+Mi használtuk így annak idején az Eclipse-t, hogy
+
+410
+00:29:10,570 --> 00:29:13,264
+ugye ugyanaz a projekt van itt is behúzva
+
+411
+00:29:13,260 --> 00:29:15,616
+és akkor itt az iFL-t mondjuk
+
+412
+00:29:15,610 --> 00:29:18,960
+Ööö... [motyogva olvas] jó, igen
+
+413
+00:29:18,960 --> 00:29:23,456
+akkor tegyük fel, hogy itt izé, ööö
+
+414
+00:29:23,450 --> 00:29:27,520
+Hm, dolgozok, és akkor itt meg az iFL az kint van nagyban
+
+415
+00:29:27,520 --> 00:29:29,520
+... és akkor 
+
+416
+00:29:29,520 --> 00:29:31,520
+[kattint]
+
+417
+00:29:31,520 --> 00:29:36,848
+[motyog] ...inkább a tudományos háttere ennek, hogy
+
+418
+00:29:36,840 --> 00:29:39,264
+ezt mire használjátok
+
+419
+00:29:39,264 --> 00:29:41,260
+[kattint]
+
+420
+00:29:42,224 --> 00:29:45,488
+Jó, érdekes, érdekes tool
+
+421
+00:29:45,480 --> 00:29:49,296
+ööö [kattint] sajnos
+
+422
+00:29:49,290 --> 00:29:51,952
+[kattint]
+
+423
+00:29:51,950 --> 00:29:56,800
+Legalábbis azt kell, hogy mondjam, hogy mi elmentünk már az Eclipse mellett
+
+424
+00:29:56,800 --> 00:30:00,352
+úgymond... tehát Eclipse-szel kezdünk, de 
+
+425
+00:30:00,350 --> 00:30:06,640
+...de azt már váltottuk - nyilván itt ennek a tudományos háttere az érdekes, meg a
+
+426
+00:30:06,640 --> 00:30:08,944
+meg az implementációja, de 
+
+427
+00:30:10,992 --> 00:30:14,880
+de meg lehetne próbálni egyébként esetleg
+
+428
+00:30:14,880 --> 00:30:16,624
+ööö
+
+429
+00:30:16,620 --> 00:30:22,144
+és intelliJ-re alkalmazni, mert az amit még nagyon sokan használnak a
+
+430
+00:30:22,544 --> 00:30:25,792
+simán csak a community editionben és kész
+
+431
+00:30:27,264 --> 00:30:33,536
+Az egy kicsit gyorsabb is egyébként, bár nem tudom, hogy mennyire egyszerű bele plugint fejleszteni
+
+432
+00:30:33,530 --> 00:30:48,576
+[nézi az Atlas plugint]
+
+433
+00:30:48,570 --> 00:30:51,936
+Export graph, na mibe tudja exportálni
+
+434
+00:30:51,930 --> 00:30:54,800
+svg-be, ohh, hát az nagyon jó
+
+435
+00:30:54,800 --> 00:30:59,488
+Ez viszont egy nagyon jó tool, mert mindig szenvedünk azzal, hogy
+
+436
+00:30:59,488 --> 00:31:01,480
+ööö
+
+437
+00:31:01,480 --> 00:31:08,624
+hogyan dokumentáljunk, és ugye itt a kód maga a dokumentáció ez az Atlas tool szerint szóval
+
+438
+00:31:09,280 --> 00:31:14,432
+szóval ez egy hasznos eszköz - itt akkor nem kell mittudomén belemenni a [kattintgat]
+
+439
+00:31:14,432 --> 00:31:16,430
+mittudomén micsodába
+
+440
+00:31:16,430 --> 00:31:20,144
+ööö... a...
+
+441
+00:31:20,880 --> 00:31:24,160
+akármilyen confluence-be hogy nem kell beleásnod magad a
+
+442
+00:31:24,160 --> 00:31:27,488
+kódba, hogy akkor mi mit hív meg hányszor hívja, meg ilyesmi
+
+443
+00:31:27,480 --> 00:31:31,968
+hanem itt csak fölvázolod... rákattintasz egy metódusra, és akkor itt van
+
+444
+00:31:31,960 --> 00:31:36,496
+kódolásban egyébként sokat tudna segíteni, jah
+
+445
+00:31:36,490 --> 00:31:40,064
+jaja, ja
+
+446
+00:31:40,060 --> 00:31:42,688
+igen, ez egy nagyon jó tool
+
+447
+00:31:42,680 --> 00:31:45,200
+ez is remélem van egyébként más...
+
+448
+00:31:45,200 --> 00:31:48,720
+.. vagy IDE is [kattintgat]
+
+449
+00:31:48,720 --> 00:31:53,184
+[vakarja a fejét]
+
+450
+00:31:53,180 --> 00:31:56,688
+Hajhajj, kereshetnének lassan, mert
+
+451
+00:31:56,680 --> 00:31:59,824
+[ásít] már halálra unom magam
+
+452
+00:31:59,820 --> 00:32:02,800
+[kattint, felkel]
+
+453
+00:32:02,800 --> 00:32:13,264
+[pakol]
+
+454
+00:32:13,260 --> 00:32:17,808
+Aztán meg go work
+
+455
+00:32:17,800 --> 00:32:26,448
+[kimegy a teremből]
+
+456
+00:32:26,440 --> 00:32:38,880
+[beszélget Gergővel a folyosón] 
+
+457
+00:32:38,880 --> 00:32:44,464
+Na most egész hasznos volt ez a két-három túl így együtt, úgyhogy
+
+458
+00:32:44,460 --> 00:32:46,816
+Ezt ugye elmondtad menet közben is (Gergő)
+
+459
+00:32:46,810 --> 00:32:51,408
+El, el, elmondtam, adtam néhány tippet is
+

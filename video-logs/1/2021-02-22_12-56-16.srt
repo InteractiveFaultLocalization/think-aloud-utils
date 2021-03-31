@@ -1,0 +1,4465 @@
+﻿1
+00:00:00,000 --> 00:00:02,020
+?
+
+2
+00:00:02,020 --> 00:00:07,960
+Jó, szuper, ööö ugyanaz lesz a történet mint legutóbb (Gergő)
+
+3
+00:00:07,960 --> 00:00:11,340
+Van itt egy feladat, addig kell csinálni, ameddig (Gergő)
+
+4
+00:00:11,340 --> 00:00:16,160
+készen nem lesztek, lehetőleg, most valószínűleg, 10 után (?) (Gergő)
+
+5
+00:00:16,160 --> 00:00:22,220
+Ugyanúgy hangosan kell gondolkodni, tehát ugyanúgy mindent mondjál ki, inkább többet, mint kivesebbet (Gergő)
+
+6
+00:00:22,220 --> 00:00:26,380
+- Jó
+- Nem kell különösebben se szünet se semmi, ha valami gond van nyilván (Gergő)
+
+7
+00:00:26,380 --> 00:00:29,700
+akkor szóljál, ugyanúgy magadra leszel hagyva, és akkor x percenként
+
+8
+00:00:29,700 --> 00:00:32,440
+pedig rád fogunk nézni, hogy akkor hogy haladsz, jó? (Gergő)
+
+9
+00:00:32,440 --> 00:00:35,040
+Egyébként ha szólni akarok, akkor kimehetek a folyosóra?
+
+10
+00:00:35,040 --> 00:00:39,640
+- Vagy kiabáljak, vagy várjak?
+- Ne kiabáljál, mert dolgoznak (Gergő) [nevetnek]
+
+11
+00:00:39,640 --> 00:00:44,800
+Inkább várjál, mert 10 percenként meg fogunk nézni, jó? Az az egyszerűbb. (Gergő)
+
+12
+00:00:44,800 --> 00:00:47,860
+- Oké, rendben.
+- Köszi! (Gergő)
+
+13
+00:00:47,860 --> 00:00:51,740
+1-es versenyző vagyok, és 12 óra
+
+14
+00:00:51,740 --> 00:00:56,500
+57 perckor kezdtem, hétfőn.
+
+15
+00:00:56,500 --> 00:00:58,500
+[sóhajt]
+
+16
+00:00:58,500 --> 00:01:02,180
+Hol van az egér?
+
+17
+00:01:02,180 --> 00:01:05,960
+Öööö, megkeresem ezt a két osztályt, a...
+
+18
+00:01:05,960 --> 00:01:07,960
+...a numberUtilsTesztet
+
+19
+00:01:09,200 --> 00:01:13,560
+és, először megkeresem
+
+20
+00:01:13,560 --> 00:01:16,540
+Ez egyébként ugyanúgy a...
+
+21
+00:01:16,600 --> 00:01:20,160
+matematika package-ben van
+
+22
+00:01:20,160 --> 00:01:22,160
+[kattint] tehát...
+
+23
+00:01:22,160 --> 00:01:29,020
+nagyon ismerős a terület, és a teszt string create number no precision loss
+
+24
+00:01:29,020 --> 00:01:32,900
+teszteset [kattint]
+
+25
+00:01:32,900 --> 00:01:36,180
+erre rákeresek, mert ott van a hiba
+
+26
+00:01:36,180 --> 00:01:44,620
+mondjuk no precision loss, no precision loss
+
+27
+00:01:44,620 --> 00:01:46,620
+Find
+
+28
+00:01:46,620 --> 00:01:51,620
+test string create number and sure
+
+29
+00:01:51,620 --> 00:01:54,400
+Oké, ez az a függvény,
+
+30
+00:01:54,400 --> 00:01:59,300
+most ameddig itt tervezgetem, addig rámegyek egy
+
+31
+00:01:59,300 --> 00:02:01,300
+task-B futtatásra
+
+32
+00:02:01,300 --> 00:02:03,300
+Ööö
+
+33
+00:02:03,300 --> 00:02:07,980
+should be float, should be double, should be bigdecimal
+
+34
+00:02:07,980 --> 00:02:12,260
+Oké, ezek királyak, és, azt mondja, hogy a
+
+35
+00:02:14,000 --> 00:02:19,920
+Ez, ez a szám, ez... [olvassa a javadocot, kódot]
+
+36
+00:02:19,920 --> 00:02:24,820
+ööö... igen [olvassa a kódot]
+
+37
+00:02:24,820 --> 00:02:29,880
+Itt lesz egy probléma, ugye azt írja a hibajelenség, hogy a
+
+38
+00:02:29,880 --> 00:02:37,140
+három egész blablabla string számmá alakítása nem megfelelően történik meg
+
+39
+00:02:37,140 --> 00:02:41,480
+Klikkelj a zöld Run gomb mellett lefelé mutató nyílra
+
+40
+00:02:41,480 --> 00:02:46,200
+[motyogva olvas] oké, ezt megtettem
+
+41
+00:02:46,200 --> 00:02:51,680
+Akkor most megvárjuk, hogy, hogy ez a teszteset elfaileljen
+
+42
+00:02:51,680 --> 00:02:53,680
+Ööö, addig, ööö
+
+43
+00:02:53,680 --> 00:03:00,020
+addig megnézem az implementációját ennek a create numbernek
+
+44
+00:03:00,020 --> 00:03:06,160
+Ugye ez azt mondja, hogyha a string az nulla akkor return null, ha blank akkor oké
+
+45
+00:03:06,160 --> 00:03:11,600
+egyébként pedig, need to deel with all possible hex prefixes here
+
+46
+00:03:11,600 --> 00:03:17,220
+Oké, de ez minket annyira nem értint, mert nincsen prefixálva
+
+47
+00:03:17,220 --> 00:03:19,220
+a stringünk
+
+48
+00:03:19,220 --> 00:03:23,660
+Prefix ? itt az mondja, hogy a ...
+
+49
+00:03:23,660 --> 00:03:29,820
+igen végigmegyünk ezeken, és a, igen, ööö, oké
+
+50
+00:03:30,720 --> 00:03:32,840
+[kattint]
+
+51
+00:03:32,840 --> 00:03:37,800
+Ja, oké. Ööö, erre valószínűleg azért volt szükség, mert ez
+
+52
+00:03:37,800 --> 00:03:39,800
+egy karakterből áll
+
+53
+00:03:39,800 --> 00:03:44,680
+A prefix len we have a hex number, oké, érthető
+
+54
+00:03:44,680 --> 00:03:49,420
+[olvassa a kódot] ööö
+
+55
+00:03:49,420 --> 00:03:56,560
+x string starts with prefix, akkor a prefix... oké
+
+56
+00:03:56,560 --> 00:04:02,000
+Öööö, most az a kérdés, hogy ez a szám ez, hát ez nem tud
+
+57
+00:04:02,000 --> 00:04:06,360
+nem tud erre ráilleszkedni, hogyha nem, nincs itt ezzel baj
+
+58
+00:04:06,360 --> 00:04:10,080
+Itt a stringünk az nem
+
+59
+00:04:10,080 --> 00:04:14,520
+Itt, itt ez nem lesz igaz ránk, lastChar
+
+60
+00:04:14,520 --> 00:04:18,680
+String char, igen az utolsót kinyerjük
+
+61
+00:04:18,680 --> 00:04:22,220
+dec pozíció az a, igen
+
+62
+00:04:22,220 --> 00:04:27,580
+expPostion, a string index az e
+
+63
+00:04:27,580 --> 00:04:32,300
+plusz string indexOf
+
+64
+00:04:32,300 --> 00:04:36,640
+e plusz [motyogva olvas]
+
+65
+00:04:36,640 --> 00:04:45,000
+[motyogva olvas] oké
+
+66
+00:04:45,000 --> 00:04:49,500
+[olvassa a kódot]
+
+67
+00:04:49,500 --> 00:04:51,500
+Oké
+
+68
+00:04:52,200 --> 00:04:57,620
+Eközben itt ha jól látom, futnak a tesztesetek
+
+69
+00:04:57,620 --> 00:05:01,360
+Megnézem, hogy a [görget] a mateknál itt volt egy
+
+70
+00:05:01,360 --> 00:05:08,600
+probléma, mert ez
+
+71
+00:05:08,600 --> 00:05:15,800
+...ez... assert true, igen, itt az volt a baj, hogy
+
+72
+00:05:15,800 --> 00:05:22,360
+numberUtils.CreateNumber... ez a create number egyébként ez
+
+73
+00:05:22,360 --> 00:05:28,360
+visszaad egy numbert, instanceOf double
+
+74
+00:05:28,360 --> 00:05:40,960
+[olvassa a javadocot, olvassa a kódot]
+
+75
+00:05:40,960 --> 00:05:44,740
+Ja hogy ez miért is baj?
+
+76
+00:05:44,740 --> 00:05:46,740
+hogy assert true
+
+77
+00:05:47,800 --> 00:05:49,640
+[kattint]
+
+78
+00:05:49,640 --> 00:05:54,860
+[motyogva olvas]
+
+79
+00:05:54,860 --> 00:05:58,180
+[olvassa a javadocot]
+
+80
+00:05:58,180 --> 00:06:02,260
+Assert data condition is true, tehát
+
+81
+00:06:03,480 --> 00:06:07,900
+[motyogva olvas]
+
+82
+00:06:07,900 --> 00:06:14,460
+Oké... akkor nézzük újra ez a két numbert
+
+83
+00:06:14,460 --> 00:06:19,240
+[motyogva olvas] oké
+
+84
+00:06:19,240 --> 00:06:22,900
+[kattint] annyi ugye, hogy a pont
+
+85
+00:06:22,900 --> 00:06:27,860
+ööö, there is a decimal point
+
+86
+00:06:27,860 --> 00:06:32,400
+nagyobb egyenlő a pozíciója, mint mínusz egy
+
+87
+00:06:32,400 --> 00:06:36,360
+Nem tudom, milyen más lehetne, mindegy
+
+88
+00:06:36,360 --> 00:06:41,480
+[nézi a kódot] ööö
+
+89
+00:06:41,480 --> 00:06:46,780
+És itt az assert true-t az dobta... oké.
+
+90
+00:06:46,780 --> 00:06:49,900
+Hát, ööö
+
+91
+00:06:49,900 --> 00:06:56,160
+[lefele néz]
+
+92
+00:06:56,160 --> 00:06:58,160
+Mi lehet a hiba?
+
+93
+00:06:58,160 --> 00:07:04,500
+[lefele néz]
+
+94
+00:07:04,500 --> 00:07:07,580
+Szívesen kiprintelném
+
+95
+00:07:07,580 --> 00:07:10,100
+kár hogy ez...
+
+96
+00:07:11,620 --> 00:07:20,940
+[motyogva olvas] test string create number ... precision lost ... oké ... assert true, assert true
+
+97
+00:07:20,940 --> 00:07:25,060
+Oké.
+
+98
+00:07:25,060 --> 00:07:27,680
+[nézi a kódot]
+
+99
+00:07:27,680 --> 00:07:33,500
+És itt nekem nincs is semmi üzenetem, csak egy null [görget]
+
+100
+00:07:33,500 --> 00:07:38,700
+[görget] Most szerintem itt meg kéne nézni ezt az egész
+
+101
+00:07:39,920 --> 00:07:43,640
+...az is...
+
+102
+00:07:45,240 --> 00:07:51,740
+aha... ja itt most nézegetem ezt a függvényt, és ez egy
+
+103
+00:07:52,280 --> 00:07:56,240
+create bigdecimalt ... tér
+
+104
+00:07:56,240 --> 00:07:58,240
+vissza...
+
+105
+00:07:59,260 --> 00:08:01,420
+is all zeros
+
+106
+00:08:01,420 --> 00:08:03,420
+...oké...
+
+107
+00:08:03,840 --> 00:08:06,360
+Megpróbálja floattá alakítani
+
+108
+00:08:07,340 --> 00:08:09,760
+[motyogva olvas]
+
+109
+00:08:09,760 --> 00:08:12,480
+Hogyha
+
+110
+00:08:12,980 --> 00:08:17,740
+Nincs az ugye, aaa,
+
+111
+00:08:17,740 --> 00:08:20,640
+should be double
+
+112
+00:08:20,640 --> 00:08:22,640
+[kattint]
+
+113
+00:08:23,360 --> 00:08:29,660
+[olvassa a kódot]
+
+114
+00:08:29,660 --> 00:08:32,280
+Tehát itt egy
+
+115
+00:08:32,980 --> 00:08:46,200
+[vakarja a fülét, nézi a kódot]
+
+116
+00:08:46,200 --> 00:08:47,160
+[kattint]
+
+117
+00:08:47,640 --> 00:08:55,600
+Hát akkor még egyszer a függvényt, átfutom, hogyha ... [görget]
+
+118
+00:08:55,600 --> 00:08:58,940
+Itt egy number értékkel tér vissza
+
+119
+00:08:58,940 --> 00:09:03,600
+és akkor itt látom, hogy ebből a numberből származik az összes
+
+120
+00:09:03,600 --> 00:09:09,440
+a double is, oké, hogy egy string null, akkor return null, ha üres, akkor oké
+
+121
+00:09:09,440 --> 00:09:14,380
+Ööö... hex prefixes, erre még mindig nem illeszkedik
+
+122
+00:09:14,660 --> 00:09:17,180
+egyikre sem, tehát...
+
+123
+00:09:18,000 --> 00:09:24,360
+Number... ez itt nem fontos nekünk, we have a hex number, oké, tehát ez
+
+124
+00:09:24,360 --> 00:09:28,920
+nemigen fontos, az utolsó karakter
+
+125
+00:09:29,220 --> 00:09:30,640
+[kattint]
+
+126
+00:09:30,640 --> 00:09:34,360
+Annak milyen szempontból van szerepe?
+
+127
+00:09:34,360 --> 00:09:36,360
+[görget]
+
+128
+00:09:36,360 --> 00:09:41,440
+[görget] aha, majd itt lesz szerepe
+
+129
+00:09:42,300 --> 00:09:47,160
+Ööö, jó, itt deklarálunk stringeket, ööö [kattint]
+
+130
+00:09:47,160 --> 00:09:50,960
+Decimal pozíció, indexOf
+
+131
+00:09:50,960 --> 00:09:54,160
+ez itt...
+
+132
+00:09:54,160 --> 00:09:59,280
+Nálunk a null egy az egyes indexen van a pont
+
+133
+00:09:59,280 --> 00:10:03,480
+és az expPozíció, az...
+
+134
+00:10:03,480 --> 00:10:10,540
+[olvassa a kódot]
+
+135
+00:10:10,540 --> 00:10:12,540
+ööö
+
+136
+00:10:12,540 --> 00:10:15,760
+[olvassa a javadocot]
+
+137
+00:10:15,760 --> 00:10:17,760
+Itt, ööö
+
+138
+00:10:19,580 --> 00:10:24,220
+ez érdekes, hogy itt miért adok hozzá egyet
+
+139
+00:10:24,220 --> 00:10:33,200
+[motyogva olvassa a kommentet]
+
+140
+00:10:33,720 --> 00:10:38,600
+[motyogva olvas] and a parsing which will detect if e or E appear in a number...
+
+141
+00:10:38,600 --> 00:10:43,500
+...using the wrong offset. Itt ez a plusz egyes
+
+142
+00:10:43,500 --> 00:10:45,500
+ööö
+
+143
+00:10:46,220 --> 00:10:48,820
+[lenéz]
+
+144
+00:10:48,820 --> 00:10:50,820
+Nem látom, hogy mi
+
+145
+00:10:50,820 --> 00:10:57,600
+[nézi a forráskódot]
+
+146
+00:10:57,600 --> 00:11:03,040
+Vagy itt is kéne, vagy itt sem, vagy ezzel csak azt nézzük, hogy a
+
+147
+00:11:03,040 --> 00:11:05,040
+ugye nem magára az...
+
+148
+00:11:08,020 --> 00:11:11,820
+ja de az lehet hogy a plusz jel miatt van, mert az nem fontos
+
+149
+00:11:11,820 --> 00:11:13,820
+nem biztos, hogy az lesz
+
+150
+00:11:15,480 --> 00:11:19,960
+De hogy úgy néz ki, hogy e meg 38 ugye itt a stringként
+
+151
+00:11:19,960 --> 00:11:21,960
+numdecimals
+
+152
+00:11:21,960 --> 00:11:23,960
+ööö [kattint]
+
+153
+00:11:23,960 --> 00:11:25,960
+a dec pozíció nagyobb mint
+
+154
+00:11:25,960 --> 00:11:31,020
+There is a decimal point... nem tudom, milyen pontok vannak még, viszont
+
+155
+00:11:31,020 --> 00:11:35,300
+ööö... [kattint] igen
+
+156
+00:11:35,300 --> 00:11:43,280
+[olvassa a kódot]
+
+157
+00:11:43,280 --> 00:11:45,280
+Oké, itt
+
+158
+00:11:46,180 --> 00:11:51,620
+Azt mondja, hogyha az exp pozíció kisebb, mint [kattint]
+
+159
+00:11:51,620 --> 00:11:56,860
+mint a dec pozíció, oké, hát ez nagyobb ne legyen ennél
+
+160
+00:11:56,860 --> 00:12:00,580
+meg az exp pozíció nagyobb mint a
+
+161
+00:12:00,580 --> 00:12:05,140
+stringnek a hossza, az se legyen, oké [kattint]
+
+162
+00:12:05,140 --> 00:12:12,900
+De egyébként a dec az legyen egyenlő azzal a string.substring decimal pozíció
+
+163
+00:12:12,900 --> 00:12:17,080
+[olvassa a kódot]
+
+164
+00:12:17,080 --> 00:12:23,600
+plusz... egytől... az [motyogva olvas]
+
+165
+00:12:23,600 --> 00:12:29,920
+egyébként meg azt gondolom, elmegy a nullától odáig, hogyha nincsen másik paraméter megadva
+
+166
+00:12:29,920 --> 00:12:31,920
+[olvassa a kódot]
+
+167
+00:12:31,920 --> 00:12:36,840
+a mant az nullától a dec pozícióig
+
+168
+00:12:37,940 --> 00:12:47,580
+[motyogva olvas]
+
+169
+00:12:47,580 --> 00:12:53,140
+[olvassa a kódot]
+
+170
+00:12:53,140 --> 00:12:56,460
+Oké, tehát... [kattint]
+
+171
+00:12:56,460 --> 00:12:58,460
+mi ebbe vagyunk benne
+
+172
+00:12:58,460 --> 00:13:00,460
+mert a...
+
+173
+00:13:02,420 --> 00:13:07,660
+dec pos az biztos hogy nagyobb lesz, mint mínusz egy
+
+174
+00:13:09,060 --> 00:13:11,160
+tehát ezt kell írni
+
+175
+00:13:11,160 --> 00:13:15,780
+Jó, nem láttam hibát, viszont ide nem kerülünk
+
+176
+00:13:15,780 --> 00:13:20,500
+hogyha a character is Digit last char, amit ugye
+
+177
+00:13:20,500 --> 00:13:24,060
+kiszedtünk innen, és az utolsó az itt ugye a 8-as
+
+178
+00:13:24,060 --> 00:13:30,160
+és nem pont, szóval nem szám, és nem pont
+
+179
+00:13:31,880 --> 00:13:36,960
+nem szám, és nem pont, dehát ez
+
+180
+00:13:36,960 --> 00:13:39,700
+[nézi a kódot]
+
+181
+00:13:39,700 --> 00:13:41,700
+...szám...
+
+182
+00:13:43,780 --> 00:13:47,920
+[görget] tehát
+
+183
+00:13:47,920 --> 00:13:49,920
+na várjunk
+
+184
+00:13:49,920 --> 00:13:55,040
+Nem szám, és nem pont
+
+185
+00:13:55,040 --> 00:14:00,740
+azaz... dehát ez nálunk szám, tehát ez itt
+
+186
+00:14:00,740 --> 00:14:03,380
+[olvassa a kódot]
+
+187
+00:14:03,380 --> 00:14:08,600
+isDigit... ez szám, ez igaz, ez így nem igaz
+
+188
+00:14:08,600 --> 00:14:12,340
+ez, ez nem lesz igaz, az ifbe nem kerülünk bele
+
+189
+00:14:12,340 --> 00:14:16,820
+sajnos, lehet hogy ez sajnos, de lehet hogy a
+
+190
+00:14:16,820 --> 00:14:18,820
+...aa...
+
+191
+00:14:21,400 --> 00:14:23,900
+Nem, ez ott fura ez a feltétel
+
+192
+00:14:25,480 --> 00:14:27,500
+Fura az a feltétel
+
+193
+00:14:27,500 --> 00:14:30,520
+[nézi a kódot, lenéz]
+
+194
+00:14:30,520 --> 00:14:34,040
+Itt mi a Case? A last char
+
+195
+00:14:34,040 --> 00:14:37,600
+[nézi a kódot, lenéz]
+
+196
+00:14:37,600 --> 00:14:41,680
+hát de nem fura a feltétel, hogyha így nézzük, hogy a switchben
+
+197
+00:14:41,680 --> 00:14:45,920
+a last charral akarunk dolgozni, floatozni
+
+198
+00:14:45,920 --> 00:14:50,340
+vagy double-özni, dehát
+
+199
+00:14:50,340 --> 00:14:52,340
+akkor itt ez miért nincs...?
+
+200
+00:14:54,180 --> 00:14:56,440
+ez így 8-as
+
+201
+00:14:56,440 --> 00:15:03,620
+[olvassa a kódot]
+
+202
+00:15:03,620 --> 00:15:05,620
+ööö [kattint]
+
+203
+00:15:05,620 --> 00:15:10,340
+[nézi a kódot]
+
+204
+00:15:10,340 --> 00:15:14,080
+Azon gondolkozom, hogy
+
+205
+00:15:14,600 --> 00:15:17,340
+...itt createDouble [kattint]
+
+206
+00:15:17,340 --> 00:15:21,160
+numericből létre tudná-e hozni
+
+207
+00:15:21,160 --> 00:15:29,580
+e... igen [görget]
+
+208
+00:15:29,580 --> 00:15:34,860
+[motyogva olvas] float value
+
+209
+00:15:35,720 --> 00:15:44,520
+Oké, de egyébként akkor mondjuk tegyük fel, hogy nem jövünk bele ebbe a feltételbe, mert ezt jól átgondolták
+
+210
+00:15:44,520 --> 00:15:48,620
+[motyogva olvas] ...return, so let's start
+
+211
+00:15:48,620 --> 00:15:52,740
+[olvassa a kommentet]
+
+212
+00:15:52,740 --> 00:15:58,240
+Oké... tehát itt elvileg nem baj, hogy egy ideig nem találtam megoldást
+
+213
+00:15:58,940 --> 00:16:07,780
+Az expozíció nagyobb egyenlő mint nulla, és az expozíció kisebb, oké, ez teljesen valid, akkor az expPos legyen a...
+
+214
+00:16:07,780 --> 00:16:12,860
+expozíció oké, itt ez a 38-at jelenti elvileg.
+
+215
+00:16:12,860 --> 00:16:14,860
+[lefele néz]
+
+216
+00:16:14,860 --> 00:16:17,780
+Ööö... igen
+
+217
+00:16:17,780 --> 00:16:20,700
+ha a decimal egyenlő nulla,
+
+218
+00:16:20,700 --> 00:16:25,940
+és az exp... [motyogva olvas] oké
+
+219
+00:16:25,940 --> 00:16:29,640
+[olvassa a kódot]
+
+220
+00:16:29,640 --> 00:16:35,260
+Egyébként a dec, a dec az exp az biztos hogy nem nulla, de a dec az, az
+
+221
+00:16:35,260 --> 00:16:37,260
+[görget]
+
+222
+00:16:37,260 --> 00:16:42,160
+elvileg az sem nulla, az ugye itt jelen esetben ?
+
+223
+00:16:42,160 --> 00:16:45,100
+... dec ... [görget]
+
+224
+00:16:45,900 --> 00:16:49,280
+substring dec pos
+
+225
+00:16:49,280 --> 00:16:51,280
+plusz 1
+
+226
+00:16:51,280 --> 00:16:54,520
+[olvassa a kódot]
+
+227
+00:16:54,520 --> 00:16:56,520
+ez ugye ez ... mant
+
+228
+00:16:57,000 --> 00:16:59,120
+és a ponttól
+
+229
+00:17:01,100 --> 00:17:04,520
+Vagy itt nem az elejétől kéne?
+
+230
+00:17:04,520 --> 00:17:08,540
+[lenéz]
+
+231
+00:17:08,540 --> 00:17:11,600
+Szerintem ez ugye ez 3.4
+
+232
+00:17:11,600 --> 00:17:14,200
+a 38.-adikon
+
+233
+00:17:14,200 --> 00:17:16,200
+[lenéz]
+
+234
+00:17:16,200 --> 00:17:18,200
+tehát
+
+235
+00:17:18,200 --> 00:17:23,540
+[lefele néz, majd nézi a kódot]
+
+236
+00:17:23,540 --> 00:17:25,540
+tehááát
+
+237
+00:17:25,540 --> 00:17:30,620
+[nézi a kódot]
+
+238
+00:17:30,620 --> 00:17:33,620
+Jó, majd erre visszatérünk, mert itt fura
+
+239
+00:17:33,620 --> 00:17:38,740
+...miért a ponttól nézzük - pont
+
+240
+00:17:39,380 --> 00:17:41,380
+Igazából a ponttól
+
+241
+00:17:41,380 --> 00:17:47,280
+és miért nem a font így az a decimális, utána törtrész van, na mindegy [görget]
+
+242
+00:17:47,280 --> 00:17:49,880
+ide majd visszatérek [görget]
+
+243
+00:17:49,880 --> 00:17:53,700
+Ööö, must be a float, double oké,
+
+244
+00:17:53,700 --> 00:17:56,220
+allZeros is allZeros
+
+245
+00:17:56,220 --> 00:17:59,100
+ööö... isAllZeros oké
+
+246
+00:17:59,100 --> 00:18:01,100
+[kattint]
+
+247
+00:18:01,100 --> 00:18:04,260
+Ööö, float, create float
+
+248
+00:18:04,260 --> 00:18:06,260
+numberFormatException
+
+249
+00:18:06,260 --> 00:18:09,740
+double, create double
+
+250
+00:18:09,740 --> 00:18:11,140
+[kattint]
+
+251
+00:18:11,140 --> 00:18:13,780
+és itt a stringből csinálunk
+
+252
+00:18:13,780 --> 00:18:15,780
+double-t
+
+253
+00:18:16,560 --> 00:18:22,200
+és hogyha... végtelen vagy...
+
+254
+00:18:22,200 --> 00:18:28,040
+nulla, vagy minden oké, akkor és az tagadva, akkor return d,
+
+255
+00:18:28,040 --> 00:18:31,380
+és egyébként meg ignore the bad value szóval
+
+256
+00:18:31,380 --> 00:18:35,660
+itt meg egy egyszerű createBigDecimal, és ugyanaz a createDouble
+
+257
+00:18:36,320 --> 00:18:40,100
+itt a doubleValueOf
+
+258
+00:18:40,480 --> 00:18:42,580
+string
+
+259
+00:18:42,580 --> 00:18:46,860
+[kattint] Itt közben megnézem, hogy ez az eset [gépel]
+
+260
+00:18:46,860 --> 00:18:48,860
+[kattint]
+
+261
+00:18:51,980 --> 00:18:54,940
+A FastDateFormatnál megint hiba van
+
+262
+00:18:55,920 --> 00:18:59,840
+[kattint] Itt a [motyogva olvas]
+
+263
+00:18:59,840 --> 00:19:07,520
+meg a fastDateFormatnak... jó hát itt akkor megint, megint egy másik hiba is, de akkor ezzel nem foglalkozunk
+
+264
+00:19:07,520 --> 00:19:18,140
+[lefele néz, nézi a monitort]
+
+265
+00:19:18,140 --> 00:19:26,420
+Nem túl beszédes, nem tudom honnan idézhet elő, vagy mutathat valami úgy, hogy ez logoljon
+
+266
+00:19:27,580 --> 00:19:30,380
+vagy hát... nem tudom
+
+267
+00:19:30,700 --> 00:19:35,600
+mindegy [kattint] mert ugye
+
+268
+00:19:35,600 --> 00:19:39,580
+[olvassa a kódot, kattint]
+
+269
+00:19:39,580 --> 00:19:43,000
+Itt a createNumberben should be double
+
+270
+00:19:43,000 --> 00:19:46,560
+ez teljesen validnak tűnik
+
+271
+00:19:46,560 --> 00:19:49,520
+[olvassa a kódot]
+
+272
+00:19:49,520 --> 00:19:51,960
+És a többi az el is futott
+
+273
+00:19:53,400 --> 00:19:54,940
+...szóval...
+
+274
+00:19:54,940 --> 00:19:56,940
+[kattint]
+
+275
+00:19:57,500 --> 00:20:00,760
+Ha ide eljutunk [görget]
+
+276
+00:20:00,760 --> 00:20:02,760
+vagy mondjuk itt ez a...
+
+277
+00:20:03,680 --> 00:20:05,600
+createDouble
+
+278
+00:20:05,600 --> 00:20:10,420
+[kattint] ez már nem egy, nem, de nem is ez, hanem ez
+
+279
+00:20:10,420 --> 00:20:13,480
+[helyezkedik] működnie kéne szerintem
+
+280
+00:20:13,480 --> 00:20:20,060
+vagy a string számmá alakítása nem megfelelően történik meg, tehát akkor itt
+
+281
+00:20:20,060 --> 00:20:25,980
+Az, hogy ... az nem akció [nevet] úgyhogy ez a string ez double-lé alakítható
+
+282
+00:20:25,980 --> 00:20:31,300
+[nézi a kódot, sóhajt] És hogyha
+
+283
+00:20:31,300 --> 00:20:35,180
+double d is infinite
+
+284
+00:20:36,180 --> 00:20:41,060
+csak... csak logolhatok ide, vagy írhatok, nem tudom
+
+285
+00:20:41,060 --> 00:20:43,060
+[gondolkodik]
+
+286
+00:20:43,060 --> 00:20:49,980
+Most megnézem, hogy merre megy a kód ezen belül [görget]
+
+287
+00:20:49,980 --> 00:20:55,380
+[görget] de, mindegy
+
+288
+00:20:57,200 --> 00:21:01,240
+exp prefix, az még mindig, mindig
+
+289
+00:21:02,260 --> 00:21:05,160
+mindig nem erről van szó
+
+290
+00:21:05,160 --> 00:21:07,980
+[kattint]
+
+291
+00:21:07,980 --> 00:21:12,460
+Hát csak elkezdem írni a változókat, debuggolhatok
+
+292
+00:21:12,460 --> 00:21:17,820
+vagy nem tudom, hogy debuggolhatok-e, a lastChar az egyenlő
+
+293
+00:21:17,820 --> 00:21:21,680
+aaa, 8-assal
+
+294
+00:21:21,680 --> 00:21:29,740
+az a karakter... a decimális pozíció az a pont
+
+295
+00:21:29,740 --> 00:21:34,260
+pont helye, az, az a
+
+296
+00:21:34,260 --> 00:21:38,600
+dec pos az egyenlő eggyel
+
+297
+00:21:38,600 --> 00:21:42,140
+az expPos
+
+298
+00:21:42,800 --> 00:21:47,200
+[jegyzetel] az pedig egyenlő, hát az az
+
+299
+00:21:47,200 --> 00:21:54,260
+e betűnek a ... helye, meg a másik E betűnek a helye, meg egy
+
+300
+00:21:54,260 --> 00:21:57,440
+Ezt a meg egyet ezt azért tudom elképzelni, mert
+
+301
+00:21:57,440 --> 00:22:00,820
+itt igazából arra vagyunk kíváncsiak, hogy
+
+302
+00:22:00,820 --> 00:22:10,060
+a... e után van egy plusz, és hogy a plusz karakterrel ne foglalkozzunk, hanem csak ami után jön, ami jelen esetben 38
+
+303
+00:22:10,060 --> 00:22:12,060
+szóval nem feltétlen
+
+304
+00:22:12,060 --> 00:22:15,200
+rossz ez, hogy itt van ez a plusz egy
+
+305
+00:22:15,200 --> 00:22:36,180
+[olvassa a kódot, gondolkodik, kattint]
+
+306
+00:22:36,180 --> 00:22:40,560
+a dec pos nagyobb mint
+
+307
+00:22:40,560 --> 00:22:46,400
+[motyogva olvas] hát igen, a des posunk az egy, az pedig [motyog]
+
+308
+00:22:46,400 --> 00:22:48,400
+az expPos az
+
+309
+00:22:48,400 --> 00:22:52,120
+[motyog] tök mindegy
+
+310
+00:22:52,120 --> 00:22:56,180
+az dec pos nagyobb egyenlő, hát az egy decimális szám
+
+311
+00:22:56,740 --> 00:22:58,740
+és itt...
+
+312
+00:22:58,740 --> 00:23:03,360
+[olvassa a kódot]
+
+313
+00:23:03,360 --> 00:23:05,360
+[kattint]
+
+314
+00:23:05,360 --> 00:23:10,920
+[olvassa a kódot]
+
+315
+00:23:10,920 --> 00:23:16,320
+Ebbe a createNumberben meg szívesen beleírnék egy system.out.println-t
+
+316
+00:23:18,860 --> 00:23:21,020
+de mindegy
+
+317
+00:23:21,020 --> 00:23:25,320
+Ööö, there is an exponent, exponent
+
+318
+00:23:27,460 --> 00:23:29,960
+Oké, van benne pont
+
+319
+00:23:29,960 --> 00:23:33,480
+Aaa, van benne kitevő
+
+320
+00:23:35,800 --> 00:23:39,500
+Egyébként mind -1 felett hoztuk ezeket létre?
+
+321
+00:23:40,520 --> 00:23:45,280
+[olvassa a kódot, javadocot]
+
+322
+00:23:45,280 --> 00:23:47,280
+vagy ez tér vissza
+
+323
+00:23:47,280 --> 00:23:52,480
+mínusz eggyel, hogyha nincsen
+
+324
+00:23:53,560 --> 00:23:58,220
+[motyogva olvas]
+
+325
+00:23:58,220 --> 00:24:00,220
+[motyogva olvas] oké
+
+326
+00:24:00,220 --> 00:24:02,220
+[motyogva olvas]
+
+327
+00:24:05,160 --> 00:24:07,960
+ez gondolom így, mínusz
+
+328
+00:24:10,320 --> 00:24:12,660
+vagy nem tudom
+
+329
+00:24:13,280 --> 00:24:15,620
+[olvassa a kódot]
+
+330
+00:24:15,620 --> 00:24:20,140
+ha az kisebb mint az
+
+331
+00:24:20,660 --> 00:24:25,740
+Azzal oké, azzal megkerülünk, dec str.substring
+
+332
+00:24:25,740 --> 00:24:27,740
+[kattint]
+
+333
+00:24:28,880 --> 00:24:31,460
+dec mant exp
+
+334
+00:24:33,500 --> 00:24:37,540
+mant az a veszteség
+
+335
+00:24:39,460 --> 00:24:46,040
+numDecimals az pedig [motyogva olvas]
+
+336
+00:24:46,040 --> 00:24:48,040
+Igen
+
+337
+00:24:49,020 --> 00:24:51,300
+De... e...
+
+338
+00:24:51,300 --> 00:24:53,800
+a dec
+
+339
+00:24:55,220 --> 00:24:57,440
+...az...
+
+340
+00:24:59,480 --> 00:25:03,140
+A dec az legyen egyenlő str substring dec pos [kattint]
+
+341
+00:25:06,500 --> 00:25:08,460
+mant, az a
+
+342
+00:25:08,980 --> 00:25:13,960
+oké, a mant az akkor itt gondolom itt mondjuk jelen esetben a 3-as, igen
+
+343
+00:25:14,940 --> 00:25:17,840
+A mant az egyenlő 3.
+
+344
+00:25:17,840 --> 00:25:21,180
+Az a fura nekem, hogy
+
+345
+00:25:21,180 --> 00:25:24,340
+a dec az legyen egyenlő
+
+346
+00:25:26,780 --> 00:25:31,700
+jó hát ez nem fura, végül is, a dec pos az
+
+347
+00:25:31,700 --> 00:25:37,920
+[olvassa a kódot]
+
+348
+00:25:37,920 --> 00:25:41,520
+Kell ide ... itt valami lehet hogy a plusz egyekkel lesz
+
+349
+00:25:42,360 --> 00:25:45,620
+itt ha substringelni akarjuk, igazából
+
+350
+00:25:46,640 --> 00:25:49,340
+Igen... ööö
+
+351
+00:25:49,340 --> 00:25:58,220
+Na szóval ez a függvény returns a new string the substring of this string [motyogva olvas]
+
+352
+00:25:59,280 --> 00:26:03,520
+Mínusz egy... tehát
+
+353
+00:26:03,520 --> 00:26:08,880
+négyesig megy, csak hogy a begin index
+
+354
+00:26:09,860 --> 00:26:11,920
+az jó
+
+355
+00:26:11,920 --> 00:26:13,920
+[kattint]
+
+356
+00:26:13,920 --> 00:26:22,000
+Tehát itt ez is tetszik nekem, a mant az oké, a numdecimals az pedig a decnek a precision
+
+357
+00:26:23,900 --> 00:26:28,640
+Hát ennek is annak kéne lennie, ez nagyobb mint, ööö
+
+358
+00:26:28,640 --> 00:26:30,640
+Mínusz egy
+
+359
+00:26:31,280 --> 00:26:33,400
+Ja de várj, igen, tehát
+
+360
+00:26:34,440 --> 00:26:35,400
+[kattint]
+
+361
+00:26:35,400 --> 00:26:37,660
+Ide nem is jövünk be
+
+362
+00:26:37,660 --> 00:26:41,880
+igen [kattint]
+
+363
+00:26:41,880 --> 00:26:43,880
+Meg ide már bejöttünk
+
+364
+00:26:43,880 --> 00:26:47,260
+[olvassa a kódot]
+
+365
+00:26:47,260 --> 00:26:52,000
+Na mindegy, hogyha nincsen decimal point akkor
+
+366
+00:26:52,000 --> 00:26:55,140
+akkor más  ... de itt-itt idejövök
+
+367
+00:26:55,140 --> 00:26:59,080
+Hogyha az utolsó karakter
+
+368
+00:26:59,080 --> 00:27:03,740
+nem szám, és nem pont, tehát betű
+
+369
+00:27:05,320 --> 00:27:06,600
+[kattint]
+
+370
+00:27:06,600 --> 00:27:10,500
+Vagy biztos vagy még más is, de ide sem jövök be
+
+371
+00:27:10,500 --> 00:27:13,880
+...szerintem...
+
+372
+00:27:13,880 --> 00:27:15,880
+ööö
+
+373
+00:27:15,880 --> 00:27:20,640
+Itt aa... [motyogva olvas]
+
+374
+00:27:20,640 --> 00:27:23,160
+[görget] Még akkor lehet hogy
+
+375
+00:27:23,860 --> 00:27:26,020
+hogy ez mondjuk érdekes lenne
+
+376
+00:27:26,020 --> 00:27:29,000
+hogyha d-t még írnék akkor lefut a
+
+377
+00:27:29,000 --> 00:27:33,940
+akkor azt bizonyítaná, hogy itt jól van létrehozva a double
+
+378
+00:27:33,940 --> 00:27:36,680
+[nézi a kódot]
+
+379
+00:27:36,680 --> 00:27:40,620
+Oké, itt a numeric az a nulla
+
+380
+00:27:40,620 --> 00:27:43,640
+[olvassa a kódot]
+
+381
+00:27:43,640 --> 00:27:47,160
+[motyogva olvas] Nem tudom, mi értelme van
+
+382
+00:27:47,160 --> 00:27:51,300
+[gondolkodik]
+
+383
+00:27:51,300 --> 00:27:55,360
+Mindegy [görget] ööö
+
+384
+00:27:55,360 --> 00:28:00,420
+De ide elvileg nem megyünk be, szóval az expPos az nagyobb, az expPos az
+
+385
+00:28:00,420 --> 00:28:02,420
+Igen...
+
+386
+00:28:03,660 --> 00:28:07,900
+Az exp az egyenlő az expPos + 1
+
+387
+00:28:07,900 --> 00:28:11,740
+[motyogva olvas]
+
+388
+00:28:12,240 --> 00:28:16,640
+Na de itt is van plusz egy meg amott is, az már úgy sok
+
+389
+00:28:16,640 --> 00:28:18,640
+szerintem
+
+390
+00:28:18,640 --> 00:28:20,160
+[kattint]
+
+391
+00:28:20,160 --> 00:28:23,380
+[nézi a kódot]
+
+392
+00:28:23,380 --> 00:28:27,480
+Meg itt az expPost, azt amikor létrehoztuk,
+
+393
+00:28:28,060 --> 00:28:31,300
+akkor itt már hozzáadtunk egyet.
+
+394
+00:28:31,840 --> 00:28:35,920
+Akkor most vagy itt adjunk hozzá, vagy ott, nem?
+
+395
+00:28:35,920 --> 00:28:42,400
+[olvassa a kódot, gondolkodik]
+
+396
+00:28:42,400 --> 00:28:45,360
+[motyogva olvas]
+
+397
+00:28:46,760 --> 00:28:51,620
+[kattint] Nem tudom, hogy ez így jó lesz-e
+
+398
+00:28:53,440 --> 00:28:54,940
+...vagy...
+
+399
+00:28:56,080 --> 00:29:01,180
+[gondolkodik]
+
+400
+00:29:01,180 --> 00:29:03,180
+[görget]
+
+401
+00:29:04,840 --> 00:29:14,640
+Itt mínusz egy [motyog] én máshogy írtam volna meg itt [sóhajt]
+
+402
+00:29:14,640 --> 00:29:20,800
+ExpPos az nagyobb mint a mínusz egy [motyog]
+
+403
+00:29:22,700 --> 00:29:25,960
+Ööö, és akkor itt
+
+404
+00:29:25,960 --> 00:29:30,400
+az exp... de ez az, hogy itt akkor már
+
+405
+00:29:30,400 --> 00:29:35,680
+van ez a pozíció, és akkor nézzük honnan, ja de
+
+406
+00:29:37,760 --> 00:29:46,820
+Na jó [motyogva olvas, gondolkodik]
+
+407
+00:29:46,820 --> 00:29:48,820
+[kattint]
+
+408
+00:29:48,820 --> 00:29:52,580
+[görget] oké, és akkor itt vagyunk
+
+409
+00:29:55,100 --> 00:29:58,400
+Ühüm
+
+410
+00:29:58,400 --> 00:30:06,440
+[nézi a kódot, gondolkodik]
+
+411
+00:30:06,440 --> 00:30:10,720
+Ühüm [motyogva olvas]
+
+412
+00:30:10,720 --> 00:30:18,960
+[nézi a kódot]
+
+413
+00:30:18,960 --> 00:30:20,960
+[kattint]
+
+414
+00:30:23,180 --> 00:30:28,280
+[kattint] de miért [motyog]
+
+415
+00:30:28,280 --> 00:30:34,440
+Csinálunk egy olyat, hogy system.out.
+
+416
+00:30:35,580 --> 00:30:38,980
+println
+
+417
+00:30:38,980 --> 00:30:45,520
+[gépel] És...
+
+418
+00:30:45,520 --> 00:30:49,740
+azt kiírjuk, hogy a numberUtils
+
+419
+00:30:49,740 --> 00:30:57,680
+[gépe] pont createNumber az mivel tér vissza
+
+420
+00:30:57,680 --> 00:31:04,260
+[motyog] és ez ugye egy number, szóval string value-ból kéne
+
+421
+00:31:04,380 --> 00:31:10,680
+[gépel]
+
+422
+00:31:11,820 --> 00:31:19,100
+[motyog]
+
+423
+00:31:19,100 --> 00:31:25,660
+Ezt akkor nem tudom, hogy kell írjam, ne törődjünk vele [kattint]
+
+424
+00:31:26,720 --> 00:31:30,420
+[kattint]
+
+425
+00:31:30,420 --> 00:31:34,540
+Lefuttatom, és megnézem, hogy kiírja-e
+
+426
+00:31:36,000 --> 00:31:40,500
+Ööö... save... mentsük el előtte
+
+427
+00:31:40,500 --> 00:31:52,460
+[hátradől, vár]
+
+428
+00:31:52,460 --> 00:31:55,260
+[motyog] Nullra
+
+429
+00:31:57,560 --> 00:32:01,000
+Noob null üzenetet írt ki
+
+430
+00:32:01,000 --> 00:32:03,920
+Miért írt ki null üzenetet?
+
+431
+00:32:03,920 --> 00:32:10,640
+Meg kell nézni, hogy a createNumberben hol van itt exception kidobva üzenet nélkül, mert szerintem ott ahol
+
+432
+00:32:10,640 --> 00:32:15,140
+az assert true volt ott a ...
+
+433
+00:32:15,140 --> 00:32:22,400
+az azért volt, mert nem volt benne ... és nullával tért vissza. Miért térhet ez vissza nullával?
+
+434
+00:32:22,800 --> 00:32:27,440
+[nézi az eredményt, görget]
+
+435
+00:32:27,440 --> 00:32:30,140
+[kattint] Igen
+
+436
+00:32:30,140 --> 00:32:33,880
+[nézi az eredményt]
+
+437
+00:32:33,880 --> 00:32:36,980
+De itt...
+
+438
+00:32:37,480 --> 00:32:38,980
+[kattint]
+
+439
+00:32:40,100 --> 00:32:43,980
+A d.doubleValue()
+
+440
+00:32:43,980 --> 00:32:45,980
+Egyenlő-egyenlő
+
+441
+00:32:45,980 --> 00:32:50,540
+Igen, ha ... ha nulla,
+
+442
+00:32:50,540 --> 00:32:54,300
+és, all nulla
+
+443
+00:32:54,300 --> 00:32:58,520
+hát ez... ez jó ez így? Szerintem itt...
+
+444
+00:33:00,480 --> 00:33:02,540
+hogy itt az van, hogy
+
+445
+00:33:02,540 --> 00:33:04,940
+na most futnak a tesztek
+
+446
+00:33:06,140 --> 00:33:07,380
+jee
+
+447
+00:33:08,540 --> 00:33:12,720
+Ha, ha d végtelen, vagy
+
+448
+00:33:14,200 --> 00:33:18,020
+végtelen, vagy nulla...
+
+449
+00:33:18,020 --> 00:33:19,520
+...és...
+
+450
+00:33:19,520 --> 00:33:24,160
+[nézi a kódot]
+
+451
+00:33:24,160 --> 00:33:27,240
+Hát nem tudom, hogy ez valaha ez így jó lesz-e
+
+452
+00:33:27,480 --> 00:33:31,020
+[nézi az eredményt]
+
+453
+00:33:31,020 --> 00:33:33,940
+mert a fölötte levőnél is úgy van
+
+454
+00:33:34,280 --> 00:33:43,500
+[gondolkodik] Aha
+
+455
+00:33:43,500 --> 00:33:46,820
+Itt ... normálról beszéltünk
+
+456
+00:33:50,140 --> 00:33:51,180
+[kattint]
+
+457
+00:33:51,180 --> 00:33:56,180
+[görget] printeli [kattint]
+
+458
+00:33:58,180 --> 00:34:01,740
+[nézi a kódot]
+
+459
+00:34:01,740 --> 00:34:03,020
+[kattint]
+
+460
+00:34:05,220 --> 00:34:09,140
+[kattint] És így is kiprinteli?
+
+461
+00:34:09,140 --> 00:34:14,280
+Na jó [kattint] mindjárt kiderül
+
+462
+00:34:14,280 --> 00:34:19,360
+[helyezkedik]
+
+463
+00:34:19,360 --> 00:34:24,240
+Test for NumberUtils#toDouble(string)
+
+464
+00:34:24,240 --> 00:34:27,580
+De ez más
+
+465
+00:34:28,020 --> 00:34:30,920
+Ühüm
+
+466
+00:34:30,920 --> 00:34:35,320
+[olvassa a kódot]
+
+467
+00:34:35,320 --> 00:34:37,320
+[kattint]
+
+468
+00:34:37,920 --> 00:34:45,260
+Hát igen, itt nézem a függvényt, hogy mit tud
+
+469
+00:34:45,260 --> 00:34:48,700
+Próbáljuk meg double-lé alakítani
+
+470
+00:34:48,700 --> 00:34:54,460
+[olvassa a kódot, nézi az erdményt]
+
+471
+00:34:54,460 --> 00:34:57,800
+De itt igen, hogy itt akkor merre megy
+
+472
+00:34:57,800 --> 00:35:01,320
+mert itt akkor visszatérünk a d-vel
+
+473
+00:35:01,320 --> 00:35:06,560
+[olvassa a kódot hangosan]
+
+474
+00:35:06,560 --> 00:35:08,560
+Ööö
+
+475
+00:35:09,240 --> 00:35:14,120
+[lenéz, olvassa a kódot]
+
+476
+00:35:14,120 --> 00:35:16,120
+Lehet, hogy...
+
+477
+00:35:16,960 --> 00:35:24,240
+[motyogva olvas, kattint]
+
+478
+00:35:25,720 --> 00:35:28,840
+Nem hiszem, mert
+
+479
+00:35:28,840 --> 00:35:35,940
+createFloat... végtelen vagy nulla
+
+480
+00:35:35,940 --> 00:35:38,560
+Nem tudom, hogy mit csinálna, mondjuk erről
+
+481
+00:35:40,320 --> 00:35:44,720
+Szerintem... nem... nem fér bele
+
+482
+00:35:44,720 --> 00:35:48,620
+igen, úgyhogy ez itt biztos, hogy nem jó
+
+483
+00:35:48,620 --> 00:35:53,580
+[görget] mivel valahol szerintem hamarabb visszatérünk
+
+484
+00:35:55,860 --> 00:35:59,960
+string valueOf... na mindegy, futnak a tesztek
+
+485
+00:36:01,080 --> 00:36:03,840
+végre
+
+486
+00:36:03,840 --> 00:36:10,220
+Ööö... must be an integer, long, bigInteger
+
+487
+00:36:10,220 --> 00:36:15,780
+[olvassa a kódot]
+
+488
+00:36:15,780 --> 00:36:18,220
+Mert itt...
+
+489
+00:36:18,660 --> 00:36:24,060
+[nézi az eredményt]
+
+490
+00:36:24,060 --> 00:36:27,400
+alapból ez a createDouble...
+
+491
+00:36:27,400 --> 00:36:34,660
+createDouble egy stringből, ha string nem, ha string nulla, akkor return null
+
+492
+00:36:34,660 --> 00:36:37,940
+double.valueOf
+
+493
+00:36:37,940 --> 00:36:43,160
+string double.valueOf
+
+494
+00:36:43,160 --> 00:36:45,800
+Tehát alapból
+
+495
+00:36:45,800 --> 00:36:46,740
+[kattint]
+
+496
+00:36:46,740 --> 00:36:49,220
+Ha annyit kéne, hogy
+
+497
+00:36:49,220 --> 00:36:53,720
+double.valueOf, és akkor ...
+
+498
+00:36:53,720 --> 00:36:55,720
+ez mit mond
+
+499
+00:36:55,720 --> 00:37:02,320
+[görget] Ezt érdekes... lenne megnézni.
+
+500
+00:37:04,660 --> 00:37:09,460
+Ühüm, továbbra is ezt a számot írja ki
+
+501
+00:37:09,460 --> 00:37:11,460
+[görget] ööö
+
+502
+00:37:13,180 --> 00:37:22,240
+De mondjuk hogyha double.valueOf, [gépel] double.valueOf
+
+503
+00:37:22,240 --> 00:37:25,620
+elvileg írtam egy zárójelet
+
+504
+00:37:25,620 --> 00:37:30,240
+[motyog, gépel]
+
+505
+00:37:30,240 --> 00:37:36,520
+[kattint] Nagyon sok lett a zárójel a végén
+
+506
+00:37:37,560 --> 00:37:43,400
+Na így, így mit ír ki [kattint]
+
+507
+00:37:43,400 --> 00:37:45,400
+[kattint]
+
+508
+00:37:46,380 --> 00:37:51,020
+[motyogva olvas] ... instanceOf.double
+
+509
+00:37:51,020 --> 00:37:56,660
+Hogy ha ez akkor... és az arra lefutott, arra nem
+
+510
+00:37:59,260 --> 00:38:06,600
+Hát én megint, én arra gondolok, hogy egyébként vagy a pontokkal, vagy a kitevőnek a
+
+511
+00:38:06,600 --> 00:38:09,400
+helyével lesz a baj, meg
+
+512
+00:38:09,400 --> 00:38:13,340
+Csak az a baj, hogy ez az index nem tudom pontosan, hogy működik
+
+513
+00:38:14,240 --> 00:38:19,520
+[futtat, nézi az eredményt]
+
+514
+00:38:19,520 --> 00:38:27,340
+[helyezkedik] Szerintem most elvileg nekem egy nagyon hosszú számot kéne látnom
+
+515
+00:38:27,340 --> 00:38:31,220
+Hát ez sem azt írja ki
+
+516
+00:38:31,220 --> 00:38:36,200
+Lehet, hogy ír írja ki a java, nem tudom
+
+517
+00:38:40,740 --> 00:38:49,420
+[motyog] Na mindegy, kíváncsi vagyok
+
+518
+00:38:49,420 --> 00:38:57,380
+[olvassa a kódot]
+
+519
+00:38:57,380 --> 00:39:02,360
+Kíváncsi vagyok, mi lesz ez
+
+520
+00:39:02,360 --> 00:39:03,700
+[kattint]
+
+521
+00:39:03,700 --> 00:39:09,920
+Itt a createNumbert is fel lehetne pimpelni - biztos, hogy nem tér vissza nullával, biztos hogy nem
+
+522
+00:39:09,920 --> 00:39:16,020
+mert azt nem látjuk, ezt már végignéztem, biztos hogy a hex prefix ... közül
+
+523
+00:39:16,020 --> 00:39:21,800
+egyikre sem illeszkedik, és éppen ezért
+
+524
+00:39:21,800 --> 00:39:25,600
+a string nem kezdődik azzal
+
+525
+00:39:25,600 --> 00:39:27,600
+tehát
+
+526
+00:39:28,980 --> 00:39:34,880
+Innen, innen jövünk mi a képbe - lastChar
+
+527
+00:39:34,880 --> 00:39:42,600
+oké, egyébként itt hogy állunk? [görget] Még csak most kezdődött, itt már volt egy java sharp teszt
+
+528
+00:39:42,600 --> 00:39:49,580
+[görget] nem [görget]
+
+529
+00:39:49,580 --> 00:39:52,760
+Ühüm, emez így írja ki
+
+530
+00:39:53,140 --> 00:39:58,900
+[nézi az eredményt]
+
+531
+00:39:58,900 --> 00:40:00,900
+[sóhajt]
+
+532
+00:40:00,900 --> 00:40:03,740
+Hát itt double-nek kéne lenni
+
+533
+00:40:05,040 --> 00:40:09,360
+instanceOf double
+
+534
+00:40:09,360 --> 00:40:17,940
+instanceOf float should be double [motyogva olvas]
+
+535
+00:40:17,940 --> 00:40:22,980
+createNumber, és nem double-lal tér vissza [csodálkozik]
+
+536
+00:40:22,980 --> 00:40:27,920
+Ki tudom íratni, hogy mivel tér vissza? Ööö
+
+537
+00:40:27,920 --> 00:40:29,920
+instanceOf vagy
+
+538
+00:40:29,920 --> 00:40:34,920
+class, getClass, van ilyen?
+
+539
+00:40:34,920 --> 00:40:43,500
+Nem ez, hanem a numberUtils createNumber-nek a
+
+540
+00:40:43,500 --> 00:40:49,500
+Ez kell nekem, ez... pont
+
+541
+00:40:49,500 --> 00:41:00,980
+[nézi a forráskódot, motyog]
+
+542
+00:41:00,980 --> 00:41:04,740
+Ühüm, hát ez érdekes lenne
+
+543
+00:41:07,600 --> 00:41:12,240
+[listázza a metódusokat, nevet]
+
+544
+00:41:12,240 --> 00:41:15,640
+Szerintem nem a teszthez kéne hozzányúlni
+
+545
+00:41:15,640 --> 00:41:21,300
+[gépel] Jó, miért nem double-ként tér vissza?
+
+546
+00:41:21,300 --> 00:41:24,480
+Miért vissza?
+
+547
+00:41:27,620 --> 00:41:30,200
+Ugye...
+
+548
+00:41:30,200 --> 00:41:43,300
+[gépel] pont... getclass... [motyogva olvas]
+
+549
+00:41:43,300 --> 00:41:48,580
+[gépel, nézi a kódot]
+
+550
+00:41:48,580 --> 00:41:53,800
+[olvassa a kódot]
+
+551
+00:41:53,800 --> 00:42:00,620
+Ezt így elvileg... ajjajj [gépel]
+
+552
+00:42:04,240 --> 00:42:10,780
+Hát így... [nézi a kódot]
+
+553
+00:42:10,780 --> 00:42:16,180
+[görget, nézi a kódot]
+
+554
+00:42:16,180 --> 00:42:25,460
+Ööö, futtatom, futtatom, csak még itt egy
+
+555
+00:42:25,460 --> 00:42:29,260
+[kattint] jó megint el kell menteni
+
+556
+00:42:30,880 --> 00:42:37,340
+Azért kíváncsi vagyok, milyen osztályt ad majd vissza, egyébként meg ... fölkommentezem.
+
+557
+00:42:37,340 --> 00:42:42,980
+[kattint, gépel] ööö
+
+558
+00:42:42,980 --> 00:42:48,280
+[gépel] System.out.
+
+559
+00:42:48,280 --> 00:42:51,880
+println
+
+560
+00:42:51,880 --> 00:42:53,880
+És itt azt mondom, hogy a
+
+561
+00:42:54,980 --> 00:42:57,860
+a createNumber
+
+562
+00:42:57,860 --> 00:43:03,320
+[gépel] createNumber was called
+
+563
+00:43:03,320 --> 00:43:08,480
+with...
+
+564
+00:43:08,480 --> 00:43:14,580
+[motyog, kattint]
+
+565
+00:43:14,580 --> 00:43:20,920
+Jó... és egészen biztos vagyok benne, hogy ez nem nulla
+
+566
+00:43:20,920 --> 00:43:26,880
+egészen nem ... vagyok .... na szóval
+
+567
+00:43:26,880 --> 00:43:32,400
+Ide se lépünk, ide se lépünk, ide se lépünk
+
+568
+00:43:32,400 --> 00:43:35,220
+lastChar
+
+569
+00:43:35,220 --> 00:43:39,540
+itt azt kéne még kilogolni talán,
+
+570
+00:43:40,540 --> 00:43:44,540
+ugye itt érdekes dolgok, hogy
+
+571
+00:43:44,540 --> 00:43:52,400
+a... a mant micsoda, a dec micsoda
+
+572
+00:43:52,400 --> 00:43:59,020
+és az exp micsoda. Az expnek nem adunk
+
+573
+00:43:59,020 --> 00:44:03,780
+még itt értéket, csak itt
+
+574
+00:44:03,780 --> 00:44:07,580
+De ide ebbe nem lépünk bele
+
+575
+00:44:08,340 --> 00:44:13,160
+mert akkor lefutna? Egy ... [motyog]
+
+576
+00:44:13,160 --> 00:44:17,220
+Nem tudom, hátha most ez elmondja, hogy milyen
+
+577
+00:44:17,220 --> 00:44:23,320
+milyen class [nézi a kódot]
+
+578
+00:44:23,320 --> 00:44:28,620
+[nyit egy böngészőt] Nagyon amatőr keresés lesz, de muszáj
+
+579
+00:44:28,620 --> 00:44:35,500
+how to print the class of an object in python
+
+580
+00:44:35,500 --> 00:44:39,700
+nem python, java
+
+581
+00:44:39,960 --> 00:44:46,740
+[böngészi a weboldalt, motyog]
+
+582
+00:44:46,740 --> 00:44:52,540
+Ööö, ez kell nekem, az alatta lévő
+
+583
+00:44:52,540 --> 00:44:55,900
+[motyogva olvas]
+
+584
+00:44:57,640 --> 00:45:01,900
+[kattint] jó
+
+585
+00:45:01,900 --> 00:45:07,260
+[görget] Na itt közben hibába ütköztünk már
+
+586
+00:45:07,260 --> 00:45:11,400
+Igen, ez is float, floatként tér vissza, érdekes
+
+587
+00:45:11,400 --> 00:45:17,580
+Nem kéne ennek floatként visszatérnie [görget] de hát ugye itt az van, hogy
+
+588
+00:45:18,280 --> 00:45:21,420
+...hogy lehet, hogy akkor tudok belőle floatot csinálni
+
+589
+00:45:22,900 --> 00:45:25,660
+ööö
+
+590
+00:45:25,660 --> 00:45:29,340
+ennek nem floatnak kéne lennie
+
+591
+00:45:31,480 --> 00:45:37,660
+[nézi a kódot] ennek nagyon nem floatnak kéne lennie... hol csinálok itt floatot
+
+592
+00:45:37,660 --> 00:45:44,040
+[görget, gondolkodik] Itt van egy create BigInteger
+
+593
+00:45:44,040 --> 00:45:46,620
+[görget]
+
+594
+00:45:46,620 --> 00:45:54,340
+Azt mondja, hogy must be an integer, long, biginterger, de ez kamu, must be a float, double, bigdecimal
+
+595
+00:45:54,340 --> 00:46:00,040
+AllZeros az azt jelenti, hogy ez is nulla, és az is nulla
+
+596
+00:46:00,040 --> 00:46:06,380
+Igen... ööö float, createFloat
+
+597
+00:46:06,940 --> 00:46:14,400
+[olvassa a kódot, görget]
+
+598
+00:46:14,400 --> 00:46:17,360
+Hát itt igen, tehát
+
+599
+00:46:17,840 --> 00:46:21,660
+ezt hogy különböztetem meg tőle?
+
+600
+00:46:22,540 --> 00:46:29,500
+[olvassa a kódot] createFloat
+
+601
+00:46:29,500 --> 00:46:34,100
+Csak simán először próbálok double-t
+
+602
+00:46:36,000 --> 00:46:39,440
+az lehet hogy megoldja
+
+603
+00:46:39,440 --> 00:46:43,260
+[olvassa kódot, gondolkodik]
+
+604
+00:46:43,260 --> 00:46:47,700
+de nem a legszebb megoldás, inkább olyan feltétel kéne
+
+605
+00:46:47,700 --> 00:46:51,980
+hogy... [motyogva olvas]
+
+606
+00:46:51,980 --> 00:46:53,980
+...double...
+
+607
+00:46:53,980 --> 00:46:55,980
+...float...
+
+608
+00:46:55,980 --> 00:47:05,720
+[gondolkodik, olvassa a kódot]
+
+609
+00:47:05,720 --> 00:47:08,560
+hát, figyelj, próbáljuk ki
+
+610
+00:47:08,560 --> 00:47:11,620
+[nézi a kódot]
+
+611
+00:47:11,620 --> 00:47:16,980
+[gépel] próbáljuk ki, hogy először
+
+612
+00:47:16,980 --> 00:47:23,080
+double-t próbálunk létrehozni, ez talán nehezebb, és ha végigcsorog akkor
+
+613
+00:47:23,080 --> 00:47:27,780
+[gondolkodik, nézi a kódot]
+
+614
+00:47:27,780 --> 00:47:35,640
+nem tudom eldönteni a számról, hogy float-e vagy... akkor lefuttatom [kattint]
+
+615
+00:47:35,640 --> 00:47:38,860
+[kattint] és akkor nézem, hogy
+
+616
+00:47:38,860 --> 00:47:44,520
+[helyezkedik] így jó lesz-e - el tudom képzelni, hogy ez megoldotta
+
+617
+00:47:44,520 --> 00:47:47,460
+[helyezkedik] Akkor akkor oldotta meg, hogyha
+
+618
+00:47:47,460 --> 00:47:51,180
+ha, ha tényleg itt hozok létre egy floatot
+
+619
+00:47:51,180 --> 00:47:54,640
+[kattint] de ezt a createFloatot ezt
+
+620
+00:47:54,640 --> 00:47:59,500
+még akár használhatjuk itt föntebb is eggyel, de itt meg azért nem használhatjuk, mert
+
+621
+00:47:59,500 --> 00:48:06,980
+nem... a lastChar... alapból nem is jutunk bele ebbe, mert az isDigit
+
+622
+00:48:06,980 --> 00:48:12,140
+ugye szám, nem szám, és nem pont
+
+623
+00:48:12,480 --> 00:48:14,140
+tehát
+
+624
+00:48:14,140 --> 00:48:19,520
+nem szám, úgyhogy ide nem jutunk be [görget]
+
+625
+00:48:19,520 --> 00:48:22,280
+úgyhogy szerintem itt térünk vissza
+
+626
+00:48:22,280 --> 00:48:27,260
+ezzel a [görget] igen, szóval itt
+
+627
+00:48:27,260 --> 00:48:33,100
+itt térhetett vissza eddig, de most hogy felcseréltem a sorrendet
+
+628
+00:48:33,100 --> 00:48:37,860
+[nyújtózkodik] de ettől még szerintem nem ennyi a megoldás.
+
+629
+00:48:40,080 --> 00:48:49,060
+Csak most nem tudom, hogy float meg a double között pontosan mi a különbség
+
+630
+00:48:49,060 --> 00:48:51,060
+Jó
+
+631
+00:48:53,620 --> 00:49:00,260
+[nézi a kódot] mármint tudom, csak hogy így itt a kódban
+
+632
+00:49:00,260 --> 00:49:02,540
+Valami olyan feltétel kéne, hogy
+
+633
+00:49:02,540 --> 00:49:07,080
+ha ez a konkrét float, ez a konkrét double, vagy
+
+634
+00:49:07,740 --> 00:49:11,620
+vagy úgy return-ölni, hogyha nem tudunk belőle
+
+635
+00:49:11,620 --> 00:49:15,520
+return float, ha nem tudunk double-t csinálni belőle
+
+636
+00:49:15,520 --> 00:49:18,880
+[gondolkodik]
+
+637
+00:49:18,880 --> 00:49:23,980
+Nem tudom, na mindegy, most megnézzük, hogy ez így megoldja-e
+
+638
+00:49:23,980 --> 00:49:29,100
+Simán lehet egyébként
+
+639
+00:49:29,100 --> 00:49:32,960
+Csak... csak nem tudom, hogy ez
+
+640
+00:49:32,960 --> 00:49:37,760
+... uh itt volt két hiba is [görget] és lehet hogy akkor ez
+
+641
+00:49:37,760 --> 00:49:40,720
+aha... test create number
+
+642
+00:49:41,400 --> 00:49:43,580
+[olvassa az eredményt]
+
+643
+00:49:43,580 --> 00:49:45,580
+...double...
+
+644
+00:49:46,520 --> 00:49:51,660
+Ühüm, sikerült kettő hibát is csinálnom
+
+645
+00:49:51,660 --> 00:49:55,320
+Nem jó. [kattint]
+
+646
+00:49:57,240 --> 00:50:01,720
+Itt azt mondja...
+
+647
+00:50:03,700 --> 00:50:05,120
+[kattint]
+
+648
+00:50:05,120 --> 00:50:08,540
+[nézi a kódot]
+
+649
+00:50:08,540 --> 00:50:10,540
+Aha, király
+
+650
+00:50:10,540 --> 00:50:14,460
+[nézi az eredményt]
+
+651
+00:50:14,460 --> 00:50:18,180
+Az összes elromlott
+
+652
+00:50:18,400 --> 00:50:21,440
+[nézi az eredményt]
+
+653
+00:50:21,440 --> 00:50:25,560
+Hm [nevet], a lot of things can go wrong, hát igen
+
+654
+00:50:25,560 --> 00:50:32,000
+[nevet] ezt én is látom, de itt ennél a függvénynél
+
+655
+00:50:32,820 --> 00:50:37,040
+itt ez kiírt egy nullt
+
+656
+00:50:37,040 --> 00:50:41,040
+Tehát ennél a feladatnál
+
+657
+00:50:41,040 --> 00:50:44,800
+should be floatnál elromlott, mert ott meg double
+
+658
+00:50:45,440 --> 00:50:55,800
+[olvassa a kódot, javadocot]
+
+659
+00:50:55,800 --> 00:50:58,940
+[kattint]
+
+660
+00:50:58,940 --> 00:51:00,940
+Ühüm
+
+661
+00:51:01,560 --> 00:51:08,420
+[olvassa a kódot, eredményt]
+
+662
+00:51:08,420 --> 00:51:15,140
+[kattint] Jó, ezt visszacserélem
+
+663
+00:51:15,140 --> 00:51:22,640
+Így, viszont itt még
+
+664
+00:51:22,640 --> 00:51:28,060
+[nézi a kódot]
+
+665
+00:51:28,060 --> 00:51:30,640
+Igen, legyen az hogy
+
+666
+00:51:30,640 --> 00:51:34,120
+[hangosan olvassa a kódot]
+
+667
+00:51:34,120 --> 00:51:41,860
+Pfú [vakarja a fejét]
+
+668
+00:51:41,860 --> 00:51:50,760
+Oké... nem akarom az egészet teleszemetelni, úgyhogy egy feltételen gondolkoztam, de str
+
+669
+00:51:50,760 --> 00:51:54,460
+str.endsWith
+
+670
+00:51:54,460 --> 00:52:05,080
+és a postfix az mondjuk +38, akkor legyen az,
+
+671
+00:52:05,080 --> 00:52:12,020
+hogy system.out
+
+672
+00:52:12,020 --> 00:52:15,660
+pont [rándolja a szemöldökét]
+
+673
+00:52:15,660 --> 00:52:19,640
+pintln
+
+674
+00:52:19,640 --> 00:52:24,440
+és...
+
+675
+00:52:24,440 --> 00:52:35,120
+[gépel] mant, dec, exp ez mind felkiáltójel, vagy mi ez, macskaköröm közé
+
+676
+00:52:35,120 --> 00:52:40,540
+Kettőspont, szóköz, plusz [gépel]
+
+677
+00:52:40,540 --> 00:52:47,200
+ezt meg inkább akkor string formattal kéne [gépel]
+
+678
+00:52:47,200 --> 00:52:51,460
+stringformat
+
+679
+00:52:51,460 --> 00:52:55,160
+jó, és itt a vessző
+
+680
+00:52:55,160 --> 00:53:04,300
+mant, és ezek stringek ugye? Szerintem ezek stringek voltak, szóval ez is
+
+681
+00:53:04,300 --> 00:53:09,020
+string, és
+
+682
+00:53:09,020 --> 00:53:15,340
+ez is ... string, és ez legyen a mant
+
+683
+00:53:15,340 --> 00:53:18,480
+de itt miért nem adja föl?
+
+684
+00:53:18,480 --> 00:53:22,960
+mant [gépel]
+
+685
+00:53:22,960 --> 00:53:28,660
+már csak simán, dec, meg az exp
+
+686
+00:53:28,660 --> 00:53:34,100
+Ezeket akarom kiíratni [helyezkedik]
+
+687
+00:53:34,100 --> 00:53:37,800
+Ha, mant
+
+688
+00:53:38,460 --> 00:53:42,900
+az elvileg 3 lesz, dec
+
+689
+00:53:42,900 --> 00:53:55,540
+exp... jó ennek így jónak kéne lennie... ééés futtatom
+
+690
+00:53:55,540 --> 00:54:07,120
+Így most nekem ki fogja írni a +38 miatt azt, hogy mi volt a mant, a dec meg az exp, ezekre vagyok kíváncsi
+
+691
+00:54:07,120 --> 00:54:09,500
+... szerintem igen
+
+692
+00:54:09,500 --> 00:54:16,660
+[kattint] user doesn't have a preference on the return type, so let's start small and go from there
+
+693
+00:54:16,660 --> 00:54:23,800
+Hogyha az exp az nagyobb mint, igen, ez igaz nálunk és kisebb, ez is igaz, akkor az exp
+
+694
+00:54:23,800 --> 00:54:33,360
+az legyen egyenlő substring... [motyogva olvas] Jó, a többit azt meg már beállítottuk szerintem
+
+695
+00:54:33,360 --> 00:54:35,980
+Itt a dec-et meg a mantot
+
+696
+00:54:35,980 --> 00:54:40,380
+Jó, akkor csak erre vagyok kíváncsi
+
+697
+00:54:43,460 --> 00:54:44,300
+[kattint]
+
+698
+00:54:44,300 --> 00:54:48,660
+Futtassuk, megint kiszedem ugyanezt a
+
+699
+00:54:48,660 --> 00:54:52,860
+ezt a pont... szerintem...
+
+700
+00:54:52,860 --> 00:54:59,940
+[kattint] persze, mentsük el
+
+701
+00:54:59,940 --> 00:55:08,700
+Ezt is mentsük el [helyezkedik] should be float, should be...
+
+702
+00:55:10,500 --> 00:55:17,500
+[igazgatja a maszkját]
+
+703
+00:55:17,500 --> 00:55:21,340
+[iszik]
+
+704
+00:55:21,340 --> 00:55:28,140
+[iszik] Nagyon kíváncsi vagyok, hogy most a mant, a dec meg az ...
+
+705
+00:55:28,140 --> 00:55:32,860
+Mert ebből látni fogjuk, hogy jó-e a plusz egyezés
+
+706
+00:55:32,860 --> 00:55:36,640
+és egy olyan feltételt kéne adni, hogyha
+
+707
+00:55:37,780 --> 00:55:52,320
+Mert a should be sima test create numbernél mi van? Mert create numbers ... oké.
+
+708
+00:55:52,320 --> 00:55:55,456
+...integer valueOf
+
+709
+00:55:55,450 --> 00:55:58,096
+double valueOf
+
+710
+00:55:58,090 --> 00:56:01,680
+[nézi az eredményt]
+
+711
+00:56:01,680 --> 00:56:02,784
+Ühüm
+
+712
+00:56:04,288 --> 00:56:06,016
+Ez, ööö
+
+713
+00:56:06,010 --> 00:56:11,088
+[motyogva olvas] Ja mert ott a d meg volt adva
+
+714
+00:56:11,080 --> 00:56:14,288
+Itt is, hogyha megadnánk a d-t, valószínűleg jó lenne
+
+715
+00:56:14,280 --> 00:56:18,064
+Mert akkor meg ki tudnánk nézni abból a részből, hogy itt hogy csinálták
+
+716
+00:56:18,528 --> 00:56:21,424
+Aaaa switch-case-re gondolok
+
+717
+00:56:21,420 --> 00:56:25,584
+[görget]
+
+718
+00:56:25,580 --> 00:56:31,936
+[sóhajt] Mert hogyha a d-t megadjuk, és úgy jó, akkor a switch-case-ben
+
+719
+00:56:31,936 --> 00:56:33,930
+Jól van megcsinálva
+
+720
+00:56:34,384 --> 00:56:37,344
+[motyog] egyébként hogy van
+
+721
+00:56:37,340 --> 00:56:40,384
+ez érdekes [görget] itt, itt
+
+722
+00:56:40,384 --> 00:56:42,380
+Ja hát itt igen, hogyha d a vége...
+
+723
+00:56:42,380 --> 00:56:46,752
+[motyog] ugye el van döntve
+
+724
+00:56:46,750 --> 00:56:49,888
+[kattint] createDouble(numeric)
+
+725
+00:56:49,888 --> 00:56:51,880
+...és hogyha...
+
+726
+00:56:53,920 --> 00:56:55,504
+Érdekes
+
+727
+00:56:55,500 --> 00:56:58,336
+Hogy csinál ebből izét is 
+
+728
+00:56:58,330 --> 00:57:02,960
+[nézi az eredményt] Aha
+
+729
+00:57:02,960 --> 00:57:06,736
+Nem tudtam, miket ír ki, azt hittem nekem
+
+730
+00:57:06,730 --> 00:57:10,864
+[nézi az eredményt]
+
+731
+00:57:10,860 --> 00:57:14,768
+[iszik]
+
+732
+00:57:14,760 --> 00:57:17,488
+[nézi az eredményt]
+
+733
+00:57:18,032 --> 00:57:20,784
+numberFormatException
+
+734
+00:57:21,872 --> 00:57:24,800
+[kattint]
+
+735
+00:57:24,800 --> 00:57:29,888
+[nézi az eredményt, gondolkodik]
+
+736
+00:57:29,888 --> 00:57:31,880
+[motyog]
+
+737
+00:57:31,880 --> 00:57:39,120
+[vár, lenéz, nézi az eredményt]
+
+738
+00:57:39,120 --> 00:57:43,056
+[nevet] ez a FastDate nem olyan gyors
+
+739
+00:57:43,050 --> 00:57:45,328
+...hát jah...
+
+740
+00:57:46,480 --> 00:57:48,512
+Erre kíváncsi vagyok
+
+741
+00:57:48,720 --> 00:57:50,352
+[nézi az eredményt]
+
+742
+00:57:50,350 --> 00:57:54,832
+Jó, lefutottak, és a... [görget]
+
+743
+00:57:54,830 --> 00:57:59,616
+és nem is tudok benne hívni? [görget, motyog]
+
+744
+00:57:59,610 --> 00:58:03,232
+[motyog]
+
+745
+00:58:03,230 --> 00:58:06,208
+azt hogy, a dec az null
+
+746
+00:58:06,200 --> 00:58:08,352
+[motyog]
+
+747
+00:58:08,350 --> 00:58:12,272
+Az exp az meg +38
+
+748
+00:58:12,270 --> 00:58:15,424
+Lehet a plusznak nem biztos, hogy ott kéne lennie
+
+749
+00:58:16,976 --> 00:58:20,432
+Sőt, szinte biztos hogy nem kéne ott lennie
+
+750
+00:58:20,430 --> 00:58:23,248
+[motyog, Gergő fotóz a háttérben]
+
+751
+00:58:24,032 --> 00:58:26,656
+[görget]
+
+752
+00:58:26,650 --> 00:58:32,704
+[kattintgat] exp az jó, akkor
+
+753
+00:58:32,700 --> 00:58:35,040
+[gondolkodik]
+
+754
+00:58:35,376 --> 00:58:40,400
+Az a baj, hogy el sem jut ide, mert itt már csinált belőle egy floatot
+
+755
+00:58:40,400 --> 00:58:46,544
+[olvassa a kódot]
+
+756
+00:58:46,544 --> 00:58:48,540
+Csak nem tudom, hogy...
+
+757
+00:58:48,540 --> 00:58:55,504
+[gondolkodik]
+
+758
+00:58:55,500 --> 00:58:59,536
+...hogy expnek, amikor értéket adunk, 
+
+759
+00:58:59,530 --> 00:59:03,344
+[görget] ezt kicsit vizsgáljuk meg
+
+760
+00:59:03,340 --> 00:59:05,552
+[görget] Nem jelölte ki
+
+761
+00:59:05,552 --> 00:59:07,550
+Jó [kattint]
+
+762
+00:59:07,550 --> 00:59:11,360
+Ezért [helyezkedik]
+
+763
+00:59:11,872 --> 00:59:15,536
+Oké, az exp az
+
+764
+00:59:15,536 --> 00:59:17,530
+...az...
+
+765
+00:59:17,952 --> 00:59:22,560
+Az akkor itt adtunk neki értéket és azt mondtuk, hogy az legyen egyenlő a
+
+766
+00:59:22,560 --> 00:59:24,560
+plusz 1-től a végéig
+
+767
+00:59:24,816 --> 00:59:27,664
+Akkor legyen egyenlő a plusz 2, nem? 
+
+768
+00:59:28,960 --> 00:59:32,256
+Vagy az lehet mínusz is? Valszeg lehet mínusz is.
+
+769
+00:59:32,250 --> 00:59:34,928
+Ez minket nem is érdekel annyira
+
+770
+00:59:35,824 --> 00:59:38,448
+Csak abból a szempontból, hogy 
+
+771
+00:59:38,440 --> 00:59:43,840
+[olvassa a kódot]
+
+772
+00:59:43,840 --> 00:59:45,840
+...hooogy...
+
+773
+00:59:47,392 --> 00:59:50,240
+nem, ez-ez
+
+774
+00:59:50,576 --> 00:59:54,176
+csak ott érdekel, hogy itt minden nulla ...
+
+775
+00:59:55,440 --> 00:59:56,912
+[kattint]
+
+776
+00:59:57,328 --> 01:00:00,624
+Ez az isAllZeros ez mit csinál? [kattint]
+
+777
+01:00:01,264 --> 01:00:04,432
+Ha ez null, akkor return true
+
+778
+01:00:04,816 --> 01:00:06,784
+[sóhajt] És elmegyünk a...
+
+779
+01:00:06,780 --> 01:00:09,472
+a végétől a nulláig
+
+780
+01:00:09,472 --> 01:00:11,470
+csökkentgetjük...
+
+781
+01:00:11,470 --> 01:00:14,192
+ööö
+
+782
+01:00:14,190 --> 01:00:18,752
+és hogyha a srtring.charAt
+
+783
+01:00:18,750 --> 01:00:24,640
+i nem egyenlő nullával, return false, egyébként pedig
+
+784
+01:00:24,640 --> 01:00:30,832
+return... string ... string
+
+785
+01:00:30,830 --> 01:00:34,176
+nagyobb, mint nulla
+
+786
+01:00:35,888 --> 01:00:40,496
+Aha... ez tetszik, ez a függvény
+
+787
+01:00:40,490 --> 01:00:45,120
+csak az a baj, hogy akkor viszont 
+
+788
+01:00:45,120 --> 01:00:48,544
+[olvassa a kódot]
+
+789
+01:00:48,540 --> 01:00:51,808
+hát ugye itt... ühüm
+
+790
+01:00:51,800 --> 01:00:55,120
+ezt hol hívjuk meg? 
+
+791
+01:00:55,120 --> 01:00:57,904
+isAllZerosba
+
+792
+01:00:57,900 --> 01:01:06,272
+[olvassa a kódot] Ühüm
+
+793
+01:01:06,270 --> 01:01:11,424
+Ühüm... floatValue
+
+794
+01:01:11,420 --> 01:01:15,712
+[olvassa a kódot]
+
+795
+01:01:15,712 --> 01:01:17,710
+Most akkor ez valahogy
+
+796
+01:01:18,352 --> 01:01:21,040
+itt ki kéne írni
+
+797
+01:01:21,040 --> 01:01:24,192
+[nézi az eredményt]
+
+798
+01:01:24,192 --> 01:01:26,190
+ki kéne írni
+
+799
+01:01:26,190 --> 01:01:29,456
+[nézi a kódot]
+
+800
+01:01:29,450 --> 01:01:33,712
+de ez most nem lesz megoldás, viszont eljutottunk odáig, 
+
+801
+01:01:33,710 --> 01:01:36,752
+és kiírt mindent, tehát 
+
+802
+01:01:36,750 --> 01:01:40,640
+nem tértünk vissza idáig, az biztos
+
+803
+01:01:40,640 --> 01:01:43,808
+és itt viszont visszatérünk
+
+804
+01:01:44,944 --> 01:01:49,504
+ajj istenem... mitől lesz float? ugyanaz a feltétel
+
+805
+01:01:49,500 --> 01:01:51,664
+[gondolkodik]
+
+806
+01:01:51,664 --> 01:01:53,660
+[kattint]
+
+807
+01:01:54,288 --> 01:01:57,472
+[nézi a kódot]
+
+808
+01:01:57,470 --> 01:02:00,144
+Hát biztos hogy ... a mant az 
+
+809
+01:02:01,312 --> 01:02:03,104
+mant 53
+
+810
+01:02:03,100 --> 01:02:06,432
+Tehát ez itt igaz, 
+
+811
+01:02:06,430 --> 01:02:12,112
+[olvassa a kódot]
+
+812
+01:02:12,110 --> 01:02:17,808
+...de itt egy feltétel, ha végtelen vagy
+
+813
+01:02:17,800 --> 01:02:19,984
+[nézi a kódot]
+
+814
+01:02:19,980 --> 01:02:22,560
+nulla
+
+815
+01:02:22,560 --> 01:02:27,936
+[nézi a kódot, javadocot]
+
+816
+01:02:27,930 --> 01:02:34,016
+Ú, várj itt ez érdekes, hogyha float értéke az nulla, és 
+
+817
+01:02:34,384 --> 01:02:36,640
+nem csak nullából áll
+
+818
+01:02:37,120 --> 01:02:41,056
+[olvassa a kódot]
+
+819
+01:02:41,056 --> 01:02:43,050
+Ez [motyog]
+
+820
+01:02:43,050 --> 01:02:52,272
+[olvassa a kódot]
+
+821
+01:02:52,270 --> 01:02:54,896
+Lehet hogy ... egymás alatt
+
+822
+01:02:55,648 --> 01:02:57,312
+és
+
+823
+01:02:57,312 --> 01:02:59,310
+[nézi a kódot]
+
+824
+01:02:59,310 --> 01:03:01,310
+Hmm
+
+825
+01:03:02,480 --> 01:03:04,864
+[motyog]
+
+826
+01:03:04,860 --> 01:03:12,592
+[gondolkodik]
+
+827
+01:03:12,848 --> 01:03:15,200
+Hm
+
+828
+01:03:15,200 --> 01:03:20,448
+[olvassa a javadocot]
+
+829
+01:03:20,448 --> 01:03:22,440
+[kattint]
+
+830
+01:03:24,144 --> 01:03:28,416
+A float az hogy néz ki basszus
+
+831
+01:03:28,410 --> 01:03:31,104
+A float az egy sima [nyit egy böngészőt]
+
+832
+01:03:31,100 --> 01:03:35,792
+megnézem, hogy mi a [gépel]
+
+833
+01:03:35,792 --> 01:03:37,790
+Ööö...
+
+834
+01:03:37,790 --> 01:03:40,688
+[kattint] Nem tudom, hogy ebbe lehet-e
+
+835
+01:03:40,680 --> 01:03:43,632
+[kattint] betű egyáltalán, mert hogyha
+
+836
+01:03:43,630 --> 01:03:46,656
+csinálok egy olyan szűrést, hogyha van benne
+
+837
+01:03:46,650 --> 01:03:51,744
+[görget, böngészi a weboldalt]
+
+838
+01:03:51,740 --> 01:03:57,456
+Hogyha van benne betű a stringben, akkor nem lehet float, az lenne a legegyszerűbb
+
+839
+01:03:57,450 --> 01:04:00,464
+[gépel] java float
+
+840
+01:04:00,464 --> 01:04:02,460
+vs double
+
+841
+01:04:02,460 --> 01:04:07,120
+...difference between float and double variable in...
+
+842
+01:04:07,120 --> 01:04:09,120
+itt kéne a különbséget megtalálni
+
+843
+01:04:09,120 --> 01:04:27,136
+[motyogva olvas]
+
+844
+01:04:27,130 --> 01:04:31,312
+Aha... azt kéne akkor csinálni, hogy
+
+845
+01:04:31,312 --> 01:04:33,310
+[böngészi a weboldalt]
+
+846
+01:04:33,310 --> 01:04:36,624
+de hát akkor hogy csinálta meg a floatot? Tehát...
+
+847
+01:04:36,620 --> 01:04:42,096
+Ööö, itt ugye, hogyha dec number, vagy nem tudom, micsoda
+
+848
+01:04:42,090 --> 01:04:46,016
+Ez a 6 to 7 ez ...
+
+849
+01:04:47,392 --> 01:04:55,472
+[motyogva olvas] double is more expensive than float...
+
+850
+01:04:55,470 --> 01:04:59,216
+Oké... [motyogva olvas tovább]
+
+851
+01:04:59,210 --> 01:05:02,144
+[böngészi a weboldalt]
+
+852
+01:05:03,088 --> 01:05:08,160
+[motyogva olvas]
+
+853
+01:05:08,160 --> 01:05:12,464
+[böngészi a weboldalt]
+
+854
+01:05:12,464 --> 01:05:14,460
+Ühüm
+
+855
+01:05:15,792 --> 01:05:19,808
+Akkor azt kéne csinálni, hogy eldönteni
+
+856
+01:05:19,800 --> 01:05:22,688
+hogy, létrehozom
+
+857
+01:05:24,288 --> 01:05:27,104
+mindkettőt, és hogyha az
+
+858
+01:05:27,100 --> 01:05:31,376
+Ez most meg fogja oldani a problémát, de nem lesz szép
+
+859
+01:05:31,370 --> 01:05:34,800
+...ööö...
+
+860
+01:05:36,920 --> 01:05:45,392
+[görget] Igazából annyit... annyi megoldja, de nem nem tudom, hogy most szépségre kell-e törekedni
+
+861
+01:05:45,390 --> 01:05:46,640
+[kattint]
+
+862
+01:05:47,664 --> 01:05:48,640
+ez...
+
+863
+01:05:50,224 --> 01:05:53,952
+There is decimal point, ez legyen egyenlő dec.lenght() [kattint]
+
+864
+01:05:54,352 --> 01:05:57,888
+decet meg beállítjuk ponttól meg odáig
+
+865
+01:05:57,880 --> 01:06:00,928
+oké [gépel]
+
+866
+01:06:01,072 --> 01:06:04,064
+És a numdecimals az látszott, hogy nálam
+
+867
+01:06:04,060 --> 01:06:08,480
+[lefele néz, kattint]
+
+868
+01:06:08,480 --> 01:06:11,184
+8+
+
+869
+01:06:11,952 --> 01:06:16,368
+Ez meg pont bele... ja már nem fér bele a floatba
+
+870
+01:06:16,360 --> 01:06:17,280
+[kattint]
+
+871
+01:06:17,280 --> 01:06:20,416
+Hát akkor annyit csinálok, hogy nagyobb, mint 7
+
+872
+01:06:20,410 --> 01:06:24,960
+A numdecimals nagyobb mint 7 [görget]
+
+873
+01:06:24,960 --> 01:06:28,944
+[görget] vagy [kattint]
+
+874
+01:06:30,112 --> 01:06:36,368
+Ú, ez már túl ... áh, inkább beágyazom, if..
+
+875
+01:06:36,368 --> 01:06:38,360
+numdecimals
+
+876
+01:06:38,360 --> 01:06:40,360
+[gépel] kisebb mint 8
+
+877
+01:06:40,360 --> 01:06:43,408
+[gépel] return f, ennyi
+
+878
+01:06:43,400 --> 01:06:48,928
+[kattint, olvassa a kódot]
+
+879
+01:06:48,920 --> 01:06:52,432
+itt enddel is lehetne, de így
+
+880
+01:06:54,192 --> 01:06:56,032
+így valószínűleg
+
+881
+01:06:58,272 --> 01:07:01,856
+...jó lesz, mert ez meg
+
+882
+01:07:01,850 --> 01:07:07,936
+kurvára 8, tehát tovább fog csúszni, és double-t csinálunk
+
+883
+01:07:08,864 --> 01:07:13,760
+ööö, megnézem, hogy itt a tesztben szépen van-e minden [görget]
+
+884
+01:07:13,760 --> 01:07:17,712
+bár testCreateFloat, testCreateDouble
+
+885
+01:07:17,710 --> 01:07:20,288
+ööö
+
+886
+01:07:20,280 --> 01:07:25,152
+[olvass a kódot, javadocot]
+
+887
+01:07:25,150 --> 01:07:30,064
+valueOfNumbers create double, oké, blablablablabla
+
+888
+01:07:30,064 --> 01:07:32,060
+Nem tudom, hogy hol volt ez
+
+889
+01:07:32,060 --> 01:07:34,336
+ide beírom, hogy plusz 38
+
+890
+01:07:34,336 --> 01:07:36,330
+[kattint]
+
+891
+01:07:36,928 --> 01:07:40,480
+[kattint]
+
+892
+01:07:40,480 --> 01:07:43,520
+ööö, tehát itt is
+
+893
+01:07:43,888 --> 01:07:47,536
+ez ugye 7 hosszú, meg ez is 7 hosszú
+
+894
+01:07:48,992 --> 01:07:51,968
+Tehát ez, aha...
+
+895
+01:07:51,960 --> 01:07:55,520
+...should be, igen és itt meg ugye 8
+
+896
+01:07:55,520 --> 01:08:00,912
+pontosságú precision, és nem írtam bele semmit, akkor ezt elmentem
+
+897
+01:08:01,552 --> 01:08:04,240
+és futtatom
+
+898
+01:08:04,240 --> 01:08:07,856
+[vár, nézi az eredményt]
+
+899
+01:08:07,856 --> 01:08:09,850
+[helyezkedik]
+
+900
+01:08:09,850 --> 01:08:17,584
+[nézi az eredményt, nyújtózkodik]
+
+901
+01:08:17,580 --> 01:08:20,560
+[helyezkedik]
+
+902
+01:08:20,560 --> 01:08:25,488
+[vár, nézi az eredményt]
+
+903
+01:08:25,480 --> 01:08:32,912
+Hát igen, most hogy döntsük el, hogy floatot vagy double-t hozunk létre, nagyon hasonlít egymásra a kettő
+
+904
+01:08:32,910 --> 01:08:34,128
+ööö
+
+905
+01:08:34,624 --> 01:08:38,544
+Szerintem a precisionből kell csinálni, mert tudok
+
+906
+01:08:38,540 --> 01:08:42,176
+tudok belőle csinálni... de miért tudok belőle double-t csinálni? 
+
+907
+01:08:42,170 --> 01:08:46,992
+vagy floatot, bocsánat, hogyha 8 hosszú volt akkor a floatot el sem tudja tárolni
+
+908
+01:08:46,990 --> 01:08:51,856
+[gondolkodik]
+
+909
+01:08:51,856 --> 01:08:53,850
+ezért mert ez a create float az
+
+910
+01:08:53,850 --> 01:08:59,152
+[gondolkodik, vár]
+
+911
+01:08:59,152 --> 01:09:01,150
+Hát nem tudom, kíváncsi vagyok
+
+912
+01:09:01,150 --> 01:09:08,080
+[iszik]
+
+913
+01:09:08,080 --> 01:09:11,392
+[vár]
+
+914
+01:09:11,390 --> 01:09:15,968
+Ez a createFloat ez nem csinál semmit, csak ha nem nulla akkor [kattint]
+
+915
+01:09:16,800 --> 01:09:19,488
+float.ValueOf string
+
+916
+01:09:20,336 --> 01:09:25,232
+és ez Returns a Float object holding the float values represented by the argument string s. 
+
+917
+01:09:25,230 --> 01:09:32,176
+if s is null... [motyogva olvassa a javadocot] igen
+
+918
+01:09:32,496 --> 01:09:40,192
+[motyogva olvassa a javadocot]
+
+919
+01:09:40,190 --> 01:09:43,152
+[görget]
+
+920
+01:09:43,150 --> 01:09:47,488
+floatingPointLiteral, integer
+
+921
+01:09:47,480 --> 01:09:51,920
+[görget] oké, itt nem tudom, mik vannak
+
+922
+01:09:51,920 --> 01:09:54,800
+[motyogva olvas] blablablablabla
+
+923
+01:09:54,800 --> 01:09:58,336
+ööö [motyogva olvas]
+
+924
+01:09:58,330 --> 01:10:01,344
+[nézi az eredményt]
+
+925
+01:10:01,340 --> 01:10:04,336
+Mindjárt ott vagyunk a tesztnél
+
+926
+01:10:05,136 --> 01:10:09,456
+[görget]
+
+927
+01:10:09,450 --> 01:10:16,544
+[nézi az eredményt]
+
+928
+01:10:16,544 --> 01:10:18,540
+Oké
+
+929
+01:10:18,540 --> 01:10:22,976
+[nézi az eredményt]
+
+930
+01:10:22,970 --> 01:10:25,168
+Na most egy másik hiba van
+
+931
+01:10:25,160 --> 01:10:28,688
+Most meg a decimalnál van probléma
+
+932
+01:10:28,680 --> 01:10:35,664
+[gondolkodik]
+
+933
+01:10:35,664 --> 01:10:37,660
+Ami érdekes
+
+934
+01:10:37,660 --> 01:10:43,584
+[nézi az eredményt, görget]
+
+935
+01:10:43,580 --> 01:10:47,392
+[görget] hát ez itt
+
+936
+01:10:47,390 --> 01:10:53,312
+[görget] ... előtte szerintem nem volt baj, most a...
+
+937
+01:10:53,310 --> 01:10:58,256
+[nézi az eredményt]
+
+938
+01:10:58,256 --> 01:11:00,250
+hogy itt ez miért 
+
+939
+01:11:01,504 --> 01:11:04,416
+ja most meg akkor ebből csinált valószínűleg
+
+940
+01:11:04,416 --> 01:11:06,410
+...double-t. 
+
+941
+01:11:06,410 --> 01:11:11,104
+[görget] Aha, tehát akkor 
+
+942
+01:11:11,100 --> 01:11:14,720
+Akkor ez megint rossz volt ...
+
+943
+01:11:14,720 --> 01:11:18,480
+ez a kettő failelt el. 
+
+944
+01:11:20,256 --> 01:11:22,816
+Hát akkor jobban meg kéne csinálni
+
+945
+01:11:22,810 --> 01:11:27,568
+[lefele néz, nézi a kódot]
+
+946
+01:11:27,568 --> 01:11:29,560
+[kattint]
+
+947
+01:11:29,560 --> 01:11:32,336
+[nézi a böngészőt, görget]
+
+948
+01:11:32,330 --> 01:11:35,296
+Most kéne nekem így konkrétan, hogy 
+
+949
+01:11:36,016 --> 01:11:41,456
+[gépel] java - float - double - variable
+
+950
+01:11:41,450 --> 01:11:43,152
+hogy mi-mit
+
+951
+01:11:43,150 --> 01:11:45,392
+primitive data types
+
+952
+01:11:45,392 --> 01:11:47,390
+mi van benne pontosan 
+
+953
+01:11:47,390 --> 01:11:51,520
+float, az 32 bit, oké
+
+954
+01:11:51,520 --> 01:11:55,424
+[nézi a weboldalt]
+
+955
+01:11:55,424 --> 01:11:57,420
+oké
+
+956
+01:11:59,104 --> 01:12:04,400
+[motyogva olvas]
+
+957
+01:12:04,400 --> 01:12:11,504
+64 bit... oké [motyogva olvas, görget]
+
+958
+01:12:11,500 --> 01:12:16,320
+[gépel] precision
+
+959
+01:12:16,320 --> 01:12:19,424
+single precision, double precision
+
+960
+01:12:19,424 --> 01:12:21,420
+tehát itt
+
+961
+01:12:21,420 --> 01:12:25,968
+[keres a böngészőben]
+
+962
+01:12:25,960 --> 01:12:30,544
+[gépel] variables precision ... hogy el tudjam
+
+963
+01:12:30,544 --> 01:12:32,540
+[kattint]
+
+964
+01:12:32,540 --> 01:12:34,540
+...dönteni
+
+965
+01:12:34,540 --> 01:12:39,168
+hogy mikor térjek vissza, mert szerintem az a baj, hogy a 
+
+966
+01:12:39,160 --> 01:12:42,240
+a... biginteger és bigdecimal is 
+
+967
+01:12:43,296 --> 01:12:44,240
+ööö
+
+968
+01:12:44,240 --> 01:12:50,896
+[böngészi a weboldalt]
+
+969
+01:12:50,890 --> 01:12:55,552
+[motyogva olvas]
+
+970
+01:12:55,550 --> 01:12:58,848
+De ez most mennyi ez a kötőjel? [nevet] most mennyi...
+
+971
+01:12:58,840 --> 01:13:02,272
+Float values is nulla [motyogva olvas]
+
+972
+01:13:02,270 --> 01:13:05,968
+[motyogva olvas]
+
+973
+01:13:06,512 --> 01:13:10,128
+[motyogva olvas]
+
+974
+01:13:10,592 --> 01:13:16,592
+decimal the value [motyogva olvas] oké [görget]
+
+975
+01:13:17,664 --> 01:13:19,408
+[visszatér Eclipsbe]
+
+976
+01:13:20,080 --> 01:13:22,160
+Oké, create number
+
+977
+01:13:22,160 --> 01:13:26,496
+Vagy ez most az előbb akkor nem volt elmentve? Mert itt nem írta ki azért ennyi számot
+
+978
+01:13:26,490 --> 01:13:30,480
+[görget] Igen, érdekes
+
+979
+01:13:30,480 --> 01:13:35,200
+[görget] Okés, de most ezt kitörlöm
+
+980
+01:13:35,200 --> 01:13:40,560
+[kattint] Pontosabban ezt
+
+981
+01:13:40,560 --> 01:13:44,816
+Azzal nem rontok el semmit, és azt akarom, hogy 
+
+982
+01:13:44,810 --> 01:13:49,408
+if numdecimals kisebb mint 18
+
+983
+01:13:49,408 --> 01:13:51,400
+vagy kisebb mint 8
+
+984
+01:13:51,400 --> 01:13:53,400
+És itt meg akkor legyen egy 
+
+985
+01:13:53,400 --> 01:13:56,640
+hasonló, mielőtt visszatérek a
+
+986
+01:13:56,640 --> 01:13:59,472
+double-lel, az kisebb mint [kattint]
+
+987
+01:14:00,016 --> 01:14:05,824
+[nézi a kódot, motyogva olvas] kisebb egyenlő mint 
+
+988
+01:14:05,820 --> 01:14:11,712
+...mint 16...
+
+989
+01:14:11,710 --> 01:14:15,248
+Itt ugye még mi hasalt most el? A... 
+
+990
+01:14:15,808 --> 01:14:19,584
+Ez... kettő, három, négy, öt
+
+991
+01:14:19,580 --> 01:14:22,880
+hat, hét, nyolc, kilenc, tíz
+
+992
+01:14:22,880 --> 01:14:28,048
+Egy, kettő, három, négy, öt, hat, hét, nyolc
+
+993
+01:14:28,040 --> 01:14:32,816
+Jó, akkor kisebb, kisebb egyenlő mint 16
+
+994
+01:14:32,810 --> 01:14:35,616
+ez a precision
+
+995
+01:14:35,610 --> 01:14:40,480
+és egyébként még két bigdecimal... alright
+
+996
+01:14:40,480 --> 01:14:44,992
+[kattint] futtassuk újra [kattint]
+
+997
+01:14:44,990 --> 01:14:58,912
+[helyezkedik, vár, nézi az eredményt]
+
+998
+01:14:58,910 --> 01:15:04,880
+Meg kéne keresni már a dokumentációt [átvált böngészőre]
+
+999
+01:15:04,880 --> 01:15:06,880
+Oké
+
+1000
+01:15:06,880 --> 01:15:10,576
+Oké... oké
+
+1001
+01:15:10,570 --> 01:15:13,472
+Oké, ezeket nyilván értem, csak most hogy...
+
+1002
+01:15:13,470 --> 01:15:17,696
+[nézi a böngészőt]
+
+1003
+01:15:17,696 --> 01:15:19,690
+De ezt, ezt nem értem
+
+1004
+01:15:19,690 --> 01:15:24,048
+[kattint] Ezt a 15 to 16
+
+1005
+01:15:26,336 --> 01:15:28,432
+Akkor most legyen ...
+
+1006
+01:15:29,552 --> 01:15:36,928
+kisebb mint 8, vagy kisebb mint 17, ez végül is ugyanaz a feltétel, na jó nem ezt akartam, ezt akartam
+
+1007
+01:15:38,496 --> 01:15:40,368
+ez ugyanaz
+
+1008
+01:15:40,360 --> 01:15:43,088
+[nézi a kódot]
+
+1009
+01:15:43,080 --> 01:15:50,224
+de ez nem lesz szép szám ... decimals, kisebb mint egyenlő [motyog, helyezkedik]
+
+1010
+01:15:51,104 --> 01:16:00,816
+[vár, nézi az eredményt]
+
+1011
+01:16:00,810 --> 01:16:05,920
+[iszik]
+
+1012
+01:16:05,920 --> 01:16:10,576
+[visszazárja az üveget]
+
+1013
+01:16:10,570 --> 01:16:27,008
+[vár, lenéz, nézi az eredményt]
+
+1014
+01:16:27,000 --> 01:16:30,368
+Na, szóval
+
+1015
+01:16:30,360 --> 01:16:33,136
+Most azt várom, hogy 
+
+1016
+01:16:33,136 --> 01:16:35,130
+[vár]
+
+1017
+01:16:35,130 --> 01:16:38,272
+hogy elvileg most jó lesz minden, de
+
+1018
+01:16:38,270 --> 01:16:41,216
+még ez így szép is
+
+1019
+01:16:41,216 --> 01:16:43,210
+"szép"
+
+1020
+01:16:43,210 --> 01:16:47,408
+Úgyhogy szerintem működik mert indulunk a legkisebbtől, megyünk a 
+
+1021
+01:16:47,400 --> 01:16:51,760
+floatról megyünk a double-re, és hogyha az sem, akkor decimal
+
+1022
+01:16:52,080 --> 01:16:54,912
+ööö, bigdecimal, csakhogy
+
+1023
+01:16:56,800 --> 01:17:01,136
+végül is most hogy én ugye két sort illesztettem be, az egyik az az hogy
+
+1024
+01:17:01,130 --> 01:17:06,160
+hogy kisebb mint 8, a másik meg az hogy kisebb mint 17
+
+1025
+01:17:06,160 --> 01:17:08,160
+Az egyik az 6-7
+
+1026
+01:17:08,160 --> 01:17:11,040
+precision a másik az 15-16
+
+1027
+01:17:11,040 --> 01:17:13,040
+... így jobb 
+
+1028
+01:17:13,040 --> 01:17:16,112
+eggyel nagyobb meg kisebbek
+
+1029
+01:17:16,944 --> 01:17:19,152
+és akkor térjen vele vissza
+
+1030
+01:17:20,112 --> 01:17:24,144
+és mi van... a két bigdecimal az mindenképpen megcsinálja? 
+
+1031
+01:17:24,464 --> 01:17:29,376
+[hátradől] Mert most lehet hogy az a így
+
+1032
+01:17:29,370 --> 01:17:32,208
+hogy így a feltételeket szoptam meg, lehet hogy
+
+1033
+01:17:32,200 --> 01:17:35,488
+itt vagyunk, úgyhogy azt írja, hogy mégsem
+
+1034
+01:17:35,480 --> 01:17:39,312
+bigdecimal [motyog] létrehozni mást 
+
+1035
+01:17:39,310 --> 01:17:43,904
+[vár, gondolkodik]
+
+1036
+01:17:43,904 --> 01:17:45,900
+Itt a...
+
+1037
+01:17:45,900 --> 01:17:48,736
+fastDateFormat teszt az még mindig elhasal
+
+1038
+01:17:48,730 --> 01:17:56,592
+[nézi az eredményt, görget]
+
+1039
+01:17:56,590 --> 01:17:58,944
+Jó, csak az a hiba
+
+1040
+01:17:59,776 --> 01:18:02,512
+Úgy tűnik, megoldottam, de 
+
+1041
+01:18:02,512 --> 01:18:04,510
+[kattint]
+
+1042
+01:18:06,576 --> 01:18:11,440
+Váá, nem tudom, jó megoldás-e ez
+
+1043
+01:18:12,208 --> 01:18:15,296
+Mindenesetre egy kicsit 
+
+1044
+01:18:15,290 --> 01:18:19,216
+ezt behúzom, az legyen akkor
+
+1045
+01:18:19,210 --> 01:18:22,480
+hát akkor...
+
+1046
+01:18:22,480 --> 01:18:26,432
+kisebb egyenlő, és akkor itt
+
+1047
+01:18:26,430 --> 01:18:30,800
+[gondolkodik] legyen kisebb egyenlő mint 16
+
+1048
+01:18:30,800 --> 01:18:35,360
+[nézi a kódot] jó
+
+1049
+01:18:35,360 --> 01:18:37,360
+[gépel]
+
+1050
+01:18:37,360 --> 01:18:41,024
+És akkor elvileg nem printelek semmit
+
+1051
+01:18:41,024 --> 01:18:43,020
+ööö
+
+1052
+01:18:43,632 --> 01:18:47,056
+Jó... maradhat. 
+
+1053
+01:18:47,664 --> 01:18:49,050
+[kattint] hát annyi még 
+
+1054
+01:18:49,050 --> 01:18:51,952
+kikommentezem
+
+1055
+01:18:51,950 --> 01:18:56,944
+az egészet
+
+1056
+01:18:56,940 --> 01:18:59,568
+[helyezkedik]
+
+1057
+01:18:59,568 --> 01:19:02,544
+[kattint]
+
+1058
+01:19:02,540 --> 01:19:09,872
+[helyezkedik, nézi az eredményt]
+
+1059
+01:19:09,870 --> 01:19:12,512
+Végül is ez nem rossz megoldás, mert
+
+1060
+01:19:12,510 --> 01:19:19,920
+indulunk a floattól, a kicsitől, ha belefér akkor jó, ha nem, akkor double-lel.... integer... úgyhogy szerintem
+
+1061
+01:19:19,920 --> 01:19:22,832
+egy jó megoldás, mármint hogy nem
+
+1062
+01:19:22,830 --> 01:19:27,152
+...hiba, nincs lehetősége hibának
+
+1063
+01:19:27,152 --> 01:19:29,150
+ööö
+
+1064
+01:19:29,150 --> 01:19:33,344
+[nézi az eredményt]
+
+1065
+01:19:33,340 --> 01:19:37,184
+és végül is ez a különbség köztük a precision szóval a
+
+1066
+01:19:37,180 --> 01:19:40,576
+a...aaa tizedesjegyekkel tudok játszani
+
+1067
+01:19:40,570 --> 01:19:43,360
+[gondolkodik]
+
+1068
+01:19:43,360 --> 01:19:47,600
+Csak igen, hogy így most ugye a createFloatra megcsinálta
+
+1069
+01:19:48,576 --> 01:19:51,584
+a 8 hosszúnál is, pedig arra nem lehetett volna [iszik]
+
+1070
+01:19:51,580 --> 01:19:56,960
+[nézi az eredményt]
+
+1071
+01:19:59,264 --> 01:20:02,240
+Na, nézzük 
+
+1072
+01:20:02,240 --> 01:20:24,960
+[nézi az eredményt, vár, helyezkedik]
+
+1073
+01:20:24,960 --> 01:20:32,352
+[sóhajt] Igen a createFloat, csak azt nem értem, hogy a floatValueOf az miért nem dob hibát, hogyha
+
+1074
+01:20:32,350 --> 01:20:34,960
+A precision az túl nagy
+
+1075
+01:20:34,960 --> 01:20:49,040
+[hátradőlva nézi az eredményt]
+
+1076
+01:20:49,040 --> 01:20:50,240
+- [int] Gyere
+- Kész? (Gergő)
+
+1077
+01:20:50,240 --> 01:20:53,584
+Ez, igen, most futtatom újra, de már ezt 
+
+1078
+01:20:53,580 --> 01:20:57,280
+csak szépítettem a kódon, nem változtattam, úgyhogy elvileg 
+
+1079
+01:20:57,280 --> 01:20:59,280
+ugyanaz a...
+
+1080
+01:20:59,280 --> 01:21:01,936
+A date-es cucc az továbbra sem fut le
+
+1081
+01:21:01,930 --> 01:21:04,128
+Ja az a ...-es cucc aha (Gergő)
+
+1082
+01:21:04,128 --> 01:21:06,120
+Az ott tényleg, ööö
+
+1083
+01:21:06,120 --> 01:21:08,120
+szerintem az idő miatt van
+
+1084
+01:21:09,000 --> 01:21:13,264
+Nem tudom, hogy ilyen megoldásra számítottatok-e
+
+1085
+01:21:13,264 --> 01:21:15,260
+Ezt nem fogjuk most megbeszélni, jó? (Gergő)
+
+1086
+01:21:15,260 --> 01:21:17,520
+- Ez a diplomatikus válasz (Gergő)
+- [nevet]
+
+1087
+01:21:17,520 --> 01:21:20,320
+- Oké
+- Mert nem szeretném, hogy befolyásolnád a többieket (Gergő)
+
+1088
+01:21:20,320 --> 01:21:22,320
+Jó
+
+1089
+01:21:23,408 --> 01:21:29,792
+[nézi a kódot]
+
+1090
+01:21:29,790 --> 01:21:32,976
+Szerintem szép megoldás, csak
+
+1091
+01:21:32,970 --> 01:21:36,976
+Meg fogjuk nézni mindenképp (Gergő)
+
+1092
+01:21:36,970 --> 01:21:40,496
+[motyog] (Gergő)
+
+1093
+01:21:40,490 --> 01:21:53,200
+[nézi az eredményt]
+
+1094
+01:21:53,200 --> 01:21:57,296
+Most melyik volt az a teszt amit javítani kellet? 
+
+1095
+01:21:57,290 --> 01:22:02,480
+Aaa... testStringCreateNumber ensureNoPrecision loss
+
+1096
+01:22:02,480 --> 01:22:04,480
+És ez lehet az ... az az jó?
+
+1097
+01:22:04,480 --> 01:22:06,480
+Az jó igen
+
+1098
+01:22:06,480 --> 01:22:09,712
+Hát itt, itt kéne lennie, de akkor 
+
+1099
+01:22:09,710 --> 01:22:13,760
+- Csak hogy akkor összefoglalja a összes tesztet (Gergő)
+- Igen itt a failed teszteket kiírja
+
+1100
+01:22:13,760 --> 01:22:18,240
+- Itt hagyom a szemüvegem, és csak itt hunyorgok [nevet] (Gergő)
+- Rákeresek
+
+1101
+01:22:18,240 --> 01:22:22,880
+[gépel] ensureNoPresicision
+
+1102
+01:22:22,880 --> 01:22:25,856
+Akkor backward [keres]
+
+1103
+01:22:25,850 --> 01:22:30,992
+Lehet a kódban elronttottam, ja az e az nem betű
+
+1104
+01:22:31,904 --> 01:22:33,344
+De az nem baj
+
+1105
+01:22:33,340 --> 01:22:35,824
+[kattint] Jó akkor megkeresem
+
+1106
+01:22:35,820 --> 01:22:39,056
+- Jó, mindegy, ha azt mondod... (Gergő)
+- Ja várjál ez volt a függvény neve, itt...
+
+1107
+01:22:39,050 --> 01:22:43,248
+Itt aaa numberUtilsTestre kellett volna rákeresni
+
+1108
+01:22:43,240 --> 01:22:45,616
+[görget]
+
+1109
+01:22:45,610 --> 01:22:50,688
+A... itt lesz, math.NumberUtilsTest
+
+1110
+01:22:50,680 --> 01:22:51,392
+Aha (Gergő)
+
+1111
+01:22:51,390 --> 01:22:55,408
+Ööö, 8 vagy 3, 3
+
+1112
+01:22:55,400 --> 01:22:59,232
+Aha, oké, szuper (Gergő)
+
+1113
+01:22:59,230 --> 01:23:02,848
+Oké, akkor ezt elkérném, .... (Gergő)
+
+1114
+01:23:02,840 --> 01:23:05,824
+... hogy ez is meglegyen (Gergő)
+

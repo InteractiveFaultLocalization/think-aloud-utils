@@ -1,0 +1,1310 @@
+﻿1
+00:00:00,144 --> 00:00:05,000
+Szuper, hang is van, nagyon jó (Feri)
+
+2
+00:00:05,000 --> 00:00:08,496
+Csak a kamerának mondom, hogy én jobbról fogok ülni (Feri)
+
+3
+00:00:08,490 --> 00:00:11,680
+úgyhogy ha idenézel, akkor azt majd (Feri)
+
+4
+00:00:11,680 --> 00:00:14,288
+lássuk, hogy rám nézel (Feri)
+
+5
+00:00:14,280 --> 00:00:17,360
+no, és akkor a mostani sessionnek (Feri)
+
+6
+00:00:17,360 --> 00:00:20,144
+ööö, az lenne a célja (Feri)
+
+7
+00:00:20,140 --> 00:00:22,480
+hogy el fogok (Feri)
+
+8
+00:00:22,480 --> 00:00:26,848
+mondani különböző ilyen hipotetikus eseteket, tehát ilyen kitalált (Feri)
+
+9
+00:00:26,840 --> 00:00:30,704
+szituációkat, ööö (Feri)
+
+10
+00:00:30,700 --> 00:00:33,520
+amikre olyan szempontból kellene (Feri)
+
+11
+00:00:33,520 --> 00:00:36,880
+válaszolni, hogy (Feri)
+
+12
+00:00:37,728 --> 00:00:43,232
+Tehát azt kellene kifejteni, hogy milyen módon befolyásolt volna ez téged ez a (Feri)
+
+13
+00:00:43,600 --> 00:00:46,880
+ez a szituáció, mindjárt amikor eljutunk az esetekhez, akkor (Feri)
+
+14
+00:00:46,880 --> 00:00:49,312
+szerintem meg fogod érteni, hogy miről van szó (Feri)
+
+15
+00:00:50,512 --> 00:00:54,640
+Jó, tehát akkor azt mondja hogy (Feri)
+
+16
+00:00:55,680 --> 00:00:59,648
+Most van 12:30, ezt gyorsan (Feri)
+
+17
+00:00:59,640 --> 00:01:02,576
+fölkörmölöm ide (Feri)
+
+18
+00:01:02,570 --> 00:01:08,416
+[előveszi a jegyzetet, vár]
+
+19
+00:01:08,410 --> 00:01:11,088
+- Jó, és te voltál a 4-es számú versenyző (Feri)
+- Igen
+
+20
+00:01:11,088 --> 00:01:13,080
+Jó, akkor jó helyen vagyok (Feri)
+
+21
+00:01:14,064 --> 00:01:19,632
+Ööö, rendben, összesen 6 esetünk van, ezeket fogom akkor (Feri)
+
+22
+00:01:19,630 --> 00:01:23,616
+ööö, végigmondani, és akkor mindegyikre majd (Feri)
+
+23
+00:01:24,368 --> 00:01:29,168
+mindegyikről majd ki kell fejtened a 
+
+24
+00:01:29,160 --> 00:01:32,112
+az arra vonatkozó gondolataidat (Feri)
+
+25
+00:01:32,110 --> 00:01:35,696
+Jó, akkor az első eset az a (Feri)
+
+26
+00:01:35,690 --> 00:01:39,664
+csak a fölvétel kedvéért mondom, hogy ez a 17.055-ös (Feri)
+
+27
+00:01:40,464 --> 00:01:45,520
+esetünk, ami úgy szól, hogy tegyük fel, hogy a legutóbbi alkalmon (Feri)
+
+28
+00:01:46,496 --> 00:01:50,416
+tehát ez a hétfői feladatmegoldás, mondjuk legyen a (Feri)
+
+29
+00:01:50,410 --> 00:01:53,760
+délelőtti, amikor az a -- -os
+
+30
+00:01:53,760 --> 00:01:58,272
+hiba volt, ööö, tehát ezen a feladat (Feri)
+
+31
+00:01:58,270 --> 00:02:02,160
+vagy, miközben ezt a feladatot oldottad meg (Feri)
+
+32
+00:02:02,160 --> 00:02:04,160
+ööö (Feri)
+
+33
+00:02:04,624 --> 00:02:09,424
+azelőtt egy megbeszélésen hallottad, hogy ez a (Feri)
+
+34
+00:02:09,456 --> 00:02:13,024
+a classDateFormatTestnek ez a barSync (Feri)
+
+35
+00:02:13,020 --> 00:02:17,520
+metódusa, nem tudom, emlékszel-e rá, volt ott egy ilyen (Feri)
+
+36
+00:02:17,520 --> 00:02:19,520
+ominózus metódus (Feri)
+
+37
+00:02:19,520 --> 00:02:23,280
+ezt egy senior, a projektet részletesen is (Feri)
+
+38
+00:02:23,280 --> 00:02:26,560
+ismerő és sok tapasztalattal rendelkező kollega (Feri)
+
+39
+00:02:26,560 --> 00:02:30,032
+ööö, készítette el egyedül (Feri)
+
+40
+00:02:30,320 --> 00:02:33,408
+Az a kérdés, vagy kérésem akkor, hogy (Feri)
+
+41
+00:02:33,400 --> 00:02:36,816
+fejtsd ki azt, hogy ez befolyásolt volna-e téged a (Feri)
+
+42
+00:02:36,810 --> 00:02:39,760
+a... feladatmegoldás folyamatában (Feri)
+
+43
+00:02:39,760 --> 00:02:42,640
+ha igen, akkor hogyan, ha nem, akkor miért? (Feri)
+
+44
+00:02:44,208 --> 00:02:47,888
+Jó? Nyugodtan, minden ami eszedbe jut, ugyanúgy mint ahogy a (Feri)
+
+45
+00:02:47,880 --> 00:02:51,728
+feladatmegoldásnál, hogy minden, ami ezzel kapcsolatban eszedbe jut, az (Feri)
+
+46
+00:02:51,728 --> 00:02:53,720
+jöhet, és kíváncsiak vagyunk rá (Feri)
+
+47
+00:02:53,720 --> 00:02:57,200
+Ühüm, tehát hogy az a lényeg, hogy azt a 
+
+48
+00:02:57,200 --> 00:02:59,776
+ööö, várjunk csak, aaa
+
+49
+00:02:59,770 --> 00:03:04,016
+a tesztet, vagy magát a ... most pontosan nem tudom, hogy a 
+
+50
+00:03:05,088 --> 00:03:09,776
+ööö, tehát hogy a kódot vagy a hozzá tartozó tesztet, vagy mind a kettőt
+
+51
+00:03:09,770 --> 00:03:13,632
+- Tegyük föl, hogy azt a tesztet (Feri)
+- Aha, aha. 
+
+52
+00:03:13,630 --> 00:03:18,304
+- Azt egy tapasztalt... 
+- Aha, aki tapasztalt (Feri)
+
+53
+00:03:18,304 --> 00:03:20,300
+készítette el. (Feri)
+
+54
+00:03:21,648 --> 00:03:24,000
+Hát, ööö [nevet]
+
+55
+00:03:24,448 --> 00:03:27,184
+elbeszélgetnék vele [nevet]
+
+56
+00:03:27,180 --> 00:03:30,992
+Őszintén szólva nem merültem bele, de 
+
+57
+00:03:30,990 --> 00:03:35,184
+volt amikor problémát okozott, ööö
+
+58
+00:03:35,536 --> 00:03:40,480
+és hát valószínűleg ott van valami olyan probléma, ami 
+
+59
+00:03:40,480 --> 00:03:41,776
+ööö 
+
+60
+00:03:42,272 --> 00:03:46,048
+tehát hogy nem mindig volt sikeres a teszt, de volt, amikor sikeres volt 
+
+61
+00:03:46,040 --> 00:03:49,264
+volt amikor nem, tehát azt gondolom, akkor lehet hogy
+
+62
+00:03:49,260 --> 00:03:52,192
+hogy a...a valami időzítés, vagy gondolom ott valami idő
+
+63
+00:03:52,190 --> 00:03:54,864
+tehát asszem ott néztem is, hogy talán 
+
+64
+00:03:54,860 --> 00:03:57,072
+vár valami... ööö 
+
+65
+00:03:58,080 --> 00:04:01,536
+valamennyi ideig, hogy megtörtént a konvertáció vagy 
+
+66
+00:04:01,530 --> 00:04:05,136
+vagy valami ilyesmi, és gondolom, hát akkor ez
+
+67
+00:04:05,130 --> 00:04:07,680
+tehát olyan tesztet írt, ami
+
+68
+00:04:07,680 --> 00:04:11,824
+ami... nem... ööö... mi az
+
+69
+00:04:12,192 --> 00:04:15,328
+tehát nem konzisztensen mindig helyes vagy helytelen, hanem 
+
+70
+00:04:15,320 --> 00:04:18,304
+attól függ, hogy éppen mi fut a háttérben, tehát a 
+
+71
+00:04:18,300 --> 00:04:21,568
+mondjuk a gép terhelésétől függ, és az nem jó
+
+72
+00:04:21,560 --> 00:04:25,248
+tehát igazából most az hogy, hogy 
+
+73
+00:04:25,240 --> 00:04:27,776
+senior csinálta vagy nem senior
+
+74
+00:04:27,770 --> 00:04:30,192
+ilyen szempontból szerintem mindegy
+
+75
+00:04:30,190 --> 00:04:34,416
+ott-ott valami probléma van, és akkor 
+
+76
+00:04:34,410 --> 00:04:38,176
+és akkor a... ha jól értem, vagy jól értem-e, hogy az lenne a (Feri)
+
+77
+00:04:38,176 --> 00:04:40,170
+beszélgetésnek a célja (Feri)
+
+78
+00:04:40,170 --> 00:04:42,352
+hogy, ööö (Feri)
+
+79
+00:04:42,350 --> 00:04:44,944
+elmondanád neki, hogy ezt a problémát vetted észre (Feri)
+
+80
+00:04:44,940 --> 00:04:49,312
+Igen, igen, tehát hogy nem konzisztens a teszt, és akkor hogy azt 
+
+81
+00:04:49,310 --> 00:04:52,224
+review-znia kellene, hogy itt mégis mi
+
+82
+00:04:52,220 --> 00:04:54,368
+mi a probléma, mert szerintem 
+
+83
+00:04:54,360 --> 00:04:57,136
+lehet hogy a gép teljesítménye, vagy, vagy
+
+84
+00:04:57,130 --> 00:05:00,000
+ööö, terhelése befolyásolja a tesztet
+
+85
+00:05:01,168 --> 00:05:04,992
+Jó, bármi egyéb, ami esetleg (Feri)
+
+86
+00:05:04,990 --> 00:05:08,272
+még, vagy amibe esetleg még beleszólhatnak? (Feri)
+
+87
+00:05:08,656 --> 00:05:12,416
+[gondolkodik]
+
+88
+00:05:12,410 --> 00:05:15,216
+Igazából nincs
+
+89
+00:05:15,648 --> 00:05:18,896
+nem tuodm, most arra gondolsz, hogy
+
+90
+00:05:18,890 --> 00:05:21,376
+úristen, ezt most egy senior kollega csinálta, akkor az biztos 
+
+91
+00:05:21,370 --> 00:05:24,208
+úgy jó, ahogy van, és akkor én nem szólok bele
+
+92
+00:05:24,200 --> 00:05:27,264
+ööö, nekem ilyen nincsen [nevet] tehát 
+
+93
+00:05:27,260 --> 00:05:30,432
+engem az nem befolyásol, mondjuk 
+
+94
+00:05:30,430 --> 00:05:32,832
+nyilván, valszeg
+
+95
+00:05:32,830 --> 00:05:36,400
+akkor értett hozzá, de attól függetlenül megnézheti még egyszer.
+
+96
+00:05:36,400 --> 00:05:39,664
+vagy, vagy mint, tehát hogy egy másik 
+
+97
+00:05:39,660 --> 00:05:43,808
+ööö, nézőpont, vagy tapasztalat az segít abban, hogy 
+
+98
+00:05:43,800 --> 00:05:47,312
+hogy, hogy ezt a tesztet úgy tudja megírni, hogy tényleg jó legyen
+
+99
+00:05:47,312 --> 00:05:49,310
+Jó, oké (Feri)
+
+100
+00:05:50,384 --> 00:05:53,712
+Tehát mindenképpen jelezném,
+
+101
+00:05:53,710 --> 00:05:56,592
+hogy tapasztaltam ezt a 
+
+102
+00:05:56,592 --> 00:05:58,590
+problémát, hogy volt hogy 
+
+103
+00:05:58,928 --> 00:06:00,800
+hogy, ööö 
+
+104
+00:06:01,632 --> 00:06:04,224
+nem, hogy sikertelen volt a teszt, volt hogy 
+
+105
+00:06:04,220 --> 00:06:07,408
+hogy jó volt, és hogy ezzel csinálni kéne valamit, met 
+
+106
+00:06:07,400 --> 00:06:10,160
+Jó, oké, értem, rendben van (Feri)
+
+107
+00:06:10,160 --> 00:06:13,600
+Ööö, jó, akkor nézzük a következőt (Feri)
+
+108
+00:06:13,600 --> 00:06:18,368
+Ez a 4.85-ös lesz, ez úgy szól, hogy (Feri)
+
+109
+00:06:18,360 --> 00:06:21,392
+tegyük föl, hogy szintén a legutóbbi (Feri)
+
+110
+00:06:21,392 --> 00:06:23,390
+ööö, alkalom (Feri)
+
+111
+00:06:23,390 --> 00:06:26,112
+során amikor a feladatokat csináltad hétfőn (Feri)
+
+112
+00:06:26,110 --> 00:06:30,416
+legyen ez mondjuk a délutáni session (Feri)
+
+113
+00:06:30,416 --> 00:06:32,410
+aaa (Feri)
+
+114
+00:06:32,410 --> 00:06:37,744
+megoldott feladat közben felhív egy ismerősöd, vagy családtagod, vagy barátod (Feri)
+
+115
+00:06:37,952 --> 00:06:44,272
+akivel már nagyon régen beszéltél, és kíváncsi rá, megkérdezi, hogy mi újság veled (Feri)
+
+116
+00:06:44,800 --> 00:06:48,256
+Ez beleszól, milyen (Feri)
+
+117
+00:06:48,250 --> 00:06:50,928
+szinten befolyásolt volna téged (Feri)
+
+118
+00:06:52,944 --> 00:06:54,976
+a folyamaton belül? (Feri)
+
+119
+00:06:56,096 --> 00:07:00,560
+Hát ööö... mondtam volna neki, hogy éppen dolgozom 
+
+120
+00:07:00,560 --> 00:07:03,680
+de egy pár szóban beszélhetünk 
+
+121
+00:07:04,464 --> 00:07:07,280
+adott esetben, hogyha kérdezte volna 
+
+122
+00:07:07,280 --> 00:07:09,360
+hogy mit csinálok, akkor elmondtam volna neki, hogy most 
+
+123
+00:07:09,360 --> 00:07:11,584
+éppen frusztrálódok egy [nevet]
+
+124
+00:07:11,580 --> 00:07:13,936
+kemény feladat kapcsán 
+
+125
+00:07:13,930 --> 00:07:16,816
+Aha, jó (Feri)
+
+126
+00:07:16,810 --> 00:07:19,296
+- öö, oké (Feri)
+- De, hát 
+
+127
+00:07:19,290 --> 00:07:23,024
+tehát hogy mondjam, most jó nyilván ha az ember telefonál 
+
+128
+00:07:23,020 --> 00:07:26,400
+akkor közben nem tudja a feladatát végezni, tehát ilyen szempontból befolyásolja
+
+129
+00:07:26,400 --> 00:07:28,096
+de most azt hogy akkor 
+
+130
+00:07:28,090 --> 00:07:31,632
+más, más keres akkor olyan szempontból nem 
+
+131
+00:07:31,630 --> 00:07:34,544
+befolyásol 
+
+132
+00:07:34,540 --> 00:07:39,424
+Eszedbe jut-e még esetleg ezzel kapcsolatban valami? (Feri)
+
+133
+00:07:39,420 --> 00:07:44,560
+- Nem.
+- Jó. Akkor a következő (Feri)
+
+134
+00:07:44,560 --> 00:07:49,392
+esetünk a 3., az a 6.2-es (Feri)
+
+135
+00:07:49,390 --> 00:07:53,632
+ez úgy szól, hogy ismét csak föltesszük, (Feri)
+
+136
+00:07:53,630 --> 00:07:56,080
+hogy, ööö 
+
+137
+00:07:56,080 --> 00:07:59,584
+szintén hétfőn, miközben megoldottad ezt a feladatot (Feri)
+
+138
+00:07:59,584 --> 00:08:01,580
+igazából (Feri)
+
+139
+00:08:01,580 --> 00:08:05,952
+tetszőleges, mondjuk legyen mondjuk megint a délutáni (Feri)
+
+140
+00:08:05,950 --> 00:08:09,440
+megoldott feladat során (Feri)
+
+141
+00:08:09,440 --> 00:08:14,288
+amikor a ...-ben lévő hibákat szeretted volna vizsgálni (Feri)
+
+142
+00:08:14,280 --> 00:08:17,584
+akkor a tesztek futtatása (Feri)
+
+143
+00:08:17,580 --> 00:08:19,856
+5 percet vett igénybe (Feri)
+
+144
+00:08:19,850 --> 00:08:25,296
+Ööö, eközben az Eclipse fejlesztői könyezet nem reagál az utasításokra. (Feri)
+
+145
+00:08:26,816 --> 00:08:31,440
+Ez milyen módon befolyásol téged, vagy befolyásolt volna téged? (Feri)
+
+146
+00:08:31,440 --> 00:08:34,416
+[gondolkodik]
+
+147
+00:08:34,410 --> 00:08:38,544
+Hát, annak nem örültem volna [nevet]
+
+148
+00:08:39,328 --> 00:08:40,960
+Tehát hogy miközben fut a 
+
+149
+00:08:40,960 --> 00:08:44,832
+- teszt, közben mondjuk nem tudom nézni...
+- Hát hogy sokáig (Feri)
+
+150
+00:08:44,830 --> 00:08:47,344
+vagy az, hogy sokáig fut? Vagy az hogy 
+
+151
+00:08:47,340 --> 00:08:49,968
+hogy fut, és közben nem tudok mondjuk az Eclipse-ben
+
+152
+00:08:49,960 --> 00:08:52,480
+- kattintgatni, mert teljesen...
+- Mind a kettő (Feri) 
+
+153
+00:08:52,480 --> 00:08:56,464
+tehát hogy sokáig is tart, és addig az Eclipse nem is válaszol (Feri)
+
+154
+00:08:56,460 --> 00:08:59,472
+Aha, aha, hát az nem túl jó 
+
+155
+00:08:59,470 --> 00:09:03,328
+Ööö.. hát ööö
+
+156
+00:09:03,320 --> 00:09:06,304
+Igyekeztem volna, meg hát igazából végül is
+
+157
+00:09:06,300 --> 00:09:08,384
+azt is csináltam, tehát ööö
+
+158
+00:09:08,380 --> 00:09:10,592
+nem mindig mavennel futtattam
+
+159
+00:09:10,590 --> 00:09:14,160
+nem azzal futtattam a tesztet, ami a leírásban volt, hanem
+
+160
+00:09:14,160 --> 00:09:17,200
+ööö, sima Eclipse-s JUnit 
+
+161
+00:09:17,200 --> 00:09:19,888
+runnerrel, mert az sokkal gyorsabban
+
+162
+00:09:19,880 --> 00:09:22,896
+lefuttatta, de közben lehetett
+
+163
+00:09:22,890 --> 00:09:25,664
+kattintgatni, de hogyha, mármint az Eclipse-ben, hogyha
+
+164
+00:09:25,660 --> 00:09:28,848
+még az sem működött volna, hát az úgy
+
+165
+00:09:28,840 --> 00:09:31,008
+azért frusztrált volna erősen, hogy
+
+166
+00:09:31,000 --> 00:09:33,680
+addig ugye nem tudom mást csinálni, úgymond
+
+167
+00:09:33,680 --> 00:09:35,856
+akár kis... gondolkodni egy
+
+168
+00:09:35,856 --> 00:09:37,850
+szebb megoldáson, vagy hogy
+
+169
+00:09:37,850 --> 00:09:40,976
+hogy adott esetben, hogyha mittomén 
+
+170
+00:09:40,970 --> 00:09:45,184
+eszembe jut valami, és akkor akár megnézem, hogy
+
+171
+00:09:45,180 --> 00:09:47,728
+egy javadocot, egy 
+
+172
+00:09:47,720 --> 00:09:50,768
+ööö, az egyik apihoz, és akkor azt nem tudtam volna
+
+173
+00:09:50,768 --> 00:09:52,760
+megcsinálni mondjuk az Eclipse-ben, az, az nem 
+
+174
+00:09:52,760 --> 00:09:54,760
+- tetszett volna...
+- Ühüm (Feri)
+
+175
+00:09:55,344 --> 00:09:59,392
+Értem. Bármi egyéb még esetleg? (Feri)
+
+176
+00:09:59,390 --> 00:10:05,680
+[gondolkodik]
+
+177
+00:10:05,680 --> 00:10:09,344
+Hát ööö, most ilyen új IDE-t nem gondoltam volna
+
+178
+00:10:09,340 --> 00:10:11,616
+letölteni, de [nevet] az adott
+
+179
+00:10:11,610 --> 00:10:14,800
+ööö szituációban, hogyha mondjuk ezzel
+
+180
+00:10:14,800 --> 00:10:17,424
+a munkahelyemen találkozok, vagy otthon, akkor nyilván
+
+181
+00:10:17,420 --> 00:10:18,944
+tettem volna esetleg valami 
+
+182
+00:10:18,940 --> 00:10:21,776
+további intézkedéseket, hogy
+
+183
+00:10:21,770 --> 00:10:24,640
+- hogy ezt elkerüljem. 
+- Aha, tehát itt arra gondolsz, hogy (Feri)
+
+184
+00:10:26,640 --> 00:10:28,160
+- Aha. 
+- Aha. (Feri)
+
+185
+00:10:28,160 --> 00:10:31,792
+- Jó, csak hogy tisztázzuk (Feri)
+- Igen, igen, tehát hogy
+
+186
+00:10:31,790 --> 00:10:34,272
+most azért úgy ebbe nem biztos, hogy beletörődnék, hogy a 
+
+187
+00:10:34,270 --> 00:10:36,784
+akkor mindig 5 percig malmozzak, vagy 
+
+188
+00:10:36,780 --> 00:10:39,488
+vagy akkor addig 
+
+189
+00:10:39,480 --> 00:10:44,432
+Világos, rendben van. Akkor a következő esetünk az egy rövidebb (Feri)
+
+190
+00:10:44,896 --> 00:10:48,688
+elképzelt eset, ez az 5.25-ös (Feri)
+
+191
+00:10:49,008 --> 00:10:51,856
+ez úgy szól, hogy tegyük fel, hogy a (Feri)
+
+192
+00:10:51,850 --> 00:10:54,304
+szintén a legutóbbi alkalmon a megoldott (Feri)
+
+193
+00:10:54,300 --> 00:10:58,000
+feladat során valaki bekopog a terembe, ajtót kell nyitni (Feri)
+
+194
+00:10:58,000 --> 00:11:00,000
+de kiderült, hogy téves (Feri)
+
+195
+00:11:00,970 --> 00:11:04,272
+és nem ide jött, nem téged keres, stb. (Feri)
+
+196
+00:11:05,664 --> 00:11:08,464
+Tegyük fel, hogy be volt csukva az ajtó hétfőn (Feri)
+
+197
+00:11:08,460 --> 00:11:12,096
+[gondolkodik]
+
+198
+00:11:12,090 --> 00:11:14,928
+Tehát hogy mit tettem volna, vagy
+
+199
+00:11:14,920 --> 00:11:19,856
+Hát ööö, befolyásolta volna-e ez a feladatmegoldásodat (Feri)
+
+200
+00:11:20,208 --> 00:11:22,944
+- Hát, biztos hogy...
+- Minden, tényleg minden, ami az eszedbe jut (Feri)
+
+201
+00:11:22,940 --> 00:11:26,368
+Hát nyilván, az kizökkent
+
+202
+00:11:26,360 --> 00:11:29,088
+akármilyen kicsi szinten is, de 
+
+203
+00:11:29,080 --> 00:11:32,800
+egy ilyen megszakítás az csak kizökkenti az embert
+
+204
+00:11:32,800 --> 00:11:35,184
+a gondolatmenetéből, mert ha az alatt az 5 perc alatt
+
+205
+00:11:35,180 --> 00:11:37,232
+történik, amig éppen az Eclipse [mosolyog]
+
+206
+00:11:37,232 --> 00:11:39,230
+futtat, lehet még örültem is volna! 
+
+207
+00:11:39,230 --> 00:11:41,230
+[nevetnek]
+
+208
+00:11:41,230 --> 00:11:43,568
+Ööö
+
+209
+00:11:43,560 --> 00:11:47,280
+- De... (Feri)
+- Hát igen, ez van. 
+
+210
+00:11:47,280 --> 00:11:51,024
+de hát most nem dől össze a világ, ha mondjuk
+
+211
+00:11:51,020 --> 00:11:53,952
+mondjuk ha éppen a klímások jöttek volna, és akkor azt mondják, hogy a 
+
+212
+00:11:53,950 --> 00:11:57,264
+a következő másfél órában 
+
+213
+00:11:57,260 --> 00:12:00,672
+terem.... okoz, lehet hogy a
+
+214
+00:12:00,670 --> 00:12:04,048
+- Aha, jó, az már egy másik eset. (Feri)
+- Igen [nevet]
+
+215
+00:12:04,040 --> 00:12:08,256
+Ööö, jó, akkor (Feri)
+
+216
+00:12:08,256 --> 00:12:10,250
+Rendben (Feri)
+
+217
+00:12:10,250 --> 00:12:15,472
+- Ide esetleg még bármi? (Feri)
+- Nincs. 
+
+218
+00:12:17,360 --> 00:12:20,832
+Jó, rendben van, akkor nézzük a következőt (Feri)
+
+219
+00:12:20,830 --> 00:12:24,832
+Ez a 16.57-es, ez úgy szól, hogy (Feri)
+
+220
+00:12:24,830 --> 00:12:28,864
+tegyük fel, hogy a legutóbbi alkalmon megoldott feladatot (Feri)
+
+221
+00:12:29,664 --> 00:12:32,224
+a munkahelyeden csináltad (Feri)
+
+222
+00:12:32,928 --> 00:12:36,640
+ööö, és ebéd előtt, ez mondjuk legyen a (Feri)
+
+223
+00:12:36,640 --> 00:12:39,136
+hétfőn délutáni eset (Feri)
+
+224
+00:12:39,130 --> 00:12:44,288
+ööö, ebéd előtt elkezdted nézni a numberUtils (Feri)
+
+225
+00:12:44,280 --> 00:12:48,352
+createNumber metódusát (Feri)
+
+226
+00:12:49,728 --> 00:12:54,304
+és az ebédszünetben beszélgettél erről egy (Feri)
+
+227
+00:12:54,300 --> 00:12:56,480
+kollegáddal, aki felajánlotta (Feri)
+
+228
+00:12:56,480 --> 00:12:58,480
+hogy segít megérteni ezt a metódust (Feri)
+
+229
+00:12:58,480 --> 00:13:00,480
+ebédszünet után (Feri)
+
+230
+00:13:00,480 --> 00:13:04,624
+megérteni, hogy mit csinál ez a createNumber - ez hogyan (Feri)
+
+231
+00:13:06,064 --> 00:13:10,336
+befolyásolta volna a megoldásodat? (Feri)
+
+232
+00:13:10,330 --> 00:13:14,352
+- pontosabban nem a megoldást, hanem az egész folyamatot (Feri)
+- Hát ööö...
+
+233
+00:13:14,350 --> 00:13:17,552
+igazából... én szeretek
+
+234
+00:13:17,550 --> 00:13:21,088
+beszélgetni az adott problémákról
+
+235
+00:13:21,088 --> 00:13:23,080
+kollégákkal, még nyilván
+
+236
+00:13:23,080 --> 00:13:25,360
+nem töltétlenül az ilyen triviálisokkal, és
+
+237
+00:13:25,360 --> 00:13:27,968
+többször volt velem is, hogy miközben
+
+238
+00:13:27,960 --> 00:13:30,896
+meséltem neki a problémát, eszembe jutott egy
+
+239
+00:13:30,896 --> 00:13:32,890
+megoldás, tehát ööö
+
+240
+00:13:32,890 --> 00:13:36,144
+ööö, meg, ... tehát 
+
+241
+00:13:36,144 --> 00:13:38,140
+kollégákkal is volt hasonló, hogy nekem
+
+242
+00:13:38,140 --> 00:13:40,140
+mesélték, és közben eszükbe jutott, hogy
+
+243
+00:13:40,140 --> 00:13:42,140
+hogy mit lehetne adott
+
+244
+00:13:42,140 --> 00:13:45,872
+szituációban csinálni, szóval én örülnék neki
+
+245
+00:13:45,872 --> 00:13:47,870
+hogyha... a
+
+246
+00:13:47,870 --> 00:13:51,392
+úgymond kapok segítséget, vagy úgymond meg tudom valakivel ezt osztani
+
+247
+00:13:51,390 --> 00:13:53,728
+és akkor... egy
+
+248
+00:13:53,720 --> 00:13:56,416
+mittomén 10 percben, ööö
+
+249
+00:13:56,864 --> 00:14:00,080
+átfutjuk közösen vagy valami, és akkor hogyha az 
+
+250
+00:14:00,080 --> 00:14:02,288
+az pozitívan befolyásolja, meg ő is 
+
+251
+00:14:02,288 --> 00:14:04,280
+fölajánlotta
+
+252
+00:14:04,280 --> 00:14:06,280
+neki ezt szívesen elfogadom
+
+253
+00:14:06,280 --> 00:14:13,360
+És a... ezt úgy érzem, ez inkább ilyen érzelmi (Feri)
+
+254
+00:14:13,360 --> 00:14:16,064
+dolog, tehát hogy segítséget kapsz (Feri)
+
+255
+00:14:16,060 --> 00:14:19,600
+ööö, magát a megoldásodat 
+
+256
+00:14:19,600 --> 00:14:23,424
+vagy egy bármi egyéb vetületben (Feri)
+
+257
+00:14:23,420 --> 00:14:24,848
+befolyásolt volna ez? (Feri)
+
+258
+00:14:26,304 --> 00:14:30,960
+Hát... attól függ, mit mond, tehát [nevet]
+
+259
+00:14:30,960 --> 00:14:34,416
+[gondolkodik]
+
+260
+00:14:34,410 --> 00:14:38,496
+biztos, biztos, mert... tehát hogyha
+
+261
+00:14:38,490 --> 00:14:41,088
+ha valami történik, az befolyásol, mintha nem történik
+
+262
+00:14:41,080 --> 00:14:43,296
+semmi, tehát valami szintent biztos hogy [nevet]
+
+263
+00:14:43,290 --> 00:14:45,408
+befolyásol, most az, hogy milyen szinten, azt nem
+
+264
+00:14:45,400 --> 00:14:48,800
+tudom, hát... hm
+
+265
+00:14:50,112 --> 00:14:51,504
+Jó, oké (Feri)
+
+266
+00:14:51,500 --> 00:14:56,944
+Akkor ezt kiveséztük, és akkor az utolsó, az a 10.0-ás (Feri)
+
+267
+00:14:56,940 --> 00:14:59,664
+ez is egy rövidebb, ööö (Feri)
+
+268
+00:14:59,660 --> 00:15:02,896
+itt azt képzeljük el, vagy tegyük fel, hogy a (Feri)
+
+269
+00:15:02,896 --> 00:15:04,890
+mondjuk hétfő délutáni (Feri)
+
+270
+00:15:05,184 --> 00:15:08,976
+ööö, session megint csak, a feladat megoldása során (Feri)
+
+271
+00:15:08,970 --> 00:15:12,560
+a.. kint esett az eső, ez befolyásolt (Feri)
+
+272
+00:15:12,560 --> 00:15:15,936
+volna-e téged, vagy milyen formában? (Feri)
+
+273
+00:15:15,930 --> 00:15:18,448
+[gondolkodik]
+
+274
+00:15:18,440 --> 00:15:21,984
+Hogyan csapódott volna ez le... rajtad (Feri)
+
+275
+00:15:22,976 --> 00:15:28,080
+Hát, ... ez nem befolyásolt volna, tehát 
+
+276
+00:15:28,080 --> 00:15:31,792
+[gondolkodik, nevet]
+
+277
+00:15:31,790 --> 00:15:37,984
+Hm... [gondolkodik]
+
+278
+00:15:37,980 --> 00:15:40,320
+Az... ha mondjuk
+
+279
+00:15:40,320 --> 00:15:43,408
+30 fok lett volna, az lehet hogy inkább
+
+280
+00:15:43,400 --> 00:15:49,024
+[gondolkodik]
+
+281
+00:15:49,020 --> 00:15:51,024
+Jó, rendben, oké (Feri)
+
+282
+00:15:51,020 --> 00:15:54,560
+Ööö, mondjuk olyan szempontból, hogy
+
+283
+00:15:54,560 --> 00:15:56,896
+ha végeztünk, akkor
+
+284
+00:15:56,896 --> 00:15:58,890
+nem tudom, el kell menjek, akkor
+
+285
+00:15:58,890 --> 00:16:03,056
+hoztam esernyőt vagy nem, elázok vagy nem, tehát ilyen szempontból nyilván
+
+286
+00:16:03,056 --> 00:16:05,050
+átfut az ember fején
+
+287
+00:16:05,050 --> 00:16:07,632
+tehát végül is, végül is mondhatjuk, hogy
+
+288
+00:16:07,630 --> 00:16:10,688
+befolyásolt volna, de nyilván az 
+
+289
+00:16:10,680 --> 00:16:14,144
+megint csak nem a...a
+
+290
+00:16:14,144 --> 00:16:16,140
+föltétlenül a megoldásban
+
+291
+00:16:16,140 --> 00:16:18,624
+bár mondjuk adott esetbe lehet, hogy abban is
+
+292
+00:16:18,620 --> 00:16:22,016
+Ühüm, ez milyen eset lehet? (Feri)
+
+293
+00:16:22,010 --> 00:16:25,760
+Hát jó, hát nem az, csak érted, tehát ööö
+
+294
+00:16:25,760 --> 00:16:27,760
+most hogyha valami
+
+295
+00:16:28,192 --> 00:16:30,640
+eltereli a gondolataidat, az nyilván 
+
+296
+00:16:30,640 --> 00:16:32,640
+befolyásol, és akkor
+
+297
+00:16:32,640 --> 00:16:36,464
+Így már értem. (Feri)
+
+298
+00:16:37,552 --> 00:16:39,824
+Mint lehet hogy, tehát igen hogyha
+
+299
+00:16:39,820 --> 00:16:42,064
+összehasonlítjuk a bekopogással
+
+300
+00:16:42,064 --> 00:16:44,060
+lehet hogy annál végül is jobban befolyásolt
+
+301
+00:16:44,060 --> 00:16:46,060
+adott esetben, bár mondjuk
+
+302
+00:16:46,060 --> 00:16:50,304
+az megint csak... hát más irányba terelte volna a gondolataimat
+
+303
+00:16:50,300 --> 00:16:53,904
+- Aha. (Feri)
+- Vagy egy szálat [nevet]
+
+304
+00:16:53,900 --> 00:16:56,528
+Jó, tehát akkor igazából úgy (Feri)
+
+305
+00:16:56,520 --> 00:17:00,896
+foglaljuk össze, vagy foglalhatjuk össze a két esetet, hogy (Feri)
+
+306
+00:17:00,890 --> 00:17:03,760
+ez is, meg a bekopogós is abban (Feri)
+
+307
+00:17:03,760 --> 00:17:06,256
+vagy abba szól bele, hogy eltereli a gondolataidat (Feri)
+
+308
+00:17:06,250 --> 00:17:09,456
+Igen, igen, tehát az nyilván valamilyen szinten
+
+309
+00:17:10,688 --> 00:17:13,488
+Most nyilván most ez nem azt jelenti, hogy hallom hogy esik
+
+310
+00:17:13,488 --> 00:17:15,480
+az eső, és akkor egész délután azon gondolkozom
+
+311
+00:17:15,480 --> 00:17:18,080
+- hogy elázok vagy sem, ahelyett hogy [nevet]
+- Igen, értem-értem (Feri)
+
+312
+00:17:18,080 --> 00:17:21,584
+De... egy villanat, egy-egy...
+
+313
+00:17:21,580 --> 00:17:24,352
+egy villanás erejéig biztos. 
+
+314
+00:17:24,350 --> 00:17:28,384
+Jó, rendben van, akkor végigértünk ezen a 6 eseten (Feri)
+
+315
+00:17:28,380 --> 00:17:32,064
+annyit kérdeznék még, hogy esetleg a korábbiakhoz (Feri)
+
+316
+00:17:32,064 --> 00:17:34,060
+eszedbe jutott-e valamit, amit... (Feri)
+
+317
+00:17:34,060 --> 00:17:36,060
+Hm, nem, hát szerintem
+
+318
+00:17:36,060 --> 00:17:38,688
+közben elmondtam a lényeget, ami esetleg
+
+319
+00:17:38,680 --> 00:17:42,576
+Rendben van. Akkor igazából készen is vagyunk (Feri)
+
+320
+00:17:42,570 --> 00:17:45,152
+Gyorsan felírom, hogy (Feri)
+
+321
+00:17:45,150 --> 00:17:48,480
+hogy 47 van (Feri)
+
+322
+00:17:48,480 --> 00:17:52,016
+12:47, és akkor (Feri)
+
+323
+00:17:52,010 --> 00:17:55,824
+le is állítom a felvételt. (Feri)
+

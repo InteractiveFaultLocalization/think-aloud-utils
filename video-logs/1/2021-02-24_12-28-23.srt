@@ -1,0 +1,847 @@
+﻿1
+00:00:02,640 --> 00:00:07,220
+[helyezkedik]
+
+2
+00:00:07,220 --> 00:00:09,220
+Jó (Gergő)
+
+3
+00:00:09,220 --> 00:00:13,420
+csak a kamerának mondom, hogy erről az oldalról vagyok én (Gergő)
+
+4
+00:00:13,420 --> 00:00:17,720
+Azért, mert itt fogok ülni, és hogy tudják, hogy ... (Gergő)
+
+5
+00:00:17,720 --> 00:00:21,340
+[beszélnek]
+
+6
+00:00:21,340 --> 00:00:25,400
+- Ja nem kell? 
+- Most egyelőre nem, majd egy bizonyos rész után (Gergő)
+
+7
+00:00:25,400 --> 00:00:28,880
+Ööö, jó, no, ebben a részben (Gergő)
+
+8
+00:00:28,880 --> 00:00:34,060
+Ööö, a korábbi megoldott feladatokkal kapcsolatban (Gergő)
+
+9
+00:00:34,060 --> 00:00:37,400
+hipotetikus esetekről fogunk beszélni (Gergő)
+
+10
+00:00:37,400 --> 00:00:41,700
+kisebb módosításokat, változtatásokat fogok elmondani, ez a tegyük fel, hogy (Gergő)
+
+11
+00:00:41,700 --> 00:00:45,420
+címszóval, erről kéne elmondanod, hogy (Gergő)
+
+12
+00:00:45,420 --> 00:00:48,540
+mit gondolsz, hogyan változtatná meg ez a munkádat (Gergő)
+
+13
+00:00:48,540 --> 00:00:51,820
+mit befolyásolna, stb., stb., igazából bármi, ami ezzel kapcsolatban (Gergő)
+
+14
+00:00:51,820 --> 00:00:57,320
+Most a task G meg task B, vagy az összeadás is
+
+15
+00:00:57,320 --> 00:01:00,280
+Nem, nem, csak a programozói része lesz (Gergő)
+
+16
+00:01:00,280 --> 00:01:03,420
+Így jó, hogy végig oldalt ülök, vagy a kamerába nézzek?
+
+17
+00:01:03,420 --> 00:01:05,420
+Ööö, mindegy, nézhetsz nyugodtan rám (Gergő)
+
+18
+00:01:05,420 --> 00:01:09,940
+én kiabálni fogok, azért hogy jobban halljanak, meg megszoktam (Gergő)
+
+19
+00:01:09,940 --> 00:01:14,780
+de, az a lényeg, hogy érthető legyen, amit mondasz, azért rögzítjük (Gergő)
+
+20
+00:01:14,780 --> 00:01:18,160
+Ööö, jó, alapvetően a programozós részekről lesznek (Gergő)
+
+21
+00:01:20,240 --> 00:01:23,020
+mindegyikre lehetőséged lesz reagálni, meg nyilván ha valami (Gergő)
+
+22
+00:01:23,020 --> 00:01:27,520
+kérdésed van, vagy valami nem világos, akkor nyilván szóljál, akkor azt megbeszéljük, jó? (Gergő)
+
+23
+00:01:27,520 --> 00:01:32,040
+Úgyhogy alapvetően ez lesz ez a mostani rész (Gergő)
+
+24
+00:01:32,040 --> 00:01:34,860
+Jó, akkor az első hipotetikus eset (Gergő)
+
+25
+00:01:34,860 --> 00:01:38,480
+az 5.25-ös, ez megint azonosító, tehát ez téged nem érint (Gergő)
+
+26
+00:01:39,040 --> 00:01:43,300
+Ööö, tegyük fel, hogy a legutóbbi alkalommal, amikor megoldottál egy feladatot (Gergő)
+
+27
+00:01:43,300 --> 00:01:46,220
+a... ugye hétfő délután, ami volt a legutóbbi (Gergő)
+
+28
+00:01:46,220 --> 00:01:49,620
+akkor valaki bekopogott közben a terembe, föl kellett kelned és ki kellett nyitnod (Gergő)
+
+29
+00:01:49,620 --> 00:01:53,060
+az ajtót, de téves volt (Gergő)
+
+30
+00:01:53,060 --> 00:01:58,420
+tehát hogy nem téged kerestek, csak véletlen pont ide valamiért bejött, eltévesztette az emeletet (Gergő)
+
+31
+00:01:58,420 --> 00:02:01,880
+Hogyan befolyásolja ez a munkád? (Gergő)
+
+32
+00:02:01,880 --> 00:02:06,520
+- a feladatmegoldásban. (Gergő)
+- Hát, pillanatnyilag
+
+33
+00:02:06,520 --> 00:02:11,640
+nyilván zavar, de utána, miután visszaültem egy
+
+34
+00:02:11,640 --> 00:02:16,140
+egy perc alatt vissza, vagy fölveszem újra a fonalat
+
+35
+00:02:16,140 --> 00:02:19,560
+tehát nyilván kizökkent a gondolatmenetből, de
+
+36
+00:02:19,560 --> 00:02:22,080
+de szerintem utána viszonylag gyorsan vissza tudok
+
+37
+00:02:22,080 --> 00:02:26,540
+Az, hogy hogyan zavarja meg, vagy miben zavarja meg pontosan (Gergő)
+
+38
+00:02:26,540 --> 00:02:29,580
+ki tudnád fejteni kicsit részletesebben? (Gergő)
+
+39
+00:02:29,580 --> 00:02:35,200
+Hát, gondolkodom, hogy merre jár a program, hogy ööö
+
+40
+00:02:35,200 --> 00:02:37,900
+Fut éppen a program, és akkor
+
+41
+00:02:37,900 --> 00:02:39,900
+hova megy be, honnan hova megy
+
+42
+00:02:39,900 --> 00:02:44,640
+milyen függvényhívás utána melyik kódrészletbe ugrik, és
+
+43
+00:02:44,640 --> 00:02:48,080
+és utána ezt a fonalat kell újra felvennem, hogy
+
+44
+00:02:48,080 --> 00:02:50,080
+hogy akkor most itt jártam,
+
+45
+00:02:50,080 --> 00:02:54,160
+... és akkor merre megyek tovább
+
+46
+00:02:54,160 --> 00:02:58,180
+de ez egy fél perc-perc alatt újra megvan
+
+47
+00:02:59,980 --> 00:03:03,120
+Jó, bármi más ami eszedbe jut ehhez az esethez? (Gergő)
+
+48
+00:03:04,080 --> 00:03:05,920
+Akármi? (Gergő)
+
+49
+00:03:06,860 --> 00:03:12,160
+Hm, nem, viszonylag sűrűn vagyok a munkám közben megzavarva
+
+50
+00:03:12,160 --> 00:03:14,500
+hívások, üzenetek,
+
+51
+00:03:14,500 --> 00:03:17,100
+szerintem ez is hasonló
+
+52
+00:03:17,100 --> 00:03:19,760
+mindegy, hogy milyen megzavarás, utána...utána
+
+53
+00:03:21,320 --> 00:03:24,840
+fél percig gondolkodom, hogy hol jártam éppen, és
+
+54
+00:03:24,840 --> 00:03:29,720
+- ugyanott folytatom, ahol abbagytam - szerintem nincs más. 
+- Oké, jó. (Gergő)
+
+55
+00:03:29,720 --> 00:03:31,720
+Áttérnénk a következő esetre (Gergő)
+
+56
+00:03:31,720 --> 00:03:33,720
+ez a 8.55-ös eset (Gergő)
+
+57
+00:03:34,440 --> 00:03:36,640
+Tegyük fel, hogy amikor legutóbb megoldottad a (Gergő)
+
+58
+00:03:36,640 --> 00:03:39,940
+feladatot, akkor kint sütött a nap, és nem volt felhő az égen. (Gergő)
+
+59
+00:03:39,940 --> 00:03:43,520
+[gondolkodik]
+
+60
+00:03:43,520 --> 00:03:47,940
+- Ööö, hogyan befolyásol....
+- Igen, mit változtatott volna (Gergő)
+
+61
+00:03:49,020 --> 00:03:52,820
+Ööö, hát szerintem alapból szép idő volt [nevet] úgy, hogy ki sem mentem
+
+62
+00:03:52,820 --> 00:03:54,820
+ööö napsütés az
+
+63
+00:03:54,820 --> 00:03:56,820
+az a monitort sokszor
+
+64
+00:03:56,820 --> 00:03:58,820
+zavarja, nem látom ugye
+
+65
+00:03:58,820 --> 00:04:01,720
+a képernyőt, ööö
+
+66
+00:04:02,380 --> 00:04:05,160
+Tehát az zavaró, ööö
+
+67
+00:04:05,160 --> 00:04:07,800
+azon kívül még maximum olyan érzés keletkezett
+
+68
+00:04:07,800 --> 00:04:12,820
+hogy de jó lenne kimenni a szabadna, és a nem a gép előtt ülni, de
+
+69
+00:04:12,820 --> 00:04:17,080
+de szerintem a teljesítményet nem befolyásolta volna, vagy nem tudom
+
+70
+00:04:17,080 --> 00:04:21,600
+csak... csak esetleg ez a demotiváltság, hogy kint is
+
+71
+00:04:21,600 --> 00:04:23,600
+lehetnék a szabadban, de bent vagyok
+
+72
+00:04:23,600 --> 00:04:27,900
+de ez főleg szerintem délután szignifikáns, hogy
+
+73
+00:04:27,900 --> 00:04:30,500
+eddig rossz idő volt, és most, amikor idő van
+
+74
+00:04:30,500 --> 00:04:35,420
+- akkor... 
+- Oké, szuper, akkor nézzük a hangot, biztos jó-e (Gergő)
+
+75
+00:04:35,420 --> 00:04:40,800
+véletlen valami probléma van... szuper, na jó (Gergő)
+
+76
+00:04:40,800 --> 00:04:43,720
+Jártunk már úgy, hogy nem vette föl (Gergő)
+
+77
+00:04:43,720 --> 00:04:45,720
+Ööö, jó (Gergő)
+
+78
+00:04:45,720 --> 00:04:48,520
+Van még bármi, ami ehhez az esethez kapcsolódik? (Gergő)
+
+79
+00:04:48,520 --> 00:04:52,340
+Nem. A... csak ez a kettő.
+
+80
+00:04:52,340 --> 00:04:54,340
+Jó, oké (Gergő)
+
+81
+00:04:54,340 --> 00:04:56,740
+A következő esetre akkor rátérnénk (Gergő)
+
+82
+00:04:56,740 --> 00:04:59,860
+ez a 16.57-es eset (Gergő)
+
+83
+00:04:59,860 --> 00:05:02,820
+Tegyük fel, hogy a hétfő délelőtti alkalman (Gergő)
+
+84
+00:05:02,820 --> 00:05:05,880
+megoldottad a feladatot, ez a dupla mínuszos (Gergő)
+
+85
+00:05:05,880 --> 00:05:09,820
+történet volt, amikor rosszul parsolta föl a dupla mínusz miatt a (Gergő)
+
+86
+00:05:09,820 --> 00:05:11,820
+stringet, ezt a munkahelyeden oldottad (Gergő)
+
+87
+00:05:11,820 --> 00:05:13,820
+meg, legyen az bárhol (Gergő)
+
+88
+00:05:13,820 --> 00:05:16,780
+Ööö, ebéd előtt elkezdted nézni ezt a (Gergő)
+
+89
+00:05:16,780 --> 00:05:21,460
+fastTradeFormatTest.testParsing bukó tesztesetet (Gergő)
+
+90
+00:05:21,460 --> 00:05:23,900
+mit, csinál, hogy van vele, mi van (Gergő)
+
+91
+00:05:23,900 --> 00:05:28,280
+ööö, és aztán elmentél ebédelni, és ebéd közben beszélgettél kollegával (Gergő)
+
+92
+00:05:28,280 --> 00:05:30,280
+aki felajánlotta neked, hogy segít megérteni (Gergő)
+
+93
+00:05:30,280 --> 00:05:33,100
+hogy ez pontosan mit csinál ez a metódus (Gergő)
+
+94
+00:05:34,020 --> 00:05:35,740
+Ez az eset (Gergő)
+
+95
+00:05:35,740 --> 00:05:42,620
+[gondolkodik]
+
+96
+00:05:42,620 --> 00:05:45,180
+Elfogadtam volna a segítséget
+
+97
+00:05:45,180 --> 00:05:47,860
+ööö, mindenképpen, mert
+
+98
+00:05:49,380 --> 00:05:52,660
+munkám közben azt tapasztalaom, hogy mindig van valaki
+
+99
+00:05:52,660 --> 00:05:56,380
+aki valamiből jobb mint én, és hogyha ha tud segíteni
+
+100
+00:05:56,380 --> 00:06:00,180
+akkor, akkor közösen megoldást találunk, úgyhogy
+
+101
+00:06:01,220 --> 00:06:03,860
+úgyhogy igen, ebéd után átnéztem volna vele
+
+102
+00:06:03,860 --> 00:06:07,320
+azt a bukó tesztesetet, miután még javítottam
+
+103
+00:06:07,320 --> 00:06:11,820
+És mi a feltételezésed, hogy ez hogy van hatással a további munkádra? (Gergő)
+
+104
+00:06:15,600 --> 00:06:17,520
+hogy közösen átnéztétek (Gergő)
+
+105
+00:06:19,120 --> 00:06:22,120
+Hát valószínűleg rájöttünk volna, hogy mi a hiba
+
+106
+00:06:22,120 --> 00:06:26,520
+gondolom az volt, hogy 20 másodperc lejárt, mert lassú volt a virtuális gép és
+
+107
+00:06:27,780 --> 00:06:32,040
+hogyha megtaláltuk a hibát, akkor ott szerteágazik, szóval, vagy
+
+108
+00:06:32,040 --> 00:06:36,432
+növeltük volna az időt, vagy gyorsabb gépen futtatjuk
+
+109
+00:06:36,430 --> 00:06:41,696
+Ööö, de addig ... amíg meg nem találjuk
+
+110
+00:06:41,690 --> 00:06:45,136
+- Oké (Gergő)
+- ... teszteset is 
+
+111
+00:06:45,130 --> 00:06:48,736
+Oké, emlékszel-e erre a tesztre, hogy melyikről van szó? (Gergő)
+
+112
+00:06:48,736 --> 00:06:50,730
+- Igen.
+- Oké (Gergő)
+
+113
+00:06:50,730 --> 00:06:55,632
+Ööö, jó, van még bármi, ami ehhez az esethez kapcsolódóan az eszedbe jut? (Gergő)
+
+114
+00:06:55,632 --> 00:06:57,630
+Nincs
+
+115
+00:06:59,568 --> 00:07:04,144
+Oké, következő, akkor áttérünk a következő hipotetikus esetre (Gergő)
+
+116
+00:07:04,144 --> 00:07:06,140
+ez a 10.0-ás (Gergő)
+
+117
+00:07:06,140 --> 00:07:09,024
+hipotetikus eset: tegyük fel, hogy a legutóbbi (Gergő)
+
+118
+00:07:09,020 --> 00:07:12,272
+alkalmon, amikor megoldottad a feladatot, akkor kint esett az eső (Gergő)
+
+119
+00:07:12,270 --> 00:07:21,456
+[gondolkodik]
+
+120
+00:07:21,450 --> 00:07:25,648
+Észre se vettem volna valószínűleg
+
+121
+00:07:25,920 --> 00:07:28,768
+... hogy eltelik egy nap, és [nevet]
+
+122
+00:07:28,760 --> 00:07:31,488
+el akarok menni sétálni, és esik az eső, aztán
+
+123
+00:07:31,480 --> 00:07:35,280
+panaszkodok a lakótársaknak, hogy esik az eső, és mondja, hogy egész nap esett [nevet]
+
+124
+00:07:35,280 --> 00:07:36,640
+tehát ööö
+
+125
+00:07:38,176 --> 00:07:41,120
+Nem, nem változtat [motyog]
+
+126
+00:07:41,856 --> 00:07:43,872
+Jó, bármi más komment ehhez? (Gergő)
+
+127
+00:07:43,870 --> 00:07:46,384
+Hát hogyha észreveszem, akkor az esőt 
+
+128
+00:07:47,600 --> 00:07:51,024
+az egy nyomott hangulatot 
+
+129
+00:07:51,776 --> 00:07:56,192
+kelt, tehát nem tudom, nem befolyásolta volna a munkámat, de 
+
+130
+00:07:56,190 --> 00:08:01,264
+a... az életkedvem nem lett volna maximális
+
+131
+00:08:01,264 --> 00:08:03,260
+Jó (Gergő)
+
+132
+00:08:03,584 --> 00:08:08,944
+Oké, akkor áttérünk a következőre, ez a 17.45-ös eset
+
+133
+00:08:09,248 --> 00:08:11,888
+Tegyük fel, hogy a hétfő délután a (Gergő)
+
+134
+00:08:11,888 --> 00:08:13,880
+mikor megoldottad a feladatot, ez a (Gergő)
+
+135
+00:08:13,880 --> 00:08:17,936
+double rosszul lett parse-olva a stringből, ha emlékszel rá (Gergő)
+
+136
+00:08:18,064 --> 00:08:20,464
+ööö, ezelőtt egy megbeszélésen hallottad (Gergő)
+
+137
+00:08:20,460 --> 00:08:22,672
+hogy a numbers... numberUtilsnek (Gergő)
+
+138
+00:08:22,736 --> 00:08:24,460
+a create number metódusa (Gergő)
+
+139
+00:08:24,864 --> 00:08:27,152
+ööö, azt egy fiatal kezdő kevés tapasztalattal (Gergő)
+
+140
+00:08:27,150 --> 00:08:30,192
+bíró kollega csinálta, és egyes egyedül írta. (Gergő)
+
+141
+00:08:30,190 --> 00:08:34,848
+[gondolkodik]
+
+142
+00:08:34,840 --> 00:08:35,872
+Öhm
+
+143
+00:08:37,504 --> 00:08:41,360
+Láttam benne olyan dolgot, amit én máshogy csináltam 
+
+144
+00:08:41,360 --> 00:08:44,240
+nem tudom miért, úgy éreztem, hogy túl van bonyolítva, úgyhogy
+
+145
+00:08:44,528 --> 00:08:49,072
+ha ezt mondják, miután én is ránézek, utána azt éreztem volna, hogy igen [nevet]
+
+146
+00:08:49,070 --> 00:08:52,064
+hogy ezt tényleg egy fiatal kolléga csinálta
+
+147
+00:08:52,060 --> 00:08:53,120
+Ööö, 
+
+148
+00:08:54,352 --> 00:08:56,000
+meg akkor 
+
+149
+00:08:56,704 --> 00:08:59,712
+akkor talán kritikusabban nézem minden sorát 
+
+150
+00:09:00,432 --> 00:09:03,856
+így egy hibát kerestem benne, úgy meg
+
+151
+00:09:03,850 --> 00:09:07,936
+úgy meg minden hibát, minden hibalehetőséget kerestem volna
+
+152
+00:09:07,936 --> 00:09:09,930
+Ühüm, gyanítottam, hogy itt 
+
+153
+00:09:09,930 --> 00:09:12,208
+itt valami egy elírás lehet 
+
+154
+00:09:13,728 --> 00:09:17,424
+egy feltétel hiányzik, vagy egy feltétel van rosszul megadva, mert 
+
+155
+00:09:17,420 --> 00:09:21,360
+mert gondolom, hogy ezt nem kezdő fejlesztők csinálták
+
+156
+00:09:21,360 --> 00:09:23,360
+úgyhogy valószínűleg kritikusabban
+
+157
+00:09:23,360 --> 00:09:25,360
+olvastam volna akkor a kódot
+
+158
+00:09:25,360 --> 00:09:28,912
+de a megoldásom valami hasonló lett volna 
+
+159
+00:09:29,632 --> 00:09:33,056
+Oké, bármi más, ami ezzel kapcsolatban az eszedbe jut? (Gergő)
+
+160
+00:09:33,050 --> 00:09:38,432
+[gondolkodik]
+
+161
+00:09:38,688 --> 00:09:39,664
+Nincs.
+
+162
+00:09:41,264 --> 00:09:43,312
+Áttérnénk a következőre (Gergő)
+
+163
+00:09:43,310 --> 00:09:45,648
+ez a 9.1-es (Gergő)
+
+164
+00:09:45,648 --> 00:09:47,640
+hipotetikus eset (Gergő)
+
+165
+00:09:47,640 --> 00:09:49,640
+Ööö, tegyük fel, hogy (Gergő)
+
+166
+00:09:49,640 --> 00:09:51,640
+a legutóbbi alkalommal, amikor meg kell oldani (Gergő)
+
+167
+00:09:51,640 --> 00:09:53,640
+a feladatot, akkor egy egyszínű, fehér (Gergő)
+
+168
+00:09:53,640 --> 00:09:55,952
+festett teremben kellett megoldanod azt a feladatot. (Gergő)
+
+169
+00:09:55,950 --> 00:10:01,376
+[gondolkodik]
+
+170
+00:10:01,370 --> 00:10:08,672
+Ööö...én azt munka közben szeretem, hogyha rend van az asztalomon, de mást nem 
+
+171
+00:10:08,670 --> 00:10:11,216
+nem... még a monitorok száma 
+
+172
+00:10:11,210 --> 00:10:15,184
+ami, ami fontos ugye munkavégzés szempontjából, de hogy 
+
+173
+00:10:15,536 --> 00:10:18,352
+meg annak a mérete, de, de hogy 
+
+174
+00:10:18,350 --> 00:10:21,104
+hogy mi van körülöttem, azzal nem
+
+175
+00:10:21,888 --> 00:10:24,736
+nem hiszem, hogy foglalkozom
+
+176
+00:10:24,730 --> 00:10:27,104
+El tudom képzelni, hogy
+
+177
+00:10:27,104 --> 00:10:29,100
+kevesebb impulzus
+
+178
+00:10:29,100 --> 00:10:31,792
+van egy fehér, üres szobában
+
+179
+00:10:31,790 --> 00:10:34,400
+jobban tudnék fókuszálni, de 
+
+180
+00:10:35,120 --> 00:10:38,032
+de nem zavar a körülöttem levő, nem tudom
+
+181
+00:10:38,030 --> 00:10:40,320
+fények, színek, gépek
+
+182
+00:10:40,672 --> 00:10:43,120
+Nem, nem, sosem oldottam meg én
+
+183
+00:10:43,776 --> 00:10:46,768
+fehér szobában feladatot, de elméleti
+
+184
+00:10:46,760 --> 00:10:49,744
+szinten úgy gondolom, hogy segíthet
+
+185
+00:10:50,768 --> 00:10:54,752
+de nem, nem zavar, ha nincsen ....
+
+186
+00:10:55,456 --> 00:10:58,064
+Oké, bármi más, ami ezzel kapcsolatban az eszedbe jut? (Gergő)
+
+187
+00:11:00,800 --> 00:11:02,368
+Nincs
+
+188
+00:11:02,360 --> 00:11:05,536
+Bármilyen, ami a korábbi esetekkel, vagy a (Gergő)
+
+189
+00:11:05,530 --> 00:11:08,896
+vagy ezzel az egész szekcióval valami kérdés, egyéb (Gergő)
+
+190
+00:11:09,136 --> 00:11:11,504
+hozzászólás felmerült benned? (Gergő)
+
+191
+00:11:13,296 --> 00:11:16,448
+Mindenki ugyanezeket a kérdéseket kapja, vagy ez már személyre szabott? 
+
+192
+00:11:16,448 --> 00:11:18,440
+Erre nem fogok válaszolni. (Gergő)
+
+193
+00:11:18,784 --> 00:11:21,088
+- Akkor nincs kérdésem [nevet]
+- Majd ezt amikor a (Gergő)
+
+194
+00:11:21,080 --> 00:11:24,064
+a végén lesz egy bemutató az eredményekről, akkor az összes ilyen jellegű (Gergő)
+
+195
+00:11:24,060 --> 00:11:26,544
+kérdésről nagyon szívesen beszélgetünk veletek, de (Gergő)
+
+196
+00:11:26,540 --> 00:11:29,456
+most ezt nem ... (Gergő) [motyognak]
+
+197
+00:11:29,450 --> 00:11:32,208
+Jó, hát köszönöm szépen akkor a (Gergő)
+
+198
+00:11:32,200 --> 00:11:33,808
+a válaszokat, ööö (Gergő)
+
+199
+00:11:33,800 --> 00:11:36,000
+most lesz egy pici szünet, ööö (Gergő)
+
+200
+00:11:36,000 --> 00:11:40,128
+le lehet menni nyugodtan, nem tudom a többiek hol állnak, hogy mindenki befejezze (Gergő)
+
+201
+00:11:40,120 --> 00:11:43,536
+le lehet menni, továbbra is van innivalós, süti (Gergő)
+
+202
+00:11:43,530 --> 00:11:46,880
+fogyassztok kávét, ami jólesik (Gergő)
+
+203
+00:11:46,880 --> 00:11:49,872
+ööö, és akkor majd jelentkezünk, hamarosan folytatjuk tovább (Gergő)
+
+204
+00:11:49,870 --> 00:11:54,368
+- a következő résszel, jó? És előkészülök, meg megvárjuk a többieket is (Gergő)
+- Oké. 
+
+205
+00:11:54,368 --> 00:11:56,360
+[felkel]
+
+206
+00:11:56,360 --> 00:11:58,848
+- Itt leszek, ja most 
+- Nem, most (Gergő)
+
+207
+00:11:58,840 --> 00:12:02,608
+közös lesz, de nem hiszem, hogy bárki hozzányúl a cuccodhoz, tehát (Gergő)
+
+208
+00:12:02,600 --> 00:12:04,896
+ahogy érzed (Gergő)
+
+209
+00:12:04,890 --> 00:12:13,824
+- Közösnél kell toll? 
+- Nem, nem, ott csak figyelni kell. (Gergő)
+
