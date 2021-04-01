@@ -1,0 +1,1914 @@
+﻿1
+00:00:00,000 --> 00:00:06,784
+Gergő: Jó, ezt vissza is adom
+
+2
+00:00:07,970 --> 00:00:11,856
+Gergő: Jó
+
+3
+00:00:16,650 --> 00:00:26,680
+Gergő: Itt van két papírlap, az egyiken ugyanúgy egy feladat van mint legutóbb, ő le van írva, hogy körülbelül mi a hibajelenség amivel dolgoznod kell, a feladat, hogy kijavítsd ezt a hibát
+
+4
+00:00:26,680 --> 00:00:35,140
+Gergő: Megint akkor van kész, amikor ő, minden teszt eseted átmegy, tehát nincs bukó teszteset, a teszteket továbbra se módósítsd, nyílván, tehát a kódon kell változtatnod
+
+5
+00:00:35,140 --> 00:00:43,740
+Gergő: És alapvetően a hibákat ne keresd meg interneten, ... de netet használhatsz,de adatbázis ne keresd meg
+Okés
+
+6
+00:00:43,740 --> 00:00:53,480
+Gergő: Ő, igen, az Eclipse annyiban változott, hogy most fel van készítve ezzekkel a toolokkal, tehát amennyiben szeretnéd, nyilván nem kötelező. akkor használhatod bizonyos lépéseknél, ahol, ahol úgy gondolod
+
+7
+00:00:53,480 --> 00:01:00,480
+Gergő: Ő és továbbra is légyszíves mondjál ki bármit ami a fejedben van miközben használod, bármilyen gondolat, tényleg nem kell szűrni
+
+8
+00:01:00,480 --> 00:01:10,540
+Gergő: Ő, magadra leszel megint csak hagyva, pár percenként jövünk és ellenőrzünk téged, ha kész vagy akkor nyílván majd szólsz, összesen kilencven perc van az egész feladatra, az másfél óra
+Ühmmm, okés
+
+9
+00:01:10,540 --> 00:01:21,880
+Gergő: Jah... megy e felvétel, megy,  van e kérdésed.... Oké,akkor jó munkát
+Okés... Nincs... Köszi
+
+10
+00:01:21,880 --> 00:01:31,880
+Jah ez a pluginoknak a leírása, jah ahha, ahha, értem [papírlapot nézi]
+
+11
+00:01:31,880 --> 00:01:48,280
+Hát jó... Na nézzük, aztmondja, bukó tesztesetek, jah akkor itt kezdek [feltekint a monitorra]
+
+12
+00:01:48,280 --> 00:02:06,940
+Igen, gondolom itt is úgy van, óó, itt már Junit, óóó, hehe, hmm [papír lapot néz]
+
+13
+00:02:06,940 --> 00:02:16,370
+És ez a, aztmondja, meta adat teraktív hiba adat lokalizáció, háát
+
+14
+00:02:16,370 --> 00:02:22,770
+Jól van, megnézzük, de [Vissza néz a monitorra]
+
+15
+00:02:22,770 --> 00:02:33,880
+Ahha, delete first, delete all, ó és ez valami textes, deletes
+
+16
+00:02:33,880 --> 00:02:39,080
+És azt mondjuk, hogy, ő
+
+17
+00:02:39,080 --> 00:02:45,540
+Jah indexelés hibák az str builder osztály delete, ahha
+
+18
+00:02:45,540 --> 00:02:49,710
+Jah, remélem van itt is ilyen asynches cucc
+
+19
+00:02:49,710 --> 00:03:05,620
+[teszt futtatást indít]
+
+20
+00:03:05,620 --> 00:03:12,710
+Hmmm, ahha, hehe
+
+21
+00:03:12,710 --> 00:03:20,620
+Hehehe, na jó, nézzük csak még egyszer
+
+22
+00:03:20,620 --> 00:03:36,570
+[Kezét vakarja, teszt futtatási eredményt vár]
+
+23
+00:03:36,570 --> 00:03:49,340
+ühmm [teszt eredményt néz, újra futtat]
+
+24
+00:03:49,340 --> 00:03:58,110
+Tehát itt most lehet olyan, hogy ő minden második futásnál jön elő
+
+25
+00:03:58,110 --> 00:04:01,020
+Az a hiba?
+
+26
+00:04:01,020 --> 00:04:07,450
+Ahha, most nem jött elő, jó, hát ő akkor nem, akkor ez a teória bukott ő
+
+27
+00:04:07,450 --> 00:04:12,970
+De akkor megint itt egy ilyen trükkös teszteset, ő
+
+28
+00:04:12,970 --> 00:04:22,570
+De azt majd a kedves ő senior kollégával megbeszéljük a kisérlet után
+
+29
+00:04:22,570 --> 00:04:29,450
+Jó, na nézzük, azt mondja, hogy mi történik itt [teszt esetre kattint]
+
+30
+00:04:29,450 --> 00:04:36,510
+Hát most nem tudom, hogy a coverage az olyan túl sokat szerintem nem segíthet
+
+31
+00:04:36,510 --> 00:04:45,140
+Nem új tesztet akarok írni,na  jó hát nyílván most megnézhetjük,hogy mit dob ki, jah, főleg ha
+
+32
+00:04:45,140 --> 00:04:50,340
+Ha nem is így kell, de ez alapból nem
+
+33
+00:04:50,340 --> 00:04:58,570
+Nem futott, akkor aztmondja, hogy is mondja [sóhaj]
+
+34
+00:04:58,570 --> 00:05:06,310
+Igen, coverage az,coverage allra, coverage allra
+
+35
+00:05:06,310 --> 00:05:13,000
+Jó, click Junit teszt, uhmm
+
+36
+00:05:13,000 --> 00:05:23,510
+Hívási gráf, az amúgy tök érdekes az a, az az Atlas plugin, most lehet hogy itt ebben a konkrét esetben nem fog tudni segíteni, majd mindjárt belenézek
+
+37
+00:05:23,510 --> 00:05:30,200
+Mi is itt a hiba, ő, na természetesen az előző futás
+
+38
+00:05:30,200 --> 00:05:40,480
+eredménye az itt így ilyen formában elveszett, jah ez most itt lassaban fut, ez a coverages
+
+39
+00:05:40,480 --> 00:05:48,480
+Entities performance test, na egyébként azt mondta, hogy
+
+40
+00:05:48,480 --> 00:05:59,600
+Hogy a, test, test delete all [gépel]
+
+41
+00:05:59,600 --> 00:06:06,570
+És delete first, ó nagyon jó, itt van a végén [forráskódban keres]
+
+42
+00:06:06,570 --> 00:06:14,940
+[Forráskódot néz]
+
+43
+00:06:14,940 --> 00:06:27,850
+[forráskódot néz, változásokat néz] váó, ahha, ó, és akkor itt
+
+44
+00:06:27,850 --> 00:06:39,400
+Na de várjunk, hát ez a teszt, itt itt itt mit mutat, most miért bukott ilyen csúnya
+
+45
+00:06:39,400 --> 00:06:45,110
+na mindegy, azt mondjuk, hogy [Coverage eredményeket néz]
+
+46
+00:06:45,110 --> 00:06:53,200
+str builder, ő pedig hol van?
+
+47
+00:06:53,200 --> 00:07:00,420
+Text [forráskódban keres]
+
+48
+00:07:00,420 --> 00:07:07,200
+99.5 tízed százalék, ahha, na nézzük, lehet hogy ott az
+
+49
+00:07:07,200 --> 00:07:15,000
+Ühmm, hopp, ahha [Forrásfájlokat görget]
+
+50
+00:07:15,000 --> 00:07:24,880
+[Forrás fájlt kinyit, változást néz]
+
+51
+00:07:24,880 --> 00:07:34,420
+Igen, ez a false eset nincs letesztelve, your keys, igen
+
+52
+00:07:34,420 --> 00:07:40,850
+Itt volt egy 71 százalékos, stream tokenizer, ahha
+
+53
+00:07:40,850 --> 00:07:46,620
+Ennye, ennye [Coverageban görget]
+
+54
+00:07:46,620 --> 00:07:54,910
+át milyen dolog ez, insert nulla százalék
+
+55
+00:07:54,910 --> 00:08:04,540
+Hát ez meg nincs tesztelve egyáltalán, na jó, azt mondja, hogy milyen hibát dobott itt?
+
+56
+00:08:04,540 --> 00:08:12,600
+Ó de jó [ tesztet futtat]
+
+57
+00:08:12,600 --> 00:08:21,000
+Ja de, hülye vagyok, hát elég lett volna ezt a két tesztet futtatni
+
+58
+00:08:21,000 --> 00:08:30,850
+Oké, és akkor azt mondja, hogy expected mínusz egy, but was 6
+
+59
+00:08:30,850 --> 00:08:47,370
+Ahha, ez a test firstnél, itt pedig out of bound exception, ó, ó, jah hát, oké
+
+60
+00:08:47,370 --> 00:08:56,940
+Ahha [motyogás]
+
+61
+00:08:56,940 --> 00:09:05,080
+Nézzük előszőr ezt, és akkor azt mondja hogy [teszt esetet néz]
+
+62
+00:09:05,080 --> 00:09:12,280
+[teszt esetet néz]
+
+63
+00:09:12,280 --> 00:09:22,110
+Jah ez a delete first, neki kéne ugye törölni belőle three szöveget, one, two, three, ahha
+
+64
+00:09:22,110 --> 00:09:27,940
+És akkor, jah igen, ugye, ahha, akkor azt nem is
+
+65
+00:09:27,940 --> 00:09:35,600
+Nem is törli ki, ahha, mert hogyha hatos, nulla, egy kettő, három, négy
+
+66
+00:09:35,600 --> 00:09:44,510
+Akkor benne maradt, ahha, oké, azért maradt benne, miért maradt benne?
+
+67
+00:09:44,510 --> 00:09:52,740
+Delete first
+
+68
+00:09:52,740 --> 00:10:09,820
+Igen, nyílván csak akkor csinál valamit, hogyha egyáltalán nem nulla, nem
+
+69
+00:10:11,940 --> 00:10:17,170
+Index of, várjunk, index of
+
+70
+00:10:17,170 --> 00:10:24,450
+Nullával, az az a nulladik pozició, ahha, start index
+
+71
+00:10:24,450 --> 00:10:30,850
+És ez nyílván hatos, tehát ez a delete
+
+72
+00:10:30,850 --> 00:10:36,620
+És szerintem emez is minthogyha azt hívta volna, és akkor azt mondja, hogy az
+
+73
+00:10:36,620 --> 00:10:46,820
+ő neki mi a paraméterezése, azt mondja, start index, end index, length
+
+74
+00:10:46,820 --> 00:10:55,820
+Start index, end index, ez eddig jónak tünik eddig, debuggoljuk meg
+
+75
+00:10:55,820 --> 00:11:01,970
+Hmmm, na bazdmeg mit nyomkodok [káromkodás]
+
+76
+00:11:01,970 --> 00:11:07,680
+Igen, és akkor azt mondjuk, hogy tükk
+
+77
+00:11:07,680 --> 00:11:16,970
+[Teszteket futtat]
+
+78
+00:11:16,970 --> 00:11:27,200
+Na mi történt, miért nem állt meg a breakpoint, azért nem állt meg, mert ő nem lépett oda be gondolom, akkor
+
+79
+00:11:27,200 --> 00:11:30,600
+breakpoint itt, de
+
+80
+00:11:30,600 --> 00:11:34,940
+Hmm, jó, akkor nézzük mégegyszer
+
+81
+00:11:34,940 --> 00:11:40,250
+Biztos, hogy azt futtatta, itt akkor azt mondom, hogy
+
+82
+00:11:40,250 --> 00:11:48,740
+Run as Junit teszt, valami 77 tesztet ír, nah, oké
+
+83
+00:11:48,740 --> 00:11:54,910
+És még mindig nem állt meg, hmm
+
+84
+00:11:54,910 --> 00:12:02,200
+Ó de sügér vagyok, nem debuggal futtatam, ugye?
+
+85
+00:12:02,200 --> 00:12:07,480
+Jó, most oké, megint sügér vagyok
+
+86
+00:12:07,480 --> 00:12:15,850
+Nah itt mondom azt, hogy debug as, nah majd csak összejön, pedig ittam kávét
+
+87
+00:12:15,850 --> 00:12:20,940
+Nah erről van szó, oké
+
+88
+00:12:20,940 --> 00:12:26,110
+Azt mondjuk, hogy a len az 5
+
+89
+00:12:26,110 --> 00:12:30,650
+Igen
+
+90
+00:12:30,650 --> 00:12:35,110
+Az hat
+
+91
+00:12:35,110 --> 00:12:40,620
+De hogy, mi?
+
+92
+00:12:40,620 --> 00:12:46,600
+Jah, de hülye vagyok, azt hittem, hogy az egész string
+
+93
+00:12:46,600 --> 00:12:54,710
+Jah, persze, mert az ott, igen, oké oké oké
+
+94
+00:12:54,710 --> 00:13:03,600
+Igen, és akkor azt mondjuk, hogy 6
+
+95
+00:13:03,600 --> 00:13:11,770
+Plusz a hossza, ahha
+
+96
+00:13:11,770 --> 00:13:19,620
+Igen, és ugye a this az pedig, ahha, és akkor még mi volt itt a rossz, azt mondjuk, hogy belemegyünk
+
+97
+00:13:19,620 --> 00:13:24,850
+Igen, itt ugye ugyanez az index hat
+
+98
+00:13:24,850 --> 00:13:31,800
+And 11, hossza 15
+
+99
+00:13:31,800 --> 00:13:38,220
+Ahha, ahha, ezzel lesz probléma a másik teszttel is
+
+100
+00:13:38,220 --> 00:13:43,850
+Hmm [debug eredményt néz]
+
+101
+00:13:43,850 --> 00:13:49,050
+Hát ez itt, nem, 100
+
+102
+00:13:49,050 --> 00:13:57,600
+Hát az addig oké, kis barátom, de ha nem jól csináltad, ez az array copy mit csinál?
+
+103
+00:13:57,600 --> 00:14:06,370
+Ez, igen, van egy ő bevezető, object
+
+104
+00:14:06,370 --> 00:14:13,710
+Pozíció, kimeneti object [dokumentációt olvas]
+
+105
+00:14:13,710 --> 00:14:19,540
+Pozíció és lenght, igen
+
+106
+00:14:19,540 --> 00:14:26,200
+Na de várjunk, ahha
+
+107
+00:14:26,200 --> 00:14:32,600
+Ahha, tehát ugyanebbe másolod be
+
+108
+00:14:32,600 --> 00:14:44,770
+Igen, az end index, az azt mondja, hogy  source pozíció, end index, az biztos, hogy jó?
+
+109
+00:14:44,770 --> 00:14:51,620
+Nah, írd csak ezt ki nekem
+
+110
+00:14:51,620 --> 00:14:58,770
+[Dokumentációt néz]
+
+111
+00:14:58,770 --> 00:15:08,370
+Hűha, nah, ezt kerestem, starting position in the source
+
+112
+00:15:08,370 --> 00:15:15,570
+Array, starting position in the destination data
+
+113
+00:15:15,570 --> 00:15:23,370
+Igen, the number of array, element copy, és ugye
+
+114
+00:15:23,370 --> 00:15:30,400
+[Dokumentációt néz]
+
+115
+00:15:30,400 --> 00:15:39,970
+[forráskódot néz]
+
+116
+00:15:39,970 --> 00:15:48,680
+Hát ő, szerintem ide inkább a len kéne
+
+117
+00:15:48,680 --> 00:15:55,800
+[hátradől, fejét vakarja] Ugye
+
+118
+00:15:55,800 --> 00:16:06,110
+Át akarja másolni és azt akarja, hogy kevesebb legyen, azaz amit ugye itt
+
+119
+00:16:06,110 --> 00:16:17,710
+Itt átadunk, end index [forráskódot, dokumentációt néz]
+
+120
+00:16:17,710 --> 00:16:39,050
+[Dokumentációt néz]
+
+121
+00:16:39,050 --> 00:16:45,910
+[Oldalra nézett]
+
+122
+00:16:45,910 --> 00:16:49,650
+Dehát itt a start indexnek, mind a kettőnek
+
+123
+00:16:49,650 --> 00:16:57,620
+Ugyanannak kell lenni, igen,csak az átmásolt elemnek kell
+
+124
+00:16:57,620 --> 00:17:05,000
+Ő, kevesebbnek lenni,várjunk,hol van, ugye, azt mondja, hogy
+
+125
+00:17:05,000 --> 00:17:16,280
+[Forráskódot néz] Hogy ebből a
+
+126
+00:17:16,280 --> 00:17:28,000
+Ebből a streamből töröljük ki, jah, ettől a pozíciótól, ugye?
+
+127
+00:17:28,000 --> 00:17:37,740
+Igen, a start poziciótól az end indexig
+
+128
+00:17:37,740 --> 00:17:45,710
+Jah, egyébként miért kell megadni a hosszát is?
+
+129
+00:17:45,710 --> 00:17:55,770
+Igen [forráskódban keres]
+
+130
+00:17:55,770 --> 00:18:06,600
+Igen, azok jók, de itt ez az array copy
+
+131
+00:18:06,600 --> 00:18:16,200
+Beggining, at the pase... [Motyogás] Source
+
+132
+00:18:16,200 --> 00:18:20,000
+Igen, tehát source meg a ... ugyanakkora
+
+133
+00:18:20,000 --> 00:18:40,220
+[Dokumentációt néz, felnéz a monitor felé]
+
+134
+00:18:40,220 --> 00:18:53,080
+Ahha, de az endindex az ugye az eredeti, mármint a törlendő stringnek a végpozicíója [kezével mutogat]
+
+135
+00:18:53,080 --> 00:19:12,250
+[Monitorra néz, dokumentációt olvas]
+
+136
+00:19:12,250 --> 00:19:20,800
+Igen, tehát ott a start index a az array copyval az ott jó
+
+137
+00:19:20,800 --> 00:19:30,400
+Mert ugye addig a pontig, áhh, nem tudjuk ezt megniytni itt
+
+138
+00:19:30,400 --> 00:19:39,370
+Ahha, már csak... In the source
+
+139
+00:19:39,370 --> 00:19:43,600
+Jah de nem, hát az ő
+
+140
+00:19:43,600 --> 00:19:57,400
+Az akkor, az ott nulla, mert az elejétől, igen, igen, start position
+
+141
+00:19:57,400 --> 00:20:11,340
+Tesztelés... [Forráskódban kijelöl, nézelődik]
+
+142
+00:20:11,340 --> 00:20:35,510
+Hát az úgy nem jó... Mert ugye hogy van ez, azt mondtuk hogy, delete first, delete all
+
+143
+00:20:35,510 --> 00:20:42,400
+[Forráskódban keres]
+
+144
+00:20:42,400 --> 00:20:49,200
+Range without validation
+
+145
+00:20:49,200 --> 00:20:58,000
+Igen, the length, must, hát várj, hát most
+
+146
+00:20:58,000 --> 00:21:06,340
+[Kezével tapsol] Hogy ez egytetszőleges pozícióról töröl
+
+147
+00:21:06,340 --> 00:21:14,850
+Hát de azt azt
+
+148
+00:21:14,850 --> 00:21:21,880
+Hmm, ez meg ugye azt mondja
+
+149
+00:21:21,880 --> 00:21:37,420
+[Függvény forráskódját nézi]
+
+150
+00:21:37,420 --> 00:21:48,570
+Subsequence of array components are copies from source array, igen
+
+151
+00:21:48,570 --> 00:21:59,820
+destination, igen, the number of components, length argument, hát ő
+
+152
+00:21:59,820 --> 00:22:05,770
+Igen, ott pedig ugye a size
+
+153
+00:22:05,770 --> 00:22:13,200
+Hát, nem az end index, hanem a len
+
+154
+00:22:13,200 --> 00:22:23,570
+Mert ugye, azzal a hosszal csökkentett méret kell, most nézzük csak vissza
+
+155
+00:22:23,570 --> 00:22:33,370
+Szerintem ez itt a len, igen
+
+156
+00:22:33,370 --> 00:22:38,910
+Compopnens, at  positions
+
+157
+00:22:38,910 --> 00:22:48,800
+[Forráskódot néz] positions
+
+158
+00:22:48,800 --> 00:22:55,740
+Destination array, Úr Isten, hide...
+
+159
+00:22:55,740 --> 00:23:03,450
+[Motogás, dokumentációt olvas]
+
+160
+00:23:03,450 --> 00:23:13,250
+[Dokumentációt néz]
+
+161
+00:23:13,250 --> 00:23:19,970
+Igen, param [motyogás] position
+
+162
+00:23:19,970 --> 00:23:27,080
+Hmm, mondjuk
+
+163
+00:23:27,080 --> 00:23:42,050
+Áhh, nem szeretem ezt a jav docos formázást, jobban szeretem amikor feloldja ezeket a kódókat, akkor jobban olvasható, test arguments
+
+164
+00:23:42,050 --> 00:23:51,250
+Do the same... componens
+
+165
+00:23:51,250 --> 00:24:15,510
+[Dokumentációt olvas] By array
+
+166
+00:24:15,510 --> 00:24:25,000
+[Forráskódra átkattint]
+
+167
+00:24:25,000 --> 00:24:39,570
+De nem hát, nem értem, mármint hogy
+
+168
+00:24:39,570 --> 00:24:54,910
+[Forráskódot néz, kijelöl] Igen
+
+169
+00:24:54,910 --> 00:25:01,420
+[Feltekintett]
+
+170
+00:25:01,420 --> 00:25:09,480
+Dehát ez így, ennyi nem elég, téhát most, tikk
+
+171
+00:25:09,480 --> 00:25:15,340
+Beállítjuk úgy
+
+172
+00:25:15,340 --> 00:25:24,050
+Hot code replace fail, nem baj, nem is kell, lefuttatjuk újra
+
+173
+00:25:24,050 --> 00:25:34,650
+Ő, igen a delete first
+
+174
+00:25:34,650 --> 00:25:51,650
+Ahha, és ez így jó, ezt el se hiszem, akkor nézzük a delete allt
+
+175
+00:25:51,650 --> 00:25:58,340
+Nyílván nem jó, azt mondja, hogy, bár mondjuk már nemű
+
+176
+00:25:58,340 --> 00:26:06,680
+Nem erroros, csak failures, és akkor mit mondott itt?
+
+177
+00:26:06,680 --> 00:26:13,710
+[Teszt futás eredményt néz]
+
+178
+00:26:13,710 --> 00:26:25,420
+[Eredményeket hasonlít össze]
+
+179
+00:26:25,420 --> 00:26:29,970
+Expected
+
+180
+00:26:29,970 --> 00:26:40,050
+Igen, azt mondja, hogy, BLA szót, ahha, ahha, ahha az elején és a végén
+
+181
+00:26:40,050 --> 00:26:55,450
+is van, igen, és a a stuffot kitörölte, de miért törölte ki?
+
+182
+00:26:55,450 --> 00:27:07,850
+Hehe, igen, nem az a baja, hogy nem törölte ki a blaht, hanem , hogy kitörölte a stuffot, amit nem kellett volna
+
+183
+00:27:07,850 --> 00:27:19,310
+Az anyja nemjóját [káromkodás], igen
+
+184
+00:27:19,310 --> 00:27:30,220
+Ahha, ó, itt a delete first
+
+185
+00:27:30,220 --> 00:27:41,340
+Uhm, jó hát ő, a delete implnek az indexelése az ő
+
+186
+00:27:41,340 --> 00:27:51,170
+az hasonló, hasonló mint a delete firstnél, az elején a az ellenőrzés
+
+187
+00:27:51,170 --> 00:28:00,850
+Az ugyanaz, az jó is, igen, és akkor ugyanazt mondja,hogy, ahha, ő egyébként itt nem lehet
+
+188
+00:28:00,850 --> 00:28:06,800
+azt csinálni, hogy meghívjuk a delete firstöt?
+
+189
+00:28:06,800 --> 00:28:14,570
+[Forráskódot nézi]
+
+190
+00:28:14,570 --> 00:28:21,050
+Ő, jah hát ő
+
+191
+00:28:21,050 --> 00:28:28,050
+Megtudjuk csinálni? [Forráskódot nézi]
+
+192
+00:28:28,050 --> 00:28:37,050
+Tökmin, tökmindegy? Ahha, mert ugyanúgy megkeresi
+
+193
+00:28:37,050 --> 00:28:45,650
+Az indexet [forráskódban kijelöl]
+
+194
+00:28:45,650 --> 00:28:56,310
+Hát ő de ez itt így nem jó, itt is újra kell, nem? Meg itt kérdés még az
+
+195
+00:28:56,310 --> 00:29:05,110
+A, delete az már megcsinálja a az első törlést, tehát itt mindig csak
+
+196
+00:29:05,110 --> 00:29:13,570
+Az első találatot kell vizsgálni szerintem
+
+197
+00:29:13,570 --> 00:29:27,880
+Na nézzük, mondjuk ez persze, hogy ez így ez nem jó, és mi történt, ah, mutizd csak
+
+198
+00:29:27,880 --> 00:29:38,420
+Semmi, semmi nem történt, jó debuggoljunk, azt mondja, hogy
+
+199
+00:29:38,420 --> 00:29:51,540
+Igen, odarakjuk, debug igen, debug, JUnit
+
+200
+00:29:51,540 --> 00:30:08,370
+[Forráskódot néz] Nah mostmár tök jó, hogy átírtam
+
+201
+00:30:08,370 --> 00:30:19,570
+Igen, azt keresi, hogy az index ott legyen, start index, hanem az index
+
+202
+00:30:19,570 --> 00:30:32,910
+index plusz len, 7 hosszú? Egy
+
+203
+00:30:32,910 --> 00:30:45,170
+Egy, kettő, három, négy, öt, hat
+
+204
+00:30:45,170 --> 00:31:00,310
+Jah, de az a, az hogy, az hét, hát hülye vagyok? Egy kettő három, négy, öt, hat
+
+205
+00:31:00,310 --> 00:31:07,280
+[Debuggot néz]
+
+206
+00:31:07,280 --> 00:31:22,620
+Ó, hogy az elején van egy /n, jó oké, jah jó, nem láttam, jó, oké, az úgy oké és ugye
+
+207
+00:31:22,620 --> 00:31:38,570
+A harmincadikban, hát ő, igen és itt már ugye törölte az elejéről, mondjuk nem néztem meg, hogy mi volt
+
+208
+00:31:38,570 --> 00:31:49,000
+[Forráskódot néz]
+
+209
+00:31:49,000 --> 00:31:59,680
+Itt még mindig nulla, most törölte, ahha, azt hogy?
+
+210
+00:31:59,680 --> 00:32:12,970
+[Forráskódot néz]
+
+211
+00:32:12,970 --> 00:32:33,200
+Hát azt hogy, jah, hmm, delete all
+
+212
+00:32:33,200 --> 00:32:51,820
+[Debugot néz, forráskódot néz]
+
+213
+00:32:51,820 --> 00:33:03,820
+De hát itt az index, jah nagyobb egyenlő, nulla
+
+214
+00:33:03,820 --> 00:33:12,080
+Jah, az elején van, jah hát az úgy nem jó, jah vagy hát
+
+215
+00:33:12,080 --> 00:33:23,250
+Bocs, tehát igen, hogy ha nem találja, akkor mínusz, mínusz egy vagy ilyesmi, ű igen, mínusz egyet returnöl, igen
+
+216
+00:33:23,250 --> 00:33:32,650
+Ó, itt akkor törölte az elejéről, igen itt kiszámítja az indexet, azt mondja, hogy harminc
+
+217
+00:33:32,650 --> 00:33:46,620
+És, és valóban ott van benne, igen és kitörölte
+
+218
+00:33:46,620 --> 00:34:01,820
+És itt mindig azt mondja, hogy harminc, akkor lehet,hogy ott az indexoffnál is van probléma, nézzük csak meg
+
+219
+00:34:01,820 --> 00:34:06,650
+Hát...
+
+220
+00:34:06,650 --> 00:34:20,280
+[Forráskódot néz]
+
+221
+00:34:20,280 --> 00:34:32,540
+[Fejét vakarja, dudorászik] Nah, nagyon kiváncsi vagyok erre a cuccra
+
+222
+00:34:32,540 --> 00:34:46,170
+Ajajajajj, jah, oké
+
+223
+00:34:46,170 --> 00:34:58,740
+Break kijelölése
+
+224
+00:34:58,740 --> 00:35:10,600
+Hmmm [Palackból vizet iszik]
+
+225
+00:35:10,600 --> 00:35:22,850
+[Elrakja a palackot] Nah mi van?
+
+226
+00:35:22,850 --> 00:35:36,000
+[Lefagy az Eclipse] Hehehehe, most ez komoly?
+
+227
+00:35:36,000 --> 00:35:48,080
+Most ez komoly?
+
+228
+00:35:48,080 --> 00:35:54,250
+Ez hanyadik szituáció is, negyedik vagy az ötödik?
+
+229
+00:35:54,250 --> 00:36:08,450
+[Monitort néz, hátradőlt] Task D
+
+230
+00:36:08,450 --> 00:36:23,220
+Hát itt is van D feladat, jó, tüff, hahaha, igen
+
+231
+00:36:23,220 --> 00:36:36,620
+Hmm, igen és akkor azt mondja, hogy, töltüsnk be up, igen, és azt mondja, hogy
+
+232
+00:36:36,620 --> 00:36:48,140
+Megfelelő csvt, hát ő, az a megfelelő, jah, desktop, ahha, jó
+
+233
+00:36:48,140 --> 00:36:58,710
+Igen és akkor, uhh
+
+234
+00:36:58,710 --> 00:37:11,540
+És akkor az volt itt, hogy volt itt ez, ez itt nekem nem kell, az sem, igen, hanem
+
+235
+00:37:11,540 --> 00:37:20,080
+Jaj, sorting és akkor score
+
+236
+00:37:20,080 --> 00:37:28,140
+Ott van, odanézz, az index off, hú de dúrva
+
+237
+00:37:28,140 --> 00:37:40,880
+Ő, itt és akkor mit lehetett csinálni
+
+238
+00:37:40,880 --> 00:37:49,880
+Jah, ahha
+
+239
+00:37:49,880 --> 00:38:00,200
+Delete all, delete first, igen, ide... mi, jah ez a
+
+240
+00:38:00,200 --> 00:38:10,200
+Paraméter nélküli index of position
+
+241
+00:38:10,200 --> 00:38:26,540
+Ahha, he, de durva, és ő [Teszt bemeneti adatokat néz]
+
+242
+00:38:26,540 --> 00:38:38,740
+Hát, jó így mondjuk sokkal nem lettem előrébb, nézzük csak meg... [Tüsszent]
+
+243
+00:38:38,740 --> 00:38:50,850
+Coveraget, igen, streambuilder, igen,
+
+244
+00:38:50,850 --> 00:39:03,280
+Ahha, az ott levan fedve, akkor ott azzal nincs gond, nézzük ezt, ez mit mutat
+
+245
+00:39:03,280 --> 00:39:14,510
+[Feladatlapot néz] Automatikus eredmény atlassian, igen
+
+246
+00:39:14,510 --> 00:39:22,650
+Ő, helló, helló, ezaz
+
+247
+00:39:22,650 --> 00:39:38,600
+Ühh, [hívási gráfot néz] ú de durva
+
+248
+00:39:38,600 --> 00:39:50,620
+És mit tud még mutatni, call, ahha, igen igen igen
+
+249
+00:39:50,620 --> 00:39:59,450
+[Gráfokat néz] Hmmm
+
+250
+00:39:59,450 --> 00:40:10,820
+References, ahha, jó hát, ahha, ez az ő, mi volt az controll flow, data flow
+
+251
+00:40:10,820 --> 00:40:29,540
+Ühmmm, mi a kettő között a külömbség, vagy csak még nem töltődött be, jajj, ahha
+
+252
+00:40:29,540 --> 00:40:48,450
+Hmmm, érdekes egyébként, de én most egy debugot szeretnék nyomni első körben
+
+253
+00:40:48,450 --> 00:41:00,450
+Igen, azt mondjuk hogy akkor futtasuk hogy delete all, reméljük debugot nyomtam
+
+254
+00:41:00,450 --> 00:41:15,770
+Igen, jó, igen, akkor, azt mondjuk, hogy itt belelépünk, jó hát ez itt az ott az első, első körbe
+
+255
+00:41:15,770 --> 00:41:33,480
+Az ugye, ahha, az ugye jó lesz, elvileg, azt mondja, hogy, hét, jah ez a keresett szöveg hossza, igen
+
+256
+00:41:33,480 --> 00:41:49,170
+Igen, ahha [debugot néz]
+
+257
+00:41:49,170 --> 00:42:06,080
+Kiszámítja a... a keresett szöveg nélküli hosszát?
+
+258
+00:42:06,080 --> 00:42:19,800
+Ez lenne az, mert a hehe , igen, hetven, amúgy meg, akkor mennyi, hetven, azt így nem mutatod meg, akkor mondjuk olyat, hogy inspect
+
+259
+00:42:19,800 --> 00:42:33,050
+Hmm, óh, ne már, jah,így is jó, hetvenhét akkor ugye a hossza
+
+260
+00:42:33,050 --> 00:42:44,510
+És ő meg itt héthetven, mert ugye ez meg itt hét hosszú, jó
+
+261
+00:42:44,510 --> 00:42:58,620
+És akkor vé, végig megy rajta, mi ez az outer?
+
+262
+00:42:58,620 --> 00:43:08,850
+Jézusom mi ez, címke? Ilyet se láttam még, ki használ ilyet?
+
+263
+00:43:08,850 --> 00:43:25,770
+[forráskódot néz] Igen és akkor, lehet is két forciklus, az elsőnél start
+
+264
+00:43:25,770 --> 00:43:38,400
+Start , jah igen, hogy honnantól keresse, igen a, a, de miért onnan? Jah persze, hát ugye...
+
+265
+00:43:38,400 --> 00:43:52,220
+Egyértelmű, hát tovább keresni mint amilyen hosszú a szöveg, vagy igen, tehát akkor ugyse lesz meg azokon a pozíciókon felül
+
+266
+00:43:52,220 --> 00:44:06,370
+Ahha, és akkor itt azt mondja, hogy megnézi a stringet, hogy abban a karakter tümb, afdott pozíción
+
+267
+00:44:06,370 --> 00:44:20,600
+És az ugye meddig megy, 7? Ahha, tehát a string legelejéről elkezdi szépen, ahha karakterenként összehasonlítani... És , hogy ez a thisBuffer ez a...
+
+268
+00:44:20,600 --> 00:44:29,680
+A stringnek a másolata... [debuggert néz]
+
+269
+00:44:29,680 --> 00:44:41,110
+i plusz i, igen, az meg a j, és hogyha azt mondja, hogy ő
+
+270
+00:44:41,110 --> 00:44:52,200
+Hogy nem egyenlő
+
+271
+00:44:52,200 --> 00:45:00,510
+Akkor kiugrik oda, mivan? De miért, dehát ez ez itt hülyeség
+
+272
+00:45:00,510 --> 00:45:08,970
+Szerintem, jah de de várjunk, mert nem egyenlő
+
+273
+00:45:08,970 --> 00:45:12,770
+De hát akkor újra kezdi az egész forciklust?
+
+274
+00:45:12,770 --> 00:45:23,680
+[Forráskódot néz]
+
+275
+00:45:23,680 --> 00:45:36,740
+Mert itt mi van, ha itt megtalálja, akkor pörgeti szépen tovább, ha meg nem találja
+
+276
+00:45:36,740 --> 00:45:47,250
+Akkor kiugrik és akkor ott a forciklus
+
+277
+00:45:47,250 --> 00:46:05,850
+Folytatja tovább, hmm, lehet, jah mert itt talál, igen...
+
+278
+00:46:05,850 --> 00:46:14,400
+Igen, végigment rajta
+
+279
+00:46:14,400 --> 00:46:23,110
+Jó, ez ez ugye ez okés is, engem a következő érdekel, meg az utána következő igazából, itt ugye start
+
+280
+00:46:23,110 --> 00:46:31,740
+Index, még mindig a nulla,az  hogy én azt már átírtam, de itt ugye már ki van belőle törölve
+
+281
+00:46:31,740 --> 00:46:46,370
+Jaj, tehát, nah de várjunk, jajaja,
+
+282
+00:46:46,370 --> 00:47:01,080
+Most miért van benn ott újra, a blah blah a végén? Azért van benne újra a blah blah a végén mert gondolom elcsesztem
+
+283
+00:47:01,080 --> 00:47:12,880
+A törlést, nah várjunk csak, mert itt az eredeti szövegben nincs benne, márminthogy itt van benne egyszer, meg itt mégegyszer, ahha, igen és ez a
+
+284
+00:47:12,880 --> 00:47:20,940
+Jó, akkor most azt csináljuk
+
+285
+00:47:20,940 --> 00:47:35,680
+Jah nem is,jah de nem is a delete first, nem is ide nyúltam bele, ide nyúltam bele, mert itt ugye azvolt, hogy itt az index volt, az úgy oké
+
+286
+00:47:35,680 --> 00:47:47,370
+Hanem ugye ez nem klappol itt, és itt vajon vissza tudom vonni? End index
+
+287
+00:47:47,370 --> 00:48:02,510
+Csináljuk, igen, ha, müködik, ő nem...
+
+288
+00:48:02,510 --> 00:48:17,680
+Igen, és hát most akkor csak ígykíváncsiság képpen, eredetileg hogy volt rossz
+
+289
+00:48:17,680 --> 00:48:25,770
+Delete allra
+
+290
+00:48:25,770 --> 00:48:42,510
+[Tesztet futtat]
+
+291
+00:48:42,510 --> 00:48:56,740
+Igen, itt azt mondja, hogy a buffer, uhmm, így még okés, és akkor ez nyílván megtalálja
+
+292
+00:48:56,740 --> 00:49:15,110
+Legyen az, hogy rakjuk ide, meg ide, megtalálja az első pozíciót, az úgy fasza, és itt ugye az történt [káromkodás]
+
+293
+00:49:15,110 --> 00:49:32,050
+[forráskódot néz] Jó hát itt még ez működik, itt megtalálja a harmincadik pozíciót
+
+294
+00:49:32,050 --> 00:49:50,880
+Hát itt meg a törlés megint szar volt, vagy az Eclipse szívat, de nem hiszem
+
+295
+00:49:50,880 --> 00:50:03,110
+Hát igen, itt...
+
+296
+00:50:03,110 --> 00:50:16,740
+Most ugye visszaírtam mindent az eredetibe, nézzük csak meg ezt a csoda
+
+297
+00:50:16,740 --> 00:50:26,220
+Analízátort, üüü, igen, ez ilyenkor vajon
+
+298
+00:50:26,220 --> 00:50:48,970
+[Analízátor felületét nézi, forráskód változást néz]
+
+299
+00:50:48,970 --> 00:51:21,370
+[Dokumentációt néz]
+
+300
+00:51:21,370 --> 00:51:36,370
+Hát de hogy, jó, gyerünk vissza, oké, azt mondom hogy, mi volt ez, őőő deleteimpl, igen
+
+301
+00:51:36,370 --> 00:51:50,970
+Ahha, nézzük csak, azt mondjuk hogy, ő ide jöjjünk akkor, amikor a...
+
+302
+00:51:50,970 --> 00:52:03,020
+DeleteAllt debuggoljuk
+
+303
+00:52:03,020 --> 00:52:19,620
+Igen, jaj, jó, ezt most innen kivesszük, igen, ott megakad, azt mondja, hogy ő a nullás,jó, ez eddig okés
+
+304
+00:52:19,620 --> 00:52:34,600
+És azt mondja, hogy a nullás pozíciótól a hetes pozícióig 7 hosszan, ühmm
+
+305
+00:52:34,600 --> 00:52:55,140
+[Felnézett, forráskódra visszatekint] És itt azt mondja, hogy
+
+306
+00:52:55,140 --> 00:53:05,200
+A az eredetinek a hetes pozícióját, igen, egyébként ez így okés
+
+307
+00:53:05,200 --> 00:53:13,650
+Hetes pozíciótol másoljuk be, ahha
+
+308
+00:53:13,650 --> 00:53:26,200
+[Forráskódot néz]
+
+309
+00:53:26,200 --> 00:53:33,710
+De ez az endindexes az, hát az akkor az így hülyeség
+
+310
+00:53:33,710 --> 00:53:47,600
+De ez hogy?
+
+311
+00:53:47,600 --> 00:53:58,080
+Jah, hülye vagyok, tehát a size mínusz end index, mi az, control i
+
+312
+00:53:58,080 --> 00:54:11,340
+Vagy nem, inspect, jah cotrol shift t, harminc nyolc
+
+313
+00:54:11,340 --> 00:54:18,170
+[Forráskódot néz]
+
+314
+00:54:18,170 --> 00:54:32,310
+De az hogy a sizeból az end indexet az olyan furi... Az end indexet
+
+315
+00:54:32,310 --> 00:54:43,740
+Mert ez oké, igen, harminc, mennyi volt, harmincnyolc, hát ez itt, most végülis oké, eddig még oké
+
+316
+00:54:43,740 --> 00:54:56,170
+Ugye, de nem hát, ott van a
+
+317
+00:54:56,170 --> 00:54:58,850
+Ez ez, jó hát ez szívat ez itt engem
+
+318
+00:54:58,850 --> 00:55:15,540
+[Forráskódot néz, tesztet futtat]
+
+319
+00:55:15,540 --> 00:55:38,600
+Igen, hraminc hét [Forráskódot néz]
+
+320
+00:55:38,600 --> 00:55:48,080
+Ahha, hát ez így  így itt már nem jó, vagy mégis?
+
+321
+00:55:48,080 --> 00:55:58,600
+Hmm, kicsit összekavarodtam, ez hanyadik hívás?
+
+322
+00:55:58,600 --> 00:56:18,420
+[Forráskódot néz] Jah és akkor most fogja kitörölni a...
+
+323
+00:56:18,420 --> 00:56:37,370
+Jah nem, ühmm, még nem mentettem
+
+324
+00:56:37,370 --> 00:56:44,280
+Hú, updating, az Atlas updatingelt
+
+325
+00:56:44,280 --> 00:57:00,020
+[Forráskódot néz, oldalra nézett]
+
+326
+00:57:00,020 --> 00:57:15,570
+Hú hát ez a péntek délutáni session ez elég durva lesz, én elég úgy érzem, mert most se vagyok toppon én elég úgy érzem, még hétfő az így jó volt, fogjuk rá
+
+327
+00:57:15,570 --> 00:57:25,540
+Hát kezdek kicsit belefáradni
+
+328
+00:57:25,540 --> 00:57:40,710
+[lenézett a feladatlapra]
+
+329
+00:57:40,710 --> 00:57:59,680
+[Forráskódot néz]
+
+330
+00:57:59,680 --> 00:58:12,820
+[Forráskódot néz, böngészőt nyit]
+
+331
+00:58:12,820 --> 00:58:30,450
+[böngészőben keres]
+
+332
+00:58:30,450 --> 00:58:44,540
+Hahaha, hátha ha látnék rá valami példát
+
+333
+00:58:44,540 --> 00:59:08,200
+Azt mondja, hogy az array 2, 0 10 20 30 40, 10, 20, 30, 40 ,50 és azt mondja, hogy a
+
+334
+00:59:08,200 --> 00:59:19,280
+Az src az array 1, nulladik pozíciótól az array 2
+
+335
+00:59:19,280 --> 00:59:35,600
+Hát ez hogy adja ki? Mivan?
+
+336
+00:59:35,600 --> 00:59:54,600
+Jah, jah, tehát, hogy  a destinition arrayben belemásolja a source arrayt
+
+337
+00:59:54,600 --> 01:00:04,080
+E E ebből a positionből
+
+338
+01:00:04,080 --> 01:00:14,000
+A destination ő arraynek erre a pozíciójáról, tehát itt a nullás helyre egyet, tehát ebből az arrayből
+
+339
+01:00:14,000 --> 01:00:26,650
+A nulladik helyen lévő nullát átírja a destination array nulladik helyen lévő ötös helyére és akkor azért lesz ott nulla
+
+340
+01:00:26,650 --> 01:00:32,740
+De miért lesz egyel kevesebb, hova lesz az ötvenes?
+
+341
+01:00:32,740 --> 01:00:55,220
+Ez hülye, miért lesz egyel kevesebb? Destination arraybe...
+
+342
+01:00:55,220 --> 01:01:07,540
+E, ezt most komoly? Live demo és ez hogy működik?
+
+343
+01:01:07,540 --> 01:01:21,650
+Na ne! [Online kódablakot néz]
+
+344
+01:01:21,650 --> 01:01:37,910
+Na ne, jah oké [Online kódablakban gépel]
+
+345
+01:01:37,910 --> 01:01:51,800
+Jó azé, oké, ő nah ez eddig mind szép és jó, de itt a source meg a destination array ugyanaz
+
+346
+01:01:51,800 --> 01:02:06,620
+És ugye itt máshogy viselkedik, mint is mondott? Ő...
+
+347
+01:02:06,620 --> 01:02:23,200
+Itt azt mondta, hogy na hol van az, if arguments refers to the same array...
+
+348
+01:02:23,200 --> 01:02:46,200
+Copy, per row... [Dokumentációt olvas]
+
+349
+01:02:46,200 --> 01:02:56,680
+To temporary array, with length [motyogás, dokumentációt olvas]
+
+350
+01:02:56,680 --> 01:03:09,140
+Ahha, ahha, értem, kezdem érteni, tehát itt, one, two tree
+
+351
+01:03:09,140 --> 01:03:21,740
+[Böngészőre visszakattint]
+
+352
+01:03:21,740 --> 01:03:37,850
+[VVVre néz] Helló, jó, okés
+VV: Beszélj kérlek, csak szólok
+
+353
+01:03:37,850 --> 01:03:51,600
+Bár nem tudom, hogy ez mennyit segít, de igyekszem
+
+354
+01:03:51,600 --> 01:04:16,480
+A manóba, megkérdezhettem volna, az hogy toby eyetrackker bár gondolom ez nem csinál ő szemmozgás analízist, vagy hát rögzítést, mert az szerintem érdekesebb lenne, lehet, nah, jó
+
+355
+01:04:16,480 --> 01:04:29,940
+Szóval igen, tehát, tehát. az ott úgy működik,na hol is van, tehát minthogyha egy ideiglenes, igen, gyakorlatilag
+
+356
+01:04:29,940 --> 01:04:45,080
+Hogyha most két, itt ugye ő azt csinálja
+
+357
+01:04:45,080 --> 01:04:56,800
+Hogy, hogy a két tömb ugyanaz, hopp, nézzük meg hogy is volt, mi is volt itt?
+
+358
+01:04:56,800 --> 01:05:07,020
+Na nem, de igen, igen, itt ugye azt mondja, hogy
+
+359
+01:05:07,020 --> 01:05:13,400
+Ő az index, nem, nem
+
+360
+01:05:13,400 --> 01:05:30,170
+Ő, igen ez az eredeti, ezt még odaírjuk, eredeti, hahahaha
+
+361
+01:05:30,170 --> 01:05:43,510
+Igen, és akkor azt mondja, hogy az end index, ami
+
+362
+01:05:43,510 --> 01:06:01,110
+Ami ugye nem, elkell, igen,
+
+363
+01:06:01,110 --> 01:06:09,770
+Azt mondjuk, hogy, mondjuk  törölni akarjuk a végéről a 3 4 5t, akkor ő
+
+364
+01:06:09,770 --> 01:06:22,020
+Megvan az index, 0 1 2 3, ő igen
+
+365
+01:06:22,020 --> 01:06:31,280
+Hát, ö jöjöjö, megvan a három, de miért nem tudsz
+
+366
+01:06:31,280 --> 01:06:41,080
+Ez ugye második paraméter, igen, az első paraméter az pedig a
+
+367
+01:06:41,080 --> 01:06:47,940
+Az első index, 0, 1, 2
+
+368
+01:06:47,940 --> 01:06:58,480
+Jah az 5, jaj, az 5
+
+369
+01:06:58,480 --> 01:07:09,570
+És azt mondja, hogy a 100 mínusz end index, igen
+
+370
+01:07:09,570 --> 01:07:18,970
+1, 2, 3, 4, 5, 6 mínusz 5?
+
+371
+01:07:18,970 --> 01:07:27,800
+Hát az, az úgy nem lesz jó, nyílván nem jó
+
+372
+01:07:27,800 --> 01:07:43,510
+[Nevet] igen és akkor én erre mondtam azt, hogy ez legyen helyette a 100-length 5-3?
+
+373
+01:07:43,510 --> 01:07:55,910
+De, vagyis 6 [motyogás]
+
+374
+01:07:55,910 --> 01:08:07,080
+Hopp, nem jött össze [Forráskódot néz]
+
+375
+01:08:07,080 --> 01:08:20,850
+[Forráskódot néz, hümmög]
+
+376
+01:08:20,850 --> 01:08:26,570
+De azt nem, ő, nem értem egyébként
+
+377
+01:08:26,570 --> 01:09:05,710
+[Bőngészőben dokumentációt olvas]
+
+378
+01:09:05,710 --> 01:09:15,400
+Hogy mi van akkor, ha, ha destination
+
+379
+01:09:15,400 --> 01:09:22,280
+Az hosszabb
+
+380
+01:09:22,280 --> 01:09:36,400
+[Dokumentációt néz] into a specified position
+
+381
+01:09:36,400 --> 01:09:51,400
+Destination arrray [dokumentációt olvas]
+
+382
+01:09:51,400 --> 01:10:07,340
+[Notepad++ nyit] mindjárt lemodellezzük
+
+383
+01:10:07,340 --> 01:10:28,080
+Igen [Notepad++ban gépel]
+
+384
+01:10:28,080 --> 01:10:40,600
+És akkor azt mondjuk, hogy a, a cél arrayben
+
+385
+01:10:40,600 --> 01:10:47,250
+Mert a forrás array...
+
+386
+01:10:47,250 --> 01:11:05,800
+[Dokumentációt olvas, görget]
+
+387
+01:11:05,800 --> 01:11:16,110
+[Forráskódot néz]
+
+388
+01:11:16,110 --> 01:11:26,650
+[Forráskódban kijelöl] Hmm, azt mondjuk mégegyszer, hogy delete first, igen
+
+389
+01:11:26,650 --> 01:11:33,080
+A manóba
+
+390
+01:11:33,080 --> 01:11:45,880
+[Tesztet futtat] Ő, nem
+
+391
+01:11:45,880 --> 01:11:59,400
+Igen [Debug eredményt néz]
+
+392
+01:11:59,400 --> 01:12:14,110
+Ja de ez itt nem is csinálta meg jól, ő
+
+393
+01:12:14,110 --> 01:12:21,800
+Azt mondjuk, hogy delete first
+
+394
+01:12:21,800 --> 01:12:30,310
+[Forráskódot néz, görget]
+
+395
+01:12:30,310 --> 01:12:46,770
+Igen, lépjünk tovább, azon is továbblépünk, oké, ez így müködött és azt mondja, hogy a
+
+396
+01:12:46,770 --> 01:12:54,510
+A 11től azt mondjuk, hogy ő
+
+397
+01:12:54,510 --> 01:13:05,140
+Azaz src, az a 11
+
+398
+01:13:05,140 --> 01:13:18,910
+Az azt mondjuk, hogy a dest pos az az, azt mondja, hogy
+
+399
+01:13:18,910 --> 01:13:31,480
+Ő, hatos [notepad++ban gépel]
+
+400
+01:13:31,480 --> 01:13:48,910
+Ez pedig 5, nem nem nem, inspectáljuk és azt mondjuk, hogy 6
+
+401
+01:13:48,910 --> 01:14:03,970
+Jóó, és így itt jó lett, igen, oké
+
+402
+01:14:03,970 --> 01:14:17,570
+És azt mondta, hogy a 11re, 1, 2, 3 ,4 ,5 ,6 ,7 8, 9 ,10 ,11, igen
+
+403
+01:14:17,570 --> 01:14:27,820
+Destinationnek a 6os pozíciója, 1, 2, 3, 4, 5, 6
+
+404
+01:14:27,820 --> 01:14:38,140
+Ahha, ahha
+
+405
+01:14:38,140 --> 01:14:57,370
+És ugye az színtén hat, igen, igen az úgy okés, csak a másiknál ez így nem fazsa, mert ott sokkal hosszabb a cucc [káromkodás]
+
+406
+01:14:57,370 --> 01:15:09,570
+Ahha, itt az a baj, hogy a des pos meg a length is ugyanannyi
+
+407
+01:15:09,570 --> 01:15:21,000
+[Notepad++t néz]
+
+408
+01:15:21,000 --> 01:15:29,850
+Azt mondom, hogy 6 darab pozíció, de hát nem, ez
+
+409
+01:15:29,850 --> 01:15:47,450
+Ez így hülyeség, mondjuk így is, hmmm
+
+410
+01:15:47,450 --> 01:16:04,970
+[Böngészőben dokumentációt néz]
+
+411
+01:16:04,970 --> 01:16:14,050
+Hmm [Dokumentációt néz]
+
+412
+01:16:14,050 --> 01:16:25,420
+[Forráskódot néz]
+
+413
+01:16:25,420 --> 01:16:39,710
+Mi ez itt, módosította, hát jó, tényleg várjunk csak, azt mondjuk hogy, ő, menjünk vissza
+
+414
+01:16:39,710 --> 01:16:50,850
+Jah de hát itt erről nem igazán sok mindent utd mondani ez a nem ez, nem ez
+
+415
+01:16:50,850 --> 01:17:10,910
+Ahha, ahha, why, miért, miért a delete all van kijelölve?
+
+416
+01:17:10,910 --> 01:17:22,570
+höh, hmm, minden esetre menő
+
+417
+01:17:22,570 --> 01:17:33,770
+[Atlassian plugint bezárta]
+
+418
+01:17:33,770 --> 01:17:51,110
+[Forráskódot néz]
+
+419
+01:17:51,110 --> 01:17:58,140
+Nah nekem elkell mennem wcre, meg kijárok egyet addig
+
+420
+01:18:00,140 --> 01:20:07,970
+[Elhagyta a termet]
+
+421
+01:20:07,970 --> 01:20:21,880
+[Visszaért, leült a helyére] Nah, attól tartok már túl sok időm nincsen, szóval ez nem fog sikerülni
+
+422
+01:20:21,880 --> 01:20:32,080
+Ő, egyébként ha ilyen nagyon
+
+423
+01:20:32,080 --> 01:20:40,370
+Időhöz vagyok kötve, azt nagyon nem szeretem, amikor itt a nyakamba lihegnek
+
+424
+01:20:40,370 --> 01:20:58,850
+[Forráskódban kijelöl, forráskódot néz]
+
+425
+01:20:58,850 --> 01:21:09,140
+Jah azért nézem, mondom ez mi, másik delete all, de, azt hittem már valakit megviccel, de nem, ez a stringes
+
+426
+01:21:09,140 --> 01:21:21,370
+[Forráskódot néz, kijelöl]
+
+427
+01:21:21,370 --> 01:21:38,620
+[Böngésző ablakot bezár, görget]
+
+428
+01:21:38,620 --> 01:21:49,050
+Hahaha [Böngészőben görget]
+
+429
+01:21:49,050 --> 01:22:05,740
+Hogy, próbáljunk meg úgy rákeresni, hogy nem konkrétan erre, tehát azt mondjuk hogy, jah, ő
+
+430
+01:22:05,740 --> 01:22:14,910
+segment of remove
+
+431
+01:22:14,910 --> 01:22:31,220
+of elements from array, element, hát ő, array
+
+432
+01:22:31,220 --> 01:22:50,570
+[Stackoverflowt néz]
+
+433
+01:22:50,570 --> 01:23:07,570
+Ühmm, hát ez nem egészen az
+
+434
+01:23:07,570 --> 01:23:17,140
+Háá, itt azt mondja, hogy van egy, jah és törölni akarja a hármast
+
+435
+01:23:17,140 --> 01:23:25,400
+Hát, nekem nem egészen ez kell, de valami olyasmi
+
+436
+01:23:25,400 --> 01:23:36,800
+Ühmm, hát mert, using to arrays, de nekem nem egy
+
+437
+01:23:36,800 --> 01:23:53,570
+The copy array... One element shorter, igen de nekem egy csomó elementet kéne
+
+438
+01:23:53,570 --> 01:24:13,940
+Hehh, de az araray util itt van, hát nem, ahha
+
+439
+01:24:13,940 --> 01:24:35,570
+Kettő elemet kéne, hahó, nah mi történt, számítógép most szomorú
+
+440
+01:24:35,570 --> 01:24:48,650
+[Böngészőt néz]
+
+441
+01:24:48,650 --> 01:25:03,650
+[Böngészőben keres, weboldalt görget]
+
+442
+01:25:03,650 --> 01:25:14,400
+De nekem nem ez kell, nem ilyen, nem, nem, nem
+
+443
+01:25:14,400 --> 01:25:26,000
+Jézus Mária, azt mondjuk, hogy, nah, mi történt
+
+444
+01:25:26,000 --> 01:25:40,940
+Miez, ő, array copy, remove segment
+
+445
+01:25:40,940 --> 01:25:50,680
+Remove elements, hát, some part of array in Java
+
+446
+01:25:50,680 --> 01:26:01,340
+[Stackowerflowt néz]
+
+447
+01:26:01,340 --> 01:26:10,570
+Hát oké
+
+448
+01:26:10,570 --> 01:26:25,770
+[Stackowerflowt olvas]
+
+449
+01:26:25,770 --> 01:26:34,820
+Ahha, tehát azt mondja, hogy az overlapping source and destination regions, óhhh
+
+450
+01:26:34,820 --> 01:26:41,020
+Szóval valami olyasmi van
+
+451
+01:26:41,020 --> 01:27:03,800
+hát itt igen, ez, ez itt az overlappinggal kellene, ő, gondolom ott azt a tulajdonságát használták ki ennek az arraycopynak
+
+452
+01:27:03,800 --> 01:27:16,200
+[Stackowerflowt néz, görget]
+
+453
+01:27:16,200 --> 01:27:26,420
+Igen, az ó, overlapping, de hogy kezeli ez az overlappingot?
+
+454
+01:27:26,420 --> 01:27:39,220
+But you can store variables, igen, ez az... [motyogás]
+
+455
+01:27:41,310 --> 01:27:49,820
+De fasz vagyok, kimondom ha már kigondoltam [káromkodás]
+
+456
+01:27:49,820 --> 01:28:09,970
+Hát nem is baj az hogyha benne marad, csak a  a100at kell módosítani, óh, az iskoláját neki, az lehet akkor ott jó is, csak megfakelt ez a, hmm, csak igazam volt, hogy fakel ez a
+
+457
+01:28:09,970 --> 01:28:22,600
+A debug, hmm, delete all, óh, majdnem kimondtam a nevem
+
+458
+01:28:22,600 --> 01:28:31,510
+Ühh, igen, tehát itt az első futás, igen, tök jó
+
+459
+01:28:31,510 --> 01:28:42,800
+Ő, itt ugye itt még benne van az eleje, igen, jó, ezt most, ezt most hagyjuk
+
+460
+01:28:42,800 --> 01:28:57,000
+Ahh, amanóba, jó, menjünk vissza, ige, és ide rakjuk a nevünket, nézzük újra
+
+461
+01:28:57,000 --> 01:29:08,940
+Lefuttatjuk, és akkor azt mondjuk, hogy, igen itt az index ugye nulla, nagyon jó
+
+462
+01:29:08,940 --> 01:29:21,170
+Még tovább, igen, törlés és a dis alól ugye letünt, igen ott van, mondjuk, hmm
+
+463
+01:29:21,170 --> 01:29:35,000
+Ja de igen, ez a stribgbuilder és a sizeot csökkentette gondolom, igen, igen
+
+464
+01:29:35,000 --> 01:29:49,880
+Mennyi volt, 38 most 31, csak itt index ott azt mondja, hogy, ahha akkor még mindig
+
+465
+01:29:49,880 --> 01:29:58,740
+Még mindig az indexoffal van baja, mert ez itt hazugság
+
+466
+01:29:58,740 --> 01:30:15,420
+De ráadásul ebben még egy enter is van, mondjuk az ott nem számít, de itt az indexof rosszat ad vissza, mert az már nem kellene
+
+467
+01:30:15,420 --> 01:30:27,800
+És az index of, itt meg ugye, ahha size, de a size az csak ugye
+
+468
+01:30:27,800 --> 01:30:50,370
+Ahha, uhh, ahh, értem, jó most debuggolunk olyat, hogy a második, hogy a hibás indexofba belelépünk, gyerünk, gyerünk, gyerünk,  ez itt még ugye, igen
+
+469
+01:30:50,370 --> 01:31:03,800
+Ez ugye itt jó volt, delete, kitörölte, óh, banyek, ahh, ez itt még jó
+
+470
+01:31:03,800 --> 01:31:12,510
+Jah, mármint jó, oké, kitörölte a másodikat, igen  és akkor most
+
+471
+01:31:12,510 --> 01:31:26,510
+Most ez lesz itt msot a nem jó, ebbe beleépünk f5tel, start index 30, jah ráadásul
+
+472
+01:31:26,510 --> 01:31:35,680
+Ahha, az se jó
+
+473
+01:31:35,680 --> 01:31:50,800
+Mert a bufferben még benne van a size az viszont,mutasd csak, 31, 31 de az már valójában nem annyi
+
+474
+01:31:50,800 --> 01:32:03,310
+Vagy annyi? Size 31, hány karakter ez?
+
+475
+01:32:03,310 --> 01:32:21,970
+35, ahha, huuh, várjunk csak, az ott nagyon nem jó, az ott nagyon nem jó
+
+476
+01:32:21,970 --> 01:32:40,820
+Jah most még itt vagyok, igen, hát ezt itt most nyílván megtalálja, ezek a számok itt nyílván nem jók,... oké
+VV: lejárt a másfél óra
+
+477
+01:32:40,820 --> 01:32:53,080
+VV: Az idő, leállítom a felvételt, nem tudom sikerült e amúgy?
+ühmm,, nem
+

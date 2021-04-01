@@ -1,42 +1,42 @@
 ﻿1
 00:00:02,000 --> 00:00:06,000
-Jó, akkor el is indítottam a felvételt
+Jó, akkor el is indítottam a felvételt (Béla)
 
 2
 00:00:06,000 --> 00:00:14,000
-Ebben a szekcióban majd egy Javas-Eclipses hibát kellene kijavítani.
+Ebben a szekcióban majd egy Javas-Eclipses hibát kellene kijavítani. (Béla)
 
 3
 00:00:14,000 --> 00:00:21,000
-Mivel kapcsolatosan van leírás, azt látod a lapon.
+Mivel kapcsolatosan van leírás, azt látod a lapon. (Béla)
 
 4
 00:00:21,000 --> 00:00:35,000
-Tehát a hiba akkor tekinthető kijavítottnak, ha a tesztesetek módosítás nélküli futtatása során az összes teszt sikeres lesz.
+Tehát a hiba akkor tekinthető kijavítottnak, ha a tesztesetek módosítás nélküli futtatása során az összes teszt sikeres lesz. (Béla)
 
 5
 00:00:35,000 --> 00:00:44,000
-Ha kitörlöd a tesztet, az nem számít sikeres hibajavításnak.
+Ha kitörlöd a tesztet, az nem számít sikeres hibajavításnak. (Béla)
 
 6
 00:00:44,000 --> 00:00:56,000
-Akkor azt kérném, hogy a javítás során ne keress rá az adott hibára ilyen hibabejelentő rendszerekben, vagy issue-kezelő rendszerekben.
+Akkor azt kérném, hogy a javítás során ne keress rá az adott hibára ilyen hibabejelentő rendszerekben, vagy issue-kezelő rendszerekben. (Béla)
 
 7
 00:00:56,000 --> 00:01:05,000
-Lehet használni a netet, de ne keress rá magára nettóban a hibára.
+Lehet használni a netet, de ne keress rá magára nettóban a hibára. (Béla)
 
 8
 00:01:05,000 --> 00:01:11,000
-90 perc áll rendelkezésre, ez egy hosszabb etap lesz.
+90 perc áll rendelkezésre, ez egy hosszabb etap lesz. (Béla)
 
 9
 00:01:11,000 --> 00:01:24,000
-és akkor azt kérném, mint az előző szekcióban is, hogy hangosan mondj ki mindent ami ezzel kapcsolatban az eszedbe jut a feladat megoldása során.
+és akkor azt kérném, mint az előző szekcióban is, hogy hangosan mondj ki mindent ami ezzel kapcsolatban az eszedbe jut a feladat megoldása során. (Béla)
 
 10
 00:01:24,000 --> 00:01:31,000
-Oda is adnám közben az egeret, van-e valami kérdés ezzel kapcsolatban.
+Oda is adnám közben az egeret, van-e valami kérdés ezzel kapcsolatban. (Béla)
 
 11
 00:01:31,000 --> 00:01:38,000
@@ -44,7 +44,7 @@ Nem tudom, ezeket nem jobb lenne majd közösen elmondani mindenkinek? Vagy nem 
 
 12
 00:01:38,000 --> 00:01:44,000
-Mindenkinek el van mondva ez a bevezető szöveg.
+Mindenkinek el van mondva ez a bevezető szöveg. (Béla)
 
 13
 00:01:44,000 --> 00:01:50,000
@@ -52,130 +52,135 @@ Csak nem-e lenne egyszerűbb közösen elmondani, és akkor már tudjuk, hogy mi
 
 14
 00:01:50,000 --> 00:01:56,000
-Úgy lett megszervezve, úgy beszéltük, hogy akkor ezt így mindenkinek egyesével.
+Úgy lett megszervezve, úgy beszéltük, hogy akkor ezt így mindenkinek egyesével. (Béla)
 
 15
 00:01:56,000 --> 00:01:59,000
-Erre is írjam fel, hogy mikor kezdem?
+- Erre is írjam fel, hogy mikor kezdem?
+- Nem szükséges, ezt én könyvelem. (Béla)
 
 16
 00:01:59,000 --> 00:02:00,000
-Nem szükséges, ezt én könyvelem.
-
-17
-00:02:00,000 --> 00:02:01,000
 Jó-jó, rendben.
 
-18
-00:02:01,000 --> 00:02:02,000
-Akkor jó munkát kívánok.
+17
+00:02:00,096 --> 00:02:02,000
+Akkor jó munkát kívánok. (Béla)
 
-19
+18
 00:02:02,000 --> 00:02:05,000
 Köszi.
 
-20
+19
 00:02:05,000 --> 00:02:13,000
 Na nézzük akkor. Van itt egy projektünk, illetve egy leírásunk. Kezdjük a leírással.
 
-21
+20
 00:02:13,000 --> 00:02:25,000
 Feladat, szekció, teszt, tesztosztály, number utils teszt és a teszteset az a Test create number hibajelenség.
 
-22
+21
 00:02:25,000 --> 00:02:34,000
 A --1 .1e - 700f string számmá alakítása nem megfelelően történik meg.
 
-23
+22
 00:02:34,000 --> 00:02:38,000
 Ez ugye egy normalizált szám, valószínűleg double vagy float lesz.
 
-24
+23
 00:02:38,000 --> 00:02:48,000
 És ha jól látom, ez jó kérdés, hogy mit jelent. Ja hogy egy float szám, mert f van a végén.
 
-25
+24
 00:02:48,000 --> 00:02:57,000
 Ez a dupla minusz ez jó kérdés, ezt majd meg kell nézni, mi az a dupla minusz. De az is lehet, hogy ez a hiba.
 
-26
+25
 00:02:57,000 --> 00:03:06,000
 Alap konfiguráció futtatása, klikkeljen zöld gomb, zöld run gomb mellett lefelé mutató nyílra, és válaszd ki a task A jelölési konfigurációt.
 
-27
+26
 00:03:06,000 --> 00:03:18,000
 Ez egy ilyen utasítás. Tehát itt a run task A, ez lefuttatja, úgy látom egy Mavenes build.
 
-28
+27
 00:03:18,000 --> 00:03:28,000
 Igaz, hogy java 6-os függvénykönyvtárat használ, de Java 7-tel futtatjuk.
 
-29
+28
 00:03:28,000 --> 00:03:43,000
 Ez vagy egy nem túl erős gép,  vagy ... hát lehet visszafogja a videófelvétel, mi? Jah, gondolom.
 
-30
+29
 00:03:43,000 --> 00:03:49,000
 Igen, a videófelvétel eléggé visszafogja. 70%-os procihasználat. Ezt lehet hogy másik gépen kellett volna felvenni.
 
-31
+30
 00:03:49,000 --> 00:03:58,000
 Na mindegy, ezen most lépjünk túl.
 
-32
+31
 00:03:58,000 --> 00:04:11,000
 Jó, elindult a main. Execute task, a Maven Clean lefutott. Anttal... úristen ki rakta ezt össze.
 
-33
+32
 00:04:11,000 --> 00:04:24,000
 Ez olyan Anttal futó Mavenesített projekt, hát érdekes. Na jó.
 
-34
+33
 00:04:24,000 --> 00:04:32,000
 Most fordítja a teszt forrásokat. Ugye a forrásfájlokat már lefuttatta, és akkor most futtatja a teszteket.
 
-35
+34
 00:04:32,000 --> 00:04:40,000
 Közül azt mondja hogy elég sok teszt van azért.
 
-36
+35
 00:04:40,000 --> 00:04:53,000
 Bár ha jól látom ez valami Apache Commons lang 3. Gondolom ez valami commonsos függvénykönyvtár, amibe direkt belemókoltak, elrontottak valamit.
 
-37
+36
 00:04:53,000 --> 00:04:55,000
 Ejnye-bejnye.
 
-38
+37
 00:04:55,000 --> 00:05:12,000
 Mindegy, itt futnak a tesztek. Ejha! Nem is kevés, itt volt egy exception. Expected number format exception
 
-39
+38
 00:05:12,000 --> 00:05:28,000
 Igen itt meg is van. Mert itt number format exception vár a teszt.
 
-40
+39
 00:05:28,000 --> 00:05:33,000
 Na jó.
 
+40
+00:05:33,000 --> 00:05:35,840
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
 41
-00:05:33,000 --> 00:05:53,000
+00:05:35,840 --> 00:05:43,552
+Ezt én rögtön át is bököm aaa hol van a Package Representation hierarchikusra
 Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
 
 42
-00:05:35,840 --> 00:05:43,552
-Ezt én rögtön át is bököm aaa hol van a Package Representation hierarchikusra
-
-43
 00:05:43,550 --> 00:05:48,176
 mert az áttekinthetőbb, itt van ez a Lang 3
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
 
-44
+43
 00:05:48,170 --> 00:05:50,864
 Uh hát ebben jó kis ... osztály van
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
+44
+00:05:50,860 --> 00:05:53,000
+Gondolom ugyanott lesz a Lang 3 Math és number alatta
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
 
 45
-00:05:50,860 --> 00:05:55,792
+00:05:53,000 --> 00:05:55,792
 Gondolom ugyanott lesz a Lang 3 Math és number alatta
 
 46
@@ -932,3 +937,4 @@ Elkezdtem átnézni az egész projektet [nevet]
 233
 00:27:57,120 --> 00:28:05,856
 Elkérem az egeret, és akkor leállítom (Béla)
+

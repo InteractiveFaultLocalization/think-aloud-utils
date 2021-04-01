@@ -4,11 +4,11 @@ Béla: Indítom a felvételt.
 
 2
 00:00:02,000 --> 00:00:12,000
-Béla: Itt látható egy matematikai művelet, ezt kellene elvégezni.
+Béla: Itt látható egy matematikai művelet, ezt kellene elvégezni
 
 3
 00:00:13,000 --> 00:00:17,000
-Béla: [...]sos feltételek mellett.
+Béla: bizonyos feltételek mellett.
 
 4
 00:00:17,000 --> 00:00:19,000

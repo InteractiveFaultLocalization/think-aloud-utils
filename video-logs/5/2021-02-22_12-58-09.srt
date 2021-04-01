@@ -32,7 +32,7 @@ Béla: Ugyanúgy 90 perc áll rendelkezésedre.
 
 9
 00:00:39,000 --> 00:00:45,000
-Béla: Ugyanúhy kérnénk, hogy a hibaadatbázisokban ne keress rá a hibára.
+Béla: Ugyanúgy kérnénk, hogy a hibaadatbázisokban ne keress rá a hibára.
 
 10
 00:00:45,000 --> 00:00:50,000

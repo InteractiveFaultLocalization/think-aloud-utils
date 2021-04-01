@@ -981,7 +981,7 @@ Elmentjük... [Tesztet futtat, hátradől körbe néz, monitorra néz]
 
 242
 00:42:34,710 --> 00:42:54,657
-fBöngészőre átkattint, bezárja az ablakot, konzolt nézi, hátra néz]
+[Böngészőre átkattint, bezárja az ablakot, konzolt nézi, hátra néz]
 
 243
 00:42:54,650 --> 00:43:06,542

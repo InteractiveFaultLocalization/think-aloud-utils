@@ -1,78 +1,80 @@
 ﻿1
 00:00:02,000 --> 00:00:03,000
-Szuper
+Szuper (Gergő)
 
 2
-00:00:03,000 --> 00:00:07,000
-No, az lenne a feladat hogy igen ami itt a lapon van
+00:00:03,000 --> 00:00:06,608
+No, az lenne a feladat hogy igen ami itt a lapon van (Gergő)
 
 3
-00:00:07,000 --> 00:00:09,000
-Látsz egy Eclipse-t megnyitva, ebbe bele van töltve egy projekt
+00:00:06,848 --> 00:00:09,872
+Látsz egy Eclipse-t megnyitva, ebbe bele van töltve egy projekt (Gergő)
 
 4
-00:00:09,000 --> 00:00:14,000
-Ebben van egyetlen egy bukó teszteset jelenleg, a feladat az,
+00:00:09,984 --> 00:00:14,000
+Ebben van egyetlen egy bukó teszteset jelenleg, a feladat az, hogy (Gergő)
 
 5
 00:00:14,000 --> 00:00:19,000
-hogy javítsd ki a programot úgy, hogy a teszteseteket nem módosítod, de átmenjenek
+javítsd ki a programot úgy, hogy a teszteseteket nem módosítod, de átmenjenek (Gergő)
 
 6
 00:00:19,000 --> 00:00:21,000
-nyilván mindent ki kell javítani [mosolyog]
+- nyilván mindent ki kell javítani (Gergő) 
+- Aha [mosolyog]
 
 7
-00:00:21,000 --> 00:00:28,000
-Internetet használhatsz, nyilván továbbra is minden, ami az eszedbe van, azt mondjad folyamatosan, hangosan, bármit [mosolyog]
+00:00:21,088 --> 00:00:28,000
+Internetet használhatsz, nyilván továbbra is minden, ami az eszedbe van, azt mondjad folyamatosan, hangosan, bármit (Gergő)
 
 8
 00:00:28,000 --> 00:00:33,000
-Jó, tehát mi inkább utólag mi szűrjünk, mint hogy te szűrjél. [VSZ bólogat]
+Jó, tehát mi inkább utólag mi szűrjünk, mint hogy te szűrjél. (Gergő) [VSZ bólogat]
 
 9
 00:00:33,000 --> 00:00:35,000
-Igazából ennyi
+Igazából ennyi (Gergő)
 
 10
-00:00:35,000 --> 00:00:39,000
-Egy dolog van, ami még ilyen technikai részlet: ismert hibák [VSZ figyel]
+00:00:35,000 --> 00:00:38,592
+Egy dolog van, ami még ilyen technikai részlet: ismert hibák (Gergő) [VSZ figyel]
 
 11
-00:00:39,000 --> 00:00:44,000
-Tehát kérlek, annak a projektnek a hivatalos bug report adatbázisában vagy issue adatbázisában ne keresd meg. [VSZ orrot vakar]
+00:00:38,752 --> 00:00:44,000
+Tehát kérlek, annak a projektnek a hivatalos bug report adatbázisában vagy issue adatbázisában ne keresd meg (Gergő) [VSZ orrot vakar]
 
 12
-00:00:44,000 --> 00:00:49,000
-Mert nyilván ott meg lesz. Már kijavították, de amúgy használjál bármit. [VSZ bólogat]
+00:00:44,064 --> 00:00:49,000
+Mert nyilván ott meg lesz. Már kijavították, de amúgy használjál bármit. (Gergő) [VSZ bólogat]
 
 13
-00:00:49,000 --> 00:00:55,000
-Minden benne van az Eclipsben, jó? Tehát nem kell workspace-t váltani meg semmi, minden rendelkezésre áll. [VSZ bólogat]
+00:00:49,184 --> 00:00:55,000
+Minden benne van az Eclipsben, jó? Tehát nem kell workspace-t váltani meg semmi, minden rendelkezésre áll (Gergő)
 
 14
-00:00:55,000 --> 00:00:58,000
-Magadra leszel hagyva, ugyanúgy ahogy eddig. [VSZ bólogat]
+00:00:55,000 --> 00:00:57,696
+Magadra leszel hagyva, ugyanúgy ahogy eddig (Gergő) [VSZ bólogat]
 
 15
-00:00:58,000 --> 00:01:01,000
-Csináljad, csak közben folyamatosan beszéljél.
+00:00:57,840 --> 00:01:01,000
+Csináljad, csak közben folyamatosan beszéljél (Gergő)
 
 16
 00:01:01,000 --> 00:01:04,000
-Egy pár percenként mi nyilván bejövünk, megnézzük, hogy minden rendben van-e.
+Egy pár percenként mi nyilván bejövünk, megnézzük, hogy minden rendben van-e (Gergő)
 
 17
-00:01:04,000 --> 00:01:06,000
+00:01:04,000 --> 00:01:04,704
 Jó, Oké.
 
 18
-00:01:06,000 --> 00:01:06,000
-Van kérdés esetleg?
+00:01:04,864 --> 00:01:06,380
+Van kérdés esetleg? (Gergő)
 
 19
-00:01:06,000 --> 00:01:09,000
-Nincs, egyelőre.
+00:01:06,480 --> 00:01:09,000
+- Nincs, egyelőre.
+- Jó, akkkor... (Gergő)
 
 20
 00:01:09,000 --> 00:01:11,000
@@ -80,7 +82,7 @@ Az egeret azt elviszem, vagy ez nem az az egér?
 
 21
 00:01:11,000 --> 00:01:16,000
-Szerintem csak a ....
+Szerintem csak a .... (Gergő)
 
 22
 00:01:16,000 --> 00:01:48,000
@@ -239,146 +241,152 @@ Hát ez az exception is nagyjából jó, "ez a string ez nem valid number", jó,
 Lefuttatom, és ha megint jó, akkor kész [mosolyog]
 
 61
-00:15:53,000 --> 00:16:13,000
+00:15:53,000 --> 00:15:55,000
 Most fordul [nézi az eredményt, vár]
 
 62
-00:15:55,000 --> 00:16:40,000
+00:15:55,000 --> 00:16:13,000
 [Vár, nézi a képernyőt]
+Most fordul [nézi az eredményt, vár]
 
 63
+00:16:13,000 --> 00:16:40,000
+[Vár, nézi a képernyőt]
+
+64
 00:16:44,944 --> 00:16:45,984
 Még mindig fordul.
 
-64
+65
 00:16:45,980 --> 00:16:52,240
 [Vár, forgatja a fejét]
 
-65
+66
 00:16:52,240 --> 00:16:54,864
 Na most kezdenek futni a tesztek.
 
-66
+67
 00:16:54,860 --> 00:16:57,904
 Ezt végigvárjuk, és ha nincs hiba akkor kész is van.
 
-67
+68
 00:18:05,980 --> 00:18:08,480
 Lehet hogy jó, eddig nincs hiba.
 
-68
+69
 00:18:08,480 --> 00:18:15,728
 [Nézi a képernyőt]
 
-69
+70
 00:18:15,720 --> 00:18:21,920
 Igen, lefutott, sikeres az összes teszt, nem bukott egyem,
 Úgyhogy ez így jó lesz.
 
-70
+71
 00:18:21,920 --> 00:18:24,448
 [Mosolyog]
 
-71
+72
 00:18:24,440 --> 00:18:26,672
 Ezzel kész is van.
 
-72
+73
 00:18:26,670 --> 00:18:35,008
 [Félrenéz]
 
-73
+74
 00:18:35,000 --> 00:18:54,432
 [Nézi a képernyőt]
 
-74
+75
 00:18:54,752 --> 00:18:59,840
 Van négy skip teszt, azt azért megnézem.
 
-75
+76
 00:18:59,840 --> 00:19:01,840
 Nem része ugyan a feladatnak, de
 
-76
+77
 00:19:01,840 --> 00:19:02,464
 [Mosolyog]
 
-77
+78
 00:19:02,460 --> 00:19:06,336
 Most hogyha így van időm, akkor ránézek, mi ez.
 
-78
+79
 00:19:06,330 --> 00:19:14,768
 [Görget az egérrel]
 
-79
+80
 00:19:14,760 --> 00:19:16,144
 Én kész vagyok.
 
-80
+81
 00:19:16,140 --> 00:19:17,904
 Kész, lefutott? (Gergő)
 
-81
+82
 00:19:17,900 --> 00:19:21,536
 Le, aha, nincs, nincs hiba.
 
-82
+83
 00:19:21,530 --> 00:19:25,040
 Mondom még megnézem a skip teszteket.
 
-83
+84
 00:19:25,040 --> 00:19:27,376
 Csak kíváncsi voltam, micsoda [nevet]
 
-84
+85
 00:19:27,376 --> 00:19:29,370
 Azok nem érdekesek (Gergő)
 
-85
+86
 00:19:29,370 --> 00:19:33,968
 Dekorált környezetszámok (Gergő)
 
-86
+87
 00:19:37,210 --> 00:19:41,584
 Jó, ha készen van, készen van (Gergő)
 
-87
+88
 00:19:41,580 --> 00:19:45,344
 Akkor nyugodtan le lehet menni - illetve ebédszünet. (Gergő)
 
-88
+89
 00:19:45,340 --> 00:19:49,312
 Éééss megmondom neked, mikor kezdődik a következő kör,
 
-89
+90
 00:19:49,310 --> 00:19:51,696
 Hogy ez másfél órával (Gergő)... Jah, aha
 
-90
+91
 00:19:51,690 --> 00:20:00,768
 Ööö, a következő kör az... hétfőn... 12:20 körülre kéne visszaérni (Gergő)
 
-91
+92
 00:20:00,760 --> 00:20:05,664
 Jó... hát ott leszek mert most kajálni nem lehet beülni.
 
-92
+93
 00:20:05,660 --> 00:20:07,328
 Ha gondolod valahova el tudsz venni kaját és ... (Gergő)
 
-93
+94
 00:20:07,320 --> 00:20:13,120
 Hát úgy, szerintem elmegyek az izébe, ide a ... ja persze-persze
 
-94
+95
 00:20:13,120 --> 00:20:15,120
 Köszi (Gergő)
 
-95
+96
 00:20:15,120 --> 00:20:24,544
 [Felkel, pakol]
 
-96
+97
 00:20:24,540 --> 00:20:39,780
 [Üres a terem, felvétel vége]
+

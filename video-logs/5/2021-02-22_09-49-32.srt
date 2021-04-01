@@ -1,46 +1,46 @@
 ﻿1
 00:00:01,000 --> 00:00:05,000
-Jó, elindítottam a felvételt
+Jó, elindítottam a felvételt (Béla)
 
 2
 00:00:05,000 --> 00:00:15,000
-Ebben a részben egy Eclipse-es projektben levő java hibát kellene kijavítani
+Ebben a részben egy Eclipse-es projektben levő java hibát kellene kijavítani (Béla)
 
 3
 00:00:15,000 --> 00:00:23,000
-A hibával kapcsolatos leírást találod a lapon magad előtt.
+A hibával kapcsolatos leírást ott találod a lapon magad előtt. (Béla)
 
 4
 00:00:23,000 --> 00:00:38,000
-Akkor tekinthető egy hiba kijavítottnak, hogyha a tesztesetek módosítása nélküli futtatás során mindegyik teszt sikeresen végrehajtódik.
+Akkor tekinthető egy hiba kijavítottnak, hogyha a tesztesetek módosítása nélküli futtatás során mindegyik teszt sikeresen végrehajtódik. (Béla)
 
 5
 00:00:38,000 --> 00:00:53,000
-Azt kérnénk majd, hogy magát a nettó hibát ne keresd meg nyílt forráskódú, hivatalos issue vagy hibabejelentő weboldalakon.
+Azt kérnénk majd, hogy magát a nettó hibát ne keresd meg nyílt forráskódú, hivatalos issue vagy hibabejelentő weboldalakon. (Béla)
 
 6
 00:00:53,000 --> 00:01:03,000
-Tehát lehet használni internetet, de a nettó hibát ne keresd meg.
+Tehát lehet használni internetet, de a nettó hibát ne keresd meg. (Béla)
 
 7
 00:01:03,000 --> 00:01:10,000
-90 perc lesz a rendelkezésre álló idő, tehát ez egy hosszabb etap lesz.
+90 perc lesz a rendelkezésre álló idő, tehát ez egy hosszabb etap lesz. (Béla)
 
 8
 00:01:10,000 --> 00:01:16,000
-És ugyan úgy kép- és hangfelvétel fog készülni.
+És ugyan úgy kép- és hangfelvétel fog készülni. (Béla)
 
 9
 00:01:16,000 --> 00:01:26,000
-Jó, azt kérném, ahogy az előző etap-ban, itt is mindent mondj ki hangosan ami eszedbe jut.
+Jó, azt kérném, ahogy az előző etap-ban, itt is mindent mondj ki hangosan ami eszedbe jut. (Béla)
 
 10
 00:01:26,000 --> 00:01:37,000
-Nekünk ez hasznos információt fog majd nyújtani.
+Nekünk ez hasznos információt fog majd nyújtani. (Béla)
 
 11
 00:01:37,000 --> 00:01:40,000
-Ha elkészültél a feladattal, akkor pedig jelezd.
+Ha elkészültél a feladattal, akkor pedig jelezd. (Béla)
 
 12
 00:01:40,000 --> 00:01:43,000
@@ -48,7 +48,7 @@ Ha elkészültél a feladattal, akkor pedig jelezd.
 
 13
 00:01:43,000 --> 00:01:44,000
-Van-e kérdés?
+Van-e kérdés? (Béla)
 
 14
 00:01:44,000 --> 00:01:45,000
@@ -56,11 +56,11 @@ Nincs.
 
 15
 00:01:45,000 --> 00:01:49,000
-Jó, akkor oda is adom az egeret, itt a leírás.
+Jó, akkor oda is adom az egeret, itt a leírás. (Béla)
 
 16
 00:01:49,000 --> 00:01:50,000
-Jó munkát.
+Jó munkát. (Béla)
 
 17
 00:01:50,000 --> 00:02:20,000
@@ -202,89 +202,85 @@ Illetve közben rákeresek, hogy szerepel-e dupla kötőjel valahol ebben a tesz
 [futtat]
 
 51
-00:10:28,020 --> 00:10:29,020
+00:10:28,144 --> 00:10:32,020
 Látom, hogy van itt egy testCreateBigDecimalFailure.
-[futtat]
 
 52
-00:10:29,020 --> 00:10:32,020
-Látom, hogy van itt egy testCreateBigDecimalFailure.
-
-53
 00:10:34,020 --> 00:10:38,020
 És ennek is el kell szállni, el kell buknia.
 
-54
+53
 00:10:38,020 --> 00:10:45,020
 Közben lefutott az összes teszteset és azt látom, hogy 2265 teszt lefutott.
 
-55
+54
 00:10:46,020 --> 00:10:47,020
 És midegyik sikerült.
 
-56
+55
 00:10:47,020 --> 00:11:03,020
 [olvassa a leírást]
 
-57
+56
 00:11:03,020 --> 00:11:25,020
 [olvassa a kódot]
 
-58
+57
 00:11:25,020 --> 00:11:33,020
 Most ellenőrzöm, hogy biztosan minden lefutott-e és tényleg az összes teszteset sikeres-e.
 
+58
+00:11:38,020 --> 00:11:44,020
+Kitörlöm ezt az eredeti "return 0" kommentet, csak mert fölösleges mostmár.
+
 59
-00:11:38,020 --> 00:11:41,020
+00:11:44,020 --> 00:11:44,448
+[futtat]
 Kitörlöm ezt az eredeti "return 0" kommentet, csak mert fölösleges mostmár.
 
 60
-00:11:41,020 --> 00:11:44,020
+00:11:44,448 --> 00:11:50,020
 [futtat]
-Kitörlöm ezt az eredeti "return 0" kommentet, csak mert fölösleges mostmár.
 
 61
-00:11:44,020 --> 00:11:50,020
-[futtat]
-
-62
 00:11:50,020 --> 00:11:52,020
 És újra lefuttatom az összes tesztesetet.
 [futtat]
 
-63
+62
 00:11:52,020 --> 00:13:02,020
 [futtat]
 
-64
+63
 00:13:02,020 --> 00:13:04,020
 Jelengleg még mindig futnak a tesztek.
 [futtat]
 
-65
+64
 00:13:04,020 --> 00:13:09,020
 [futtat]
 
-66
+65
 00:13:10,020 --> 00:13:14,020
 És lefutott az összes teszt, újra sikeresen.
 
-67
+66
 00:13:16,020 --> 00:13:19,020
 Most csak beírok egy szép hibaüzenetet.
 
-68
+67
 00:13:42,020 --> 00:13:44,020
 És el is készültem.
 
-69
+68
 00:13:44,020 --> 00:13:46,020
 Tehát sikeresen lefutnak a tesztek.
 
-70
+69
 00:13:46,020 --> 00:13:48,020
 Az összes teszteset sikeresen lefut.
 
-71
+70
 00:13:48,020 --> 00:13:52,020
 És ez volt a feltétel.
+

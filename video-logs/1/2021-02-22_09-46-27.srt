@@ -4,15 +4,15 @@ VV: Jó
 
 2
 00:00:03,580 --> 00:00:08,740
-Nah ööh.. Ott van egy papírlap a billentyűzetednél, ha minden igaz.
+VV: Nah ööh.. Ott van egy papírlap a billentyűzetednél, ha minden igaz.
 
 3
 00:00:08,740 --> 00:00:13,980
-Ööö... A másik oldalán van a feladat. Bocsánat [felnevet]
+VV: Ööö... A másik oldalán van a feladat. Bocsánat [felnevet]
 
 4
 00:00:13,980 --> 00:00:16,280
- Ööö... Az a lényeg, hogy itt most látsz egy eclipset.
+VV: Ööö... Az a lényeg, hogy itt most látsz egy eclipset.
 
 5
 00:00:16,280 --> 00:00:16,580
@@ -32,31 +32,31 @@ VV: Ott van kis leírás is hozzá
 
 9
 00:00:19,400 --> 00:00:20,800
- tehát körülbelül ez, amit én elmondok
+VV: tehát körülbelül ez, amit én elmondok
 
 10
 00:00:20,800 --> 00:00:22,480
-Ööhh.. Az lenne a feladat
+VV: Ööhh.. Az lenne a feladat,
 
 11
 00:00:22,480 --> 00:00:24,090
- , hogy egy hibát kéne kijavítani
+VV: hogy egy hibát kéne kijavítani
 
 12
 00:00:24,090 --> 00:00:25,970
-Egy adott teszteset elbukik
+VV: Egy adott teszteset elbukik
 
 13
 00:00:25,970 --> 00:00:28,690
-Le van írva, hogy hogyan tudod lefuttatni a teszteseteket.
+VV: Le van írva, hogy hogyan tudod lefuttatni a teszteseteket.
 
 14
 00:00:28,690 --> 00:00:31,100
-meg tudod nézni, hogy akkor melyik bukik el
+VV: meg tudod nézni, hogy akkor melyik bukik el
 
 15
 00:00:31,100 --> 00:00:32,940
-de ott amúgy meg is van adva
+VV: de ott amúgy meg is van adva
 
 16
 00:00:32,940 --> 00:00:32,960
@@ -69,19 +69,19 @@ VSZ: Aha
 
 18
 00:00:33,320 --> 00:00:35,320
- VV: ööö.. és az lenne a cél, hogy érd el,
+VV: ööö.. és az lenne a cél, hogy érd el,
 
 19
 00:00:35,320 --> 00:00:37,320
-hogy ne legyen bukó teszteset
+VV: hogy ne legyen bukó teszteset
 
 20
 00:00:37,320 --> 00:00:39,320
-az adott projekten belül
+VV: az adott projekten belül
 
 21
 00:00:39,320 --> 00:00:42,120
-öö... Erre a feladatra másfél óra van összesen
+VV: öö... Erre a feladatra másfél óra van összesen
 
 22
 00:00:42,120 --> 00:00:42,400
@@ -93,35 +93,35 @@ VV: Nyílván, ha készen vagy akkor szóljál
 
 24
 00:00:44,730 --> 00:00:46,380
-és továbbra is él az, hogy
+VV: és továbbra is él az, hogy
 
 25
 00:00:46,380 --> 00:00:48,440
-mindent mondjál ki hangosan, amit csináljál
+VV: mindent mondjál ki hangosan, amit csináljál
 
 26
 00:00:48,440 --> 00:00:49,710
-minél részletesebben
+VV: minél részletesebben
 
 27
 00:00:49,710 --> 00:00:51,310
-tehát gyakorlatilag a brain dump
+VV: tehát gyakorlatilag a brain dump
 
 28
 00:00:51,310 --> 00:00:52,690
-kategória
+VV: kategória
 
 29
 00:00:52,690 --> 00:00:53,720
-ööö...
+VV: ööö...
 
 30
 00:00:53,720 --> 00:00:55,280
-és hát igazából
+VV: és hát igazából
 
 31
 00:00:55,280 --> 00:00:57,160
-ennyi a történet jó?
+VV: ennyi a történet jó?
 
 32
 00:00:57,160 --> 00:00:58,030
@@ -145,11 +145,11 @@ VV: Internetet használhatsz egyetlen egy kérésünk van, hogy
 
 37
 00:01:05,170 --> 00:01:06,540
-ezek ismert projektek
+VV: ezek ismert projektek
 
 38
 00:01:06,540 --> 00:01:07,580
-ismert hibái
+VV: ismert hibái
 
 39
 00:01:07,580 --> 00:01:07,820
@@ -161,7 +161,7 @@ VV: tehát az eredeti hibanaplóba ne keresd meg légyszíves a hibát
 
 41
 00:01:11,300 --> 00:01:13,080
-ez az egyetlen egy kérésünk van
+VV: ez az egyetlen egy kérésünk van
 
 42
 00:01:13,080 --> 00:01:14,730
@@ -173,7 +173,7 @@ VV: Persze-persze tehát az eredeti issue
 
 44
 00:01:16,800 --> 00:01:18,590
-trackerében ne nézd meg a projektnek, mert ott
+VV: trackerében ne nézd meg a projektnek, mert ott
 
 45
 00:01:18,590 --> 00:01:19,100
@@ -209,7 +209,7 @@ VV: Én azt mondanám, hogy itt bármit mondjál
 
 53
 00:01:31,650 --> 00:01:33,650
-tehát mindent, ami csak eszedbejut jö?
+VV: tehát mindent, ami csak eszedbejut jö?
 
 54
 00:01:33,650 --> 00:01:35,070
@@ -229,11 +229,11 @@ VV: Őő..
 
 58
 00:01:37,870 --> 00:01:39,970
-Én nem szeretnék ilyen utasítást adni, hogy mi az amit
+VV: Én nem szeretnék ilyen utasítást adni, hogy mi az amit
 
 59
 00:01:39,970 --> 00:01:41,970
-nem mert ez befolyásoló tényező VSZ:Jó oké
+VV: nem mert ez befolyásoló tényező VSZ:Jó oké
 
 60
 00:01:41,970 --> 00:01:44,280
@@ -241,11 +241,11 @@ VV: Őő.. Én azt mondanám, hogy mindent-mindent
 
 61
 00:01:44,280 --> 00:01:46,900
-ami eszedbe jut és ahogy gépelsz közbe akár azt is
+VV: ami eszedbe jut és ahogy gépelsz közbe akár azt is
 
 62
 00:01:46,900 --> 00:01:50,010
-ha nyílván nem tudsz akkor közbe azt is mondhatod, hogy nem tudsz, tehát, hogy VSZ: Jó
+VV: ha nyílván nem tudsz akkor közbe azt is mondhatod, hogy nem tudsz, tehát, hogy VSZ: Jó
 
 63
 00:01:50,010 --> 00:01:55,290
@@ -261,11 +261,11 @@ VV: Öö... megint az lesz, hogy magadra hagylak
 
 66
 00:01:59,100 --> 00:02:01,840
-Őő.. és akkor x időnként rátok nézünk
+VV: Őő.. és akkor x időnként rátok nézünk
 
 67
 00:02:01,840 --> 00:02:04,180
-hogy minden rendben van-e jó? VSZ: Okés rendben
+VV: hogy minden rendben van-e jó? VSZ: Okés rendben
 
 68
 00:02:04,180 --> 00:02:04,840
@@ -273,7 +273,7 @@ VV: Oké
 
 69
 00:02:04,840 --> 00:02:06,840
-köszi VSZ: akkor kezdem köszi
+VV: köszi VSZ: akkor kezdem köszi
 
 70
 00:02:08,840 --> 00:02:10,840
@@ -1201,7 +1201,7 @@ de így, hogy dobtunk exceptiont így a catch-ben elkapódik
 
 301
 00:19:09,070 --> 00:19:12,080
- és ott volt a az volt az a.. elvárt
+és ott volt a az volt az a.. elvárt
 
 302
 00:19:12,790 --> 00:19:14,450
@@ -1809,7 +1809,7 @@ aa.. secondot vár és ha 20 second aa.. igen, akkor leállítja [olvassa a kód
 
 453
 00:30:54,690 --> 00:30:56,690
-ez valmi ciklus lehet
+ez valami ciklus lehet
 
 454
 00:30:56,690 --> 00:30:58,690
@@ -1985,7 +1985,7 @@ did not complete task tehát itt valamelyik
 
 497
 00:33:37,250 --> 00:33:39,720
- threaden valamilyen probléma van a dátummal
+threaden valamilyen probléma van a dátummal
 
 498
 00:33:41,720 --> 00:33:43,720
@@ -3780,6 +3780,961 @@ hogy én rontottam el vagy nem
 Nem tudom, hogy ez git mappa egyébként [kattint]
 
 946
-01:00:09,740 --> 01:00:11,740
+01:00:09,740 --> 01:00:13,600
 classpath build default.properties
+
+947
+01:00:16,970 --> 01:00:19,872
+[motyog]
+
+948
+01:00:19,872 --> 01:00:21,870
+[kattint]
+
+949
+01:00:21,870 --> 01:00:26,288
+[futtat a háttérben]
+
+950
+01:00:26,288 --> 01:00:28,280
+Most logolna valahova
+
+951
+01:00:28,280 --> 01:00:30,280
+mert annak nagyon örülnék
+
+952
+01:00:30,280 --> 01:00:34,240
+[megnyitja a propertiest]
+
+953
+01:00:34,240 --> 01:00:36,240
+Oké
+
+954
+01:00:36,240 --> 01:00:40,544
+JUnit, oké, Common-IO oké,
+
+955
+01:00:40,540 --> 01:00:43,520
+[nézi a fájlt]
+
+956
+01:00:43,520 --> 01:00:46,464
+... true
+
+957
+01:00:47,136 --> 01:00:50,720
+Akkor itt már 1.5-ös Java is bejött a képbe
+
+958
+01:00:50,720 --> 01:00:52,720
+király
+
+959
+01:00:52,720 --> 01:00:54,720
+negyedik javánk
+
+960
+01:00:56,688 --> 01:00:58,560
+ööö
+
+961
+01:01:00,528 --> 01:01:08,592
+Ühüm [motyogva olvassa a javadocot], oké
+
+962
+01:01:09,184 --> 01:01:10,912
+[motyog]
+
+963
+01:01:10,910 --> 01:01:16,496
+[motyogva olvassa a javadocot], oké
+
+964
+01:01:16,490 --> 01:01:24,448
+[motyogva olvassa a javadocot] jó, hát akkor úgy tűnik, hogy ...
+
+965
+01:01:24,864 --> 01:01:28,800
+Az első futás eredményére nagyon-nagyon kíváncsi lennék
+
+966
+01:01:28,800 --> 01:01:33,008
+[görget, nézi az eredményt]
+
+967
+01:01:33,984 --> 01:01:39,904
+[gépel] ... elfailel... count
+
+968
+01:01:39,900 --> 01:01:48,048
+[kattintgat] visszafele
+
+969
+01:01:48,464 --> 01:01:55,136
+és akkor ... rákeresek, mert
+
+970
+01:01:55,536 --> 01:01:59,632
+két teszt/fail van a stopWatchnál meg a testParseSynchnél
+
+971
+01:02:00,192 --> 01:02:02,336
+ez használ valami olyat? 
+
+972
+01:02:02,330 --> 01:02:04,832
+[kattint] dateTime
+
+973
+01:02:04,830 --> 01:02:09,712
+Valami az idővel el van csesződve, de itt meg ez... ez jó volt
+
+974
+01:02:11,088 --> 01:02:15,488
+lefuttatva mindenesetre tényleg nulla... failures 1
+
+975
+01:02:15,968 --> 01:02:17,480
+Failures 1
+
+976
+01:02:18,784 --> 01:02:20,016
+a measure
+
+977
+01:02:20,016 --> 01:02:22,010
+[kattint]
+
+978
+01:02:22,010 --> 01:02:27,456
+Induljunk el visszafele... jön egy fail, mert belementünk ebbe
+
+979
+01:02:27,456 --> 01:02:29,450
+de itt...
+
+980
+01:02:29,450 --> 01:02:31,450
+failures.get()
+
+981
+01:02:31,450 --> 01:02:37,056
+[motyogva olvas] oké
+
+982
+01:02:37,376 --> 01:02:39,328
+hát ebbe azért megyünk bele, 
+
+983
+01:02:39,320 --> 01:02:44,672
+[olvassa a kódot]
+
+984
+01:02:44,672 --> 01:02:46,670
+mert... 20
+
+985
+01:02:47,024 --> 01:02:49,408
+[maszkot igazgat]
+
+986
+01:02:49,400 --> 01:02:52,512
+20 másodperc nem telt még el 
+
+987
+01:02:53,360 --> 01:02:57,376
+meg a poolban az a cuccos, shutdownNow()
+
+988
+01:03:00,384 --> 01:03:03,872
+nem csinálta meg a taskokat
+
+989
+01:03:05,152 --> 01:03:06,944
+ez szomorú
+
+990
+01:03:06,940 --> 01:03:19,840
+[nézi a kódot, gondolkodik]
+
+991
+01:03:22,288 --> 01:03:23,616
+[kattint]
+
+992
+01:03:23,610 --> 01:03:35,984
+[megnyitja a Run Configurationt]
+
+993
+01:03:35,980 --> 01:03:38,293
+...workspace default...
+
+994
+01:03:38,293 --> 01:03:40,290
+1.7-est használja
+
+995
+01:03:40,290 --> 01:03:42,653
+[kattint]
+
+996
+01:03:42,650 --> 01:03:48,840
+[kattint, nézi az ablakot]
+
+997
+01:03:48,840 --> 01:03:50,840
+1.7-et használja
+
+998
+01:03:52,600 --> 01:03:56,546
+cleant használjunk, hogy néz ki a pomunk
+
+999
+01:03:56,540 --> 01:04:00,533
+rámegyek a skipTestre
+
+1000
+01:04:00,530 --> 01:04:14,266
+[megnyitja a pom.xmlt]
+
+1001
+01:04:14,266 --> 01:04:16,260
+tehát itt ez a ...
+
+1002
+01:04:17,280 --> 01:04:19,320
+org.apache.commons, oké
+
+1003
+01:04:19,320 --> 01:04:22,506
+[olvassa a kódot]
+
+1004
+01:04:22,500 --> 01:04:25,306
+Oké, 2001
+
+1005
+01:04:26,920 --> 01:04:29,546
+jira, jó, jó, jó...
+
+1006
+01:04:32,346 --> 01:04:36,373
+hát ezek az inputok nyilván nem érdekelnek... timezone -5?
+
+1007
+01:04:37,360 --> 01:04:39,440
+ez az ő timeZone-ja gondolom
+
+1008
+01:04:40,093 --> 01:04:44,560
+[görget] java developer, timezone +1
+
+1009
+01:04:44,560 --> 01:04:49,186
+[görget] jó, ezek annyira nem érdekesek, szerintem
+
+1010
+01:04:49,180 --> 01:04:52,680
+legalábbis számomra
+
+1011
+01:04:53,680 --> 01:04:57,413
+jUnit oké, 2.4, 3.1
+
+1012
+01:04:58,613 --> 01:04:59,800
+oké
+
+1013
+01:05:00,240 --> 01:05:02,706
+ez úgy tűnik, hogy nem logol
+
+1014
+01:05:02,706 --> 01:05:04,700
+legalábbis...
+
+1015
+01:05:04,700 --> 01:05:09,413
+[görget] nem láttam olyan debug ... hogy a 
+
+1016
+01:05:09,413 --> 01:05:11,410
+POM
+
+1017
+01:05:12,773 --> 01:05:16,093
+Oké, plugin maven, mojo
+
+1018
+01:05:16,866 --> 01:05:18,613
+[görget]
+
+1019
+01:05:18,760 --> 01:05:21,906
+én inkább a dependency-ket akarom, de azt meg nem láttam
+
+1020
+01:05:21,900 --> 01:05:24,600
+de itt már nincs a dependency
+
+1021
+01:05:24,600 --> 01:05:26,600
+[motyog]
+
+1022
+01:05:26,600 --> 01:05:28,600
+[kattint]
+
+1023
+01:05:28,600 --> 01:05:32,186
+depend... dependencies... oké, jajj
+
+1024
+01:05:32,533 --> 01:05:36,333
+Igen, ezek vannak, a JUnit, a commons.IO
+
+1025
+01:05:36,330 --> 01:05:39,720
+és a... org.easymock
+
+1026
+01:05:40,453 --> 01:05:42,973
+és a JUnit
+
+1027
+01:05:42,973 --> 01:05:44,970
+4.10
+
+1028
+01:05:47,053 --> 01:05:50,720
+hát mindegy, ha már így elrontottam, akkor a 
+
+1029
+01:05:51,333 --> 01:05:53,053
+time-ban a fastDate
+
+1030
+01:05:53,266 --> 01:05:55,986
+format... megnézném, csak a 
+
+1031
+01:05:56,746 --> 01:05:57,980
+fastDate
+
+1032
+01:05:58,900 --> 01:06:04,733
+fastDateFormatTest.java-t
+
+1033
+01:06:06,730 --> 01:06:08,520
+run as...
+
+1034
+01:06:09,330 --> 01:06:11,386
+jUnit test
+
+1035
+01:06:14,440 --> 01:06:18,773
+... ugyanaz... nem változott semmi, tehát a POM alapján
+
+1036
+01:06:19,960 --> 01:06:27,400
+- a POM alapján fut a teszt, és a ... 
+- Ránézzünk a konfigodra? (Feri)
+
+1037
+01:06:27,400 --> 01:06:29,400
+Ööö
+
+1038
+01:06:29,400 --> 01:06:31,400
+ránézhetünk
+
+1039
+01:06:31,400 --> 01:06:33,400
+most egyébként érdekes, mert ööö
+
+1040
+01:06:33,400 --> 01:06:36,666
+ööö, nem az egész 
+
+1041
+01:06:36,660 --> 01:06:40,906
+buildet futtattam, csak a fastDateFormatter osztálynaka teszt
+
+1042
+01:06:40,900 --> 01:06:44,320
+osztályát, és így lefutott a teszt, viszont a 
+
+1043
+01:06:44,320 --> 01:06:48,640
+a clean tesztes az ami nem...
+
+1044
+01:06:48,640 --> 01:06:51,880
+És én... én úgy emlékszem, hogy amikor elolvastam ezt, rögtön futtattam, 
+
+1045
+01:06:51,880 --> 01:06:54,373
+és akkor már nekem több exception-öm
+
+1046
+01:06:54,973 --> 01:06:57,853
+vagy több hiba is volt a tesztben
+
+1047
+01:06:57,850 --> 01:07:00,893
+Ülj le nyugodtan
+
+1048
+01:07:00,893 --> 01:07:02,890
+a numberes az
+
+1049
+01:07:04,720 --> 01:07:08,186
+1.7-es javat használ, és a 
+
+1050
+01:07:08,180 --> 01:07:09,426
+[kattint]
+
+1051
+01:07:11,893 --> 01:07:13,906
+... test-A... (Feri)
+
+1052
+01:07:13,900 --> 01:07:17,120
+defaultot használja, viszont
+
+1053
+01:07:17,280 --> 01:07:20,266
+a project explorerben pont ... látszik
+
+1054
+01:07:20,493 --> 01:07:24,120
+a java version meg 1.0 alapból 
+
+1055
+01:07:24,120 --> 01:07:28,013
+[nézik a configurationt]
+
+1056
+01:07:28,010 --> 01:07:36,680
+[kattintgat]
+
+1057
+01:07:39,080 --> 01:07:42,813
+És a...a createNumberes az megfixálódott? (Feri)
+
+1058
+01:07:42,813 --> 01:07:44,810
+Az, az rögtön megoldódott, igen
+
+1059
+01:07:44,810 --> 01:07:48,453
+csak utána maradt, van a valami batch-os
+
+1060
+01:07:48,453 --> 01:07:50,450
+ööö... igen
+
+1061
+01:07:50,450 --> 01:07:53,253
+stopWatch, meg a, meg ööö
+
+1062
+01:07:53,253 --> 01:07:55,250
+ez a fastDateformatter
+
+1063
+01:07:55,760 --> 01:07:58,293
+ez a simpleDateFormatterből
+
+1064
+01:07:58,290 --> 01:08:02,333
+az apache-nak egy származtatott osztálya, és annak
+
+1065
+01:08:02,333 --> 01:08:04,330
+valami tesztesete
+
+1066
+01:08:04,330 --> 01:08:07,600
+... ami simpleDateFormatterrel működik
+
+1067
+01:08:07,600 --> 01:08:12,346
+És a jUnitos konfigokban ott konkrét teszteket futtattál volna csak ugye? Tesztosztályokat (Feri) 
+
+1068
+01:08:12,340 --> 01:08:15,480
+Ööö, igen, csak osztályokat
+
+1069
+01:08:17,426 --> 01:08:21,493
+Ezeket egyeket nem így csináltam, csak jobb klikkel a project explorerben a 
+
+1070
+01:08:21,493 --> 01:08:23,490
+a run as... jUnit
+
+1071
+01:08:25,600 --> 01:08:26,413
+[kattint]
+
+1072
+01:08:26,410 --> 01:08:30,360
+[nézik a konfigurációt]
+
+1073
+01:08:30,360 --> 01:08:31,266
+[kattint]
+
+1074
+01:08:34,066 --> 01:08:37,466
+Néztem, hogy logol-e valahova, de nem találtam erre utaló
+
+1075
+01:08:37,460 --> 01:08:41,440
+jelet sehol, úgyhogy nem tudom, az első futásom eredményét megnézni
+
+1076
+01:08:42,106 --> 01:08:44,520
+Ja, nem, megnézzük, hogy a (Feri)
+
+1077
+01:08:44,520 --> 01:08:46,520
+az A-s végigfut (Feri)
+
+1078
+01:08:46,520 --> 01:08:48,520
+[kattint]
+
+1079
+01:08:49,573 --> 01:08:51,946
+akkor mit mond rá (Feri)
+
+1080
+01:08:51,940 --> 01:08:54,640
+ha végigfutsz (Feri)
+
+1081
+01:08:54,813 --> 01:08:58,040
+[görget] Teker (Feri) 
+
+1082
+01:08:58,040 --> 01:09:00,040
+Igen (Feri)
+
+1083
+01:09:00,040 --> 01:09:03,320
+[vár, futtat]
+
+1084
+01:09:03,320 --> 01:09:06,826
+Mindjárt megnézzük, hogy mit csinál (Feri)
+
+1085
+01:09:06,820 --> 01:09:15,493
+[vár, nézi az eredményt]
+
+1086
+01:09:17,653 --> 01:09:21,866
+- Csinál-e egyáltalán valamit (Feri)
+- Csinál, elég lassan futott le 
+
+1087
+01:09:23,133 --> 01:09:26,986
+Ööö, először is azért mentem erre a jobb klikkes megoldásra, hogy csak azt 
+
+1088
+01:09:26,980 --> 01:09:31,533
+futtattam le, mert az ... tényleg úgy rémlik, most megesküdni nem mernék rá, de
+
+1089
+01:09:31,533 --> 01:09:33,530
+de... 
+
+1090
+01:09:33,530 --> 01:09:37,186
+- Most látod? Így meg lefutott a teszteset. 
+- Aha látom, itt zöld. 
+
+1091
+01:09:37,180 --> 01:09:39,973
+Tehát valamiért szerintem a configban
+
+1092
+01:09:40,000 --> 01:09:45,000
+Lehet, hogy valami elcsúszott, amire nem számítottam vagy számítottunk (Feri)
+
+1093
+01:09:45,000 --> 01:09:57,280
+[nézi a kódot, gondolkodik]
+
+1094
+01:09:58,320 --> 01:10:10,120
+[futtat, várja az eredményt]
+
+1095
+01:10:10,120 --> 01:10:12,786
+Mást nem akkor csinálunk egy olyat, hogy a number (Feri)
+
+1096
+01:10:14,200 --> 01:10:14,780
+[kattint]
+
+1097
+01:10:14,906 --> 01:10:20,320
+... tesztet letúrjuk még egyszer, ha azzal lesz, akkor igazából (Feri)
+
+1098
+01:10:20,320 --> 01:10:23,826
+Az.. az itt is látszik most, hogy nulla failure
+
+1099
+01:10:23,820 --> 01:10:27,586
+hogyha control + F-ezek az outputban
+
+1100
+01:10:28,320 --> 01:10:30,933
+az.. az megoldódott, igazából 
+
+1101
+01:10:30,930 --> 01:10:33,933
+nem tudom, hogy a megoldást a return 0
+
+1102
+01:10:33,930 --> 01:10:37,773
+csináltam, mittudomén, vagy írtam át newExceptionre
+
+1103
+01:10:39,066 --> 01:10:42,453
+Vagy... vagy a catch ágba menjen a 
+
+1104
+01:10:42,450 --> 01:10:45,320
+...dolog
+
+1105
+01:10:45,320 --> 01:10:51,120
+[nézi az eredményt]
+
+1106
+01:10:51,120 --> 01:10:53,120
+Rohadt lassú (Feri)
+
+1107
+01:10:53,120 --> 01:10:57,186
+[vár, nézi az eredményt]
+
+1108
+01:10:57,186 --> 01:10:59,180
+Megoldást elárulhatjuk? (Feri) 
+
+1109
+01:10:59,180 --> 01:11:02,386
+Igazából... megvolt a megoldás, szóval (Feri) 
+
+1110
+01:11:04,413 --> 01:11:07,853
+Hát a jó megoldásokat? ... mámint ha tényleg megoldottad (Gergő)
+
+1111
+01:11:08,840 --> 01:11:11,773
+Én annyit csináltam, hogyha mínuszmínusszal kezdődik akkor 
+
+1112
+01:11:11,770 --> 01:11:13,893
+throw newNewNumberFormatException
+
+1113
+01:11:13,893 --> 01:11:15,890
+Volt egy expectedException (Feri) 
+
+1114
+01:11:15,890 --> 01:11:19,786
+numberFormat, tehát az ilyen szempontból az jó, szerintem akkor jó lesz ez (Feri)
+
+1115
+01:11:20,733 --> 01:11:23,253
+Nem tudom, ezek a többiek honnan jöttek be (Feri) 
+
+1116
+01:11:25,333 --> 01:11:27,773
+Most nem tudom, miért ilyen rohadt lassú (Feri)
+
+1117
+01:11:28,586 --> 01:11:32,573
+Amúgy már először, amikor az első ránézésre jöttem be, már akkor is lassú volt (Gergő)
+
+1118
+01:11:32,573 --> 01:11:34,570
+Aha (Feri)
+
+1119
+01:11:35,026 --> 01:11:40,373
+- De most leállítottad? 
+- Nem, csak a task managert akartam megnyitni, hogy hogy állunk (Feri)
+
+1120
+01:11:42,986 --> 01:11:44,800
+CPU-ügyileg (Feri)  
+
+1121
+01:11:46,666 --> 01:11:50,906
+Ööö, ez a fastDateFormatter, ahol elszállunk
+
+1122
+01:11:52,106 --> 01:11:53,480
+az OBS az viszi
+
+1123
+01:11:53,480 --> 01:11:55,480
+[nevetnek]
+
+1124
+01:11:55,480 --> 01:12:00,226
+Hát, az a baj, hogy szoftver encodinggal megyünk, mert ugye virtualizált a környezet, úgyhogy (Feri)
+
+1125
+01:12:00,220 --> 01:12:03,813
+[vár]
+
+1126
+01:12:03,810 --> 01:12:08,973
+Igen, itt is lassabb egy kicsit a környezet mint a szokásos kabinetes tempó (Feri)
+
+1127
+01:12:08,970 --> 01:12:16,466
+[vár, nézi a képernyőt]
+
+1128
+01:12:16,460 --> 01:12:17,360
+[kattint]
+
+1129
+01:12:17,360 --> 01:12:19,360
+Ez meg a teszt... (Feri)
+
+1130
+01:12:19,360 --> 01:12:22,973
+[kattint] NumberUtils
+
+1131
+01:12:23,813 --> 01:12:26,306
+- Igazából ezt módosítottam
+- Aha (Feri)
+
+1132
+01:12:27,986 --> 01:12:28,826
+Aha (Feri)
+
+1133
+01:12:28,820 --> 01:12:31,280
+[nézi az eredményt]
+
+1134
+01:12:31,280 --> 01:12:34,120
+Na most legalább tekeri a teszteket (Feri)
+
+1135
+01:12:34,600 --> 01:12:37,666
+[vár]
+
+1136
+01:12:37,660 --> 01:12:40,533
+Ezután a rész után jön nem sokkal a digites
+
+1137
+01:12:40,530 --> 01:12:58,653
+[nézi az eredményt]
+
+1138
+01:12:58,653 --> 01:13:00,650
+...most jön...
+
+1139
+01:13:01,426 --> 01:13:06,013
+És ez egy hosszú teszt, mert 20 másodpercig vár a threadekre, és utána
+
+1140
+01:13:06,010 --> 01:13:10,040
+ööö, shutdownolja force-szal, vagy nem tudom
+
+1141
+01:13:10,560 --> 01:13:13,520
+- ez a függvény.
+- Az nem lehet, hogy (Gergő) 
+
+1142
+01:13:13,520 --> 01:13:17,746
+futtattad a ... kívül a jUnit teszteket, nem? (Gergő)
+
+1143
+01:13:18,026 --> 01:13:21,800
+De én legelőször is... legelőször a zöld gomb melletti
+
+1144
+01:13:21,800 --> 01:13:25,626
+ööö, konfiggal futtattam a task A
+
+1145
+01:13:25,626 --> 01:13:27,620
+konfigurációval
+
+1146
+01:13:27,620 --> 01:13:32,000
+Utána, amikor ez lassú volt, utána megnéztem jobb klikkel, de 
+
+1147
+01:13:32,000 --> 01:13:34,000
+annak e... nem tudom, ez 
+
+1148
+01:13:34,413 --> 01:13:36,880
+ez gondolom POM alapján megy a build 
+
+1149
+01:13:36,880 --> 01:13:40,346
+- Igen, a POM alapján (Feri)
+- Ahhoz nem nyúltam
+
+1150
+01:13:40,340 --> 01:13:43,293
+Itt valami sebesség-hülyeség lesz, menjünk le a (Feri) 
+
+1151
+01:13:43,290 --> 01:13:45,813
+valahova az aljára teljesen (Feri)
+
+1152
+01:13:46,733 --> 01:13:47,810
+Ja még tolja (Feri)
+
+1153
+01:13:47,810 --> 01:13:51,253
+[görget] aha (Feri)
+
+1154
+01:13:51,250 --> 01:13:55,080
+Ja és itt ugyanazt csinálja, csak a simpleDateFormat
+
+1155
+01:13:55,080 --> 01:13:58,080
+osztállyal, ez a fastDateFormat osztály pedig 
+
+1156
+01:13:58,080 --> 01:14:00,080
+ebből származik, és az apache-é
+
+1157
+01:14:00,653 --> 01:14:03,173
+és itt, itt van egy exception
+
+1158
+01:14:03,170 --> 01:14:05,853
+vagyis [kattint] pontosabban 
+
+1159
+01:14:06,786 --> 01:14:07,850
+...itt...
+
+1160
+01:14:08,760 --> 01:14:11,733
+- ezzel a faillel találkozunk
+- Aha (Feri) 
+
+1161
+01:14:12,293 --> 01:14:17,293
+Aaa, akkor valószínűleg izé, ... idő (Feri)
+
+1162
+01:14:17,290 --> 01:14:20,733
+időfüggő, tehát mittomén ilyen lassan fut (Feri) 
+
+1163
+01:14:20,730 --> 01:14:23,053
+onnan kifut a 20 másodpercből (Feri)
+
+1164
+01:14:23,050 --> 01:14:25,266
+- valahol le van állítva (Feri)
+- Az lehet 
+
+1165
+01:14:25,266 --> 01:14:27,260
+most letekerte a teszteket (Feri) 
+
+1166
+01:14:27,260 --> 01:14:28,520
+[görget]
+
+1167
+01:14:28,520 --> 01:14:30,520
+És ez az egy van, igaz? (Feri)
+
+1168
+01:14:30,520 --> 01:14:33,120
+- Ööö, failed teszt
+- Jó (Feri)
+
+1169
+01:14:33,120 --> 01:14:35,520
+De egyébként ez meg... most megoldottál egy 
+
+1170
+01:14:35,520 --> 01:14:39,120
+akkor egyet, mert volt eddig a stopWatchos is
+
+1171
+01:14:39,706 --> 01:14:43,013
+Hát, ööö, az lehet hogy ilyen .... (Feri)
+
+1172
+01:14:43,826 --> 01:14:46,653
+néha kijön, néha nem (Feri)
+
+1173
+01:14:46,650 --> 01:14:50,813
+igazából a feladat feladatrészével készen vagy, mert a... ezt (Feri)
+
+1174
+01:14:50,810 --> 01:14:55,720
+megoldottad, tehát az amit kaptál megoldás az az egyik jó megoldás (Feri)
+
+1175
+01:14:56,546 --> 01:14:58,906
+Úgyhogy készen van innentől igazából (Feri)
+
+1176
+01:14:58,900 --> 01:15:02,000
+- Jó 
+- A záróakkordot átadom Gergőnek (Feri)
+
+1177
+01:15:02,000 --> 01:15:04,413
+Jó, hát ööö
+
+1178
+01:15:04,410 --> 01:15:07,013
+Oké, azt a részét, hogy megkerestem a hibát
+
+1179
+01:15:07,013 --> 01:15:09,010
+meg minden, azt végigbeszéltem
+
+1180
+01:15:09,986 --> 01:15:15,480
+... mi az elvárt működés, miért return 0, stb. stb. az dokumentálva van
+
+1181
+01:15:15,480 --> 01:15:17,840
+itt, itt amikor kerestem a hibát, a
+
+1182
+01:15:17,840 --> 01:15:19,840
+akkor is beszéltem, de nem tudom, hogy
 

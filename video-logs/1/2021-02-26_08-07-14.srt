@@ -28,7 +28,7 @@ Gergő: Ebben a szekcióban az eszközökkel kapcsolatos ilyen használati eset 
 
 8
 00:00:33,000 --> 00:00:39,000
-Gergő: Úgy fog kinézni a történet, hogy én mondok neked egy ilyen használati esetet, felttelezést.
+Gergő: Úgy fog kinézni a történet, hogy én mondok neked egy ilyen használati esetet, feltételezést.
 
 9
 00:00:40,000 --> 00:00:48,000

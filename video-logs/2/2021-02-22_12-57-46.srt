@@ -684,7 +684,7 @@ akkor lesz értéke az exp-nek, az jelen esetben elvileg kisebb
 
 172
 00:15:17,520 --> 00:15:25,400
-visszaugrok már, hol volt a tesztnek a .... should double
+visszaugrok már, hol volt a tesztnek a ... instanceOfDouble
 
 173
 00:15:25,400 --> 00:15:32,350
@@ -3558,7 +3558,7 @@ vagy
 
 890
 01:25:52,780 --> 01:25:59,530
-akkor nem, és akkor it a double-nél is megcsináljuk ezt a nullchecket
+akkor nem, és akkor itt a double-nél is megcsináljuk ezt a nullchecket
 
 891
 01:26:00,480 --> 01:26:06,670
