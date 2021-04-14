@@ -1,0 +1,171 @@
+﻿47
+00:02:29,136 --> 00:02:31,440
+Okay, then let's see the next such (instructor)
+
+48
+00:02:31,440 --> 00:02:34,656
+case, let's say that during the task you solved (instructor)
+
+49
+00:02:34,650 --> 00:02:38,064
+last time, when you wanted to examine the errors (instructor)
+
+50
+00:02:38,064 --> 00:02:40,060
+within the project (instructor)
+
+51
+00:02:40,256 --> 00:02:44,240
+loading the list would have taken 5 minutes (instructor)
+
+52
+00:02:44,240 --> 00:02:49,024
+meanwhile the Eclipse development environment wouldn't respond to commands (instructor)
+
+53
+00:02:49,488 --> 00:02:51,408
+how would this have affected you? (instructor)
+
+54
+00:02:51,408 --> 00:02:53,400
+Well, uuuh, 
+
+55
+00:02:53,400 --> 00:02:56,480
+I had such a, well not exactly this issue
+
+56
+00:02:56,480 --> 00:03:01,536
+but... I had library problems, for me
+
+57
+00:03:01,530 --> 00:03:04,032
+it explicitly underlined the 
+
+58
+00:03:04,032 --> 00:03:06,030
+I think the stringUtilst 
+
+59
+00:03:06,030 --> 00:03:10,352
+and uuuh, when you have a specific task, then those
+
+60
+00:03:10,350 --> 00:03:13,840
+errors that do not belong there can be really annoying [laughs]
+
+61
+00:03:13,840 --> 00:03:16,176
+and then others also come out, obviously a project clean and 
+
+62
+00:03:16,170 --> 00:03:18,864
+etc. can solve this, usually, in Eclipse 
+
+63
+00:03:19,840 --> 00:03:22,880
+But otherwise, yeah, it annoys me a little
+
+64
+00:03:22,880 --> 00:03:25,328
+or if there are those that, 
+
+65
+00:03:25,952 --> 00:03:28,736
+well, that are quite unexpected, that for 
+
+66
+00:03:28,736 --> 00:03:30,730
+completely separate reasons 
+
+67
+00:03:30,730 --> 00:03:32,928
+just a kind of fiddling around, like let's say
+
+68
+00:03:32,920 --> 00:03:35,392
+the development environment is how it is, or the
+
+69
+00:03:35,952 --> 00:03:38,368
+the development tool, or the computer, or the 
+
+70
+00:03:38,360 --> 00:03:40,848
+whatever else, then that can annoy me
+
+71
+00:03:40,848 --> 00:03:42,840
+quite a lot
+
+72
+00:03:42,840 --> 00:03:45,360
+I’m not saying it would specifically negatively affect it, 
+
+73
+00:03:45,360 --> 00:03:47,296
+because this usually  
+
+74
+00:03:47,290 --> 00:03:50,480
+does occur, so it is a typical developer error 
+
+75
+00:03:51,088 --> 00:03:53,808
+So it's not that negative, rather it just causes  
+
+76
+00:03:53,808 --> 00:03:55,800
+stressful situations, especially if you have a deadline
+
+77
+00:03:56,480 --> 00:03:58,608
+and here I imagine this as 
+
+78
+00:03:58,608 --> 00:04:00,600
+a deadline, because time 
+
+79
+00:04:00,600 --> 00:04:01,808
+there is a time limit
+
+80
+00:04:01,800 --> 00:04:05,456
+during which you should be finished, and my expectation is that I want to be able to finish
+
+81
+00:04:07,008 --> 00:04:09,536
+it might just be because of this, or if somebody 
+
+82
+00:04:09,536 --> 00:04:11,530
+I'm sure there are people to whom
+
+83
+00:04:11,530 --> 00:04:14,080
+to whom it doesn't matter, because they don't care
+
+84
+00:04:14,080 --> 00:04:16,080
+about it, to me this is more like a competition
+
+85
+00:04:16,080 --> 00:04:18,320
+this situation [laughs] and so
+
+86
+00:04:18,320 --> 00:04:20,512
+I want to do it well, and then
+
+87
+00:04:20,510 --> 00:04:22,944
+every other such thing bothers me.
+
+88
+00:04:22,940 --> 00:04:26,720
+so this is how it affects me, it's like 
+
+89
+00:04:26,720 --> 00:04:29,728
+it like creates a stressful situation, yeah. 

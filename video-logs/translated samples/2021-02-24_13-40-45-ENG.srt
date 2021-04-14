@@ -1,0 +1,31 @@
+﻿29
+00:04:22,570 --> 00:04:29,450
+Oookay, now let's see... what's going on here [clicks on the test case]
+
+30
+00:04:29,450 --> 00:04:36,510
+Well I don't know, I don't think coverage can help us much right now
+
+31
+00:04:36,510 --> 00:04:45,140
+I'm not trying to write a new test, well okay, clearly we can look at what it shows, oh, yeah especially if
+
+32
+00:04:45,140 --> 00:04:50,340
+If this is not how you do it at all, but by default did it not...?
+
+33
+00:04:50,340 --> 00:04:58,570
+It didn't run, well never mind then.  Well then what to do, what does it say... [deep sigh]
+
+34
+00:04:58,570 --> 00:05:06,310
+Yes, coverage as, on coverage all, on coverage all
+
+35
+00:05:06,310 --> 00:05:13,000
+Good, click JUnit test, mhm
+
+36
+00:05:13,000 --> 00:05:23,510
+Call graph... it's super interesting though that, that Atlas plugin, it's possible it won't be able to help in this exact situation, I'll look into it in a second

@@ -1,0 +1,196 @@
+﻿81
+00:02:42,800 --> 00:02:45,920
+well I'm gonna run the base...
+
+82
+00:02:45,920 --> 00:02:47,920
+or... next to the green run button
+
+83
+00:02:47,920 --> 00:02:52,160
+from the arrow pointing down we choose the taskA configuration from the dropdown menu
+
+84
+00:02:54,160 --> 00:02:56,160
+[sighs]
+
+85
+00:02:58,160 --> 00:03:00,160
+[sighs]
+
+86
+00:03:00,160 --> 00:03:02,160
+from the dropdown menu choose
+
+87
+00:03:02,160 --> 00:03:04,160
+okay
+
+88
+00:03:04,160 --> 00:03:06,160
+[Clicks on the TaskA test] [runs the test]
+
+89
+00:03:08,160 --> 00:03:11,020
+now I'm waiting for it to finish running
+
+90
+00:03:11,020 --> 00:03:13,020
+I can see this is a maven project
+
+91
+00:03:13,020 --> 00:03:15,020
+though I could guess that from the
+
+92
+00:03:15,020 --> 00:03:17,020
+src main java and
+
+93
+00:03:17,020 --> 00:03:19,020
+from pom
+
+94
+00:03:20,410 --> 00:03:24,980
+It's interesting though, because the jre system library says java 1.6
+
+95
+00:03:24,980 --> 00:03:27,530
+but here it was run with 1.7
+
+96
+00:03:27,530 --> 00:03:29,530
+[clears his throat]
+
+97
+00:03:29,530 --> 00:03:32,120
+well anyway
+
+98
+00:03:32,120 --> 00:03:34,120
+I'll look into this
+
+99
+00:03:34,120 --> 00:03:37,040
+okay here I can see
+
+100
+00:03:37,040 --> 00:03:39,690
+it deleted them
+
+101
+00:03:45,690 --> 00:03:48,260
+[adjusts glasses]
+
+102
+00:03:48,260 --> 00:03:50,930
+I'll search for
+
+103
+00:03:58,930 --> 00:04:01,430
+in math
+
+104
+00:04:01,430 --> 00:04:03,430
+the... erm
+
+105
+00:04:05,430 --> 00:04:07,760
+NumberUtils.java
+
+106
+00:04:07,760 --> 00:04:11,670
+but otherwise you should search for it in the test
+
+107
+00:04:11,670 --> 00:04:13,670
+but for this
+
+108
+00:04:13,670 --> 00:04:17,770
+java class (unintelligible)... you can make sense of the test
+
+109
+00:04:21,770 --> 00:04:24,160
+I will open these
+
+110
+00:04:24,160 --> 00:04:29,040
+and I'll search for the taskCreatNumber task
+
+111
+00:04:29,040 --> 00:04:31,520
+this is a constructor
+
+112
+00:04:33,520 --> 00:04:35,920
+testToInt
+
+113
+00:04:35,920 --> 00:04:37,540
+string
+
+114
+00:04:37,540 --> 00:04:39,540
+this is a relatively long file so I will
+
+115
+00:04:39,540 --> 00:04:41,540
+search with ctrl+f
+
+116
+00:04:41,540 --> 00:04:45,030
+umm... I hope this will work
+
+117
+00:04:46,750 --> 00:04:49,260
+I'm looking for the test [types]
+
+118
+00:04:49,260 --> 00:04:54,820
+Creat, but anyway in eclipse there should be an option to see
+
+119
+00:04:54,820 --> 00:04:56,820
+the functions
+
+120
+00:04:58,200 --> 00:05:00,810
+in Window maybe editor
+
+121
+00:05:05,970 --> 00:05:09,040
+show view and here is one called
+
+122
+00:05:09,040 --> 00:05:11,040
+not project
+
+123
+00:05:11,040 --> 00:05:13,040
+buut
+
+124
+00:05:13,040 --> 00:05:15,780
+expressions maybe
+
+125
+00:05:17,780 --> 00:05:19,780
+nope nope nope nope
+
+126
+00:05:20,900 --> 00:05:22,100
+I want to see somewhere the...
+
+127
+00:05:26,100 --> 00:05:28,100
+what this contains
+
+128
+00:05:28,900 --> 00:05:33,250
+never mind, I'll just search for it instead of wasting more time on it, because I don't know how they
+
+129
+00:05:33,250 --> 00:05:35,250
+planned this one and a half hour
+
