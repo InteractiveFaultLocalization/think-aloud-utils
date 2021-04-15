@@ -28,4 +28,4 @@ Good, click JUnit test, mhm
 
 36
 00:05:13,000 --> 00:05:23,510
-Call graph... it's super interesting though that, that Atlas plugin, it's possible it won't be able to help in this exact situation, I'll look into it in a second
+Call graph... it's super interesting though, that Atlas plugin, it's possible it won't be able to help in this exact situation, I'll look into it in a second

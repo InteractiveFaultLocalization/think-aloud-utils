@@ -44,7 +44,7 @@ it explicitly underlined the
 
 58
 00:03:04,032 --> 00:03:06,030
-I think the stringUtilst 
+I think the StringUtils 
 
 59
 00:03:06,030 --> 00:03:10,352

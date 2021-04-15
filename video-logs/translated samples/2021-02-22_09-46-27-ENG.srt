@@ -8,7 +8,7 @@ or... next to the green run button
 
 83
 00:02:47,920 --> 00:02:52,160
-from the arrow pointing down we choose the taskA configuration from the dropdown menu
+from the arrow pointing down we choose the TaskA configuration from the dropdown menu
 
 84
 00:02:54,160 --> 00:02:56,160
@@ -44,15 +44,15 @@ though I could guess that from the
 
 92
 00:03:15,020 --> 00:03:17,020
-src main java and
+src/main/java structure and
 
 93
 00:03:17,020 --> 00:03:19,020
-from pom
+from POM
 
 94
 00:03:20,410 --> 00:03:24,980
-It's interesting though, because the jre system library says java 1.6
+It's interesting though, because the JRE system library says Java 1.6
 
 95
 00:03:24,980 --> 00:03:27,530
@@ -108,7 +108,7 @@ but for this
 
 108
 00:04:13,670 --> 00:04:17,770
-java class (unintelligible)... you can make sense of the test
+Java class (unintelligible)... you can make sense of the test
 
 109
 00:04:21,770 --> 00:04:24,160
@@ -116,7 +116,7 @@ I will open these
 
 110
 00:04:24,160 --> 00:04:29,040
-and I'll search for the taskCreatNumber task
+and I'll search for the testCreatNumber test
 
 111
 00:04:29,040 --> 00:04:31,520
