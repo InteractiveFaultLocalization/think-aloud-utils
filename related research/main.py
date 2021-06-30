@@ -1,14 +1,26 @@
+from dataclasses import dataclass
+from enum import Enum
 from typing import Set
 from varname import nameof
 
 import bibtexparser
 
 
-def print_set(items: Set[str], title: str):
-    print(title + "\n" + "=" * len(title))
-    items = set(items)
-    print('\n'.join(items))
-    print()
+class ForumType(Enum):
+    JOURNAL = 'journal'
+    CONFERENCE = 'conference'
+
+
+@dataclass
+class Forum:
+    name: str
+    kind: ForumType
+
+    def __str__(self):
+        return f'|{self.name}|{self.kind.value}|'
+
+    def __hash__(self) -> int:
+        return self.name.__hash__()
 
 
 def main():
@@ -16,19 +28,22 @@ def main():
     with open('1.1phase.bib', 'r', encoding='utf-8') as bibfile:
         bibliography: bibtexparser.bibdatabase.BibDatabase = bibtexparser.load(bibfile, parser)
 
-    journals = {}
-    proceedings = {}
+    forums = {}
     for entry in bibliography.get_entry_list():
         if 'journal' in entry:
-            journal = entry['journal']
-            journals[journal] = journals.get(journal, 0) + 1
+            name = entry['journal']
+            kind = ForumType.JOURNAL
         elif 'booktitle' in entry:
-            proceeding = entry['booktitle']
-            proceedings[proceeding] = proceedings.get(proceeding, 0) + 1
+            name = entry['booktitle']
+            kind = ForumType.CONFERENCE
         else:
             print(f"{entry['title']} ({entry['ENTRYTYPE']}): {';'.join(entry.keys())}")
-    print_set(set(journals), nameof(journals))
-    print_set(set(proceedings), nameof(proceedings))
+            continue
+        forum = Forum(name, kind)
+        forums[forum] = forums.get(forum, []) + [entry]
+
+    for forum in forums:
+        print(forum)
 
 
 if __name__ == '__main__':
