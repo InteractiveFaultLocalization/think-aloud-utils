@@ -31,20 +31,22 @@ def main():
             published_papers = papers[papers['journal'] == name]
             forums = forums.append({'name': name, 'type': ForumType.JOURNAL, 'papers': published_papers}, ignore_index=True)
     proceedings = papers['booktitle'].drop_duplicates()
-    for name in journals:
+    for name in proceedings:
         if not (isinstance(name, float) and math.isnan(name)):
             published_papers = papers[papers['booktitle'] == name]
             forums = forums.append({'name': name, 'type': ForumType.CONFERENCE, 'papers': published_papers}, ignore_index=True)
 
-    forums['paper ref tags'] = forums['papers'].apply(lambda df: df.apply(id_tag_of, axis=0))
+    def get_refs(refs: pandas.DataFrame):
+        try:
+            results = refs.apply(id_tag_of, axis=1)
+        except Exception as exc:
+            traceback.print_exc()
+        return results
 
-    for forum, papers in forums.items():
-        tags = []
-        for paper in papers:
-            try:
-                tags.append(id_tag_of(paper))
-            except ValueError:
-                traceback.print_exc()
+    refs = forums['papers'].apply(get_refs)
+    #forums['paper ref tags'] =
+
+    for entry in forums:
         print(str(forum) + ', '.join(tags))
 
 
