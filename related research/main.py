@@ -1,9 +1,12 @@
+import math
+import traceback
 from dataclasses import dataclass
 from enum import Enum
-from typing import Set
-from varname import nameof
+import pandas
 
 import bibtexparser
+
+from util.bibtex_entry import id_tag_of
 
 
 class ForumType(Enum):
@@ -11,39 +14,38 @@ class ForumType(Enum):
     CONFERENCE = 'conference'
 
 
-@dataclass
-class Forum:
-    name: str
-    kind: ForumType
-
-    def __str__(self):
-        return f'|{self.name}|{self.kind.value}|'
-
-    def __hash__(self) -> int:
-        return self.name.__hash__()
-
-
 def main():
+    forums = pandas.DataFrame()
+
     parser = bibtexparser.bparser.BibTexParser(common_strings=True, ignore_nonstandard_types=False)
     with open('1.1phase.bib', 'r', encoding='utf-8') as bibfile:
         bibliography: bibtexparser.bibdatabase.BibDatabase = bibtexparser.load(bibfile, parser)
 
-    forums = {}
+    papers = pandas.DataFrame()
     for entry in bibliography.get_entry_list():
-        if 'journal' in entry:
-            name = entry['journal']
-            kind = ForumType.JOURNAL
-        elif 'booktitle' in entry:
-            name = entry['booktitle']
-            kind = ForumType.CONFERENCE
-        else:
-            print(f"{entry['title']} ({entry['ENTRYTYPE']}): {';'.join(entry.keys())}")
-            continue
-        forum = Forum(name, kind)
-        forums[forum] = forums.get(forum, []) + [entry]
+        papers = papers.append(entry, ignore_index=True)
 
-    for forum in forums:
-        print(forum)
+    journals = papers['journal'].drop_duplicates()
+    for name in journals:
+        if not (isinstance(name, float) and math.isnan(name)):
+            published_papers = papers[papers['journal'] == name]
+            forums = forums.append({'name': name, 'type': ForumType.JOURNAL, 'papers': published_papers}, ignore_index=True)
+    proceedings = papers['booktitle'].drop_duplicates()
+    for name in journals:
+        if not (isinstance(name, float) and math.isnan(name)):
+            published_papers = papers[papers['booktitle'] == name]
+            forums = forums.append({'name': name, 'type': ForumType.CONFERENCE, 'papers': published_papers}, ignore_index=True)
+
+    forums['paper ref tags'] = forums['papers'].apply(lambda df: df.apply(id_tag_of, axis=0))
+
+    for forum, papers in forums.items():
+        tags = []
+        for paper in papers:
+            try:
+                tags.append(id_tag_of(paper))
+            except ValueError:
+                traceback.print_exc()
+        print(str(forum) + ', '.join(tags))
 
 
 if __name__ == '__main__':
