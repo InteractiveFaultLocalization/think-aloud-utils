@@ -1,0 +1,44 @@
+|IEEE/ACM International Conference on Automated Software Engineering|ASE|conference|http://ase-conferences.org/|https://dblp.uni-trier.de/db/conf/kbse/index.html|The Conference Formerly Known As KBSE
+|IEEE/ACM International Conference on Software Engineering|ICSE|conference|http://www.icse-conferences.org/|https://dblp.uni-trier.de/db/conf/icse/index.html
+|ACM Transactions on Computer-Human Interaction|TOCHI|journal|https://dl.acm.org/journal/tochi|https://dblp.uni-trier.de/db/journals/tochi/index.html|
+|ACM Transactions on Interactive Intelligent Systems|TiiS|journal|https://dl.acm.org/journal/tiis|https://dblp.uni-trier.de/db/journals/tiis/index.html|
+|ACM Transactions on Programming Languages and Systems|toplas|journal|https://dl.acm.org/journal/toplas|https://dblp.uni-trier.de/db/journals/toplas/index.html|
+|Artificial Intelligence in Education|AIED|conference|https://iaied.org/|https://dblp.uni-trier.de/db/conf/aied/index.html|
+|Annual Conference on Innovation and Technology in Computer Science Education|ITiCSE|conference|https://iticse.acm.org/|https://dblp.uni-trier.de/db/conf/iticse/index.html|
+|British Journal of Educational Technology|BJET|journal|https://bera-journals.onlinelibrary.wiley.com/journal/14678535|https://dblp.uni-trier.de/db/journals/bjet/index.html|
+|Conference on Human Information Interaction and Retrieval|CHIIR|conference|https://www.chiir.org/|https://dblp.uni-trier.de/db/conf/chiir/index.html|
+|Computers & Electrical Engineering|CEE|journal|https://www.journals.elsevier.com/computers-and-electrical-engineering|https://dblp.uni-trier.de/db/journals/cee/index.html|
+|Computers in Human Behavior|CHB|journal|https://www.journals.elsevier.com/computers-in-human-behavior|https://dblp.uni-trier.de/db/journals/chb/index.html|
+|Computer-Supported Collaborative Learning Conference|CSCL|conference|https://www.isls.org/annual-meeting/cscl/|https://dblp.uni-trier.de/db/conf/cscl/index.html|
+|Conference on Human Factors in Computing Systems|CHI|conference|https://dl.acm.org/conference/chi|https://dblp.uni-trier.de/db/conf/chi/index.html|
+|Computing Research Repository|CoRR|journal|https://arxiv.org/corr|https://dblp.uni-trier.de/db/journals/corr/index.html|
+|Education and Information Technologies|EAIT|journal|https://www.springer.com/journal/10639|https://dblp.uni-trier.de/db/journals/eait/index.html|
+|Electronic Notes in Theoretical Computer Science|ENTCS|conference|http://www.entcs.org/|https://dblp.uni-trier.de/db/journals/entcs/index.html|
+|ACM Joint Meeting European Software Engineering Conference and Symposium on the Foundations of Software Engineering|ESEC/FSE|conference|https://www.esec-fse.org/|https://dblp.uni-trier.de/db/conf/esec/index.html|
+|Evolutionary Intelligence|EVI|journal|https://www.springer.com/journal/12065|https://dblp.uni-trier.de/db/journals/evi/index.html|
+|Frontiers of Computer Science|FCSC|journal|https://www.springer.com/journal/11704|https://dblp.uni-trier.de/db/journals/fcsc/index.html|
+|IEEE Access|Access|journal|https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639|https://dblp.uni-trier.de/db/journals/access/index.html|
+|IEEE International Test Conference|ITC|conference|http://www.itctestweek.org/|https://dblp.uni-trier.de/db/conf/itc/index.html|
+|IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems|TCAD|journal|https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43|https://dblp.uni-trier.de/db/journals/tcad/index.html|
+|IEEE Transactions on Computers|TC|journal|https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12|https://dblp.uni-trier.de/db/journals/tc/index.html|
+|IEEE Transactions on Professional Communication|TPC|journal|https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=47|https://dblp.uni-trier.de/db/journals/tpc/index.html|
+|IEEE Transactions on Software Engineering|TSE|journal|https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32|https://dblp.uni-trier.de/db/journals/tse/index.html|
+|IEEE Transactions on Visualization and Computer Graphics|TVCG|journal|https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945|https://dblp.uni-trier.de/db/journals/tvcg/index.html|
+|Information & Software Technology|INFSOF|journal|https://www.journals.elsevier.com/information-and-software-technology|https://dblp.uni-trier.de/db/journals/infsof/index.html|
+|Interacting with Computers|IWC|journal|https://academic.oup.com/iwc|https://dblp.uni-trier.de/db/journals/iwc/index.html|
+|International Conference on Architectural Support for Programming Languages and Operating Systems|ASPLOS|conference|https://dl.acm.org/conference/asplos|https://dblp.uni-trier.de/db/conf/asplos/index.html|
+|International Journal of Human-Computer Interaction|IJHCI|journal|https://www.tandfonline.com/loi/hihc|https://dblp.uni-trier.de/db/journals/ijhci/index.html|
+|International Journal of Software Engineering and Knowledge Engineering|IJSEKE|journal|https://www.worldscientific.com/worldscinet/ijseke|https://dblp.uni-trier.de/db/journals/ijseke/index.html|
+|Journal of Circuits, Systems and Computers|JCSC|journal|https://www.worldscientific.com/worldscinet/jcsc|https://dblp.uni-trier.de/db/journals/jcsc/index.html|
+|Journal of Computer Assisted Learning|JCAL|journal|https://onlinelibrary.wiley.com/journal/13652729|https://dblp.uni-trier.de/db/journals/jcal/index.html|
+|Journal of Software Maintenance and Evolution|SMR|conference|https://onlinelibrary.wiley.com/journal/20477481|https://dblp.uni-trier.de/db/journals/smr/index.html|
+|Journal of Systems and Software|JSS|journal|https://www.sciencedirect.com/journal/journal-of-systems-and-software|https://dblp.uni-trier.de/db/journals/jss/index.html|
+|International Workshop on Rapid Continuous Software Engineering|RCoSE|conference|https://dl.acm.org/doi/proceedings/10.5555/3340865|https://dblp.uni-trier.de/db/conf/rcose/index.html|
+|International Workshop on Database and Expert Systems Applications|DEXA|conference|http://www.dexa.org/|https://dblp.uni-trier.de/db/conf/dexa/index.html|
+|International Conference on Human-Computer Interaction|HCI|conference|http://www.hci.international/|https://dblp.uni-trier.de/db/conf/hci/index.html|
+|Conference of the International Speech Communication Association|INTERSPEECH|conference|https://www.isca-speech.org/iscaweb/|https://dblp.uni-trier.de/db/conf/interspeech/index.html|
+|Asian Test Symposium|ATS|conference|http://www.ieee-ats.org/|https://dblp.uni-trier.de/db/conf/ats/index.html|
+|European Conference on Software Maintenance and Reengineering|CSMR|conference|not found|https://dblp.uni-trier.de/db/conf/csmr/index.html|
+|Science of Computer Programming|SCP|journal|https://www.sciencedirect.com/journal/science-of-computer-programming|https://dblp.uni-trier.de/db/journals/scp/index.html|
+|Sensors|SENSORS|journal|https://www.mdpi.com/journal/sensors|https://dblp.uni-trier.de/db/journals/sensors/index.html|
+|Universal Access in the Information Society|UAIS|journal|https://www.springer.com/journal/10209|https://dblp.uni-trier.de/db/journals/uais/index.html|

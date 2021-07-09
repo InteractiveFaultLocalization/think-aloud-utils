@@ -11,4 +11,4 @@ def id_tag_of(entry: Dict):
     elif 'arxivid' in entry:
         return f"ref:arxiv:{entry['arxivid']}"
     else:
-        raise ValueError(f'Missing ID for {entry["title"]}')
+        raise ValueError(f'Missing ID for {entry}')
