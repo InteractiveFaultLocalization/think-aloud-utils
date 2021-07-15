@@ -1,7 +1,10 @@
 import logging
 import os
 import re
-from typing import Tuple
+from typing import Tuple, Optional
+
+import varname
+
 import util.log
 import pandas
 
@@ -13,14 +16,16 @@ venue_api_address = 'https://dblp.org/search/venue/api'
 publication_api_address = 'https://dblp.uni-trier.de/search/publ/api'
 
 
-def get_publication_stream_query(parts: Tuple[str, ...]) -> str:
-    dblp_web_url = parts[4]
+def get_dblp_forum_id(dblp_web_url: str):
     id_match = re.search(r'/(?P<id>(conf|journals)/[\w0-9]+)/', dblp_web_url)
     if id_match:
-        dblp_id = id_match.group('id')
-        return f'stream:streams/{dblp_id}:'
+        return id_match.group('id')
     else:
-        raise ValueError(f'no id found in {parts}')
+        raise ValueError(f'no id found in {dblp_web_url}')
+
+
+def get_publication_stream_query(forum_id: str) -> str:
+    return f'stream:streams/{forum_id}:'
 
 
 KEYWORDS = (
@@ -41,13 +46,16 @@ PAGE_SIZE = 1000
 
 def main():
     relevant_papers = pandas.DataFrame()
+    papers_details = pandas.DataFrame()
+    authors = pandas.DataFrame()
 
     with open(os.path.join('phase1_1', 'output.manual.txt')) as forums_file:
         for line in forums_file:
             line = line.strip()
             parts = tuple(part for part in line.split('|') if part != '')
             name = parts[0]
-            publication_stream_query = get_publication_stream_query(parts)
+            forum_id = get_dblp_forum_id(parts[4])
+            publication_stream_query = get_publication_stream_query(forum_id)
             results = requests.get(
                 publication_api_address,
                 params={'q': publication_stream_query, 'format': 'json', 'h': PAGE_SIZE})
@@ -67,7 +75,14 @@ def main():
                         print('[!tit]', end='\t')
                         continue
                     title: str = paper['info']['title']
+                    year: Optional[int] = None
+                    if 'year' in paper['info']:
+                        year = paper['info']['year']
                     paper_id = paper['info']['key']
+                    if 'venue' in paper['info']:
+                        forum = paper['info']['venue']
+                    else:
+                        forum = paper['info']['publisher']
                     is_relevant = False
                     for keyword in KEYWORDS:
                         if keyword in title.lower():
@@ -77,10 +92,49 @@ def main():
                                 ignore_index=True
                             )
                     if is_relevant:
+                        papers_details = papers_details.append(
+                            {
+                                'paper id': paper_id,
+                                'title': title,
+                                'year': year,
+                                'forum': forum,
+                                'forum id': forum_id
+                            },
+                            ignore_index=True
+                        )
+                        if 'authors' in paper['info'] and 'author' in paper['info']['authors']:
+                            if isinstance(paper['info']['authors']['author'], list):
+                                for author in paper['info']['authors']['author']:
+                                    authors = authors.append(
+                                        {
+                                            'paper id': paper_id,
+                                            'author id': author['@pid'],
+                                            'name': author['text']
+                                        },
+                                        ignore_index=True
+                                    )
+                            else:
+                                author = paper['info']['authors']['author']
+                                authors = authors.append(
+                                    {
+                                        'paper id': paper_id,
+                                        'author id': author['@pid'],
+                                        'name': author['text']
+                                    },
+                                    ignore_index=True
+                                )
+                        else:
+                            authors = authors.append(
+                                {
+                                    'paper id': paper_id,
+                                    'author id': None,
+                                    'name': None
+                                },
+                                ignore_index=True
+                            )
                         print('relate', end='\t')
                     else:
-                        if 'year' in paper['info']:
-                            year = paper['info']['year']
+                        if year is not None:
                             print(f'[{year}]', end='\t')
                         else:
                             print('[    ]', end='\t')
@@ -89,7 +143,9 @@ def main():
             relevant_count = relevant_papers['paper id'].drop_duplicates().count()
             logger.info(f'altogether {relevant_count} relevant papers found so far')
 
-        relevant_papers.to_csv(os.path.join('phase1_2', 'relevant_papers.csv'))
+        relevant_papers.to_csv(os.path.join('phase1_2', varname.nameof(relevant_papers) + '.csv'))
+        papers_details.drop_duplicates().to_csv(os.path.join('phase1_2', varname.nameof(papers_details) + '.csv'))
+        authors.drop_duplicates().to_csv(os.path.join('phase1_2', varname.nameof(authors) + '.csv'))
 
 
 if __name__ == '__main__':
