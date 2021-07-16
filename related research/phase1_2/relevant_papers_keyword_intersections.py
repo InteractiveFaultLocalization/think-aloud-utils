@@ -5,6 +5,7 @@ import os
 import networkx
 import varname
 
+from util.keyword import Topic
 from util.settool import powerset
 
 
@@ -42,28 +43,15 @@ def main():
         intersections[selection] = intersection
 
     top_tier_intersections_of_keywords(list(intersections.items()), keywords, tag='all', top=20)
-    think_aloud_keywords = {
-        'think aloud',
-        'verbalization',
-        'verbal',
-    }
     top_tier_intersections_of_keywords(
-        filter_intersections_by_keywords(intersections, think_aloud_keywords), keywords,
-        varname.nameof(think_aloud_keywords), top=20)
-    strategy_keywords = {
-        'strategy'
-    }
+        filter_intersections_by_keywords(intersections, Topic.THINK_ALOUD_KEYWORDS.value), keywords,
+        varname.nameof(Topic.THINK_ALOUD_KEYWORDS), top=20)
     top_tier_intersections_of_keywords(
-        filter_intersections_by_keywords(intersections, strategy_keywords), keywords,
-        varname.nameof(strategy_keywords), top=20)
-    fault_localization_keywords = {
-        'fault localization',
-        'debugging',
-        'debug'
-    }
+        filter_intersections_by_keywords(intersections, Topic.STRATEGY_KEYWORDS.value), keywords,
+        varname.nameof(Topic.STRATEGY_KEYWORDS), top=20)
     top_tier_intersections_of_keywords(
-        filter_intersections_by_keywords(intersections, fault_localization_keywords), keywords,
-        varname.nameof(fault_localization_keywords), top=20)
+        filter_intersections_by_keywords(intersections, Topic.FAULT_LOCALIZATION_KEYWORDS.value), keywords,
+        varname.nameof(Topic.FAULT_LOCALIZATION_KEYWORDS), top=20)
 
 
 def top_tier_intersections_of_keywords(intersections: List, keywords, tag: str, top: int = 10):

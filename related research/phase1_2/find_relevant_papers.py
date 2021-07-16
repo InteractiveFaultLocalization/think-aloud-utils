@@ -10,6 +10,8 @@ import pandas
 
 import requests
 
+from util.keyword import KEYWORDS
+
 logger = util.log.init_local_logger(logging.INFO)
 
 venue_api_address = 'https://dblp.org/search/venue/api'
@@ -28,19 +30,6 @@ def get_publication_stream_query(forum_id: str) -> str:
     return f'stream:streams/{forum_id}:'
 
 
-KEYWORDS = (
-    'think aloud',  # DBLP will yield the dashed version also
-    'verbalization',
-    'interview',
-    'verbal',
-    'report',
-    'strategy',
-    'fault localization',
-    'debugging',
-    'debug',
-    'bug',
-    'bugfix'
-)
 PAGE_SIZE = 1000
 
 
