@@ -72,6 +72,9 @@ def main():
                         forum = paper['info']['venue']
                     else:
                         forum = paper['info']['publisher']
+                    doi = None
+                    if 'doi' in paper['info']:
+                        doi = paper['info']['doi']
                     is_relevant = False
                     for keyword in KEYWORDS:
                         if keyword in title.lower():
@@ -84,6 +87,7 @@ def main():
                         papers_details = papers_details.append(
                             {
                                 'paper id': paper_id,
+                                'doi': doi,
                                 'title': title,
                                 'year': year,
                                 'forum': forum,
@@ -123,10 +127,14 @@ def main():
                             )
                         print('relate', end='\t')
                     else:
-                        if year is not None:
-                            print(f'[{year}]', end='\t')
+                        if doi is not None:
+                            if year is not None:
+                                print(f'[{year}]', end='\t')
+                            else:
+                                print('[    ]', end='\t')
                         else:
-                            print('[    ]', end='\t')
+                            print('[!DOI]', end='\t')
+
                 print()
                 logger.info(f'got {sent_count}|{len(hits)} hits')
             relevant_count = relevant_papers['paper id'].drop_duplicates().count()
