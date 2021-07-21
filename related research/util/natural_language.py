@@ -26,3 +26,15 @@ def get_wordnet_pos(treebank_tag):
         return wordnet.ADV
     else:
         return None
+
+
+def lemmatize(tokens):
+    tokens = tuple(map(str.lower, tokens))
+    stemmer = nltk.stem.WordNetLemmatizer()
+    cleared_tokens = drop_non_alpha(drop_stop_words(tokens))
+    pos_tokens = [pos_tagged for pos_tagged in nltk.pos_tag(tokens) if pos_tagged[0] in cleared_tokens]
+    wordnet_pos_tokens = [(token, get_wordnet_pos(pos), pos) for token, pos in pos_tokens if
+                          get_wordnet_pos(pos) is not None]
+    lemmas = [(stemmer.lemmatize(token, pos=wordnet_pos), treebank_pos) for token, wordnet_pos, treebank_pos in
+              wordnet_pos_tokens]
+    return lemmas
