@@ -1,23 +1,21 @@
 import os
-from typing import Optional, Set
+from typing import Optional, Set, List, Tuple
 
 import nltk
 import pandas
+import tqdm
 
-from util.chart import AxisLabel, DistributionChart
 from util.distribution import filter_distribution_if_in, plot_top_word_distribution
 from util.keyword import split_keywords, Topic
 from util.natural_language import lemmatize
 
-import tqdm
-
 
 def main():
-    papers_details: pandas.DataFrame = pandas.read_csv(os.path.join('phase1_2', 'papers_details.mendeley.csv'), index_col=0)
+    papers_details: pandas.DataFrame = pandas.read_csv(os.path.join('phase1_2', 'papers_details.csv'))
     relevant_papers: pandas.DataFrame = pandas.read_csv(os.path.join('phase1_2', 'relevant_papers.csv'))
 
     def filename(tag):
-        return os.path.join('phase1_2', f'distribution_of_mendeley_keywords.{tag}')
+        return os.path.join('phase1_2', f'distribution_of_title_words.{tag}')
 
     distribution = count_lemmas(papers_details, relevant_papers)
     plot_top_word_distribution(distribution, filename('all'))
@@ -60,18 +58,21 @@ def count_lemmas(
     distribution = {}
     progress_bar = tqdm.tqdm(
         papers_details.iterrows(),
-        desc='counting Mendeley keywords', unit='paper', total=len(papers_details.index))
+        desc='counting words of titles', unit='paper', total=len(papers_details.index))
     for index, paper in progress_bar:
         paper_id = paper['paper id']
         paper_keywords = set(relevant_papers.groupby('paper id').get_group(paper_id)['keyword'])
-        raw_keywords = paper['mendeley keywords']
         if keywords is None or keywords & paper_keywords != set():
-            if isinstance(raw_keywords, str):
-                mendeley_keywords = split_keywords(eval(raw_keywords))
-                lemmas = lemmatize(mendeley_keywords)
-                for lemma in lemmas:
-                    distribution[lemma] = distribution.get(lemma, 0) + 1
+            title = paper['title']
+            lemmas = extract_lemmas(title)
+            for lemma in lemmas:
+                distribution[lemma] = distribution.get(lemma, 0) + 1
     return distribution
+
+
+def extract_lemmas(title: str) -> List[Tuple[str, str]]:
+    tokens = nltk.tokenize.word_tokenize(title.lower())
+    return lemmatize(tokens)
 
 
 if __name__ == '__main__':
