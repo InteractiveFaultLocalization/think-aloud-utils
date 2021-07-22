@@ -25,7 +25,7 @@ def main(*, forums_manually_checked_txt_path: str) -> Tuple[str, ...]:
                 'type': get_dblp_forum_id(parts[4]).split('/')[0],
                 'homepage': parts[3],
                 'dblp': parts[4],
-                'forum': get_dblp_forum_id(parts[4])
+                'id': get_dblp_forum_id(parts[4])
             }
             forums = forums.append(entry, ignore_index=True)
 
