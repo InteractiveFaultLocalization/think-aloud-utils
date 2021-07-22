@@ -1,13 +1,20 @@
+import logging
 import math
 import os
 import traceback
 from dataclasses import dataclass
 from enum import Enum
+from typing import Tuple
+
 import pandas
 
 import bibtexparser
 
 from util.bibtex_entry import id_tag_of
+
+from util.log import init_local_logger, log_execution
+
+_logger = init_local_logger(level=logging.INFO)
 
 
 class ForumType(Enum):
@@ -15,9 +22,10 @@ class ForumType(Enum):
     CONFERENCE = 'conference'
 
 
-def main():
+@log_execution(_logger)
+def main(*, raw_papers_path: str) -> Tuple[str, ...]:
     parser = bibtexparser.bparser.BibTexParser(common_strings=True, ignore_nonstandard_types=False)
-    with open(os.path.join('phase1_1', 'raw_papers.bib'), 'r', encoding='utf-8') as bibfile:
+    with open(raw_papers_path, 'r', encoding='utf-8') as bibfile:
         bibliography: bibtexparser.bibdatabase.BibDatabase = bibtexparser.load(bibfile, parser)
 
     papers = pandas.DataFrame()
@@ -36,7 +44,9 @@ def main():
 
     forums['refs'] = forums['papers'].apply(collect_refs)
 
-    forums.to_csv(os.path.join('phase1_1', 'raw_list_of_forums.csv'), columns=['name', 'type', 'refs'])
+    raw_list_of_forums_path = os.path.join('phase1_1', 'generated', 'raw_list_of_forums.csv')
+    forums.to_csv(raw_list_of_forums_path, columns=['name', 'type', 'refs'])
+    return raw_list_of_forums_path,
 
 
 def collect_publications(papers: pandas.DataFrame, column_name: str, forum_type: ForumType):
@@ -53,4 +63,4 @@ def collect_publications(papers: pandas.DataFrame, column_name: str, forum_type:
 
 
 if __name__ == '__main__':
-    main()
+    main(raw_papers_path=os.path.join('phase1_1', 'raw_papers.bib'))

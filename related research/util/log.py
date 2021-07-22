@@ -1,6 +1,9 @@
 import inspect
 import logging
 import logging.handlers
+import os
+from os.path import basename
+from typing import Callable, Tuple
 
 
 def init_local_logger(level: int):
@@ -37,3 +40,15 @@ def init_local_logger(level: int):
     logger.addHandler(all_file)
 
     return logger
+
+
+def log_execution(logger: logging.Logger):
+    def _log_execution(main: Callable[[str, ...], Tuple[str, ...]]):
+        def wrapper(*args, **kwargs):
+            nice_name_of_wrapped = main.__globals__['__file__'] + '::' + main.__name__
+            logger.info('executing ' + nice_name_of_wrapped)
+            outputs = main(*args, **kwargs)
+            logger.info(nice_name_of_wrapped + ' created ' + ', '.join(outputs))
+            return outputs
+        return wrapper
+    return _log_execution
