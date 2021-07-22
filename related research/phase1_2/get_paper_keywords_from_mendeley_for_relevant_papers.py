@@ -1,21 +1,23 @@
 import logging
 import os
+from typing import Tuple
 
 import mendeley
 import mendeley.models.catalog
 import mendeley.exception
 import pandas
-import json
+import tqdm
 
 import varname
 
-import util.log
+from util.log import init_local_logger, log_execution
 
-logger = util.log.init_local_logger(logging.INFO)
+_logger = init_local_logger(logging.INFO)
 
 
-def main():
-    papers_details = pandas.read_csv(os.path.join('phase1_2', 'papers_details.csv'), index_col=0)
+@log_execution(_logger)
+def main(*, papers_details_path: str) -> Tuple[str, ...]:
+    papers_details = pandas.read_csv(papers_details_path, index_col=0)
     papers_details['mendeley keywords'] = None
     papers_details['publication ids'] = None
     papers_details['mendeley keywords'] = papers_details['mendeley keywords'].astype('object')
@@ -28,13 +30,12 @@ def main():
     auth = mendeley_client.start_client_credentials_flow()
     session = auth.authenticate()
 
-    missings = []
-    for index, paper in papers_details.iterrows():
-        title = paper["title"]
-        logger.info(f'looking for future data about {title}')
+    progress_bar = tqdm.tqdm(
+        papers_details.iterrows(),
+        desc='getting details from Mendeley', unit='paper', total=len(papers_details.index))
+    for index, paper in progress_bar:
         doi = paper["doi"]
 
-        mendeley_paper = None
         if doi != '':
             try:
                 mendeley_paper = session.catalog.by_identifier(doi=doi)
@@ -43,14 +44,14 @@ def main():
         else:
             mendeley_paper = get_similar_paper(paper, session)
 
-        if mendeley_paper is None:
-            missings.append(paper)
-        else:
+        if mendeley_paper is not None:
             papers_details.loc[index, 'mendeley id'] = mendeley_paper.id
             papers_details.at[index, 'mendeley keywords'] = tuple(mendeley_paper.keywords) if mendeley_paper.keywords is not None else tuple()
             papers_details.at[index, 'publication ids'] = tuple(mendeley_paper.identifiers.items()) if mendeley_paper.identifiers is not None else None
 
-    papers_details.drop_duplicates().to_csv(os.path.join('phase1_2', varname.nameof(papers_details) + '.mendeley.csv'))
+    papers_details_mendeley_path = os.path.join('phase1_2', 'generated', 'papers_details.mendeley.csv')
+    papers_details.drop_duplicates().to_csv(papers_details_mendeley_path)
+    return papers_details_mendeley_path,
 
 
 def get_similar_paper(paper, session):
@@ -62,13 +63,12 @@ def get_similar_paper(paper, session):
     if len(candidates) == 1:
         return candidates[0]
     elif len(candidates) > 1:
-        logger.warning('more then one candidates found, return the first one')
+        _logger.warning('more then one candidates found, return the first one')
         return candidates[0]
     else:
-        logger.warning('no candidates found')
+        _logger.warning('no candidates found')
         return None
 
 
-
 if __name__ == '__main__':
-    main()
+    main(papers_details_path=os.path.join('phase1_2', 'generated', 'papers_details.csv'))
