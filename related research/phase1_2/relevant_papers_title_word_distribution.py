@@ -1,12 +1,12 @@
 import logging
 import os
-from typing import Optional, Set, List, Tuple
+from typing import Optional, Set, List, Tuple, Callable, Dict
 
 import nltk
 import pandas
 import tqdm
 
-from util.distribution import filter_distribution_if_in, plot_top_word_distribution
+from util.distribution import filter_distribution_if_in, plot_top_word_distribution, word_distribution_per_topics
 from util.keyword import split_keywords, Topic
 from util.natural_language import lemmatize
 
@@ -23,31 +23,8 @@ def main(*, papers_details_path: str, relevant_papers_path: str) -> Tuple[str, .
     def filename(tag):
         return os.path.join('phase1_2', 'generated', f'distribution_of_title_words.{tag}')
 
-    outputs = []
-
-    _logger.info('checking all papers')
-    distribution = count_lemmas(papers_details, relevant_papers)
-    plot_top_word_distribution(distribution, filename('all'))
-    outputs.append(
-        plot_top_word_distribution(
-            filter_distribution_if_in(distribution, split_keywords()),
-            filename('all.no_keywords'),
-            xnote='except keywords'))
-
-    for topic in Topic:
-        _logger.info(f'checking papers related to {topic}')
-        topic_distribution = count_lemmas(
-            papers_details, relevant_papers,
-            keywords=topic.value
-        )
-        human_readable_topic_name = topic.name.replace('_', ' ').lower()
-        outputs.append(
-            plot_top_word_distribution(
-                filter_distribution_if_in(topic_distribution, split_keywords(topic.value)),
-                filename(topic.name.lower()),
-                ynote='related to ' + human_readable_topic_name,
-                xnote='except keywords about ' + human_readable_topic_name))
-
+    # callback protocols currently are not supported by PyCharm :(
+    outputs = word_distribution_per_topics(filename, count_lemmas, papers_details, relevant_papers)
     return tuple(outputs)
 
 
@@ -55,7 +32,7 @@ def count_lemmas(
         papers_details: pandas.DataFrame,
         relevant_papers: pandas.DataFrame,
         keywords: Optional[Set[str]] = None
-):
+) -> Dict[Tuple[str, str], int]:
     distribution = {}
     progress_bar = tqdm.tqdm(
         papers_details.iterrows(),
