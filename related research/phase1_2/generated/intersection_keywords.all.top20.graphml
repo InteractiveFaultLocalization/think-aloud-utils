@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="node" attr.name="count" attr.type="int" />
+  <key id="d1" for="node" attr.name="title" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="debugging">
+      <data key="d0">keyword</data>
+      <data key="d1">debugging</data>
+    </node>
+    <node id="debug">
+      <data key="d0">keyword</data>
+      <data key="d1">debug</data>
+    </node>
+    <node id="bug">
+      <data key="d0">keyword</data>
+      <data key="d1">bug</data>
+    </node>
+    <node id="report">
+      <data key="d0">keyword</data>
+      <data key="d1">report</data>
+    </node>
+    <node id="strategy">
+      <data key="d0">keyword</data>
+      <data key="d1">strategy</data>
+    </node>
+    <node id="fault localization">
+      <data key="d0">keyword</data>
+      <data key="d1">fault localization</data>
+    </node>
+    <node id="interview">
+      <data key="d0">keyword</data>
+      <data key="d1">interview</data>
+    </node>
+    <node id="verbalization">
+      <data key="d0">keyword</data>
+      <data key="d1">verbalization</data>
+    </node>
+    <node id="verbal">
+      <data key="d0">keyword</data>
+      <data key="d1">verbal</data>
+    </node>
+    <node id="think aloud">
+      <data key="d0">keyword</data>
+      <data key="d1">think aloud</data>
+    </node>
+    <node id="count of bug">
+      <data key="d0">count</data>
+      <data key="d1">976</data>
+      <data key="d2">976</data>
+    </node>
+    <node id="count of strategy">
+      <data key="d0">count</data>
+      <data key="d1">757</data>
+      <data key="d2">757</data>
+    </node>
+    <node id="count of report">
+      <data key="d0">count</data>
+      <data key="d1">645</data>
+      <data key="d2">645</data>
+    </node>
+    <node id="count of debug">
+      <data key="d0">count</data>
+      <data key="d1">440</data>
+      <data key="d2">440</data>
+    </node>
+    <node id="count of debug, bug">
+      <data key="d0">count</data>
+      <data key="d1">440</data>
+      <data key="d2">440</data>
+    </node>
+    <node id="count of debugging">
+      <data key="d0">count</data>
+      <data key="d1">337</data>
+      <data key="d2">337</data>
+    </node>
+    <node id="count of debugging, debug">
+      <data key="d0">count</data>
+      <data key="d1">337</data>
+      <data key="d2">337</data>
+    </node>
+    <node id="count of debugging, bug">
+      <data key="d0">count</data>
+      <data key="d1">337</data>
+      <data key="d2">337</data>
+    </node>
+    <node id="count of debugging, debug, bug">
+      <data key="d0">count</data>
+      <data key="d1">337</data>
+      <data key="d2">337</data>
+    </node>
+    <node id="count of fault localization">
+      <data key="d0">count</data>
+      <data key="d1">141</data>
+      <data key="d2">141</data>
+    </node>
+    <node id="count of interview">
+      <data key="d0">count</data>
+      <data key="d1">121</data>
+      <data key="d2">121</data>
+    </node>
+    <node id="count of verbal">
+      <data key="d0">count</data>
+      <data key="d1">111</data>
+      <data key="d2">111</data>
+    </node>
+    <node id="count of bug, report">
+      <data key="d0">count</data>
+      <data key="d1">89</data>
+      <data key="d2">89</data>
+    </node>
+    <node id="count of debug, strategy">
+      <data key="d0">count</data>
+      <data key="d1">10</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="count of bug, strategy">
+      <data key="d0">count</data>
+      <data key="d1">10</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="count of debug, bug, strategy">
+      <data key="d0">count</data>
+      <data key="d1">10</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="count of bug, fault localization">
+      <data key="d0">count</data>
+      <data key="d1">7</data>
+      <data key="d2">7</data>
+    </node>
+    <node id="count of verbalization">
+      <data key="d0">count</data>
+      <data key="d1">6</data>
+      <data key="d2">6</data>
+    </node>
+    <node id="count of think aloud">
+      <data key="d0">count</data>
+      <data key="d1">6</data>
+      <data key="d2">6</data>
+    </node>
+    <node id="count of debugging, strategy">
+      <data key="d0">count</data>
+      <data key="d1">6</data>
+      <data key="d2">6</data>
+    </node>
+    <edge source="debugging" target="count of debugging" />
+    <edge source="debugging" target="count of debugging, debug" />
+    <edge source="debugging" target="count of debugging, bug" />
+    <edge source="debugging" target="count of debugging, debug, bug" />
+    <edge source="debugging" target="count of debugging, strategy" />
+    <edge source="debug" target="count of debug" />
+    <edge source="debug" target="count of debug, bug" />
+    <edge source="debug" target="count of debugging, debug" />
+    <edge source="debug" target="count of debugging, debug, bug" />
+    <edge source="debug" target="count of debug, strategy" />
+    <edge source="debug" target="count of debug, bug, strategy" />
+    <edge source="bug" target="count of bug" />
+    <edge source="bug" target="count of debug, bug" />
+    <edge source="bug" target="count of debugging, bug" />
+    <edge source="bug" target="count of debugging, debug, bug" />
+    <edge source="bug" target="count of bug, report" />
+    <edge source="bug" target="count of bug, strategy" />
+    <edge source="bug" target="count of debug, bug, strategy" />
+    <edge source="bug" target="count of bug, fault localization" />
+    <edge source="report" target="count of report" />
+    <edge source="report" target="count of bug, report" />
+    <edge source="strategy" target="count of strategy" />
+    <edge source="strategy" target="count of debug, strategy" />
+    <edge source="strategy" target="count of bug, strategy" />
+    <edge source="strategy" target="count of debug, bug, strategy" />
+    <edge source="strategy" target="count of debugging, strategy" />
+    <edge source="fault localization" target="count of fault localization" />
+    <edge source="fault localization" target="count of bug, fault localization" />
+    <edge source="interview" target="count of interview" />
+    <edge source="verbalization" target="count of verbalization" />
+    <edge source="verbal" target="count of verbal" />
+    <edge source="think aloud" target="count of think aloud" />
+  </graph>
+</graphml>

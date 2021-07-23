@@ -1,8 +1,6 @@
 import inspect
 import logging
 import logging.handlers
-import os
-from os.path import basename
 from typing import Callable, Tuple
 
 
