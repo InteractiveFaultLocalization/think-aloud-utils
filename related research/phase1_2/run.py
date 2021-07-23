@@ -6,6 +6,7 @@ import find_relevant_papers
 import get_paper_keywords_from_mendeley_for_relevant_papers
 import relevant_papers_keyword_intersections
 import relevant_papers_mendeley_keyword_distribution
+import relevant_papers_title_word_distribution
 
 from util.log import init_local_logger, log_execution
 
@@ -26,6 +27,10 @@ def run(*,
     outputs.extend(relevant_papers_keyword_intersections.main(relevant_papers_path=relevant_papers_path))
     relevant_papers_mendeley_keyword_distribution.main(
         papers_details_mendeley_path=papers_details_mendeley_path,
+        relevant_papers_path=relevant_papers_path
+    )
+    relevant_papers_title_word_distribution.main(
+        papers_details_path=papers_details_path,
         relevant_papers_path=relevant_papers_path
     )
     return tuple(outputs)
