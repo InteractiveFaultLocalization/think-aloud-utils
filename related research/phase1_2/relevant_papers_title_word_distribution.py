@@ -26,27 +26,27 @@ def main():
 
     think_aloud_distribution = count_lemmas(
         papers_details, relevant_papers,
-        keywords=Topic.THINK_ALOUD_KEYWORDS.value
+        keywords=Topic.THINK_ALOUD.value
     )
     plot_top_word_distribution(
-        filter_distribution_if_in(think_aloud_distribution, split_keywords(Topic.THINK_ALOUD_KEYWORDS.value)),
+        filter_distribution_if_in(think_aloud_distribution, split_keywords(Topic.THINK_ALOUD.value)),
         filename('think_aloud'), ynote='related to think aloud', xnote='except keywords about think aloud')
 
     fault_localization_distribution = count_lemmas(
         papers_details, relevant_papers,
-        keywords=Topic.FAULT_LOCALIZATION_KEYWORDS.value
+        keywords=Topic.FAULT_LOCALIZATION.value
     )
     plot_top_word_distribution(
-        filter_distribution_if_in(fault_localization_distribution, split_keywords(Topic.FAULT_LOCALIZATION_KEYWORDS.value)),
+        filter_distribution_if_in(fault_localization_distribution, split_keywords(Topic.FAULT_LOCALIZATION.value)),
         filename('fault_localization'),
         ynote='related to fault localization', xnote='except keywords about fault localization')
 
     strategy_distribution = count_lemmas(
         papers_details, relevant_papers,
-        keywords=Topic.STRATEGY_KEYWORDS.value
+        keywords=Topic.STRATEGY.value
     )
     plot_top_word_distribution(
-        filter_distribution_if_in(strategy_distribution, split_keywords(Topic.STRATEGY_KEYWORDS.value)),
+        filter_distribution_if_in(strategy_distribution, split_keywords(Topic.STRATEGY.value)),
         filename('strategy'), ynote='related to strategy', xnote='except keywords about strategy')
 
 

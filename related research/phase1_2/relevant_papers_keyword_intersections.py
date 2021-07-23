@@ -49,14 +49,14 @@ def main(*, relevant_papers_path: str):
     outputs = [
         top_tier_intersections_of_keywords(list(intersections.items()), keywords, tag='all', top=20),
         top_tier_intersections_of_keywords(
-            filter_intersections_by_keywords(intersections, Topic.THINK_ALOUD_KEYWORDS.value), keywords,
-            varname.nameof(Topic.THINK_ALOUD_KEYWORDS).lower(), top=20),
+            filter_intersections_by_keywords(intersections, Topic.THINK_ALOUD.value), keywords,
+            varname.nameof(Topic.THINK_ALOUD).lower(), top=20),
         top_tier_intersections_of_keywords(
-            filter_intersections_by_keywords(intersections, Topic.STRATEGY_KEYWORDS.value), keywords,
-            varname.nameof(Topic.STRATEGY_KEYWORDS).lower(), top=20),
+            filter_intersections_by_keywords(intersections, Topic.STRATEGY.value), keywords,
+            varname.nameof(Topic.STRATEGY).lower(), top=20),
         top_tier_intersections_of_keywords(
-            filter_intersections_by_keywords(intersections, Topic.FAULT_LOCALIZATION_KEYWORDS.value), keywords,
-            varname.nameof(Topic.FAULT_LOCALIZATION_KEYWORDS).lower(), top=20),
+            filter_intersections_by_keywords(intersections, Topic.FAULT_LOCALIZATION.value), keywords,
+            varname.nameof(Topic.FAULT_LOCALIZATION).lower(), top=20),
     ]
     return tuple(outputs)
 

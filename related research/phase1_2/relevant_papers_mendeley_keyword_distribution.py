@@ -1,3 +1,4 @@
+import logging
 import os
 from typing import Optional, Set
 
@@ -11,45 +12,45 @@ from util.natural_language import lemmatize
 
 import tqdm
 
+from util.log import init_local_logger, log_execution
 
-def main():
-    papers_details: pandas.DataFrame = pandas.read_csv(os.path.join('phase1_2', 'papers_details.mendeley.csv'), index_col=0)
-    relevant_papers: pandas.DataFrame = pandas.read_csv(os.path.join('phase1_2', 'relevant_papers.csv'))
+_logger = init_local_logger(logging.INFO)
+
+
+@log_execution(_logger)
+def main(*, papers_details_mendeley_path: str, relevant_papers_path: str):
+    papers_details: pandas.DataFrame = pandas.read_csv(papers_details_mendeley_path, index_col=0)
+    relevant_papers: pandas.DataFrame = pandas.read_csv(relevant_papers_path)
 
     def filename(tag):
-        return os.path.join('phase1_2', f'distribution_of_mendeley_keywords.{tag}')
+        return os.path.join('phase1_2', 'generated', f'distribution_of_mendeley_keywords.{tag}')
 
+    outputs = []
+
+    _logger.info('checking all papers')
     distribution = count_lemmas(papers_details, relevant_papers)
     plot_top_word_distribution(distribution, filename('all'))
-    plot_top_word_distribution(
-        filter_distribution_if_in(distribution, split_keywords()),
-        filename('all.no_keywords'),
-        xnote='except keywords')
+    outputs.append(
+        plot_top_word_distribution(
+            filter_distribution_if_in(distribution, split_keywords()),
+            filename('all.no_keywords'),
+            xnote='except keywords'))
 
-    think_aloud_distribution = count_lemmas(
-        papers_details, relevant_papers,
-        keywords=Topic.THINK_ALOUD_KEYWORDS.value
-    )
-    plot_top_word_distribution(
-        filter_distribution_if_in(think_aloud_distribution, split_keywords(Topic.THINK_ALOUD_KEYWORDS.value)),
-        filename('think_aloud'), ynote='related to think aloud', xnote='except keywords about think aloud')
+    for topic in Topic:
+        _logger.info(f'checking papers related to {topic}')
+        topic_distribution = count_lemmas(
+            papers_details, relevant_papers,
+            keywords=topic.value
+        )
+        human_readable_topic_name = topic.name.replace('_', ' ').lower()
+        outputs.append(
+            plot_top_word_distribution(
+                filter_distribution_if_in(topic_distribution, split_keywords(topic.value)),
+                filename(topic.name.lower()),
+                ynote='related to ' + human_readable_topic_name,
+                xnote='except keywords about ' + human_readable_topic_name))
 
-    fault_localization_distribution = count_lemmas(
-        papers_details, relevant_papers,
-        keywords=Topic.FAULT_LOCALIZATION_KEYWORDS.value
-    )
-    plot_top_word_distribution(
-        filter_distribution_if_in(fault_localization_distribution, split_keywords(Topic.FAULT_LOCALIZATION_KEYWORDS.value)),
-        filename('fault_localization'),
-        ynote='related to fault localization', xnote='except keywords about fault localization')
-
-    strategy_distribution = count_lemmas(
-        papers_details, relevant_papers,
-        keywords=Topic.STRATEGY_KEYWORDS.value
-    )
-    plot_top_word_distribution(
-        filter_distribution_if_in(strategy_distribution, split_keywords(Topic.STRATEGY_KEYWORDS.value)),
-        filename('strategy'), ynote='related to strategy', xnote='except keywords about strategy')
+    return tuple(outputs)
 
 
 def count_lemmas(
@@ -75,4 +76,6 @@ def count_lemmas(
 
 
 if __name__ == '__main__':
-    main()
+    main(
+        papers_details_mendeley_path=os.path.join('phase1_2', 'generated', 'papers_details.mendeley.csv'),
+        relevant_papers_path=os.path.join('phase1_2', 'generated', 'relevant_papers.csv'))

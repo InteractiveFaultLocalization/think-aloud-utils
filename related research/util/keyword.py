@@ -28,17 +28,17 @@ def drop_keywords(items: Set[str]):
 
 
 class Topic(Enum):
-    THINK_ALOUD_KEYWORDS = {
+    THINK_ALOUD = {
         'think aloud',
         'verbalization',
         'verbal',
     }
 
-    STRATEGY_KEYWORDS = {
+    STRATEGY = {
         'strategy'
     }
 
-    FAULT_LOCALIZATION_KEYWORDS = {
+    FAULT_LOCALIZATION = {
         'fault localization',
         'debugging',
         'debug'
