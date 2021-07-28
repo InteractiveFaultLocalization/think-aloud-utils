@@ -46,13 +46,13 @@
     </node>
     <node id="count of debug">
       <data key="d0">count</data>
-      <data key="d1">440</data>
-      <data key="d2">440</data>
+      <data key="d1">441</data>
+      <data key="d2">441</data>
     </node>
     <node id="count of debug, bug">
       <data key="d0">count</data>
-      <data key="d1">440</data>
-      <data key="d2">440</data>
+      <data key="d1">441</data>
+      <data key="d2">441</data>
     </node>
     <node id="count of debugging">
       <data key="d0">count</data>
@@ -76,8 +76,8 @@
     </node>
     <node id="count of fault localization">
       <data key="d0">count</data>
-      <data key="d1">141</data>
-      <data key="d2">141</data>
+      <data key="d1">140</data>
+      <data key="d2">140</data>
     </node>
     <node id="count of debug, strategy">
       <data key="d0">count</data>

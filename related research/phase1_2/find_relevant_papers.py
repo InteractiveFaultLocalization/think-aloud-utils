@@ -26,6 +26,8 @@ PAGE_SIZE = 1000
 @log_execution(_logger)
 def main(*, forums_manually_checked_csv_path: str) -> Tuple[str, ...]:
     forums = pandas.read_csv(forums_manually_checked_csv_path, index_col=0)
+    forums['checked paper count'] = 0
+    forums['relevant paper count'] = 0
 
     relevant_papers = pandas.DataFrame()
     papers_details = pandas.DataFrame()
@@ -51,19 +53,24 @@ def main(*, forums_manually_checked_csv_path: str) -> Tuple[str, ...]:
                     params={'q': publication_stream_query, 'format': 'json', 'h': PAGE_SIZE, 'f': start_index})
                 hits = results.json()['result']['hits']['hit']
                 for paper in hits:
-                    authors, papers_details, relevant_papers = extract_paper_properties(
+                    authors, papers_details, relevant_papers, is_relevant = extract_paper_properties(
                         relevant_papers, papers_details, authors,
                         paper, forum_id)
+                    forums.at[index, 'checked paper count'] += 1
+                    if is_relevant:
+                        forums.at[index, 'relevant paper count'] += 1
                     progress_bar.update(1)
 
     relevant_papers_path = os.path.join('phase1_2', 'generated', varname.nameof(relevant_papers) + '.csv')
     papers_details_path = os.path.join('phase1_2', 'generated', varname.nameof(papers_details) + '.csv')
     authors_path = os.path.join('phase1_2', 'generated', varname.nameof(authors) + '.csv')
+    forums_path = os.path.join('phase1_2', 'generated', 'forums_with_statistics.csv')
     relevant_papers.to_csv(relevant_papers_path)
     papers_details.drop_duplicates().to_csv(papers_details_path)
     authors.drop_duplicates().to_csv(authors_path)
+    forums.drop_duplicates().to_csv(forums_path)
 
-    return relevant_papers_path, papers_details_path, authors_path
+    return relevant_papers_path, papers_details_path, authors_path, forums_path
 
 
 def extract_paper_properties(relevant_papers, papers_details, authors, paper, forum_id):
@@ -72,7 +79,7 @@ def extract_paper_properties(relevant_papers, papers_details, authors, paper, fo
         title = paper['info']['title']
     else:
         _logger.error(f'{paper} does not have a tilte in the DBLP')
-        return authors, papers_details, relevant_papers
+        return authors, papers_details, relevant_papers, False
     year: Optional[int] = None
     if 'year' in paper['info']:
         year = paper['info']['year']
@@ -134,7 +141,7 @@ def extract_paper_properties(relevant_papers, papers_details, authors, paper, fo
                 },
                 ignore_index=True
             )
-    return authors, papers_details, relevant_papers
+    return authors, papers_details, relevant_papers, is_relevant
 
 
 if __name__ == '__main__':
