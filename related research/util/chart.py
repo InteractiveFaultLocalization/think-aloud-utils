@@ -41,6 +41,7 @@ class DistributionChart(object):
             + part_before(enclose(self.y_label.unit, open_mark='[', close_mark=']'))
             + part_before(enclose(self.y_label.note)))
         self.figure.autofmt_xdate()
+        self.figure.tight_layout()
         return self.figure, self.axes
 
     def __exit__(self, exc_type, exc_val, exc_tb):

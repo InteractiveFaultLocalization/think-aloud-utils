@@ -43,3 +43,25 @@ class Topic(Enum):
         'debugging',
         'debug'
     }
+
+
+topic_markers = {
+    Topic.THINK_ALOUD: 'o',
+    Topic.STRATEGY: 'd',
+    Topic.FAULT_LOCALIZATION: 'v'
+}
+
+
+def to_topic(keyword: str):
+    for topic in Topic:
+        for _keyword in topic.value:
+            if _keyword == keyword:
+                return topic
+
+
+def topic_mapping():
+    mapping = {}
+    for topic in Topic:
+        for keyword in topic.value:
+            mapping[keyword] = topic.name
+    return mapping

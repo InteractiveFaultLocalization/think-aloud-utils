@@ -45,6 +45,7 @@ def main(*, forums_with_statistics_path: str):
                    f' of {len(total_counts)} forums')
 
     figure.autofmt_xdate()
+    figure.tight_layout()
     figure.show()
 
     count_statistics_for_forums_path = os.path.join('phase1_2', 'generated', 'count_statistics_for_forums.pdf')

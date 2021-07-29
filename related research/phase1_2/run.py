@@ -8,6 +8,7 @@ import relevant_papers_keyword_intersections
 import relevant_papers_mendeley_keyword_distribution
 import relevant_papers_title_word_distribution
 import count_statistics_for_forums
+import temporal_distribution
 
 from util.log import init_local_logger, log_execution
 
@@ -35,6 +36,9 @@ def run(*,
         relevant_papers_path=relevant_papers_path
     ))
     outputs.extend(count_statistics_for_forums.main(forums_with_statistics_path=forums_with_statistics_path))
+    outputs.extend(temporal_distribution.main(
+        papers_details_path=papers_details_path,
+        relevant_papers_path=relevant_papers_path))
 
     return tuple(outputs)
 
