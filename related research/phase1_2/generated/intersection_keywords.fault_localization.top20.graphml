@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d2" for="node" attr.name="count" attr.type="int" />
+  <key id="d2" for="node" attr.name="count" attr.type="long" />
   <key id="d1" for="node" attr.name="title" attr.type="string" />
   <key id="d0" for="node" attr.name="type" attr.type="string" />
   <graph edgedefault="undirected">
@@ -46,38 +46,38 @@
     </node>
     <node id="count of debug">
       <data key="d0">count</data>
-      <data key="d1">441</data>
-      <data key="d2">441</data>
+      <data key="d1">447</data>
+      <data key="d2">447</data>
     </node>
     <node id="count of debug, bug">
       <data key="d0">count</data>
-      <data key="d1">441</data>
-      <data key="d2">441</data>
+      <data key="d1">447</data>
+      <data key="d2">447</data>
     </node>
     <node id="count of debugging">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of debugging, debug">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of debugging, bug">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of debugging, debug, bug">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of fault localization">
       <data key="d0">count</data>
-      <data key="d1">140</data>
-      <data key="d2">140</data>
+      <data key="d1">141</data>
+      <data key="d2">141</data>
     </node>
     <node id="count of debug, strategy">
       <data key="d0">count</data>
