@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d2" for="node" attr.name="count" attr.type="int" />
+  <key id="d2" for="node" attr.name="count" attr.type="long" />
   <key id="d1" for="node" attr.name="title" attr.type="string" />
   <key id="d0" for="node" attr.name="type" attr.type="string" />
   <graph edgedefault="undirected">
@@ -46,15 +46,10 @@
     </node>
     <node id="count of verbal">
       <data key="d0">count</data>
-      <data key="d1">111</data>
-      <data key="d2">111</data>
+      <data key="d1">113</data>
+      <data key="d2">113</data>
     </node>
     <node id="count of verbalization">
-      <data key="d0">count</data>
-      <data key="d1">6</data>
-      <data key="d2">6</data>
-    </node>
-    <node id="count of think aloud">
       <data key="d0">count</data>
       <data key="d1">6</data>
       <data key="d2">6</data>
@@ -63,6 +58,11 @@
       <data key="d0">count</data>
       <data key="d1">6</data>
       <data key="d2">6</data>
+    </node>
+    <node id="count of think aloud">
+      <data key="d0">count</data>
+      <data key="d1">5</data>
+      <data key="d2">5</data>
     </node>
     <node id="count of report, verbal">
       <data key="d0">count</data>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d2" for="node" attr.name="count" attr.type="int" />
+  <key id="d2" for="node" attr.name="count" attr.type="long" />
   <key id="d1" for="node" attr.name="title" attr.type="string" />
   <key id="d0" for="node" attr.name="type" attr.type="string" />
   <graph edgedefault="undirected">
@@ -46,68 +46,68 @@
     </node>
     <node id="count of bug">
       <data key="d0">count</data>
-      <data key="d1">978</data>
-      <data key="d2">978</data>
+      <data key="d1">997</data>
+      <data key="d2">997</data>
     </node>
     <node id="count of strategy">
       <data key="d0">count</data>
-      <data key="d1">760</data>
-      <data key="d2">760</data>
+      <data key="d1">771</data>
+      <data key="d2">771</data>
     </node>
     <node id="count of report">
       <data key="d0">count</data>
-      <data key="d1">643</data>
-      <data key="d2">643</data>
+      <data key="d1">649</data>
+      <data key="d2">649</data>
     </node>
     <node id="count of debug">
       <data key="d0">count</data>
-      <data key="d1">441</data>
-      <data key="d2">441</data>
+      <data key="d1">447</data>
+      <data key="d2">447</data>
     </node>
     <node id="count of debug, bug">
       <data key="d0">count</data>
-      <data key="d1">441</data>
-      <data key="d2">441</data>
+      <data key="d1">447</data>
+      <data key="d2">447</data>
     </node>
     <node id="count of debugging">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of debugging, debug">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of debugging, bug">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of debugging, debug, bug">
       <data key="d0">count</data>
-      <data key="d1">337</data>
-      <data key="d2">337</data>
+      <data key="d1">343</data>
+      <data key="d2">343</data>
     </node>
     <node id="count of fault localization">
       <data key="d0">count</data>
-      <data key="d1">140</data>
-      <data key="d2">140</data>
+      <data key="d1">141</data>
+      <data key="d2">141</data>
     </node>
     <node id="count of interview">
       <data key="d0">count</data>
-      <data key="d1">121</data>
-      <data key="d2">121</data>
+      <data key="d1">120</data>
+      <data key="d2">120</data>
     </node>
     <node id="count of verbal">
       <data key="d0">count</data>
-      <data key="d1">111</data>
-      <data key="d2">111</data>
+      <data key="d1">113</data>
+      <data key="d2">113</data>
     </node>
     <node id="count of bug, report">
       <data key="d0">count</data>
-      <data key="d1">89</data>
-      <data key="d2">89</data>
+      <data key="d1">90</data>
+      <data key="d2">90</data>
     </node>
     <node id="count of debug, strategy">
       <data key="d0">count</data>
@@ -134,12 +134,12 @@
       <data key="d1">6</data>
       <data key="d2">6</data>
     </node>
-    <node id="count of think aloud">
+    <node id="count of debugging, strategy">
       <data key="d0">count</data>
       <data key="d1">6</data>
       <data key="d2">6</data>
     </node>
-    <node id="count of debugging, strategy">
+    <node id="count of verbalization, verbal">
       <data key="d0">count</data>
       <data key="d1">6</data>
       <data key="d2">6</data>
@@ -174,7 +174,8 @@
     <edge source="fault localization" target="count of bug, fault localization" />
     <edge source="interview" target="count of interview" />
     <edge source="verbalization" target="count of verbalization" />
+    <edge source="verbalization" target="count of verbalization, verbal" />
     <edge source="verbal" target="count of verbal" />
-    <edge source="think aloud" target="count of think aloud" />
+    <edge source="verbal" target="count of verbalization, verbal" />
   </graph>
 </graphml>

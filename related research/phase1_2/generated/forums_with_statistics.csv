@@ -1,45 +1,45 @@
-,abbreviation,dblp,homepage,id,name,type,checked paper count,relevant paper count
-0,ASE,https://dblp.uni-trier.de/db/conf/kbse/index.html,http://ase-conferences.org/,conf/kbse,IEEE/ACM International Conference on Automated Software Engineering,conf,2422,125
-1,ICSE,https://dblp.uni-trier.de/db/conf/icse/index.html,http://www.icse-conferences.org/,conf/icse,IEEE/ACM International Conference on Software Engineering,conf,10000,408
-2,TOCHI,https://dblp.uni-trier.de/db/journals/tochi/index.html,https://dl.acm.org/journal/tochi,journals/tochi,ACM Transactions on Computer-Human Interaction,journals,654,4
-3,TiiS,https://dblp.uni-trier.de/db/journals/tiis/index.html,https://dl.acm.org/journal/tiis,journals/tiis,ACM Transactions on Interactive Intelligent Systems,journals,255,3
-4,toplas,https://dblp.uni-trier.de/db/journals/toplas/index.html,https://dl.acm.org/journal/toplas,journals/toplas,ACM Transactions on Programming Languages and Systems,journals,1099,11
-5,AIED,https://dblp.uni-trier.de/db/conf/aied/index.html,https://iaied.org/,conf/aied,Artificial Intelligence in Education,conf,1812,28
-6,ITiCSE,https://dblp.uni-trier.de/db/conf/iticse/index.html,https://iticse.acm.org/,conf/iticse,Annual Conference on Innovation and Technology in Computer Science Education,conf,2994,81
-7,BJET,https://dblp.uni-trier.de/db/journals/bjet/index.html,https://bera-journals.onlinelibrary.wiley.com/journal/14678535,journals/bjet,British Journal of Educational Technology,journals,3116,34
-8,CHIIR,https://dblp.uni-trier.de/db/conf/chiir/index.html,https://www.chiir.org/,conf/chiir,Conference on Human Information Interaction and Retrieval,conf,445,3
-9,CEE,https://dblp.uni-trier.de/db/journals/cee/index.html,https://www.journals.elsevier.com/computers-and-electrical-engineering,journals/cee,Computers & Electrical Engineering,journals,3272,35
-10,CHB,https://dblp.uni-trier.de/db/journals/chb/index.html,https://www.journals.elsevier.com/computers-in-human-behavior,journals/chb,Computers in Human Behavior,journals,6403,95
-11,CSCL,https://dblp.uni-trier.de/db/conf/cscl/index.html,https://www.isls.org/annual-meeting/cscl/,conf/cscl,Computer-Supported Collaborative Learning Conference,conf,1830,10
-12,CHI,https://dblp.uni-trier.de/db/conf/chi/index.html,https://dl.acm.org/conference/chi,conf/chi,Conference on Human Factors in Computing Systems,conf,10000,97
-13,CoRR,https://dblp.uni-trier.de/db/journals/corr/index.html,https://arxiv.org/corr,journals/corr,Computing Research Repository,journals,10000,79
-14,EAIT,https://dblp.uni-trier.de/db/journals/eait/index.html,https://www.springer.com/journal/10639,journals/eait,Education and Information Technologies,journals,1786,17
-15,ENTCS,https://dblp.uni-trier.de/db/journals/entcs/index.html,http://www.entcs.org/,journals/entcs,Electronic Notes in Theoretical Computer Science,journals,4561,49
-16,ESEC/FSE,https://dblp.uni-trier.de/db/conf/esec/index.html,https://www.esec-fse.org/,conf/esec,ACM Joint Meeting European Software Engineering Conference and Symposium on the Foundations of Software Engineering,conf,1552,96
-17,EVI,https://dblp.uni-trier.de/db/journals/evi/index.html,https://www.springer.com/journal/12065,journals/evi,Evolutionary Intelligence,journals,365,7
-18,FCSC,https://dblp.uni-trier.de/db/journals/fcsc/index.html,https://www.springer.com/journal/11704,journals/fcsc,Frontiers of Computer Science,journals,1079,20
-19,Access,https://dblp.uni-trier.de/db/journals/access/index.html,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639,journals/access,IEEE Access,journals,10000,208
-20,ITC,https://dblp.uni-trier.de/db/conf/itc/index.html,http://www.itctestweek.org/,conf/itc,IEEE International Test Conference,conf,4619,102
-21,TCAD,https://dblp.uni-trier.de/db/journals/tcad/index.html,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43,journals/tcad,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,journals,6168,54
-22,TC,https://dblp.uni-trier.de/db/journals/tc/index.html,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12,journals/tc,IEEE Transactions on Computers,journals,10000,71
-23,TPC,https://dblp.uni-trier.de/db/journals/tpc/index.html,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=47,journals/tpc,IEEE Transactions on Professional Communication,journals,334,21
-24,TSE,https://dblp.uni-trier.de/db/journals/tse/index.html,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32,journals/tse,IEEE Transactions on Software Engineering,journals,3730,94
-25,TVCG,https://dblp.uni-trier.de/db/journals/tvcg/index.html,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945,journals/tvcg,IEEE Transactions on Visualization and Computer Graphics,journals,4119,12
-26,INFSOF,https://dblp.uni-trier.de/db/journals/infsof/index.html,https://www.journals.elsevier.com/information-and-software-technology,journals/infsof,Information & Software Technology,journals,3045,101
-27,IWC,https://dblp.uni-trier.de/db/journals/iwc/index.html,https://academic.oup.com/iwc,journals/iwc,Interacting with Computers,journals,1229,17
-28,ASPLOS,https://dblp.uni-trier.de/db/conf/asplos/index.html,https://dl.acm.org/conference/asplos,conf/asplos,International Conference on Architectural Support for Programming Languages and Operating Systems,conf,1244,41
-29,IJHCI,https://dblp.uni-trier.de/db/journals/ijhci/index.html,https://www.tandfonline.com/loi/hihc,journals/ijhci,International Journal of Human-Computer Interaction,journals,1603,21
-30,IJSEKE,https://dblp.uni-trier.de/db/journals/ijseke/index.html,https://www.worldscientific.com/worldscinet/ijseke,journals/ijseke,International Journal of Software Engineering and Knowledge Engineering,journals,1482,37
-31,JCSC,https://dblp.uni-trier.de/db/journals/jcsc/index.html,https://www.worldscientific.com/worldscinet/jcsc,journals/jcsc,"Journal of Circuits, Systems and Computers",journals,3035,11
-32,JCAL,https://dblp.uni-trier.de/db/journals/jcal/index.html,https://onlinelibrary.wiley.com/journal/13652729,journals/jcal,Journal of Computer Assisted Learning,journals,1227,24
-33,SMR,https://dblp.uni-trier.de/db/journals/smr/index.html,https://onlinelibrary.wiley.com/journal/20477481,journals/smr,Journal of Software Maintenance and Evolution,journals,1079,53
-34,JSS,https://dblp.uni-trier.de/db/journals/jss/index.html,https://www.sciencedirect.com/journal/journal-of-systems-and-software,journals/jss,Journal of Systems and Software,journals,4964,136
-35,RCoSE,https://dblp.uni-trier.de/db/conf/rcose/index.html,https://dl.acm.org/doi/proceedings/10.5555/3340865,conf/rcose,International Workshop on Rapid Continuous Software Engineering,conf,36,0
-36,DEXA,https://dblp.uni-trier.de/db/conf/dexa/index.html,http://www.dexa.org/,conf/dexa,International Workshop on Database and Expert Systems Applications,conf,5189,32
-37,HCI,https://dblp.uni-trier.de/db/conf/hci/index.html,http://www.hci.international/,conf/hci,International Conference on Human-Computer Interaction,conf,10000,116
-38,INTERSPEECH,https://dblp.uni-trier.de/db/conf/interspeech/index.html,https://www.isca-speech.org/iscaweb/,conf/interspeech,Conference of the International Speech Communication Association,conf,10000,59
-39,ATS,https://dblp.uni-trier.de/db/conf/ats/index.html,http://www.ieee-ats.org/,conf/ats,Asian Test Symposium,conf,1617,33
-40,CSMR,https://dblp.uni-trier.de/db/conf/csmr/index.html,not found,conf/csmr,European Conference on Software Maintenance and Reengineering,conf,1453,86
-41,SCP,https://dblp.uni-trier.de/db/journals/scp/index.html,https://www.sciencedirect.com/journal/science-of-computer-programming,journals/scp,Science of Computer Programming,journals,2266,31
-42,SENSORS,https://dblp.uni-trier.de/db/journals/sensors/index.html,https://www.mdpi.com/journal/sensors,journals/sensors,Sensors,journals,10000,73
-43,UAIS,https://dblp.uni-trier.de/db/journals/uais/index.html,https://www.springer.com/journal/10209,journals/uais,Universal Access in the Information Society,journals,807,6
+,name,abbreviation,type,homepage,dblp,id,checked paper count,relevant paper count
+0,IEEE/ACM International Conference on Automated Software Engineering,ASE,conf,http://ase-conferences.org/,https://dblp.uni-trier.de/db/conf/kbse/index.html,conf/kbse,2422,125
+1,IEEE/ACM International Conference on Software Engineering,ICSE,conf,http://www.icse-conferences.org/,https://dblp.uni-trier.de/db/conf/icse/index.html,conf/icse,10000,405
+2,ACM Transactions on Computer-Human Interaction,TOCHI,journals,https://dl.acm.org/journal/tochi,https://dblp.uni-trier.de/db/journals/tochi/index.html,journals/tochi,676,4
+3,ACM Transactions on Interactive Intelligent Systems,TiiS,journals,https://dl.acm.org/journal/tiis,https://dblp.uni-trier.de/db/journals/tiis/index.html,journals/tiis,263,3
+4,ACM Transactions on Programming Languages and Systems,toplas,journals,https://dl.acm.org/journal/toplas,https://dblp.uni-trier.de/db/journals/toplas/index.html,journals/toplas,1107,11
+5,Artificial Intelligence in Education,AIED,conf,https://iaied.org/,https://dblp.uni-trier.de/db/conf/aied/index.html,conf/aied,1823,28
+6,Annual Conference on Innovation and Technology in Computer Science Education,ITiCSE,conf,https://iticse.acm.org/,https://dblp.uni-trier.de/db/conf/iticse/index.html,conf/iticse,2994,81
+7,British Journal of Educational Technology,BJET,journals,https://bera-journals.onlinelibrary.wiley.com/journal/14678535,https://dblp.uni-trier.de/db/journals/bjet/index.html,journals/bjet,3132,34
+8,Conference on Human Information Interaction and Retrieval,CHIIR,conf,https://www.chiir.org/,https://dblp.uni-trier.de/db/conf/chiir/index.html,conf/chiir,445,3
+9,Computers & Electrical Engineering,CEE,journals,https://www.journals.elsevier.com/computers-and-electrical-engineering,https://dblp.uni-trier.de/db/journals/cee/index.html,journals/cee,3399,36
+10,Computers in Human Behavior,CHB,journals,https://www.journals.elsevier.com/computers-in-human-behavior,https://dblp.uni-trier.de/db/journals/chb/index.html,journals/chb,6468,95
+11,Computer-Supported Collaborative Learning Conference,CSCL,conf,https://www.isls.org/annual-meeting/cscl/,https://dblp.uni-trier.de/db/conf/cscl/index.html,conf/cscl,1830,10
+12,Conference on Human Factors in Computing Systems,CHI,conf,https://dl.acm.org/conference/chi,https://dblp.uni-trier.de/db/conf/chi/index.html,conf/chi,10000,95
+13,Computing Research Repository,CoRR,journals,https://arxiv.org/corr,https://dblp.uni-trier.de/db/journals/corr/index.html,journals/corr,10000,79
+14,Education and Information Technologies,EAIT,journals,https://www.springer.com/journal/10639,https://dblp.uni-trier.de/db/journals/eait/index.html,journals/eait,1855,17
+15,Electronic Notes in Theoretical Computer Science,ENTCS,journals,http://www.entcs.org/,https://dblp.uni-trier.de/db/journals/entcs/index.html,journals/entcs,4561,49
+16,ACM Joint Meeting European Software Engineering Conference and Symposium on the Foundations of Software Engineering,ESEC/FSE,conf,https://www.esec-fse.org/,https://dblp.uni-trier.de/db/conf/esec/index.html,conf/esec,1772,114
+17,Evolutionary Intelligence,EVI,journals,https://www.springer.com/journal/12065,https://dblp.uni-trier.de/db/journals/evi/index.html,journals/evi,365,7
+18,Frontiers of Computer Science,FCSC,journals,https://www.springer.com/journal/11704,https://dblp.uni-trier.de/db/journals/fcsc/index.html,journals/fcsc,1122,21
+19,IEEE Access,Access,journals,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639,https://dblp.uni-trier.de/db/journals/access/index.html,journals/access,10000,220
+20,IEEE International Test Conference,ITC,conf,http://www.itctestweek.org/,https://dblp.uni-trier.de/db/conf/itc/index.html,conf/itc,4619,102
+21,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,TCAD,journals,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43,https://dblp.uni-trier.de/db/journals/tcad/index.html,journals/tcad,6223,54
+22,IEEE Transactions on Computers,TC,journals,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12,https://dblp.uni-trier.de/db/journals/tc/index.html,journals/tc,10000,71
+23,IEEE Transactions on Professional Communication,TPC,journals,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=47,https://dblp.uni-trier.de/db/journals/tpc/index.html,journals/tpc,342,21
+24,IEEE Transactions on Software Engineering,TSE,journals,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32,https://dblp.uni-trier.de/db/journals/tse/index.html,journals/tse,3757,94
+25,IEEE Transactions on Visualization and Computer Graphics,TVCG,journals,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945,https://dblp.uni-trier.de/db/journals/tvcg/index.html,journals/tvcg,4155,12
+26,Information & Software Technology,INFSOF,journals,https://www.journals.elsevier.com/information-and-software-technology,https://dblp.uni-trier.de/db/journals/infsof/index.html,journals/infsof,3088,103
+27,Interacting with Computers,IWC,journals,https://academic.oup.com/iwc,https://dblp.uni-trier.de/db/journals/iwc/index.html,journals/iwc,1237,17
+28,International Conference on Architectural Support for Programming Languages and Operating Systems,ASPLOS,conf,https://dl.acm.org/conference/asplos,https://dblp.uni-trier.de/db/conf/asplos/index.html,conf/asplos,1244,41
+29,International Journal of Human-Computer Interaction,IJHCI,journals,https://www.tandfonline.com/loi/hihc,https://dblp.uni-trier.de/db/journals/ijhci/index.html,journals/ijhci,1639,23
+30,International Journal of Software Engineering and Knowledge Engineering,IJSEKE,journals,https://www.worldscientific.com/worldscinet/ijseke,https://dblp.uni-trier.de/db/journals/ijseke/index.html,journals/ijseke,1487,37
+31,"Journal of Circuits, Systems and Computers",JCSC,journals,https://www.worldscientific.com/worldscinet/jcsc,https://dblp.uni-trier.de/db/journals/jcsc/index.html,journals/jcsc,3077,13
+32,Journal of Computer Assisted Learning,JCAL,journals,https://onlinelibrary.wiley.com/journal/13652729,https://dblp.uni-trier.de/db/journals/jcal/index.html,journals/jcal,1268,24
+33,Journal of Software Maintenance and Evolution,SMR,journals,https://onlinelibrary.wiley.com/journal/20477481,https://dblp.uni-trier.de/db/journals/smr/index.html,journals/smr,1079,53
+34,Journal of Systems and Software,JSS,journals,https://www.sciencedirect.com/journal/journal-of-systems-and-software,https://dblp.uni-trier.de/db/journals/jss/index.html,journals/jss,5003,137
+35,International Workshop on Rapid Continuous Software Engineering,RCoSE,conf,https://dl.acm.org/doi/proceedings/10.5555/3340865,https://dblp.uni-trier.de/db/conf/rcose/index.html,conf/rcose,36,0
+36,International Workshop on Database and Expert Systems Applications,DEXA,conf,http://www.dexa.org/,https://dblp.uni-trier.de/db/conf/dexa/index.html,conf/dexa,5283,33
+37,International Conference on Human-Computer Interaction,HCI,conf,http://www.hci.international/,https://dblp.uni-trier.de/db/conf/hci/index.html,conf/hci,10000,116
+38,Conference of the International Speech Communication Association,INTERSPEECH,conf,https://www.isca-speech.org/iscaweb/,https://dblp.uni-trier.de/db/conf/interspeech/index.html,conf/interspeech,10000,59
+39,Asian Test Symposium,ATS,conf,http://www.ieee-ats.org/,https://dblp.uni-trier.de/db/conf/ats/index.html,conf/ats,1617,33
+40,European Conference on Software Maintenance and Reengineering,CSMR,conf,not found,https://dblp.uni-trier.de/db/conf/csmr/index.html,conf/csmr,1453,86
+41,Science of Computer Programming,SCP,journals,https://www.sciencedirect.com/journal/science-of-computer-programming,https://dblp.uni-trier.de/db/journals/scp/index.html,journals/scp,2281,31
+42,Sensors,SENSORS,journals,https://www.mdpi.com/journal/sensors,https://dblp.uni-trier.de/db/journals/sensors/index.html,journals/sensors,10000,74
+43,Universal Access in the Information Society,UAIS,journals,https://www.springer.com/journal/10209,https://dblp.uni-trier.de/db/journals/uais/index.html,journals/uais,822,6
