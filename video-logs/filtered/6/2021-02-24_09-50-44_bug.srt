@@ -1,0 +1,882 @@
+﻿1
+00:00:00,000 --> 00:00:34,000
+[cseveg]
+
+2
+00:00:34,000 --> 00:00:40,000
+Gergő: Jó, mindenestre hasonló feladatod lesz, mint legutóbb az ilyen hibajavítós részeknél.
+
+3
+00:00:40,000 --> 00:00:42,000
+Gergő: Ki kell javítani a hibát.
+
+4
+00:00:42,000 --> 00:00:44,000
+Gergő: Ott van a leírás.
+
+5
+00:00:44,000 --> 00:00:46,000
+Gergő: Mellé ott vannak a tool-oknak a kis szöveges leírása.
+
+6
+00:00:46,000 --> 00:00:53,000
+Gergő: Ezek a tool-ok telepítésre kerültek mostmár az Eclipse-ben, tehát benne vannak, tudod őket használni amikor szeretnéd.
+
+7
+00:00:53,000 --> 00:01:01,000
+Gergő: Továbbra is mondjál ki bármit, ami eszedbe jut, tehát folyamatosan hangosan oldod meg a feladatokat.
+
+8
+00:01:01,000 --> 00:01:05,000
+Gergő: Akkor van kész a feladat, amikor átmentek a tesztek, tehát nincs bukó teszteset.
+
+9
+00:01:05,000 --> 00:01:10,000
+Gergő: Gyakorlatilag 90 perced van erre a feladatrészre, tehát másfél óra.
+
+10
+00:01:10,000 --> 00:01:15,000
+Gergő: Magadra leszel megint csak hagyva, téha be-be fogunk nézni, hogy ellenőrizzük, hogy minden rendben van-e.
+
+11
+00:01:15,000 --> 00:01:25,000
+Gergő: Ha úgy érzed, hogy készen vagy, várjál és akkor majd jövünk és nyilván akkor vége van ennek a session-nek és akkor majd megbeszéljük, hogy hogyan tovább. Jó?
+
+12
+00:01:25,000 --> 00:01:26,000
+Jó.
+
+13
+00:01:26,000 --> 00:01:27,000
+Gergő: Van-e kérdés?
+
+14
+00:01:27,000 --> 00:01:29,000
+A tesztekhez továbbra se lehet hozzányúlni?
+
+15
+00:01:29,000 --> 00:01:32,000
+Gergő: Nem nem nem, a tesztekhez nem, kódot kell javítani. Jó?
+
+16
+00:01:32,000 --> 00:01:33,000
+Jó.
+
+17
+00:01:33,000 --> 00:01:36,000
+Gergő: Ja és továbbra se keresgélj nyilván a hibaadatbázisokban.
+
+18
+00:01:36,000 --> 00:01:38,000
+Egeret errébb tudod dobni, légyszi?
+
+19
+00:01:42,000 --> 00:01:43,000
+Köszi.
+
+20
+00:01:48,000 --> 00:01:49,000
+Köszi.
+
+21
+00:01:53,000 --> 00:01:59,000
+Akkor a feladat újra...igazából hibajavítás.
+
+22
+00:02:01,000 --> 00:02:04,000
+Van egy bukó teszt, ami a "StopWatchTest"
+
+23
+00:02:07,000 --> 00:02:09,000
+Aha. Ez már hétfőn is bukott egyébként.
+
+24
+00:02:09,000 --> 00:02:11,000
+[nevet]
+
+25
+00:02:11,000 --> 00:02:18,000
+[olvassa a leírást]
+
+26
+00:02:21,000 --> 00:02:22,000
+Jó.
+
+27
+00:02:22,000 --> 00:02:23,000
+Oké.
+
+28
+00:02:26,000 --> 00:02:28,000
+Itt is futtassuk le először a...
+
+29
+00:02:28,000 --> 00:02:30,000
+[futtat]
+
+30
+00:02:30,000 --> 00:02:31,000
+teszteket.
+[futtat]
+
+31
+00:02:31,000 --> 00:02:34,000
+[futtat]
+
+32
+00:02:34,000 --> 00:02:49,000
+Ez már itt a...ezekkel a...ECL, EMMA, ATLAS és IFL segítségével. Gondolom ez már egy kicsit komplikáltabb rész lesz.
+[futtat]
+
+33
+00:02:49,000 --> 00:02:55,000
+[futtat]
+
+34
+00:02:55,000 --> 00:03:01,000
+Nem is biztos, hogy a "StopWatch"-ban lesz a...a hiba.
+[futtat]
+
+35
+00:03:01,000 --> 00:03:03,000
+Egyébként.
+[futtat]
+
+36
+00:03:03,000 --> 00:03:21,000
+[futtat]
+
+37
+00:03:21,000 --> 00:03:24,000
+[ásít]
+[futtat]
+
+38
+00:03:24,000 --> 00:03:35,000
+[futtat]
+
+39
+00:03:36,000 --> 00:03:38,000
+Az egész projektet át kell tekinteni.
+
+40
+00:03:41,000 --> 00:03:48,000
+Itt az a hibajelenség, hogy a "StopWatch" nem megfelelően számolja az időt, ha a "suspent" és a "stop" metódusait is használjuk.
+
+41
+00:03:48,000 --> 00:03:53,000
+Hát mindegy, miközben futtatom...ja de nem is tudtam lefuttatni.
+
+42
+00:03:53,000 --> 00:03:57,000
+Jó, "testStopWatchSuspendAndStop".
+
+43
+00:04:01,000 --> 00:04:04,000
+Itt meg is állt a futtatás, ez viszonylag az elején van.
+
+44
+00:04:08,000 --> 00:04:09,000
+"StopWatchTest"
+
+45
+00:04:34,000 --> 00:04:35,000
+120.sorban.
+
+46
+00:04:40,000 --> 00:04:43,000
+Mit csinál ez a "StopWatch", nézzük meg.
+
+47
+00:04:43,000 --> 00:05:05,000
+[összefüggéstelenül olvassa a kódot]
+
+48
+00:05:05,000 --> 00:05:10,000
+Most elolvasom a "start()" "suspend()" és a "stop()"-nak a javadoc-ját, minek kéne legyen.
+
+49
+00:05:15,000 --> 00:05:22,000
+Tehát az a lényeg, hogy a metódus az egy új timing session-t indít el is törli az előző értékeket.
+
+50
+00:05:24,000 --> 00:05:29,000
+És "IllegalStateException"-t dob, hogyha már van egy futó példány.
+
+51
+00:05:29,000 --> 00:05:32,000
+Tehát egy singleton osztály, úgy látom.
+
+52
+00:05:40,000 --> 00:05:57,000
+Vagy ha nem is singleton, ja igen, nem singletone, de hogyha a példányosított...az objektumpéldány éppen fut és még egyszer rá akarunk indítani a "start()"-ra, tehát állapottartó state full ez a objektum.
+
+53
+00:06:10,000 --> 00:06:11,000
+Jó.
+
+54
+00:06:21,000 --> 00:06:22,000
+Igen.
+
+55
+00:06:22,000 --> 00:06:25,000
+"start()" az egész annak tűnik, amit leír.
+
+56
+00:06:26,000 --> 00:06:34,000
+A "suspend" az..."STATE_RUNNUING"...tehát nyilván csak akkor lehet suspend-álni, hogyha fut.
+
+57
+00:06:37,000 --> 00:06:38,000
+Igen.
+
+58
+00:07:02,000 --> 00:07:05,000
+Tehát a "start()" a "stopTime"-ot följegyzi.
+
+59
+00:07:06,000 --> 00:07:11,000
+A "start()" a "startTime"-ot jegyzi föl, a "stop()" a "stopTime"-ot, sőt a "start()" a "stopTime"-ot mínusz egyre veszi.
+
+60
+00:07:13,000 --> 00:07:15,000
+Nem tudom, hogy megfelelő-e, de...
+
+61
+00:07:20,000 --> 00:07:31,000
+A '"stop()" pedig hogyha..."!STATE_RUNNING" és "!STATE_SUSPENDED", akkor error-t dob.
+
+62
+00:07:32,000 --> 00:07:38,000
+Ha viszont ezek megfelelnek, akkor a...följegyzi a "System".
+
+63
+00:07:42,000 --> 00:07:43,000
+"totalTime".
+
+64
+00:07:47,000 --> 00:07:56,000
+A "watch.getTime()" a "suspendTime", mert ugye a "start()" után suspend-ált és a "suspend()" után rögtön le is állt.
+
+65
+00:07:58,000 --> 00:08:01,000
+A "suspendTime" az pedig a "getTime()"-ja a watch-nak.
+
+66
+00:08:10,000 --> 00:08:21,000
+Tehát hogyha...le lett állítva...vagy suspend-álva lett, akkor a "this.stopTime - this.startTime".
+
+67
+00:08:31,000 --> 00:08:35,000
+Nekem nem szokványos ez a betördelés, hogy az "else if"-nél az "if" az új sorba kerül.
+
+68
+00:08:35,000 --> 00:08:38,000
+Ez nem annyira olvasható, de jó.
+
+69
+00:08:40,000 --> 00:08:43,000
+Jó, hogyha "STATE_UNSTARTED", akkor nulla.
+
+70
+00:08:43,000 --> 00:08:53,000
+Hogyha..."STATE_RUNNING", akkor a "currentTimeMillis()"-ből a "startTime"-ot, egyébként meg nulla.
+
+71
+00:08:54,000 --> 00:08:56,000
+Jelen esetben ugye itt a "totalTime".
+
+72
+00:09:01,000 --> 00:09:02,000
+Igen.
+
+73
+00:09:07,000 --> 00:09:10,000
+Hát mondjuk ez érdekes, hogy, ja az mondjuk a test.
+
+74
+00:09:10,000 --> 00:09:15,000
+Igen így "Thread.sleep" [nevet] ez érdekes, na mindegy.
+
+75
+00:09:16,000 --> 00:09:18,000
+Jó, a "totalTime" az...
+
+76
+00:09:21,000 --> 00:09:27,000
+Tehát ha "suspend()"-et és a "stop()" is használjuk, akkor nem megfelelő.
+
+77
+00:09:27,000 --> 00:09:29,000
+Ez mondjuk érdekes.
+
+78
+00:09:30,000 --> 00:09:50,000
+Tehát még egyszer a "start()"...a "suspend()" az csak annyit csinál, hogyha nem fut, akkor...tehát csak akkor használható hogyha "STATE_RUNNING".
+
+79
+00:09:50,000 --> 00:09:53,000
+És a "stopTime" az följegyzi.
+
+80
+00:09:58,000 --> 00:10:07,000
+A "stop()"-nál pedig...az csak akkor, hogyha "STATE_RUNNING" vagy "STATE_SUSPENDED" és akkor használható és följegyzi a "stopTime"-ot.
+
+81
+00:10:09,000 --> 00:10:13,000
+Ami elvileg ugyan annak kéne lennie. Ez mondjuk érdekes.
+
+82
+00:10:19,000 --> 00:10:20,000
+Hol van az Outline?
+
+83
+00:10:28,000 --> 00:10:29,000
+Ez az.
+
+84
+00:10:29,000 --> 00:10:34,000
+Ezt én szeretem használni ezt az Outline-t, mert ugrálhatok a metódusok között.
+
+85
+00:10:46,000 --> 00:10:58,000
+Ez a "stopTime"ez egy...nem tudom mi alapján...szokta...mi alapján írják a "this"-t vagy nem "this"-t.
+
+86
+00:11:07,000 --> 00:11:09,000
+Ez egy viszonylag egyszerű osztály.
+
+87
+00:11:10,000 --> 00:11:12,000
+Nincs is importált.
+
+88
+00:11:12,000 --> 00:11:15,000
+Az igen, nincs importált, semmilye.
+
+89
+00:11:21,000 --> 00:11:24,000
+De amúgy ez ugyan az a commands lang, amin eddig dolgozunk.
+
+90
+00:11:32,000 --> 00:11:38,000
+Igazából nem static...ez a "startTime" meg a "stopTime".
+
+91
+00:11:49,000 --> 00:11:54,000
+Én itt ebben a "StopWatch()"-ban nem látok hibát.
+
+92
+00:11:54,000 --> 00:11:57,000
+Tehát ez egy nagyon egyszerű kis osztály.
+
+93
+00:11:58,000 --> 00:12:07,000
+Állapottartóan elindít és amikor rányomtál, akkor följegyzi a "System.currentTimeMillis"-t a megfelelő értékbe.
+
+94
+00:12:16,000 --> 00:12:17,000
+Várjunk csak.
+
+95
+00:12:24,000 --> 00:12:25,000
+Ja de itt meg is van a hiba.
+
+96
+00:12:25,000 --> 00:12:43,000
+Igazából, tehát a teszt azt csinálja, hogy elstartol, vár 200 milisec-et, suspend-ál, lekéri a "suspendTime"-ot, vár 200 milisec-et és stop-ol és utána lekéri a "totalTime"-ot.
+
+97
+00:12:43,000 --> 00:12:50,000
+Hát igazából itt egyértelmű mi a hiba.
+
+98
+00:12:50,000 --> 00:13:18,000
+Tehát itt a "stopTime"-ot meg kéne nézni, hogyha...futott, akkor...akkor...akkor leállítani igazából.
+
+99
+00:13:20,000 --> 00:13:30,000
+[vakarja a fejét]
+
+100
+00:13:37,000 --> 00:13:39,000
+Hát, én ez így beírom.
+
+101
+00:14:04,000 --> 00:14:06,000
+Hát nem tudom, hogy ez jó-e...
+
+102
+00:14:09,000 --> 00:14:11,000
+ez a javítás. Mindjárt megnézzük.
+
+103
+00:14:11,000 --> 00:14:13,000
+[futtat]
+
+104
+00:14:13,000 --> 00:14:21,000
+Tehát itt a "stop()" estén azt figyelembe kéne venni, hogyha suspend-ált volt a...az állapot, mivel állapottartó, akkor hogyha a "stopTime"-ot akarjuk följegyezi, akkor ne azt az időt jegyezzük fel, amikor éppen lestoppolták, hanem a suspend-et adjuk vissza, ami jelen esetben a "getTime()".
+[futtat]
+
+105
+00:14:21,000 --> 00:14:34,000
+Tehát itt a "stop()" estén azt figyelembe kéne venni, hogyha suspend-ált volt a...az állapot, mivel állapottartó, akkor hogyha a "stopTime"-ot akarjuk följegyezi, akkor ne azt az időt jegyezzük fel, amikor éppen lestoppolták, hanem a suspend-et adjuk vissza, ami jelen esetben a "getTime()".
+
+106
+00:14:37,000 --> 00:14:39,000
+"getTime()" az mit ad vissza?
+
+107
+00:14:39,000 --> 00:14:44,000
+Ja igen, tehát hogyha "SATATUS_SUSPENDED", akkor "this.stopTime - this.startTime".
+
+108
+00:14:44,000 --> 00:14:46,000
+Ja, aha.
+
+109
+00:14:46,000 --> 00:14:48,000
+Ez nem lesz jó.
+
+110
+00:14:48,000 --> 00:14:53,000
+Tehát akkor itt [köhög] akkor itt csak annyi, jó.
+
+111
+00:14:53,000 --> 00:14:55,000
+Ezt le is állítom ezt a futtatást, mert ez nem lesz jó.
+
+112
+00:15:25,000 --> 00:15:49,000
+Most ugye azt csináltam, hogy a "stopTime" hogyha suspend-ált volt, akkor a "getTime()"-ot elkértem, de az azért nem jó, mert az nem a "System.currentTimeMillis()"-t kéri el, hanem azt kéri el ami már a "this.stopTime - this.startTime", tehát az már az eltelt időt számolja, nem azt az időt rögzíti.
+
+113
+00:15:49,000 --> 00:15:56,000
+Tehát itt az van, hogyha a "runningState == STATE_RUNNING", mik vannak itt még?
+
+114
+00:16:01,000 --> 00:16:04,000
+Azokat mondjuk nem nagyon tudom, hogy micsodák, de majd mindjárt megnézem.
+
+115
+00:16:04,000 --> 00:16:11,000
+Hogyha "STATE_RUNNING" akkor kérje el a "currentTimeMillis"-t, akkor írja fölül a "stopTime"-ot.
+
+116
+00:16:11,000 --> 00:16:15,000
+Egyébként meg csak állítsa le, hogy "STATED_STOPPED".
+
+117
+00:16:16,000 --> 00:16:18,000
+[futtat]
+És akkor nézzük így a javítást.
+
+118
+00:16:18,000 --> 00:16:20,000
+[futtat]
+
+119
+00:16:20,000 --> 00:16:22,000
+Mondjuk ezeket nem nagyon használtam, ezeket a...hát egyiket se.
+[futtat]
+
+120
+00:16:22,000 --> 00:16:24,000
+[olvassa a leírást]
+Mondjuk ezeket nem nagyon használtam, ezeket a...hát egyiket se.
+[futtat]
+
+121
+00:16:24,000 --> 00:16:25,000
+[futtat]
+[olvassa a leírást]
+
+122
+00:16:25,000 --> 00:16:30,000
+De...nem tudom.
+[futtat]
+[olvassa a leírást]
+
+123
+00:16:30,000 --> 00:16:31,000
+[futtat]
+De...nem tudom.
+
+124
+00:16:31,000 --> 00:16:33,000
+[futtat]
+
+125
+00:16:33,000 --> 00:16:35,000
+Mindjárt visszaírom és megnézem, hogy ezek mit adnak.
+[futtat]
+
+126
+00:16:35,000 --> 00:16:36,000
+[futtat]
+
+127
+00:16:36,000 --> 00:16:39,000
+Mert biztos vagyok benne, hogy ez a hiba, csak...
+[futtat]
+
+128
+00:16:39,000 --> 00:16:58,000
+[futtat]
+
+129
+00:16:58,000 --> 00:17:13,000
+A "split()" az azt csinálja, hogy [összefüggéstelenül olvassa a kódot]
+[futtat]
+
+130
+00:17:13,000 --> 00:17:26,000
+[futtat]
+
+131
+00:17:30,000 --> 00:17:32,000
+Hát ööö ez success.
+
+132
+00:17:32,000 --> 00:17:34,000
+Minden lefutott.
+
+133
+00:17:34,000 --> 00:17:40,000
+Úgy hogy igazából a feladat az kész.
+
+134
+00:17:47,000 --> 00:17:52,000
+Nézzük meg a code coverage tool-lal, hogy mit ad.
+
+135
+00:18:30,000 --> 00:18:40,000
+Az egész osztályt érdemes lefuttatni ilyenkor, mert nyilván "StopWatchTest" az az egy Unit, de most miért nem?
+
+136
+00:18:40,000 --> 00:18:42,000
+Így.
+
+137
+00:18:42,000 --> 00:18:52,000
+Nem jelöltem ki azt a 'StopWatchTest"-et, hogy azt futtassa le osztályént, tehát minden egyes teszt metódusát futtassa le.
+
+138
+00:18:54,000 --> 00:18:55,000
+Jó.
+
+139
+00:18:55,000 --> 00:18:57,000
+Most már megvan.
+
+140
+00:19:03,000 --> 00:19:09,000
+Tehát a "StopWatch" az 97.6%-ban lefut.
+
+141
+00:19:12,000 --> 00:19:13,000
+Igen.
+
+142
+00:19:36,000 --> 00:19:41,000
+Hát nem tudom, most ezt így...felírjam? Mert ez nem volt túl sok idő.
+
+143
+00:19:45,000 --> 00:19:49,000
+Vagy nem tudom mi a...feladat ezekkel.
+
+144
+00:19:59,000 --> 00:20:14,000
+Igazából az a baj, hogy ez annyira triviális feladat volt...vannak olyan esetek, amikor nagyon nagyon hasznos ezt az Atlas-t ezt meg fogom nézni, hogy IntelliJ-ben van-e ilyen plugin, mert a...
+
+145
+00:20:14,000 --> 00:20:33,000
+egyik projektünknél, ahol nem egy maven projekten dolgozunk, hanem sok maven projekten és azoknak is nem annyira jó a dokumentáltsága, fogalmazzunk úgy, azoknál ez hasznos lehet ez az Atlas Smart View.
+
+146
+00:20:33,000 --> 00:20:56,000
+Meg van egy alkalmazás, ami tényleg brutál nagy alkalmazás, ott is hasonló lehet, bár nem tudom, hogy a freamwork-el hogy boldogul, mert...gyanús, hogy ez az Atlas, ez csak a...csak a szimpla java-t tudja, bár majd megnézem, hogy például a spring-el hogy boldogul.
+
+147
+00:20:56,000 --> 00:20:58,000
+Az az alkalmazás egy elég régi technológiával lett megírva.
+
+148
+00:21:22,000 --> 00:21:49,000
+Szóval ott azzal biztos nem birkózna meg, mert ott vannak olyan injection-ök, amik bár...java enterprise kompatibilisek, mármint hogy a jboss 7 az egy olyan alkalmazás szerver, ami java enterprise kompatibilis minden tekintetben tényleg.
+
+149
+00:21:49,000 --> 00:22:06,000
+Viszont nem a java által definiált context dependency injection-t használja, hanem a seam framework-öt belehúztuk, ami még ad rá egy réteget erre az amúgy is szinte tökéletes java-ra.
+
+150
+00:22:06,000 --> 00:22:32,000
+És ott egy tök másik...context dependency injection-t használunk, ráadásul a seam az ad a stateless működés mellé statefull működést, tehát session context-et, sőt ezen túl még conversation context-et meg ilyen event context-eket, amiket nem hinném, hogy ez az Atlas föl tud dolgozni.
+
+151
+00:22:34,000 --> 00:22:40,000
+Ráadásul még vannak ilyen hátteres műveltek, amik observer-ekkel vannak listen-elgetve, meg végrehajtva, úgyhogy...
+
+152
+00:22:40,000 --> 00:22:43,000
+De meg fogom nézni az biztos.
+
+153
+00:22:44,000 --> 00:22:54,000
+Jó, code coverage-et én amúgy is használtam annak idején, amikor tesztelő voltam vagy hát...test manager.
+
+154
+00:22:54,000 --> 00:22:58,000
+Ezen most így nem tudok mit mondani.
+
+155
+00:23:01,000 --> 00:23:16,000
+Még esetleg megnézem, hogy a..."STATE_UNSTARTED"...hogyha stoppoljuk az "UNSTARTED"-ot, akkor a "stopTime" az -1 lesz ugye?
+
+156
+00:23:17,000 --> 00:23:30,000
+Tehát hogyha "UNSTARTED"-ból kell számolnia ennek, akkor...akkor az nulla, jó.
+
+157
+00:23:30,000 --> 00:23:39,000
+"STOPPED"-ból "SUSPENDED" akkor a "stopTime"-ot használja, a "stop()" most már nem fogja újra megadni, a "suspend()"...
+
+158
+00:23:42,000 --> 00:23:43,000
+Várjunk csak a "suspend()"...
+
+159
+00:23:48,000 --> 00:23:51,000
+Annak igen, a "stopTime"-ot azt újra kell állítania.
+
+160
+00:23:52,000 --> 00:23:54,000
+Még van itt ez a "split()".
+
+161
+00:24:01,000 --> 00:24:06,000
+Tehát hogyha "RUNNING", akkor a "stopTime"-ot följegyzi.
+
+162
+00:24:08,000 --> 00:24:10,000
+És akkor gondolom le lehet kérni.
+
+163
+00:24:11,000 --> 00:24:18,000
+Aha, tehát a "split()" után le lehet kérni az izét a "getTime()"-al.
+
+164
+00:24:19,000 --> 00:24:26,000
+Hogyha a "RUNNING" az a "System.currentTimeMillis" azt mondjuk így...ja getSplitTime()" várjál.
+
+165
+00:24:26,000 --> 00:24:31,000
+Tehát hogyha a "splitState != STATE_SPLIT"..."this.stopTime - this.startTime", jó.
+
+166
+00:24:31,000 --> 00:24:34,000
+Hát ez jó megoldás arra is.
+
+167
+00:24:34,000 --> 00:24:42,000
+Az "unsplit()"-nél pedig...ez csak visszavonja ezt az egészet, "stopTime"-ot -1-re állítja.
+
+168
+00:24:42,000 --> 00:24:44,000
+Mondjuk ez érdekes.
+
+169
+00:24:47,000 --> 00:24:49,000
+Mondjuk ezt csak akkor használhatjuk, ha "SPLIT"-es.
+
+170
+00:24:49,000 --> 00:24:53,000
+Ami meg csak akkor használható, hogyha "RUNNING".
+
+171
+00:24:53,000 --> 00:24:56,000
+Vagyis ha a "this.splitState" az "SPLIT".
+
+172
+00:24:56,000 --> 00:24:59,000
+A "this.splitState" azt meg "UNSPIT"-re állítja.
+
+173
+00:25:04,000 --> 00:25:08,000
+Mondjuk a "split()"-et többször is lehet használni. Az nem tudom mennyire gáz.
+
+174
+00:25:11,000 --> 00:25:17,000
+Tehát hogyha "RUNNING", akkor a "runningState"-ez azt nem állítja le, csak a "split.State"-et állítja "SPLIT"-re.
+
+175
+00:25:17,000 --> 00:25:19,000
+Akkor splittelgeti többször.
+
+176
+00:25:35,000 --> 00:25:39,000
+[futtat]
+
+177
+00:25:39,000 --> 00:25:45,000
+Ez viszont egy egész szép...osztály.
+[futtat]
+
+178
+00:25:45,000 --> 00:25:49,000
+Jó, ezen is lehetne még refactor-olni egyébként, de...
+
+179
+00:26:06,000 --> 00:26:08,000
+Nézzük csak meg ezt a...
+
+180
+00:26:11,000 --> 00:26:14,000
+Ja, ki kéne választani az izét.
+
+181
+00:26:33,000 --> 00:26:34,000
+Na.
+
+182
+00:26:39,000 --> 00:26:41,000
+Jó, ez már be is töltött.
+
+183
+00:26:55,000 --> 00:26:58,000
+Fú. 1646 score.
+
+184
+00:27:38,000 --> 00:27:40,000
+Hogy is kellett? Dupla kattintással?
+
+185
+00:27:52,000 --> 00:27:57,000
+De ez mi-mi alapján? Mi ez a..."Interactive Fault Localization"?
+
+186
+00:27:57,000 --> 00:28:03,000
+Ez [...] most is? Vagy ez mikor fut újra?
+
+187
+00:28:07,000 --> 00:28:09,000
+Azt nem vágom. Mert ezt most javítottam.
+
+188
+00:28:12,000 --> 00:28:15,000
+És...bár még ez a "suspend".
+
+189
+00:28:18,000 --> 00:28:19,000
+"stop" az 4.
+
+190
+00:28:21,000 --> 00:28:22,000
+4472.
+
+191
+00:28:26,000 --> 00:28:27,000
+Most ha visszaírom?
+
+192
+00:28:27,000 --> 00:28:29,000
+4472.
+
+193
+00:28:35,000 --> 00:28:43,000
+Ugye ez...hát...ezt hogyan tudná a szoftver kiszámolni?
+
+194
+00:29:01,000 --> 00:29:04,000
+Igen, de ez csak a filtereket reset-eli, nem?
+
+195
+00:29:45,000 --> 00:29:48,000
+Hát, az a baj, hogy ennek utána kéne jobban nézni.
+
+196
+00:29:48,000 --> 00:29:53,000
+Keressünk rá, van időnk.
+
+197
+00:31:27,000 --> 00:31:29,000
+Mi ebben az interaktív?
+
+198
+00:31:31,000 --> 00:31:33,000
+Tudom módosítani?
+
+199
+00:31:38,000 --> 00:31:39,000
+Á!
+
+200
+00:31:39,000 --> 00:31:56,000
+Ez a hibák...csoportosulása.
+
+201
+00:32:03,000 --> 00:32:12,000
+Tehát hogyha itt ezt, a "StopWatch.stop()"-ot egyre veszem, mert ugye itt találtam egy...bug-ot.
+
+202
+00:32:12,000 --> 00:32:14,000
+Például.
+
+203
+00:32:14,000 --> 00:32:17,000
+És...hát nem tudom a többit kell-e állítani.
+
+204
+00:32:24,000 --> 00:32:26,000
+Hát most a többiben nem találtam bug-ot.
+
+205
+00:32:26,000 --> 00:32:28,000
+Szóval.
+
+206
+00:32:31,000 --> 00:32:34,000
+Mondjuk nem is kerestem, vagy várjunk, hogy is van?
+
+207
+00:32:35,000 --> 00:32:37,000
+Gondolom ezek összefüggnek.
+
+208
+00:32:38,000 --> 00:32:44,000
+Tehát itt igazából az a lényeg, hogy a lefedettsége ennek az osztálynak 97%-os.
+
+209
+00:32:44,000 --> 00:32:47,000
+Viszont találtam egy hibát benne.
+
+210
+00:32:47,000 --> 00:32:50,000
+De mondjuk ha ezt kijavítom, akkor már nem lesz hiba. [nevet]
+
+211
+00:32:51,000 --> 00:33:04,000
+De igazából a [...] biztos van hiba, többiben meg, hát lehet hiba, de azért 66%-al kevesebbet adnék, mert ugye elég magas a teszt lefedettsége.
+
+212
+00:33:04,000 --> 00:33:08,000
+A többiről nem tudok nyilatkozni, úgy hogy azt inkább kiveszem.
+
+213
+00:33:08,000 --> 00:33:11,000
+És akkor nagyjából így.
+
+214
+00:33:15,000 --> 00:33:20,000
+Csak itt az "Ordering" az nem mindig jó. Majd azt esetleg érdemes lesz Gergő [nevet] kijavtani.
+
+215
+00:33:22,000 --> 00:33:26,000
+Kész vagyok amúgy, csak ismerkedek ezekkel a tool-okkal.
+
+216
+00:33:28,000 --> 00:33:41,000
+Ja várjál, mert most kitöröltem annak érdekében, hogy...teszteljem a tool-okat, de...de ez így jó.
+

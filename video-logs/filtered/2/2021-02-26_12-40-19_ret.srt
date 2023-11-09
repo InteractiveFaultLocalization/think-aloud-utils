@@ -1,0 +1,660 @@
+﻿1
+00:00:00,000 --> 00:00:04,000
+Gergő: Jó. Elvileg ez megy, hang megy. Szuper jó.
+
+2
+00:00:04,000 --> 00:00:06,000
+Gergő: Jó.
+
+3
+00:00:09,000 --> 00:00:12,000
+Gergő: Csak a kamerának mutatom, hogy én erről az oldalról vagyok.
+
+4
+00:00:12,000 --> 00:00:16,000
+Gergő: Ezt majd akik átírják, azoknak lesz könnyebb, hogy merre nézel és miért.
+
+5
+00:00:16,000 --> 00:00:17,000
+Aha
+
+6
+00:00:18,000 --> 00:00:19,000
+Gergő: Jó.
+
+7
+00:00:19,000 --> 00:00:20,000
+Gergő. Nos.
+
+8
+00:00:20,000 --> 00:00:27,000
+Gergő: Ebben a részben az eszközökkel kapcsolatos különböző használati esetekről lesz szó.
+
+9
+00:00:27,000 --> 00:00:30,000
+Gergő: Illetve ahhoz kapcsolódi ilyen hipotetikus esetekről, jó?
+
+10
+00:00:30,000 --> 00:00:31,000
+Aha.
+
+11
+00:00:31,000 --> 00:00:35,000
+Gergő: Tehát, hogy ilyen feltételezés és akkor mi a véleményed róla.
+
+12
+00:00:35,000 --> 00:00:36,000
+Gergő: Hogyan gondolod.
+
+13
+00:00:37,000 --> 00:00:43,000
+Gergő: Bármit mondhatsz róla, tehát ami éppen az eszedbe jut, ami az adott résszel kapcsolatos.
+
+14
+00:00:44,000 --> 00:00:47,000
+Gergő: Lesz időd mindegyikre nyilván reagálni-
+
+15
+00:00:47,000 --> 00:00:53,000
+Gergő: És sorba fogunk szépen menni az egyes eseteken. Mindegyikre tudsz majd mondani amit szeretnél.
+
+16
+00:00:54,000 --> 00:00:56,000
+Gergő: Alapvetően igazából ennyiről van szó. Jó?
+
+17
+00:00:56,000 --> 00:01:05,000
+Gergő: Mindegyiknek van egy azonosítója, de ez nekünk azonosító, ezzel neked nem kell foglalkozni, ezt nyilván el fogom mondani meg nyilván minél érthetőbben beszélj.
+
+18
+00:01:10,000 --> 00:01:13,000
+Gergő: Ha bármi nem világos, kérdés van, nyilván szólj, jó?
+
+19
+00:01:14,000 --> 00:01:16,000
+Gergő: Jó. Oké?
+
+20
+00:01:16,000 --> 00:01:17,000
+Oké.
+
+21
+00:01:17,000 --> 00:01:22,000
+Gergő: Akkor kezdjük az első esettel, ez a 8.85-ös eset.
+
+22
+00:01:22,000 --> 00:01:38,000
+Gergő: A NumberUtils createNumber metóduson belül megváltoztatod az str paraméterének az értékét úgy, hogy kitörlöd vagy eldobod a -- jelet az elejéről.
+
+23
+00:01:41,000 --> 00:01:56,000
+Gergő: De emiatt további tesztek is elbuknak, például a TestStringCreateNumber első noPrecisionLost meg még egyéb tesztek.
+
+24
+00:01:58,000 --> 00:02:07,000
+Gergő: Így a hívási gráf segítségével megvizsgálod, hogy mely tesztek hívják még az adott metódust.
+
+25
+00:02:10,000 --> 00:02:14,000
+Gergő: Az a kérdés, hogy ez hogyan befolyásolta volna a munkádat.
+
+26
+00:02:14,000 --> 00:02:16,000
+Gergő: Mit gondolsz [...] esetről?
+
+27
+00:02:17,000 --> 00:02:24,000
+Hát én a hívásokra szántam ha[...] szerintem az segített volna, hogyha...
+
+28
+00:02:25,000 --> 00:02:28,000
+Vagy legalábbis biztos, hogy pozitívabban befolyásolta volna.
+
+29
+00:02:28,000 --> 00:02:37,000
+Én ránéztem...volna meg, hogyha már tudunk róla, akkor megnéztem volna. Én szerintem...
+
+30
+00:02:38,000 --> 00:02:40,000
+pozitívan befolyásolta volna.
+
+31
+00:02:40,000 --> 00:02:42,000
+Gergő: Ezt egy kicsit jobban ki tudod fejteni mit értesz az alatt, hogy pozitv...
+
+32
+00:02:44,000 --> 00:02:54,000
+Én szerintem azt, hogy gyorsabban meg lehetett volna találni, hogyha ugye több tesztesetet elbukik, akkor ugye meg lehet állapítani, hogy azok miért buktak el, hogyha...
+
+33
+00:02:54,000 --> 00:02:59,000
+Vagy mik az összefüggések és az szerintem ehhez hasznos ez a hívásgráf.
+
+34
+00:03:01,000 --> 00:03:03,000
+Úgyhogy ez biztos.
+
+35
+00:03:03,000 --> 00:03:04,000
+Gergő: Ühüm.
+
+36
+00:03:04,000 --> 00:03:06,000
+Gergő: Bármi más, ami ezzel kapcsolatban még eszedbe jut?
+
+37
+00:03:06,000 --> 00:03:08,000
+Most hirtelen nem, egyéb nem.
+
+38
+00:03:10,000 --> 00:03:11,000
+Gergő: Oké.
+
+39
+00:03:11,000 --> 00:03:12,000
+Gergő: Jó.
+
+40
+00:03:13,000 --> 00:03:18,000
+Gergő: Akkor a következő esetre térnénk rá, ez a 18.07.
+
+41
+00:03:19,000 --> 00:03:25,000
+Gergő: Tegyük fel, hogy a metódusok score szerint csökkenő sorrenbe vannak rendezve az IFL tool-ban.
+
+42
+00:03:26,000 --> 00:03:33,000
+Gergő: Az strbuilder-nek az indexOf metódusát az első helyen találod.
+
+43
+00:03:36,000 --> 00:03:45,000
+Gergő: Megvizsgálode ezt az indexOf metódust és úgy ítéled meg, hogy valószínűleg nem hibás, így csökkenteni fogok a score-ját 66%-al.
+
+44
+00:03:46,000 --> 00:03:49,000
+Gergő: Később azonban kiderül, hogy mégis ez volt a hibás.
+
+45
+00:03:51,000 --> 00:03:52,000
+Ühüm.
+
+46
+00:03:52,000 --> 00:03:55,000
+Gergő: Érted az esetet?
+
+47
+00:03:55,000 --> 00:03:57,000
+Hát ööö...
+
+48
+00:03:57,000 --> 00:04:08,000
+Ugye a tool az azt dobta ki, hogy az a legvalószínűbb, hogy abban van a hiba, de én felülbíráltam és lecsökkentettem, hogy szerintem nem, de aztán kiderül, hogy mégis.
+
+49
+00:04:08,000 --> 00:04:10,000
+És akkor gondolom, hogy hogy befolyásol...
+
+50
+00:04:10,000 --> 00:04:13,000
+Gergő: Hogy befolyásol? Mi a véleményed róla? Bármi.
+
+51
+00:04:13,000 --> 00:04:16,000
+Hát nyilván lehet tévedni.
+
+52
+00:04:16,000 --> 00:04:20,000
+Az, hogy igazából aza bizalmatlanság a tool fele.
+
+53
+00:04:20,000 --> 00:04:22,000
+Tool felé.
+
+54
+00:04:22,000 --> 00:04:28,000
+Nekem biztos, hogy az lenne, ha nem ismerem, hogy az konkrétan mi alapján is meg hogyan számol.
+
+55
+00:04:28,000 --> 00:04:36,000
+Nekem most így hirtelen ez jutott volna eszembe és akkor hogyha átnézi az ember, akkor lehet, hogy felülbírálja, hogy ez mégse.
+
+56
+00:04:36,000 --> 00:04:38,000
+Nyilván aztán lehet tévedni.
+
+57
+00:04:42,000 --> 00:04:59,000
+Hát biztos, hogy befolyásol, mert azért hogyha látom a számot, hogy mégis azt mondja a tool, akkor elgondolkodtam volna rajta, hogy miért is dobja azt, de mivel hogyha nem ismerem, hogy az hol vagy mi alapján vagy mivel határozza meg, akkor ugye úgy nehéz viszonyítani.
+
+58
+00:05:00,000 --> 00:05:04,000
+Vagy most mégis az mennyire valós vagy mennyire hihető vagy ilyesmi.
+
+59
+00:05:04,000 --> 00:05:07,000
+Nekem hirtelen ez jut eszembe erről.
+
+60
+00:05:10,000 --> 00:05:13,000
+Úgyhogy mindenképpen befolyásolna szerintem.
+
+61
+00:05:16,000 --> 00:05:18,000
+Hát hogy milyen irányba...
+
+62
+00:05:18,000 --> 00:05:46,000
+Nem tudom, szerintem ez szituáció függő is, hogyha egyszerűbb átlátni, megbizonyodok róla, hogy igen ez vagy kellően bonyolult ahhoz és a tool is azt mondja, hát ebből valószínűleg ebben van a hiba, akkor könnyebben elhiszem, mintha mondjuk ott van, hogy 3 sor, mondjuk csak a for ciklus, valami, és arra mondja, hogy az a legvalószínűbb, azt abba nem látok semmi olyat, akkor lehet, hogy lecsökkenteném én is a score-ját tényleg.
+
+63
+00:05:49,000 --> 00:05:50,000
+Ennyi.
+
+64
+00:05:50,000 --> 00:05:52,000
+Gergő: Bármi más, ami ezzel kapcsolatban még eszedbe jut?
+
+65
+00:05:52,000 --> 00:05:53,000
+Nincs.
+
+66
+00:05:53,000 --> 00:05:54,000
+Oké.
+
+67
+00:05:55,000 --> 00:05:57,000
+Gergő: Akkor áttérnénk a következő esetre.
+
+68
+00:05:58,000 --> 00:06:01,000
+Gergő: Ez a 4.55-ös eset.
+
+69
+00:06:06,000 --> 00:06:29,000
+Gergő: Tegyük fel, hogy hosszú ideig vizsgáltad a TestString createNumberE noPrecisionLost tesztesetet, hogy megállapítsd, hogy mely részét érinti a kódnak a createNumber metóduson belül.
+
+70
+00:06:29,000 --> 00:06:39,000
+Gergő: Tegyük fel, hogy lefuttatod a lefedettség mérést az adott teszte, amely néhány részét érinti a metódusnak, így könnyebben azonosítod a kódot, amelyre kófuszálnod kell.
+
+71
+00:06:39,000 --> 00:06:41,000
+Az mindenképp hasznos.
+
+72
+00:06:43,000 --> 00:06:55,000
+Mert tényleg, hogyha látszik, hogy oda be se lép vagy nincs rá teszteset, akkor valószínűleg nem történik olyan, ami...mármint azokhoz a tesztekhez képest nyilván amik meg vannak írva.
+
+73
+00:06:58,000 --> 00:07:09,000
+Úgyhogy az biztos, hogy hasznos, mert nekem pozitívan befolyásol, hogyha látszik, hogy melyeket érinti a teszt...hogy a teszt melyeket érinti.
+
+74
+00:07:12,000 --> 00:07:19,000
+Úgyhogy én úgy gondolom, hogy könnyebben rá lehet lelni a hibára.
+
+75
+00:07:20,000 --> 00:07:30,000
+Legalábbis a tesztekhez képest, hogyha...hogyha jó a teszt nyilván, hisz feltételezzük, hogy azok most jók meg kellően lefedik a kódot vagy mit tudom én, akkor...
+
+76
+00:07:31,000 --> 00:07:35,000
+Akkor nyilván azért lehet látni, hogy honnan kell elindulni és az szerintem segít.
+
+77
+00:07:35,000 --> 00:07:39,000
+Főleg, hogyha nagyon hosszú kódrészletek vannak.
+
+78
+00:07:39,000 --> 00:07:45,000
+Mert azért azt mire átnézi az ember végig, hogy vagy bedug-olva vagy valahogy, az azért sok idő.
+
+79
+00:07:46,000 --> 00:07:51,000
+És szerintem sokat segít, ha...legalábbis le lehet rövidíteni. Aztán lehet, hogy...
+
+80
+00:07:51,000 --> 00:07:53,000
+az jön ki, hogy le van fedve, akkor...
+
+81
+00:07:53,000 --> 00:08:03,000
+Akkor így is úgy is marad a manuális mód, de...de szerintem akkor is segít mondjuk, mert akkor meg lehet tudni, hogy akkor le van fedve, muszáj átnézni.
+
+82
+00:08:03,000 --> 00:08:16,000
+Emígy meg lehet olyan, hogy csak fele a lefedett és akkor kár foglalkozni a többi részével olyan értelemben, hogy...legalábbis hogyha arra koncentrálunk, hogy a tesztek ki legyenek javítva.
+
+83
+00:08:17,000 --> 00:08:22,000
+Mármint a...igen, tehát a kód ki legyen javítva megfelelően.
+
+84
+00:08:24,000 --> 00:08:26,000
+Gergő: Bár mi más, ami ezzel kapcsolatban még eszedbe jut?
+
+85
+00:08:26,000 --> 00:08:28,000
+Nincs, ez jutott most eszembe.
+
+86
+00:08:28,000 --> 00:08:36,000
+Gergő: Ránézek a hangra itt félúton, hogy nehogy véletlenül valami geba legyen. Szuperjó.
+
+87
+00:08:42,000 --> 00:08:45,000
+Gergő: Jó, akkor át is térnénk a következő esetre,
+
+88
+00:08:45,000 --> 00:08:48,000
+Gergő: A következő eset az a 5.15-ös.
+
+89
+00:08:48,000 --> 00:08:53,000
+Gergő: Tegyük fel, hogy lefuttatod a lefedettség mérést TestCreateNumber tesztre...
+
+90
+00:08:57,000 --> 00:09:04,000
+Gergő: amely néhány metódust érint, így könnyen azonosítod, hogy a kód mely részére kell fókuszálni.
+
+91
+00:09:04,000 --> 00:09:16,000
+Gergő: Azonban a kézzel való átnézés után kiderül, hogy a keresett [...]jel kezelését végző kódrészlet közvetlenül a createNumber metódus elején volt, így [...] is könnyen megtalálhattad volna.
+
+92
+00:09:18,000 --> 00:09:26,000
+Hát nyilván van ilyen ez...engem nem bosszantott volna fel vagy hogy mondjam, tehát...
+
+93
+00:09:26,000 --> 00:09:31,000
+Nem befolyásolt volna olyan negatív értelemben, hát...
+
+94
+00:09:31,000 --> 00:09:34,000
+Benne van. Lehet, hogy elsőre.
+
+95
+00:09:34,000 --> 00:09:38,000
+De ez fordítva is igaz, tehát lehet, hogy elsőre fel sem tűnik.
+
+96
+00:09:38,000 --> 00:09:40,000
+Vagy fel sem tűnne, hogyha...
+
+97
+00:09:41,000 --> 00:09:46,000
+Hogyha mondjuk nem látom a lefedettség mérő által...
+
+98
+00:09:47,000 --> 00:09:50,000
+jelzett kódrészleteket.
+
+99
+00:09:51,000 --> 00:09:53,000
+Tehát szerintem ettől még ez...
+
+100
+00:09:53,000 --> 00:10:16,000
+ez jó, tehát attól én még használnám a lefedettsé[...] nem befolyásolná negatívan, hogy húha most...most...nem vettem észre elsőre meg lehet, hogy azonnal észre lehetett volna venni, hát egy csomó mindent azonnal észre lehet ve[...]. Én használtam amúgy is és [...] mérő, amúgy is használunk, szóval...
+
+101
+00:10:17,000 --> 00:10:28,000
+Nem tudom, én ezt egy jó tool-nak tartom, nyilván van olyan, amikor olyan rövid egy metódus amit vizsgálni kell, hogy elsőre ránéz az ember, ott sokat nem ad hozzá.
+
+102
+00:10:28,000 --> 00:10:42,000
+Most csak annyit, hogy tényleg abba belefutott, tehát azt azért...figyelembe kell venni, de körülbelül ennyi a...úgyhogy negatívan semmiképp nem befolyásolna.
+
+103
+00:10:43,000 --> 00:10:51,000
+Meg nem bosszantana fel.
+
+104
+00:10:51,000 --> 00:10:53,000
+Más jobban felbosszant, mint hogy ilyen...
+
+105
+00:10:54,000 --> 00:10:59,000
+Gergő: Ezt a negatív befolyásolás alatt pontosan mit értesz? Kifejtenéd egy kicsit?
+
+106
+00:10:59,000 --> 00:11:07,000
+Hát hogyha...mondjuk fölidegesít, akkor ugye nyilván utána már kevésbé tudok koncentrálni.
+
+107
+00:11:09,000 --> 00:11:20,000
+És akkor...vagy kapkod az ember, mondjuk én nem kapkodni szoktam, engem inkább annyira felbosszant, hogy inkább ráhagynám az egészet legszívesebben.
+
+108
+00:11:20,000 --> 00:11:22,000
+Föleg hogyha nem egyszerű.
+
+109
+00:11:24,000 --> 00:11:26,000
+Hát igen, a negatívat így értem.
+
+110
+00:11:26,000 --> 00:11:27,000
+Gergő: Értem.
+
+111
+00:11:27,000 --> 00:11:31,000
+Tehát inkább a munkával kapcsolatos.
+
+112
+00:11:34,000 --> 00:11:36,000
+Gergő: Bármi egyéb, ami ezzel kapcsolatos?
+
+113
+00:11:36,000 --> 00:11:37,000
+Más nincs.
+
+114
+00:11:39,000 --> 00:11:40,000
+Gergő: Oké.
+
+115
+00:11:40,000 --> 00:11:43,000
+Gergő: Akkor áttérnénk a következőre.
+
+116
+00:11:43,000 --> 00:11:46,000
+Gergő: Ez a 6.25-ös eset lesz.
+
+117
+00:11:46,000 --> 00:12:00,000
+Gergő: Itt a TestString CreateNumber Mention noPrectision tesztet vizsgálata során szeretnék futtatni egy lefedettség mérést, de a mérő eszköz nem működik.
+
+118
+00:12:01,000 --> 00:12:03,000
+Gergő: Mondjuk lejárt a license.
+
+119
+00:12:03,000 --> 00:12:07,000
+Gergő: Így a debug módban lépkedve vizsgálod a createNumber metódust.
+
+120
+00:12:08,000 --> 00:12:11,000
+Hát kényelmetlen azért.
+
+121
+00:12:11,000 --> 00:12:18,000
+Főleg, hogyha az ember hozzá[...] a teszt tool-okhoz és azok tényleg nagy hatékonysággal működnek...
+
+122
+00:12:19,000 --> 00:12:24,000
+akkor azért kellemetlen és...hasonló történt már.
+
+123
+00:12:24,000 --> 00:12:25,000
+Gergő: Ühüm.
+
+124
+00:12:25,000 --> 00:12:39,000
+A valóságban is úgyhogy...ez egy kicsit olyan fokghúzos, hogy...most akkor kézzel kell, aztán lehet még nézegetni egyesével, aztán jó sok időt elvesz, legalábbis azért, mert...
+
+125
+00:12:39,000 --> 00:12:57,000
+nyilván, hogyha a lefedettség...csak az a része, akkor csak abban a részben nézné az ember, utána lehet, hogy debug-olja, de akkor is az rövidebb, mint most...végigmenni egy csomó híváson keresztül, hogy most ugyan hol és mi...honnan jön, meg főleg mondom, hogyha bonyolult a kód.
+
+126
+00:12:57,000 --> 00:13:05,000
+Úgyhogy ez biztos, hogy negatívan befolyásolna, tehát azért...jobb ha egyszerre kevesebb dolgot kell átnézni.
+
+127
+00:13:05,000 --> 00:13:08,000
+Úgyhogy könnyebben megtalálható hiba.
+
+128
+00:13:09,000 --> 00:13:10,000
+Javítható.
+
+129
+00:13:12,000 --> 00:13:13,000
+Hát ennyi.
+
+130
+00:13:14,000 --> 00:13:16,000
+Gergő: Oké, bármi más, ami ezzel kapcsolatban eszedbe jut?
+
+131
+00:13:16,000 --> 00:13:17,000
+Nincs.
+
+132
+00:13:18,000 --> 00:13:21,000
+Gergő: Oké. Áttérnék a következőre.
+
+133
+00:13:21,000 --> 00:13:23,000
+Gergő: Ez a 17.075-ös.
+
+134
+00:13:24,000 --> 00:13:29,000
+Gergő: A metódusok score szerint csökkenő sorrendbe vannak rendezve az IFL tool-ban.
+
+135
+00:13:29,000 --> 00:13:34,000
+Gergő: A stringader-nek az indexOf metódusa a negyedik helyen található a listában.
+
+136
+00:13:34,000 --> 00:13:37,000
+Gergő: Tegyük fel, hogy ez a hibás metódus.
+
+137
+00:13:38,000 --> 00:13:44,000
+Gergő: Így ez előtt már legalább 3 meg kellett vizsgálnod, példul a deleteFirst.
+
+138
+00:13:45,000 --> 00:13:46,000
+Igen.
+
+139
+00:13:48,000 --> 00:13:49,000
+Hát...
+
+140
+00:13:50,000 --> 00:13:58,000
+Még szerintem ez mindig jobb eset, mintha...át kell nézni az egészet, tehát azért...
+
+141
+00:13:59,000 --> 00:14:03,000
+Lehet, hogy én úgy is kezelném ezt, hogy...
+
+142
+00:14:04,000 --> 00:14:07,000
+Most így visszegondolva meg belegondolva, hogy...
+
+143
+00:14:07,000 --> 00:14:11,000
+Nem biztos, hogy csak valameddig mennék el ebben a [...]ba.
+
+144
+00:14:11,000 --> 00:14:16,000
+Tehát mit tudom én az első ötöt-hatot, hogyha odáig nincsmeg...
+
+145
+00:14:17,000 --> 00:14:26,000
+Tehát teljesen kizárható, hogy mondjuk azokban van a hiba, akkor nyilván nem annyira releváns a tool által adott érték.
+
+146
+00:14:28,000 --> 00:14:31,000
+De biztos, hogy annyit segít, hogy legalább van egy kiinduló pont.
+
+147
+00:14:33,000 --> 00:14:35,000
+Hogy mondjuk nem a legelejétől kell átnézni.
+
+148
+00:14:35,000 --> 00:14:40,000
+Tegyük fel, hogy valami nagyon nagyon nagyon bonyolult.
+
+149
+00:14:40,000 --> 00:14:41,000
+És akkor...
+
+150
+00:14:42,000 --> 00:14:45,000
+Én úgy gondolom, hogy...
+
+151
+00:14:45,000 --> 00:14:50,000
+Negatívan az sem befolyásolna, tehát most segítség inkább pozitív, hogy...
+
+152
+00:14:50,000 --> 00:15:16,000
+valahonnan el lehet indulni, mondom én csak annyit...tennék hozzá, hogy lehet, hogy ha már a negyedik vagy az ötödiknél se találnám meg vagy valószínűsíteném, hogy hát nagyon kicsi az esély, mert annyira egyszerű vagy mit tudom én, akkor azért azt...utána már lehet, hogy hagynám azt a tool-t legalábbis erre a...vagy máshogy paraméterezném vagy nem tudom, a score-okat.
+
+153
+00:15:16,000 --> 00:15:19,000
+Ez megint szituáció függő.
+
+154
+00:15:21,000 --> 00:15:23,000
+Jó, ennyi.
+
+155
+00:15:24,000 --> 00:15:27,000
+Gergő: Bármi más, ami ezzel kapcsolatban eszedbe jut?
+
+156
+00:15:27,000 --> 00:15:28,000
+Nincs most így.
+
+157
+00:15:28,000 --> 00:15:34,000
+Gergő: Bármi, ami a korábbiakkal vagy az egész sorral, amit eddig beszéltünk esetleg? Megjegyzés, egyéb ötlet, bármi?
+
+158
+00:15:35,000 --> 00:15:39,000
+Nem, most nem jut eszembe semmi.
+
+159
+00:15:40,000 --> 00:15:41,000
+Gergő: Kérdés vagy bármi?
+
+160
+00:15:41,000 --> 00:15:47,000
+Érdekel az egésznek a [nevet] hogy mi sül ki belőle, az már nagyon érdekel.
+
+161
+00:15:47,000 --> 00:15:53,000
+Gergő: Majd lesz tájékoztatás, de [...] végigfut még a kísérlet.
+
+162
+00:15:54,000 --> 00:15:55,000
+Gergő: Mi is kíváncsiak vagyunk rá.
+
+163
+00:15:57,000 --> 00:16:00,000
+Mert engem amúgy is érdekel az ilyen, szóval ez kifejezetten.
+
+164
+00:16:01,000 --> 00:16:06,000
+Gergő: Jó, igazából végig értünk a teszteseteken, vagy ezeken a hipotetikus eseteken.
+
+165
+00:16:06,000 --> 00:16:08,000
+Gergő: Jó, hát köszönöm szépen a válaszaidat.
+

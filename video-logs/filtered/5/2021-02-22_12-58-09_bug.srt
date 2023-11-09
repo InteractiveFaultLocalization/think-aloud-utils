@@ -1,0 +1,1339 @@
+﻿1
+00:00:01,000 --> 00:00:03,000
+Béla: Elindítom a felvélelt. Jó.
+
+2
+00:00:03,000 --> 00:00:08,000
+Béla: Ez a feladat ez nagyon hasonló lesz ahhoz, mint ami a második feladat volt.
+
+3
+00:00:08,000 --> 00:00:13,000
+Béla: Látsz egy Eclipse projektet a képernyőn.
+
+4
+00:00:13,000 --> 00:00:17,000
+Béla: Felada ennek a hibának a kijavítása lenne.
+
+5
+00:00:17,000 --> 00:00:22,000
+Béla: Ehhez a hibához tartozó ilyen ismertető az itt van a lapon.
+
+6
+00:00:23,000 --> 00:00:29,000
+Béla: Ahogy a második feladatnál itt is ugye cél a kijavítása.
+
+7
+00:00:29,000 --> 00:00:36,000
+Béla: Akkor van kijavítva, hogyha a tesztek módosítás nélküli újrafuttatásakor minden teszt sikeres lesz.
+
+8
+00:00:36,000 --> 00:00:39,000
+Béla: Ugyanúgy 90 perc áll rendelkezésedre.
+
+9
+00:00:39,000 --> 00:00:45,000
+Béla: Ugyanúgy kérnénk, hogy a hibaadatbázisokban ne keress rá a hibára.
+
+10
+00:00:45,000 --> 00:00:50,000
+Béla: Értelemszerűen egyéb keresést lehet végezni bátran.
+
+11
+00:00:51,000 --> 00:00:56,000
+Béla: Azt kérnénk, hogy folyamatosan mondd ki ami az eszedbe jut, hogy mit miért csinálsz.
+
+12
+00:00:56,000 --> 00:01:03,000
+Béla: Ami nekünk majd fontos információ lesz a kísérlet során.
+
+13
+00:01:03,000 --> 00:01:09,000
+Béla: Ha elkészültél akkor jelezd és akkor megbeszéljük a továbbiakat.
+
+14
+00:01:09,000 --> 00:01:10,000
+Jó.
+
+15
+00:01:10,000 --> 00:01:11,000
+Béla: Van-e kérdés?
+
+16
+00:01:11,000 --> 00:01:12,000
+Nincs.
+
+17
+00:01:12,000 --> 00:01:15,000
+Béla: Jó, akkor köszönöm szépen és, ja, bocsánat, az egér ott maradt.
+
+18
+00:01:15,000 --> 00:01:16,000
+Köszi. [nevet]
+
+19
+00:01:16,000 --> 00:01:17,000
+Béla: Jó munkát.
+
+20
+00:01:17,000 --> 00:01:18,000
+Köszi.
+
+21
+00:01:18,000 --> 00:01:29,000
+[olvassa a leírást]
+
+22
+00:01:29,000 --> 00:01:34,000
+Először is megkeresem azt a tesztosztályt és a konkrét tesztesetet, ami elbukik.
+
+23
+00:01:34,000 --> 00:01:37,000
+[olvassa a leírást]
+
+24
+00:01:46,000 --> 00:01:49,000
+NumberUtilsTest osztályról van szó.
+
+25
+00:01:50,000 --> 00:01:52,000
+És a konkrét tesztesetet.
+
+26
+00:02:04,000 --> 00:02:05,000
+Megtaláltam.
+
+27
+00:02:08,000 --> 00:02:12,000
+Ha jól látom, akkor itt 3 sztinget próbálunk meg számmá alakítani.
+
+28
+00:02:15,000 --> 00:02:21,000
+És azt ellenőrizzük, hogy megfelelő típusba sikerült-e konvertáni őket.
+
+29
+00:02:24,000 --> 00:02:33,000
+Átváltok a Java nézetbe, hogy itt oldalt megtaláljam a konkrét metódust,
+
+30
+00:02:39,000 --> 00:02:41,000
+és konkrétan ezt az egyet el tudjam indítani.
+
+31
+00:02:42,000 --> 00:02:45,000
+[futtatás]
+
+32
+00:02:59,000 --> 00:03:09,000
+Úgy tűnik, hogy a 129.sorban bukik el ez az ellenőrzés, ez az "assertTrue" feltétel.
+
+33
+00:03:09,000 --> 00:03:14,000
+És hogy ezt a számot nem double-lé alakítjuk át.
+
+34
+00:03:17,000 --> 00:03:21,000
+Most a ctrt-t lenyomva elnavigálok a konkrét metódusig,
+
+35
+00:03:23,000 --> 00:03:25,000
+hogy mi történik.
+
+36
+00:03:29,000 --> 00:03:38,000
+És itt az "str" paraméterben adjuk át ezt a 3,4-es számot.
+
+37
+00:03:43,000 --> 00:03:52,000
+És most egy olyan helyet keresek, ahol konkrétan megadjuk, hogy milyen típussá szeretnénk konvertálni ezt a számot.
+
+38
+00:03:54,000 --> 00:03:59,000
+Tehát az első feltétel az még nem az, az azt ellenőrzi, hogy üres-e a sztring.
+
+39
+00:04:07,000 --> 00:04:11,000
+A hex prefix-el kell foglalkoznom.
+
+40
+00:04:11,000 --> 00:04:15,000
+Nem 16-os számrendszerről van szó.
+
+41
+00:04:27,000 --> 00:04:32,000
+És most azt látom, hogy eltároljuk az utolsó karaktert egy "lastChar" nevű változóba.
+
+42
+00:04:32,000 --> 00:04:35,000
+Illetve ez már érdekes lehet.
+
+43
+00:04:36,000 --> 00:04:43,000
+Ez a "decPos" a tizedes pontnak a pozíciója a sztringen belül.
+
+44
+00:04:43,000 --> 00:04:45,000
+Ezzel az "indexOf"-al kérjük le.
+
+45
+00:04:48,000 --> 00:05:02,000
+Illetve hogyha van 'e' karakter a sztringen belül, akkor annak a pozícióját is lekérjük.
+
+46
+00:05:08,000 --> 00:05:27,000
+És ebben a feltételben vizsgáljuk, hogyha a tizedespontnak a pozíciója nagyobb, mint -1 - tehát találtunk tizedesvesszőt -, akkor megvizsgáljuk, hogy volt-e 'e' karakter a sztringben.
+
+47
+00:05:27,000 --> 00:05:46,000
+[olvassa a kódot]
+
+48
+00:05:46,000 --> 00:05:49,000
+Most azon gondolkozom, hogy ez a feltétel mit vizsgál.
+
+49
+00:05:50,000 --> 00:06:02,000
+Tehát...hogyha kettő darab 'e' karakter lenne benne, akkor dobnánk hibát, hogy nem valid szám.
+
+50
+00:06:02,000 --> 00:06:22,000
+Onnan tudom, hogy ez arra vonatkozik, egyszerűbb ezzel az "IOOBE"-vel hivatkozni, mert itt felette a kommentben olvasható, hogy ezt nevezzük ennek az esetnek, hogy ha kettő exponens lenne.
+
+51
+00:06:28,000 --> 00:06:36,000
+A "dec"-ben eltáoljuk a sztringnek egy részét.
+
+52
+00:06:37,000 --> 00:06:40,000
+A pontosvesszőnek a pozíciójától.
+
+53
+00:06:42,000 --> 00:06:44,000
+Az 'e' karakternek a pozíciójáig.
+
+54
+00:06:50,000 --> 00:07:02,000
+Hogyha van exponens, különben hogyha nincs, akkor pedig a pontosvesszőtől a sztring végéig tároljuk el ebbe a "dec" változóba.
+
+55
+00:07:25,000 --> 00:07:31,000
+A "numDecimals"-ba kimentjük, hogy mekkora a tizedesjegyeknek a hossza,
+
+56
+00:07:31,000 --> 00:07:37,000
+illetve a "mant"-ba a mantisszát. Hogyha jól emlékszem, ennek ez a neve.
+
+57
+00:08:07,000 --> 00:08:09,000
+Igen, úgy tűnik, hogy igen.
+
+58
+00:08:12,000 --> 00:08:19,000
+Tehát itt most a számoláshoz készítettünk elő pár karaktert.
+
+59
+00:08:19,000 --> 00:08:23,000
+Tehát felbontottuk a sztringet, hogy melyik része mire vonatkozhat.
+
+60
+00:08:36,000 --> 00:08:50,000
+És hogyha az utolsó karakter nem szám, és nem pont, akkor belemegyünk ebbe a switch utasításba.
+
+61
+00:09:25,000 --> 00:09:33,000
+Ööö most azt néztem, hogy a switch után mik vannak, illetve hogy milyen return utasításaink vannak.
+
+62
+00:09:38,000 --> 00:09:46,000
+Viszont közben eszembe jutott, hogy talán egyszerűbb lenne a coverage-el lefuttatni ezt a metódust.
+
+63
+00:09:47,000 --> 00:09:48,000
+[futtat]
+
+64
+00:09:48,000 --> 00:09:54,000
+És akkor az Eclipse kijelöli, hogy milyen ágakba futott bele a program.
+[futtat]
+
+65
+00:10:14,000 --> 00:10:26,000
+Illetve ehhez még célszerű kikommenteznem, hogy csak a hibás számhoz tartozó testesetet futtassa le.
+
+66
+00:10:40,000 --> 00:10:55,000
+És így most valós képet kapunk, hogy ez a 3,4-es sztring pontosan hol tér vissza illetve miken, milyen ellenőrzéseken megy keresztül.
+
+67
+00:11:01,000 --> 00:11:06,000
+És látszódik, hogy itt térünk vissza vele.
+
+68
+00:11:17,000 --> 00:11:22,000
+Igen, tehát double típust várnánk, viszont float-tal térünk vissza.
+
+69
+00:11:30,000 --> 00:11:46,000
+És valahogyan azt kellene elérnem, hogy ez a feltétel...ne tudjon...tehát. hogy ne tudjon float-ot csinálni belőle.
+
+70
+00:12:21,000 --> 00:12:28,000
+Most azt olvastam a javadoc-ban, hogy van-e valamilyen feltétel, ami által biztosan double-t fogunk vissza adni.
+
+71
+00:12:28,000 --> 00:12:34,000
+Hát egyrészről például, hogyha a 'd' karakter az utolsó, akkor biztosan.
+
+72
+00:12:37,000 --> 00:12:41,000
+Ahogy itt látszódik is ebben az esetben.
+
+73
+00:13:14,000 --> 00:13:22,000
+Mivel float-tal térünk vissza, ezért megnézem, hogy konkrétan ez a "createFloat"...hogyan tér vissza.
+
+74
+00:13:25,000 --> 00:13:28,000
+De egy egyszerű "Float.valueOf" hívás van.
+
+75
+00:13:44,000 --> 00:13:56,000
+[olvassa a leírást]
+
+76
+00:13:56,000 --> 00:14:08,000
+Most valahogyan olyan irányba kellene elvinnem a folyamatot hogy ellenőrizzük, hogy belefér-e a float-ba ez a szám megfelelően.
+
+77
+00:14:09,000 --> 00:14:13,000
+Illetve nézzük az ellenőrzések pontosan mit csinálnak.
+
+78
+00:14:41,000 --> 00:14:49,000
+Most elkezdem megkeresni, hogy mi a float maximum értéke.
+
+79
+00:15:12,000 --> 00:15:18,000
+Ide történt egy hivatkozás, hogy itt van specifikálva az értékkészlete.
+
+80
+00:15:40,000 --> 00:15:44,000
+Igen, tehát a float az 32 bit double, az pedig 64.
+
+81
+00:15:44,000 --> 00:16:20,000
+[böngészi a weboldalt]
+
+82
+00:16:35,000 --> 00:16:44,000
+Először is kiíratom, hogy ez konkrétan milyen számot adott vissza, tehát float-ként milyen eredményt adunk vissza.
+
+83
+00:16:53,000 --> 00:16:54,000
+És újra lefuttatom.
+
+84
+00:16:54,000 --> 00:16:58,000
+[futtat]
+
+85
+00:17:09,000 --> 00:17:15,000
+Át kell állítanom...sztringgé.
+
+86
+00:17:39,000 --> 00:17:53,000
+Ööö most itt megfigyeltem, hogy a "Float.MAX_VALUE" értéke az ezzel egyezik meg.
+
+87
+00:17:55,000 --> 00:18:00,000
+És úgy tűnik, hogy az eredmény is konkrétan ez.
+
+88
+00:18:17,000 --> 00:18:19,000
+Tehát hogyha kiírom az eredményt...
+
+89
+00:18:32,000 --> 00:18:39,000
+és a float max értékét, akkor egyenlőnek kellene lenniük.
+
+90
+00:18:44,000 --> 00:18:47,000
+És úgy látom, hogy egyenlő is,
+
+91
+00:18:47,000 --> 00:18:50,000
+de megbizonyosodhatunk róla,
+
+92
+00:19:08,000 --> 00:19:11,000
+hogyha ezt az "equals"-nak az eredményét is kiírjuk.
+
+93
+00:19:19,000 --> 00:19:21,000
+[olvassa a leírást]
+
+94
+00:19:44,000 --> 00:19:53,000
+Most azt figyeltem meg, hogy a float-ban elfér még ez az érték, viszont mi azt szeretnénk, hogy double értékkel térjünk vissza.
+
+95
+00:19:53,000 --> 00:20:05,000
+[olvassa a leírást] [olvassa a kódot]
+
+96
+00:20:11,000 --> 00:20:17,000
+Illetve most még valami, hogy a feladatkiírásban szerepel még egy 4-es itt,
+
+97
+00:20:17,000 --> 00:20:20,000
+az eredményben viszont nem.
+
+98
+00:20:31,000 --> 00:20:43,000
+Kiíratom, hogy pontosan milyen értékeket...sikerült felpharse-olnia az inputból.
+
+99
+00:21:08,000 --> 00:21:11,000
+Ez is stimmel.
+
+100
+00:21:11,000 --> 00:21:15,000
+Illetve "+38" az exponens.
+
+101
+00:21:40,000 --> 00:21:44,000
+Tehát most, hogy itt elveszítettünk egy utolsó karaktert.
+
+102
+00:22:10,000 --> 00:22:16,000
+Kiíratom ezt az értéket is, hátha...észreveszek valamit benne.
+
+103
+00:22:54,000 --> 00:23:20,000
+Megnézem, hogy ez a "valueOf" ez...mivel tud viszzatérni, illetve talán...öö olyasmi megoldás lenne jó, úgy tűnik, hogy elfedjük a hibát, tehát öö minthogyha egyszerűen csak visszatérnénk a "MAX_VALUE"-val hogyha nem fér bele a float-ba.
+
+104
+00:24:28,000 --> 00:24:35,000
+Most egy olyan metódust próbáltam keresni, ami esetleg hibát dobna, hogyha...hogyha túllépünk ezen.
+
+105
+00:25:00,000 --> 00:25:05,000
+[olvassa a leírást]
+
+106
+00:25:23,000 --> 00:25:38,000
+Talán olyan megoldás...lehetne most itt jó, hogy double-lé alakítom és ellenőrzöm, hogy egyenlő-e az értékük.
+
+107
+00:26:03,000 --> 00:26:11,000
+A double...double float-tá tudom alakítani, tehát visszafele ez belefér a típusba.
+
+108
+00:26:17,000 --> 00:26:19,000
+Ki tudom őket írni.
+
+109
+00:26:23,000 --> 00:26:26,000
+És így valószínűleg össze fogom tudni hasonlítani,
+
+110
+00:26:26,000 --> 00:26:28,000
+hogy mi történik.
+
+111
+00:27:20,000 --> 00:27:23,000
+Igen, ezek egyenlőek lesznek, viszont...
+
+112
+00:27:38,000 --> 00:27:44,000
+Hogyha összehasonlítom a "MAX_VALUE"-val...
+
+113
+00:27:56,000 --> 00:27:59,000
+Talán látszódni fog, hogy ez nagyobb.
+
+114
+00:28:04,000 --> 00:28:08,000
+Igen, tehát a "compareTo" az 1-et adott vissza.
+
+115
+00:28:10,000 --> 00:28:13,000
+Az azt jelenti, hogy...
+
+116
+00:28:20,000 --> 00:28:26,000
+Igen, tehát nagyobb mint 0, az azt jelenti, hogy a double az nagyobb, mint a másik szám.
+
+117
+00:28:36,000 --> 00:28:43,000
+És ez által tudom ezt ellenőrizni, hogy...belefér a float-nak az értékkészletébe.
+
+118
+00:28:51,000 --> 00:28:56,000
+Tehát...ide tudom még rakni ezt a feltételt, hogy a...
+
+119
+00:29:02,000 --> 00:29:14,000
+hogy a double-ként felismert érték az nem lehet nagyobb mint a float, ez által tudjuk biztosítani, hogy belefér az értékkészletbe és...
+
+120
+00:29:14,000 --> 00:29:20,000
+hogyha most újra lefuttatom, akkor már jónak kéne lennie.
+
+121
+00:29:22,000 --> 00:29:26,000
+Igen, tehát ez a testeset lefutott.
+
+122
+00:29:28,000 --> 00:29:33,000
+Most hogyha visszaveszem a többi ellenőrzést is...
+
+123
+00:29:35,000 --> 00:29:52,000
+[futtat]
+
+124
+00:29:52,000 --> 00:29:54,000
+akkor fog ez látszódni igazán,
+[futtat]
+
+125
+00:29:54,000 --> 00:29:57,000
+[futtat]
+
+126
+00:29:57,000 --> 00:30:00,000
+hogy nem rontottuk el semmilyen más tesztesetet.
+[futtat]
+
+127
+00:30:00,000 --> 00:30:54,000
+[futtat]
+
+128
+00:30:54,000 --> 00:31:12,000
+[nézi az eredményt]
+
+129
+00:31:12,000 --> 00:31:16,000
+[olvassa a leírást]
+
+130
+00:31:19,000 --> 00:31:25,000
+Most azt láttam, hogy van ööö kettő elbukó teszteset.
+
+131
+00:31:29,000 --> 00:31:31,000
+278.sor
+
+132
+00:31:31,000 --> 00:31:55,000
+[olvassa a kódot]
+
+133
+00:31:55,000 --> 00:32:10,000
+Tehát most azt ellenőrizzük, hogy a float a "MAX_VALUE"-t adja vissza, hogyha ezt a számot alakítom át, illetve pharse-olom fel sztringből.
+
+134
+00:32:28,000 --> 00:32:42,000
+Itt most ezt úgy tudom javítani...hogy...az egyenlőség jelet kiveszem.
+
+135
+00:32:42,000 --> 00:32:50,000
+Tehát...talán átalakítom a feltételt, tehát...
+
+136
+00:33:00,000 --> 00:33:02,000
+Berakok egy új feltételt.
+
+137
+00:33:12,000 --> 00:33:15,000
+Hogyha a double-ként felpharse-olt szám...
+
+138
+00:33:21,000 --> 00:33:32,000
+az nagyobb mint a float "MAX_VALUE", akkor...akkor dobunk egy exception-t.
+
+139
+00:34:02,000 --> 00:34:04,000
+És most magában is lefuttatom ezt a tesztet.
+
+140
+00:34:05,000 --> 00:34:09,000
+[futtat]
+
+141
+00:34:12,000 --> 00:34:14,000
+Double-t adott vissza.
+
+142
+00:34:17,000 --> 00:34:22,000
+[futtat]
+
+143
+00:35:09,000 --> 00:35:13,000
+Azon gondolkozom, hogy hogyan tudnám azt ellenőrizni, hogy egy szám belefér-e a float-ba.
+
+144
+00:35:47,000 --> 00:35:52,000
+Illetve, hogy a double meg tudja-e mondani magáról, hogy nagyobb-e mint egy float.
+
+145
+00:36:59,000 --> 00:37:05,000
+Most azt nem értem, hogy ez a "compareTo"...miért ad nagyobb értéket.
+
+146
+00:37:10,000 --> 00:37:16,000
+Béla: Kicsit hangosabban, hogy mikrofon biztos fölvegye.
+
+147
+00:37:16,000 --> 00:37:17,000
+Jó.
+
+148
+00:37:20,000 --> 00:37:25,000
+Tehát hogy most azt nem értem, hogy ez a "compareTo" miért ad nagyobb értéket.
+
+149
+00:37:25,000 --> 00:37:37,000
+Tehát...a double az...miért...mondja azt a program, hogy ez nem fér bele a float értékkészletébe.
+
+150
+00:38:04,000 --> 00:38:05,000
+[sóhajt]
+
+151
+00:38:15,000 --> 00:38:18,000
+Most azt ellenőrzöm, hogy hogyan tudnám kiírni ezeket sztringként.
+
+152
+00:38:54,000 --> 00:38:55,000
+[sóhajt]
+
+153
+00:39:00,000 --> 00:39:01,000
+Tehát...
+
+154
+00:39:34,000 --> 00:39:41,000
+Ezzel a "testCreateNumber"-t...illetve a "createNumber" metódust újra lefuttatom.
+
+155
+00:39:41,000 --> 00:39:42,000
+[futtat]
+Ezzel a "testCreateNumber"-t...illetve a "createNumber" metódust újra lefuttatom.
+
+156
+00:39:42,000 --> 00:39:48,000
+[futtat]
+
+157
+00:39:50,000 --> 00:39:53,000
+És most a konzolon látszódik, hogy ezt a számot kaptam.
+
+158
+00:39:59,000 --> 00:40:02,000
+Most kiíratom a felette lévő double értéket is.
+
+159
+00:40:06,000 --> 00:40:13,000
+És így össze fogom tudni hasonlítani, hogy mi a különbség közöttük.
+
+160
+00:40:35,000 --> 00:40:37,000
+'f'-et kell használnom itt is.
+
+161
+00:40:39,000 --> 00:40:41,000
+Úgy tűnik.
+
+162
+00:40:50,000 --> 00:40:52,000
+És most megvan a kettő kiíratásom.
+
+163
+00:40:52,000 --> 00:41:02,000
+[nézi az eredményt] [olvassa a kódot]
+
+164
+00:41:12,000 --> 00:41:15,000
+Megkeresem, hogy hol tarottam.
+
+165
+00:41:19,000 --> 00:41:49,000
+[olvassa a leírást] [olvassa a leírást]
+
+166
+00:41:49,000 --> 00:41:53,000
+Valahogyan ezt az ellenőrzést kellene kijavítani.
+
+167
+00:41:55,000 --> 00:42:08,000
+Tehát...ennek nézek utána jobban, hogy hogyan lehetne ezt, illetve mi okozza a problémát.
+
+168
+00:42:29,000 --> 00:42:36,000
+Valamiért itt azt az értéket kapom, hogy ez nagyobb, mint a float "MAX_VALUE".
+
+169
+00:42:42,000 --> 00:42:49,000
+Ezért most kiíratom ezt is, illetve a double-lé konvertált értékét is.
+
+170
+00:43:22,000 --> 00:43:29,000
+Igen, és itt az látszódik, hogy nem ugyan azt a számot kaptam, tehát itt pontosabban tudjuk ezt megkapni.
+
+171
+00:43:42,000 --> 00:43:53,000
+Viszont hogyha...hogyha "bigDecimal"-lá konvertálom mind a kettőt, akkor talán sikerülthet ezt ellenőrizni.
+
+172
+00:44:06,000 --> 00:44:13,000
+Rákeresek, hogy hogyan tudok float-ból "bigDecimal"-t készíteni.
+
+173
+00:44:38,000 --> 00:44:41,000
+És a double-t is ugyanúgy átalakítom "bigDecimal"-lá.
+
+174
+00:44:50,000 --> 00:44:56,000
+Illetve nem is a float-ot, hanem a float "MAX_VALUE"-t szeretém átalakítani.
+
+175
+00:45:00,000 --> 00:45:03,000
+Hiszen arra vagyok kíváncsi, hogy az nagyobb-e.
+
+176
+00:45:07,000 --> 00:45:18,000
+És...kiírhatom a float-ot, illetve a double-t is.
+
+177
+00:45:18,000 --> 00:45:22,000
+Ezekre most nincs szükségünk egyenlőre.
+
+178
+00:46:02,000 --> 00:46:04,000
+És össze is tudom őket hasonítani.
+
+179
+00:46:23,000 --> 00:46:29,000
+És most azt az eredményt kaptam, hogy a "bigDecimalFromDouble" az nagyobb, mint a float-ból átalakított.
+
+180
+00:46:38,000 --> 00:47:10,000
+[olvassa a leírást] [olvassa a kódot]
+
+181
+00:47:11,000 --> 00:47:13,000
+Tehát úgy tűnik, hogy ez mégsem jó megközelítés.
+
+182
+00:47:13,000 --> 00:47:22,000
+Úgy tűnik, hogy akárhogyan alakítom float-tá, illetve double-lé mindig ugyan azt fogom kapni.
+
+183
+00:47:23,000 --> 00:47:30,000
+[futtat]
+
+184
+00:47:30,000 --> 00:47:33,000
+Most visszatérek az eredeti, a kiinduló állapotba,
+[futtat]
+
+185
+00:47:33,000 --> 00:47:36,000
+hogy újra lefuttassam az eredeti teszteket.
+[futtat]
+
+186
+00:47:36,000 --> 00:48:47,000
+[futtat]
+
+187
+00:48:54,000 --> 00:49:02,000
+Igen, és ugyan ez a 129.sorban.
+
+188
+00:49:02,000 --> 00:49:04,000
+Ugyan ez a hiba.
+
+189
+00:49:04,000 --> 00:49:07,000
+Tehát double-nek kellene lennie ennek az értéknek.
+
+190
+00:49:24,000 --> 00:49:29,000
+[olvassa a leírást]
+
+191
+00:49:39,000 --> 00:49:51,000
+Talán valahogy azzal lehetne próbákozni még, hog...a kapott sztringet és a Float.MAX_VALUE-t összehasonlítom,
+
+192
+00:49:51,000 --> 00:49:55,000
+hogy hogyan néznek ki sztring formában.
+
+193
+00:49:55,000 --> 00:50:06,000
+És ez alapján, hogyha előre meg tudjuk mondani, hogy ez biztosan nem fog beleférni a float-ba, akkor...akkor egyből a double-lé alakítással próbálkozzunk.
+
+194
+00:50:22,000 --> 00:50:26,000
+Viszont ezt még nem tudom, hogy milyen formában, tahát...
+
+195
+00:50:26,000 --> 00:50:32,000
+itt nem feltétlenül a sztring hosszára kell gondolnunk...
+
+196
+00:50:40,000 --> 00:50:43,000
+[sóhajt]
+
+197
+00:50:54,000 --> 00:51:07,000
+Tehát itt az előző összehasonlítással az volt a probléma, hogy a double érték az...az valahogy mindig nagyobbnak tűnt, mint a float-ként elképzelt érték.
+
+198
+00:51:13,000 --> 00:51:17,000
+Újra megpróbálkozom ezzel a megközelítéssel.
+
+199
+00:51:25,000 --> 00:51:29,000
+Lefuttatom a tesztet.
+
+200
+00:51:31,000 --> 00:51:35,000
+[futtat]
+
+201
+00:51:35,000 --> 00:51:39,000
+A coversge részét azt kiszedem, mert most már nem annyira fontos.
+
+202
+00:51:45,000 --> 00:51:49,000
+És ezek nem kellenek most hozzá.
+
+203
+00:51:49,000 --> 00:51:52,000
+Most csak a double értékét szeretném vizsgálni.
+
+204
+00:52:00,000 --> 00:52:08,000
+És ide belefutott a kódunk, tehát kiírattuk a "bigDecimalFromFloat", tehát ez a "Float.MAX_VALUE".
+
+205
+00:52:08,000 --> 00:52:10,000
+És a double-ként felpharse-olt szám.
+
+206
+00:52:10,000 --> 00:52:37,000
+[olvassa a kódot]
+
+207
+00:52:37,000 --> 00:52:39,000
+Illetve ez talán jó is lehet.
+
+208
+00:52:40,000 --> 00:52:43,000
+Megpróbálom lefuttatni úgy, hogy belerakom ide ezt a feltételt.
+
+209
+00:52:45,000 --> 00:53:03,000
+Hogyha float...kisebb mint 0, tehát ez a double-ként pharse-olt érték az nagyobb...akkor nem fér bele a float-ba.
+
+210
+00:53:03,000 --> 00:53:05,000
+Ez a teszt így lefutott.
+
+211
+00:53:11,000 --> 00:53:15,000
+És most a többit kell megnéznünk.
+
+212
+00:53:24,000 --> 00:53:29,000
+Ez volt az előző teszt, ami...ami elbukott előzőleg.
+
+213
+00:53:31,000 --> 00:53:33,000
+És még most is.
+
+214
+00:53:36,000 --> 00:53:39,000
+Tehát float-ot vártunk viszont double-t kaptunk vissza.
+
+215
+00:53:50,000 --> 00:54:14,000
+[olvassa a kódot]
+
+216
+00:54:14,000 --> 00:54:27,000
+Amit még megnézhetnénk, hogy...hogy a felpharse-olt float értéket is kiíratom.
+
+217
+00:54:42,000 --> 00:54:46,000
+Tehát látszódik, hogy a "Float.MAX_VALUE" és a pharse-olt érték egyenlő.
+
+218
+00:54:49,000 --> 00:54:51,000
+Akkor ezzel kellene visszatérnünk.
+
+219
+00:55:06,000 --> 00:55:08,000
+Ezt kiegészítem ezzel a feltétellel.
+
+220
+00:55:08,000 --> 00:55:18,000
+Hogyha viszont a "Float.MAX_VALUE"-t sikerült felpharse-olnunk, akkor viszont helyesen ezzel térjünk vissza.
+
+221
+00:55:19,000 --> 00:55:20,000
+[futtat]
+
+222
+00:55:20,000 --> 00:55:23,000
+Újra lefuttatom a teszteseteket.
+[futtat]
+
+223
+00:55:23,000 --> 00:55:26,000
+Illetve mégsem az összeset csak ezt a kettő kritikusat, ami az előbb elhasalt, elbukott.
+[futtat]
+
+224
+00:55:26,000 --> 00:55:29,000
+Illetve mégsem az összeset csak ezt a kettő kritikusat, ami az előbb elhasalt, elbukott.
+
+225
+00:55:29,000 --> 00:55:33,000
+[futtat]
+Illetve mégsem az összeset csak ezt a kettő kritikusat, ami az előbb elhasalt, elbukott.
+
+226
+00:55:44,000 --> 00:55:51,000
+És ez [nevet] most pedig ez...ez az ami hibát dob.
+
+227
+00:56:15,000 --> 00:56:41,000
+[olvassa kódot] [olvassa leírást] [nézi az eredményt]
+
+228
+00:56:41,000 --> 00:56:49,000
+Itt viszont tényleg az lenne a jó nekünk, ha ez a feltétel nem lenne itt, az új feltétel, a második ellenőrzés.
+
+229
+00:56:49,000 --> 00:57:17,000
+[olvassa kódot] [olvassa leírást] [nézi az eredményt]
+
+230
+00:57:17,000 --> 00:57:26,000
+Az a problémámnak a fő oka, hogy...ez a double érték ez mintha nem lenne olyan pontos.
+
+231
+00:57:33,000 --> 00:57:37,000
+Ha esetleg "bigDecimal"-ként próbálnám...
+
+232
+00:57:47,000 --> 00:57:50,000
+és egyszerűen ezt a "bigDecimal"-t írnám ki...
+
+233
+00:58:07,000 --> 00:58:14,000
+akkor talán egy következő lépéssel közelebb lehetnék.
+
+234
+00:58:18,000 --> 00:58:25,000
+Viszont...nem, ez a "bigDecimal" is ilyen formában szerepel.
+
+235
+00:58:56,000 --> 00:59:13,000
+[olvassa a kódot]
+
+236
+00:59:13,000 --> 00:59:14,000
+[sóhajt]
+[olvassa a kódot]
+
+237
+00:59:14,000 --> 00:59:19,000
+[olvassa a kódot]
+
+238
+00:59:19,000 --> 00:59:24,000
+Azon gondolkozom, hogy miért történik ez így, tehát...
+
+239
+00:59:25,000 --> 00:59:33,000
+miért lesz ilyen, miért kapott itt ilyen értéket a double és a "bigDecimal" értékeknél.
+
+240
+00:59:34,000 --> 00:59:38,000
+Pedig...azokba bele kellene férnie.
+
+241
+00:59:38,000 --> 00:59:43,000
+Tehát nem kellene felkerekíteni, de valamiért mégis így történik.
+
+242
+00:59:43,000 --> 01:00:07,000
+[olvassa a kódot] [olvassa a leírást]
+
+243
+01:00:08,000 --> 01:00:28,000
+Talán azzal, olyan ellenőrzést tudnék még rakni, hogy ha a konkrétan sztringként ezt a "Float.MAX_VALUE"-t kapjuk meg, akkor...engedjük át.
+
+244
+01:00:28,000 --> 01:00:31,000
+Viszont ez nem oldja meg az eredeti problémánkat.
+
+245
+01:00:31,000 --> 01:01:03,000
+[olvassa a kódot]
+
+246
+01:01:03,000 --> 01:01:08,000
+Illetve most észrevettem, hogy van ez a "numDecimals" változó.
+
+247
+01:01:10,000 --> 01:01:12,000
+Amit nem használunk fel semmire,
+
+248
+01:01:12,000 --> 01:01:14,000
+csak létre van hozva.
+
+249
+01:01:20,000 --> 01:01:26,000
+És esetleg...ezzel tudnék itt ellenőrizni.
+
+250
+01:01:26,000 --> 01:01:31,000
+Tehát ezeket kiszedem innen.
+
+251
+01:01:34,000 --> 01:02:17,000
+És egy olyan ellenőrzést tudnék belerakni, hogyha "numDecimals" az 8, akkor nem...tehát kisebb, mint 8, akkor float-ként kezeljük.
+
+252
+01:02:17,000 --> 01:02:31,000
+Viszont hogyha nagyobb, mint 8, illetve nagyobb egyenlő, mint 8, akkor...akkor jön ez az exception, hogy nem fér bele a float értékkészletébe.
+
+253
+01:02:37,000 --> 01:02:39,000
+Ezzel most lefut ez a teszt.
+
+254
+01:02:48,000 --> 01:02:51,000
+Illetve most a harmadik eset nem.
+
+255
+01:02:51,000 --> 01:02:52,000
+135.sor.
+
+256
+01:02:52,000 --> 01:03:02,000
+"bigDecimal"-nál...nem jól adjuk vissza.
+
+257
+01:03:33,000 --> 01:03:35,000
+Viszont eddig ezzel nem volt probléma.
+
+258
+01:03:36,000 --> 01:03:38,000
+Tehát...
+
+259
+01:03:40,000 --> 01:03:42,000
+Nem tudom, hogy ez mi által.
+
+260
+01:03:58,000 --> 01:04:06,000
+Kiírhatom a "Double.MAX_VALUE"-t és egy hasonló ellenőrzést tudok oda is...oda is rakni.
+
+261
+01:04:31,000 --> 01:04:37,000
+Lefuttatom az összes tesztesetet és megnézem, hogy ez pontosan mit módosított.
+[futtat]
+
+262
+01:04:37,000 --> 01:04:51,000
+[futtat]
+
+263
+01:04:51,000 --> 01:04:57,000
+Illetve most azt nem értem, hogy mitől romlott el a "bigDecimals"-t ellenőrző teszteset.
+[futtat]
+
+264
+01:04:57,000 --> 01:05:01,000
+Tehát, hogy azt nem kellene befolyásolnia szerintem.
+[futtat]
+
+265
+01:05:01,000 --> 01:05:52,000
+[futtat]
+
+266
+01:05:57,000 --> 01:06:07,000
+Itt a 130.sorban..."createNumber" "bigDecimal"-os teszteset bukott el.
+
+267
+01:06:12,000 --> 01:06:19,000
+Coverage alapján meg tudom nézni, hogy pontosan a kódnak melyik része futott le.
+
+268
+01:06:19,000 --> 01:06:25,000
+És hogy hol kellhet további ellenőrzéseket beleraknom.
+
+269
+01:06:30,000 --> 01:06:34,000
+Igen, itt egy double-el tértünk vissza.
+
+270
+01:07:03,200 --> 01:07:14,200
+Hogyha 16-nál nagyobb a..."numDecimals" értéke, akkor nem férhet bele a double-be.
+
+271
+01:07:31,200 --> 01:07:36,200
+Közben ellenőrzöm, hogy valóbangy van-e. 
+
+272
+01:07:48,200 --> 01:07:57,200
+Itt ezen az oldalon láttam egy képletet...ami alapján lehetne ezt ellenőrizni.
+
+273
+01:08:10,200 --> 01:08:20,200
+Tehát itt ezek az értékek...ezeket az értékeket lehetne érdemes vizsgálni.
+
+274
+01:08:26,200 --> 01:08:29,200
+Ez alapján a képlet alapján.
+
+275
+01:08:29,200 --> 01:08:57,200
+[böngészi a weboldalt]
+
+276
+01:08:57,200 --> 01:08:59,200
+[olvassa a kódot]
+
+277
+01:08:59,200 --> 01:09:01,200
+[böngészi a weboldalt]
+
+278
+01:09:06,200 --> 01:09:10,200
+Talán ezt tudnám általánosabban használni.
+
+279
+01:09:11,200 --> 01:09:28,200
+[nézi az eredményt]
+
+280
+01:09:28,200 --> 01:09:33,200
+Mégis van kettő rossz testesetem.
+
+281
+01:09:33,200 --> 01:09:37,200
+239.sorban az egyik.
+
+282
+01:09:38,200 --> 01:10:03,200
+[olvassa a kódot]
+
+283
+01:10:03,200 --> 01:10:07,200
+Tehát itt a "Double.MAX_VALUE"-t várta,
+
+284
+01:10:08,200 --> 01:10:13,200
+viszont...nem az érkezett.
+
+285
+01:10:13,200 --> 01:10:45,200
+[olvassa a kódot] [nézi az eredményt]
+
+286
+01:10:45,200 --> 01:11:14,200
+[böngészi a weboldalt]
+
+287
+01:11:14,200 --> 01:11:32,200
+[olvassa a kódot] [nézi az eredményt]
+
+288
+01:11:32,200 --> 01:11:42,200
+És a 282.sorban is van egy teszt, ami...ami elbukott.
+
+289
+01:12:10,200 --> 01:12:28,200
+Most egy olyan képletet keresek, amivel általánosan tudnám ellenőrizni ezt a megoldást, hogy mi fér bele a float-ba és a double-be.
+
+290
+01:12:28,200 --> 01:12:44,200
+[böngészi a weboldalt]
+
+291
+01:12:44,200 --> 01:12:46,200
+[sóhajt]
+[böngészi a weboldalt]
+
+292
+01:12:46,200 --> 01:13:10,200
+[böngészi a weboldalt]
+
+293
+01:13:14,200 --> 01:13:17,200
+239.sorban.
+
+294
+01:13:17,200 --> 01:13:22,200
+Megpróbálom a coverage-el...lefuttatni.
+
+295
+01:13:34,200 --> 01:13:39,200
+[futtat]
+
+296
+01:14:03,200 --> 01:14:15,200
+Hogyha ezeket kikommentezném, akkor tudnám pontosan ellenőrizni, hogy az az egy eset...milyen eredményt ad illetve hogyan fut le.
+
+297
+01:14:48,200 --> 01:14:50,200
+Ez alapján meg is tudom nézni...
+
+298
+01:15:03,200 --> 01:15:09,200
+És itt látszódni fog, hogy...hogy ebbe az ágba futottunk bele.
+
+299
+01:15:12,200 --> 01:15:22,200
+Tehát valamilyen általánosabb megoldásra lenne szükségem, ami nem csak ezt az egy...egy értéket ellenőrzi.
+
+300
+01:15:27,200 --> 01:15:48,200
+[olvassa a leírást] [olvassa a kódot]
+
+301
+01:15:48,200 --> 01:15:51,200
+[sóhajt]
+[olvassa a leírást] [olvassa a kódot]
+
+302
+01:15:51,200 --> 01:16:09,200
+[olvassa a leírást] [olvassa a kódot]
+
+303
+01:16:09,200 --> 01:16:16,200
+Az is lehet, hogy csak egy érték miatt van ezzel probléma, de hát lehet, hogy csak az ellenőrzést kell átírnom.
+
+304
+01:16:17,200 --> 01:16:18,200
+Megpróbálom.
+
+305
+01:16:18,200 --> 01:17:24,200
+[böngészi a weboldalt] [olvassa a leírást] [olvassa a kódot] [nézi az eredményt]
+
+306
+01:17:24,200 --> 01:17:28,200
+Talán erre valami általánosabb megoldást kellene találni.
+
+307
+01:17:30,200 --> 01:17:54,200
+[böngészi a weboldalt]
+
+308
+01:17:55,200 --> 01:18:01,200
+[nézi az eredményt]
+
+309
+01:18:01,200 --> 01:18:10,200
+Hát így-így lefutottak a tesztek, viszont nem vagyok benne biztos, hogy...ez a későbbiekben is minden számra működni fog.
+
+310
+01:18:15,200 --> 01:18:20,200
+Tehát...erre valamilyen jobb megoldást kellene találni.
+
+311
+01:18:26,200 --> 01:18:32,200
+Mert ezzel most csak annyit bizonyítottunk, hogy konkrétan ezekre az inputokra működik.
+
+312
+01:18:37,200 --> 01:18:45,200
+[olvassa a kódot]
+
+313
+01:18:53,200 --> 01:19:06,200
+Most olyasmire próbálok rákeresni, hogy tényleg van-e valamilyen általános képlet, hogy...amivel meg lehet határni, hogy egy szám belefér-e az értékkészletbe...
+
+314
+01:19:07,200 --> 01:19:08,200
+ez alapján a jelölés alapján.
+
+315
+01:20:21,200 --> 01:20:27,200
+Most egy általános képletet szeretnék eltalálni, de...egyelőre nem találtam...
+
+316
+01:20:48,200 --> 01:20:50,200
+amivel ezt tudnám ellenőrizni.
+
+317
+01:21:21,200 --> 01:21:26,200
+Tehát az a "createFloat" ez...csak a sztring értékét veszi.
+
+318
+01:21:28,200 --> 01:21:36,200
+És erre rákereshetek, hogy...hogy ilyenkor mi történik.
+
+319
+01:23:26,000 --> 01:23:37,000
+Most azt ellenőriztem, hogy esetleg...tudnék-e átadni neki úgy értéket, hogy...hogy dobjon hibát, hogyha túl nagy lenne az érték,
+
+320
+01:23:46,000 --> 01:23:48,000
+de...eddig sajnos nem sikerült.
+
+321
+01:23:52,000 --> 01:23:53,000
+Tehát hogy...
+
+322
+01:23:54,000 --> 01:24:07,000
+Tehát a megoldásom az végülis ezekre a tesztesetekre működik, de...de szerintem ez általánosságban nem...nem fog.
+
+323
+01:24:19,000 --> 01:24:23,000
+Elveszítettem a metódust, ami nekem kell.
+
+324
+01:24:50,000 --> 01:25:29,000
+[böngészi a weboldalt]
+
+325
+01:25:45,000 --> 01:26:33,000
+[böngészi a weboldalt]
+
+326
+01:26:33,000 --> 01:27:14,000
+[olvassa a kódot]
+
+327
+01:27:14,000 --> 01:27:22,000
+Sajnos egyenlőre még mindig nem találtam olyan képletet, ami...ami ezt általánosságban meg tudná nekem mondani.
+
+328
+01:27:26,000 --> 01:28:24,000
+[böngészi a weboldalt]
+
+329
+01:28:24,000 --> 01:28:26,000
+[olvassa a kódot] [böngészi a weboldalt]
+
+330
+01:29:43,000 --> 01:29:52,000
+Lehet, hogy konkrétan erre kellene rákeresnem, hogy mennyi tizedesjegy lehet egy double-ben, illetve float-ban.
+
+331
+01:30:30,000 --> 01:31:23,000
+[böngészi a weboldalt]
+

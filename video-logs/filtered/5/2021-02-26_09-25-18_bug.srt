@@ -1,0 +1,1338 @@
+﻿1
+00:00:00,000 --> 00:00:05,000
+Szuper, elvileg megy (Gergő)
+
+2
+00:00:05,000 --> 00:00:08,704
+Ööö, itt van megint egy feladat, meg van mögötte egy (Gergő)
+
+3
+00:00:08,700 --> 00:00:12,208
+...egy ilyen ... ismertető, ugyanaz, amit legutóbb láttál, gyakorlatilag (Gergő)
+
+4
+00:00:12,208 --> 00:00:14,200
+[motyog] Gergő
+
+5
+00:00:14,200 --> 00:00:17,776
+... hogyan kell használni, ki kell javítani a hibát, (Gergő)
+
+6
+00:00:17,770 --> 00:00:19,936
+a hibának a rövid leírását ott találod (Gergő)
+
+7
+00:00:19,936 --> 00:00:21,930
+Eclipse az meg van nyitva 
+
+8
+00:00:21,930 --> 00:00:25,008
+minden be van töltve, minden ott van az Eclipse-ben amire szükséged van (Gergő)
+
+9
+00:00:25,000 --> 00:00:28,336
+Nyilván a metaadatoknak a csv-je meg ott a (Gergő)
+
+10
+00:00:28,330 --> 00:00:32,672
+adott elérésű útvonalod találod - 90 perc van erre a (Gergő)
+
+11
+00:00:32,670 --> 00:00:37,280
+feladatnak az elvégésére. Akkor van kész a feladat, ha nincs bukó teszteseted, (Gergő)
+
+12
+00:00:37,280 --> 00:00:39,920
+vagy pedig lejár az idő. Öhm (Gergő)
+
+13
+00:00:39,920 --> 00:00:41,616
+továbbra is légyszíves mindent mondjál ki, (Gergő)
+
+14
+00:00:41,610 --> 00:00:48,064
+ami eszedbe jut, tehát folyamatosan hangosan gondolkodjál, braindump jelleggel, tehát tényleg nem kell szűrni, nem kell válogatni
+
+15
+00:00:48,064 --> 00:00:50,060
+Ööö, igen (Gergő)
+
+16
+00:00:50,060 --> 00:00:53,456
+Alapból a hibák azok létező, ismert hibák, úgyhogy (Gergő)
+
+17
+00:00:53,450 --> 00:00:55,360
+Kérünk téged, hogy ilyen issue trackerben, meg (Gergő) 
+
+18
+00:00:55,360 --> 00:00:57,920
+különböző hibaadatbázisokban ne próbáld megkeresni, mert (Gergő)
+
+19
+00:00:57,920 --> 00:00:59,920
+mert amúgy meg lehet őket találni (Gergő)
+
+20
+00:00:59,920 --> 00:01:02,048
+de nyilván ez nekünk torzítani a mérést (Gergő)
+
+21
+00:01:02,048 --> 00:01:04,040
+ha onnan olvasod ki a megoldást. (Gergő)
+
+22
+00:01:04,040 --> 00:01:06,656
+Ööö, pár percenként rád lesz nézve, hogy (Gergő)
+
+23
+00:01:06,656 --> 00:01:08,650
+rendben haladsz-e, minden rendben van-e, ha (Gergő)
+
+24
+00:01:08,650 --> 00:01:10,650
+úgy gondolod, hogy készen van, akkor várjál itt, és akkor (Gergő)
+
+25
+00:01:10,650 --> 00:01:12,650
+- tudsz szólni, hogy megvan (Gergő)
+- Jó, oké.
+
+26
+00:01:12,650 --> 00:01:14,720
+- Öö, van kérdésed esetleg? (Gergő)
+- Nincs. 
+
+27
+00:01:14,720 --> 00:01:16,720
+Szuper. (Gergő)
+
+28
+00:01:16,720 --> 00:01:22,640
+[nézi a képernyőt, helyezkedik] - Jó munkát! (Gergő)
+- Köszi! 
+
+29
+00:01:22,640 --> 00:01:26,784
+[magához veszi az egeret]
+
+30
+00:01:26,780 --> 00:01:31,504
+[kattint, keres egy lapot]
+
+31
+00:01:31,500 --> 00:01:36,224
+Tehát most azt látom, hogy ugyanabban a tesztosztályban van kettő darab
+
+32
+00:01:36,224 --> 00:01:38,220
+duplum tesztesetem
+
+33
+00:01:38,220 --> 00:01:42,704
+[kattint] először is megnézem ezt a tesztosztályt
+
+34
+00:01:42,700 --> 00:01:44,608
+[kattint]
+
+35
+00:01:44,600 --> 00:01:48,320
+Megkeresem, és...
+
+36
+00:01:48,320 --> 00:01:52,576
+lefuttatom a legelső tesztesetet. 
+
+37
+00:01:52,570 --> 00:01:56,272
+[gépel]
+
+38
+00:01:56,270 --> 00:02:01,504
+Ööö, átváltok a...
+
+39
+00:02:01,500 --> 00:02:05,440
+java nézetbe, az kényelmesebb nekem
+
+40
+00:02:05,440 --> 00:02:10,016
+hogy itt az outline-ből ki tudjam jelölni a 
+
+41
+00:02:10,010 --> 00:02:14,272
+testReducedFactory
+
+42
+00:02:14,270 --> 00:02:19,328
+[kattint] int int metódust, ez az egyik bukó teszteset
+
+43
+00:02:19,320 --> 00:02:23,936
+Lefuttatom coverage-dzsel
+
+44
+00:02:23,930 --> 00:02:27,104
+hogy lássam is, hogy melyik sorokat is érintette a vezérlés
+
+45
+00:02:27,100 --> 00:02:30,192
+[nézi az eredményt]
+
+46
+00:02:30,192 --> 00:02:32,190
+Ééés
+
+47
+00:02:32,190 --> 00:02:37,712
+[nézi az eredményt] Most azt látom, hogy 
+
+48
+00:02:37,712 --> 00:02:39,710
+[kattint]
+
+49
+00:02:39,710 --> 00:02:43,424
+[kattintgat]
+
+50
+00:02:43,424 --> 00:02:45,420
+Nem az elvárt eredményt kaptuk,
+
+51
+00:02:45,420 --> 00:02:48,048
+[nézi az eredményt]
+
+52
+00:02:48,040 --> 00:02:51,344
+ez lett volna az elvárt, és ehelyett
+
+53
+00:02:51,340 --> 00:02:54,720
+ez lett az eredményem
+
+54
+00:02:54,720 --> 00:02:57,728
+[nézi az eredményt]
+
+55
+00:02:57,720 --> 00:03:01,536
+Ööö... tehát ennek az f változónak az 
+
+56
+00:03:01,530 --> 00:03:06,528
+integer.MIN_VALUE / 2 értéket kellett volna felvennie, ehelyett
+
+57
+00:03:06,520 --> 00:03:08,976
+nem azt vette fel
+
+58
+00:03:08,970 --> 00:03:12,576
+getReducedFraction metódus, meg is nyitom
+
+59
+00:03:12,570 --> 00:03:15,008
+[kattint]
+
+60
+00:03:15,008 --> 00:03:17,000
+hogy mit csinál
+
+61
+00:03:17,000 --> 00:03:23,136
+[olvassa a kódot]
+
+62
+00:03:23,136 --> 00:03:25,130
+tehát egy...
+
+63
+00:03:25,130 --> 00:03:30,336
+törtet készít az y/z részekből, tehát
+
+64
+00:03:30,330 --> 00:03:34,752
+ööö... 2/4-ből
+
+65
+00:03:34,750 --> 00:03:38,688
+ööö, egykettedre egyszerűsíti
+
+66
+00:03:38,680 --> 00:03:45,104
+[olvassa a kódot]
+
+67
+00:03:45,100 --> 00:03:49,664
+Igen, tehát ott például a három hetedben a három lesz a 
+
+68
+00:03:49,660 --> 00:03:53,440
+...nevező, azt hiszem
+
+69
+00:03:53,440 --> 00:03:57,776
+[nyit egy böngészőt, gépel]
+
+70
+00:03:57,770 --> 00:04:00,144
+[gépel]
+
+71
+00:04:00,140 --> 00:04:02,624
+nevező, számláló
+
+72
+00:04:02,620 --> 00:04:09,328
+[visszavált Eclipse-re]
+
+73
+00:04:09,320 --> 00:04:12,560
+Igen, tehát a felső a számláló, az alső pedig a nevező
+
+74
+00:04:12,560 --> 00:04:16,240
+Tehát a 3/7-ben a három a számláló, a hét a nevező
+
+75
+00:04:16,240 --> 00:04:19,648
+[kattint]
+
+76
+00:04:19,640 --> 00:04:23,760
+Tehát egy új törttel térünk vissza, az egszerűsített
+
+77
+00:04:23,760 --> 00:04:25,760
+számlálóval, nevezővel
+
+78
+00:04:26,352 --> 00:04:31,424
+és akkor dobunk arithmeticException-t, hogyha a nevező nulla
+
+79
+00:04:31,420 --> 00:04:34,656
+Tehát hogyha nullával szeretnék osztani
+
+80
+00:04:34,650 --> 00:04:39,168
+[kattint] és itt az integer
+
+81
+00:04:39,160 --> 00:04:43,712
+min value-t szeretnénk kettővel elosztani
+
+82
+00:04:43,710 --> 00:04:56,512
+[olvassa a kódot, kattint]
+
+83
+00:04:56,512 --> 00:04:58,510
+Kikommentezem azokat a részeket,
+
+84
+00:04:58,510 --> 00:05:04,688
+amik más inputra nézik, futtatják le ezt a metódust
+
+85
+00:05:04,680 --> 00:05:08,880
+hogy tényleg csak ezt lássam, tehát...
+
+86
+00:05:08,880 --> 00:05:12,160
+[görget]
+
+87
+00:05:12,160 --> 00:05:17,024
+Hogyha ezt most kikommentezem, és újra lefuttatom a tesztesetemet, 
+
+88
+00:05:17,020 --> 00:05:24,016
+[futtat, vár]
+
+89
+00:05:24,010 --> 00:05:30,736
+[nézi a kódot] akkor a fraction-nél azt fogom látni, hogy az integer min value
+
+90
+00:05:30,730 --> 00:05:35,120
+per kettő konkrét inputra mi törtéik
+
+91
+00:05:35,120 --> 00:05:37,120
+[kattint]
+
+92
+00:05:37,120 --> 00:05:41,856
+tehát a nevező az kettő, ebbe az ágba nem futunk bele
+
+93
+00:05:41,850 --> 00:05:46,608
+a számláló sem, tehát a nevező nem nulla, a számláló sem nulla
+
+94
+00:05:46,600 --> 00:05:49,936
+és hogyha a számláló
+
+95
+00:05:49,936 --> 00:05:51,930
+integer min value
+
+96
+00:05:51,930 --> 00:05:54,672
+[olvassa a kódot]
+
+97
+00:05:54,670 --> 00:05:59,104
+és a... [kattint]
+
+98
+00:05:59,100 --> 00:06:04,016
+[nézi a kódot] nevező [nyit egy böngészőt]
+
+99
+00:06:04,010 --> 00:06:08,864
+[gépel] 
+
+100
+00:06:08,860 --> 00:06:16,656
+[böngészi a weboldalt]
+
+101
+00:06:16,656 --> 00:06:18,650
+tehát ez a
+
+102
+00:06:18,650 --> 00:06:23,312
+[kattint] egyszerű "és" jel
+
+103
+00:06:23,310 --> 00:06:28,016
+[böngészi a weboldalt]
+
+104
+00:06:28,010 --> 00:06:30,448
+ezt bitenként és
+
+105
+00:06:30,448 --> 00:06:32,440
+[görget]
+
+106
+00:06:32,440 --> 00:06:37,136
+[kattint] mondjuk azt milyen
+
+107
+00:06:37,130 --> 00:06:39,616
+[böngészi a weboldalt]
+
+108
+00:06:39,610 --> 00:06:44,096
+műveletet végez, azt mindjárt megkeresem
+
+109
+00:06:44,090 --> 00:06:48,896
+[böngész] oké
+
+110
+00:06:48,890 --> 00:06:52,192
+Tehát a bitenkénti és [kattint]
+
+111
+00:06:52,190 --> 00:06:54,928
+[kattint]
+
+112
+00:06:54,920 --> 00:06:58,944
+Igen, hogyha mindkettő bit, az egy, akkor egy, ... nulla
+
+113
+00:06:58,940 --> 00:07:03,920
+[böngészi a weboldalt]
+
+114
+00:07:03,920 --> 00:07:06,656
+és, ez mit is ad vissza? 
+
+115
+00:07:08,368 --> 00:07:13,168
+öt és hét esetében kisebb számot, az ötöt
+
+116
+00:07:13,160 --> 00:07:17,680
+[böngészi a weboldalt]
+
+117
+00:07:17,680 --> 00:07:19,680
+[kattint]
+
+118
+00:07:19,680 --> 00:07:26,944
+[kattintgat, új oldalt nyit]
+
+119
+00:07:26,940 --> 00:07:30,368
+[böngészi a weboldalt]
+
+120
+00:07:30,360 --> 00:07:33,488
+[motyogva olvas]
+
+121
+00:07:33,480 --> 00:07:40,480
+[böngészi a weboldalt]
+
+122
+00:07:40,480 --> 00:07:45,600
+Tehát 6 és 5-nek az eredménye az 4 lesz
+
+123
+00:07:46,720 --> 00:07:49,536
+Jó, tehát...
+
+124
+00:07:49,536 --> 00:07:51,530
+[kattint]
+
+125
+00:07:51,530 --> 00:07:55,344
+Hogyha a numerator, tehát a számláló bitenkénti ÉS 
+
+126
+00:07:55,340 --> 00:07:59,136
+egy eredménye az nulla, 
+
+127
+00:07:59,856 --> 00:08:03,856
+az azt jelenti, hogy 
+
+128
+00:08:03,850 --> 00:08:11,088
+[olvassa a kódot]
+
+129
+00:08:11,080 --> 00:08:16,416
+Tehát hogyha a számláló.... a nevező az integer min value
+
+130
+00:08:16,410 --> 00:08:25,488
+[olvassa a kódot, gondolkodik]
+
+131
+00:08:25,480 --> 00:08:28,384
+Most azon gondolkozom, hogy mit jelenthet ez, hogyha a 
+
+132
+00:08:28,380 --> 00:08:31,904
+a nev... a számláló bitenként ÉS egy
+
+133
+00:08:31,904 --> 00:08:33,900
+az nulla
+
+134
+00:08:34,448 --> 00:08:37,776
+[kattint] tehát kettő a k-adikon per
+
+135
+00:08:37,770 --> 00:08:42,144
+mínusz kettő a 31.-ken
+
+136
+00:08:42,140 --> 00:08:51,936
+[olvassa a kódot, gondolkodik]
+
+137
+00:08:51,930 --> 00:08:54,672
+és ebbe az ágba nem futunk bele
+
+138
+00:08:54,670 --> 00:09:04,256
+[gondolkodik, nézi a kódot]
+
+139
+00:09:04,256 --> 00:09:06,250
+hogyha a szám...
+
+140
+00:09:06,250 --> 00:09:12,128
+a nevező kisebb mit nulla, ez sem.. igaz, mert mi kettővel szeretnénk osztani
+
+141
+00:09:12,120 --> 00:09:14,592
+[gondolkodik]
+
+142
+00:09:14,590 --> 00:09:19,504
+igen... ebbe biztosan nem fogunk belefutni, mert mi a ... nálunk
+
+143
+00:09:19,500 --> 00:09:21,808
+a nevező az kettő lesz
+
+144
+00:09:21,800 --> 00:09:25,200
+nem integer min value
+
+145
+00:09:25,200 --> 00:09:31,056
+[kattintgat]
+
+146
+00:09:31,050 --> 00:09:34,528
+és megkeresem a legnagyobb közös osztójukat
+
+147
+00:09:34,520 --> 00:09:40,752
+[kattint] 
+
+148
+00:09:40,750 --> 00:09:44,592
+[olvassa a javadocot]
+
+149
+00:09:44,590 --> 00:09:48,848
+és -2 a 31.-en az az integer min value
+
+150
+00:09:48,840 --> 00:09:59,232
+[olvassa a javadocot, kódot]
+
+151
+00:09:59,230 --> 00:10:05,152
+Ha jól gondolom, erre itt visszatérve akkor ez tulajdonképpen csak az a feltétel, hogy a számláló nagyobb mint nulla
+
+152
+00:10:05,150 --> 00:10:08,384
+[nézi a kódot, kattint]
+
+153
+00:10:08,380 --> 00:10:22,400
+[olvassa a kódot, gondolkodik]
+
+154
+00:10:22,400 --> 00:10:25,056
+Jó, tehát visszatérve ide
+
+155
+00:10:25,050 --> 00:10:29,872
+megkeressük az integer min value-nak és a kettőnek
+
+156
+00:10:29,870 --> 00:10:34,176
+a legnagyobb közös osztóját
+
+157
+00:10:34,170 --> 00:10:41,200
+[olvassa a kódot, kattint]
+
+158
+00:10:41,200 --> 00:10:44,800
+és itt egyet kaptunk valamiért
+
+159
+00:10:44,800 --> 00:10:48,464
+[görget]
+
+160
+00:10:48,460 --> 00:10:53,424
+...melyik metódusban voltam?
+
+161
+00:10:53,420 --> 00:10:58,832
+Itt, 214. sor - tehát ez valamiért 1 lett
+
+162
+00:10:58,830 --> 00:11:08,624
+[kattint, olvassa a kódot]
+
+163
+00:11:08,620 --> 00:11:14,160
+ehelyett viszont rendesen el kellett volna végezniük a osztást
+
+164
+00:11:14,160 --> 00:11:19,760
+[kattintgat, nézi a kódot]
+
+165
+00:11:19,760 --> 00:11:23,552
+az integer min value-nak is kettőnek...
+
+166
+00:11:23,550 --> 00:11:46,544
+[olvassa a kódot, javadocot, kattintgat]
+
+167
+00:11:46,540 --> 00:11:49,888
+erre valószínűleg nincs tesztesetünk, tehát 
+
+168
+00:11:49,880 --> 00:11:52,912
+simán statikus biztosan nincs
+
+169
+00:11:52,910 --> 00:12:01,904
+[kattintgat]
+
+170
+00:12:01,900 --> 00:12:05,728
+itt most annyit tehetek, hogy megnézem a...
+
+171
+00:12:05,984 --> 00:12:09,136
+a mínusz kettő
+
+172
+00:12:09,130 --> 00:12:14,096
+a 31.-ennek, és a kettőnek a legnagyobb közös osztóját
+
+173
+00:12:14,090 --> 00:12:17,680
+...kiszámolom...
+
+174
+00:12:17,680 --> 00:12:24,176
+[nyit egy böngészőt, gépel]
+
+175
+00:12:24,170 --> 00:12:28,464
+Keresek rá egy online
+
+176
+00:12:28,460 --> 00:12:33,264
+[motyog, böngészi a weboldalt]
+
+177
+00:12:33,260 --> 00:12:40,816
+[böngészi a weboldalt]
+
+178
+00:12:40,810 --> 00:12:44,512
+igen, tehát új sorba kell beírni a számokat
+
+179
+00:12:44,510 --> 00:12:46,672
+[nyit egy böngészőt, motyog]
+
+180
+00:12:46,670 --> 00:12:51,504
+...a 31.-ediken, az ez az érték
+
+181
+00:12:51,500 --> 00:12:55,296
+[kattint]
+
+182
+00:12:55,296 --> 00:12:57,290
+igen.. tehát ööö
+
+183
+00:12:57,290 --> 00:13:01,728
+pont belefér ennek a kalkulátornak a 
+
+184
+00:13:01,720 --> 00:13:04,176
+a határértékébe, és
+
+185
+00:13:04,170 --> 00:13:08,832
+ezeknek kettő a legnagyobb osztója
+
+186
+00:13:08,830 --> 00:13:13,136
+na most hogyha itt lefuttatom újra a tesztemet, és 
+
+187
+00:13:13,130 --> 00:13:18,384
+és kiírom, hogy ez a metódus milyen értéket adott vissza
+
+188
+00:13:18,380 --> 00:13:21,216
+Akkor talán rögtön ki is derülhet, hogy 
+
+189
+00:13:21,210 --> 00:13:23,360
+hogy ott hibás eredménnyel térünk vissza
+
+190
+00:13:23,360 --> 00:13:27,408
+mert ott, ott egyet adott nekünk
+
+191
+00:13:27,400 --> 00:13:41,712
+[kattint, olvassa a kódot, gondolkodik]
+
+192
+00:13:41,710 --> 00:13:45,648
+De... hogyan lehet az, tehát
+
+193
+00:13:47,408 --> 00:13:55,504
+A... ennek a mínusz két, ennek a integer min value értéknek
+
+194
+00:13:55,500 --> 00:14:01,200
+az abszolút értéke az nem lehet kisebb, mint egy
+
+195
+00:14:01,200 --> 00:14:09,600
+és a kettőnek az abszolút értéke sem lehet kisebb, mint egy, vagy kisebb mint egy ... egy
+
+196
+00:14:09,600 --> 00:14:20,880
+[kattint, olvassa a forráskódot]
+
+197
+00:14:20,880 --> 00:14:24,512
+és berakok egy kiíratást
+
+198
+00:14:24,510 --> 00:14:38,432
+[gépel]
+
+199
+00:14:38,430 --> 00:14:42,304
+Kiírom a kettő számot, amit ide megkaptunk mert ez
+
+200
+00:14:42,300 --> 00:14:48,448
+itt hibásnak tűnik, mint hogyha rossz paramétereket kapna meg
+
+201
+00:14:48,448 --> 00:14:50,440
+De... de nem
+
+202
+00:14:50,440 --> 00:14:55,728
+ezt az értéket kapja, és a kettőt
+
+203
+00:14:55,720 --> 00:14:58,240
+[olvassa a kódot]
+
+204
+00:14:58,240 --> 00:15:02,432
+Az u-nak az abszolút értéke az 
+
+205
+00:15:03,744 --> 00:15:08,704
+az nem lehet kisebb egyenlő, mint egy, hát a vége sem
+
+206
+00:15:08,700 --> 00:15:11,936
+[olvassa a kódot, kattint]
+
+207
+00:15:11,930 --> 00:15:17,232
+hogyha kisebb mint nulla az érték, ez igen, akkor 
+
+208
+00:15:17,230 --> 00:15:20,544
+akkor az ellentetjét adom vissza
+
+209
+00:15:20,540 --> 00:15:24,144
+[nézi a forráskódot]
+
+210
+00:15:24,140 --> 00:15:32,368
+viszont... itt nem ez történik [gépel]
+
+211
+00:15:32,360 --> 00:15:35,552
+Kiíratom az abszolút értéküket
+
+212
+00:15:35,550 --> 00:15:42,688
+[gépel]
+
+213
+00:15:42,680 --> 00:15:46,368
+[továbbra is gépel]
+
+214
+00:15:46,360 --> 00:15:51,488
+Az u-nak és v-nek tehát a kapott kettő számnak az abszolút értékét
+
+215
+00:15:51,480 --> 00:15:56,528
+[olvassa a kódot]
+
+216
+00:15:56,520 --> 00:16:02,480
+Igen... ööö... ez... ez nem jó.
+
+217
+00:16:02,480 --> 00:16:05,184
+[nézi az eredményt]
+
+218
+00:16:05,180 --> 00:16:08,640
+Az abszolút értéke az nem
+
+219
+00:16:08,640 --> 00:16:12,384
+... az mitől lesz negatív? 
+
+220
+00:16:12,380 --> 00:16:16,944
+Itt... itt van a... [sóhajt] probléma
+
+221
+00:16:16,940 --> 00:16:23,776
+[olvassa a kódot, nyit egy böngészőt]
+
+222
+00:16:23,770 --> 00:16:27,952
+[gépel]
+
+223
+00:16:27,950 --> 00:16:32,336
+Rákeresek erre a problémára, hogy 
+
+224
+00:16:32,330 --> 00:16:43,072
+[böngészi a weboldalt]
+
+225
+00:16:43,070 --> 00:16:46,176
+Igen, tehát [kattint]
+
+226
+00:16:46,170 --> 00:16:48,480
+[böngészi a weboldalt]
+
+227
+00:16:48,480 --> 00:16:53,424
+hogyha pozitív értékké akarom konvertálni, akkor 
+
+228
+00:16:53,420 --> 00:16:56,784
+túlcsordul ez a pozítív érték a
+
+229
+00:16:56,780 --> 00:17:01,424
+... a következő negatívra, amit itt látunk is
+
+230
+00:17:01,420 --> 00:17:08,240
+[kattint, olvassa a kódot]
+
+231
+00:17:08,240 --> 00:17:10,240
+tehát
+
+232
+00:17:10,240 --> 00:17:14,800
+[gépel]
+
+233
+00:17:14,800 --> 00:17:19,648
+ööö, abszolút u
+
+234
+00:17:20,304 --> 00:17:24,736
+[gépel] abszolút v
+
+235
+00:17:24,730 --> 00:17:30,416
+ööö bevezetek kettő változót, mikor pont ezt a határértéket tudom vizsgálni
+
+236
+00:17:30,410 --> 00:17:33,872
+[nézi a kódot]
+
+237
+00:17:33,872 --> 00:17:35,870
+Ööö, ez legyen
+
+238
+00:17:36,032 --> 00:17:38,560
+[gépel]
+
+239
+00:17:38,560 --> 00:17:42,448
+egyenlő ezzel
+
+240
+00:17:42,440 --> 00:17:47,616
+ez pedig ezzel, és belerakok egy feltételt, hogy 
+
+241
+00:17:47,610 --> 00:17:51,824
+a... u az egyenlő 
+
+242
+00:17:51,820 --> 00:17:55,168
+integer min value-val, akkor az 
+
+243
+00:17:55,160 --> 00:17:58,192
+abszolút értéke [gépel]
+
+244
+00:17:58,190 --> 00:18:02,784
+az... legyen integer.MAX_VALUE
+
+245
+00:18:02,780 --> 00:18:08,368
+[kattintgat] és itt ezt kell vizsgálnom
+
+246
+00:18:08,368 --> 00:18:10,360
+[kattintgat]
+
+247
+00:18:10,360 --> 00:18:13,360
+[gépel]
+
+248
+00:18:13,360 --> 00:18:16,016
+abszolút u és abszolút v
+
+249
+00:18:16,010 --> 00:18:18,256
+most újra lefuttatom a tesztet
+
+250
+00:18:18,250 --> 00:18:22,960
+[futtat, nézi az eredményt]
+
+251
+00:18:22,960 --> 00:18:25,312
+és már sikeres volt a futása
+
+252
+00:18:26,272 --> 00:18:32,192
+az összes kommentárt visszavonom, és 
+
+253
+00:18:32,190 --> 00:18:34,992
+és úgyis megnézem
+
+254
+00:18:34,990 --> 00:18:37,728
+[kattintgat]
+
+255
+00:18:37,720 --> 00:18:42,688
+Újra ezt az egy tesztesetet coverage-dzsel futtatom
+
+256
+00:18:42,680 --> 00:18:46,816
+Igen, a [görget]
+
+257
+00:18:46,810 --> 00:18:49,120
+az üzeneteket majd ki kell szednem
+
+258
+00:18:49,120 --> 00:18:51,120
+de... 
+
+259
+00:18:51,120 --> 00:18:55,008
+de ez most így jónak tűnik
+
+260
+00:18:55,000 --> 00:18:59,168
+Egyelőre csak kikommentezem őket,
+
+261
+00:18:59,160 --> 00:19:03,472
+[kattint] majd utána kitörlöm.
+
+262
+00:19:03,470 --> 00:19:09,600
+Hogyha végeztem a feladatmegoldással, és ez sem kell ide
+
+263
+00:19:09,600 --> 00:19:12,064
+[sóhajt] ööö
+
+264
+00:19:12,064 --> 00:19:14,060
+most lefuttatom az összes tesztet
+
+265
+00:19:14,060 --> 00:19:18,224
+[kattint] megnézem, hogy van-e még valami
+
+266
+00:19:18,224 --> 00:19:20,220
+esetleg
+
+267
+00:19:21,184 --> 00:19:24,848
+elbukik, azon kívül, mint ami 
+
+268
+00:19:24,840 --> 00:19:29,952
+azon kívül a testReduce metóduson kívül, ami ki is van írva feladatban
+
+269
+00:19:29,950 --> 00:20:06,064
+[futtat, nézi az eredményt, vár]
+
+270
+00:20:06,060 --> 00:20:09,152
+és lefutott sikeresen
+
+271
+00:20:09,150 --> 00:20:10,944
+[görget]
+
+272
+00:20:10,940 --> 00:20:14,944
+ez meglepő, mert a sima testReduce-hoz nem is
+
+273
+00:20:14,940 --> 00:20:21,056
+nyúltam hozzá - most kikommentezem a módosításomat innen, és megnézem hogy 
+
+274
+00:20:21,050 --> 00:20:23,296
+[gépel]
+
+275
+00:20:23,290 --> 00:20:26,208
+hogy úgy valóban elbukna-e
+
+276
+00:20:26,200 --> 00:20:45,936
+[kattint, futtat, vár, nézi az eredményt]
+
+277
+00:20:45,930 --> 00:20:53,392
+Most az az elvárt eredmény, hogy pontosan ez a kettő teszteset fog elbukni, tehát a reduceFactory int int
+
+278
+00:20:53,390 --> 00:20:56,144
+és a testReduce
+
+279
+00:20:56,140 --> 00:21:16,752
+[nézi az eredményt]
+
+280
+00:21:16,750 --> 00:21:21,744
+Igen, elbukott a teszt, kettő elbukott teszteset
+
+281
+00:21:21,740 --> 00:21:24,272
+testReduce és testReduceFactory_int_int
+
+282
+00:21:24,592 --> 00:21:29,424
+ez volt az elvárt eredmény - és most visszarakom a javításomat
+
+283
+00:21:29,420 --> 00:21:33,136
+ezen kívül még a v értéke is, ööö, 
+
+284
+00:21:33,130 --> 00:21:36,176
+érdemes ugyanezt megcsinálni
+
+285
+00:21:36,170 --> 00:21:40,688
+tehát ööö ugyanúgy ott az abszolút érték ugyanezt a problémát
+
+286
+00:21:40,680 --> 00:21:44,672
+...előidézheti.
+
+287
+00:21:45,664 --> 00:21:48,160
+És most újra lefuttatom
+
+288
+00:21:48,160 --> 00:21:50,512
+[nézi az eredményt]
+
+289
+00:21:50,510 --> 00:21:53,920
+akkor remélem, hogy ez az új 
+
+290
+00:21:53,920 --> 00:21:58,784
+új javításom nem fogja elrontani a többi tesztesetet
+
+291
+00:21:58,780 --> 00:22:05,440
+[kattint] és az az elvárt, hogy minden teszteset sikeresen lefusson
+
+292
+00:22:05,440 --> 00:22:15,696
+[nézi az eredményt]
+
+293
+00:22:15,690 --> 00:22:20,144
+[vár]
+
+294
+00:22:20,140 --> 00:22:27,248
+[nézi az eredményt]
+
+295
+00:22:27,240 --> 00:22:36,928
+[nézi az eredményt, félrenéz]
+
+296
+00:22:36,920 --> 00:22:40,464
+Igen, sikerült is
+
+297
+00:22:41,952 --> 00:22:47,664
+[kattint] ez azért fura, mert a sima testReduce-hoz nem is nyúltam hozzá, de
+
+298
+00:22:47,660 --> 00:22:51,008
+valószínűleg ott is 
+
+299
+00:22:51,808 --> 00:22:56,592
+[olvassa a javadocot] igen, ugyanez az integer min value osztva kettővel 
+
+300
+00:22:56,590 --> 00:22:59,616
+...történik...
+
+301
+00:22:59,610 --> 00:23:03,760
+fraction.getFraction hívás
+
+302
+00:23:03,760 --> 00:23:05,760
+és 
+
+303
+00:23:07,456 --> 00:23:11,728
+...itt is integer min value
+
+304
+00:23:11,720 --> 00:23:16,512
+[nézi a kódot, kattintgat]
+
+305
+00:23:16,510 --> 00:23:20,128
+coverage-ből kilépek, hogy ne legyenek kiszínezve a sorok
+
+306
+00:23:20,120 --> 00:23:23,376
+kommentjeimet kitörlöm
+
+307
+00:23:24,864 --> 00:23:30,064
+ööö, azt hiszem hogy még itt volt, igen
+
+308
+00:23:30,060 --> 00:23:34,928
+[nézi a kódot, kattint]
+
+309
+00:23:34,920 --> 00:23:38,528
+és sikeresen lefutott az összes teszt
+
+310
+00:23:38,520 --> 00:23:59,424
+[futtat, nézi az eredményt, félrenéz]
+
+311
+00:23:59,420 --> 00:24:07,696
+[félrenéz]
+
+312
+00:24:07,690 --> 00:24:10,544
+[pakol]
+
+313
+00:24:10,540 --> 00:24:16,416
+[nézi az eredményt]
+
+314
+00:24:16,410 --> 00:24:21,904
+és mind sikeresen le fog futni az összes, mivel hogy csak a kommenteken módosítottam, azokat töröltem ki
+
+315
+00:24:21,900 --> 00:24:25,936
+[nézi az eredményt]
+
+316
+00:24:25,930 --> 00:24:34,048
+és úgy tudtam ezt javítani, hogy a legnagyobb közös osztó számítását kellett kijavítanom
+
+317
+00:24:34,040 --> 00:25:07,968
+[bezárja a böngészőt, nézi a kódot, az eredményt]
+
+318
+00:25:07,960 --> 00:25:12,048
+[félrenéz]
+
+319
+00:25:12,040 --> 00:26:12,688
+[vár, nézi a kódot]
+
+320
+00:26:12,680 --> 00:26:18,448
+Egyébként ez a megoldás, amit találtam, az ... pontos, ide is le van írva
+
+321
+00:26:18,440 --> 00:26:22,480
+Tehát az integer min value az -2 a 31.-en lehet
+
+322
+00:26:22,480 --> 00:26:26,912
+viszont hogyha ennek az abszolút értékét vettük, akkor, akkor ott
+
+323
+00:26:26,910 --> 00:26:31,056
+-1 miatt túlcsordultunk, tehát a
+
+324
+00:26:31,050 --> 00:26:35,232
+pozitív 2 a 31.-ent már nem tudjuk reprezentálni
+
+325
+00:26:35,230 --> 00:28:33,472
+[félrenéz, nézi a monitort]
+
+326
+00:28:33,776 --> 00:28:35,968
+- Kész vagyok. 
+- Kész? (Gergő)
+
+327
+00:28:35,968 --> 00:28:37,960
+- Épp akartam szólni, hogy csendben vagy (Gergő)
+- [nevet]
+
+328
+00:28:37,960 --> 00:28:39,960
+Akkor nem szabad (Gergő)
+
+329
+00:28:39,960 --> 00:28:43,568
+Ööö, jó, szuper, ez gyorsan ment (Gergő)
+
+330
+00:28:43,568 --> 00:28:45,560
+- Nincs bukó teszt? (Gergő)
+- Nincs. 
+
+331
+00:28:45,560 --> 00:28:47,560
+Szuper (Gergő)
+
+332
+00:28:47,560 --> 00:28:52,032
+[vár]
+
+333
+00:28:52,030 --> 00:28:56,608
+Visszakaphatom az egeret? (Gergő)
+

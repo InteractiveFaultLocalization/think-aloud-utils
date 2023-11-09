@@ -1,0 +1,839 @@
+﻿1
+00:00:02,000 --> 00:00:05,000
+Gergő: Jó, megy, szuper.
+
+2
+00:00:05,000 --> 00:00:07,000
+Gergő: Itt van a kis emlékeztető papír meg mögötte egy feladat.
+
+3
+00:00:07,000 --> 00:00:11,000
+Gergő: Ugyan olyan, vagy legalábbis hasonló történet van, mint a legutóbb.
+
+4
+00:00:11,000 --> 00:00:16,000
+Gergő: Egy hibát kell kijavítani. Mögötte meg tudod nézni, hogy ez biztosan az a papírod van-e?
+
+5
+00:00:16,000 --> 00:00:17,000
+Gergő: Úgy, szuper.
+
+6
+00:00:18,000 --> 00:00:19,000
+Gergő: Le van írva megint a hibajelenség.
+
+7
+00:00:19,000 --> 00:00:21,000
+Gergő: Ugyan úgy ki kell javítani a hibát.
+
+8
+00:00:21,000 --> 00:00:28,000
+Gergő: Ugyan úgy magadra leszel hagyva, pár percenként ránézünk. 90 perced van megint csak kijavítani a hibát. Másfél óra.
+
+9
+00:00:28,000 --> 00:00:34,000
+Gergő: Annyi különbség van, hogy most már telepítésre kerültek azok a tool-ok, amikre az előbb láttad a bemutatóvideót.
+
+10
+00:00:34,000 --> 00:00:36,000
+Gergő: Nyilván úgy használod, ahogy neked jól esik.
+
+11
+00:00:37,000 --> 00:00:39,000
+Gergő: Továbbra is a saját logikáddal menjél tovább.
+
+12
+00:00:39,000 --> 00:00:44,000
+Gergő: Illetve mindent hangosíts ki amit csinálsz, azt is, hogy, mit miegyéb.
+
+13
+00:00:46,000 --> 00:00:51,000
+Gergő: Néha rád lesz nézve, ha bármi probléma van vagy bármi fennakadás, akkor nyilván szóljál.
+
+14
+00:00:51,000 --> 00:00:55,000
+Gergő: Akkor van kész a feladat, hogyha minden teszteset átmegy. Jó?
+
+15
+00:00:55,000 --> 00:00:56,000
+Jó, oké.
+
+16
+00:00:56,000 --> 00:00:57,000
+Gergő: Oké.
+
+17
+00:01:05,000 --> 00:01:12,000
+[olvassa a leírást]
+
+18
+00:01:12,000 --> 00:01:20,000
+Jó, tehát most azt láttam, hogy a "StopWatch" tesztben...az egyik teszteset elbukik.
+
+19
+00:01:20,000 --> 00:01:22,000
+Meg is keresem ezt a teszt osztályt.
+
+20
+00:01:30,000 --> 00:01:32,000
+És a konkrét tesztesetet is.
+
+21
+00:01:57,000 --> 00:02:03,000
+Na most...nem találom ezt a...osztályt egyenlőre.
+
+22
+00:02:12,000 --> 00:02:15,000
+"SuspendAndStop". Igen, megvan.
+
+23
+00:02:20,000 --> 00:02:26,000
+És nem megfelelően számolja az időt, a "suspend()" és a "stop()" metódusokat is használjuk.
+
+24
+00:02:26,000 --> 00:02:28,000
+Tehát hogyha mind a kettőt használjuk.
+
+25
+00:02:30,000 --> 00:02:31,000
+Lefuttatom a...
+
+26
+00:02:32,000 --> 00:02:33,000
+[futtat]
+
+27
+00:02:33,000 --> 00:02:34,000
+teszteseteket.
+[futtat]
+
+28
+00:02:34,000 --> 00:02:38,000
+[futtat]
+
+29
+00:02:38,000 --> 00:02:42,000
+És megnézem, hogy...hogy valóban ez az.
+[futtat]
+
+30
+00:02:42,000 --> 00:02:48,000
+És hogy konkrétan...milyen hibát kapunk.
+[futtat]
+
+31
+00:02:48,000 --> 00:03:08,000
+[futtat]
+
+32
+00:03:16,000 --> 00:03:18,000
+Most látszódik, hogy valóban elbukott a build.
+
+33
+00:03:22,000 --> 00:03:26,000
+És itt a "StopWatchTest" 120.sorában van a hiba.
+
+34
+00:03:28,000 --> 00:03:31,000
+Vagyis a "suspendTime" nem egyenlő a "totalTime"-al.
+
+35
+00:03:31,000 --> 00:03:35,000
+Tehát nem azt az eredményt kaptuk, amit elvártunk.
+
+36
+00:03:44,000 --> 00:03:47,000
+Most lefuttatom ezt az egy tesztesetet, viszont a Coverage funkciót használva.
+
+37
+00:03:47,000 --> 00:03:50,000
+[futtat]
+Most lefuttatom ezt az egy tesztesetet, viszont a Coverage funkciót használva.
+
+38
+00:03:50,000 --> 00:03:56,000
+Mert akkor látni fogom, hogy pontosan merre ment a vezérlés, milyen metódusokba, milyen elágazásokba futottunk bele.
+[futtat]
+
+39
+00:03:56,000 --> 00:04:02,000
+És közben meg is nyitom ezt a "StopWatch" osztályt.
+[futtat]
+
+40
+00:04:02,000 --> 00:04:14,000
+[futtat]
+
+41
+00:04:32,000 --> 00:04:33,000
+Igen.
+
+42
+00:04:33,000 --> 00:04:35,000
+Tehát.
+
+43
+00:04:35,000 --> 00:04:56,000
+Ide futottunk bele, viszont...most valamiért...átváltok java nézetbe, hogy megjelenjen a...nem, a junit fül itt van...viszont...szeretném látni az egyes metódusokat, hogy itt ki tudjam jelölni az Outline-nál.
+
+44
+00:05:01,000 --> 00:05:07,000
+Mert most úgy látom, minthogyha...más tesztesetekbe is belefutottunk volna.
+
+45
+00:05:07,000 --> 00:05:10,000
+Tehát minthogyha más teszteseteket is elindítottunk volna.
+
+46
+00:05:14,000 --> 00:05:16,000
+Szóval most újrafuttatom.
+
+47
+00:05:16,000 --> 00:05:19,000
+Igen, most már csak ez az egy ami kizöldült.
+
+48
+00:05:19,000 --> 00:05:22,000
+Tehát csak ide futott rá a vezérlés.
+
+49
+00:05:22,000 --> 00:05:29,000
+És a "StopWatch" osztályból...a "start()" metódus volt meghívva.
+
+50
+00:05:32,000 --> 00:05:37,000
+Igen, elindítottuk a...stopper órát.
+
+51
+00:05:42,000 --> 00:05:46,000
+Utána várunk 200 miliszekuntumot.
+
+52
+00:05:46,000 --> 00:05:49,000
+Leállítjuk a stopper órát.
+
+53
+00:05:51,000 --> 00:05:55,000
+És megnézzük, hogy ekkor mit mutat a stopper óra.
+
+54
+00:05:56,000 --> 00:06:00,000
+Utána még 200 miliszekundumig futtatjuk, majd leállítjuk.
+
+55
+00:06:01,000 --> 00:06:04,000
+És a végeredményt is megnézzük.
+
+56
+00:06:13,000 --> 00:06:21,000
+És azt szeretnénk, hogy "totalTime" és a "suspendTime" egyenlő legyen.
+
+57
+00:06:21,000 --> 00:06:29,000
+Tehát a kettő futtatás között valószínűleg le kellene nulláznunk a...az órát.
+
+58
+00:06:45,000 --> 00:06:49,000
+Tehát elindítom, 200 miliszekundumot várok és leállítom.
+
+59
+00:06:53,000 --> 00:06:57,000
+És ez után eltárolom, hogy mi volt itt az érték.
+
+60
+00:07:04,000 --> 00:07:08,000
+Igen, viszont itt a "suspend()" esetében nem állítjuk le az órát.
+
+61
+00:07:08,000 --> 00:07:10,000
+Tehát tovább nő a számláló
+
+62
+00:07:10,000 --> 00:07:17,000
+Mert a "suspend()" után újra kellene indítani ahhoz, hogy nőjön az érték.
+
+63
+00:07:17,000 --> 00:07:27,000
+De azt várjuk el, hogy megállítottuk, várunk és később, hogyha "stop()"-ot hívunk, akkor az értékét megtartja.
+
+64
+00:07:34,000 --> 00:07:35,000
+Igen.
+
+65
+00:07:38,000 --> 00:07:41,000
+Tehát "startTime".
+
+66
+00:07:44,000 --> 00:07:47,000
+"suspend()"-nél "stopTime"-ot beállítjuk.
+
+67
+00:07:52,000 --> 00:07:56,000
+És a "stop()"-nál újra beállítjuk a "stopTime"-ot.
+
+68
+00:07:58,000 --> 00:08:01,000
+Ami viszont nem jó.
+
+69
+00:08:01,000 --> 00:08:12,000
+Mert tényleg pont ez előfordulhat, hogy szüneteltetem a stopper órát, utána leállítom egy kicsit később, akkor a leállításkor már mást fogok kapni.
+
+70
+00:08:17,000 --> 00:08:25,000
+És ehhez valahogyan a..."startTime"-ot lehetne bevonni.
+
+71
+00:08:25,000 --> 00:08:28,000
+Vagy esetleg egy "suspendTime"-ot bevezetni.
+
+72
+00:08:29,000 --> 00:08:36,000
+Hogy kiszámoljam az időt, ami eltelt a szüneteltetés és a leállítás között.
+
+73
+00:08:36,000 --> 00:08:39,000
+Valószínűleg valami ilyesmi irányba lehetne elmenni.
+
+74
+00:08:48,000 --> 00:08:58,000
+Tehát "stop()"-nál ez végülis helyes lehet.
+
+75
+00:08:58,000 --> 00:09:06,000
+Csak valahogyan bele kell kalkulálni azt az időpontot is, amikor meg lett állítva a stopper óra.
+
+76
+00:09:12,000 --> 00:09:16,000
+Tehát mondjuk bevezethetünk egy "suspendTime"-ot.
+
+77
+00:09:24,000 --> 00:09:27,000
+És ide eltárolom, hogy mikor lett megállítva.
+
+78
+00:09:35,000 --> 00:09:40,000
+"suspendTime" az egyenlő az aktuális "stopTime"-al.
+
+79
+00:09:53,000 --> 00:09:59,000
+Igen, és valahogyan hogyha itt meglenne a "suspendTime"-om...
+
+80
+00:10:02,000 --> 00:10:09,000
+Tehát tegyük fel, hogy elindítom.
+
+81
+00:10:09,000 --> 00:10:14,000
+Utána suspend-elem mondjuk 10 másodperc után.
+
+82
+00:10:17,000 --> 00:10:20,000
+Utána eltelik 5 másodperc.
+
+83
+00:10:22,000 --> 00:10:25,000
+Az azt jelenti, hogy a "suspend" 10-nél beállítódik.
+
+84
+00:10:26,000 --> 00:10:30,000
+"suspendTime" 10, "stopTime" 10 lesz.
+
+85
+00:10:30,000 --> 00:10:32,000
+5 másodpercet várok.
+
+86
+00:10:34,000 --> 00:10:35,000
+Leállítom.
+
+87
+00:10:36,000 --> 00:10:41,000
+Akkor "suspendTime" az 10 továbbra is.
+
+88
+00:10:41,000 --> 00:10:44,000
+Viszont a "stopTime" az 15 lesz.
+
+89
+00:10:47,000 --> 00:10:56,000
+És az a célom, hogy itt is 10-et mutasson az óra.
+
+90
+00:10:57,000 --> 00:10:59,000
+Hiába vártam a leállítástól.
+
+91
+00:10:59,000 --> 00:11:18,000
+[olvassa a kódot]
+
+92
+00:11:19,000 --> 00:11:33,000
+Tehát szerintem olyasmi megoldás lehet, hogy a "stop()"-nál nem állítom be a "stopTime"-ot viszont az azt az esetet elrontja, mikor közvetlenül leállítom a stopper órát.
+
+93
+00:11:33,000 --> 00:11:48,000
+[olvassa a kódot]
+
+94
+00:11:48,000 --> 00:11:56,000
+Tehát valahogyan "stopTime"-ból ki kellene vonni a kettőt közötti időt.
+
+95
+00:12:03,000 --> 00:12:06,000
+Ami azt jelenti, hogy...
+
+96
+00:12:14,000 --> 00:12:18,000
+Tehát a "currentTime" aktuális idő, hogy mikor állítottuk le.
+
+97
+00:12:21,000 --> 00:12:28,000
+Ebből, hogyha kivonom a "suspendTime"-ot, hogyha létezik.
+
+98
+00:12:31,000 --> 00:12:40,000
+Tehát, hogyha a "suspendTime" az nagyobb, mint 0, hogyha létezik a "suspendTime", akkor megnézem a különbségüket.
+
+99
+00:12:43,000 --> 00:12:46,000
+És azt el kell tárolnom egy változóba, hogy később ki tudjam vonni.
+
+100
+00:12:47,000 --> 00:12:58,000
+Tehát egyenlőre legyen a neve "suspendTimeDifference".
+
+101
+00:13:00,000 --> 00:13:14,000
+És hogyha be van állítva a "suspendTime", akkor a különbség az egyenlő a "currentTime - suspendTime".
+
+102
+00:13:22,000 --> 00:13:27,000
+Tehát itt a különbség az 5 másodperc lesz.
+
+103
+00:13:27,000 --> 00:13:29,000
+15 - 10.
+
+104
+00:13:29,000 --> 00:13:31,000
+Igen.
+
+105
+00:13:31,000 --> 00:13:33,000
+Az 5 másodperc lesz.
+
+106
+00:13:34,000 --> 00:13:38,000
+Egyébként meg ez a "suspendTimeDifference" alapértékben nulla lehet.
+
+107
+00:13:40,000 --> 00:13:46,000
+És hogyha be van állítva, hogy a szüneteltetve lett a stopper óra, akkor ez fel van töltve, különben pedig nincs.
+
+108
+00:13:46,000 --> 00:14:00,000
+És a "stopTime" az egyenlő a mostani időpont mínusz a szüneteltetés és a leállítás közötti eltelt időtartam.
+
+109
+00:14:03,000 --> 00:14:04,000
+[futtat]
+
+110
+00:14:04,000 --> 00:14:06,000
+Szerintem ez így jó lehet.
+[futtat]
+
+111
+00:14:06,000 --> 00:14:07,000
+Újrafuttatom a tesztet.
+[futtat]
+
+112
+00:14:10,000 --> 00:14:13,000
+És ez így jónak tűnik.
+
+113
+00:14:16,000 --> 00:14:17,000
+Most újrafuttatom az összeset.
+
+114
+00:14:17,000 --> 00:14:18,000
+[futtat]
+Most újrafuttatom az összeset.
+
+115
+00:14:18,000 --> 00:14:49,000
+[futtat]
+
+116
+00:14:57,000 --> 00:14:59,000
+107.sorban.
+
+117
+00:15:00,000 --> 00:15:02,000
+"totalTime".
+
+118
+00:15:15,000 --> 00:15:18,000
+Igen, hogyha folytatom a futtatását.
+
+119
+00:15:27,000 --> 00:15:28,000
+Nézzük mit csinál ez a teszteset.
+
+120
+00:15:28,000 --> 00:15:33,000
+Elindítja a stoppert, vár 550 miliszekundumot, szünetelteti.
+
+121
+00:15:38,000 --> 00:15:44,000
+Igen, aztán vár még 550-et, folytatja, vár és leállítja.
+
+122
+00:15:46,000 --> 00:15:56,000
+Tehát ez az jelenti, hogy 550 és 1100-nak kell lennie a "totalTime"-nak.
+
+123
+00:16:01,000 --> 00:16:05,000
+Igen, viszont itt a 107.sorban a "totalTime" az nem nagyobb.
+
+124
+00:16:06,000 --> 00:16:09,000
+Mert a "stop89"-nál a "suspendTime"-ot vesszük figyelembe.
+
+125
+00:16:14,000 --> 00:16:16,000
+Itt lesz folytatva.
+
+126
+00:16:16,000 --> 00:16:18,000
+"startTime".
+
+127
+00:16:18,000 --> 00:16:20,000
+"stopTime".
+
+128
+00:16:30,000 --> 00:16:32,000
+Igen, tehát egy szüneteltetés után folytatjuk.
+
+129
+00:16:35,000 --> 00:16:42,000
+Akkor a "suspendTime"-ot is ki kellene így tolni, mint a "startTime"-ot.
+
+130
+00:16:47,000 --> 00:16:57,000
+Tehát "start"-nál 0.másodpercben vagyunk.
+
+131
+00:16:57,000 --> 00:16:59,000
+"start".
+
+132
+00:16:59,000 --> 00:17:05,000
+Aztán 5 másodperc után "suspend", akkor a "suspendTime = 5".
+
+133
+00:17:08,000 --> 00:17:26,000
+Hogyha várok itt 3 másodpercet, tehát mondjuk 8-nál "resume" folytatom, akkor az azt jelenti, itt az elsőben a "startTime = 0".
+
+134
+00:17:26,000 --> 00:17:32,000
+Itt is "startTime = 0", "suspendTime = 5".
+
+135
+00:17:32,000 --> 00:17:42,000
+És itt kitolódik a "startTime", hozzáadódik a "currentTimeMillis".
+
+136
+00:17:43,000 --> 00:17:45,000
+Tehát hozzáadódik 8 másodperc.
+
+137
+00:17:45,000 --> 00:17:47,000
+A "startTime = 8".
+
+138
+00:17:47,000 --> 00:17:52,000
+"suspendTime" viszont marad 5.
+
+139
+00:18:00,000 --> 00:18:02,000
+Ami hibás.
+
+140
+00:18:08,000 --> 00:18:09,000
+Igen.
+
+141
+00:18:11,000 --> 00:18:14,000
+Tehát a "suspendTime"-ot is ki kellene tolnom.
+
+142
+00:18:15,000 --> 00:18:26,000
+Inkább nézzük végig a folyamatot, tehát mondjuk 10-nél leállítom, ez azt jelenti, hogy "startTime = 8", "stopTime = 10".
+
+143
+00:18:27,000 --> 00:18:35,000
+És akkor a teljes idő az 2 lesz.
+
+144
+00:18:37,000 --> 00:18:50,000
+Illetve itt futott 5-öt és 8-tól 10-ig, tehát 7 másodpercnek kell lennie a teljes időtartamnak.
+
+145
+00:18:54,000 --> 00:18:57,000
+Igen, mert 0-tól 5-ig és 8-tól 10-ig.
+
+146
+00:18:59,000 --> 00:19:03,000
+Akkor 7-nek kell lennie a "stopTime"-nak.
+
+147
+00:19:06,000 --> 00:19:18,000
+Viszont "suspendTime = 5" és ekkor 5 lesz a "stopTime".
+
+148
+00:19:18,000 --> 00:19:30,000
+[olvassa a leírást]
+
+149
+00:19:30,000 --> 00:19:40,000
+[olvassa a kódot]
+
+150
+00:19:40,000 --> 00:19:43,000
+Most nekem itt a "suspendTime"-ot...
+
+151
+00:19:46,000 --> 00:19:47,000
+Ööö.
+
+152
+00:19:49,000 --> 00:19:54,000
+Lehet érdemesebb lenne valamelyik új eszközt kipróbálmom hozzá.
+
+153
+00:19:54,000 --> 00:19:56,000
+[olvassa a leírást]
+
+154
+00:19:57,000 --> 00:20:00,000
+Talán az adatfolyam gráfot.
+
+155
+00:20:07,000 --> 00:20:13,000
+De ezt itt most még végig gondolom, hogy a "suspendTime"-ot hogyha kitolom...
+
+156
+00:20:13,000 --> 00:20:25,000
+[olvassa a kódot]
+
+157
+00:20:25,000 --> 00:20:30,000
+Most az tűnt fel, hogy itt pont 7 másodpercig futott.
+
+158
+00:20:30,000 --> 00:20:32,000
+És 10-nél ért véget.
+
+159
+00:20:33,000 --> 00:20:36,000
+És a "startTime" mínusz "suspendTime" az 3.
+
+160
+00:20:36,000 --> 00:20:38,000
+És 10-3 az 7.
+
+161
+00:20:38,000 --> 00:20:40,000
+Tehát a "stopTime"-nak 7-nek kellene lennie.
+
+162
+00:20:40,000 --> 00:20:42,000
+Ez igaz.
+
+163
+00:20:42,000 --> 00:20:50,000
+Tehát hogy akkor a "stop()"-nál "startTime" mínusz "suspendTime"-ot kellene kivonnom belőle?
+
+164
+00:20:50,000 --> 00:20:59,000
+[olvassa a kódot]
+
+165
+00:20:59,000 --> 00:21:01,000
+Ez nem tűnik jónak.
+
+166
+00:21:01,000 --> 00:21:19,000
+[olvassa a kódot]
+
+167
+00:21:19,000 --> 00:21:30,000
+Tehát 10 másoderc mínusz 8 plusz 5.
+
+168
+00:21:33,000 --> 00:21:34,000
+10-nél leálltom.
+
+169
+00:21:43,000 --> 00:21:46,000
+10-nél leállítom, 5-nél szüneteltetem.
+
+170
+00:21:46,000 --> 00:22:01,000
+[olvassa a kódot]
+
+171
+00:22:02,000 --> 00:22:04,000
+Lehet, hogy érdemes egy resumeTime-ot is felvenni?
+
+172
+00:22:14,000 --> 00:22:24,000
+Talán az jó lehet, de előtte megnézem az Atlas-t és az adatfolyamot.
+
+173
+00:22:28,000 --> 00:22:30,000
+Pontosan mit tud ez nyújtani.
+
+174
+00:22:30,000 --> 00:22:38,000
+[olvassa a leírást]
+
+175
+00:22:38,000 --> 00:22:46,000
+[nézi az eredményt]
+
+176
+00:22:46,000 --> 00:23:02,000
+Tehát a "startTime" a "reset"-nél van módosítva és az "<init>"-nél, illetve az összes "resume"-nál, "getTime"-nál, "getSplitTime"-nál.
+
+177
+00:23:02,000 --> 00:23:22,000
+[olvassa a kódot] [nézi az eredményt]
+
+178
+00:23:23,000 --> 00:23:37,000
+"Control Flow" az szerintem most nem érdekes, tehát az, hogy éppen hova fut rá a vezérlés az talán nem is olyan fontos, tényleg az adatfolyam ami most fontos ennél a feladatnál.
+
+179
+00:23:37,000 --> 00:23:45,000
+[olvassa a leírást]
+
+180
+00:23:52,000 --> 00:23:55,000
+Tehát hogyha folytatom a futtatást, akkor miért...
+
+181
+00:24:01,000 --> 00:24:17,000
+Ó igen, tehát folytatja a stopper óra futtatását és nem fogja beleszámolni a "suspend" és "resume" közötti időtartamot.
+
+182
+00:24:17,000 --> 00:24:19,000
+Teház ez az elvárt működés.
+
+183
+00:24:19,000 --> 00:24:27,000
+A "suspend" és "resume" közötti időtartamot nem fogja beleszámolni.
+
+184
+00:24:27,000 --> 00:24:35,000
+Az azt jelenti, hogy itt a "suspendTime"-ot lenullázhatom, illetve kitörölhetem.
+
+185
+00:24:35,000 --> 00:24:37,000
+Hogyha jól gondolom.
+
+186
+00:24:41,000 --> 00:24:42,000
+Tehát innen folytatom.
+
+187
+00:24:42,000 --> 00:24:48,000
+Az azt jelenti, hogy "resume" innen lett folytatva.
+
+188
+00:24:48,000 --> 00:24:52,000
+"startTime = 8", és 2 az elvárt végeredmény.
+
+189
+00:24:57,000 --> 00:24:59,000
+Ha jól gondolom.
+
+190
+00:25:04,000 --> 00:25:07,000
+Újra is futtatom a tesztet.
+
+191
+00:25:12,000 --> 00:25:19,000
+Ez volt az, "StopWatch" 107.sor ami elbukott.
+
+192
+00:25:20,000 --> 00:25:24,000
+Ezt meg is nézem a Coverage nézetben.
+
+193
+00:25:28,000 --> 00:25:30,000
+Hogy valóban ennyi-e a megoldás.
+
+194
+00:25:46,000 --> 00:26:00,000
+Tehát a "resume()" javadoc-jában az szerepel, hogy folytatja a stopper órát és a szüneteltetés és a folytatás közötti időtartam nem lesz beleszámolva.
+
+195
+00:26:02,000 --> 00:26:03,000
+Igen.
+
+196
+00:26:08,000 --> 00:26:10,000
+Ha jól gondolom, akkor ez így most helyes, hogy ott a "suspendTime"-ot lenulláztam.
+
+197
+00:26:10,000 --> 00:26:15,000
+[futtat]
+Ha jól gondolom, akkor ez így most helyes, hogy ott a "suspendTime"-ot lenulláztam.
+
+198
+00:26:15,000 --> 00:26:45,000
+[futtat]
+
+199
+00:26:46,000 --> 00:26:49,000
+Igen, most le is futottak a tesztek.
+
+200
+00:26:51,000 --> 00:27:03,000
+Igen, tehát itt most az volt a kulcs, hogy elolvastam, hogy konkrétan mi az elvárt működés ettől a "resume()" metódustól.
+
+201
+00:27:08,000 --> 00:27:15,000
+És így most lefutottak a tesztek, kitörlöm a többi kommentet.
+
+202
+00:27:24,000 --> 00:27:27,000
+És írok a javadoc-ot ehhez.
+
+203
+00:27:49,000 --> 00:27:51,000
+Igen, ez így jónak tűnik.
+
+204
+00:27:51,000 --> 00:27:57,000
+Újra lefuttatom őket, de ez nem befolyásolhat semmit a végeredményben.
+[futtat]
+
+205
+00:27:57,000 --> 00:28:26,000
+[futtat]
+
+206
+00:28:27,000 --> 00:28:30,000
+Igen, lefutottak a tesztek sikeresen.
+
+207
+00:33:33,000 --> 00:33:34,000
+Kész vagyok.
+

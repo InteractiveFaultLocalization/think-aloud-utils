@@ -1,0 +1,1065 @@
+﻿1
+00:00:00,940 --> 00:00:03,000
+Béla: .. Felvételt
+
+2
+00:00:03,000 --> 00:00:05,200
+Béla: Jó, megy is
+
+3
+00:00:05,400 --> 00:00:08,320
+Béla: Szóval
+
+4
+00:00:09,420 --> 00:00:21,680
+Béla: Ebben a részben az Eclipse ö segítségével kellene egy hibát ö kijavítani, be is van töltve maga a projekt.
+
+5
+00:00:21,680 --> 00:00:27,200
+Béla: Ebben ő egy ebben levő hibát ő kellene ő fixálni
+
+6
+00:00:27,200 --> 00:00:27,220
+Béla: Ugye akkor tekintünk ő egy ő hibát javítottnak, ha tesztesetek módósítás nélküli futtatása során ő mindegyik teszt ő sikeresen ő végrehajtódik.
+Béla: Ebben ő egy ebben levő hibát ő kellene ő fixálni
+
+7
+00:00:27,220 --> 00:00:40,360
+Béla: Ugye akkor tekintünk ő egy ő hibát javítottnak, ha tesztesetek módósítás nélküli futtatása során ő mindegyik teszt ő sikeresen ő végrehajtódik.
+
+8
+00:00:40,360 --> 00:00:44,160
+Béla: Ő Kilencven perc áll rendelkezésre
+
+9
+00:00:46,260 --> 00:00:49,480
+Béla: Hosszabb ő szekció
+
+10
+00:00:51,960 --> 00:01:11,040
+Béla: Én azt kérnémnk Tőled,hogy ő ne használj ő hmmm, ilyen hivatalos ő issue bejelentő oldalakat, hogy, vagy ő ilyen hibajegy kezelőket a fixálás során
+
+11
+00:01:11,040 --> 00:01:18,880
+Béla: Tehát ő ezek, ez nyílt forráskódú rendszer, ez hivatalosan menedzselve van a a hiba
+
+12
+00:01:18,880 --> 00:01:23,000
+Béla: De hogy ő ennél próbáld meg ezt fixálni.
+
+13
+00:01:23,280 --> 00:01:26,160
+De attól függetlenül, mondjuk a böngészőt lehet használni, tehát?
+
+14
+00:01:26,160 --> 00:01:28,120
+Vagy, vagy semmit? 
+Béla: ő
+
+15
+00:01:28,120 --> 00:01:28,880
+Béla: De lehet..
+Ühmmm
+
+16
+00:01:28,880 --> 00:01:31,720
+Csak, hogy konkrétan a hibát nem keresem meg...
+Béla:  Igen, igen
+
+17
+00:01:31,780 --> 00:01:34,440
+Arra gondolom akkor lehet rá találni megoldás
+ Béla: Igen, igen
+
+18
+00:01:34,440 --> 00:01:36,000
+Igen, annak úgy nincs értelme
+
+19
+00:01:36,460 --> 00:01:42,820
+Béla: Jó, és ugyanúgy ő ebben a részben is igaz, hogy hangosan mondj ki bármit ami eszedbe jut
+
+20
+00:01:45,380 --> 00:01:51,700
+Béla:  Bármi ami mozgat Téged a javítás ő során
+Ühmmm
+
+21
+00:01:53,160 --> 00:02:02,000
+Béla: Jó, hogyha elkészültél a feladattal akkor ő hasonló módón ő jelezd és akkor én azt rögzítem
+
+22
+00:02:02,000 --> 00:02:03,460
+Béla: Van e kérdés?
+
+23
+00:02:03,480 --> 00:02:05,280
+Hmmm, most nincs
+
+24
+00:02:05,300 --> 00:02:11,900
+Béla: Jó, ha bármi felmerül akkor ő akkor szólj nyugodtan, és akkor ezt át is adom
+Okés,okés, köszi
+
+25
+00:02:11,900 --> 00:02:16,240
+[Forgatja a lapot, megnézi a tartalmát]
+
+26
+00:02:16,240 --> 00:02:16,260
+Béla: Hmm leírása...
+Ühmm, ő
+[Forgatja a lapot, megnézi a tartalmát]
+
+27
+00:02:16,260 --> 00:02:19,000
+Béla: Hmm leírása...
+Ühmm, ő
+
+28
+00:02:19,000 --> 00:02:22,640
+ Erre nem kell számot írni,mármint a...?
+Béla: ő
+
+29
+00:02:22,640 --> 00:02:22,660
+Béla: Nem szükséges
+ Erre nem kell számot írni,mármint a...?
+Béla: ő
+
+30
+00:02:22,660 --> 00:02:23,680
+Béla: Nem szükséges
+
+31
+00:02:23,720 --> 00:02:28,420
+Ahha, ez csak a leírás, okés, okés, köszi
+
+32
+00:02:28,460 --> 00:02:31,000
+ [Ajtó csukás, felügyelő  elhagyja a termet]
+
+33
+00:02:32,140 --> 00:02:34,460
+Hmmm
+
+34
+00:02:34,460 --> 00:02:45,860
+[Olvassa a leírást, újjával játszik]
+
+35
+00:02:45,880 --> 00:02:49,580
+ Ühmmm, tyűha
+
+36
+00:02:49,580 --> 00:02:49,760
+Khmmm [Torok köszörülés]
+ Ühmmm, tyűha
+
+37
+00:02:49,760 --> 00:02:51,760
+Khmmm [Torok köszörülés]
+
+38
+00:02:52,500 --> 00:02:59,940
+[Leírást olvassa]
+
+39
+00:02:59,940 --> 00:03:03,380
+Ühmmm, nézzük [Felnéz a monitorra]
+
+40
+00:03:03,380 --> 00:03:09,360
+ [futtatás]
+
+41
+00:03:09,360 --> 00:03:40,360
+[futtatás]
+
+42
+00:03:40,800 --> 00:03:45,060
+Khmmm [Torok köszörülés]
+
+43
+00:03:45,060 --> 00:04:04,530
+[futtatás]
+
+44
+00:04:04,530 --> 00:04:25,330
+Igen, nem egy gyorsvonat... és akkor azt mondja, hogy... Ühmmm.... Math.... Number.... Utils... Itt lesz, ahha
+
+45
+00:04:25,330 --> 00:04:34,030
+[figyel]
+
+46
+00:04:34,100 --> 00:04:44,000
+Jó hát ez így elég sokáig tart, majd remélem,hogy  letudom futtatni külön is a teszteket, mármint, hogy ezt az egy tesztestetet
+
+47
+00:04:44,000 --> 00:04:50,050
+Igen és akkor azt mondta, hogy
+
+48
+00:04:50,050 --> 00:04:57,250
+Remélem, ohhh, igen,control o
+
+49
+00:04:57,250 --> 00:05:07,650
+Ő egyébként örülök neki, hogy, hogy Eclipse, mármint olyan értelemben, én már  jó régóta nem használok Eclipset
+
+50
+00:05:07,650 --> 00:05:11,500
+De ezzel kezdtem, ő
+
+51
+00:05:11,500 --> 00:05:18,400
+És minden IDEbe ahol, amivel eddig dolgoztam, hát mondjuk az Eclipse, hát egy kicsit
+
+52
+00:05:18,400 --> 00:05:32,300
+Ohhh,ennek nem semmi a neve, mindegy, most Intellij használok, de egyébként Eclipse-s billenytyű kombinációkkal, szóval ott, onnan, attól nem vagyok elszakadva, szóval hátha itt is tudom majd őket használni
+
+53
+00:05:32,300 --> 00:05:40,500
+Igen és azt mondta, hogy...
+
+54
+00:05:40,500 --> 00:05:58,850
+Assertet, hogy a mínusz mínusz 1 pont , itt van olyan, hogy incremental search, igen, e és ott is vagyunk, igen
+
+55
+00:06:03,100 --> 00:06:14,000
+Fauilre, igen, és akkor, ez ki tudja itt? Aszondja, hogy...
+
+56
+00:06:16,400 --> 00:06:21,650
+Igen, expected, number format exception
+
+57
+00:06:24,900 --> 00:06:32,000
+Jah, igen, igen,igen,  tehát itt number format, number format exceptiont kellett volna dobnia
+
+58
+00:06:32,000 --> 00:06:40,050
+Hát gondolom ott az a igen, dupla, dupla mínusz
+
+59
+00:06:40,050 --> 00:06:48,500
+Megtudom én azt futtatni, hogy csak ezt, azt mondom hogy...
+
+60
+00:06:53,550 --> 00:07:03,900
+Ő JUnit teszt, ezt így le tud futtatni?
+
+61
+00:07:03,900 --> 00:07:18,150
+Ühmmmm, ühmmm, nah igen, igen, igen
+
+62
+00:07:18,150 --> 00:07:33,200
+Allright, és akkor azt mondjuk, hogy control t és akkor ő, ő neki nem tetszik
+
+63
+00:07:34,600 --> 00:07:44,450
+Ühmmm, hát ő, igen, ez, most ez komoly?
+
+64
+00:07:44,450 --> 00:07:49,550
+Ahhha, gondolom itt
+
+65
+00:07:49,550 --> 00:07:56,200
+Itt hogyha én berakok ide egy, dobjunk NumberFormat exceptiont
+
+66
+00:07:56,200 --> 00:08:07,900
+Áhh, return helyett azt mondjuk, hogy
+
+67
+00:08:07,900 --> 00:08:17,400
+[gépel] Igen, és akkor, jaj
+
+68
+00:08:17,400 --> 00:08:26,500
+Hát most mit tudom én mi itt a szöveg, unsigne is not a valid number
+
+69
+00:08:26,500 --> 00:08:34,500
+Remélem, hogy egyébként érthető a motyogásom... Jujjj [gépel]
+
+70
+00:08:34,500 --> 00:08:39,900
+Nem, így...
+
+71
+00:08:40,600 --> 00:08:50,600
+Hmmm, hát... [gépelés]
+
+72
+00:08:50,600 --> 00:08:56,500
+Na jó, ezzen biztos lehet valami szofisztikáltabbat majd kitalálok rá, várjunk csak
+
+73
+00:08:56,500 --> 00:09:03,850
+Nincs egyébként, is not a valid number, hát, egyébként
+
+74
+00:09:03,850 --> 00:09:09,950
+Ez nekem itt tökéletes
+
+75
+00:09:09,950 --> 00:09:17,000
+Igen, nah és akkor most gondolom ez lefog szépen futni
+
+76
+00:09:17,000 --> 00:09:23,350
+Rerunt azt, viszont
+
+77
+00:09:23,350 --> 00:09:29,450
+Gondolom ez, ez itt túl egyszerű lenne és akkor most futtasuk le az összeset
+
+78
+00:09:29,450 --> 00:09:34,600
+Amit hát akkor most csináljunk így, nézzük csak egyébként
+
+79
+00:09:35,200 --> 00:09:39,500
+Nincs ennek valami gyorsító
+
+80
+00:09:39,500 --> 00:09:52,350
+Van az a, hát mondjuk a clear test, hát az a recompile az  asszem működik, mert van azt hiszem ilyen kapcsoló mavenben
+
+81
+00:09:52,350 --> 00:10:02,550
+De lehet hogy a cleart, azt én, na mindegy, most megnézzük így, aztán majd vesződünk vele, hogyha
+
+82
+00:10:02,550 --> 00:10:08,100
+Na mindegy, azért rákeresek közben
+
+83
+00:10:08,100 --> 00:10:22,850
+[futtatás, böngésző kinyitása]
+
+84
+00:10:22,850 --> 00:10:31,900
+[gépelés]
+
+85
+00:10:31,900 --> 00:10:41,300
+[Google ablak elfogadásra kattint, majd az első találatra]
+
+86
+00:10:41,300 --> 00:10:46,550
+[betöltésre vár, majd görget az oldalon]
+
+87
+00:10:46,550 --> 00:10:52,350
+[Felnéz a felügyelőre]
+Béla: Azt kérném, hogy ő bátran, ami az eszedbe jut mond hmmm ki hangosan
+
+88
+00:10:52,350 --> 00:10:54,850
+Béla: Hogy azt, ő rögzíteni tudjuk
+
+89
+00:10:54,850 --> 00:11:05,400
+Jó, beszélek közbe, nem tudom,  mennyire érthető, vagy lesz érthető, remélem,hogy, hogy igen, de tényleg igyekszem
+Béla: Jó, jó... Oké
+
+90
+00:11:05,400 --> 00:11:16,350
+Ő, igen, igen ez még itt ugye fut, ő jó
+
+91
+00:11:16,350 --> 00:11:21,500
+Közbe lehet, hogy majd ezt azért kipróbálom, ő
+
+92
+00:11:21,500 --> 00:11:27,950
+Hát és,ő
+
+93
+00:11:27,950 --> 00:11:35,400
+És akkor azt hiszem, hogy ezt úgy kell, hogy
+
+94
+00:11:35,400 --> 00:11:44,500
+[Weboldalon görget, olvas]
+
+95
+00:11:44,500 --> 00:11:48,450
+Mondjuk ez azt mondja, hogy not recommended, jó, ezt nem láttátok
+
+96
+00:11:48,450 --> 00:12:00,950
+Nézzük [futtatás]
+
+97
+00:12:00,950 --> 00:12:08,850
+Hmmmm [Kezével kopogtatja az asztalt]
+
+98
+00:12:08,850 --> 00:12:16,500
+Ohhh, nah majd azt csináljuk, váltsunk csak vissza
+
+99
+00:12:16,500 --> 00:12:26,750
+Igen, de tudok szerintem olyat is mondani, hogy azt mondom itt, hogy majd a következőre
+
+100
+00:12:26,750 --> 00:12:35,850
+Így majd lehet, hogy így majd gyorsabb lesz, azt majd a végén megteszteljük ezzel
+
+101
+00:12:35,850 --> 00:12:58,700
+[Futtatást vár, logot néz, hibát olvas]
+
+102
+00:12:58,700 --> 00:13:09,450
+Ez most itt jó? Akár
+
+103
+00:13:09,450 --> 00:13:17,400
+Óh, most már kettő bukik [enyhe kuncogás]
+
+104
+00:13:17,400 --> 00:13:23,550
+De várjunk, mi, de mi, miért ez a synches, mi van?
+
+105
+00:13:23,550 --> 00:13:23,750
+Do not complete task, most ez komoly?
+De várjunk, mi, de mi, miért ez a synches, mi van?
+
+106
+00:13:23,750 --> 00:13:32,300
+Do not complete task, most ez komoly?
+
+107
+00:13:32,300 --> 00:13:42,050
+[Logban jelölget, enyhén rázza a fejét]
+
+108
+00:13:42,050 --> 00:13:52,800
+Nah, futtassunk már egy JUnitosat
+
+109
+00:13:52,800 --> 00:14:04,150
+[Futásra vár]
+
+110
+00:14:04,150 --> 00:14:13,200
+Lehet ez se lesz gyorsabb, hátha, [dúdol] ]hűha
+
+111
+00:14:13,200 --> 00:14:29,900
+2265 teszt, és egyébként itt hányat skippelt? jah, ühhh, igen, nem...
+
+112
+00:14:29,900 --> 00:14:40,600
+Oh, ez nem az a maven konzol ami előbb volt, a manóba
+
+113
+00:14:40,600 --> 00:15:20,250
+[Futtatást vár, eredményt nézi a monitoron]
+
+114
+00:15:20,250 --> 00:15:33,150
+Hát ez itt így jónak tűnik
+
+115
+00:15:33,150 --> 00:15:40,900
+Akkor adjunk neki még egy esélyt?
+
+116
+00:15:40,900 --> 00:16:03,500
+[Futtatást vár, menüpontokat nézi]
+
+117
+00:16:03,500 --> 00:16:14,150
+Valami verzió követő rendszer nincs hozzá, lokál history az van oké
+
+118
+00:16:14,150 --> 00:16:23,050
+Jó itt a team, áhh, nincsen, a manóba
+
+119
+00:16:23,050 --> 00:16:40,550
+[Átméretezi a konzol ablakot, a kódót nézi]
+
+120
+00:16:40,550 --> 00:16:57,700
+[Forráskódót nézi]
+
+121
+00:16:57,700 --> 00:17:11,150
+Hát ahogy nézem ez a not a valid number az jó, jó lesz ennek, NOPMD haha
+
+122
+00:17:11,150 --> 00:17:26,550
+[Futtatást vár, forráskódot nézi, hátradől a székben]
+
+123
+00:17:27,200 --> 00:17:53,900
+[Előre dől, eltekint oldalra, majd vissza a konzol ablakra, majd az asztalt nézi]
+
+124
+00:17:53,900 --> 00:18:13,000
+[Asztalt nézi, kopogtatja az asztalt]
+
+125
+00:18:13,000 --> 00:18:18,900
+[Monitorra visszanéz, majd kettőt kattint a konzol ikonra, eltünteti]
+
+126
+00:18:18,900 --> 00:18:35,550
+[Konzol ablakot olvassa]
+
+127
+00:18:35,550 --> 00:18:42,100
+Nah most ez itt szívat engem?
+
+128
+00:18:42,100 --> 00:18:52,100
+Ennek mi köze van, áhhh, jah
+
+129
+00:18:52,100 --> 00:19:06,000
+Ő, igen, én ezt úgy szoktam használni, hogy ő, azt mondja, hogy a file searchot hagyom csak meg, igen
+
+130
+00:19:06,000 --> 00:19:14,050
+Bár mondjuk az már rég volt
+
+131
+00:19:14,050 --> 00:19:24,150
+És azt mondja, hogy, jaj, nem nem nem,igen, control shift a,igen, ezt kerestem
+
+132
+00:19:24,150 --> 00:19:37,800
+Ez most az, jah igen, igen, és akkor mi bukott? Hmmm
+
+133
+00:19:37,800 --> 00:19:46,550
+Hahó [Konzol ablakot nézi]
+
+134
+00:19:46,550 --> 00:20:00,900
+Azt mondja, hogy a 308.... Bazdmeg [káromkodás].... 308. sor
+
+135
+00:20:00,900 --> 00:20:12,500
+És, did not complete task, hát de bazmeg, mit csináltam ezzel, lófaszt se [káromkodás]
+
+136
+00:20:12,500 --> 00:20:17,300
+[Forráskódot nézi]
+
+137
+00:20:17,485 --> 00:20:27,771
+Ő, nem volna be egyáltalán ez a number util... Number Util
+
+138
+00:20:27,770 --> 00:20:41,857
+[Gépel] Nincsen, hát legalább is közvetlenül... FastDateFormat
+
+139
+00:20:41,885 --> 00:20:48,114
+[Forráskódt nézi, görget]
+
+140
+00:20:48,110 --> 00:20:55,714
+Ühmmm, [kijelölget] MeasureTime
+
+141
+00:20:55,710 --> 00:21:00,485
+[Forráskódot néz]
+
+142
+00:21:00,480 --> 00:21:05,400
+Nah szerintem ez... Nah jó, hát most
+
+143
+00:21:05,400 --> 00:21:15,428
+Most komolyan ez emiatt... [gépel] Emiatt bukik
+
+144
+00:21:15,420 --> 00:21:24,628
+[Forráskódot néz, görget] Ühmmmm
+
+145
+00:21:24,620 --> 00:21:33,914
+[Unit tesztet indít] Ühmmm [Közelebb hajol a monitorhoz]
+
+146
+00:21:33,910 --> 00:21:41,228
+Mi az, hogy nem a tesztet? [hátrébb hajol]
+
+147
+00:21:41,220 --> 00:21:45,771
+[Unit tesztet újra indítja]
+
+148
+00:21:45,770 --> 00:22:01,742
+Nah azért, félre kattintottam? [Teszt futtatást néz, ablakot átméretez]
+
+149
+00:22:01,740 --> 00:22:19,600
+[Konzol ablakot néz, félre tekintett, teszt eredményt vár]
+
+150
+00:22:19,600 --> 00:22:28,285
+Nah hát ez így, magával szerintem a mavennek vagy valaminek van baja
+
+151
+00:22:28,280 --> 00:22:40,771
+Jah, várjunk, ha visszaírom ezt, akkor majd ez elcsesződik? [káromkodás]
+
+152
+00:22:40,770 --> 00:22:47,971
+13 teszt
+
+153
+00:22:47,970 --> 00:22:53,857
+Nem
+
+154
+00:22:53,850 --> 00:22:59,257
+Hmmm [Másik lapra kattint]
+
+155
+00:22:59,250 --> 00:23:16,714
+[Teszt futtatást vár, run A task, félre néz]
+
+156
+00:23:16,914 --> 00:23:32,342
+Hmmm... [futtat] Hát remélem nem ez a maven szívat.... [Konzol ablakot néz]
+
+157
+00:23:32,340 --> 00:23:50,542
+[Futtat, konzol ablakot néz, papírra lenéz]
+
+158
+00:23:50,540 --> 00:23:56,228
+[Köhög, papírra néz]
+
+159
+00:23:56,220 --> 00:24:05,942
+[Nézelődik, ujjával dobol]
+
+160
+00:24:05,940 --> 00:24:13,342
+[Futtatást vár, forráskód nézettre visszakattint]
+
+161
+00:24:13,340 --> 00:24:34,628
+[Forráskódot néz, görget]
+
+162
+00:24:34,620 --> 00:24:49,542
+[Teszt futtatási eredményt nézi]
+
+163
+00:24:49,540 --> 00:24:58,342
+[Run menübe kattint, menüpontokat nézi, kikattint]
+
+164
+00:24:58,340 --> 00:25:05,028
+[Forráskódot néz]
+
+165
+00:25:05,020 --> 00:25:20,114
+Jó hát az csináljuk, hogy ha most is bukik, akkor visszaírom return 0 , azt lefuttatom újra és kiváncsi vagyok, hogy úgy bukik e ez a FastDateFormat teszt
+
+166
+00:25:20,110 --> 00:25:26,028
+[Konzol ablakot néz]
+
+167
+00:25:26,020 --> 00:25:37,285
+Ühmm, [lenéz a papírra] ő mert itt az mondta,hogy bukó teszt az ez, a NumbwerUtils teszt
+
+168
+00:25:37,280 --> 00:25:44,428
+Erről, erről nem volt szó... De itt azt mondja egy failure
+
+169
+00:25:44,420 --> 00:25:49,428
+4 skip, az oké... És itt a failure
+
+170
+00:25:49,420 --> 00:25:58,571
+Igen, ez a do not comp... oké, oké, ezt akkor megnézzük, vissza írjuk, azt mondja, ühhh, azt mondja
+
+171
+00:25:58,570 --> 00:26:11,142
+Nem, jah, hmmm, nem, jó nem tudom a, de, tudom, hahaha, jó...
+
+172
+00:26:11,140 --> 00:26:29,914
+[kattingat] Nah, jó, hozzá vagyok szokva, hogy az Intellij elmenti automatikusan a hmmm, a szerkezett fájlt, de itt lehet valahol beállítani, ohhh, de rég volt már, references?
+
+173
+00:26:29,910 --> 00:26:41,942
+Az mondjuk, hogy save, autosave, igen, enable autosave
+
+174
+00:26:41,940 --> 00:26:49,828
+20 second, áhh, az, az nem jó...
+
+175
+00:26:49,820 --> 00:26:55,828
+[Kattingat, konzol ablakot néz] Jó, akkor maradunk ennél
+
+176
+00:26:55,820 --> 00:27:03,685
+[Lenéz, majd vissza a manitorra, dudolászik]
+
+177
+00:27:03,680 --> 00:27:16,857
+[Dudolászik, forráskódot néz, görget]
+
+178
+00:27:16,850 --> 00:27:27,857
+[Forráskód elemeit jelöli ki]
+
+179
+00:27:27,850 --> 00:27:43,628
+[Forráskódban görget, kijejöl]
+
+180
+00:27:43,620 --> 00:27:56,628
+[Forráskódot néz, kijelöl, futtat]
+
+181
+00:27:56,620 --> 00:28:12,914
+[Futtatási eredményt néz, kijelöl, forráskódot néz, görget]
+
+182
+00:28:12,910 --> 00:28:32,600
+És itt, ebbe karmolhat be az a hülye util? [Forráskódot néz, görget]
+
+183
+00:28:32,600 --> 00:28:46,457
+[Konzol ablakot néz] Hát, did not complete tasks, és ott van egy failure, ahha
+
+184
+00:28:46,514 --> 00:29:01,400
+[Futtatást néz]
+
+185
+00:29:01,400 --> 00:29:19,342
+Ahha, igen did not complete, jah, nenenene, nem ezt nem akartam, ühhhm, hova akartam, ide akartam nyomni, óh és most, nenenene
+
+186
+00:29:19,340 --> 00:29:28,714
+Ahhj, a manóba, eh, 
+
+187
+00:29:28,710 --> 00:29:40,885
+De így is csak azaz egy bukott, nah várjunk
+
+188
+00:29:40,880 --> 00:29:48,228
+Most ugye, igen, most akkor nyomjuk le ezt
+
+189
+00:29:48,220 --> 00:30:00,600
+Most elvileg buknia káne a NumberUtilsnek, úgyanúgy az erededti tesztnek
+
+190
+00:30:00,600 --> 00:30:09,600
+[Teszt futtatást vár]
+
+191
+00:30:11,514 --> 00:30:20,200
+[Fejét vakarja, lenézett, vissza nézett a monitorra]
+
+192
+00:30:20,200 --> 00:30:53,800
+[Teszt futtatásra vár, konzol ablakot nézi]
+
+193
+00:30:53,800 --> 00:31:04,257
+Hmmm, várjunk, ez, jah, de hogy és, jó
+
+194
+00:31:04,250 --> 00:31:10,742
+Hát azért ennél kicsit szofisztikáltabb is lehetne
+
+195
+00:31:10,740 --> 00:31:22,800
+Én ezt nem értem, akkor ez ez nem jó ez a JUnitos.... De miért nem jó?
+
+196
+00:31:22,800 --> 00:31:32,428
+Itt.. Ühmmm...
+
+197
+00:31:32,420 --> 00:31:48,857
+Igen, és akkor nézzük csak, azt mondja, hogy, mi volt az, Numbery, jah what, igen
+
+198
+00:31:48,850 --> 00:31:59,457
+Ez a ... tesz, igen, és itt aztmondja, hogy a test createNumber, teszt, ő
+
+199
+00:31:59,450 --> 00:32:19,657
+Create number, lefutott [forráskódban görget].. Hát ez hülye
+
+200
+00:32:19,650 --> 00:32:29,828
+Lehet nem fordítja újra? Ne már...
+
+201
+00:32:29,820 --> 00:32:42,885
+Igen, igen... [Beállításokban keres]
+
+202
+00:32:42,880 --> 00:32:51,571
+[Beállításokban keres, tesztet újra futtatja]
+
+203
+00:32:51,570 --> 00:33:06,485
+[Futtatást vár]
+
+204
+00:33:06,480 --> 00:33:27,571
+[Futtatást vár, konzol ablakban görget, felhúzza a szemöldökét]
+
+205
+00:33:27,570 --> 00:33:38,485
+[Sóhajt, félre néz, konzol ablakra vissza néz]
+
+206
+00:33:38,480 --> 00:34:10,514
+[Körbetekint, félre néz, konzol ablakra vissza néz, oldalra tekint, konzol ablakra vissza néz]
+
+207
+00:34:10,510 --> 00:34:24,085
+Nah fél órám maradt kattingatni, azt mondja hogy...
+
+208
+00:34:24,080 --> 00:34:34,885
+[Futtatást néz, hátradöl]
+
+209
+00:34:34,880 --> 00:34:49,342
+[Futtatást néz]
+
+210
+00:34:49,340 --> 00:35:00,342
+[Obs ablakra ránéz, majd futtatást néz]
+
+211
+00:35:00,400 --> 00:35:14,485
+[Futtatást néz, oldalra néz, előre dől, monitort nézi]
+
+212
+00:35:14,480 --> 00:35:21,371
+Remélem akkor ezt élőben nézitek is most [kuncog]
+
+213
+00:35:21,370 --> 00:35:28,828
+Hát ez tiszta hülye, build success, hát ez tiszta hülye
+
+214
+00:35:28,820 --> 00:35:37,342
+Ez tiszta hülye, hát mi van, hát ott van benne a hiba...
+
+215
+00:35:37,340 --> 00:35:50,428
+[Kereső ablakban keres]
+
+216
+00:35:50,420 --> 00:36:05,714
+Jah, ő, ajjaj, azt mondja, Number, ott van, Number retail teszt 75
+
+217
+00:36:05,710 --> 00:36:15,771
+75 van benne?
+
+218
+00:36:15,770 --> 00:36:24,257
+Hmmmm, nincs ilyen számláló?
+
+219
+00:36:24,250 --> 00:36:30,885
+Ohh, de sügér ez az Eclipse
+
+220
+00:36:30,880 --> 00:36:45,685
+Hmmm... Nah mindegy, hát elhiszem, hogy van benne, sok... Várjunk csak, ő nem...
+
+221
+00:36:45,680 --> 00:37:07,342
+[Forráskódot néz, görget]
+
+222
+00:37:07,340 --> 00:37:15,400
+Én esküszöm nem raktam bele a...
+
+223
+00:37:15,400 --> 00:37:26,485
+Hát ezt nem értem, nah, töröljük ki az egész sort, igen, mentettem...
+
+224
+00:37:26,480 --> 00:37:41,171
+Lefuttatom újra... Vagy itt van valami turpisság? Dehát nem kéne, hogy legyen... Clear...
+
+225
+00:37:41,170 --> 00:37:59,000
+[Beállításokban keres]
+
+226
+00:37:59,000 --> 00:38:18,771
+[Beállításokat bezár, oldalra néz, forráskódot néz]
+
+227
+00:38:18,770 --> 00:38:34,514
+[Projekt struktúrát néz]
+
+228
+00:38:34,510 --> 00:38:48,400
+[Hümmög, konzol ablakot kinagyít, nézi]
+
+229
+00:38:48,400 --> 00:39:51,742
+[Futtatást vár, konzol ablakot nézi, közelebb hajol, ujjával dobol]
+
+230
+00:39:51,740 --> 00:40:06,171
+[Felnéz] Nem tudom... Hát ez hülye bazdmeg [káromkodás]
+
+231
+00:40:06,170 --> 00:40:13,885
+[Szarkasztikusan kuncog] Nah
+
+232
+00:40:13,880 --> 00:40:29,200
+Aztmondja, hogy... [gütyög]]
+
+233
+00:40:29,200 --> 00:40:40,400
+[Kódváltozást néz] Mi van?
+
+234
+00:40:40,400 --> 00:40:48,228
+Nem e? [Teszteseteket nézi]
+
+235
+00:40:48,220 --> 00:40:57,428
+[Kódváltozásokat néz] Igen...
+
+236
+00:40:57,420 --> 00:41:03,057
+[Fejét fogja] Ó de sügér vagyok
+
+237
+00:41:03,050 --> 00:41:17,371
+Huhuhh, nem hiszem el, rosszat írtam át, túl sok volt a kávé, túl sok volt a kávé, nem ez kell ez itt...
+
+238
+00:41:17,370 --> 00:41:33,600
+Jó volt, igen, hanem ez volt az enyém, hogy néz ez ki... Igen, és itt volt az hogy, return 0
+
+239
+00:41:33,600 --> 00:41:48,028
+Elmentjük... [Tesztet futtat, hátradől körbe néz, monitorra néz]
+
+240
+00:41:48,020 --> 00:42:08,171
+[Épület ablakra néz, monitorra néz, konzol ablakot kinagyítja, futtatást néz]
+
+241
+00:42:08,170 --> 00:42:34,714
+[Körbe pillant, szemét forgatja, asztalt nézi]
+
+242
+00:42:34,710 --> 00:42:54,657
+[Böngészőre átkattint, bezárja az ablakot, konzolt nézi, hátra néz]
+
+243
+00:42:54,650 --> 00:43:06,542
+Mondjuk ez az is elég izé, hogy kiszedtem és nem bukott el egy teszt sem... Igen ezt itt nem írta, ugye?
+
+244
+00:43:06,540 --> 00:43:18,342
+[Sóhajt, hátradől, futást néz]
+
+245
+00:43:18,340 --> 00:44:09,114
+[Futást néz]
+
+246
+00:44:09,110 --> 00:44:18,628
+[Forráskód nézettre vissza kattint] Mi van?
+
+247
+00:44:18,620 --> 00:44:31,828
+Igen, most failelt [Konzol ablakot néz]
+
+248
+00:44:31,820 --> 00:44:40,542
+[Forráskódot néz, ablakok között vált]
+
+249
+00:44:40,540 --> 00:44:51,142
+[Forráskódba ír, kommentezik]
+
+250
+00:44:51,140 --> 00:45:12,085
+[Tesztet futtat, konzol ablakot néz]
+
+251
+00:45:12,142 --> 00:45:26,171
+Szétszivattam itt magam szerintem...
+
+252
+00:45:26,170 --> 00:45:41,285
+[Teszteseteket nézi, futást néz, kódváltozást néz]
+
+253
+00:45:41,280 --> 00:46:07,771
+[Kódváltozást néz, futtatást néz, forráskódot néz]
+
+254
+00:46:07,770 --> 00:46:16,428
+Jaj lehet nem is kell bele az egész, mert valahol azt mondja, hogy...
+
+255
+00:46:16,420 --> 00:46:25,028
+Starts with... [futást néz]
+
+256
+00:46:25,020 --> 00:46:40,514
+Tehát hogyha ezek közül valamelyik, de ne, nem azzal kezdődik, mínsz mínusz egy
+
+257
+00:46:40,510 --> 00:47:02,142
+[Forráskódot néz, görget]
+
+258
+00:47:02,140 --> 00:47:13,771
+Ühmmm... [futást néz, fejét megvakarja]
+
+259
+00:47:13,770 --> 00:47:24,457
+[Futást néz, kezével legyint]
+
+260
+00:47:24,450 --> 00:47:32,942
+De akkor mit csináltam rosszul, nah majd megnézzük a felvételt, megvagyok!
+
+261
+00:47:32,940 --> 00:47:41,200
+Igen,[felügyelőre néz] igazából szét szívattam magam
+
+262
+00:47:41,200 --> 00:47:49,371
+Béla: elkérem az egeret és akkor, leállítom
+

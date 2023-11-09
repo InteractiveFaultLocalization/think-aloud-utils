@@ -1,0 +1,940 @@
+﻿1
+00:00:02,000 --> 00:00:06,000
+Jó, akkor el is indítottam a felvételt (Béla)
+
+2
+00:00:06,000 --> 00:00:14,000
+Ebben a szekcióban majd egy Javas-Eclipses hibát kellene kijavítani. (Béla)
+
+3
+00:00:14,000 --> 00:00:21,000
+Mivel kapcsolatosan van leírás, azt látod a lapon. (Béla)
+
+4
+00:00:21,000 --> 00:00:35,000
+Tehát a hiba akkor tekinthető kijavítottnak, ha a tesztesetek módosítás nélküli futtatása során az összes teszt sikeres lesz. (Béla)
+
+5
+00:00:35,000 --> 00:00:44,000
+Ha kitörlöd a tesztet, az nem számít sikeres hibajavításnak. (Béla)
+
+6
+00:00:44,000 --> 00:00:56,000
+Akkor azt kérném, hogy a javítás során ne keress rá az adott hibára ilyen hibabejelentő rendszerekben, vagy issue-kezelő rendszerekben. (Béla)
+
+7
+00:00:56,000 --> 00:01:05,000
+Lehet használni a netet, de ne keress rá magára nettóban a hibára. (Béla)
+
+8
+00:01:05,000 --> 00:01:11,000
+90 perc áll rendelkezésre, ez egy hosszabb etap lesz. (Béla)
+
+9
+00:01:11,000 --> 00:01:24,000
+és akkor azt kérném, mint az előző szekcióban is, hogy hangosan mondj ki mindent ami ezzel kapcsolatban az eszedbe jut a feladat megoldása során. (Béla)
+
+10
+00:01:24,000 --> 00:01:31,000
+Oda is adnám közben az egeret, van-e valami kérdés ezzel kapcsolatban. (Béla)
+
+11
+00:01:31,000 --> 00:01:38,000
+Nem tudom, ezeket nem jobb lenne majd közösen elmondani mindenkinek? Vagy nem ugyanaz a feladat mindenkinek?
+
+12
+00:01:38,000 --> 00:01:44,000
+Mindenkinek el van mondva ez a bevezető szöveg. (Béla)
+
+13
+00:01:44,000 --> 00:01:50,000
+Csak nem-e lenne egyszerűbb közösen elmondani, és akkor már tudjuk, hogy mit kell.
+
+14
+00:01:50,000 --> 00:01:56,000
+Úgy lett megszervezve, úgy beszéltük, hogy akkor ezt így mindenkinek egyesével. (Béla)
+
+15
+00:01:56,000 --> 00:01:59,000
+- Erre is írjam fel, hogy mikor kezdem?
+- Nem szükséges, ezt én könyvelem. (Béla)
+
+16
+00:01:59,000 --> 00:02:00,000
+Jó-jó, rendben.
+
+17
+00:02:00,096 --> 00:02:02,000
+Akkor jó munkát kívánok. (Béla)
+
+18
+00:02:02,000 --> 00:02:05,000
+Köszi.
+
+19
+00:02:05,000 --> 00:02:13,000
+Na nézzük akkor. Van itt egy projektünk, illetve egy leírásunk. Kezdjük a leírással.
+
+20
+00:02:13,000 --> 00:02:25,000
+Feladat, szekció, teszt, tesztosztály, number utils teszt és a teszteset az a Test create number hibajelenség.
+
+21
+00:02:25,000 --> 00:02:34,000
+A --1 .1e - 700f string számmá alakítása nem megfelelően történik meg.
+
+22
+00:02:34,000 --> 00:02:38,000
+Ez ugye egy normalizált szám, valószínűleg double vagy float lesz.
+
+23
+00:02:38,000 --> 00:02:48,000
+És ha jól látom, ez jó kérdés, hogy mit jelent. Ja hogy egy float szám, mert f van a végén.
+
+24
+00:02:48,000 --> 00:02:57,000
+Ez a dupla minusz ez jó kérdés, ezt majd meg kell nézni, mi az a dupla minusz. De az is lehet, hogy ez a hiba.
+
+25
+00:02:57,000 --> 00:03:06,000
+Alap konfiguráció futtatása, klikkeljen zöld gomb, zöld run gomb mellett lefelé mutató nyílra, és válaszd ki a task A jelölési konfigurációt.
+
+26
+00:03:06,000 --> 00:03:18,000
+Ez egy ilyen utasítás. Tehát itt a run task A, ez lefuttatja, úgy látom egy Mavenes build.
+
+27
+00:03:18,000 --> 00:03:28,000
+Igaz, hogy java 6-os függvénykönyvtárat használ, de Java 7-tel futtatjuk.
+
+28
+00:03:28,000 --> 00:03:43,000
+Ez vagy egy nem túl erős gép,  vagy ... hát lehet visszafogja a videófelvétel, mi? Jah, gondolom.
+
+29
+00:03:43,000 --> 00:03:49,000
+Igen, a videófelvétel eléggé visszafogja. 70%-os procihasználat. Ezt lehet hogy másik gépen kellett volna felvenni.
+
+30
+00:03:49,000 --> 00:03:58,000
+Na mindegy, ezen most lépjünk túl.
+
+31
+00:03:58,000 --> 00:04:11,000
+Jó, elindult a main. Execute task, a Maven Clean lefutott. Anttal... úristen ki rakta ezt össze.
+
+32
+00:04:11,000 --> 00:04:24,000
+Ez olyan Anttal futó Mavenesített projekt, hát érdekes. Na jó.
+
+33
+00:04:24,000 --> 00:04:32,000
+Most fordítja a teszt forrásokat. Ugye a forrásfájlokat már lefuttatta, és akkor most futtatja a teszteket.
+
+34
+00:04:32,000 --> 00:04:40,000
+Közül azt mondja hogy elég sok teszt van azért.
+
+35
+00:04:40,000 --> 00:04:53,000
+Bár ha jól látom ez valami Apache Commons lang 3. Gondolom ez valami commonsos függvénykönyvtár, amibe direkt belemókoltak, elrontottak valamit.
+
+36
+00:04:53,000 --> 00:04:55,000
+Ejnye-bejnye.
+
+37
+00:04:55,000 --> 00:05:12,000
+Mindegy, itt futnak a tesztek. Ejha! Nem is kevés, itt volt egy exception. Expected number format exception
+
+38
+00:05:12,000 --> 00:05:28,000
+Igen itt meg is van. Mert itt number format exception vár a teszt.
+
+39
+00:05:28,000 --> 00:05:33,000
+Na jó.
+
+40
+00:05:33,000 --> 00:05:35,840
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
+41
+00:05:35,840 --> 00:05:43,552
+Ezt én rögtön át is bököm aaa hol van a Package Representation hierarchikusra
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
+42
+00:05:43,550 --> 00:05:48,176
+mert az áttekinthetőbb, itt van ez a Lang 3
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
+43
+00:05:48,170 --> 00:05:50,864
+Uh hát ebben jó kis ... osztály van
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
+44
+00:05:50,860 --> 00:05:53,000
+Gondolom ugyanott lesz a Lang 3 Math és number alatta
+Közben amíg futnak a tesztek, nézzük át a projektnek a struktúráját.
+
+45
+00:05:53,000 --> 00:05:55,792
+Gondolom ugyanott lesz a Lang 3 Math és number alatta
+
+46
+00:05:55,790 --> 00:06:00,176
+A tesztosztály, igen itt a number utils
+
+47
+00:06:00,170 --> 00:06:02,896
+Igen... ugye
+
+48
+00:06:02,890 --> 00:06:06,224
+Általában úgy szoktuk elnevezni a test osztályokat, hogy az
+
+49
+00:06:06,220 --> 00:06:09,504
+osztály, amit tesztel, vagy hát abban levő függvény
+
+50
+00:06:09,500 --> 00:06:16,016
+plusz teszt
+
+51
+00:06:16,016 --> 00:06:18,010
+közben le is futottak a tesztek
+
+52
+00:06:18,010 --> 00:06:21,488
+Hát itt a végén azért volt még a StopWatch teszt
+
+53
+00:06:21,480 --> 00:06:24,768
+és elszáll assertion errorral
+
+54
+00:06:24,768 --> 00:06:26,760
+StopWatchSplit
+
+55
+00:06:26,760 --> 00:06:30,672
+[nézi a monitort, egérrel görget]
+
+56
+00:06:30,670 --> 00:06:34,768
+Igen, kettő is elszállt, három
+
+57
+00:06:34,760 --> 00:06:39,824
+Na jó, először nézzük a feladatot konkrétan
+
+58
+00:06:39,824 --> 00:06:41,820
+Azt mondja, hogy...
+
+59
+00:06:41,820 --> 00:06:48,128
+ööö... igen,... ez a commons, apache commons... egy
+
+60
+00:06:48,120 --> 00:06:51,616
+egy függvénykönyvtára, hát elég sokminden van itt
+
+61
+00:06:51,610 --> 00:06:54,816
+builderek, konkurenciák,
+
+62
+00:06:54,810 --> 00:06:59,616
+vagy segítő osztályok, események
+
+63
+00:06:59,610 --> 00:07:03,760
+exception-ök, matematikai dolgokat végző
+
+64
+00:07:03,760 --> 00:07:08,224
+table, reflect, text
+
+65
+00:07:08,220 --> 00:07:18,880
+Translation-höz, time, dateformat.... elkezdtem használni a dateFormattert
+
+66
+00:07:18,880 --> 00:07:24,672
+ImmuTablePair... így könnyű dolga lesz, hehe [nevet]
+
+67
+00:07:24,670 --> 00:07:32,736
+Jó, oké, koncentráljunk a .... problémára
+
+68
+00:07:32,730 --> 00:07:38,288
+Ööö... nézzük meg a teszteket, ez az src/test/jaban lesz
+
+69
+00:07:38,280 --> 00:07:44,448
+Itt is a... ugyanabban a mappában, és akkor itt van a
+
+70
+00:07:44,440 --> 00:07:47,472
+util... numbertest utils... hát itt
+
+71
+00:07:47,470 --> 00:07:51,664
+Ez egy utility osztály, elvileg
+
+72
+00:07:51,660 --> 00:07:57,776
+Hööö, csak a stringUtilst használja a saját függvénykönyvtárából,
+ha jól látom
+
+73
+00:07:57,770 --> 00:08:02,304
+Tehát viszonylag szeparált
+
+74
+00:08:02,300 --> 00:08:08,176
+Lang 3 string utils... igen, tehát azért eléggé szeparált,
+
+75
+00:08:08,170 --> 00:08:13,232
+És akkor a number utils teszt gondolom csak az izét fogja
+
+76
+00:08:13,230 --> 00:08:19,120
+használni... nézzük egy kicsit ezt az osztályt,
+number utils, az elején egy csomó
+
+77
+00:08:19,120 --> 00:08:24,208
+konstans kiszervezve, elnevezve szépen
+
+78
+00:08:24,200 --> 00:08:31,072
+Konstruktor, ööö, toInt-es
+
+79
+00:08:31,070 --> 00:08:36,016
+stringet intté konvertáló
+
+80
+00:08:36,010 --> 00:08:40,912
+metódusok, ugye, Integer.parseInt
+
+81
+00:08:40,910 --> 00:08:45,680
+Ja igen, ez null-checkkel parseInttel, hát igen ez végül is
+
+82
+00:08:45,680 --> 00:08:52,096
+még a ParseInt is numberformatException-nel,
+és hogyha elszáll akkor
+
+83
+00:08:52,090 --> 00:08:56,656
+ja default value is van megadva
+
+84
+00:08:56,650 --> 00:09:05,104
+Ühümm [nézi a képernyőt, görget] toLong, toDouble
+
+85
+00:09:05,100 --> 00:09:09,536
+toByte, és mivel ez egy f-es szám volt, valószínűleg ez
+
+86
+00:09:09,530 --> 00:09:18,080
+toFloat-ot kéne keresni [motyogva olvas]
+
+87
+00:09:18,080 --> 00:09:20,080
+Nem tudom, van-e ennek verzióelőzménye
+
+88
+00:09:20,080 --> 00:09:27,824
+[olvassa a kódot] nem, nincs - ez csak ide lett kopizva
+
+89
+00:09:27,820 --> 00:09:32,304
+Azt nem tudom megnézni, hogy ki és mit rontott el
+
+90
+00:09:32,300 --> 00:09:40,512
+de az a lényeg, hogy rossz a mostani [motyogva olvas] igen
+
+91
+00:09:40,510 --> 00:09:44,880
+Azt mondja, hogy a createNumber, mert ugye ez az ami
+
+92
+00:09:44,880 --> 00:09:48,304
+ez az ami nem jól működik,
+
+93
+00:09:48,300 --> 00:09:53,168
+aaaz a "string value into a java.lang.Number"
+
+94
+00:09:53,160 --> 00:10:02,560
+ami ... ööö ugye ennek lehet int value-ja, long value-ja
+
+95
+00:10:02,560 --> 00:10:06,848
+attól függ, hogy ki az, aki implementálja, nézzük csak meg, hogy
+
+96
+00:10:06,840 --> 00:10:14,080
+ööö.... ú basszus, hogy is volt - üpsz, lehet ezt nem kéne mondani
+
+97
+00:10:14,080 --> 00:10:19,616
+Control plusz implementation, bár egy ideje most Visual Studio kódot használok
+
+98
+00:10:19,610 --> 00:10:23,520
+meg előtte volt egy kicsi intelliJ meg
+
+99
+00:10:23,520 --> 00:10:30,816
+volt egy kicsi izé is... ööö... netBeans, de előtte nagyon sok évig Java-t használtam
+
+100
+00:10:30,810 --> 00:10:37,728
+Azt mondja, hogy, aha, tehát a numbernek, ugye absztrakt osztály, ugye az
+
+101
+00:10:37,720 --> 00:10:44,320
+int, meg long, meg mindegyik megvalósítja
+
+102
+00:10:44,320 --> 00:10:50,704
+finalok is - jó, na mindegy, numberrel tér vissza
+
+103
+00:10:50,700 --> 00:10:56,912
+Hűha, egy ilyen szép kis osztály [görget, olvassa a kódot], vagy metódus
+
+104
+00:10:56,910 --> 00:11:00,688
+Erre ráférne egy alapos refaktor
+
+105
+00:11:00,680 --> 00:11:05,056
+Mert ez így nagyon bonyolult első látásra
+
+106
+00:11:05,050 --> 00:11:13,392
+Éééés eléggé össze-vissza, és jó, van egy null-check
+
+107
+00:11:13,390 --> 00:11:17,728
+Ööö, nézzük hogy üres-e [olvassa a kódot]
+
+108
+00:11:17,720 --> 00:11:22,528
+string utils, igen, erre használja saját magát kb.
+
+109
+00:11:22,520 --> 00:11:27,232
+minusz-minusszal kezdődik, akkor nullal kéne visszatérnie
+
+110
+00:11:27,230 --> 00:11:30,992
+jó kérdés, ez a minusz-minusz az micsoda pontosan
+
+111
+00:11:30,992 --> 00:11:32,990
+Nézzük, olvassuk el a leírását
+
+112
+00:11:32,990 --> 00:11:38,720
+Ha... If the string starts with 0x or -0x
+
+113
+00:11:38,720 --> 00:11:43,264
+Lower or uppercase it will be interpreted into heximal integer
+
+114
+00:11:43,260 --> 00:11:47,040
+Jóóó [olvassa a leírást]
+
+115
+00:11:47,040 --> 00:11:55,392
+[motyogva olvas] tehát azt írja a
+
+116
+00:11:55,390 --> 00:12:02,032
+a java docja, ha 0x-szel vagy -0x-szel kezdődik akkor hexiadecimális számként kezeli
+
+117
+00:12:02,030 --> 00:12:06,944
+integerként vagy longként
+
+118
+00:12:06,940 --> 00:12:13,248
+[olvassa a leírást]
+
+119
+00:12:13,344 --> 00:12:21,568
+hogyha... a... nulla utáni
+
+120
+00:12:21,560 --> 00:12:29,984
+nulla prefix után 8 érték van 0-val az eljeén, akkor oktadecimális számként van kezelve
+
+121
+00:12:29,980 --> 00:12:34,928
+Igen... ööö... igen
+
+122
+00:12:34,920 --> 00:12:39,680
+Tehát ez a kezelésről szól
+
+123
+00:12:39,680 --> 00:12:52,080
+[olvassa a leírást] Tehát hogyha a végén ffddll, akkor hát ennek megfelelően vagy
+
+124
+00:12:52,080 --> 00:12:55,216
+float vagy double vagy long
+
+125
+00:12:55,210 --> 00:13:07,104
+[motyogva olvas] igen
+
+126
+00:13:07,100 --> 00:13:13,888
+Ha nincs a végén semmilyen ilyen f, d vagy l azonosító, mondjuk jelen esetben van,
+
+127
+00:13:13,880 --> 00:13:20,944
+akkor megpróbálja megtalálni a decimális pontot és annak megfelelően
+
+128
+00:13:20,940 --> 00:13:24,832
+ööö... megpróbálja
+
+129
+00:13:24,830 --> 00:13:29,136
+[motyogva olvas]
+
+130
+00:13:29,130 --> 00:13:35,328
+tehát az integerből bigintegert csinálni, a floatből pedig bigdecimalt
+
+131
+00:13:35,320 --> 00:13:48,912
+[kattint, olvassa a leírást]
+
+132
+00:13:48,910 --> 00:13:53,216
+Igen... nem trimmeli az input stringet [grimaszol]
+
+133
+00:13:53,210 --> 00:13:55,952
+ez mondjuk érdekes
+
+134
+00:13:55,950 --> 00:14:02,128
+tehát hogyha az izé van [nyúl valamiért]
+
+135
+00:14:02,120 --> 00:14:04,656
+Tehát hogyha nem trimmeli,
+
+136
+00:14:04,650 --> 00:14:08,816
+és hogyha van előtte vagy utána, sztri... öööö
+
+137
+00:14:08,810 --> 00:14:13,168
+szóköz, akkor meg numberFormatException-t fog dobni
+
+138
+00:14:13,160 --> 00:14:21,888
+Jó, hát itt én látok kapásból a metódusban egy olyat, hogy minusz-minusszal kezdődik, de nézzük meg a konkrét tesztet akkor
+
+139
+00:14:21,880 --> 00:14:29,536
+Itt megnézem a createNumberformat exceptiont, hogyha rákattintok a linkre,
+
+140
+00:14:29,530 --> 00:14:33,520
+Rákattintok a linkre, és nem visz oda
+
+141
+00:14:33,520 --> 00:14:38,160
+jó, akkor megkeressük, öööö,
+
+142
+00:14:38,160 --> 00:14:45,488
+[motyogva olvas] hanyadik sor is
+
+143
+00:14:45,480 --> 00:14:49,488
+azt mondja, hogy numberFormatException
+
+144
+00:14:49,480 --> 00:14:57,488
+ez a harmadik sorban, ó, itt is vagyok, testTo... nem
+
+145
+00:14:57,480 --> 00:15:02,640
+ez asserterrror, bocsánat
+
+146
+00:15:02,640 --> 00:15:08,880
+Tehát a 242. sorában van itt a hiba, a numberUtilsTestnek
+
+147
+00:15:08,880 --> 00:15:12,928
+Igen... na nézzük akkor, mi az elvárt itt
+
+148
+00:15:12,920 --> 00:15:18,432
+Hű, ez egy jó nagy teszt: testCreateNumber, createNumber
+
+149
+00:15:18,430 --> 00:15:21,552
+ööö, assertEquals
+
+150
+00:15:21,550 --> 00:15:28,528
+[motyogva olvas] float 1234.5, igen
+
+151
+00:15:28,520 --> 00:15:34,416
+Integer. float, valueNumberFormat, igen-igen ezek floatok
+
+152
+00:15:34,410 --> 00:15:41,232
+Tehát a floatoknál, azt nézem, hogyha odaírjuk az f-et a végére
+
+153
+00:15:41,230 --> 00:15:50,352
+[motyogva olvas] elég érdekes tesztosztály, ilyet még nem láttam, hogy a teszt az attól függ, hogy a system
+
+154
+00:15:50,350 --> 00:15:56,928
+hogy a teszt az attól függ, hogy java 1.2-n vagy 1.3-on futtatjuk,
+
+155
+00:15:56,920 --> 00:16:02,736
+ezt elvileg kettőbe szét kéne szedni, mert az assertnek egyértelműnek kéne lennie, illetve a
+
+156
+00:16:02,730 --> 00:16:07,424
+[gondolkodik] hogyha jól hallottam, akkor a PMD vagy a CheckStyle az
+
+157
+00:16:07,420 --> 00:16:12,080
+megköveteli, hogy tesztenként egy assert legyen [nevet]
+
+158
+00:16:12,080 --> 00:16:15,488
+úgy lenne tiszta a kód
+
+159
+00:16:15,480 --> 00:16:22,304
+[motyogva olvas]
+
+160
+00:16:22,300 --> 00:16:28,176
+Itt az van, hogy a numberFormatUtils createNumber minusz-minusz 1.1, igen
+
+161
+00:16:28,170 --> 00:16:35,776
+Ennek numberFormatExceptiont kellene dobnia, de nem dob, azért, mert null-al tér vissza
+
+162
+00:16:35,770 --> 00:16:38,400
+[olvassa a kódot]
+
+163
+00:16:38,400 --> 00:16:41,888
+Hát, remélem nem ennyi a feladat
+
+164
+00:16:41,880 --> 00:16:48,368
+mert ez nem túl...
+
+165
+00:16:48,360 --> 00:16:56,448
+[ráncolja a szemöldökét] Remélem nem ennyi a feladat,
+
+166
+00:16:56,440 --> 00:17:00,576
+Valószínűleg az lesz a buktató, hogy itt más is közbeszól
+
+167
+00:17:00,570 --> 00:17:06,432
+Tehát ennek itt, ööö, minusz-minusszal
+
+168
+00:17:06,430 --> 00:17:11,712
+numberFormatException-t kellene dobnia
+
+169
+00:17:11,710 --> 00:17:16,560
+ööö, nézzük meg, hogy
+
+170
+00:17:16,560 --> 00:17:22,720
+találunk-e még ilyet a kódban, hogy minusz-minusszal van meghívva
+
+171
+00:17:22,720 --> 00:17:32,512
+[keres] Javaban
+
+172
+00:17:32,510 --> 00:17:37,840
+Ú, basszus, melyik volt az [gondolkodik] "search any string"
+
+173
+00:17:37,840 --> 00:17:43,296
+[motyogva olvas] na ez lesz az, ööö
+
+174
+00:17:43,290 --> 00:17:55,040
+[motyogva olvas] ööö, igen, hát nem tudom, nézzük
+
+175
+00:17:55,040 --> 00:18:00,816
+[ásít]
+
+176
+00:18:00,810 --> 00:18:09,984
+Hát egy kicsit sok helyen, na mindegy, hát próbáljuk meg dobatni ezt a numberFormatExceptiont vele
+
+177
+00:18:09,980 --> 00:18:18,944
+Ööö, és akkor majd meglátjuk, hogy mi az amit ad [gépel]
+
+178
+00:18:18,940 --> 00:18:27,840
+Ööö [nézi az eredményt]
+
+179
+00:18:27,840 --> 00:18:39,040
+[hunyorít]
+
+180
+00:18:39,040 --> 00:18:55,840
+[gépel]
+
+181
+00:18:55,840 --> 00:19:01,424
+Ó, hogy van ez angolul? Not valid, mi ez
+
+182
+00:19:01,420 --> 00:19:14,752
+Hm... sign for numbers... hát nem tudom.
+
+183
+00:19:14,750 --> 00:19:21,760
+Nézzük [vakarja a fejét]
+
+184
+00:19:21,760 --> 00:19:36,928
+Hát erről nem ír semmit a JavaDoc
+
+185
+00:19:36,920 --> 00:19:44,016
+Ez egyértelműen nem egy valid szám, a teszt is ezt mondja
+
+186
+00:19:44,010 --> 00:19:56,528
+[motyogva olvas, vakarja a fejét]
+
+187
+00:19:56,520 --> 00:20:00,400
+Nagyon remélem, hogy van valami csavar benne, mert
+
+188
+00:20:00,400 --> 00:20:04,816
+erre a feladatra 90 perc még egy juniornak is
+
+189
+00:20:04,810 --> 00:20:07,504
+sokallom, dehát
+
+190
+00:20:07,500 --> 00:20:20,112
+... dehát csak nem. Mondjuk ott volt még három másik hiba, azt majd érdemes lesz megnézni.
+
+191
+00:20:20,110 --> 00:20:33,056
+[sóhajt] Nyithattam volna másik konzolba mi? Na mindegy.
+
+192
+00:20:33,050 --> 00:20:41,392
+Megnéztem volna a három másikat, mik is voltak azok? StopWatch, az valami time-os lesz.
+
+193
+00:20:41,390 --> 00:20:52,464
+[motyogva olvas] Volt valami readme is, azt is érdemes lenne elolvasni
+
+194
+00:20:52,460 --> 00:20:57,536
+[vakarja a fejét] Minél többmindent használok, annál lassabb lesz a kutatás
+
+195
+00:20:57,530 --> 00:21:04,896
+Most úgy látom, egy picit ez a Windows nincs a helyzet magaslatán
+
+196
+00:21:04,890 --> 00:21:29,712
+[vár, nézi az eredményt]
+
+197
+00:21:29,710 --> 00:22:05,328
+[vár, nézelődik, ráncolja a szemöldökét]
+
+198
+00:22:05,320 --> 00:22:14,048
+[vár továbbra is]
+
+199
+00:22:14,040 --> 00:22:21,024
+Lehet.... számba jön ezt a teszt is.
+
+200
+00:22:21,020 --> 00:22:27,728
+Ööö, jó, hát akkor kész.
+
+201
+00:22:27,720 --> 00:22:38,448
+Kicsit... hát 10 perc alatt? Hát mindegy, kész [felnevet]
+
+202
+00:22:38,440 --> 00:22:43,728
+[nézi az eredményt]
+
+203
+00:22:43,720 --> 00:22:54,992
+[nyújtózkodik]
+
+204
+00:22:54,990 --> 00:23:00,896
+Na itt vagyunk, akkor nézzünk bele, amíg nem jön valaki.
+
+205
+00:23:00,890 --> 00:23:09,664
+Mik vannak itt - Release notes.
+
+206
+00:23:09,660 --> 00:23:19,616
+Nincsen leírása .... [motyogva olvas]
+
+207
+00:23:19,610 --> 00:23:30,784
+[motyogva olvas]
+
+208
+00:23:30,780 --> 00:23:39,680
+Akkor ezért van itt ant is belevéve, nézzük a POMját
+
+209
+00:23:39,680 --> 00:23:46,752
+Refactoroljak itt valamit? Vagy kijavítottam? Ennyi volt?
+
+210
+00:23:46,750 --> 00:23:53,056
+A feladat az kész van, bár elég csúnya ez a kód így... fúha
+
+211
+00:23:53,050 --> 00:24:00,464
+[motyogva olvas, nézi a kódot]
+
+212
+00:24:00,460 --> 00:24:07,920
+Az a baj, hogy arra elmenne a 90 perc, hogy én itt ezt refaktorolja, mert azért igen csak bele kell
+
+213
+00:24:07,920 --> 00:24:16,704
+[motyogva olvas, nézi a kódot]
+
+214
+00:24:16,700 --> 00:24:26,336
+Itt ebbe igencsak bele kell menni, nézzük mik vannak itt, egy csomó ilyen developers, contributors
+
+215
+00:24:26,330 --> 00:24:40,720
+[motyogva olvas] commons.io, a tesztekhez commons.io, eléggé
+
+216
+00:24:40,720 --> 00:24:47,408
+... eléggé szép kis projekt
+
+217
+00:24:47,400 --> 00:24:52,192
+Nem sok minden kell hozzá, 1.6-os Java
+
+218
+00:24:52,190 --> 00:25:00,816
+Nem, ez csak valaki más volt, 1, 2, lang, igen
+
+219
+00:25:00,810 --> 00:25:12,336
+[motyogva olvas, nézi a kódot]
+
+220
+00:25:12,330 --> 00:25:23,280
+[motyogva olvas, félrenéz]
+
+221
+00:25:23,280 --> 00:25:32,000
+[sóhajt] mit csinál ez
+
+222
+00:25:32,000 --> 00:25:39,936
+[nézi a kódot]
+
+223
+00:25:39,930 --> 00:25:51,904
+Összeállítja a binárist illetve a source-ot is, igen
+
+224
+00:25:51,900 --> 00:25:58,672
+[motyogva olvas]
+
+225
+00:25:58,670 --> 00:26:08,848
+Checkstyle, és igen
+
+226
+00:26:08,840 --> 00:26:34,768
+[motyogva olvas, kattintgat]
+
+227
+00:26:34,760 --> 00:26:40,160
+Ez érdekes mondjuk.
+
+228
+00:26:40,160 --> 00:27:04,496
+[olvassa a kódot, görget]
+
+229
+00:27:04,490 --> 00:27:46,256
+[motyogva olvas, kattintgat, görget]
+
+230
+00:27:46,256 --> 00:27:48,250
+Kész vagyok ám!
+
+231
+00:27:48,250 --> 00:27:52,192
+[vár]
+
+232
+00:27:52,190 --> 00:27:57,120
+Elkezdtem átnézni az egész projektet [nevet]
+
+233
+00:27:57,120 --> 00:28:05,856
+Elkérem az egeret, és akkor leállítom (Béla)
+

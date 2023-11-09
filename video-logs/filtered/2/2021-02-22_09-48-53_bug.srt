@@ -1,0 +1,392 @@
+﻿1
+00:00:02,000 --> 00:00:03,000
+Szuper (Gergő)
+
+2
+00:00:03,000 --> 00:00:06,608
+No, az lenne a feladat hogy igen ami itt a lapon van (Gergő)
+
+3
+00:00:06,848 --> 00:00:09,872
+Látsz egy Eclipse-t megnyitva, ebbe bele van töltve egy projekt (Gergő)
+
+4
+00:00:09,984 --> 00:00:14,000
+Ebben van egyetlen egy bukó teszteset jelenleg, a feladat az, hogy (Gergő)
+
+5
+00:00:14,000 --> 00:00:19,000
+javítsd ki a programot úgy, hogy a teszteseteket nem módosítod, de átmenjenek (Gergő)
+
+6
+00:00:19,000 --> 00:00:21,000
+- nyilván mindent ki kell javítani (Gergő) 
+- Aha [mosolyog]
+
+7
+00:00:21,088 --> 00:00:28,000
+Internetet használhatsz, nyilván továbbra is minden, ami az eszedbe van, azt mondjad folyamatosan, hangosan, bármit (Gergő)
+
+8
+00:00:28,000 --> 00:00:33,000
+Jó, tehát mi inkább utólag mi szűrjünk, mint hogy te szűrjél. (Gergő) [VSZ bólogat]
+
+9
+00:00:33,000 --> 00:00:35,000
+Igazából ennyi (Gergő)
+
+10
+00:00:35,000 --> 00:00:38,592
+Egy dolog van, ami még ilyen technikai részlet: ismert hibák (Gergő) [VSZ figyel]
+
+11
+00:00:38,752 --> 00:00:44,000
+Tehát kérlek, annak a projektnek a hivatalos bug report adatbázisában vagy issue adatbázisában ne keresd meg (Gergő) [VSZ orrot vakar]
+
+12
+00:00:44,064 --> 00:00:49,000
+Mert nyilván ott meg lesz. Már kijavították, de amúgy használjál bármit. (Gergő) [VSZ bólogat]
+
+13
+00:00:49,184 --> 00:00:55,000
+Minden benne van az Eclipsben, jó? Tehát nem kell workspace-t váltani meg semmi, minden rendelkezésre áll (Gergő)
+
+14
+00:00:55,000 --> 00:00:57,696
+Magadra leszel hagyva, ugyanúgy ahogy eddig (Gergő) [VSZ bólogat]
+
+15
+00:00:57,840 --> 00:01:01,000
+Csináljad, csak közben folyamatosan beszéljél (Gergő)
+
+16
+00:01:01,000 --> 00:01:04,000
+Egy pár percenként mi nyilván bejövünk, megnézzük, hogy minden rendben van-e (Gergő)
+
+17
+00:01:04,000 --> 00:01:04,704
+Jó, Oké.
+
+18
+00:01:04,864 --> 00:01:06,380
+Van kérdés esetleg? (Gergő)
+
+19
+00:01:06,480 --> 00:01:09,000
+- Nincs, egyelőre.
+- Jó, akkkor... (Gergő)
+
+20
+00:01:09,000 --> 00:01:11,000
+Az egeret azt elviszem, vagy ez nem az az egér?
+
+21
+00:01:11,000 --> 00:01:16,000
+Szerintem csak a .... (Gergő)
+
+22
+00:01:16,000 --> 00:01:48,000
+Aha, jó, köszi.
+
+23
+00:01:48,000 --> 00:02:50,000
+Lefuttatom, megnézem, mit csinál. [elindítja a futtatást]
+
+24
+00:02:50,000 --> 00:03:46,000
+Hát még fordítja. [szarkasztikusan mosolyog]
+
+25
+00:03:46,000 --> 00:05:01,000
+Még mindig fut. [vár]
+
+26
+00:05:01,000 --> 00:05:08,000
+Na, lefutott, akkor megnézem, hogy lett két hiba. [mosolyog]
+
+27
+00:05:08,000 --> 00:05:22,000
+Megnézzük, mi.
+
+28
+00:05:22,000 --> 00:05:28,000
+Igen, egy Numberformat exception jön.
+
+29
+00:05:28,000 --> 00:05:36,000
+Ezt meg is nézem, hogy hol.
+
+30
+00:05:36,000 --> 00:06:01,000
+Ha megnyitná a ...
+
+31
+00:06:01,000 --> 00:06:24,000
+Igen, itt a createNumber van, végignézem azért ezt a tesztet. [mosolyog, figyel]
+
+32
+00:06:24,000 --> 00:06:44,000
+Ezek sima egszerű számok. [figyel, olvassa a kódot]
+
+33
+00:06:44,000 --> 00:06:59,000
+Igen, ez egy float, akkor nézzük ezt a függvényt, metódust, hogy mit csinál ez.
+
+34
+00:06:59,000 --> 00:07:06,000
+Stringből csinál számot.
+
+35
+00:07:06,000 --> 00:07:25,000
+És akkor - [figyel, olvassa a kódot]
+
+36
+00:07:25,000 --> 00:07:44,000
+Megnézem a másik hibát is, az micsoda.
+
+37
+00:07:44,000 --> 00:07:47,000
+Ez, is, oké. [jegyzetel]
+
+38
+00:07:47,000 --> 00:08:18,000
+Tényleg az a hiba, ami a leírásban van. És akkor nézzzük csak, hogy parsolja ezt a stringet. [felnevet ]
+
+39
+00:08:18,000 --> 00:08:30,000
+Azt mondja, hogy van egy str változó paraméter, leellenőrzi nulla, üres-e, azt mondja, hogy egyik se, meg van adva a tesztben [olvassa a kódot]
+
+40
+00:08:30,000 --> 00:08:54,000
+És akkor a trükk az, hogy két mínuszjellel kezdődik, van itt egy ilyen az if-ben, startsWith, jelen esetben így is kezdőik ez itt egy return 0.  [olvassa a kódot]
+
+41
+00:08:54,000 --> 00:09:09,000
+Kapásból, az meg nem annyira number. [olvassa a kódot]
+
+42
+00:09:09,000 --> 00:09:36,000
+De azért végignézem a metódus többi részét is, mi van még itt.  [olvassa a kódot]
+
+43
+00:09:36,000 --> 00:10:17,000
+Hát ezek már további feldolgozások, hogyha már eljut idáig. [olvassa a kódot]
+
+44
+00:10:17,000 --> 00:10:44,000
+Hát a két minuszjel nálam a gond. [helyezkedik]
+
+45
+00:10:44,000 --> 00:11:03,000
+Na igen és ott az a gond hogy ez nullt ad és nem dob - a teszt az azt várja el, hogy [szünet]
+
+46
+00:11:03,000 --> 00:11:13,000
+itt akkor failel, hogyha továbbmegy, tehát itt dobni kéne valójában egy exceptiont, és itt meg egy null van visszaadva,
+
+47
+00:11:13,000 --> 00:11:20,000
+tehát itt én azt mondom, hogy egy numberformatexceptiont kéne dobni, és akkor le fog futni a teszt
+
+48
+00:11:20,000 --> 00:11:36,000
+Ezt most mindjárt ki is próbáljuk, nulla helyett dobunk egy exceptiont, ezt meg kiveszem (most egyelőre kikommentezem) [gépel]
+
+49
+00:11:36,000 --> 00:11:59,000
+Azt mondja hogy [szünet], és marad ez a hibaüzenet, és akkor lefuttatjuk.
+
+50
+00:11:59,000 --> 00:12:15,000
+Most lekopiztam egy numberformatexceptiont, egyelőre a message-ét azt nem állítottam nagyon semmire, csak valami stringet azt' kész
+
+51
+00:12:15,000 --> 00:12:25,000
+Mindjárt megnézem, hogy jó-e, ha így jó, akkor szebb üzenetet is lehet dobni, hibaüzenetet.
+
+52
+00:12:25,000 --> 00:12:48,000
+Aztán majd kitörlöm a kommentet, mert az nem kell. [futtat]
+
+53
+00:12:48,000 --> 00:13:27,000
+Na most fordul, fut majd, mindjárt várunk [nézi az eredményt]
+
+54
+00:13:27,000 --> 00:13:33,000
+[erősen rányom egy billentyűre]
+
+55
+00:13:33,000 --> 00:14:23,000
+Na most következnek a tesztek, mindjárt kiderül, mi történik. [nézi az eredményt]
+
+56
+00:14:23,000 --> 00:15:01,000
+Még fut. [tornáztatja a nyakát]
+
+57
+00:15:01,000 --> 00:15:12,000
+És lefutott, és (?). Lefutott az összes teszt, átment, és kitörlöm ezt a kommentes return 0-t. [gépel]
+
+58
+00:15:12,000 --> 00:15:22,000
+Már rég használtam Eclipse-t, ezért most a billentyűkombinációt hirtelen nem tudom, hogy mi töröl sort. Kitöröltem, most lefuttatom újra.
+
+59
+00:15:22,000 --> 00:15:40,000
+Hát ez az exception is nagyjából jó, "ez a string ez nem valid number", jó, úgyhogy - had fusson - elmentettem, biztos ami biztos.
+
+60
+00:15:40,000 --> 00:15:53,000
+Lefuttatom, és ha megint jó, akkor kész [mosolyog]
+
+61
+00:15:53,000 --> 00:15:55,000
+Most fordul [nézi az eredményt, vár]
+
+62
+00:15:55,000 --> 00:16:13,000
+[Vár, nézi a képernyőt]
+Most fordul [nézi az eredményt, vár]
+
+63
+00:16:13,000 --> 00:16:40,000
+[Vár, nézi a képernyőt]
+
+64
+00:16:44,944 --> 00:16:45,984
+Még mindig fordul.
+
+65
+00:16:45,980 --> 00:16:52,240
+[Vár, forgatja a fejét]
+
+66
+00:16:52,240 --> 00:16:54,864
+Na most kezdenek futni a tesztek.
+
+67
+00:16:54,860 --> 00:16:57,904
+Ezt végigvárjuk, és ha nincs hiba akkor kész is van.
+
+68
+00:18:05,980 --> 00:18:08,480
+Lehet hogy jó, eddig nincs hiba.
+
+69
+00:18:08,480 --> 00:18:15,728
+[Nézi a képernyőt]
+
+70
+00:18:15,720 --> 00:18:21,920
+Igen, lefutott, sikeres az összes teszt, nem bukott egyem,
+Úgyhogy ez így jó lesz.
+
+71
+00:18:21,920 --> 00:18:24,448
+[Mosolyog]
+
+72
+00:18:24,440 --> 00:18:26,672
+Ezzel kész is van.
+
+73
+00:18:26,670 --> 00:18:35,008
+[Félrenéz]
+
+74
+00:18:35,000 --> 00:18:54,432
+[Nézi a képernyőt]
+
+75
+00:18:54,752 --> 00:18:59,840
+Van négy skip teszt, azt azért megnézem.
+
+76
+00:18:59,840 --> 00:19:01,840
+Nem része ugyan a feladatnak, de
+
+77
+00:19:01,840 --> 00:19:02,464
+[Mosolyog]
+
+78
+00:19:02,460 --> 00:19:06,336
+Most hogyha így van időm, akkor ránézek, mi ez.
+
+79
+00:19:06,330 --> 00:19:14,768
+[Görget az egérrel]
+
+80
+00:19:14,760 --> 00:19:16,144
+Én kész vagyok.
+
+81
+00:19:16,140 --> 00:19:17,904
+Kész, lefutott? (Gergő)
+
+82
+00:19:17,900 --> 00:19:21,536
+Le, aha, nincs, nincs hiba.
+
+83
+00:19:21,530 --> 00:19:25,040
+Mondom még megnézem a skip teszteket.
+
+84
+00:19:25,040 --> 00:19:27,376
+Csak kíváncsi voltam, micsoda [nevet]
+
+85
+00:19:27,376 --> 00:19:29,370
+Azok nem érdekesek (Gergő)
+
+86
+00:19:29,370 --> 00:19:33,968
+Dekorált környezetszámok (Gergő)
+
+87
+00:19:37,210 --> 00:19:41,584
+Jó, ha készen van, készen van (Gergő)
+
+88
+00:19:41,580 --> 00:19:45,344
+Akkor nyugodtan le lehet menni - illetve ebédszünet. (Gergő)
+
+89
+00:19:45,340 --> 00:19:49,312
+Éééss megmondom neked, mikor kezdődik a következő kör,
+
+90
+00:19:49,310 --> 00:19:51,696
+Hogy ez másfél órával (Gergő)... Jah, aha
+
+91
+00:19:51,690 --> 00:20:00,768
+Ööö, a következő kör az... hétfőn... 12:20 körülre kéne visszaérni (Gergő)
+
+92
+00:20:00,760 --> 00:20:05,664
+Jó... hát ott leszek mert most kajálni nem lehet beülni.
+
+93
+00:20:05,660 --> 00:20:07,328
+Ha gondolod valahova el tudsz venni kaját és ... (Gergő)
+
+94
+00:20:07,320 --> 00:20:13,120
+Hát úgy, szerintem elmegyek az izébe, ide a ... ja persze-persze
+
+95
+00:20:13,120 --> 00:20:15,120
+Köszi (Gergő)
+
+96
+00:20:15,120 --> 00:20:24,544
+[Felkel, pakol]
+
+97
+00:20:24,540 --> 00:20:39,780
+[Üres a terem, felvétel vége]
+

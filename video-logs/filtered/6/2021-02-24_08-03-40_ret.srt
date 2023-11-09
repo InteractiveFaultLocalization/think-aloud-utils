@@ -1,0 +1,816 @@
+﻿1
+00:00:04,000 --> 00:00:13,000
+VV: Most csak a kamerának integetek, hogy én itt a jobb oldalán vagyok Istvánnak, szóval hogyha nagyon jobb néz akkor ott én leszek.
+
+2
+00:00:15,000 --> 00:00:16,000
+VV: Nos.
+
+3
+00:00:16,000 --> 00:00:25,000
+Igyekszem megcsinálni azt, amit otthon is szoktam, hogy itt van a laptop monitor, azon van a kamera és erre szoktam kirakni, hogy erre nézek, szóval így... [nevet]
+
+4
+00:00:25,000 --> 00:00:32,000
+VV: Most igazából nem baj, mindjárt gyorsan fölírom az adminisztrációs részeket.
+
+5
+00:00:44,000 --> 00:00:45,000
+VV: Rendben van.
+
+6
+00:00:45,000 --> 00:00:46,000
+VV: Nos.
+
+7
+00:00:46,000 --> 00:00:56,000
+VV: Most, ami session, az úgy fog kinézni, hogy úgynevezett hipotetikus eseteket fogok felvázolni.
+
+8
+00:00:56,000 --> 00:00:58,000
+VV: Ezek ilyen elképzelt szituációk.
+
+9
+00:00:59,000 --> 00:01:02,000
+VV: És az lenne a kérés, hogy...
+
+10
+00:01:02,000 --> 00:01:07,000
+VV: meséld el azt, hogy hogy befolyásolt volna téged ez a szituáció.
+
+11
+00:01:08,000 --> 00:01:12,000
+VV: Mondjuk a hétfői session során. Jó?
+
+12
+00:01:12,000 --> 00:01:13,000
+Jó.
+
+13
+00:01:14,000 --> 00:01:19,000
+VV: Az első ilyen szitu az úgy hangozna, hogy...
+
+14
+00:01:19,000 --> 00:01:25,000
+VV: Csak a rekord kedvéért mondom, hogy a 16.57-es.
+
+15
+00:01:26,000 --> 00:01:39,000
+VV: Tegyük fel, hogy a legutóbbi alkalmon megoldott feladatot - ez a precision loss-os szitu - a munkahelyen oldottad meg.
+
+16
+00:01:39,000 --> 00:01:46,000
+VV: ÉS ebéd előtt ezt a bizonyos createNumber metódust nézegetted.
+
+17
+00:01:46,000 --> 00:01:55,000
+VV: És az ebéd szünetben az egyik kollégád felajánlotta, hogy segít ezt megérteni az ebédszünet után.
+
+18
+00:01:57,000 --> 00:02:00,000
+Akkor nyilván igénybe vettem volna a segítségét.
+
+19
+00:02:01,000 --> 00:02:02,000
+VV: Igen...
+
+20
+00:02:02,000 --> 00:02:04,000
+Vagy hogy nem tudom, hogy...
+
+21
+00:02:06,000 --> 00:02:08,000
+VV: És ezt bővebben...
+
+22
+00:02:08,000 --> 00:02:12,000
+Tehát, hogy megbeszéltünk volna...átbeszéltük volna... 
+
+23
+00:02:13,000 --> 00:02:15,000
+Ja, hogy miben befolyásolt volna.
+
+24
+00:02:15,000 --> 00:02:16,000
+VV: Így van.
+
+25
+00:02:16,000 --> 00:02:19,000
+A feladat végső megoldása tekintetében?
+
+26
+00:02:19,000 --> 00:02:21,000
+VV: Akár a teljes folyamat során.
+
+27
+00:02:21,000 --> 00:02:37,000
+Ühüm. Hát igénybe vettem volna a segítségét, átbeszéltünk volna, hogyha ismeri a metódust és igazából meghatároztuk volna vagy legalábbis...kértem volna információt, hogy hol kell utána nézni, hogy mik a pontos számok.
+
+28
+00:02:37,000 --> 00:02:47,000
+Mert ugye abban nem voltam biztos, hogy...jól adtam meg, csak a junit tesztek lefutottak a...végére.
+
+29
+00:02:47,000 --> 00:02:49,000
+90 perc végére.
+
+30
+00:02:49,000 --> 00:02:54,000
+Az biztos, hogy pontosabban határoztam volna meg az értékeket.
+
+31
+00:02:55,000 --> 00:03:01,000
+VV: Itt a...az if-ekbe kerülő értékekre gondolsz, tehát azokat a konstansokat, amiket alkalmaztál.
+
+32
+00:03:01,000 --> 00:03:02,000
+Igen, igen.
+
+33
+00:03:02,000 --> 00:03:11,000
+Meg hát azt is, hogy ugye a kisebb vagy egyenlőben, ránéztem utólag és kisebb egyenlő 7, tehát én is a 7-et használtam a float-nál, csak én kisebbel.
+
+34
+00:03:11,000 --> 00:03:18,000
+Mondom, ebben nem voltam biztos, hogy hogy, csak így mentek át a junit teszteken, úgy hogy ez biztos nem volt jó megoldás.
+
+35
+00:03:18,000 --> 00:03:20,000
+VV: Megnézem, hogy minden rendben van-e.
+
+36
+00:03:21,000 --> 00:03:28,000
+Ez egy olyan megoldás volt, amin a junit tesztek átmentek, de nem ez volt a jó megoldás [nevet] ebben biztos vagyok.
+
+37
+00:03:30,000 --> 00:03:38,000
+És ugyan így a double-nél is ugye kijött a 17, de ott is ugye kisebb egyenlő, mint 17 volt a rendes megoldás, hogyha jól emlékszem.
+
+38
+00:03:39,000 --> 00:03:41,000
+VV: Emlékeim szerint igen.
+
+39
+00:03:41,000 --> 00:03:47,000
+Tehát ott is csak kisebb, mint 17-et vettem és a junit tesztek átmentek, de nem az a jó megoldás.
+
+40
+00:03:47,000 --> 00:03:51,000
+Illetve, hát én azon gondolkoztam még, bár ezt nem tudom, hogy...
+
+41
+00:03:51,000 --> 00:03:54,000
+Nyilván kitértünk volna erre is a...
+
+42
+00:03:55,000 --> 00:04:12,000
+A kollégával, hogy lehet-e ezeket valahogy számolni, tehát hogy vannak-e valamilyen konstansok, amikből kijön ez, nem pedig csak így beégetem, hogy 7 meg 17 magic number szerűen, hanem hogy valami alapja legyen, ami dinamikusabbá teszi az egészet.
+
+43
+00:04:15,000 --> 00:04:18,000
+Mert ezen is gondolkoztam, de nem találtam ilyet.
+
+44
+00:04:19,000 --> 00:04:26,000
+De gondolom lehet, hogy a kollega tudott volna segíteni vagy azt mondja, hogy van ilyen vagy azt mondja, hogy nincs és akkor el sem indulok abba az irányba.
+
+45
+00:04:29,000 --> 00:04:31,000
+VV: Oké, esetleg bármi más...?
+
+46
+00:04:36,000 --> 00:04:42,000
+Hát ami kellett volna, úgy ennyi, tehát más nagyon nem.
+
+47
+00:04:42,000 --> 00:04:48,000
+Az biztos, hogy én refactor-oltam volna egy sort az egészen [nevet] csak több idő azért.
+
+48
+00:04:49,000 --> 00:04:57,000
+Mert elég sok helyen volt ugyan az a feltétel nézve, ami beszédesebbek is lehettek volna.
+
+49
+00:04:57,000 --> 00:05:10,000
+Én...nem olvastam el a clean code-ot, de néztem egy csomü videót, aztán mániákusan azt keresem, hogy olvasható legyen a kód és számomra ez nem volt túl olvasható.
+
+50
+00:05:10,000 --> 00:05:13,000
+Tehát hiányoltam belőle a metódusokat, hogy...
+
+51
+00:05:14,000 --> 00:05:30,000
+Oké, értem a feltételeket, tehát nem azzal volt a gond, megértettem egy fél óra alatt, de ha metódusokba ki vannak szervezve, akár a legkisebb kis if-ek, akkor az jobban olvasható.
+
+52
+00:05:30,000 --> 00:05:33,000
+És igazából nem kell odamennem, hogy mit takart az, hanem...
+
+53
+00:05:36,000 --> 00:05:37,000
+VV: Jó.
+
+54
+00:05:37,000 --> 00:05:48,000
+Illetve az is segítené biztos a park feltárást, hogyha ugye a metódus nem azt csinálja, ami a metódus nevéből adódik.
+
+55
+00:05:49,000 --> 00:05:50,000
+VV: Itt mire gondolsz?
+
+56
+00:05:50,000 --> 00:05:55,000
+Tehát, hogy ugye ilyen esetben...
+
+57
+00:05:55,000 --> 00:06:19,000
+Oké, most ugye ki volt törölve konkrétan kódsor belőle, de hogyha mit tudom én, úgy lett volna a bug a rendszerbe beletéve vagy úgy maradt volna benne a bug, hogy a metódusnak a törzse nem azt csinálja, amire utal a metódusnak a neve, akkor az jóval egyszerűbb, főleg hogy a kisebb egységet fölfedezni.
+
+58
+00:06:19,000 --> 00:06:20,000
+VV: Ja, értem.
+
+59
+00:06:24,000 --> 00:06:27,000
+Tehát az egy elég hosszú és bonyolult metódus volt.
+
+60
+00:06:27,000 --> 00:06:31,000
+Értem, hogy miért, de szebben is meg lehetne csinálni.
+
+61
+00:06:37,000 --> 00:06:45,000
+VV: Akkor...lépjünk is a következőre, ez egy rövidebb...eset lesz.
+
+62
+00:06:45,000 --> 00:06:48,000
+VV: Ez a 8.55-ös szituáció.
+
+63
+00:06:51,000 --> 00:06:59,000
+VV: Tegyük fel, hogy a legutóbbi alkalommal megoldott valamelyik feladat során nem volt felhő az égen, sütött a nap.
+
+64
+00:06:59,000 --> 00:07:02,000
+VV: Ez milyen módon befolyásolt volt téged?
+
+65
+00:07:06,000 --> 00:07:07,000
+[nevet]
+
+66
+00:07:07,000 --> 00:07:17,000
+Hát ebben a teremben sem ennyire [nevet] mert itt a lehúzott redőnyök mellett nem igazán látszik, hogy milyen...
+
+67
+00:07:20,000 --> 00:07:24,000
+Hát a cégnél is eléggé el vagyunk szeparálva, tehát viszonylag...
+
+68
+00:07:25,000 --> 00:07:33,000
+Az ablaktól még jó messzire van erkély meg sötétítettek az ablakok, tehát benti fény viszonylag konstans.
+
+69
+00:07:33,000 --> 00:07:50,000
+Azért otthon észreveszem néha magamat most a home office alatt a kialakult helyzetben, hogyha naposabb idő van, akkor [...] kertes házban lakok Deszken és azért kikívánkozok, aztán nem mindig ugyan úgy koncentrálok.
+
+70
+00:07:50,000 --> 00:07:56,000
+Lehet, hogy lassabban oldottam volna meg a feladatot, de...biztos megoldottam volna, csak...
+
+71
+00:07:57,000 --> 00:08:03,000
+néha elkalandozok, hogy füvet kéne nyírni, permetezni, ilyesmi. [nevet]
+
+72
+00:08:04,000 --> 00:08:18,000
+Illetve a felhős időszakot inkább [nevet] nagyobb benyomást tenne rám, az még akkor is, hogyha a cégnél vagyok, mert...akkor nyomottabb a hangulatom is.
+
+73
+00:08:18,000 --> 00:08:20,000
+Fáradékonyabb is vagyok, meg...
+
+74
+00:08:22,000 --> 00:08:32,000
+Jó, mondjuk lehet ahhoz a két gyerek is hozzá játszik, két kisgyerek, de [nevet] de általában véve a felhősebb idő az nem szokott tetszeni.
+
+75
+00:08:34,000 --> 00:08:38,000
+VV: Jó, szerintem ezt ki is veséztük.
+
+76
+00:08:38,000 --> 00:08:42,000
+VV: Akkor a következő esetünk az a 9.1-es lenne.
+
+77
+00:08:46,000 --> 00:08:58,000
+VV: Tegyük fel most azt, hogy szintén a legutóbbi alkalmon megoldott eset során egyszerínű világos zöldre festett teremben ültél és oldottad meg a feladatot.
+
+78
+00:08:58,000 --> 00:08:59,000
+VV: Ez hogyan befolyásolt volna téged?
+
+79
+00:09:02,000 --> 00:09:06,000
+Hát abban ültem, nem? [nevet]
+
+80
+00:09:09,000 --> 00:09:13,000
+Hát én vagyok annyira érzékeny ezekre a színekre, úgy hogy...
+
+81
+00:09:24,000 --> 00:09:26,000
+Nem, ez nem különösebben.
+
+82
+00:09:26,000 --> 00:09:35,000
+Hogyha valami sötétebb szín az lehet, hogy megint csak valamilyen kis...lehangoló, de...egyszerű világos zöld az nem.
+
+83
+00:09:35,000 --> 00:09:42,000
+Egyébként otthon a dolgozó szobában is ennél sötétebb, de világos zöld, tehát...
+
+84
+00:09:42,000 --> 00:09:44,000
+Nem befolyásolt volna.
+
+85
+00:09:44,000 --> 00:09:45,000
+VV: Jó, értem.
+
+86
+00:09:52,000 --> 00:09:56,000
+VV: Jó, akkor rá is térünk a következőre, ez az 5.3-as eset lesz.
+
+87
+00:09:57,000 --> 00:10:12,000
+VV: Most tegyük fel azt, hogy szintén a legutóbbi feladatmegoldás során az ablakban ült mondjuk egy madárka, amelynek a csipogása 10-15 percenként behallatszódott a terembe,
+
+88
+00:10:12,000 --> 00:10:14,000
+VV: Ez befolyásolt volna-e téged és hogyan?
+
+89
+00:10:18,000 --> 00:10:19,000
+Hát...
+
+90
+00:10:25,000 --> 00:10:32,000
+Nem tudom biztos lett volna olyan eset, amikor befolyásol, főleg amikor kalandozós kedvemben van az agyam, de...
+
+91
+00:10:32,000 --> 00:10:36,000
+Hétfőn eléggé tudtam koncentrálni, szóval akkor ott mindent kizártam.
+
+92
+00:10:36,000 --> 00:10:41,000
+Azt sem hallottam, hogy mennek itt körülöttem, akkor pedig kinyitottam az ablakot reggel, hogy járjon egy kis levegő, szóval...
+
+93
+00:10:42,000 --> 00:10:46,000
+A hétfői szeánszot nem befolyásolta volna.
+
+94
+00:10:46,000 --> 00:10:50,000
+Előfordulhatnak esetek, amikor éppen...ugye...
+
+95
+00:10:54,000 --> 00:11:06,000
+Ugye most már elég régóta, 11 éve dolgozok...és...mármint hogy szoftverfejlesztésben és ugye...ilyen...
+
+96
+00:11:06,000 --> 00:11:13,000
+Ennyi év után már rájön az ember arra, hogy vannak a munka alatt így idejei, amikor...
+
+97
+00:11:13,000 --> 00:11:22,000
+Nekem például délelőtt van az, amikor jobban tudok koncentrálni vagy a késő délután, tehát ez a kettő.
+
+98
+00:11:22,000 --> 00:11:28,000
+És inkább késő délután szokott lenni az, amikor úgy...
+
+99
+00:11:30,000 --> 00:11:38,000
+bele tudok merülni jobban, tehát akkor az időérzékemet is elvesztem kábé és már csak fürdésre megyek ki a gyerekekhez. [nevet]
+
+100
+00:11:39,000 --> 00:11:42,000
+VV: Itt az aktív időszak alatt pontosan mire gondolsz?
+
+101
+00:11:42,000 --> 00:11:51,000
+Hát, amikor...amikor...nem tudom, az a flow-ba belekerülök vagy nem tudom hogy szokták ezt más néven nevezni.
+
+102
+00:11:51,000 --> 00:11:56,000
+Tehát amikor elkap a gépszíj tudod és akkor tudsz koncentrálni és akkor csak oda figyelsz és akkor...
+
+103
+00:11:56,000 --> 00:11:59,000
+kizársz minden mást, olyankor nem...
+
+104
+00:12:00,000 --> 00:12:03,000
+Tényleg kizárok minden mást és olyankor nem számít, hogy...
+
+105
+00:12:04,000 --> 00:12:08,000
+csipog vagy akármi villamos, tehát hogy...
+
+106
+00:12:09,000 --> 00:12:14,000
+Akkor valami nagyon olyan dolognak kell történnie, volt már ilyen esetem.
+
+107
+00:12:14,000 --> 00:12:26,000
+Cégnél, a Kálvárián dolgozunk és akkor a villamos nekiment egy autónak ilyesmi, na az egy rendkívüli eset, most a madár csipog, az...
+
+108
+00:12:27,000 --> 00:12:28,000
+VV: Jó.
+
+109
+00:12:28,000 --> 00:12:29,000
+VV: Oké.
+
+110
+00:12:33,000 --> 00:12:35,000
+VV: A következő esetre rátérnénk.
+
+111
+00:12:35,000 --> 00:12:38,000
+VV: Ez a 6.15-ös lesz.
+
+112
+00:12:40,000 --> 00:12:42,000
+VV: Megvárjuk a madárkát (mentőautót) amíg elmegy.
+
+113
+00:12:43,000 --> 00:12:49,000
+VV: Addig ránézek a fölvételre egy pillanatra.
+
+114
+00:12:52,000 --> 00:12:54,000
+VV: Jó, rendben vagyunk.
+
+115
+00:12:56,000 --> 00:12:58,000
+VV: Tehát akkor a 6.15-ös.
+
+116
+00:12:58,000 --> 00:13:12,000
+VV: Ez úgy szól, hogy ismét feltesszük, hogy a legutóbbi alkalommal megoldot feladat során, ez mondjuk a hétfő délelőtti szeánsz, amikor az a mínusz mínuszos javítás volt.
+
+117
+00:13:12,000 --> 00:13:27,000
+VV: Miközben az egyik teszt metódust olvastad hirtelen az Eclipse környezet összeomlott és teljesen újra kell indítani, minden megnyitott fájl becsukódik, módosításaid elvesznek.
+
+118
+00:13:27,000 --> 00:13:30,000
+VV: Ez hogyan befolyásolta volna téged?
+
+119
+00:13:34,000 --> 00:13:40,000
+Hát...régen használtam Eclipse-t úgy hogy...nem ritka eset volt azért. [nevet]
+
+120
+00:13:44,000 --> 00:13:48,000
+Hát az biztos, hogy [nevet] felidegesített volna egy kicsit.
+
+121
+00:13:48,000 --> 00:13:50,000
+De hát nyilván ez...
+
+122
+00:13:50,000 --> 00:13:52,000
+egy olyan dolog, amit...
+
+123
+00:13:52,000 --> 00:13:53,000
+át kell lépni.
+
+124
+00:13:54,000 --> 00:13:58,000
+Megnyitom, újra lefuttatom a teszteket, abból kijön, hogy melyik fába.
+
+125
+00:13:59,000 --> 00:14:01,000
+Hol mi, hány méter, tehát hogy...
+
+126
+00:14:01,000 --> 00:14:08,000
+azért az Eclipse újraindítása nem napokba telik, tehát ilyen [nevet] legrosszabb esetben 4-5 percen belül elindul.
+
+127
+00:14:08,000 --> 00:14:11,000
+Ha meg nem, akkor adok még neki memóriát és akkor...
+
+128
+00:14:12,000 --> 00:14:23,000
+elindul és folytatom, ahol abbahagytam, a gondolatmenetet azt nem befolyásolja, hogy az Eclipse az kifagy meg ilyesmi, mert...
+
+129
+00:14:27,000 --> 00:14:36,000
+Úgy érzem - nem nagyképűségből mondom, de - elég jól fejbe tudom tartani az olyan dolgokat, amik számomra fontosak így rövidtávú memóriába.
+
+130
+00:14:36,000 --> 00:14:37,000
+Aztán...
+
+131
+00:14:38,000 --> 00:14:41,000
+Néha még a hosszútávúba is, de...
+
+132
+00:14:41,000 --> 00:14:45,000
+De így a rövidtávon elég jól fejbe tudom tartani, hogy hol tartottam és...
+
+133
+00:14:47,000 --> 00:14:48,000
+Hát...
+
+134
+00:14:49,000 --> 00:14:51,000
+Megmondom őszintén ez nem a...
+
+135
+00:14:52,000 --> 00:15:00,000
+Sem a délelőtti, sem a délutáni feladat nem a legbonyolultabb feladat közé tartozott, amit eddig megoldottam, persze azokra több idő kellett, de...
+
+136
+00:15:02,000 --> 00:15:03,000
+Mit tudom én...
+
+137
+00:15:03,000 --> 00:15:05,000
+Példul projekten...
+
+138
+00:15:06,000 --> 00:15:08,000
+hát most menedzser meg architect is vagyok...
+
+139
+00:15:08,000 --> 00:15:18,000
+meg senior fejlesztő, ott tízenpár mikroszolgáltatásból álló architektúrán kell áthúzni a dolgokat, mind a 11...
+
+140
+00:15:18,000 --> 00:15:21,000
+vagy ilyen tízes vagy...
+
+141
+00:15:21,000 --> 00:15:28,000
+Tehát ilyen több nagyságrendű vagyis hogy több komponensen keresztül, ami legalább 4-5.
+
+142
+00:15:28,000 --> 00:15:38,000
+És akkor ott...azért ott jól át kell gondolni, hogy akkor innon oda mi megy, hogy kerül a másikhoz, tehát ez nem a legbonyolultabb feladat közé tartozott.
+
+143
+00:15:38,000 --> 00:15:46,000
+Persze az időben több, de ott is igaz ez, hogy azért elég sok mindent fejben meg tudok jegyezni.
+
+144
+00:15:46,000 --> 00:15:58,000
+Legalábbis ilyen nagyságrendű feladatokat, azoknál meg akkor már jegyzetelek máshova is nem csak Eclipse-be, hanem egy notepad-be jegyzetelek vagy ilyen check list-et állítok vagy ilyesmi.
+
+145
+00:15:58,000 --> 00:16:01,000
+De ez nem volt egy olyan nagyságrendű feladat.
+
+146
+00:16:01,000 --> 00:16:12,000
+Itt ennél a délelőtti mínusz mínuszosnál az egyetlen egy dolog, ami utólag eszembe jutott, még lehetett volna szépíteni, hogy...ez az eset nyilván nem lesz igaz, hogy három mínusszal kezdődik.
+
+147
+00:16:12,000 --> 00:16:14,000
+[nevet]
+
+148
+00:16:14,000 --> 00:16:18,000
+Igazából ez sem volt a legszebb megoldás, csak...
+
+149
+00:16:20,000 --> 00:16:21,000
+Ott igazából...
+
+150
+00:16:23,000 --> 00:16:35,000
+Nem kezdte el belejavítgatni meg ilyesmi, hogy akkor...mert ahhoz egyébként tesztet is kellett volna írni és akkor ugye...nem lehett most módosítani, csak az volt a cél, hogy a junit tesztek működjenek.
+
+151
+00:16:35,000 --> 00:16:53,000
+Igazából délelőtt is előbb meglett volna a megoldás, meg lehet, hogy akkor jobban utána tudok járni, de nem kezdek el refactor-olni, mert elsőre bonyolultnak tűnt a metódus, csak aztán a refactor-álás rájöttem, hogy az sokkal több idő lenne.
+
+152
+00:16:53,000 --> 00:16:56,000
+És akkor azt elengedtem.
+
+153
+00:16:56,000 --> 00:16:58,000
+Úgy hogy...
+
+154
+00:16:59,000 --> 00:17:04,000
+Hát itt a délelőtti esetet le lehetett volna szedni is meg hát a délutánit is.
+
+155
+00:17:04,000 --> 00:17:10,000
+De az a lényeg, hogy...nem okozott volna különösebben gondot, hogyha lefagy az Eclipse, tehát...
+
+156
+00:17:11,000 --> 00:17:12,000
+VV: Jó.
+
+157
+00:17:12,000 --> 00:17:13,000
+egy ekkora projektnél.
+
+158
+00:17:14,000 --> 00:17:16,000
+VV: Rendben van.
+
+159
+00:17:16,000 --> 00:17:26,000
+VV: És akkor az utolsó esetünk a 17.055-ös.
+
+160
+00:17:27,000 --> 00:17:32,000
+VV: Itt visszatérnénk szintén a precision loss-os esethez.
+
+161
+00:17:32,000 --> 00:17:53,000
+VV: Tehát úgy szólva a szitáció, hogy megint csak tegyük föl, hogy a hétfő délutáni feladat esetében egy megbeszélésen hallottad, hogy a NumberUtils osztálynak ezt az IsAllZeros nevezetű függvényét, nem tudom emlékszel-e még rá...?
+
+162
+00:17:53,000 --> 00:17:54,000
+Igen.
+
+163
+00:17:54,000 --> 00:18:04,000
+VV: Igen. Egy senior, a projektet részletesen ismerő kolléga készítette el egyedül.
+
+164
+00:18:05,000 --> 00:18:10,000
+VV: Ez befolyásolt volna-e a folyamatban és ha igen, akkor hogyan?
+
+165
+00:18:10,000 --> 00:18:15,000
+Igen, mindenképpen megkérdeztem volna, mert ott az egy kicsit azért...
+
+166
+00:18:16,000 --> 00:18:18,000
+Ott azt néztem, hogy mi is az pontosan.
+
+167
+00:18:18,000 --> 00:18:21,000
+De aztán rájöttem, hogy ott keresendő a hiba.
+
+168
+00:18:21,000 --> 00:18:22,000
+Tehát az...
+
+169
+00:18:22,000 --> 00:18:26,000
+Meg ott az a rész egy kicsit homályos...
+
+170
+00:18:26,000 --> 00:18:28,000
+hogy az miért van benne.
+
+171
+00:18:28,000 --> 00:18:35,000
+Tehát az, hogy mit csinál, az egyértelmű, de az, hogy miért van benne...az egy kicsit homályos.
+
+172
+00:18:36,000 --> 00:18:43,000
+VV: És a...tehát akkor megkérdezted volna...ennek lett volna valami tovább befolyásoló hatása?
+
+173
+00:18:43,000 --> 00:18:58,000
+Biztosan, mert...mondom, gondolkoztam rajta, nézegettem, aztán gondolkoztam rajta pár percet, hogy mi...miért van ez ott, tehát az, hogy mit csinál, az úgy tiszta volt viszonylag, de hogy miért számít ez ennél a megoldásnál.
+
+174
+00:18:58,000 --> 00:19:07,000
+Nem is az IsAllZeros-al volt gondom, hanem azzal az elég komplex feltétel halmazzal, ami ugye a float-nál meg a double-nél is volt ugye ott...
+
+175
+00:19:07,000 --> 00:19:13,000
+Ott negálva volt az egész, ami vagy-olva és zárójelesen és-elve és az fuu.
+
+176
+00:19:13,000 --> 00:19:17,000
+Hát az [nevet] ember legyen a talpán, aki így ebből megérti.
+
+177
+00:19:17,000 --> 00:19:22,000
+Biztos van, csak mondom, én ott is hiányoltam egy kicsit azt, hogy a...
+
+178
+00:19:23,000 --> 00:19:31,000
+Valami kiszervezés, metódus, hogy akkor konkrétan...tehát hogy...itt ez az olvashatóságot szerintem nagyon rontja.
+
+179
+00:19:34,000 --> 00:19:38,000
+VV: Tehát akkor a...nem is konkrétan a...
+
+180
+00:19:38,000 --> 00:19:45,000
+Nem az IsAllZeros-zal volt a bajom, hanem azzal a feltétellel, azt nem értettem meg, de után rájöttem, hogy nem itt keresendő a hiba...
+
+181
+00:19:46,000 --> 00:19:51,000
+hanem föntebb és akkor úgy el is engedtem, hogy abban keressek hibát.
+
+182
+00:19:51,000 --> 00:19:57,000
+Mert azt is néztem, tehát hogy konkrétan megpróbáltam ugye végig gondolni, hogy akkor...akkor micsoda...
+
+183
+00:19:58,000 --> 00:20:04,000
+de utána...azon gondolkoztam, hogy inkább máshol nézelődök.
+
+184
+00:20:05,000 --> 00:20:15,000
+VV: Tehát akkor valószínűleg, ha jól értem, akkor segített volna vagy abban befolyásolt volna, hogy mennyi időt töltesz el az IsAllZeros-al.
+
+185
+00:20:15,000 --> 00:20:16,000
+Igen, így van.
+
+186
+00:20:17,000 --> 00:20:21,000
+VV: És az utána lévő feltételekben annak szerepe.
+
+187
+00:20:21,000 --> 00:20:23,000
+Igen.
+
+188
+00:20:24,000 --> 00:20:25,000
+VV: Egyéb, esetleg?
+
+189
+00:20:30,000 --> 00:20:31,000
+Hát...nem.
+
+190
+00:20:32,000 --> 00:20:34,000
+Nekem nem segített volna.
+
+191
+00:20:35,000 --> 00:20:36,000
+Csak ennyi, hogy időt nyerek.
+
+192
+00:20:39,000 --> 00:20:41,000
+VV: Rendben van.
+
+193
+00:20:41,000 --> 00:20:43,000
+VV: Akkor ezt is kipipáltuk.
+
+194
+00:20:46,000 --> 00:20:48,000
+VV: Azt mondja, hogy.
+
+195
+00:20:48,000 --> 00:20:55,000
+VV: Jó, még annyit azért megkérdeznék, hogy esetleg közben eszedbe jutott a korábbi esetekhez bármi?
+
+196
+00:20:55,000 --> 00:20:56,000
+Nem.
+
+197
+00:20:56,000 --> 00:20:58,000
+VV: Jó, tehát nem tennél hozzá semmit.
+
+198
+00:20:58,000 --> 00:20:59,000
+Nem.
+
+199
+00:21:01,000 --> 00:21:02,000
+VV: Jólvan.
+
+200
+00:21:02,000 --> 00:21:08,000
+VV: Akkor én még gyorsan felírom, hogy...8:19.
+
+201
+00:21:16,000 --> 00:21:22,000
+VV: Rendben van, gyorsan még belenézek, hogy nem-e elfelejtek valamit, de szerintem nem.
+
+202
+00:21:27,000 --> 00:21:28,000
+VV: Jó.
+
+203
+00:21:29,000 --> 00:21:33,000
+VV: Akkor...igazából ez a szeánsz, ez ennyi lett volna.
+
+204
+00:21:36,000 --> 00:21:38,000
+VV: Én meg is állítom akkor a fölvételt.
+

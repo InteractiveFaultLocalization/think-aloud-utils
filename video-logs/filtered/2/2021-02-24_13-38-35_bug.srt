@@ -1,0 +1,4415 @@
+﻿1
+00:00:00,000 --> 00:00:05,000
+[Gergő beszél]
+
+2
+00:00:05,000 --> 00:00:07,000
+Jó (Gergő)
+
+3
+00:00:07,184 --> 00:00:10,816
+Ööö, itt van a feladat, meg mögötte találsz egy (Gergő)
+
+4
+00:00:10,810 --> 00:00:13,952
+kis emlékeztetőt a toolokról a videóknak (Gergő)
+
+5
+00:00:13,950 --> 00:00:17,360
+tartalma alapján, hogy mi hogy működik, miegyéb (Gergő)
+
+6
+00:00:17,360 --> 00:00:20,592
+Ööö, ki kell javítani a jelzett hibát (Gergő)
+
+7
+00:00:20,590 --> 00:00:24,208
+Ööö, akkor van kész a feladat, amikor minden teszteset megint csak átmegy  (Gergő)
+
+8
+00:00:24,208 --> 00:00:26,200
+tehát nincs bukó teszteseted (Gergő)
+
+9
+00:00:26,200 --> 00:00:30,112
+Ööö, mindent hangosan mondjál ki, és ugye minden gondolatodat folyamatosan 
+
+10
+00:00:30,112 --> 00:00:32,110
+[Gergő beszél]
+
+11
+00:00:32,110 --> 00:00:35,376
+- Ööö, igen, x percenként nyilván rád fogunk nézni (Gergő)
+- Jó. 
+
+12
+00:00:35,370 --> 00:00:39,312
+- Aha, a szokásos.
+- Ha valami probléma van, nyilván tudod majd jelezni (Gergő)
+
+13
+00:00:39,310 --> 00:00:42,096
+Ööö, Eclipse az le van téve elvileg a tálcára 
+
+14
+00:00:42,096 --> 00:00:44,090
+és meg is van nyitva (Gergő)
+
+15
+00:00:44,090 --> 00:00:46,090
+[keresi az egeret]
+
+16
+00:00:46,090 --> 00:00:48,496
+- Elvileg (Gergő)
+- Az az OBS
+
+17
+00:00:48,490 --> 00:00:51,392
+- Ú, de jó  (Gergő)
+- Alatta.
+
+18
+00:00:51,390 --> 00:00:53,664
+Ez az átka a ...-nek
+
+19
+00:00:53,660 --> 00:00:57,184
+Maszkban nem tudok szemüvegben lenni, így nem látok (Gergő)
+
+20
+00:00:57,180 --> 00:01:00,960
+Ööö, mindegy, lényeg a lényeg, el van indítva (Gergő)
+
+21
+00:01:00,960 --> 00:01:04,384
+Ott a leíásban ott van, hogy a scores.csv-t hol találod (Gergő)
+
+22
+00:01:04,380 --> 00:01:06,880
+Ha akarod használni valamelyik toolt (Gergő)
+
+23
+00:01:06,880 --> 00:01:09,168
+Ööö, semmi sem kötelező (Gergő)
+
+24
+00:01:09,168 --> 00:01:11,160
+Aha, jó
+
+25
+00:01:11,160 --> 00:01:15,328
+De a lehetőségek ott vannak, a toolok fel vannak telepítve ebbe az Eclipsbe (Gergő)
+
+26
+00:01:15,320 --> 00:01:18,944
+a korábbiakkal ellentétben, tehát lehetőséged van rá használni (Gergő)
+
+27
+00:01:19,536 --> 00:01:24,032
+Ööö, a hibák továbbra is ismertek, szóval kérlek ne keresd meg adatbázisban őket (Gergő)
+
+28
+00:01:24,928 --> 00:01:28,448
+- és 90 perc van erre a feladatra maximum (Gergő)
+- Jó. 
+
+29
+00:01:28,440 --> 00:01:32,736
+- Nyilván ... mikor a legközelebb jövünk (Gergő beszél)
+- Okés.
+
+30
+00:01:32,736 --> 00:01:34,730
+- Akkor van-e kérdésed? (Gergő)
+- Hát egyelőre nincs. 
+
+31
+00:01:34,730 --> 00:01:36,730
+Jó, szuper (Gergő)
+
+32
+00:01:36,730 --> 00:01:38,730
+[lapoz]
+
+33
+00:01:38,730 --> 00:01:43,488
+Nézzük. 
+
+34
+00:01:43,488 --> 00:01:45,480
+[olvassa a jegyzetet]
+
+35
+00:01:45,480 --> 00:01:48,144
+Akkor, futtatom
+
+36
+00:01:48,140 --> 00:01:53,408
+[nézi a jegyzetet, futtat]
+
+37
+00:01:53,400 --> 00:01:55,840
+Lenémítom már a telefont 
+
+38
+00:01:57,216 --> 00:01:59,216
+ne zavarjon
+
+39
+00:01:59,210 --> 00:02:04,848
+[futtat, vár]
+
+40
+00:02:04,840 --> 00:02:08,448
+Ó ez gyorsabb volt most szerencsére
+
+41
+00:02:08,440 --> 00:02:10,688
+[nézi a jegyzetet]
+
+42
+00:02:10,680 --> 00:02:14,688
+testDeleteAll, első teszteset, ez [kattint]
+
+43
+00:02:14,680 --> 00:02:17,968
+ez a testDeleteFirst, na mindegy, ez lesz előbb
+
+44
+00:02:17,960 --> 00:02:22,272
+[kattint]
+
+45
+00:02:22,272 --> 00:02:24,270
+végigment, igen
+
+46
+00:02:24,270 --> 00:02:28,208
+[nézi a kódot]
+
+47
+00:02:28,200 --> 00:02:33,200
+[motyog] string buildernek a
+
+48
+00:02:36,176 --> 00:02:38,832
+nem szabadna benne találni egy
+
+49
+00:02:41,168 --> 00:02:44,320
+ezt a szöveget, de mégiscsak benne van
+
+50
+00:02:44,320 --> 00:02:47,040
+mert nem -1-et ad vissza az indexOf
+
+51
+00:02:47,040 --> 00:02:49,376
+Tehát nem törli ki
+
+52
+00:02:49,370 --> 00:02:52,880
+deleteFirst, na nézzük meg, hogy
+
+53
+00:02:52,880 --> 00:02:54,880
+[jegyzetet olvas]
+
+54
+00:02:54,880 --> 00:02:58,384
+mit csinál a deleteFirst [kattint]
+
+55
+00:02:58,380 --> 00:03:14,144
+[olvassa a kódot, kattint]
+
+56
+00:03:14,140 --> 00:03:17,536
+a deleteFirstben lesz a hiba
+
+57
+00:03:17,530 --> 00:03:31,456
+[nézi a kódot, kattint]
+
+58
+00:03:31,450 --> 00:03:34,720
+Azt mondja, hogy megnézi, hogy nulla a string
+
+59
+00:03:36,368 --> 00:03:41,312
+ha nulla, akkor a length az nulla lesz, különben meg a length
+
+60
+00:03:42,272 --> 00:03:44,336
+Igen, hogyha nagyobb mint nulla
+
+61
+00:03:45,776 --> 00:03:51,952
+akkor ... a paraméter stringet, annak az indexét
+
+62
+00:03:51,950 --> 00:03:54,800
+Azt mondja, indexOf
+
+63
+00:03:55,920 --> 00:04:00,768
+és a nullától kezdve, tehát az elejéről, jó
+
+64
+00:04:01,328 --> 00:04:03,760
+és hogyha tovább menne ilyet 
+
+65
+00:04:04,608 --> 00:04:08,064
+...akkor...
+
+66
+00:04:08,060 --> 00:04:11,184
+[kattint]
+
+67
+00:04:11,180 --> 00:04:16,096
+delete... meghívja ezt a deleteImpl függvényt
+
+68
+00:04:16,896 --> 00:04:21,200
+Ja ezt a maszkot leveszem most már, így jobban érthető.
+
+69
+00:04:22,256 --> 00:04:24,832
+és akkor átadja neki a 
+
+70
+00:04:24,830 --> 00:04:28,432
+az indexet és a hosszt, mert az index és a hossz összegét
+
+71
+00:04:28,864 --> 00:04:31,104
+az még nem tudom, mi lesz
+
+72
+00:04:32,368 --> 00:04:38,288
+De most megnézzük, hogy ez a deleteImpl hogy van implementálva
+
+73
+00:04:38,280 --> 00:04:41,040
+[olvassa a kódot]
+
+74
+00:04:41,040 --> 00:04:43,040
+Az egy arraycopy
+
+75
+00:04:43,040 --> 00:04:46,032
+[nézi a kódot]
+
+76
+00:04:46,030 --> 00:04:51,392
+és akkor startIndex, endIndex és a hossz
+
+77
+00:04:53,264 --> 00:04:57,952
+Akkor menjünk csak vissza, hopsz [motyog]
+
+78
+00:04:58,800 --> 00:05:07,792
+[kattint] Na, na, na! Kicsit
+
+79
+00:05:07,790 --> 00:05:11,072
+kicsit lassúcska, de azért [helyezkedik]
+
+80
+00:05:11,070 --> 00:05:14,672
+Ja, na jó, végre. 
+
+81
+00:05:14,670 --> 00:05:16,672
+[kattint]
+
+82
+00:05:16,670 --> 00:05:19,872
+Na, akkor azt mondja, hogy a startIndex, endIndex és a lenght
+
+83
+00:05:20,288 --> 00:05:24,048
+És akkor az arraycopy az mit is vár? 
+
+84
+00:05:24,048 --> 00:05:26,040
+Olvassuk csak el
+
+85
+00:05:26,040 --> 00:05:28,656
+[olvassa a javadocot]
+
+86
+00:05:28,650 --> 00:05:31,856
+Buffer, jó
+
+87
+00:05:31,850 --> 00:05:40,896
+[olvassa a javadocot]
+
+88
+00:05:40,896 --> 00:05:42,890
+Azt mondja, hogy 
+
+89
+00:05:43,408 --> 00:05:45,696
+Buffer az micsoda
+
+90
+00:05:45,690 --> 00:05:53,424
+[görget] itt [görget]
+
+91
+00:05:53,420 --> 00:05:57,024
+Ez gondolom a konstruktor híváskor a string
+
+92
+00:05:57,020 --> 00:06:04,944
+[olvassa a kódot]
+
+93
+00:06:04,944 --> 00:06:06,940
+Ühüm. 
+
+94
+00:06:07,824 --> 00:06:13,296
+Ezt végignézem, az append az a... elvileg
+
+95
+00:06:13,290 --> 00:06:17,584
+[nézi a kódot]
+
+96
+00:06:17,584 --> 00:06:19,580
+size
+
+97
+00:06:19,580 --> 00:06:25,040
+[olvassa kódot, javadocot]
+
+98
+00:06:25,040 --> 00:06:27,760
+Igen, ezt bemásolja a bufferbe
+
+99
+00:06:27,760 --> 00:06:40,416
+[kattint, olvassa a kódot]
+
+100
+00:06:40,410 --> 00:06:42,864
+Megnézzük, hogy
+
+101
+00:06:43,312 --> 00:06:45,584
+kipróbáljuk ezt az iFL-t
+
+102
+00:06:46,192 --> 00:07:04,272
+[kattint] ja ezt most [kattint]
+
+103
+00:07:04,270 --> 00:07:20,704
+[olvassa a jegyzetet]
+
+104
+00:07:20,700 --> 00:07:26,720
+[kattint]
+
+105
+00:07:26,720 --> 00:07:32,480
+[olvassa a kódot]
+
+106
+00:07:32,480 --> 00:07:34,480
+[kattint]
+
+107
+00:07:34,480 --> 00:08:05,872
+[elindítja az iFL-t, kattint]
+
+108
+00:08:05,870 --> 00:08:10,864
+Na megnézem ezt az arraycopyt, hogy ez jól van-e felparaméterezve, azt mondja, hogy 
+
+109
+00:08:10,860 --> 00:08:15,264
+ez a buffer az jó, ha a bufferben jó az érték, de ezt majd meg kell nézni
+
+110
+00:08:15,536 --> 00:08:19,088
+és lesz egy positon, az a len index
+
+111
+00:08:19,080 --> 00:08:22,384
+[olvassa a javadocot]
+
+112
+00:08:22,380 --> 00:08:25,584
+destination az szintén a bufferben lesz, igen
+
+113
+00:08:27,104 --> 00:08:30,400
+destination pos és a lenght
+
+114
+00:08:30,400 --> 00:08:36,512
+[nézi a kódot]
+
+115
+00:08:36,510 --> 00:08:40,928
+[kattint] Száz...
+
+116
+00:08:42,864 --> 00:08:45,376
+endIndex
+
+117
+00:08:45,370 --> 00:08:49,296
+[olvassa a kódot]
+
+118
+00:08:49,290 --> 00:08:53,168
+Ezt mindjárt meg is nézzük, hogyha [kattint]
+
+119
+00:08:53,168 --> 00:08:55,160
+debugban
+
+120
+00:08:55,160 --> 00:08:58,096
+hogy ezt itt, ha.. na! [kattintgat]
+
+121
+00:08:58,496 --> 00:09:00,752
+meghívja, akkor
+
+122
+00:09:00,750 --> 00:09:05,872
+[kattintgat]
+
+123
+00:09:05,870 --> 00:09:09,168
+[nézi az eredményt]
+
+124
+00:09:09,168 --> 00:09:11,160
+...mi történik,
+
+125
+00:09:11,160 --> 00:09:23,968
+[várja az eredményt]
+
+126
+00:09:23,968 --> 00:09:25,960
+... mi van a bufferben
+
+127
+00:09:25,960 --> 00:09:30,880
+[olvassa a javadocot]
+
+128
+00:09:30,880 --> 00:09:33,984
+a, b, c, b, c, c, b, a
+
+129
+00:09:35,808 --> 00:09:38,848
+igen, csak ráhívtam az egészre
+
+130
+00:09:38,848 --> 00:09:40,840
+[kattint]
+
+131
+00:09:40,840 --> 00:09:46,032
+[nézi a kódot, kattint]
+
+132
+00:09:46,030 --> 00:09:49,664
+Most csak külön ezt a tesztesetet fogom elindítani, mert
+
+133
+00:09:50,448 --> 00:09:53,008
+így nem jó
+
+134
+00:09:53,000 --> 00:09:56,352
+[kattint]
+
+135
+00:09:57,856 --> 00:10:01,008
+[kattint]
+
+136
+00:10:01,000 --> 00:10:07,024
+[nézi a jobb oldali menüt]
+
+137
+00:10:07,020 --> 00:10:09,712
+[kattint]
+
+138
+00:10:09,710 --> 00:10:13,104
+[nézi az eredményt]
+
+139
+00:10:13,100 --> 00:10:15,600
+Na csak ezt az egyet nézzük meg
+
+140
+00:10:15,600 --> 00:10:18,848
+[nézi az eredményt]
+
+141
+00:10:18,848 --> 00:10:20,840
+Aha, one, two, three
+
+142
+00:10:21,808 --> 00:10:24,960
+Jó, mert a buffer az jó
+
+143
+00:10:24,960 --> 00:10:27,920
+startIndex az a 6-os
+
+144
+00:10:27,920 --> 00:10:31,888
+0, 1, 2, 3, 4, 5
+
+145
+00:10:31,888 --> 00:10:33,880
+6-os, igen
+
+146
+00:10:35,264 --> 00:10:37,872
+endIndex az a 11
+
+147
+00:10:37,870 --> 00:10:49,920
+[olvassa a kódot, javadocot]
+
+148
+00:10:49,920 --> 00:10:52,928
+destination startindex
+
+149
+00:10:53,840 --> 00:10:55,248
+lenght
+
+150
+00:10:55,240 --> 00:10:58,160
+[nézi a kódot]
+
+151
+00:10:58,160 --> 00:11:00,160
+100, az 11
+
+152
+00:11:00,160 --> 00:11:04,048
+Index, endIndex az 11
+
+153
+00:11:04,040 --> 00:11:09,216
+[olvassa a kódot, javadocot]
+
+154
+00:11:09,210 --> 00:11:13,440
+Hát ez nem olyan jó, ez nulla
+
+155
+00:11:13,440 --> 00:11:17,040
+[görget]
+
+156
+00:11:17,040 --> 00:11:22,080
+Itt a javadocot olvasom, és közben
+
+157
+00:11:22,080 --> 00:11:34,816
+[olvassa a javadocot]
+
+158
+00:11:34,810 --> 00:11:40,544
+ez azt jelenti, hogy a lenght az azt mondja meg, hogy milyen... mekkora... mennyi elemet
+
+159
+00:11:40,540 --> 00:11:43,200
+másol át
+
+160
+00:11:44,704 --> 00:11:47,488
+de, most ez 
+
+161
+00:11:48,448 --> 00:11:54,352
+nulla, tehát itt nem fog csinálni semmit, itt lesz a problémája
+
+162
+00:11:54,350 --> 00:12:00,976
+[olvassa a javadocot]
+
+163
+00:12:00,970 --> 00:12:05,216
+[kattint] Hát ezt majd mindjárt most továbbengedjük
+
+164
+00:12:05,210 --> 00:12:09,168
+[nézi az eredményt] akkor
+
+165
+00:12:09,160 --> 00:12:20,880
+[gondolkodik, nézi a kódot]
+
+166
+00:12:20,880 --> 00:12:22,880
+size - a len
+
+167
+00:12:23,616 --> 00:12:27,664
+[kattint] annyit kell belőle [gépel]
+
+168
+00:12:27,660 --> 00:12:30,480
+kimásolni
+
+169
+00:12:31,408 --> 00:12:35,584
+ezt most átírtam, és akkor megnézzük, hogy ez a teszt ez
+
+170
+00:12:36,544 --> 00:12:38,880
+...most mit csinál.
+
+171
+00:12:38,880 --> 00:12:40,880
+[kattint]
+
+172
+00:12:41,600 --> 00:12:46,304
+[várja az  eredményt]
+
+173
+00:12:46,300 --> 00:12:49,696
+A többi az mintha jónak  tűnt volna, de
+
+174
+00:12:49,690 --> 00:12:52,896
+[nézi az eredményt]
+
+175
+00:12:52,896 --> 00:12:54,890
+...ez biztos nem volt jó.
+
+176
+00:12:54,890 --> 00:13:00,272
+[nézi az eredményt]
+
+177
+00:13:00,272 --> 00:13:02,270
+Na nézzük, most fut
+
+178
+00:13:02,270 --> 00:13:18,368
+[futtat, nézi az eredményt]
+
+179
+00:13:18,360 --> 00:13:21,680
+Igen, most ez megjavult [nézi a jegyzetet]
+
+180
+00:13:21,680 --> 00:13:25,824
+viszont lett helyette más hiba
+
+181
+00:13:25,820 --> 00:13:32,576
+[olvassa a kódot]
+
+182
+00:13:32,570 --> 00:13:36,544
+[kattint]
+
+183
+00:13:36,540 --> 00:13:39,008
+deleteAll
+
+184
+00:13:39,000 --> 00:13:44,016
+[kattint] ezt is lefuttatom külön
+
+185
+00:13:44,010 --> 00:13:48,480
+na nézzük itt a ... opsz ... deleteAllt
+
+186
+00:13:48,480 --> 00:13:52,336
+[olvassa a kódot]
+
+187
+00:13:52,330 --> 00:13:53,936
+[kattint]
+
+188
+00:13:53,930 --> 00:13:57,552
+[olvassa a kódot]
+
+189
+00:13:57,550 --> 00:14:02,960
+Hát, igen, megnézem a deleteAll függvényt, a string hosszát nézi itt is
+
+190
+00:14:02,960 --> 00:14:06,784
+Hosszt nézi, nagyobb mint nulla, akkor megkeresi benne a
+
+191
+00:14:06,780 --> 00:14:16,160
+[olvassa a kódot]
+
+192
+00:14:16,160 --> 00:14:18,160
+string indexét
+
+193
+00:14:19,552 --> 00:14:23,648
+Hát ezt itt egy érdekes implementáció, mert
+
+194
+00:14:23,640 --> 00:14:30,400
+[olvassa a kódot]
+
+195
+00:14:30,400 --> 00:14:32,400
+Igen, jó
+
+196
+00:14:32,784 --> 00:14:35,504
+Ja igen, végigmegy rajta
+
+197
+00:14:35,500 --> 00:14:48,016
+[olvassa a kódot, gondolkodik]
+
+198
+00:14:48,016 --> 00:14:50,010
+de ez így
+
+199
+00:14:50,720 --> 00:14:53,968
+nem fogja mindet kitörölni, mert
+
+200
+00:14:55,344 --> 00:15:00,784
+Ja igen, jó, csak van ott egy másik index is, azt nem figyeltem
+
+201
+00:15:00,780 --> 00:15:07,152
+[kattint] Igen, itt ez ugyanaz a szitu
+
+202
+00:15:07,152 --> 00:15:09,150
+Itt az előző
+
+203
+00:15:10,240 --> 00:15:12,224
+...ezt is megnézem.
+
+204
+00:15:12,220 --> 00:15:17,648
+[olvassa a kódot]
+
+205
+00:15:17,640 --> 00:15:20,528
+[kattint] itt
+
+206
+00:15:21,296 --> 00:15:28,720
+és itt a breakpoint, akkor azt külön csak ezt a deleteAllt fogom lefuttatni, jobb gomb, debug as...
+
+207
+00:15:28,720 --> 00:15:31,472
+és jUnit teszt
+
+208
+00:15:31,470 --> 00:15:35,264
+most végignézzük, hogy mit is 
+
+209
+00:15:35,260 --> 00:15:37,712
+akar kitörölni, meg honnan 
+
+210
+00:15:37,710 --> 00:15:42,656
+[nézi a kódot]
+
+211
+00:15:42,650 --> 00:15:46,240
+buffer az jó hosszú
+
+212
+00:15:46,240 --> 00:15:49,616
+szöveg, igen
+
+213
+00:15:49,610 --> 00:15:54,208
+[olvassa a kódot]
+
+214
+00:15:54,200 --> 00:15:57,952
+és meg is van .... lesz két helyen
+
+215
+00:15:57,950 --> 00:16:00,976
+hát jó, 
+
+216
+00:16:02,704 --> 00:16:05,536
+endIndex 7, buffer
+
+217
+00:16:07,120 --> 00:16:10,592
+az jó, startIndex
+
+218
+00:16:10,590 --> 00:16:13,488
+[olvassa a javadocot]
+
+219
+00:16:13,480 --> 00:16:16,512
+nulla, igen, az jó
+
+220
+00:16:16,736 --> 00:16:21,520
+endIndex az 7 [kattint] olyan hossz, ke..
+
+221
+00:16:22,128 --> 00:16:25,664
+kettő, négy, hat, hét, igen
+
+222
+00:16:25,660 --> 00:16:28,080
+az is jó
+
+223
+00:16:28,720 --> 00:16:31,120
+és akkor
+
+224
+00:16:32,256 --> 00:16:35,232
+a size az 45, az biztos annyi
+
+225
+00:16:37,280 --> 00:16:40,608
+és 7, amit kivonunk belőle
+
+226
+00:16:40,600 --> 00:16:46,192
+[olvassa a kódot]
+
+227
+00:16:46,192 --> 00:16:48,190
+oké, tehát akkor 
+
+228
+00:16:50,128 --> 00:16:53,888
+[kattint]
+
+229
+00:16:53,880 --> 00:16:57,136
+Igen, most megnézzük, hogy a bufferből kivette-e
+
+230
+00:16:57,130 --> 00:17:20,160
+[olvassa a javadocot, görget, kattint, olvassa a kódot]
+
+231
+00:17:20,160 --> 00:17:24,944
+[kattint] Most úgy néz ki, hogy ez ... ez jól látom
+
+232
+00:17:24,940 --> 00:17:33,776
+[nézi a javadocot]
+
+233
+00:17:33,770 --> 00:17:38,592
+Hopp! Na, na, na
+
+234
+00:17:38,592 --> 00:17:40,590
+jó
+
+235
+00:17:41,424 --> 00:17:45,344
+[motyog]
+
+236
+00:17:45,340 --> 00:17:48,560
+[kattint]
+
+237
+00:17:48,560 --> 00:17:52,848
+[nézi a kódot]
+
+238
+00:17:52,840 --> 00:17:53,728
+[kattint]
+
+239
+00:17:53,720 --> 00:17:57,456
+[olvassa a kódot]
+
+240
+00:17:57,450 --> 00:18:02,048
+Mintha kétszer lenne benne a tömbben
+
+241
+00:18:02,624 --> 00:18:07,984
+Megnézem már itt [kattint] buffer
+
+242
+00:18:07,984 --> 00:18:09,980
+Az 39
+
+243
+00:18:09,980 --> 00:18:16,576
+[olvassa a javadocot]
+
+244
+00:18:16,570 --> 00:18:20,112
+Igen [helyzekedik]
+
+245
+00:18:20,880 --> 00:18:24,208
+39 [kattint]
+
+246
+00:18:24,200 --> 00:18:33,792
+[nézi az eredményt]
+
+247
+00:18:33,790 --> 00:18:37,696
+Igen, mert ez nem vágta le, jó [kattint]
+
+248
+00:18:37,690 --> 00:18:42,128
+következő
+
+249
+00:18:43,120 --> 00:18:47,664
+Igen, a buffert megnézzük, az 39
+
+250
+00:18:47,660 --> 00:18:55,680
+[olvassa a javadocot]
+
+251
+00:18:55,680 --> 00:18:58,512
+[kattint]
+
+252
+00:18:58,510 --> 00:19:14,064
+[olvassa a javadocot, kódot]
+
+253
+00:19:14,064 --> 00:19:16,060
+arracopy
+
+254
+00:19:16,060 --> 00:19:19,600
+Igen, és nézem a...
+
+255
+00:19:19,600 --> 00:19:22,496
+nézem a buffer tartalmát 
+
+256
+00:19:22,490 --> 00:19:23,680
+debugban
+
+257
+00:19:24,544 --> 00:19:25,680
+[kattint]
+
+258
+00:19:25,680 --> 00:19:30,096
+És akkor itt a végén most kétszer van benne a
+
+259
+00:19:30,090 --> 00:19:34,112
+...az a ... string
+
+260
+00:19:34,110 --> 00:19:38,784
+[nézi a kódot] Step over F6
+
+261
+00:19:39,520 --> 00:19:45,216
+[nézi az eredményt] Igen, és most kivett egyet [motyog]
+
+262
+00:19:45,210 --> 00:19:51,088
+[nézi az eredményt]
+
+263
+00:19:51,080 --> 00:19:58,704
+[kattint, nézi az eredményt]
+
+264
+00:19:58,700 --> 00:20:01,936
+jó, azt mondja hogy 
+
+265
+00:20:01,930 --> 00:20:04,576
+nézzük a buffert megint [kattint]
+
+266
+00:20:04,570 --> 00:20:09,024
+[nézi a változókat]
+
+267
+00:20:09,020 --> 00:20:12,048
+Még egy blokk van a végén
+
+268
+00:20:12,040 --> 00:20:16,464
+[olvassa a javadocot]
+
+269
+00:20:16,460 --> 00:20:20,768
+30, 37, 100
+
+270
+00:20:20,760 --> 00:20:24,720
+[nézi a kódot]
+
+271
+00:20:24,720 --> 00:20:27,232
+Nézzük akkor a buffert
+
+272
+00:20:28,784 --> 00:20:34,544
+Aha, most ezt kivette, tehát ezt itt jónak tűnik egyelőre, nézzük csak tovább még
+
+273
+00:20:34,540 --> 00:20:37,776
+[nézi a monitort]
+
+274
+00:20:37,770 --> 00:20:41,584
+[kattint] Hát ez, igen
+
+275
+00:20:41,584 --> 00:20:43,580
+És akkor mi volt a baja? 
+
+276
+00:20:43,580 --> 00:21:05,888
+[kattint, gondolkodik]
+
+277
+00:21:05,888 --> 00:21:07,880
+Ennek
+
+278
+00:21:07,880 --> 00:21:11,248
+Blokkot kell kivenni belőle
+
+279
+00:21:11,240 --> 00:21:14,672
+csak... százalék
+
+280
+00:21:14,670 --> 00:21:18,720
+[olvassa a kódot]
+
+281
+00:21:18,720 --> 00:21:24,576
+[kattint] Hm [kattintgat]
+
+282
+00:21:24,570 --> 00:21:29,328
+[gondolkodik] Hát ez érdekes
+
+283
+00:21:29,328 --> 00:21:31,320
+[kattint]
+
+284
+00:21:31,320 --> 00:21:34,288
+Na most megnézem még egyszer már
+
+285
+00:21:34,864 --> 00:21:37,072
+debugban
+
+286
+00:21:37,070 --> 00:21:46,016
+[olvassa a javadocot]
+
+287
+00:21:46,010 --> 00:21:50,688
+[kattint]
+
+288
+00:21:53,504 --> 00:21:57,024
+Most debug, igen
+
+289
+00:21:57,020 --> 00:22:01,200
+[nézi a kódot]
+
+290
+00:22:01,200 --> 00:22:03,792
+Visszamegyek a [motyog]
+
+291
+00:22:03,790 --> 00:22:08,256
+[kattint] a deleteAllt
+
+292
+00:22:08,250 --> 00:22:11,920
+[nézi a kódot, kattint]
+
+293
+00:22:11,920 --> 00:22:13,920
+itt valamiért
+
+294
+00:22:13,920 --> 00:22:19,872
+[nézi a kódot]
+
+295
+00:22:19,872 --> 00:22:21,870
+és újra debug
+
+296
+00:22:21,870 --> 00:22:26,816
+[futtat, vár]
+
+297
+00:22:26,810 --> 00:22:31,776
+[kattint]
+
+298
+00:22:31,770 --> 00:22:36,128
+Igen, egyszer meghívta, kétszer meghívta
+
+299
+00:22:36,120 --> 00:22:46,176
+[nézi a kódot, gondolkodik]
+
+300
+00:22:46,170 --> 00:22:50,880
+Igen, és akkor most megnézzük a buffert
+
+301
+00:22:52,208 --> 00:22:55,728
+[kattint]
+
+302
+00:22:55,728 --> 00:22:57,720
+Jó
+
+303
+00:22:57,720 --> 00:23:01,600
+[kattint] this, buffer
+
+304
+00:23:01,600 --> 00:23:05,552
+[nézi a változókat]
+
+305
+00:23:05,550 --> 00:23:08,528
+Na ez a buffer ez jó
+
+306
+00:23:08,520 --> 00:23:12,560
+Oké, kattint, akkor itt máshol lesz majd a baj
+
+307
+00:23:13,024 --> 00:23:16,368
+[kattint] lehet hogy
+
+308
+00:23:16,360 --> 00:23:28,912
+[olvassa a javadocot, kattint] this [kattintgat]
+
+309
+00:23:28,910 --> 00:23:32,912
+A buffer az jó, akkor itt a toStringgel lesz a gond
+
+310
+00:23:32,910 --> 00:23:36,784
+[kattint] van egy ilyen, hogy toString
+
+311
+00:23:38,624 --> 00:23:41,968
+igen [kattint]
+
+312
+00:23:41,960 --> 00:23:45,616
+Akkor megnézem a toStringet, és...
+
+313
+00:23:47,664 --> 00:23:51,008
+new String, offset
+
+314
+00:23:51,008 --> 00:23:53,000
+count
+
+315
+00:23:53,000 --> 00:23:58,352
+[olvassa a javadocot]
+
+316
+00:23:58,352 --> 00:24:00,350
+lenght
+
+317
+00:24:00,350 --> 00:24:03,472
+[kattint]
+
+318
+00:24:03,470 --> 00:24:06,432
+Ezt is megnézzük
+
+319
+00:24:06,430 --> 00:24:10,304
+[nézi a kódot]
+
+320
+00:24:10,304 --> 00:24:12,300
+[kattint]
+
+321
+00:24:12,300 --> 00:24:14,300
+debugban
+
+322
+00:24:14,300 --> 00:24:17,760
+[futtat, vár]
+
+323
+00:24:17,760 --> 00:24:19,760
+Buffer az már jónak tűnt
+
+324
+00:24:19,760 --> 00:24:23,648
+szépen kitörölte [kattint] csak
+
+325
+00:24:23,648 --> 00:24:25,640
+[kattint]
+
+326
+00:24:25,640 --> 00:24:37,040
+[olvassa a kódot, kattint]
+
+327
+00:24:37,040 --> 00:24:41,424
+ezt a toStringet ezt még megnézzük, hogy mit ad vissza [kattint]
+
+328
+00:24:41,420 --> 00:24:54,336
+[nézi a változókat]
+
+329
+00:24:54,330 --> 00:24:58,176
+Aha... itt a size nem lesz rövidebb
+
+330
+00:24:58,170 --> 00:25:05,312
+[vakarja a fejét, kattint]
+
+331
+00:25:05,310 --> 00:25:09,040
+[kattint] és ezzel
+
+332
+00:25:09,040 --> 00:25:14,240
+[kattint] elszáll ... a teszt
+
+333
+00:25:14,240 --> 00:25:18,720
+Akkor itt a törlésnél lehet hogy nem jó a méret
+
+334
+00:25:18,720 --> 00:25:26,928
+[görget, kattint]
+
+335
+00:25:26,920 --> 00:25:30,624
+ez a deleteImp...
+
+336
+00:25:30,620 --> 00:25:39,136
+[olvassa a kódot, gondolkodik]
+
+337
+00:25:39,130 --> 00:25:43,888
+[kattint] size-nak... ezt mindjárt megnézzük még
+
+338
+00:25:43,880 --> 00:25:47,520
+[olvassa a kódot]
+
+339
+00:25:47,520 --> 00:25:51,040
+[kattint]
+
+340
+00:25:51,040 --> 00:25:54,944
+a toStringben ebben csak a size van, és az meg
+
+341
+00:25:54,940 --> 00:25:58,464
+azt mondja a string, hogy count-ig megy
+
+342
+00:25:58,460 --> 00:26:02,192
+[olvassa a javadocot]
+
+343
+00:26:02,192 --> 00:26:04,190
+[kattint] jó 
+
+344
+00:26:04,190 --> 00:26:06,560
+valszeg utána megoldja
+
+345
+00:26:06,560 --> 00:26:08,560
+[helyezkedik]
+
+346
+00:26:09,216 --> 00:26:12,272
+Na, akkor debug
+
+347
+00:26:12,270 --> 00:26:20,272
+[futtat, nézi az eredményt]
+
+348
+00:26:20,272 --> 00:26:22,270
+45
+
+349
+00:26:22,270 --> 00:26:45,664
+[olvassa a javadocot, görget]
+
+350
+00:26:45,660 --> 00:26:51,760
+Hm.. 40, 44 hosszú a buffer
+
+351
+00:26:51,760 --> 00:26:53,760
+[kattint]
+
+352
+00:26:53,760 --> 00:26:59,984
+[gondolkodik, olvassa a javadocot]
+
+353
+00:26:59,984 --> 00:27:01,980
+[kattint]
+
+354
+00:27:01,980 --> 00:27:08,016
+Upsz, valami nem... stimmel itt a size-zal, jaj
+
+355
+00:27:09,296 --> 00:27:10,010
+[kattint]
+
+356
+00:27:10,010 --> 00:27:13,120
+az lesz itt a baja
+
+357
+00:27:13,120 --> 00:27:15,728
+[kattint] na nézzük itt a... 
+
+358
+00:27:15,720 --> 00:27:18,496
+[nézi a kódot]
+
+359
+00:27:18,490 --> 00:27:21,360
+konstruktort is megnézem
+
+360
+00:27:21,360 --> 00:27:25,392
+[olvassa a kódot]
+
+361
+00:27:25,392 --> 00:27:27,390
+[kattint]
+
+362
+00:27:27,390 --> 00:27:34,768
+[olvassa a kódot, gondolkodik]
+
+363
+00:27:34,760 --> 00:27:38,560
+[kattint]
+
+364
+00:27:38,560 --> 00:27:48,752
+[nézi a kódot, kattint]
+
+365
+00:27:48,750 --> 00:27:51,648
+Kezdeti méretet nézzük csak meg
+
+366
+00:27:51,640 --> 00:28:13,072
+[kattint, olvassa a kódot]
+
+367
+00:28:13,072 --> 00:28:15,070
+most debuggal
+
+368
+00:28:16,960 --> 00:28:21,104
+és akkor... mindjárt megnézzük, hogy ez a size ez hol...
+
+369
+00:28:21,100 --> 00:28:23,920
+... hol állítódik be rosszul
+
+370
+00:28:24,576 --> 00:28:25,920
+45
+
+371
+00:28:28,272 --> 00:28:31,072
+itt is
+
+372
+00:28:31,070 --> 00:28:36,368
+igen, 45 a hosszú, mert itt kezdetben jó
+
+373
+00:28:37,312 --> 00:28:38,360
+[kattint]
+
+374
+00:28:38,360 --> 00:28:40,360
+[nézi a javadocot]
+
+375
+00:28:40,360 --> 00:28:42,360
+művelet 45
+
+376
+00:28:42,360 --> 00:28:46,736
+[gondolkodik]
+
+377
+00:28:46,730 --> 00:28:50,128
+Igen, és akkor az
+
+378
+00:28:50,120 --> 00:28:54,832
+[kattint]
+
+379
+00:28:54,830 --> 00:28:58,640
+size az 45, mínusz 7
+
+380
+00:28:58,640 --> 00:29:02,352
+[kattint] Jó 
+
+381
+00:29:02,350 --> 00:29:06,208
+nézzük a buffert, az 41
+
+382
+00:29:06,672 --> 00:29:08,976
+jó, azt mondja hogy
+
+383
+00:29:08,970 --> 00:29:20,624
+[görget, nézi a javadocotg
+
+384
+00:29:20,620 --> 00:29:28,896
+[kattint] 
+
+385
+00:29:28,890 --> 00:29:33,152
+A buffert nézem, ...
+
+386
+00:29:33,150 --> 00:29:43,120
+[nézi a változókat]
+
+387
+00:29:43,120 --> 00:29:45,456
+az arraycopy az
+
+388
+00:29:45,450 --> 00:29:51,056
+[olvassa a javadocot]
+
+389
+00:29:51,056 --> 00:29:53,050
+destination
+
+390
+00:29:53,050 --> 00:29:55,664
+[nézi a javadocot]
+
+391
+00:29:55,660 --> 00:30:01,360
+7-es index, startIndex 0, 7
+
+392
+00:30:01,360 --> 00:30:12,224
+[olvassa  a javadocot]
+
+393
+00:30:12,220 --> 00:30:15,504
+Ha ... a startnál van, akkor ott
+
+394
+00:30:15,500 --> 00:30:23,248
+[olvassa a kódot, gondolkodik]
+
+395
+00:30:23,240 --> 00:30:26,896
+ez nem vette át, és maradt a
+
+396
+00:30:28,832 --> 00:30:31,200
+kiszedte az elejéről
+
+397
+00:30:31,200 --> 00:30:34,272
+[nézi a kódot]
+
+398
+00:30:34,270 --> 00:30:37,328
+de megmaradt a végén, azt mondja 45
+
+399
+00:30:38,032 --> 00:30:39,888
+-7
+
+400
+00:30:39,880 --> 00:30:42,640
+ez kellett volna neki
+
+401
+00:30:43,424 --> 00:30:45,440
+Ezt watcholom
+
+402
+00:30:45,440 --> 00:30:49,232
+ez 38, igen...
+
+403
+00:30:49,230 --> 00:31:04,672
+[olvass a kódot, javadocot]
+
+404
+00:31:04,670 --> 00:31:07,504
+az endIndex az 7
+
+405
+00:31:09,392 --> 00:31:13,568
+Igen, még azt ki kellett volna belőle vonni, az lesz itt a baja
+
+406
+00:31:13,560 --> 00:31:17,776
+[kattint] jajj
+
+407
+00:31:17,776 --> 00:31:19,770
+debug
+
+408
+00:31:19,770 --> 00:31:23,616
+[kattint] igen [kattint]
+
+409
+00:31:23,610 --> 00:31:26,656
+[nézi a kódot]
+
+410
+00:31:26,650 --> 00:31:31,184
+És  mínusz, and [gépel]
+
+411
+00:31:31,184 --> 00:31:33,180
+[nézi a kódot]
+
+412
+00:31:33,180 --> 00:31:35,792
+[kattint, gépel]
+
+413
+00:31:35,790 --> 00:31:36,848
+index
+
+414
+00:31:36,840 --> 00:31:48,064
+[nézi a kódot, kattint]
+
+415
+00:31:48,064 --> 00:31:50,060
+most megnézzük
+
+416
+00:31:50,060 --> 00:31:53,104
+[futtat, kattint]
+
+417
+00:31:53,104 --> 00:31:55,100
+[motyog]
+
+418
+00:31:55,100 --> 00:32:16,608
+[vár, nézi az eredményt]
+
+419
+00:32:16,608 --> 00:32:18,600
+Ja, de hogy itt...
+
+420
+00:32:18,600 --> 00:32:23,280
+[nézi a kódot]
+
+421
+00:32:23,280 --> 00:32:26,288
+[motyog]
+
+422
+00:32:26,280 --> 00:32:29,440
+[nézi a kódot]
+
+423
+00:32:29,440 --> 00:32:33,856
+a startIndex az nulla volt, a 7-es az endIndex
+
+424
+00:32:35,536 --> 00:32:38,032
+Igen, és akkor a hossza az meg [nézi a jegyzetet]
+
+425
+00:32:38,030 --> 00:32:51,040
+[nézi a jegyzetet]
+
+426
+00:32:51,040 --> 00:32:54,656
+Na az elejéről kellett vágni
+
+427
+00:32:54,650 --> 00:33:00,032
+[nézi a jegyzetet, vakarja a fejét]
+
+428
+00:33:00,030 --> 00:33:02,832
+tehát
+
+429
+00:33:02,830 --> 00:33:06,048
+[kattint, futtat]
+
+430
+00:33:06,048 --> 00:33:08,040
+Opsz
+
+431
+00:33:08,040 --> 00:33:10,040
+[kattint] save, igen
+
+432
+00:33:10,040 --> 00:33:22,144
+[vár, futtat]
+
+433
+00:33:22,140 --> 00:33:28,192
+Igen, mert eggyel többször megy bele, mert nem ... kettő találat van, hanem
+
+434
+00:33:28,190 --> 00:33:33,568
+három, mert a végén megmarad még egyszer, és az  pedig
+
+435
+00:33:33,560 --> 00:33:40,944
+[olvassa a kódot]
+
+436
+00:33:40,944 --> 00:33:42,940
+azért van,
+
+437
+00:33:42,940 --> 00:33:49,120
+[olvassa a kódot]
+
+438
+00:33:49,120 --> 00:33:51,120
+hát kitörli az elejéből
+
+439
+00:33:53,024 --> 00:33:55,440
+egy hét karakter hosszút
+
+440
+00:33:55,440 --> 00:34:06,112
+[nézi a jegyzetet]
+
+441
+00:34:06,112 --> 00:34:08,110
+viszont a size az 
+
+442
+00:34:08,110 --> 00:34:23,616
+[nézi a kódot, gondolkodik]
+
+443
+00:34:23,610 --> 00:34:26,992
+megtalálja az elején, 0-tól 7-ig
+
+444
+00:34:27,264 --> 00:34:29,488
+mindjárt mondom
+
+445
+00:34:29,480 --> 00:34:31,856
+[gondolkodik]
+
+446
+00:34:31,856 --> 00:34:33,850
+és akkor 
+
+447
+00:34:35,536 --> 00:34:37,952
+ezt innen kivesszük
+
+448
+00:34:39,104 --> 00:34:40,768
+a hossza az 
+
+449
+00:34:40,760 --> 00:34:44,944
+[nézi a kódot]
+
+450
+00:34:44,944 --> 00:34:46,940
+ja igen, mert ugye
+
+451
+00:34:46,940 --> 00:34:49,632
+a végén is van egy előfordulás
+
+452
+00:34:49,630 --> 00:34:55,200
+[gondolkodik, nézi a kódot]
+
+453
+00:34:55,200 --> 00:34:57,200
+de azt még nem tudjuk az elején
+
+454
+00:34:57,200 --> 00:35:01,712
+[gondolkodik]
+
+455
+00:35:01,710 --> 00:35:07,296
+és mivel átkopizzuk, ezért ott kétszer jelenik meg, ezért többször fog lefutni akkor
+
+456
+00:35:07,824 --> 00:35:10,128
+viszont vissza igen a 
+
+457
+00:35:10,416 --> 00:35:12,960
+...deleteAllba, és [kattint]
+
+458
+00:35:15,424 --> 00:35:16,816
+...ezt...
+
+459
+00:35:16,810 --> 00:35:18,928
+[nézi a kódot]
+
+460
+00:35:18,920 --> 00:35:21,216
+úgy kéne módosítani, 
+
+461
+00:35:21,210 --> 00:35:25,104
+[gondolkodik]
+
+462
+00:35:25,104 --> 00:35:27,100
+visszafele kéne menni
+
+463
+00:35:27,100 --> 00:35:35,136
+[gondolkodik, nézi a kódot]
+
+464
+00:35:35,136 --> 00:35:37,130
+indexOf
+
+465
+00:35:37,130 --> 00:35:43,376
+[nézi a javadocot]
+
+466
+00:35:43,370 --> 00:35:52,016
+[kattint, kattint]
+
+467
+00:35:52,010 --> 00:36:01,872
+[olvassa a kódot, görget]
+
+468
+00:36:01,870 --> 00:36:04,384
+Na most megnézem ezt az indexOfot
+
+469
+00:36:06,912 --> 00:36:09,168
+hogy mit ír itt róla
+
+470
+00:36:09,160 --> 00:36:12,816
+[nézi a kódot]
+
+471
+00:36:12,810 --> 00:36:15,184
+Igen, a first-öt adja vissza
+
+472
+00:36:15,424 --> 00:36:28,688
+[olvassa a kódot]
+
+473
+00:36:28,680 --> 00:36:32,080
+Milyen indexOfok vannak még, ezeket megnézem
+
+474
+00:36:32,080 --> 00:36:39,824
+[olvassa a kódot]
+
+475
+00:36:39,820 --> 00:36:42,416
+Aha, van lastIndexOf
+
+476
+00:36:42,410 --> 00:36:46,848
+[gépel]
+
+477
+00:36:46,840 --> 00:36:50,560
+akkor azt a lastIndexOfra kicseréljük
+
+478
+00:36:51,088 --> 00:36:54,480
+ööö, vissza a deleteAllhoz
+
+479
+00:36:54,480 --> 00:36:59,776
+[kattint, kattint]
+
+480
+00:36:59,770 --> 00:37:04,560
+lastIndexOf, és akkor ez mit vár? startIndex az nulla
+
+481
+00:37:04,560 --> 00:37:06,560
+stringet, igen
+
+482
+00:37:08,464 --> 00:37:13,424
+[kattint] és akkor menjen a lastIndexOf, és akkor megnézzük, hogy
+
+483
+00:37:13,420 --> 00:37:18,016
+[kattint, futtat]
+
+484
+00:37:18,016 --> 00:37:20,010
+...mi lesz
+
+485
+00:37:20,010 --> 00:37:30,960
+[vár, nézi az eredményt]
+
+486
+00:37:30,960 --> 00:37:32,960
+na [kattint]
+
+487
+00:37:32,960 --> 00:37:35,984
+[nézi a kódot]
+
+488
+00:37:35,984 --> 00:37:37,980
+most bejött más hiba
+
+489
+00:37:37,980 --> 00:37:41,840
+[grimaszol, gondolkodik]
+
+490
+00:37:41,840 --> 00:37:44,592
+[kattint]
+
+491
+00:37:44,590 --> 00:37:49,568
+Nézzük, hány helyen hívják ezt a deleteImpl-et, ez az Atlas
+
+492
+00:37:49,560 --> 00:37:52,768
+connection view
+
+493
+00:37:52,760 --> 00:37:56,752
+[nézi a helyi menüt]
+
+494
+00:37:56,750 --> 00:38:00,992
+[kattint] Atlas
+
+495
+00:38:00,990 --> 00:38:07,120
+[vár a betöltésre]
+
+496
+00:38:07,120 --> 00:38:09,456
+[kattint]
+
+497
+00:38:09,456 --> 00:38:11,450
+call
+
+498
+00:38:11,450 --> 00:38:15,024
+[vár]
+
+499
+00:38:15,020 --> 00:38:19,824
+Na? Na most már mutatja
+
+500
+00:38:19,824 --> 00:38:21,820
+azt mondja, hogy delete
+
+501
+00:38:21,820 --> 00:38:24,944
+[motyogva olvas]
+
+502
+00:38:24,940 --> 00:38:30,352
+[nézi a plugint]
+
+503
+00:38:30,350 --> 00:38:33,216
+és a deleteAllt azt hányan hívják
+
+504
+00:38:33,210 --> 00:38:41,120
+[gondolkodik, kattint]
+
+505
+00:38:41,120 --> 00:38:44,048
+testDeleteAll
+
+506
+00:38:44,040 --> 00:38:49,328
+[nézi a plugint, kattint]
+
+507
+00:38:49,320 --> 00:38:53,376
+Hm? Aha, megnyitotta
+
+508
+00:38:53,370 --> 00:38:56,640
+[kattint] itt testDeleteAll_String
+
+509
+00:38:56,640 --> 00:39:12,336
+[olvassa a kódot]
+
+510
+00:39:12,330 --> 00:39:17,936
+...és itt valahol elszállt valamelyik teszt...
+
+511
+00:39:17,930 --> 00:39:23,360
+[nézi a kódot]
+
+512
+00:39:23,360 --> 00:39:26,336
+a, b, c, c, d 
+
+513
+00:39:26,336 --> 00:39:28,330
+aha
+
+514
+00:39:28,330 --> 00:39:33,632
+elszállt, mégpedig, akkor most ezt 
+
+515
+00:39:33,630 --> 00:39:37,696
+[nézi a kódot]
+
+516
+00:39:37,690 --> 00:39:53,280
+[kattint, fájlt nyit meg, futtat]
+
+517
+00:39:53,280 --> 00:39:56,512
+Akkor debug
+
+518
+00:39:56,510 --> 00:40:04,912
+[nézi a kódot, kattint]
+
+519
+00:40:04,912 --> 00:40:06,910
+nézem, hogy mi a baja
+
+520
+00:40:06,910 --> 00:40:15,616
+[olvassa a kódot, kattint]
+
+521
+00:40:15,610 --> 00:40:30,352
+[nézi a kódot, javadocot]
+
+522
+00:40:30,352 --> 00:40:32,350
+[kattint]
+
+523
+00:40:32,350 --> 00:40:41,376
+[olvassa a kódot]
+
+524
+00:40:41,370 --> 00:40:46,576
+Ez a lastIndexOf az para
+
+525
+00:40:46,570 --> 00:40:51,616
+[olvassa a kódot]
+
+526
+00:40:51,610 --> 00:40:55,056
+startIndex, a startIndex nagyobb mint a size
+
+527
+00:40:57,072 --> 00:41:01,120
+aha, akkor azzal itt baj lesz
+
+528
+00:41:01,120 --> 00:41:04,704
+[kattint] nézzük csak
+
+529
+00:41:04,700 --> 00:41:22,720
+[kattintgat, vált a fájlok között, futtat]
+
+530
+00:41:22,720 --> 00:41:25,488
+Nézzük a startIndex-et
+
+531
+00:41:25,480 --> 00:41:33,072
+[nézi a kódot]
+
+532
+00:41:33,070 --> 00:41:36,544
+startIndex az 0, nagyon jó
+
+533
+00:41:36,540 --> 00:41:40,448
+debug... az... szuper
+
+534
+00:41:41,440 --> 00:41:43,872
+az 7 hosszú
+
+535
+00:41:43,870 --> 00:41:48,640
+Igen... ez is eddig jó
+
+536
+00:41:48,640 --> 00:42:15,424
+[olvassa a kódot, javadocot]
+
+537
+00:42:15,420 --> 00:42:21,520
+StartIndex, nulla mínusz strLen
+
+538
+00:42:23,296 --> 00:42:26,032
+az 7, plusz 1
+
+539
+00:42:28,560 --> 00:42:30,336
+az itt nem jó
+
+540
+00:42:30,330 --> 00:42:34,176
+akkor itt lesz a bibi
+
+541
+00:42:34,170 --> 00:42:37,936
+Hoppá [kattint]
+
+542
+00:42:37,936 --> 00:42:39,930
+debug
+
+543
+00:42:40,384 --> 00:42:42,768
+igen
+
+544
+00:42:43,728 --> 00:42:48,304
+megnézem ezt a lastIndexOfot még egyszer
+
+545
+00:42:48,300 --> 00:42:53,712
+[nézi a kódot, kattint] És itt
+
+546
+00:42:53,710 --> 00:42:56,544
+vagy ennek a logja
+
+547
+00:42:56,540 --> 00:43:00,144
+javadocja, azt elolvasom
+
+548
+00:43:00,140 --> 00:43:04,224
+-1 ... startIndex
+
+549
+00:43:04,220 --> 00:43:07,008
+[nézi a kódot]
+
+550
+00:43:07,000 --> 00:43:11,840
+index of start az nulla, strLen
+
+551
+00:43:11,840 --> 00:43:18,368
+[olvassa a kódot, gondolkodik]
+
+552
+00:43:18,360 --> 00:43:19,584
+[kattint]
+
+553
+00:43:20,528 --> 00:43:22,576
+hát de ez nem
+
+554
+00:43:22,570 --> 00:43:26,224
+[nézi a kódot]
+
+555
+00:43:26,220 --> 00:43:27,216
+[kattint]
+
+556
+00:43:28,928 --> 00:43:33,248
+ez így nem jó, mert azt mondja, hogy végig kéne mennie
+
+557
+00:43:33,240 --> 00:43:44,288
+[olvassa a kódot, gondolkodik]
+
+558
+00:43:44,280 --> 00:43:48,032
+ez végig akar menni a teljes
+
+559
+00:43:50,048 --> 00:43:53,040
+nem startIndex, hanem a 
+
+560
+00:43:53,040 --> 00:44:01,280
+[nézi a kódot]
+
+561
+00:44:01,280 --> 00:44:05,904
+Most megnézzük, mit csinál ez itt... azt mondja, hogy 
+
+562
+00:44:05,900 --> 00:44:09,824
+startindex az nulla, a string elejétől megyünk
+
+563
+00:44:09,820 --> 00:44:14,752
+[gondolkodik]
+
+564
+00:44:14,750 --> 00:44:16,464
+de gyakorlatilag
+
+565
+00:44:16,460 --> 00:44:18,944
+az egész stringen kéne végigmennünk
+
+566
+00:44:18,940 --> 00:44:46,288
+[gondolkodik, nézi a kódot]
+
+567
+00:44:46,288 --> 00:44:48,280
+...mert...
+
+568
+00:44:48,280 --> 00:44:53,744
+[gondolkodik]
+
+569
+00:44:53,740 --> 00:44:59,536
+startIndex nulla, tehát... nullától
+
+570
+00:45:01,664 --> 00:45:04,224
+ja nem, ez csökkenés
+
+571
+00:45:04,220 --> 00:45:21,952
+[olvassa a kódot, gondolkodik]
+
+572
+00:45:21,950 --> 00:45:25,168
+ezt csökkentjük
+
+573
+00:45:25,160 --> 00:45:31,056
+[gondolkodik]
+
+574
+00:45:31,056 --> 00:45:33,050
+hát akkor a végéről...
+
+575
+00:45:33,050 --> 00:45:39,744
+[gondolkodik]
+
+576
+00:45:39,740 --> 00:45:43,312
+szerintem a végéről kéne menni 
+
+577
+00:45:43,904 --> 00:45:58,416
+[olvassa a kódot, gondolkodik]
+
+578
+00:45:58,416 --> 00:46:00,410
+size-tól
+
+579
+00:46:00,410 --> 00:46:11,152
+[gondolkodik, nézi a kódot]
+
+580
+00:46:11,152 --> 00:46:13,150
+startIndexig
+
+581
+00:46:13,150 --> 00:46:18,880
+[kattint]
+
+582
+00:46:18,880 --> 00:46:41,296
+[olvassa a kódot, kattint, grimaszol]
+
+583
+00:46:41,776 --> 00:46:45,168
+size-1
+
+584
+00:46:45,160 --> 00:47:01,264
+[gépel, kattint, futtat]
+
+585
+00:47:01,260 --> 00:47:04,160
+Na most futtatom, most átírtam
+
+586
+00:47:04,160 --> 00:47:07,600
+[olvassa a javadocot]
+
+587
+00:47:07,600 --> 00:47:09,600
+[kattint]
+
+588
+00:47:09,600 --> 00:47:12,048
+...errort adott
+
+589
+00:47:13,120 --> 00:47:14,040
+[kattint]
+
+590
+00:47:14,040 --> 00:47:16,656
+[kattintgat]
+
+591
+00:47:18,640 --> 00:47:21,184
+Akkor marad a debug megint
+
+592
+00:47:21,184 --> 00:47:23,180
+vissza
+
+593
+00:47:23,180 --> 00:47:30,032
+[kattint] ... ezt a lastIndexet, megvan
+
+594
+00:47:30,030 --> 00:47:40,368
+[nézi az eredményt]
+
+595
+00:47:40,360 --> 00:47:43,616
+Ez biztos nem jó
+
+596
+00:47:43,610 --> 00:47:50,256
+[olvassa a kódot]
+
+597
+00:47:50,250 --> 00:47:52,912
+igen, a size - 1 
+
+598
+00:47:52,910 --> 00:48:03,712
+[olvassa a kódot, javadocot]
+
+599
+00:48:03,712 --> 00:48:05,710
+j
+
+600
+00:48:05,710 --> 00:48:10,320
+...szerint... 
+
+601
+00:48:12,016 --> 00:48:21,776
+nyomok egy watchot, hogy tudjam mennyi a változó, karakter .. igen, ezt is watcholom
+
+602
+00:48:21,770 --> 00:48:25,664
+[kattint]
+
+603
+00:48:25,660 --> 00:48:28,928
+ez meg itt az i plusz j
+
+604
+00:48:28,920 --> 00:48:33,280
+ez 44, ez 1, 45
+
+605
+00:48:36,576 --> 00:48:39,216
+de ez így nem is jó
+
+606
+00:48:39,210 --> 00:48:52,432
+[gondolkodik, nézik a kódot, eredményt]
+
+607
+00:48:52,430 --> 00:48:57,104
+[helyezkedik] a lényeg, hogy indexOutOfBound van 
+
+608
+00:48:57,100 --> 00:49:33,632
+[olvassa a kódot, gondolkodik]
+
+609
+00:49:33,632 --> 00:49:35,630
+Na most megnézem itt a ...
+
+610
+00:49:36,720 --> 00:49:40,720
+indexOfokat, mik vannak még itt
+
+611
+00:49:40,720 --> 00:49:50,096
+[nézi a képernyőt]
+
+612
+00:49:50,096 --> 00:49:52,090
+startIndex
+
+613
+00:49:52,090 --> 00:50:05,920
+[nézi a képernyőt, görget]
+
+614
+00:50:05,920 --> 00:50:09,376
+Lehet hogy akkor csak annyi kell ide, hogy 
+
+615
+00:50:09,376 --> 00:50:11,370
+[kattint]
+
+616
+00:50:11,370 --> 00:50:14,496
+itt nulla, igen, megnézzük emezt
+
+617
+00:50:14,490 --> 00:50:17,616
+[görget]
+
+618
+00:50:17,610 --> 00:50:20,784
+az i meg a startIndex
+
+619
+00:50:20,780 --> 00:50:23,840
+[kattint, gépel]
+
+620
+00:50:23,840 --> 00:50:27,952
+[gépel]
+
+621
+00:50:27,950 --> 00:50:30,624
+így ni
+
+622
+00:50:30,624 --> 00:50:32,620
+[kattint]
+
+623
+00:50:32,620 --> 00:50:36,032
+[kattint] és akkor nézzük csak
+
+624
+00:50:36,030 --> 00:50:45,616
+[vár, futtat]
+
+625
+00:50:45,610 --> 00:50:49,632
+Na [gépel] debug
+
+626
+00:50:51,072 --> 00:50:52,800
+igen
+
+627
+00:50:52,800 --> 00:50:56,480
+[nézi a kódot]
+
+628
+00:50:56,480 --> 00:50:58,480
+eddig stimmel
+
+629
+00:50:58,480 --> 00:51:28,096
+[nézi a kódot, eredményt, javadocot]
+
+630
+00:51:28,090 --> 00:51:31,536
+Ü-ü-ü-ü-ü-ü
+
+631
+00:51:31,530 --> 00:51:36,160
+[kattint] Megnézzük, hogy mi most a buffer [kattint]
+
+632
+00:51:36,544 --> 00:51:41,584
+[nézi a változókat]
+
+633
+00:51:41,580 --> 00:51:43,968
+Ez most még mindig nem jó
+
+634
+00:51:43,960 --> 00:51:46,960
+nyilván nem jó indexszel ... vissza
+
+635
+00:51:46,960 --> 00:51:48,960
+csudi
+
+636
+00:51:48,960 --> 00:51:53,184
+[nézi a kódot]
+
+637
+00:51:53,184 --> 00:51:55,180
+[kattint] jajj de jó [szarkazmus]
+
+638
+00:51:55,180 --> 00:52:13,024
+[olvassa a kódot, javadocot, gondolkodik]
+
+639
+00:52:13,020 --> 00:52:18,800
+[kattint] Na nézzük
+
+640
+00:52:18,800 --> 00:52:24,832
+[olvassa a kódot]
+
+641
+00:52:24,830 --> 00:52:28,432
+Most meg nem is talált benne... holott van benne
+
+642
+00:52:28,430 --> 00:52:29,104
+[kattint]
+
+643
+00:52:29,100 --> 00:52:32,000
+[nézi az eredményt]
+
+644
+00:52:32,000 --> 00:52:34,000
+ez így nem jó
+
+645
+00:52:34,000 --> 00:52:35,360
+[kattint]
+
+646
+00:52:35,360 --> 00:52:46,128
+[görget, olvassa a kódot]
+
+647
+00:52:46,120 --> 00:52:48,944
+Hajjhajj, nézzük csak
+
+648
+00:52:48,940 --> 00:52:51,504
+azt mondja startIndex
+
+649
+00:52:51,500 --> 00:52:57,360
+[gondolkodik] az...
+
+650
+00:52:57,360 --> 00:52:59,360
+hát ezt a végéről kéne
+
+651
+00:52:59,360 --> 00:53:05,760
+[gondolkodik]
+
+652
+00:53:05,760 --> 00:53:07,760
+...menni
+
+653
+00:53:08,880 --> 00:53:10,528
+visszafele
+
+654
+00:53:10,520 --> 00:53:14,960
+[nézi a kódot]
+
+655
+00:53:14,960 --> 00:53:19,104
+Így, és akkor j az a nulla [vakarja a fejét]
+
+656
+00:53:21,088 --> 00:53:23,760
+Igen, mert a j az az str
+
+657
+00:53:23,760 --> 00:53:27,248
+a stringnek a hosszából megy
+
+658
+00:53:27,240 --> 00:53:31,264
+aztán a [kattint] buffer
+
+659
+00:53:31,260 --> 00:53:35,072
+[gondolkodik]
+
+660
+00:53:35,070 --> 00:53:36,912
+az meg
+
+661
+00:53:38,480 --> 00:53:42,240
+ja i + j, ott lesz a vége
+
+662
+00:53:42,240 --> 00:53:49,344
+[kattint, gépel] azt kell visszaadni
+
+663
+00:53:49,340 --> 00:54:08,720
+[gondolkodik, vakarja a fejét]
+
+664
+00:54:08,720 --> 00:54:10,720
+Ühüm
+
+665
+00:54:10,720 --> 00:54:12,720
+vagy nem? 
+
+666
+00:54:12,720 --> 00:54:17,248
+[nézi a kódot]
+
+667
+00:54:17,240 --> 00:54:21,088
+startIndex - -
+
+668
+00:54:23,440 --> 00:54:26,032
+hát de nem onnan kéne menni
+
+669
+00:54:26,030 --> 00:54:34,288
+[gondolkodik, nézi a kódot]
+
+670
+00:54:34,280 --> 00:54:36,400
+Jó, ez mi is volt? 
+
+671
+00:54:36,400 --> 00:54:40,272
+[gépel]
+
+672
+00:54:40,272 --> 00:54:42,270
+most visszavonom
+
+673
+00:54:43,616 --> 00:54:50,032
+startIndex mínusz strlLen plusz egy, hát ez biztos nem jó így
+
+674
+00:54:50,030 --> 00:54:58,048
+[gondolkodik, olvassa a kódot]
+
+675
+00:54:58,040 --> 00:55:01,136
+most az a baj, hogy a j nagyobb nulla
+
+676
+00:55:02,832 --> 00:55:05,344
+Hogyha a végéről megyünk, 
+
+677
+00:55:07,760 --> 00:55:10,128
+akkor...
+
+678
+00:55:10,120 --> 00:55:17,584
+[gondolkodik]
+
+679
+00:55:17,580 --> 00:55:20,864
+itt a size -1-ről
+
+680
+00:55:22,800 --> 00:55:24,064
+[kattint]
+
+681
+00:55:24,060 --> 00:55:35,680
+[gépel] akkor ugye a 
+
+682
+00:55:35,680 --> 00:55:38,848
+és a startIndexig
+
+683
+00:55:38,840 --> 00:55:42,368
+[gépel]
+
+684
+00:55:42,360 --> 00:55:45,040
+mert addig nézzük
+
+685
+00:55:45,040 --> 00:55:48,544
+[gépel] aztán
+
+686
+00:55:49,568 --> 00:55:51,568
+ööö
+
+687
+00:55:54,272 --> 00:55:58,976
+ott csak a stringen megyünk végig, igen, és az hanyadik eleme
+
+688
+00:55:58,970 --> 00:56:05,648
+[gondolkodik]
+
+689
+00:56:05,640 --> 00:56:10,480
+Na akkor ugye az... visszafele
+
+690
+00:56:12,320 --> 00:56:16,544
+De igazából azt is meg lehet csinálni, strLen
+
+691
+00:56:16,540 --> 00:56:21,328
+[gépel] mínusz 1
+
+692
+00:56:22,272 --> 00:56:24,544
+és akkor a... 
+
+693
+00:56:25,808 --> 00:56:27,408
+j az 
+
+694
+00:56:27,920 --> 00:56:33,472
+nagyobb egyenlő [gépe] nulla
+
+695
+00:56:33,470 --> 00:56:36,048
+mínusz mínusz
+
+696
+00:56:36,040 --> 00:56:40,768
+és akkor meg 
+
+697
+00:56:42,410 --> 00:56:47,552
+az i mínusz j [gépel]
+
+698
+00:56:47,550 --> 00:56:59,088
+[nézi a kódot, gondolkodik]
+
+699
+00:56:59,600 --> 00:57:01,504
+Hmm
+
+700
+00:57:03,440 --> 00:57:08,640
+[helyezkedik] Nem, nem a -j
+
+701
+00:57:08,640 --> 00:57:13,008
+[olvassa a kódot]
+
+702
+00:57:13,000 --> 00:57:19,696
+-30 mondjuk, i az 7 vagy 6
+
+703
+00:57:19,690 --> 00:57:37,392
+[gondolkodik, nézi a kódot]
+
+704
+00:57:37,392 --> 00:57:39,390
+ja a buffer az
+
+705
+00:57:39,390 --> 00:57:46,384
+[gondolkodik]
+
+706
+00:57:46,384 --> 00:57:48,380
+az utolsó karakter
+
+707
+00:57:48,380 --> 00:57:51,200
+az meg...
+
+708
+00:57:52,608 --> 00:57:56,256
+azt mondja, hogy igen, az a strLen
+
+709
+00:57:56,480 --> 00:57:59,872
+[kattint, gépe]
+
+710
+00:57:59,872 --> 00:58:01,870
+-j
+
+711
+00:58:01,870 --> 00:58:07,200
+[gépel]
+
+712
+00:58:07,200 --> 00:58:12,800
+[nézi a kódot]
+
+713
+00:58:12,800 --> 00:58:14,800
+30
+
+714
+00:58:16,544 --> 00:58:20,448
+1
+
+715
+00:58:20,440 --> 00:58:24,720
+nézi a kódot
+
+716
+00:58:24,720 --> 00:58:28,752
+[kattint] debug
+
+717
+00:58:28,750 --> 00:58:43,280
+[olvassa a kódot]
+
+718
+00:58:43,280 --> 00:58:47,360
+Hmm [kattint]
+
+719
+00:58:47,360 --> 00:59:08,304
+[olvassa a kódot, változókat]
+
+720
+00:59:08,300 --> 00:59:10,736
+ez 44, ez nagyobb
+
+721
+00:59:10,730 --> 00:59:15,616
+[olvassa a kódot]
+
+722
+00:59:15,616 --> 00:59:17,610
+Hopp, ja ezt nem kellett volna 
+
+723
+00:59:17,610 --> 00:59:20,480
+[kattint]
+
+724
+00:59:20,480 --> 00:59:30,976
+[kattint, nézi a kódot] 
+
+725
+00:59:30,970 --> 00:59:35,568
+[kattint, futtat]
+
+726
+00:59:35,560 --> 00:59:50,816
+[vár, nézi az eredményt, javadocot]
+
+727
+00:59:50,810 --> 00:59:51,920
+[kattint]
+
+728
+00:59:51,920 --> 00:59:56,112
+[nézi a kódot]
+
+729
+00:59:56,110 --> 01:00:03,616
+[kattint] Na, 
+
+730
+01:00:03,616 --> 01:00:05,610
+ha egy debug
+
+731
+01:00:05,610 --> 01:00:15,616
+[olvassa a kódot, javadocot]
+
+732
+01:00:15,616 --> 01:00:17,610
+44
+
+733
+01:00:17,610 --> 01:00:19,610
+[kattint]
+
+734
+01:00:19,610 --> 01:00:25,376
+[kattint, kattint]
+
+735
+01:00:25,376 --> 01:00:27,370
+Na, aha [kattint]
+
+736
+01:00:27,370 --> 01:00:31,760
+[olvassa a kódot]
+
+737
+01:00:31,760 --> 01:00:32,896
+[kattint]
+
+738
+01:00:32,890 --> 01:00:36,896
+[motyog]
+
+739
+01:00:36,890 --> 01:00:40,272
+A deleteImpl-t megnézzük
+
+740
+01:00:40,270 --> 01:00:51,712
+[futtat, nézi az eredményt, javadocot]
+
+741
+01:00:51,710 --> 01:00:54,512
+[kattint] ja igen akkor a 
+
+742
+01:00:55,344 --> 01:00:59,760
+azt mondja, hogy a 44. indexnél van 
+
+743
+01:00:59,760 --> 01:01:03,616
+[nézi a kódot]
+
+744
+01:01:03,610 --> 01:01:08,128
+deleteImpl-nek endIndex
+
+745
+01:01:10,176 --> 01:01:12,704
+Mekkora ez a ...
+
+746
+01:01:12,700 --> 01:01:17,776
+[nézi a változókat]
+
+747
+01:01:17,770 --> 01:01:22,256
+[kattintgat]
+
+748
+01:01:22,768 --> 01:01:25,568
+[görget] buffer
+
+749
+01:01:25,560 --> 01:01:39,664
+[nézi a változókat]
+
+750
+01:01:39,660 --> 01:01:42,576
+De most ez nem is jó
+
+751
+01:01:42,570 --> 01:01:47,600
+[nézi a változókat]
+
+752
+01:01:47,600 --> 01:01:49,600
+size az 45
+
+753
+01:01:50,528 --> 01:01:51,600
+[kattint]
+
+754
+01:01:51,600 --> 01:01:53,600
+Még valami nem jó itt
+
+755
+01:01:53,600 --> 01:02:14,752
+[gondolkodik, nézi a kódot]
+
+756
+01:02:14,752 --> 01:02:16,750
+[kattint]
+
+757
+01:02:16,750 --> 01:02:18,750
+Aha [kattint]
+
+758
+01:02:19,904 --> 01:02:24,208
+Igen, csak ezt vonogatni kell kifele belőle
+
+759
+01:02:24,992 --> 01:02:28,032
+Akkor... az i-ből
+
+760
+01:02:28,030 --> 01:02:34,528
+[gondolkodik]
+
+761
+01:02:34,528 --> 01:02:36,520
+[motyog]
+
+762
+01:02:36,520 --> 01:03:10,048
+[gondolkodik, nézi a kódot]
+
+763
+01:03:10,040 --> 01:03:13,216
+[kattint, gépel]
+
+764
+01:03:14,592 --> 01:03:16,688
+visszavonom
+
+765
+01:03:16,680 --> 01:03:19,360
+[gépel]
+
+766
+01:03:19,360 --> 01:03:21,360
+...az eredetire
+
+767
+01:03:21,360 --> 01:03:24,176
+[nézi a kódot]
+
+768
+01:03:24,170 --> 01:03:26,736
+ez itt nem jó, az biztos, mert
+
+769
+01:03:29,100 --> 01:03:36,304
+startIndexről [görget] kell kezdeni, az tuti
+
+770
+01:03:36,300 --> 01:03:42,304
+[nézi a kódot]
+
+771
+01:03:42,304 --> 01:03:44,300
+és akkor 
+
+772
+01:03:44,300 --> 01:03:53,616
+[olvassa a kódot, gondolkodik]
+
+773
+01:03:53,610 --> 01:03:58,432
+Hát, lehet hogy jó lesz egy így, hoppá, jajaj
+
+774
+01:03:58,430 --> 01:04:05,328
+[kattintgat]
+
+775
+01:04:05,328 --> 01:04:07,320
+[motyog]
+
+776
+01:04:07,320 --> 01:04:11,760
+[nézi a kódot]
+
+777
+01:04:11,760 --> 01:04:13,760
+Akkor [kattint]
+
+778
+01:04:16,880 --> 01:04:21,120
+ja nem lehet előre menni, nagyon jó, akkor azt nem tudom
+
+779
+01:04:21,120 --> 01:04:23,120
+akkor most újra
+
+780
+01:04:25,216 --> 01:04:28,416
+a size [gépel]
+
+781
+01:04:28,416 --> 01:04:30,410
+mínusz 1 [gépel]
+
+782
+01:04:30,410 --> 01:04:36,032
+[gépel] startIndex
+
+783
+01:04:36,030 --> 01:04:40,128
+[gondolkodik]
+
+784
+01:04:40,120 --> 01:04:47,248
+igen... akkor ebből kivonjuk a j-t
+
+785
+01:04:48,352 --> 01:04:50,320
+az nulla
+
+786
+01:04:52,128 --> 01:04:56,128
+és... megnézem
+
+787
+01:04:57,664 --> 01:05:00,448
+[kattint, futtat] debugban
+
+788
+01:05:00,440 --> 01:05:04,240
+[félrenéz, nézi a kódot]
+
+789
+01:05:04,240 --> 01:05:10,832
+[kattintgat, futtat]
+
+790
+01:05:10,830 --> 01:05:14,576
+[vár]
+
+791
+01:05:14,570 --> 01:05:46,000
+[kattint, olvassa a kódot, javadocot] 
+
+792
+01:05:46,000 --> 01:05:48,000
+Igen, itt debuggol
+
+793
+01:05:48,000 --> 01:05:50,976
+[kattint] elengedem
+
+794
+01:05:50,970 --> 01:05:57,216
+[kattint] innen kiveszem a breakpointot
+
+795
+01:05:57,210 --> 01:06:06,432
+[olvassa a kódot, grimaszol]
+
+796
+01:06:06,432 --> 01:06:08,430
+Hm..
+
+797
+01:06:08,430 --> 01:06:13,664
+Valami nem lett jó [kattint]
+
+798
+01:06:13,660 --> 01:06:35,584
+[olvassa a kódot]
+
+799
+01:06:35,580 --> 01:06:40,208
+[kattint, futtat]
+
+800
+01:06:40,200 --> 01:06:43,488
+Újra, nézzük meg itt mi a...
+
+801
+01:06:43,480 --> 01:06:50,624
+[nézi az eredményt, vár]
+
+802
+01:06:50,620 --> 01:06:53,504
+Hát ez így valahogy nem jó lesz  [vakarja a fejét]
+
+803
+01:06:53,792 --> 01:06:56,240
+Nincs agyam most ehhez
+
+804
+01:06:56,240 --> 01:07:09,792
+[nézi a kódot, változókat]
+
+805
+01:07:09,792 --> 01:07:11,790
+Hm...
+
+806
+01:07:13,584 --> 01:07:16,592
+i 44, j az 2
+
+807
+01:07:16,590 --> 01:07:27,232
+[nézi a javadocot, gondolkodik]
+
+808
+01:07:27,230 --> 01:07:32,560
+[kattintgat]
+
+809
+01:07:32,560 --> 01:07:34,560
+[motyog]
+
+810
+01:07:34,560 --> 01:07:36,560
+debug
+
+811
+01:07:36,560 --> 01:07:47,200
+[futtat, nézi az eredményt]
+
+812
+01:07:47,200 --> 01:07:49,200
+44
+
+813
+01:07:49,200 --> 01:07:51,200
+igen
+
+814
+01:07:51,200 --> 01:07:56,272
+[gondolkodik]
+
+815
+01:07:56,270 --> 01:08:00,592
+i 44 mínusz nulla a 44.
+
+816
+01:08:00,590 --> 01:08:04,112
+Itt akkor azt mondja, hogy 
+
+817
+01:08:04,110 --> 01:08:06,400
+[kattint]
+
+818
+01:08:06,400 --> 01:08:09,568
+Ez nem tudom, ki van-e íratva
+
+819
+01:08:09,560 --> 01:08:12,560
+Most watcholom a buffert
+
+820
+01:08:14,064 --> 01:08:17,920
+Oké, na mindegy [kattint] oké
+
+821
+01:08:17,920 --> 01:08:21,184
+[nézi a kódot]
+
+822
+01:08:21,180 --> 01:08:24,528
+[kattint, motyog]
+
+823
+01:08:24,520 --> 01:08:28,528
+i - j-t is, 43-ig
+
+824
+01:08:28,520 --> 01:08:32,304
+[nézi a kódot]
+
+825
+01:08:32,300 --> 01:08:35,088
+42-ig
+
+826
+01:08:36,832 --> 01:08:40,320
+42-ig
+
+827
+01:08:42,512 --> 01:08:46,208
+Ja, persze, jó, ez visszafele megy, az meg előre
+
+828
+01:08:46,200 --> 01:08:50,624
+[olvassa a kódot]
+
+829
+01:08:50,624 --> 01:08:52,620
+Eh
+
+830
+01:08:52,620 --> 01:08:54,620
+[kattint]
+
+831
+01:08:54,620 --> 01:08:58,784
+[gondolkodik]
+
+832
+01:08:58,784 --> 01:09:00,780
+Jóó
+
+833
+01:09:00,780 --> 01:09:05,984
+...akkor [motyog] 
+
+834
+01:09:05,980 --> 01:09:13,536
+[gondolkodik]
+
+835
+01:09:13,536 --> 01:09:15,530
+az i
+
+836
+01:09:16,944 --> 01:09:18,384
+mínusz
+
+837
+01:09:18,380 --> 01:09:24,752
+[olvassa a kódot]
+
+838
+01:09:25,008 --> 01:09:27,600
+az strLen
+
+839
+01:09:30,080 --> 01:09:33,216
+mínusz 1
+
+840
+01:09:33,210 --> 01:09:46,688
+[gépel]
+
+841
+01:09:46,680 --> 01:09:52,080
+[olvassa a kódot]
+
+842
+01:09:52,080 --> 01:09:55,408
+[gépel]
+
+843
+01:09:55,400 --> 01:09:59,328
+[gondolkodik, gépel]
+
+844
+01:09:59,320 --> 01:10:06,640
+[gondolkodik, olvassa a kódot]
+
+845
+01:10:06,640 --> 01:10:09,824
+[gépel]
+
+846
+01:10:09,820 --> 01:10:32,832
+[gondolkodik, olvassa a kódot]
+
+847
+01:10:32,830 --> 01:10:35,744
+Az mondja, hogy 
+
+848
+01:10:35,740 --> 01:10:46,112
+[olvassa a kódot, gondolkodik]
+
+849
+01:10:46,110 --> 01:10:50,160
+Viszont ha...
+
+850
+01:10:50,160 --> 01:10:54,640
+[gondolkodik]
+
+851
+01:10:54,640 --> 01:11:01,504
+[gépel, kattint]
+
+852
+01:11:01,500 --> 01:11:09,888
+[gondolkodik, nézi az eredményt]
+
+853
+01:11:09,880 --> 01:11:12,768
+[kattint, futtat]
+
+854
+01:11:12,760 --> 01:11:16,400
+[vár, nézi az eredményt]
+
+855
+01:11:16,400 --> 01:11:18,400
+[kattint]
+
+856
+01:11:18,400 --> 01:11:24,816
+[olvassa a kódot, javadocot]
+
+857
+01:11:24,810 --> 01:11:32,736
+[kattintgat]
+
+858
+01:11:32,736 --> 01:11:34,730
+most watcholom ezt a 
+
+859
+01:11:34,730 --> 01:11:41,072
+[nézi az eredményt]
+
+860
+01:11:41,070 --> 01:11:47,248
+Hm.. [kattint] jó
+
+861
+01:11:48,144 --> 01:11:53,376
+Pfúú [gépel]
+
+862
+01:11:53,370 --> 01:12:09,056
+[olvassa a kódot] az... [gondolkodik]
+
+863
+01:12:09,056 --> 01:12:11,050
+az kéne, hogy 
+
+864
+01:12:11,050 --> 01:12:17,344
+[gondolkodik]
+
+865
+01:12:17,344 --> 01:12:19,340
+hogy visszafele menni
+
+866
+01:12:19,340 --> 01:12:28,672
+[olvassa a kódot]
+
+867
+01:12:28,670 --> 01:12:36,816
+[gépel] startIndex az onnan kezdi hogy
+
+868
+01:12:36,810 --> 01:12:51,936
+[nézi a kódot, gondolkodik]
+
+869
+01:12:51,930 --> 01:12:58,112
+Áh [gépel] size
+
+870
+01:12:59,264 --> 01:13:02,272
+mínusz strLen + 1
+
+871
+01:13:02,270 --> 01:13:13,760
+[gondolkodik, nézi a kódot]
+
+872
+01:13:13,760 --> 01:13:16,592
+azt mondja ez 7 hosszú [helyezkedik]
+
+873
+01:13:16,590 --> 01:13:20,272
+[gondolkodik]
+
+874
+01:13:20,272 --> 01:13:22,270
+44 a size
+
+875
+01:13:22,270 --> 01:13:25,968
+[nézi a kódot]
+
+876
+01:13:25,968 --> 01:13:27,960
+4 hosszú a string
+
+877
+01:13:28,688 --> 01:13:31,552
+43 indextől kezdünk
+
+878
+01:13:31,550 --> 01:13:35,456
+[nézi a kódot] akkor...
+
+879
+01:13:35,450 --> 01:13:41,200
+[gondolkodik]
+
+880
+01:13:41,200 --> 01:13:44,672
+[helyezkedik, motyog]
+
+881
+01:13:45,370 --> 01:13:51,312
+az 40.. [motyog] mínusz 1
+
+882
+01:13:51,310 --> 01:14:00,000
+[gépel, gondolkodik]
+
+883
+01:14:00,000 --> 01:14:03,376
+és akkor a startIndex
+
+884
+01:14:03,370 --> 01:14:08,432
+[gépel]
+
+885
+01:14:08,430 --> 01:14:25,680
+[olvassa a kódot, görget]
+
+886
+01:14:25,680 --> 01:14:27,680
+na nézzük
+
+887
+01:14:27,680 --> 01:14:29,680
+[kattint, futtat]
+
+888
+01:14:29,680 --> 01:14:34,416
+[vár, nézi az eredményt]
+
+889
+01:14:34,416 --> 01:14:36,410
+[kattint, futtat]
+
+890
+01:14:36,410 --> 01:14:42,368
+[vár, nézi az eredményt]
+
+891
+01:14:42,360 --> 01:14:47,680
+[kattint] debug
+
+892
+01:14:47,680 --> 01:14:50,784
+az i az 37
+
+893
+01:14:50,780 --> 01:14:55,120
+[olvassa a kódot]
+
+894
+01:14:55,120 --> 01:14:57,120
+[igen, 37]
+
+895
+01:14:57,120 --> 01:14:59,824
+[olvassa a kódot]
+
+896
+01:14:59,820 --> 01:15:02,768
+[motyog]
+
+897
+01:15:02,760 --> 01:15:05,840
+[olvassa a kódot, szenved]
+
+898
+01:15:05,840 --> 01:15:07,840
+százalék
+
+899
+01:15:07,840 --> 01:15:09,840
+Hopp
+
+900
+01:15:12,416 --> 01:15:15,632
+ez 37
+
+901
+01:15:15,630 --> 01:15:18,192
+Nézzük csak a 
+
+902
+01:15:19,744 --> 01:15:24,096
+akkor mennyi most a buffert, 36. index
+
+903
+01:15:24,090 --> 01:15:33,344
+[olvassa a kódot, változókat]
+
+904
+01:15:33,344 --> 01:15:35,340
+igen
+
+905
+01:15:35,340 --> 01:15:39,088
+[nézi a kódot]
+
+906
+01:15:39,080 --> 01:15:41,872
+[kattint]
+
+907
+01:15:41,870 --> 01:15:48,736
+[nézi az osztályt]
+
+908
+01:15:48,730 --> 01:15:49,664
+[kattint]
+
+909
+01:15:51,520 --> 01:15:54,176
+[kattint]
+
+910
+01:15:54,176 --> 01:15:56,170
+jah
+
+911
+01:15:56,170 --> 01:16:00,170
+[kattint]
+
+912
+01:16:00,170 --> 01:16:05,088
+[nézi a kódot]
+
+913
+01:16:05,080 --> 01:16:07,712
+[kattint, nézi a kódot]
+
+914
+01:16:07,710 --> 01:16:16,608
+[gondolkodik, olvassa a kódot]
+
+915
+01:16:16,600 --> 01:16:20,352
+[kattint]
+
+916
+01:16:20,350 --> 01:16:27,840
+[olvassa a kódot, gondolkodik]
+
+917
+01:16:27,840 --> 01:16:34,208
+[gépel] Hát ez ... kevesebb volt 
+
+918
+01:16:34,208 --> 01:16:36,200
+[motyog]
+
+919
+01:16:37,696 --> 01:16:43,408
+[kattint] Nézzük csak, még lefuttatom
+
+920
+01:16:43,400 --> 01:16:47,184
+[futtat]
+
+921
+01:16:47,184 --> 01:16:49,180
+[kattint]
+
+922
+01:16:49,180 --> 01:17:12,432
+[olvassa a kódot, várja az eredményt, kattint]
+
+923
+01:17:12,432 --> 01:17:14,430
+Ez jó
+
+924
+01:17:14,430 --> 01:17:22,144
+[gondolkodik] Igen
+
+925
+01:17:22,140 --> 01:17:26,144
+Most 38-as indextől kezdődik
+
+926
+01:17:26,140 --> 01:17:40,992
+[olvassa a kódot, javadocot]
+
+927
+01:17:40,990 --> 01:17:48,896
+[kattint] ez a delete
+
+928
+01:17:50,720 --> 01:17:58,560
+startIndex az harminc [gondolkodik] nyolc
+
+929
+01:18:01,040 --> 01:18:03,888
+endIndex az 45
+
+930
+01:18:03,880 --> 01:18:12,848
+[nézi a kódot, változókat]
+
+931
+01:18:12,840 --> 01:18:17,360
+Ö, igen, csak ilyenkor [kattint]
+
+932
+01:18:18,784 --> 01:18:26,048
+Jó, akkor már csak a deleteAllt kell megoldani
+
+933
+01:18:27,312 --> 01:18:31,648
+Itt az index az jó lesz, valószínű
+
+934
+01:18:32,512 --> 01:18:37,584
+...és akkor ez nem...
+
+935
+01:18:37,580 --> 01:18:40,912
+deleteImplt azt 
+
+936
+01:18:44,512 --> 01:18:48,304
+nem az indextől kell kezdeni, hanem...
+
+937
+01:18:48,300 --> 01:18:56,368
+[nézi a kódot, gondolkodik, vakarja a fejét]
+
+938
+01:18:56,360 --> 01:19:02,256
+De nullától? Ezt gondoljuk át, azt mondja, hogy azt kell megtartsam
+
+939
+01:19:02,250 --> 01:19:05,104
+[gondolkodik]
+
+940
+01:19:05,104 --> 01:19:07,100
+visszafele megyünk
+
+941
+01:19:07,100 --> 01:19:27,600
+[nézi a kódot, gondolkodik]
+
+942
+01:19:27,600 --> 01:19:33,472
+Copyzza, tehát akkor, kopizni meg
+
+943
+01:19:35,584 --> 01:19:38,304
+a nullától kell kopizni
+
+944
+01:19:38,300 --> 01:19:47,744
+[gondolkodik]
+
+945
+01:19:47,740 --> 01:19:50,704
+az indexig
+
+946
+01:19:50,700 --> 01:19:57,904
+[gondolkodik]
+
+947
+01:19:57,900 --> 01:20:02,144
+ [helyzekedik] Mert az micsoda? 
+
+948
+01:20:03,024 --> 01:20:05,792
+az az strnek a hossza
+
+949
+01:20:05,790 --> 01:20:15,744
+[kattint, olvassa a kódot] 
+
+950
+01:20:15,740 --> 01:20:25,680
+[kattintgat, vált a fájlok között]
+
+951
+01:20:25,680 --> 01:20:27,232
+Igen
+
+952
+01:20:27,230 --> 01:20:29,840
+[kattint, futtat] Na nézzük akkor
+
+953
+01:20:29,840 --> 01:20:32,432
+Most ezt a deleteImplt máshogy hívom
+
+954
+01:20:32,430 --> 01:20:37,520
+[vár, nézi az eredményt]
+
+955
+01:20:37,520 --> 01:20:43,552
+Van itt olyan hogy... - hú de nincs most agyam ehhez
+
+956
+01:20:43,550 --> 01:20:50,656
+[nézi a kódot]
+
+957
+01:20:50,650 --> 01:20:55,984
+[kattint, gépel]
+
+958
+01:20:56,816 --> 01:21:21,552
+[kattint, futtat, vár, nézi az eredményt]
+
+959
+01:21:21,550 --> 01:21:24,688
+Aha, igen, nem jó így
+
+960
+01:21:26,048 --> 01:21:31,248
+[gépel]
+
+961
+01:21:31,240 --> 01:21:35,408
+[gondolkodik]
+
+962
+01:21:35,400 --> 01:21:38,704
+[kattint]
+
+963
+01:21:38,700 --> 01:21:47,664
+[futtat, nézi az eredményt]
+
+964
+01:21:47,664 --> 01:21:49,660
+[kattint]
+
+965
+01:21:49,660 --> 01:21:53,840
+[nézi az eredményt]
+
+966
+01:21:53,840 --> 01:21:56,400
+Jó ez itt jó lesz
+
+967
+01:21:56,400 --> 01:22:05,440
+[olvassa a kódot, változókat]
+
+968
+01:22:05,440 --> 01:22:10,848
+Azt mondja, hogy buffer, this.buffer
+
+969
+01:22:10,848 --> 01:22:12,840
+itt kell lenni
+
+970
+01:22:14,528 --> 01:22:17,504
+38 [kattint]
+
+971
+01:22:18,520 --> 01:22:24,048
+38-as indextől
+
+972
+01:22:24,040 --> 01:22:27,040
+Azt mondja, hogy 38
+
+973
+01:22:27,040 --> 01:22:45,136
+[grimaszol] és akkor [nézi a változókat]
+
+974
+01:22:45,136 --> 01:22:47,130
+[kattint]
+
+975
+01:22:47,472 --> 01:22:50,512
+[kattin]
+
+976
+01:22:50,510 --> 01:22:54,288
+Ez nem jó így
+
+977
+01:22:54,280 --> 01:23:13,008
+[nézi a kódot, gondolkodik]
+
+978
+01:23:13,008 --> 01:23:15,000
+[kattint]
+
+979
+01:23:15,000 --> 01:23:18,272
+[nézi a kódot]
+
+980
+01:23:18,272 --> 01:23:20,270
+[kattint]
+
+981
+01:23:20,270 --> 01:23:23,840
+[helyezkedik]
+
+982
+01:23:23,840 --> 01:23:26,768
+[kattint]
+
+983
+01:23:26,760 --> 01:23:31,680
+[motyog] az endIndex, startIndex
+
+984
+01:23:31,680 --> 01:23:51,984
+[nézi a kódot, gondolkodik, nézi az eredményt]
+
+985
+01:23:51,984 --> 01:23:53,980
+[kattint]
+
+986
+01:23:53,980 --> 01:23:59,504
+[kattint, nézi a kódot]
+
+987
+01:23:59,500 --> 01:24:23,264
+[kattint, sóhajt, kattint, nézi a kódot, gondolkodik]
+
+988
+01:24:23,264 --> 01:24:25,260
+Hát pedig ez...
+
+989
+01:24:25,260 --> 01:24:35,312
+[olvassa a kódot, javadocot]
+
+990
+01:24:35,310 --> 01:24:38,304
+end... startindex
+
+991
+01:24:38,300 --> 01:24:43,088
+[nézi a javadocot]
+
+992
+01:24:43,088 --> 01:24:45,080
+endIndex...
+
+993
+01:24:45,080 --> 01:24:59,664
+[olvassa a javadocot, gondolkodik]
+
+994
+01:24:59,660 --> 01:25:10,560
+[kattint, gépel]
+
+995
+01:25:10,560 --> 01:25:12,560
+Ühüm
+
+996
+01:25:14,176 --> 01:25:18,112
+[kattint, futtat] Na nézzük
+
+997
+01:25:18,112 --> 01:25:20,110
+Valami van
+
+998
+01:25:20,110 --> 01:25:45,328
+[vár, nézi az eredményt, kattint, olvassa a kódot]
+
+999
+01:25:45,320 --> 01:25:49,456
+debug
+
+1000
+01:25:49,450 --> 01:25:56,912
+ez tök jó, itt visszafele megy minden
+
+1001
+01:26:00,128 --> 01:26:02,992
+38-as index
+
+1002
+01:26:04,096 --> 01:26:06,576
+És akkor most ...
+
+1003
+01:26:06,576 --> 01:26:08,570
+[kattint]
+
+1004
+01:26:08,570 --> 01:26:39,856
+[nézi a kódot, kattint, vált a fájlok között, gépel]
+
+1005
+01:26:39,850 --> 01:26:43,008
+Pedig ez megvan, hogy 37-es
+
+1006
+01:26:43,000 --> 01:26:50,992
+[nézi a kódot]
+
+1007
+01:26:50,990 --> 01:26:59,136
+[sóhajt, gondolkodik] 
+
+1008
+01:26:59,130 --> 01:27:03,296
+[motyog] ...to find the last reference to the specified
+
+1009
+01:27:03,290 --> 01:27:21,680
+[nézi a kódot, görget]
+
+1010
+01:27:21,680 --> 01:27:26,784
+[gépel] Hát, nem tudom, most visszaállítom
+
+1011
+01:27:26,780 --> 01:27:44,352
+[gépel, javítja a kódot, gondolkodik]
+
+1012
+01:27:44,350 --> 01:27:46,960
+Ezt visszaállítom, és akkor [vakarja a fejét]
+
+1013
+01:27:46,960 --> 01:27:48,960
+[motyog]
+
+1014
+01:27:48,960 --> 01:27:53,376
+[gondolkodik]
+
+1015
+01:27:53,370 --> 01:27:55,760
+itt meg ... 
+
+1016
+01:27:55,760 --> 01:28:01,616
+... kezdetében... most kezdem előlről, most már elbarmoltam az egész kódot
+
+1017
+01:28:01,610 --> 01:28:13,568
+[olvassa a kódot, gondolkodik]
+
+1018
+01:28:13,568 --> 01:28:15,560
+[kattint]
+
+1019
+01:28:15,872 --> 01:28:18,320
+Most megnézem, hogy így lefut-e
+
+1020
+01:28:18,320 --> 01:28:20,320
+rosszul
+
+1021
+01:28:21,456 --> 01:28:22,320
+[kattint]
+
+1022
+01:28:22,320 --> 01:28:27,152
+[gondolkodik]
+
+1023
+01:28:27,150 --> 01:28:30,192
+[motyog, szerintem mindjárt bealszik]
+
+1024
+01:28:30,190 --> 01:28:35,872
+[gondolkodik, nézi a kódot]
+
+1025
+01:28:35,872 --> 01:28:37,870
+Azt mondja, hogy
+
+1026
+01:28:37,870 --> 01:28:41,008
+[olvassa a kódot]
+
+1027
+01:28:41,000 --> 01:28:44,368
+az utolsó indexet kéne megtalálni
+
+1028
+01:28:44,360 --> 01:28:51,856
+[nézi a kódot]
+
+1029
+01:28:51,856 --> 01:28:53,850
+És mi van akkor, hogyha
+
+1030
+01:28:53,850 --> 01:29:05,040
+[nézi a kódot, gépel] lastIndexOf
+
+1031
+01:29:05,040 --> 01:29:09,344
+[grimaszol]
+
+1032
+01:29:09,344 --> 01:29:11,340
+És ha nem adok meg neki
+
+1033
+01:29:11,340 --> 01:29:20,448
+[gépel, kattint]
+
+1034
+01:29:20,440 --> 01:29:27,552
+[nézi a kódot]
+
+1035
+01:29:27,550 --> 01:29:32,016
+[kattint] Ja hogy van ilyen? 
+
+1036
+01:29:33,744 --> 01:29:38,736
+Ó, de hát hogy...ezt elcsesztem, és csak annyit kellett volna, hogy
+
+1037
+01:29:38,730 --> 01:29:46,304
+[gondolkodik, gépel]
+
+1038
+01:29:46,300 --> 01:29:52,272
+[vakarja a fejét, kattint]
+
+1039
+01:29:52,272 --> 01:29:54,270
+Na nézzük
+
+1040
+01:29:54,270 --> 01:30:02,144
+[olvassa a kódot, nézi az eredményt]
+
+1041
+01:30:02,140 --> 01:30:04,880
+Áá, nem [kattint]
+
+1042
+01:30:04,880 --> 01:30:07,232
+[nézi a kódot]
+
+1043
+01:30:07,230 --> 01:30:11,984
+[kattint, vakarja a fejét] Na most debugban...
+
+1044
+01:30:11,984 --> 01:30:13,980
+[kattint]
+
+1045
+01:30:13,980 --> 01:30:16,960
+[gondolkodik]
+
+1046
+01:30:16,960 --> 01:30:18,960
+Debugban megnézem
+
+1047
+01:30:18,960 --> 01:30:25,488
+[futtat, vár]
+
+1048
+01:30:25,480 --> 01:30:30,592
+[kattintgat]
+
+1049
+01:30:30,590 --> 01:30:34,640
+[nézi a kódot, javadocot]
+
+1050
+01:30:34,640 --> 01:30:49,552
+[kattint, nézi a kódot, változókat]
+
+1051
+01:30:49,550 --> 01:30:58,128
+[nézi a kódot]
+
+1052
+01:30:58,128 --> 01:31:00,120
+Igen, 37
+
+1053
+01:31:00,120 --> 01:31:03,984
+[nézi a kódot]
+
+1054
+01:31:03,984 --> 01:31:05,980
+[motyog]
+
+1055
+01:31:06,096 --> 01:31:08,624
+[nézi a kódot, kattint]
+
+1056
+01:31:08,620 --> 01:31:12,336
+Na jó, ezt nem is kell átírni, csak a buffer nem jó [helyzkedik] 
+
+1057
+01:31:12,330 --> 01:31:15,728
+Ez a delete..
+
+1058
+01:31:15,720 --> 01:31:22,880
+[kattintgat]
+
+1059
+01:31:22,880 --> 01:31:26,816
+Na újra [kattint, futtat]
+
+1060
+01:31:26,810 --> 01:31:32,208
+[nézi az eredményt]
+
+1061
+01:31:32,200 --> 01:31:35,008
+[kattint] Ez jó
+
+1062
+01:31:35,000 --> 01:31:37,728
+[nézi a kódot]
+
+1063
+01:31:37,720 --> 01:31:41,952
+startIndex 37, endIndex 44
+
+1064
+01:31:42,448 --> 01:31:45,456
+A len meg 7, igen
+
+1065
+01:31:45,450 --> 01:31:55,696
+[olvassa a kódot, javadocot]
+
+1066
+01:31:55,690 --> 01:32:01,856
+Hm... nézzük, hogy a buffert
+
+1067
+01:32:04,688 --> 01:32:10,144
+44 az end... igen...
+
+1068
+01:32:10,140 --> 01:32:13,744
+Start meg 37
+
+1069
+01:32:15,824 --> 01:32:19,664
+[kattint] És akkor most ez mit csinál itt
+
+1070
+01:32:19,660 --> 01:32:25,360
+[néz a kódot, az eredményt]
+
+1071
+01:32:25,360 --> 01:32:27,360
+Nyomott egy exceptiont
+
+1072
+01:32:27,360 --> 01:32:30,336
+[nézi a javadocot]
+
+1073
+01:32:30,330 --> 01:32:31,344
+[kattint]
+
+1074
+01:32:31,340 --> 01:32:42,256
+[kattint, nézi a kódot]
+
+1075
+01:32:42,250 --> 01:32:43,392
+Hm-hm
+
+1076
+01:32:45,456 --> 01:32:47,136
+Hát, azt hogy? 
+
+1077
+01:32:47,130 --> 01:32:57,648
+[kattint, vált a fájlok között]
+
+1078
+01:32:57,640 --> 01:33:40,304
+[nézi a kódot, gondolkodik, olvassa a javadocot]
+
+1079
+01:33:40,300 --> 01:33:44,784
+Hm... hát ez pedig ugyanaz, mint a deleteFirstnél
+
+1080
+01:33:46,064 --> 01:33:49,184
+csak másik indextől kezdjük
+
+1081
+01:33:49,180 --> 01:33:59,168
+[nézi a kódot, gondolkodik]
+
+1082
+01:33:59,160 --> 01:34:03,376
+ez akkor honnan van
+
+1083
+01:34:06,832 --> 01:34:12,768
+Most kipróbálom, a 37 vagy... ah, 37
+
+1084
+01:34:12,760 --> 01:34:18,640
+[kattint]
+
+1085
+01:34:18,640 --> 01:34:21,312
+lastIndex az -1
+
+1086
+01:34:21,310 --> 01:34:26,336
+[futtat, nézi a kódot]
+
+1087
+01:34:26,330 --> 01:34:33,248
+endIndex 43, startindex 36
+
+1088
+01:34:33,240 --> 01:34:43,504
+[gondolkodik, gépel]
+
+1089
+01:34:43,500 --> 01:34:49,760
+Na most, mi... miért dobja az exceptiont? 
+
+1090
+01:34:49,760 --> 01:34:57,824
+[olvassa a kódot, az eredményt]
+
+1091
+01:34:57,820 --> 01:35:01,984
+[kattint] Hogy kopizik ez?
+
+1092
+01:35:01,980 --> 01:35:26,752
+[olvassa a javadocot, gondolkodik]
+
+1093
+01:35:26,750 --> 01:35:31,728
+Hogy a lent azt... ki kell vonni belőle? 
+
+1094
+01:35:31,720 --> 01:35:36,048
+[gondolkodik]
+
+1095
+01:35:36,048 --> 01:35:38,040
+start...
+
+1096
+01:35:38,040 --> 01:35:40,912
+[olvassa a javadocot]
+
+1097
+01:35:40,912 --> 01:35:42,910
+az endIndex az jó
+
+1098
+01:35:42,910 --> 01:35:45,952
+Oké
+
+1099
+01:35:49,424 --> 01:35:52,688
+Na nem lett jó az egyik 
+
+1100
+01:35:54,352 --> 01:35:57,408
+Jó, hát nem gond, hogyha nem lett befejezve (Béla)
+
+1101
+01:35:57,408 --> 01:35:59,400
+[kattint]
+
+1102
+01:35:59,400 --> 01:36:03,360
+Jó [pakol]
+
